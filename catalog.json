@@ -23,13 +23,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Dokapon%20DX%3A%20Wataru%20Sekai%20wa%20Oni%20Darake/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:00.124Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dokapon%20DX%20-%20Wataru%20Sekai%20wa%20Oni%20Darake%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dokapon%20DX%20-%20Wataru%20Sekai%20wa%20Oni%20Darake%20%28Japan%29.png",
@@ -44,7 +45,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:00.124Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Dokapon DX: Wataru Sekai wa Oni Darake"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-002",
@@ -212,13 +223,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Onimusha%202%3A%20Samurai%27s%20Destiny/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:00.461Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Onimusha%202%20-%20Samurai%27s%20Destiny%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Onimusha%202%20-%20Samurai%27s%20Destiny%20%28USA%29.png",
@@ -233,7 +245,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:00.461Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Onimusha 2: Samurai's Destiny"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-006",
@@ -306,13 +328,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Final%20Fantasy%20XII%20International%20Zodiac%20Job%20System/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:00.512Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Final%20Fantasy%20XII%20International%20-%20Zodiac%20Job%20System%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Final%20Fantasy%20XII%20International%20-%20Zodiac%20Job%20System%20%28Japan%29.png",
@@ -327,7 +350,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:00.512Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Final Fantasy XII International Zodiac Job System"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-008",
@@ -353,13 +386,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Bishi%20Bashi%20Special%202/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:10.581Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bishi%20Bashi%20Special%202%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bishi%20Bashi%20Special%202%20%28Japan%29.png",
@@ -374,7 +408,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:10.581Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Bishi Bashi Special 2"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-009",
@@ -400,13 +444,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Naruto%20Shippuuden%3A%20Narutimate%20Accel%202/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:10.653Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Naruto%20Shippuuden%20-%20Narutimate%20Accel%202%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Naruto%20Shippuuden%20-%20Narutimate%20Accel%202%20%28Japan%29.png",
@@ -421,7 +466,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:10.653Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Naruto Shippuuden: Narutimate Accel 2"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-010",
@@ -447,13 +502,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Dokapon%20the%20World/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:13.837Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dokapon%20the%20World%20%28Japan%29%20%28v1.03%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dokapon%20the%20World%20%28Japan%29%20%28v1.03%29.png",
@@ -468,7 +524,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:13.837Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Dokapon the World"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-011",
@@ -494,13 +560,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Resident%20Evil%20Director%27s%20Cut/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:15.086Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%20-%20Director%27s%20Cut%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%20-%20Director%27s%20Cut%20%28USA%29.png",
@@ -515,7 +582,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:15.086Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Resident Evil Director's Cut"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-012",
@@ -541,13 +618,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Resident%20Evil%20Code%3A%20Veronica%20X/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:18.321Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
@@ -562,7 +640,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:18.321Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Resident Evil Code: Veronica X"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-013",
@@ -588,13 +676,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Brave%20Fencer%20Musashi/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:19.765Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Brave%20Fencer%20Musashi%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Brave%20Fencer%20Musashi%20%28USA%29.png",
@@ -609,7 +698,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:19.765Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Brave Fencer Musashi"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-014",
@@ -635,13 +734,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Final%20Fantasy%20IX/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:22.382Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20IX%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20IX%20%28USA%29.png",
@@ -656,7 +756,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:22.382Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Final Fantasy IX"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-015",
@@ -682,13 +792,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Final%20Fantasy%20VII/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:23.661Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
@@ -703,7 +814,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:23.661Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Final Fantasy VII"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-016",
@@ -729,13 +850,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Final%20Fantasy%20VIII/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:27.475Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII%20%28USA%29.png",
@@ -750,7 +872,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:27.475Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Final Fantasy VIII"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-017",
@@ -776,13 +908,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Tokimeki%20Memorial%3A%20Forever%20with%20You/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:28.832Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tokimeki%20Memorial%20-%20Forever%20with%20You%20%28Japan%29%20%28Rev%201%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tokimeki%20Memorial%20-%20Forever%20with%20You%20%28Japan%29%20%28Rev%201%29.png",
@@ -797,7 +930,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:28.832Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Tokimeki Memorial: Forever with You"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-018",
@@ -823,13 +966,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Resident%20Evil%203%3A%20Nemesis/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:29.804Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%203%20-%20Nemesis%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%203%20-%20Nemesis%20%28USA%29.png",
@@ -844,7 +988,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:29.804Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Resident Evil 3: Nemesis"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-019",
@@ -870,13 +1024,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Dragon%20Ball%20Z%203%20%28Budokai%203%29/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:32.972Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%203%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%203%20%28USA%29.png",
@@ -891,7 +1046,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:32.972Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Dragon Ball Z 3 (Budokai 3)"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-020",
@@ -917,13 +1082,14 @@
     "creditEvidence": "https://memorycardth.com/support.html",
     "url": "https://memorycardth.com/#/Resident%20Evil%202/0",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์เลือกเกมผ่าน hash router ของ Memory Card TH; ชื่ออื่นนอกสองรายการทดสอบเป็นไปตามรูปแบบที่สังเกต ต้องตรวจเพิ่มเติม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "observed_route_pattern_unchecked_title",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:34.303Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%202%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%202%20%28USA%29.png",
@@ -938,7 +1104,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:34.303Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Resident Evil 2"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-021",
@@ -964,13 +1140,14 @@
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html?game=trsaga",
     "url": "https://retrogamethaisub.pages.dev/patch.html?game=trsaga",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:37.105Z"
     },
     "cover": "https://retrogamethaisub.pages.dev/assets/boxart-trsaga.jpg",
     "coverCandidateUrl": "https://retrogamethaisub.pages.dev/assets/boxart-trsaga.jpg",
@@ -985,7 +1162,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:37.105Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "trsaga",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-022",
@@ -1011,13 +1196,14 @@
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html?game=bof4",
     "url": "https://retrogamethaisub.pages.dev/patch.html?game=bof4",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:39.592Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Breath%20of%20Fire%20IV%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Breath%20of%20Fire%20IV%20%28USA%29.png",
@@ -1032,7 +1218,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:39.592Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "bof4",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-023",
@@ -1058,13 +1252,14 @@
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html?game=ct4",
     "url": "https://retrogamethaisub.pages.dev/patch.html?game=ct4",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:40.660Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Tsubasa%20IV%20-%20Pro%20no%20Rival-tachi%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Tsubasa%20IV%20-%20Pro%20no%20Rival-tachi%20%28Japan%29.png",
@@ -1079,7 +1274,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:40.660Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "ct4",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-024",
@@ -1103,15 +1306,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html",
-    "url": "https://retrogamethaisub.pages.dev/patch.html",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=srwa",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:41.883Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Super%20Robot%20Taisen%20Alpha%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Super%20Robot%20Taisen%20Alpha%20%28Japan%29.png",
@@ -1126,7 +1330,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:41.883Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "srwa",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-025",
@@ -1150,15 +1362,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html",
-    "url": "https://retrogamethaisub.pages.dev/patch.html",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=ct3",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:42.987Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Tsubasa%20III%20-%20Koutei%20no%20Chousen%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Tsubasa%20III%20-%20Koutei%20no%20Chousen%20%28Japan%29.png",
@@ -1173,7 +1386,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:42.987Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "ct3",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-026",
@@ -1197,15 +1418,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html",
-    "url": "https://retrogamethaisub.pages.dev/patch.html",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=dq6snes",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:44.060Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20VI%20-%20Maboroshi%20no%20Daichi%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20VI%20-%20Maboroshi%20no%20Daichi%20%28Japan%29.png",
@@ -1220,7 +1442,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:44.060Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "dq6snes",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-027",
@@ -1244,15 +1474,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html",
-    "url": "https://retrogamethaisub.pages.dev/patch.html",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=tod",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:45.908Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tales%20of%20Destiny%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tales%20of%20Destiny%20%28USA%29.png",
@@ -1267,7 +1498,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:45.908Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "tod",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-028",
@@ -1291,15 +1530,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://retrogamethaisub.pages.dev/patch.html",
-    "url": "https://retrogamethaisub.pages.dev/patch.html",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=dbz-ssd",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:47.015Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -1314,7 +1554,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:47.015Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": "dbz-ssd",
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-029",
@@ -1436,13 +1684,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=13",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:47.615Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/d89c2c65-db11-48c7-ab77-6b8ae9e19944-1c8f84ae-9f02-4fee-93c7-c7ed5a24eb4c.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/d89c2c65-db11-48c7-ab77-6b8ae9e19944-1c8f84ae-9f02-4fee-93c7-c7ed5a24eb4c.jpg",
@@ -1457,7 +1706,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:47.615Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "The Legend of Zelda: The Minish Cap",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-032",
@@ -1483,13 +1744,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=15",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:48.441Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/a613812b-a5a9-41f6-9ef5-d7990cdec94f-f89621a4-5117-4f1c-8c0a-712ec1dcf072.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/a613812b-a5a9-41f6-9ef5-d7990cdec94f-f89621a4-5117-4f1c-8c0a-712ec1dcf072.jpg",
@@ -1504,7 +1766,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:48.441Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Onimusha: Warlords",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-033",
@@ -1530,13 +1804,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=14",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:49.327Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/eea1fb10-8a59-4f91-8606-29438c077c87-08ba6c2d-ad50-49d2-a5b8-afaf917b0b64.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/eea1fb10-8a59-4f91-8606-29438c077c87-08ba6c2d-ad50-49d2-a5b8-afaf917b0b64.jpg",
@@ -1551,7 +1826,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:49.327Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Final Fantasy Tactics Advance",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-034",
@@ -1577,13 +1864,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=12",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:50.775Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/c45b8361-88ba-4cf2-86d9-19f50bb0b1aa-0bea673b-1a81-4411-907b-0a555ab561d7.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/c45b8361-88ba-4cf2-86d9-19f50bb0b1aa-0bea673b-1a81-4411-907b-0a555ab561d7.jpg",
@@ -1598,7 +1886,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:50.775Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Tenchu: Wrath of Heaven"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-035",
@@ -1624,13 +1923,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=11",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:52.100Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/3bcf001f-6a51-4a7b-b430-0503941ac216-watermarked_img_8909484822733935749.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/3bcf001f-6a51-4a7b-b430-0503941ac216-watermarked_img_8909484822733935749.jpg",
@@ -1645,7 +1945,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:52.100Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Resident Evil 4",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-036",
@@ -1671,13 +1983,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=10",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:52.221Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/72aa3a9c-ee34-4db5-9afb-85b6cc7e1d9c-783948407_122109017145411305_1042776155293409701_n.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/72aa3a9c-ee34-4db5-9afb-85b6cc7e1d9c-783948407_122109017145411305_1042776155293409701_n.jpg",
@@ -1692,7 +2005,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:52.221Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Castlevania - Symphony of the Night",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-037",
@@ -1718,13 +2043,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=9",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:53.602Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/2de6723c-ec81-498f-9e91-cc645269fe60-763805678_1733540827788851_3575833627830761606_n.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/2de6723c-ec81-498f-9e91-cc645269fe60-763805678_1733540827788851_3575833627830761606_n.jpg",
@@ -1739,7 +2065,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:53.602Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Metroid Zero Mission",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-038",
@@ -1765,13 +2103,14 @@
     "creditEvidence": "https://maepaew.com/",
     "url": "https://maepaew.com/patch?game=8",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:55.098Z"
     },
     "cover": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/e45d907e-0ee8-40ce-b7d1-4b7fa97da7c3-watermarked_img_15078674812206772809.jpg",
     "coverCandidateUrl": "https://rffjykufwckvlkhdifla.supabase.co/storage/v1/object/public/game-covers/e45d907e-0ee8-40ce-b7d1-4b7fa97da7c3-watermarked_img_15078674812206772809.jpg",
@@ -1786,7 +2125,19 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:55.098Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "แปะแพตช์ภาษาไทย",
+        "Harvest Moon: Back to Nature",
+        "แปะแพตช์ยังไง?"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-039",
@@ -1810,15 +2161,16 @@
     "creditRole": "ชื่อทีมเว็บไซต์",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://www.nonplae.com/",
-    "url": "https://www.nonplae.com/",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://www.nonplae.com/?game=final-fantasy-tactics",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:55.648Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Final%20Fantasy%20Tactics%20-%20The%20War%20of%20the%20Lions%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Final%20Fantasy%20Tactics%20-%20The%20War%20of%20the%20Lions%20%28USA%29.png",
@@ -1833,7 +2185,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:55.648Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Final Fantasy Tactics (PSP)",
+        "เลือกไฟล์เกม"
+      ],
+      "autoSelectsPatch": true
+    }
   },
   {
     "id": "ext-040",
@@ -1857,15 +2220,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://murphy-th.vercel.app/",
-    "url": "https://murphy-th.vercel.app/",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://murphy-th.vercel.app/#:~:text=Silent%20Hill%201",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/targeted-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:35.555Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Silent%20Hill%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Silent%20Hill%20%28USA%29.png",
@@ -1880,7 +2244,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:35.555Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "Silent Hill 1",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "monster-001",
@@ -1906,13 +2279,14 @@
     "creditEvidence": "https://monster-plae.pages.dev/?game=digimon-world-data-squad",
     "url": "https://monster-plae.pages.dev/?game=digimon-world-data-squad",
     "linkScope": "owner_game",
-    "navigationNote": "ลิงก์หน้าเกมโดยตรง",
+    "navigationNote": "",
     "sourceAudit": {
       "state": "verified",
-      "basis": "inherited_v029_audit",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "verified_browser_previous",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:56.500Z"
     },
     "cover": "https://cdn.awsli.com.br/800x800/138/138431/produto/401293067/9af29884fe0d4342a771b925f2132901-v2obv4kdpo.jpg",
     "coverCandidateUrl": "https://cdn.awsli.com.br/800x800/138/138431/produto/401293067/9af29884fe0d4342a771b925f2132901-v2obv4kdpo.jpg",
@@ -1927,7 +2301,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:56.500Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Digimon World Data Squad"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-002",
@@ -1951,15 +2335,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=dragon-force",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:54:59.394Z"
     },
     "cover": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Dragon%20Force%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sega%20-%20Saturn/Named_Boxarts/Dragon%20Force%20%28USA%29.png",
@@ -1974,7 +2359,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:54:59.394Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Dragon Force"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-003",
@@ -2000,13 +2395,14 @@
     "creditEvidence": "https://monster-plae.pages.dev/#games",
     "url": "https://monster-plae.pages.dev/?game=persona",
     "linkScope": "owner_game",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "navigationNote": "",
     "sourceAudit": {
       "state": "verified",
-      "basis": "inherited_v029_audit",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "verified_browser",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:00.777Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%20%28USA%29.png",
@@ -2021,7 +2417,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:00.777Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Persona"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-004",
@@ -2045,15 +2451,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=the-legend-of-zelda-the-wind-waker-hd",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:02.171Z"
     },
     "cover": "https://media.gamestop.com/i/gamestop/10107716/The-Legend-of-Zelda-The-Wind-Waker-HD---Nintendo-Wii-U?fmt=auto&h=768&w=768",
     "coverCandidateUrl": "https://media.gamestop.com/i/gamestop/10107716/The-Legend-of-Zelda-The-Wind-Waker-HD---Nintendo-Wii-U?fmt=auto&h=768&w=768",
@@ -2068,7 +2475,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:02.171Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "The Legend of Zelda: The Wind Waker HD"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-005",
@@ -2092,15 +2509,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=persona-2-innocent-sin",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:04.771Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%202%20-%20Innocent%20Sin%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%202%20-%20Innocent%20Sin%20%28USA%29.png",
@@ -2115,7 +2533,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:04.771Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Persona 2: Innocent Sin"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-006",
@@ -2139,15 +2567,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=the-legend-of-zelda-twilight-princess-hd",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:06.100Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -2162,7 +2591,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:06.100Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "The Legend of Zelda: Twilight Princess HD"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-007",
@@ -2186,15 +2625,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=kamen-rider-battride-war-genesis",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:08.465Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -2209,7 +2649,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:08.465Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Kamen Rider Battride War Genesis"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-008",
@@ -2233,15 +2683,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=sengoku-basara-3-utage",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:16.513Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -2256,7 +2707,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:16.513Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Sengoku Basara 3 Utage"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-009",
@@ -2280,15 +2741,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=crusader-of-centy",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:17.693Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -2303,7 +2765,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:17.693Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Crusader of Centy"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-010",
@@ -2327,15 +2799,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=beyond-oasis",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:18.510Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -2350,7 +2823,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:18.510Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Beyond Oasis"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-011",
@@ -2374,15 +2857,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=god-hand",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:26.769Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/God%20Hand%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/God%20Hand%20%28USA%29.png",
@@ -2397,7 +2881,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:26.769Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "God Hand"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-012",
@@ -2421,15 +2915,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=fire-emblem-radiant-dawn",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:27.215Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Fire%20Emblem%20-%20Radiant%20Dawn%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Fire%20Emblem%20-%20Radiant%20Dawn%20%28USA%29.png",
@@ -2444,7 +2939,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:27.215Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Fire Emblem: Radiant Dawn"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-013",
@@ -2468,15 +2973,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=god-of-war-chains-of-olympus",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:27.467Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/God%20of%20War%20-%20Chains%20of%20Olympus%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/God%20of%20War%20-%20Chains%20of%20Olympus%20%28USA%29.png",
@@ -2491,7 +2997,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:27.467Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "God of War: Chains of Olympus"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-014",
@@ -2515,15 +3031,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=7th-dragon-2020",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/retry-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T08:04:13.904Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/7th%20Dragon%202020%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/7th%20Dragon%202020%20%28Japan%29.png",
@@ -2538,7 +3055,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:04:13.904Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "selected": [
+        "7th Dragon 2020"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-016",
@@ -2562,15 +3089,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=dante-s-inferno",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/retry-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T08:04:07.739Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Dante%27s%20Inferno%20%28Europe%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Dante%27s%20Inferno%20%28Europe%29.png",
@@ -2585,7 +3113,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:04:07.739Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "selected": [
+        "Dante's Inferno"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-017",
@@ -2609,15 +3147,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=tactics-ogre-let-us-cling-together",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/retry-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T08:04:20.305Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Tactics%20Ogre%20-%20Let%20Us%20Cling%20Together%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Tactics%20Ogre%20-%20Let%20Us%20Cling%20Together%20%28USA%29.png",
@@ -2632,7 +3171,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:04:20.305Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "selected": [
+        "Tactics Ogre: Let Us Cling Together"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-018",
@@ -2656,15 +3205,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=summon-night-swordcraft-story-3",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:58.006Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Summon%20Night%20-%20Craft%20Sword%20Monogatari%20-%20Hajimari%20no%20Ishi%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Summon%20Night%20-%20Craft%20Sword%20Monogatari%20-%20Hajimari%20no%20Ishi%20%28Japan%29.png",
@@ -2679,7 +3229,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:58.006Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Summon Night: Swordcraft Story 3"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-019",
@@ -2703,15 +3263,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=digimon-world-2",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:59.248Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%202%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%202%20%28USA%29.png",
@@ -2726,7 +3287,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:59.248Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Digimon World 2"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-020",
@@ -2750,15 +3321,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=digimon-world-3",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:00.553Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%203%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%203%20%28USA%29.png",
@@ -2773,7 +3345,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:00.553Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Digimon World 3"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-021",
@@ -2797,15 +3379,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=monster-hunter-portable-3rd",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:08.563Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Monster%20Hunter%20Portable%203rd%20%28Japan%29%20%28v1.02%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Monster%20Hunter%20Portable%203rd%20%28Japan%29%20%28v1.02%29.png",
@@ -2820,7 +3403,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:08.563Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Monster Hunter Portable 3rd"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-022",
@@ -2846,13 +3439,14 @@
     "creditEvidence": "https://monster-plae.pages.dev/#games",
     "url": "https://monster-plae.pages.dev/?game=rogue-galaxy",
     "linkScope": "owner_game",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "navigationNote": "",
     "sourceAudit": {
       "state": "verified",
-      "basis": "inherited_v029_audit",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "verified_browser",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:08.469Z"
     },
     "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Rogue%20Galaxy%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Rogue%20Galaxy%20%28USA%29.png",
@@ -2867,7 +3461,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:08.469Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Rogue Galaxy"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-023",
@@ -2891,15 +3495,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=shin-megami-tensei-iv",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:08.984Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Shin%20Megami%20Tensei%20IV%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Shin%20Megami%20Tensei%20IV%20%28USA%29.png",
@@ -2914,7 +3519,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:08.984Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Shin Megami Tensei IV"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "monster-024",
@@ -2938,15 +3553,16 @@
     "creditRole": "แหล่งเผยแพร่ (รอตรวจผู้แปล)",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://monster-plae.pages.dev/#games",
-    "url": "https://monster-plae.pages.dev/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "หน้าเว็บเจ้าของผลงาน/หน้ารวมเกม",
+    "url": "https://monster-plae.pages.dev/?game=2nd-super-robot-wars-og",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "แหล่งแพตช์ต้นทาง; ลิงก์รายเกมเฉพาะเมื่อรองรับจริง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:15.575Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -2961,7 +3577,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:15.575Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "2nd Super Robot Wars OG"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-201",
@@ -3032,15 +3658,16 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://andaplus.com/games/index.php/thai-game-patches?catid=475&id=5749%3Ainitial-d-another-stage-thai-patch&view=article",
-    "url": "https://plae-pai-len-pai.regal-wolf-0754.chatgpt.site/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "เว็บไซต์/โพสต์ของผู้แปลโดยตรง ไม่ผ่านเว็บไซต์รวบรวม",
+    "url": "https://plae-pai-len-pai.regal-wolf-0754.chatgpt.site/games/18",
+    "linkScope": "owner_game",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "เว็บทีมแปลมีรายชื่อ Luminous Arc, Pokémon FireRed และ Luminous Arc 2; ยังไม่พบ Initial D ในรายการที่ตรวจ",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:16.252Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Initial%20D%20-%20Another%20Stage%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Initial%20D%20-%20Another%20Stage%20%28Japan%29.png",
@@ -3055,7 +3682,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:16.252Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Initial D - Another Stage (TH)"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-203",
@@ -3079,15 +3716,16 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://andaplus.com/games/index.php/thai-game-patches?catid=475&id=5669%3A%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%97%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%9A%E0%B8%99%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sfc-%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E-dragon-quest-iii-%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%94%E0%B8%B3-%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AA%E0%B9%8C&view=article",
-    "url": "https://maewdamthaisub.aechankiminoto.chatgpt.site/#games",
-    "linkScope": "owner_home",
-    "navigationNote": "เว็บไซต์/โพสต์ของผู้แปลโดยตรง ไม่ผ่านเว็บไซต์รวบรวม",
+    "url": "https://maewdamthaisub.aechankiminoto.chatgpt.site/#games:~:text=Dragon%20Quest%20III",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "เว็บทีมแปลเปิดได้และเมตาระบุ Dragon Quest III แต่รายการเกมที่แสดงในหน้าหลักยังไม่ยืนยันหน้าเกมเฉพาะ",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/targeted-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:55:35.942Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20III%20-%20Soshite%20Densetsu%20e...%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20III%20-%20Soshite%20Densetsu%20e...%20%28Japan%29.png",
@@ -3102,7 +3740,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:35.942Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "Dragon Quest III",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "retro-204",
@@ -3128,13 +3775,14 @@
     "creditEvidence": "https://andaplus.com/games/index.php?catid=399&id=4739%3A%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%95%E0%B8%8A%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-rudra-no-hihou-%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B8%81-inorge-game-stream-%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%80%E0%B8%81%E0%B8%A1-rpg-%E0%B9%83%E0%B8%99%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%99-super-famicom&view=article",
     "url": "https://rudra-no-hihou-thai.vercel.app/",
     "linkScope": "owner_game",
-    "navigationNote": "เว็บไซต์/โพสต์ของผู้แปลโดยตรง ไม่ผ่านเว็บไซต์รวบรวม",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_single_game_site",
       "priorVerification": "เว็บแพตช์ Rudra no Hihou ของ INorge Game Stream โดยตรง",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/retry-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T08:06:52.425Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rudra%20no%20Hihou%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rudra%20no%20Hihou%20%28Japan%29.png",
@@ -3149,7 +3797,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-10"
+    "catalogAddedAt": "2026-10-10",
+    "sourceLocation": {
+      "method": "single_game_site",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:06:52.425Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "selected": null,
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "new-nongjaa-01",
@@ -4679,13 +5335,14 @@
     "creditEvidence": "https://monster-plae.pages.dev/?game=the-legend-of-zelda-the-wind-waker",
     "url": "https://monster-plae.pages.dev/?game=the-legend-of-zelda-the-wind-waker",
     "linkScope": "owner_game",
-    "navigationNote": "ยืนยันจาก browser ใหม่ ว่า slug เปิด Patch Station ของ GameCube ได้ ไม่ใช่เวอร์ชัน Wind Waker HD บน Wii U",
+    "navigationNote": "",
     "sourceAudit": {
       "state": "verified",
-      "basis": "inherited_v029_audit",
+      "basis": "fresh_source_selected_game",
       "priorVerification": "verified_fresh_browser_open",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:19.213Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/The%20Legend%20of%20Zelda%20-%20The%20Wind%20Waker%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/The%20Legend%20of%20Zelda%20-%20The%20Wind%20Waker%20%28USA%29.png",
@@ -4700,7 +5357,17 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-11"
+    "catalogAddedAt": "2026-10-11",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:19.213Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "The Legend of Zelda: The Wind Waker"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-027-01",
@@ -4772,14 +5439,15 @@
     "creditRole": "ทีมแปล/เจ้าของโปรเจกต์",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://retrospective-patch-library.vercel.app/",
-    "url": "https://retrospective-patch-library.vercel.app/#games",
-    "navigationNote": "เปิดคลังโปรเจกต์ของทีม (ยังไม่มี permalink รายเกมให้แชร์)",
+    "url": "https://retrospective-patch-library.vercel.app/#game/onimusha-tactics",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": null,
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:23.951Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Onimusha%20Tactics%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Onimusha%20Tactics%20%28USA%29.png",
@@ -4794,7 +5462,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "linkScope": "owner_game",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:23.951Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Onimusha Tactics TH"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-027-03",
@@ -4818,14 +5497,15 @@
     "creditRole": "ทีมแปล/เจ้าของโปรเจกต์",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://retrospective-patch-library.vercel.app/",
-    "url": "https://retrospective-patch-library.vercel.app/#games",
-    "navigationNote": "เปิดคลังโปรเจกต์ของทีม (ยังไม่มี permalink รายเกมให้แชร์)",
+    "url": "https://retrospective-patch-library.vercel.app/#game/pokemon-quetzal",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": null,
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:24.520Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -4840,7 +5520,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "linkScope": "owner_game",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:24.520Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Pokémon Quetzal TH"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-027-04",
@@ -4864,14 +5555,15 @@
     "creditRole": "ทีมแปล/เจ้าของโปรเจกต์",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://retrospective-patch-library.vercel.app/",
-    "url": "https://retrospective-patch-library.vercel.app/#games",
-    "navigationNote": "เปิดคลังโปรเจกต์ของทีม (ยังไม่มี permalink รายเกมให้แชร์)",
+    "url": "https://retrospective-patch-library.vercel.app/#game/radical-red",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": null,
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:26.384Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -4886,7 +5578,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "linkScope": "owner_game",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:26.384Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Pokémon Radical Red 4.1 TH"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-027-05",
@@ -4910,14 +5613,15 @@
     "creditRole": "ทีมแปล/เจ้าของโปรเจกต์",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://retrospective-patch-library.vercel.app/",
-    "url": "https://retrospective-patch-library.vercel.app/#games",
-    "navigationNote": "เปิดคลังโปรเจกต์ของทีม (ยังไม่มี permalink รายเกมให้แชร์)",
+    "url": "https://retrospective-patch-library.vercel.app/#game/tengai-makyou-zero",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": null,
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:31.656Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tengai%20Makyou%20Zero%20%28Japan%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tengai%20Makyou%20Zero%20%28Japan%29.png",
@@ -4932,7 +5636,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "linkScope": "owner_game",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:31.656Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Tengai Makyou Zero TH"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-027-06",
@@ -4956,14 +5671,15 @@
     "creditRole": "ทีมแปล/เจ้าของโปรเจกต์",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://retrospective-patch-library.vercel.app/",
-    "url": "https://retrospective-patch-library.vercel.app/#games",
-    "navigationNote": "เปิดคลังโปรเจกต์ของทีม (ยังไม่มี permalink รายเกมให้แชร์)",
+    "url": "https://retrospective-patch-library.vercel.app/#game/emerald-seaglass",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "inferred",
-      "basis": "inherited_v029_audit",
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
       "priorVerification": null,
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/verified-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:33.398Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -4978,7 +5694,18 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "linkScope": "owner_game",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:33.398Z",
+      "evidence": "qa/routes/verified-routes.json",
+      "selected": [
+        "Pokémon Emerald Seaglass v3.0 TH"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "90s-028-01",
@@ -5002,16 +5729,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Dragon Ball Z: The Legacy of Goku ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%81%E0%B8%84%E0%B8%B9",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "default_match_inconclusive",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:15.141Z"
+      "checkedAt": "2026-10-12T07:55:35.985Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-legacy-of-goku-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-legacy-of-goku-th.png",
@@ -5026,7 +5753,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:35.985Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ดราก้อนบอล Z ตำนานโกคู",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-02",
@@ -5050,16 +5786,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku-2#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Dragon Ball Z: The Legacy of Goku II ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku-2#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%81%E0%B8%84%E0%B8%B9%202",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:15.149Z"
+      "checkedAt": "2026-10-12T07:55:55.584Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-legacy-of-goku-2-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-legacy-of-goku-2-th.png",
@@ -5074,7 +5810,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:55:55.584Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ดราก้อนบอล Z ตำนานโกคู 2",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-03",
@@ -5098,16 +5843,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-buus-fury#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Dragon Ball Z: Buu's Fury ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-buus-fury#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B9",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:15.163Z"
+      "checkedAt": "2026-10-12T07:56:01.495Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-buus-fury-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-buus-fury-th.png",
@@ -5122,7 +5867,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:01.495Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ดราก้อนบอล Z ศึกจอมมารบู",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-04",
@@ -5146,16 +5900,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-supersonic-warriors#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Dragon Ball Z: Supersonic Warriors ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-supersonic-warriors#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:19.208Z"
+      "checkedAt": "2026-10-12T07:56:02.002Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-supersonic-warriors-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-supersonic-warriors-th.png",
@@ -5170,7 +5924,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:02.002Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-05",
@@ -5194,16 +5957,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-advanced-adventure#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Dragon Ball: Advanced Adventure ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-advanced-adventure#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20%E0%B9%81%E0%B8%AD%E0%B8%94%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%8B%E0%B9%8C%20%E0%B9%81%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:19.221Z"
+      "checkedAt": "2026-10-12T07:56:07.944Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-advanced-adventure-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-advanced-adventure-th.png",
@@ -5218,7 +5981,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:07.944Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-06",
@@ -5242,16 +6014,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-gt-transformation#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Dragon Ball GT: Transformation ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-gt-transformation#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20%E0%B8%88%E0%B8%B5%E0%B8%97%E0%B8%B5%20%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B9%8C%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:19.240Z"
+      "checkedAt": "2026-10-12T07:56:08.252Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-gt-transformation-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-gt-transformation-th.png",
@@ -5266,7 +6038,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:08.252Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-07",
@@ -5290,16 +6071,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Pokémon FireRed ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%84%E0%B8%9F%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A3%E0%B8%94",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "fresh_browser_verified",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:22.018Z"
+      "checkedAt": "2026-10-12T07:56:09.062Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/firered-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/firered-th.png",
@@ -5314,7 +6095,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:09.062Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "โปเกมอน ไฟร์เรด",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-08",
@@ -5338,16 +6128,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-leafgreen#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Pokémon LeafGreen ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-leafgreen#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B8%A5%E0%B8%B5%E0%B8%9F%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:22.874Z"
+      "checkedAt": "2026-10-12T07:56:14.382Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/pokemon-leafgreen-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/pokemon-leafgreen-th.png",
@@ -5362,7 +6152,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:14.382Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "โปเกมอน ลีฟกรีน",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-09",
@@ -5386,16 +6185,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=emerald-th#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Pokémon Emerald ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=emerald-th#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%A5%E0%B8%94%E0%B9%8C",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:22.888Z"
+      "checkedAt": "2026-10-12T07:56:14.551Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/emerald-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/emerald-th.png",
@@ -5410,7 +6209,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:14.551Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "โปเกมอน เอเมอรัลด์",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-10",
@@ -5434,16 +6242,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-yellow#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Pokémon Yellow ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-yellow#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%80%E0%B8%A2%E0%B8%A5%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B9%8C%20(%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87)",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:25.538Z"
+      "checkedAt": "2026-10-12T07:56:19.464Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/pokemon-yellow-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/pokemon-yellow-th.png",
@@ -5458,7 +6266,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:19.464Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "โปเกมอน เยลโลว์ (สีเหลือง)",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-11",
@@ -5482,16 +6299,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-gold#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Pokémon Gold ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-gold#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%82%E0%B8%81%E0%B8%A5%E0%B8%94%E0%B9%8C",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:26.425Z"
+      "checkedAt": "2026-10-12T07:56:20.425Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/pokemon-gold-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/pokemon-gold-th.png",
@@ -5506,7 +6323,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:20.425Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "โปเกมอน โกลด์",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-12",
@@ -5530,16 +6356,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-th#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Naruto: Ninja Council ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-th#games:~:text=%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%95%E0%B8%B0%20%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%99%E0%B9%8C%E0%B8%8B%E0%B8%B4%E0%B8%A5",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:26.439Z"
+      "checkedAt": "2026-10-12T07:56:24.477Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/naruto-ninja-council-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/naruto-ninja-council-th.png",
@@ -5554,7 +6380,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:24.477Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "นารูโตะ นินจาเคาน์ซิล",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-13",
@@ -5578,16 +6413,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-2-th#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Naruto: Ninja Council 2 ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-2-th#games:~:text=%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%95%E0%B8%B0%202%20%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B2",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:28.584Z"
+      "checkedAt": "2026-10-12T07:56:26.064Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/naruto-ninja-council-2-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/naruto-ninja-council-2-th.png",
@@ -5602,7 +6437,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:26.064Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "นารูโตะ 2 สภานินจา",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-14",
@@ -5626,16 +6470,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-friends-of-mineral-town-th#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Harvest Moon: Friends of Mineral Town ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-friends-of-mineral-town-th#games:~:text=%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A7%E0%B8%AA%E0%B8%95%E0%B9%8C%E0%B8%A1%E0%B8%B9%E0%B8%99%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B4%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%A5",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:29.276Z"
+      "checkedAt": "2026-10-12T07:56:26.222Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/harvest-moon-friends-of-mineral-town-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/harvest-moon-friends-of-mineral-town-th.png",
@@ -5650,7 +6494,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:26.222Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-15",
@@ -5674,16 +6527,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-more-friends-of-mineral-town-th#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Harvest Moon: More Friends of Mineral Town ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-more-friends-of-mineral-town-th#games:~:text=%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A7%E0%B8%AA%E0%B8%95%E0%B9%8C%E0%B8%A1%E0%B8%B9%E0%B8%99%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B4%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%A5%20%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:29.830Z"
+      "checkedAt": "2026-10-12T07:56:30.545Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/harvest-moon-more-friends-of-mineral-town-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/harvest-moon-more-friends-of-mineral-town-th.png",
@@ -5698,7 +6551,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:30.545Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-16",
@@ -5722,16 +6584,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Battle B-Daman ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#games:~:text=%E0%B9%81%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A5%20%E0%B8%9A%E0%B8%B5%2D%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/retry-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:31.897Z"
+      "checkedAt": "2026-10-12T08:03:40.050Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/battle-b-daman-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/battle-b-daman-th.png",
@@ -5746,7 +6608,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:03:40.050Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "targetText": "แบทเทิล บี-ดามัน",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-17",
@@ -5770,16 +6641,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Battle B-Daman: Fire Spirits! ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#games:~:text=%E0%B9%81%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A5%20%E0%B8%9A%E0%B8%B5%2D%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99%20%E0%B9%84%E0%B8%9F%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%95!",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/retry-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:32.437Z"
+      "checkedAt": "2026-10-12T08:03:46.198Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/battle-b-daman-fire-spirits-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/battle-b-daman-fire-spirits-th.png",
@@ -5794,7 +6665,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:03:46.198Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "targetText": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "90s-028-18",
@@ -5818,16 +6698,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://90s-game.pitak2540.workers.dev/#games",
-    "url": "https://90s-game.pitak2540.workers.dev/?game=super-robot-taisen-og#patch",
-    "linkScope": "owner_game",
-    "navigationNote": "slug มีอยู่จริง แต่ต้นทางยังไม่ยืนยันการเลือกอัตโนมัติ กรุณาเลือกเกม Super Robot Taisen OG ในช่องเกมก่อนลงแพตช์",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=super-robot-taisen-og#games:~:text=%E0%B8%8B%E0%B8%B9%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%A3%E0%B8%9A%E0%B9%87%E0%B8%AD%E0%B8%95%E0%B9%84%E0%B8%97%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%20OG",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "failed_selection",
-      "basis": "fresh_browser_wrong_or_default_selection",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "observed_dropdown_option_value_not_fresh_tested",
-      "evidence": "qa/external-navigation.json",
+      "evidence": "qa/routes/targeted-routes.json",
       "fresh": true,
-      "checkedAt": "2026-10-12T06:57:33.189Z"
+      "checkedAt": "2026-10-12T07:56:36.090Z"
     },
     "cover": "https://90s-game.pitak2540.workers.dev/covers/super-robot-taisen-og-th.png",
     "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/super-robot-taisen-og-th.png",
@@ -5842,7 +6722,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:36.090Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "ซูเปอร์โรบ็อตไทเซ็น OG",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "rommeaow-028-01",
@@ -5866,15 +6755,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://rommeaow.com/",
-    "url": "https://rommeaow.com/",
-    "linkScope": "owner_home",
-    "navigationNote": "เลือกเกมจากเว็บเจ้าของผลงาน (ไม่มี URL เฉพาะเกม)",
+    "url": "https://rommeaow.com/#home:~:text=Pok%C3%A9mon%20SoulGold%20(GBA)%20v1.0.4.5-rm1",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "owner_site_game_listing_no_deep_link",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/targeted-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:36.602Z"
     },
     "cover": "https://rommeaow.com/assets/story/cover.png?v=51dc8885",
     "coverCandidateUrl": "https://rommeaow.com/assets/story/cover.png?v=51dc8885",
@@ -5889,7 +6779,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:36.602Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "Pokémon SoulGold (GBA) v1.0.4.5-rm1",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "rommeaow-028-02",
@@ -5913,15 +6812,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://rommeaow.com/",
-    "url": "https://rommeaow.com/",
-    "linkScope": "owner_home",
-    "navigationNote": "เลือกเกมจากเว็บเจ้าของผลงาน (ไม่มี URL เฉพาะเกม)",
+    "url": "https://rommeaow.com/#home:~:text=Pok%C3%A9mon%20Ruby%20(GBA)%20v1.9",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "owner_site_game_listing_no_deep_link",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/targeted-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T07:56:36.832Z"
     },
     "cover": "https://rommeaow.com/assets/story/ruby_cover.png?v=51dc8885",
     "coverCandidateUrl": "https://rommeaow.com/assets/story/ruby_cover.png?v=51dc8885",
@@ -5936,7 +6836,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T07:56:36.832Z",
+      "evidence": "qa/routes/targeted-routes.json",
+      "targetText": "Pokémon Ruby (GBA) v1.9",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "murphy-028-01",
@@ -5960,15 +6869,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://murphy-th.vercel.app/",
-    "url": "https://murphy-th.vercel.app/",
-    "linkScope": "owner_home",
-    "navigationNote": "เลือกเกมจากเว็บเจ้าของผลงาน (ไม่มี URL เฉพาะเกม)",
+    "url": "https://murphy-th.vercel.app/#:~:text=Tatakae%21%21%20Rahmen%20Man%20%2D%20Sakuretsu%20Choujin%20102%20Gei",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "owner_site_game_listing_no_deep_link",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/retry-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T08:17:33.153Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -5983,7 +6893,16 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:17:33.153Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "targetText": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   },
   {
     "id": "murphy-028-02",
@@ -6007,15 +6926,16 @@
     "creditRole": "ทีมแปลเจ้าของผลงาน",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://murphy-th.vercel.app/",
-    "url": "https://murphy-th.vercel.app/",
-    "linkScope": "owner_home",
-    "navigationNote": "เลือกเกมจากเว็บเจ้าของผลงาน (ไม่มี URL เฉพาะเกม)",
+    "url": "https://murphy-th.vercel.app/#:~:text=Saint%20Seiya%3A%20Ougon%20Densetsu",
+    "linkScope": "owner_game_card",
+    "navigationNote": "",
     "sourceAudit": {
-      "state": "directory_only",
-      "basis": "inherited_v029_audit",
+      "state": "verified_source_card",
+      "basis": "fresh_native_source_card_visible",
       "priorVerification": "owner_site_game_listing_no_deep_link",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "evidence": "qa/routes/retry-routes.json",
+      "fresh": true,
+      "checkedAt": "2026-10-12T08:03:52.429Z"
     },
     "cover": "",
     "coverCandidateUrl": "",
@@ -6030,6 +6950,15 @@
       "localAllowed": false,
       "rightsEvidence": null
     },
-    "catalogAddedAt": "2026-10-12"
+    "catalogAddedAt": "2026-10-12",
+    "sourceLocation": {
+      "method": "text_fragment",
+      "verified": true,
+      "checkedAt": "2026-10-12T08:03:52.429Z",
+      "evidence": "qa/routes/retry-routes.json",
+      "targetText": "Saint Seiya: Ougon Densetsu",
+      "autoSelectsPatch": false,
+      "anchorFallback": false
+    }
   }
 ]

@@ -2,7 +2,7 @@
 
 A static Thai translation game catalog, continued from ThaiPatch v0.29 and its v0.30 audits.
 
-128 translation/patch entries are grouped into 126 games. Search by title or translator, filter by platform/series/team/genre, browse the preserved series slides, and select the team or edition before opening the original source in a new tab.
+128 translation/patch entries are grouped into 126 games. Click a single-team game card to open the original source immediately in a new tab. Multiple-team/edition games keep a chooser; clicking a choice opens the source directly. Search, platform/series/team/genre filters and series slides remain.
 
 This deployment contains only the catalog. Voting, translation services, personal releases, ROM creation, IPS processing and sample ROM files are removed. There is no backend, account system, upload form, localStorage or simulated popularity/download count.
 
@@ -10,7 +10,7 @@ This deployment contains only the catalog. Voting, translation services, persona
 
 catalog.json is the published catalog snapshot; app.js embeds the same snapshot so the site needs no runtime data API. Stable original IDs and team credits are preserved. The omitted record is the synthetic local IPS demo.
 
-The 18 90S Game slugs were observed, but fresh navigation did not prove query-based automatic selection. The site tells users to select the named game manually at the original source. Directory/inferred routes have explicit guidance. Successful rendering does not certify every source link or the patch itself.
+The route correction verified 63 game permalink/selection routes and 24 targeted source-card links, plus the single-game Rudra source. All previous directory-only entries now have game-specific routes or measured source-card targeting. Sources without a URL selection handler use a native scroll-to-text link: it opens the actual creator site at the named card, without a ThaiPatch detail page or a proxy. This does not select the source's patch dropdown. The 18 90S links retain observed slugs and target the exact Thai game card instead of opening an incorrectly selected patch station. URI punctuation is percent encoded and fresh visits are checked. Source-card targeting depends on browser support and source rendering; Chrome is tested. The Facebook creator post still requires login, so fresh post contents cannot be certified.
 
 Images are referenced remotely from the existing creator/official-art audit. No external images are copied into this repository. Unavailable images fall back to text. Missing or questionable logos use team names. Reuse permissions remain separate from source identity; this repository does not assert ownership of third-party artwork.
 
