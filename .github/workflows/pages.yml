@@ -1,0 +1,55 @@
+name: Refresh catalog and deploy Pages
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: romthai-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh known source records
+        if: github.event_name != 'push'
+        run: python .sync/refresh.py
+      - name: Validate data and updater
+        run: |
+          python .sync/test_refresh.py
+          python .sync/refresh.py --check
+      - name: Save refreshed metadata
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog.json app.js .sync/report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh public patch metadata'
+            git push
+          fi
+      - name: Stage static files
+        run: |
+          mkdir public
+          cp index.html app.js styles.css theme-init.js theme-controls.js catalog.json teams.json platforms.json public/
+          cp -r assets public/
+          touch public/.nojekyll
+          python -c "import json,os,pathlib,subprocess; pathlib.Path('public/deployment.json').write_text(json.dumps(dict(commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),workflowHeadSha=os.environ['GITHUB_SHA'],runId=os.environ['GITHUB_RUN_ID'])))"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

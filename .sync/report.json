@@ -1,0 +1,2622 @@
+{
+  "checkedAt": "2026-10-13T11:03:23.379328+00:00",
+  "automaticRefresh": true,
+  "feeds": {
+    "memory": {
+      "state": "ok",
+      "records": 159,
+      "matched": 20,
+      "updated": 20
+    },
+    "gayray": {
+      "state": "ok",
+      "records": 14,
+      "matched": 8,
+      "updated": 0
+    },
+    "nonplae": {
+      "state": "ok",
+      "records": 167,
+      "matched": 1,
+      "updated": 0
+    },
+    "retro": {
+      "state": "ok",
+      "records": 6,
+      "matched": 6,
+      "updated": 0
+    },
+    "murphy": {
+      "state": "ok",
+      "records": 10,
+      "matched": 1,
+      "updated": 0
+    }
+  },
+  "changedRecords": [
+    "ext-001",
+    "ext-002",
+    "ext-003",
+    "ext-004",
+    "ext-005",
+    "ext-006",
+    "ext-007",
+    "ext-008",
+    "ext-009",
+    "ext-010",
+    "ext-011",
+    "ext-012",
+    "ext-013",
+    "ext-014",
+    "ext-015",
+    "ext-016",
+    "ext-017",
+    "ext-018",
+    "ext-019",
+    "ext-020"
+  ],
+  "newCandidates": [
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Boku no Natsuyasumi Portable (ぼくのなつやすみ ポータブル)",
+      "title": "Boku no Natsuyasumi Portable (ぼくのなつやすみ ポータブル)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Inazuma Eleven",
+      "title": "Inazuma Eleven",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Magic Knight Rayearth",
+      "title": "Magic Knight Rayearth",
+      "platform": "Saturn",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "God of War II",
+      "title": "God of War II",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball Z Budokai Tenkaichi 4 (ม็อด TeamBT4)",
+      "title": "Dragon Ball Z Budokai Tenkaichi 4 (ม็อด TeamBT4)",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Final Fantasy X-2 International + Last Mission",
+      "title": "Final Fantasy X-2 International + Last Mission",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Final Fantasy X International",
+      "title": "Final Fantasy X International",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball Z Sparking! METEOR",
+      "title": "Dragon Ball Z Sparking! METEOR",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Okami",
+      "title": "Okami",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Gran Turismo 4",
+      "title": "Gran Turismo 4",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Need for Speed: Carbon",
+      "title": "Need for Speed: Carbon",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Burnout 3: Takedown",
+      "title": "Burnout 3: Takedown",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Prince of Persia: Warrior Within",
+      "title": "Prince of Persia: Warrior Within",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Alone in the Dark: The New Nightmare",
+      "title": "Alone in the Dark: The New Nightmare",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Battle Stadium D.O.N",
+      "title": "Battle Stadium D.O.N",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Boku no Natsuyasumi 2 (ぼくのなつやすみ2 海の冒険篇)",
+      "title": "Boku no Natsuyasumi 2 (ぼくのなつやすみ2 海の冒険篇)",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "JoJo's Bizarre Adventure",
+      "title": "JoJo's Bizarre Adventure",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Onimusha: Warlords",
+      "title": "Onimusha: Warlords",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: Twilight Princess",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "platform": "GC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Quest Heroes: Rocket Slime",
+      "title": "Dragon Quest Heroes: Rocket Slime",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Friends of Mineral Town — Extended Edition",
+      "title": "Harvest Moon: Friends of Mineral Town — Extended Edition",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Onimusha Tactics",
+      "title": "Onimusha Tactics",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: Phantom Hourglass",
+      "title": "The Legend of Zelda: Phantom Hourglass",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: Spirit Tracks",
+      "title": "The Legend of Zelda: Spirit Tracks",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Black Version",
+      "title": "Pokémon Black Version",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon White Version",
+      "title": "Pokémon White Version",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Super Robot Taisen J",
+      "title": "Super Robot Taisen J",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Need for Speed: Underground 2",
+      "title": "Need for Speed: Underground 2",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: A Wonderful Life Special Edition",
+      "title": "Harvest Moon: A Wonderful Life Special Edition",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider Ryuki",
+      "title": "Kamen Rider Ryuki",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 3 White",
+      "title": "Mega Man Battle Network 3 White",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 4 Blue Moon",
+      "title": "Mega Man Battle Network 4 Blue Moon",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Sims 2",
+      "title": "The Sims 2",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Super Robot Taisen: Original Generation 2",
+      "title": "Super Robot Taisen: Original Generation 2",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Quest IV: Chapters of the Chosen",
+      "title": "Dragon Quest IV: Chapters of the Chosen",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 5 Team Colonel",
+      "title": "Mega Man Battle Network 5 Team Colonel",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 5 Team ProtoMan",
+      "title": "Mega Man Battle Network 5 Team ProtoMan",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 6 Cybeast Falzar",
+      "title": "Mega Man Battle Network 6 Cybeast Falzar",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 6 Cybeast Gregar",
+      "title": "Mega Man Battle Network 6 Cybeast Gregar",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Bloody Roar 2: Bringer of the New Age",
+      "title": "Bloody Roar 2: Bringer of the New Age",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Super Robot Taisen: Original Generation",
+      "title": "Super Robot Taisen: Original Generation",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Friends of Mineral Town — True Love Edition",
+      "title": "Harvest Moon: Friends of Mineral Town — True Love Edition",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider Agito",
+      "title": "Kamen Rider Agito",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider Climax Heroes",
+      "title": "Kamen Rider Climax Heroes",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider Kuuga",
+      "title": "Kamen Rider Kuuga",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Quest Monsters 1・2 (ドラゴンクエストモンスターズ1・2)",
+      "title": "Dragon Quest Monsters 1・2 (ドラゴンクエストモンスターズ1・2)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider Kabuto",
+      "title": "Kamen Rider Kabuto",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Phoenix Wright: Ace Attorney",
+      "title": "Phoenix Wright: Ace Attorney",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Boku no Natsuyasumi (ぼくのなつやすみ)",
+      "title": "Boku no Natsuyasumi (ぼくのなつやすみ)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider Blade",
+      "title": "Kamen Rider Blade",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Hokuto no Ken (北斗の拳 世紀末救世主伝説)",
+      "title": "Hokuto no Ken (北斗の拳 世紀末救世主伝説)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Front Mission 3",
+      "title": "Front Mission 3",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kamen Rider 555",
+      "title": "Kamen Rider 555",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Charumera (チャルメラ)",
+      "title": "Charumera (チャルメラ)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Ultraman",
+      "title": "Ultraman",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Tomba! 2: The Evil Swine Return",
+      "title": "Tomba! 2: The Evil Swine Return",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Dragoon",
+      "title": "The Legend of Dragoon",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Advance Wars",
+      "title": "Advance Wars",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Advance Wars 2: Black Hole Rising",
+      "title": "Advance Wars 2: Black Hole Rising",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Tactics Ogre: The Knight of Lodis",
+      "title": "Tactics Ogre: The Knight of Lodis",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon DS Cute",
+      "title": "Harvest Moon DS Cute",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: More Friends of Mineral Town",
+      "title": "Harvest Moon: More Friends of Mineral Town",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon DS",
+      "title": "Harvest Moon DS",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Warrior I & II",
+      "title": "Dragon Warrior I & II",
+      "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "MapleStory DS",
+      "title": "MapleStory DS",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Animal Crossing: Wild World",
+      "title": "Animal Crossing: Wild World",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Final Fantasy Tactics A2: Grimoire of the Rift",
+      "title": "Final Fantasy Tactics A2: Grimoire of the Rift",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Crystal",
+      "title": "Pokémon Crystal",
+      "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dino Crisis",
+      "title": "Dino Crisis",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dino Crisis 2",
+      "title": "Dino Crisis 2",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Yu-Gi-Oh! Monster Capsule",
+      "title": "Yu-Gi-Oh! Monster Capsule",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Bakusou Kyoudai Let's & Go!! Eternal Wings",
+      "title": "Bakusou Kyoudai Let's & Go!! Eternal Wings",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Beyblade G-Revolution",
+      "title": "Beyblade G-Revolution",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Quest V: Hand of the Heavenly Bride",
+      "title": "Dragon Quest V: Hand of the Heavenly Bride",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Quest VI: Realms of Revelation",
+      "title": "Dragon Quest VI: Realms of Revelation",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Lufia: The Legend Returns",
+      "title": "Lufia: The Legend Returns",
+      "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Rune Factory: A Fantasy Harvest Moon",
+      "title": "Rune Factory: A Fantasy Harvest Moon",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Rune Factory 2: A Fantasy Harvest Moon",
+      "title": "Rune Factory 2: A Fantasy Harvest Moon",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Rune Factory 3: A Fantasy Harvest Moon",
+      "title": "Rune Factory 3: A Fantasy Harvest Moon",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Quest IX: Sentinels of the Starry Skies",
+      "title": "Dragon Quest IX: Sentinels of the Starry Skies",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Parasite Eve",
+      "title": "Parasite Eve",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Parasite Eve II",
+      "title": "Parasite Eve II",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Hero of Leaf Valley",
+      "title": "Harvest Moon: Hero of Leaf Valley",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Boy & Girl",
+      "title": "Harvest Moon: Boy & Girl",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Digimon Digital Card Battle",
+      "title": "Digimon Digital Card Battle",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Gash Bell!! Unare! Yuujou no Zakeru 2",
+      "title": "Gash Bell!! Unare! Yuujou no Zakeru 2",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Castlevania: Dawn of Sorrow",
+      "title": "Castlevania: Dawn of Sorrow",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 4 Red Sun",
+      "title": "Mega Man Battle Network 4 Red Sun",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 3 Blue",
+      "title": "Mega Man Battle Network 3 Blue",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "SD Saint Seiya: Saint Paradise",
+      "title": "SD Saint Seiya: Saint Paradise",
+      "platform": "GB",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network 2",
+      "title": "Mega Man Battle Network 2",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Battle Network",
+      "title": "Mega Man Battle Network",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Shin Megami Tensei II",
+      "title": "Shin Megami Tensei II",
+      "platform": "SFC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Ragnarok DS",
+      "title": "Ragnarok DS",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball Z: The Legacy of Goku II",
+      "title": "Dragon Ball Z: The Legacy of Goku II",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball Z: Buu's Fury",
+      "title": "Dragon Ball Z: Buu's Fury",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Zero",
+      "title": "Mega Man Zero",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Zero 2",
+      "title": "Mega Man Zero 2",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Zero 3",
+      "title": "Mega Man Zero 3",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man Zero 4",
+      "title": "Mega Man Zero 4",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Medabots: Rokusho",
+      "title": "Medabots: Rokusho",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Medabots: Metabee",
+      "title": "Medabots: Metabee",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Final Fantasy Tactics Advance",
+      "title": "Final Fantasy Tactics Advance",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man X4",
+      "title": "Mega Man X4",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man X6",
+      "title": "Mega Man X6",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Kawa no Nushi Tsuri 2 (ตกปลาทาโร่ 2)",
+      "title": "Kawa no Nushi Tsuri 2 (ตกปลาทาโร่ 2)",
+      "platform": "SFC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Racing Lagoon",
+      "title": "Racing Lagoon",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dokapon! Ikari no Tekken",
+      "title": "Dokapon! Ikari no Tekken",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Digimon Adventure",
+      "title": "Digimon Adventure",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Castlevania: Aria of Sorrow",
+      "title": "Castlevania: Aria of Sorrow",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Tokimeki Memorial: Densetsu no Ki no Shita de",
+      "title": "Tokimeki Memorial: Densetsu no Ki no Shita de",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Back to Nature",
+      "title": "Harvest Moon: Back to Nature",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Back to Nature for Girl",
+      "title": "Harvest Moon: Back to Nature for Girl",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Bomberman Land",
+      "title": "Bomberman Land",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Digimon World",
+      "title": "Digimon World",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Digimon Tamers: Battle Evolution",
+      "title": "Digimon Tamers: Battle Evolution",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Friends of Mineral Town",
+      "title": "Harvest Moon: Friends of Mineral Town",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball: Advanced Adventure",
+      "title": "Dragon Ball: Advanced Adventure",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: The Minish Cap",
+      "title": "The Legend of Zelda: The Minish Cap",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon FireRed",
+      "title": "Pokémon FireRed",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon LeafGreen",
+      "title": "Pokémon LeafGreen",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Yellow (PC · gen1recomp)",
+      "title": "Pokémon Yellow (PC · gen1recomp)",
+      "platform": "PC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball Z: Supersonic Warriors",
+      "title": "Dragon Ball Z: Supersonic Warriors",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Ruby",
+      "title": "Pokémon Ruby",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Sapphire",
+      "title": "Pokémon Sapphire",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Emerald",
+      "title": "Pokémon Emerald",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Diamond",
+      "title": "Pokémon Diamond",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Pearl",
+      "title": "Pokémon Pearl",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon Platinum",
+      "title": "Pokémon Platinum",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon HeartGold",
+      "title": "Pokémon HeartGold",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Pokémon SoulSilver",
+      "title": "Pokémon SoulSilver",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mega Man X5",
+      "title": "Mega Man X5",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Dragon Ball Z: The Legacy of Goku",
+      "title": "Dragon Ball Z: The Legacy of Goku",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: Ocarina of Time 3D",
+      "title": "The Legend of Zelda: Ocarina of Time 3D",
+      "platform": "3DS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: Majora's Mask 3D",
+      "title": "The Legend of Zelda: Majora's Mask 3D",
+      "platform": "3DS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "The Legend of Zelda: A Link Between Worlds",
+      "title": "The Legend of Zelda: A Link Between Worlds",
+      "platform": "3DS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Mario Kart DS",
+      "title": "Mario Kart DS",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Fire Emblem: The Sacred Stones",
+      "title": "Fire Emblem: The Sacred Stones",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Love Plus",
+      "title": "Love Plus",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "dokapon-monster-hunter-usa",
+      "title": "Dokapon - Monster Hunter (USA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "knight-gundam-monogatari-fc",
+      "title": "SD Gundam Gaiden: Knight Gundam Monogatari (Japan)",
+      "platform": "FC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "jojo-no-kimyou-na-bouken-sfc",
+      "title": "JoJo no Kimyou na Bouken (Japan)",
+      "platform": "SFC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "rockman-and-forte-sfc",
+      "title": "Rockman & Forte (Japan)",
+      "platform": "SFC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "akumajou-special-boku-dracula-kun-fc",
+      "title": "Akumajou Special: Boku Dracula-kun (Japan)",
+      "platform": "FC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "torneko-no-daibouken-sfc",
+      "title": "Torneko no Daibouken: Fushigi no Dungeon (Japan)",
+      "platform": "SFC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "warera-mitsurin-tankentai",
+      "title": "Warera Mitsurin Tankentai (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "zill-oll-infinite-plus",
+      "title": "Zill Oll Infinite Plus (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "nekketsu-kouha-kunio-kun-special",
+      "title": "Nekketsu Kouha Kunio-kun Special (3DS)",
+      "platform": "3DS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "battle-spirits-digital-starter",
+      "title": "Battle Spirits Digital Starter (NDS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "hamtaro-ham-ham-heartbreak",
+      "title": "Hamtaro - Ham-Ham Heartbreak (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "harvest-moon-gbc",
+      "title": "Harvest Moon (GBC)",
+      "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "tokyo-majin-gakuen-kenpuuchou",
+      "title": "Tokyo Majin Gakuen - Kenpuuchou (NDS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "ranma-half-akanekodan-teki-hihou",
+      "title": "Ranma ½: Akanekodan Teki Hihou (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "zoids-2-helic-republic-vs-guylos-empire",
+      "title": "Zoids 2: Helic Republic VS Guylos Empire (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yu-gi-oh-monster-capsule-breed-and-battle",
+      "title": "Yu-Gi-Oh! Monster Capsule: Breed & Battle (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-origin-heartgold",
+      "title": "Pokemon Origin Heart Gold (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "star-ocean-first-departure",
+      "title": "Star Ocean First Departure (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "digimon-emerald",
+      "title": "Digimon Emerald (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "tales-of-eternia",
+      "title": "Tales of Eternia (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "front-mission-2",
+      "title": "Front Mission 2 (PS1)",
+      "platform": "PLAYSTATION",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "riot-stars",
+      "title": "Riot Stars (PS1)",
+      "platform": "PLAYSTATION",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-sword-and-shield-ultimate",
+      "title": "Pokemon Sword and Shield Ultimate - TH Nonplae",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "majotachi-no-nemuri",
+      "title": "Majotachi no Nemuri (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dragon-quest-i-ii",
+      "title": "Dragon Quest I & II (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "castlevania-aria-of-sorrow",
+      "title": "Castlevania: Aria of Sorrow (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "castlevania-harmony-of-dissonance",
+      "title": "Castlevania: Harmony of Dissonance (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "tactics-ogre-let-us-cling-together",
+      "title": "Tactics Ogre: Let Us Cling Together (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "kurohyou-ryu-ga-gotoku-shinshou",
+      "title": "Kurohyou Ryu ga Gotoku Shinshou (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-wars-4",
+      "title": "Super Robot Wars 4 (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-taisen-a",
+      "title": "Super Robot Taisen A (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "bounty-sword",
+      "title": "Bounty Sword (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "live-a-live",
+      "title": "Live A Live (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "sword-art-online-infinity-moment",
+      "title": "Sword Art Online: Infinity Moment (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-emerald-arena",
+      "title": "Pokemon Emerald Arena (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "emerald-dragon",
+      "title": "Emerald Dragon (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-taisen-r",
+      "title": "Super Robot Taisen R (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-super-mariomon",
+      "title": "Pokemon Super MarioMon (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "romance-of-the-three-kingdoms-ii",
+      "title": "Romance of the Three Kingdoms II (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "itadaki-street-gorgeous-king",
+      "title": "Itadaki Street - Gorgeous King (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "monster-rancher",
+      "title": "Monster Rancher (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "rave-yuukyuu-no-kizuna",
+      "title": "Groove Adventure Rave - Yuukyuu no Kizuna (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fire-emblem-thracia776",
+      "title": "Fire Emblem - New Theory of Thracia 776 (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "love-hina-advance",
+      "title": "Love Hina Advance (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "zoids-legacy",
+      "title": "Zoids Legacy (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "kingyo-game-gakuen",
+      "title": "Kingyo Chuuihou! - Tobidase! Game Gakuen (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "riviera-promised-land",
+      "title": "Riviera - The Promised Land (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "secret-of-evermore",
+      "title": "Secret of Evermore (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "kawa-no-nushi-tsuri-5",
+      "title": "Kawa no Nushi Tsuri 5: Fushigi no Mori kara (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fullmetal-alchemist-sonata",
+      "title": "Fullmetal Alchemist - Sonata of Memories (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yggdra-union",
+      "title": "Yggdra Union - We'll Never Fight Alone (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "naruto-ninja-council",
+      "title": "Naruto - Ninja Council (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yuyu-tournament-tactics",
+      "title": "Yu Yu Hakusho - Tournament Tactics (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "gashbell-bookmark",
+      "title": "Konjiki no Gashbell!! - Makai no Bookmark (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "lotr-return-of-the-king",
+      "title": "The Lord of the Rings - The Return of the King (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "robotrek",
+      "title": "Robotrek (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "tales-of-phantasia",
+      "title": "Tales of Phantasia (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "terranigma",
+      "title": "Terranigma (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-wars-ex",
+      "title": "Super Robot Wars EX (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "magic-knight-rayearth",
+      "title": "Magic Knight Rayearth (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-wars-gaiden",
+      "title": "Super Robot Wars Gaiden (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-taisen-d",
+      "title": "Super Robot Taisen D (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "mario-and-luigi-superstar-saga",
+      "title": "Mario & Luigi  Superstar Saga (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "bouken-ou-beet-busters-road",
+      "title": "Bouken-ou Beet - Busters Road (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "black-matrix-zero",
+      "title": "Black Matrix Zero (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-x-international",
+      "title": "Final Fantasy X International (PS2)",
+      "platform": "PS2",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "shaman-king-master-of-spirits",
+      "title": "Shaman King Master of Spirits (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-oracle-of-seasons",
+      "title": "The Legend of Zelda - Oracle of Seasons (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-oracle-of-ages",
+      "title": "The Legend of Zelda - Oracle of Ages (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "chrono-trigger",
+      "title": "Chrono Trigger (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "little-master",
+      "title": "Little Master (GB)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-iv",
+      "title": "Final Fantasy IV (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "shadowrun",
+      "title": "Shadowrun (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dark-half",
+      "title": "Dark Half (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "beyblade-let-it-rip",
+      "title": "Beyblade: Let it Rip! (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-links-awakening-dx",
+      "title": "Legend of Zelda, The  Links Awakening DX (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "xenogears",
+      "title": "Xenogear (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-type-0",
+      "title": "Final Fantasy Type-0 (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dragon-ball-advanced-adventure",
+      "title": "Dragon Ball - Advanced Adventure (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-the-minish-cap",
+      "title": "Legend of Zelda The  Minish Cap (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-viii",
+      "title": "Final Fantasy VIII (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "patapon-3",
+      "title": "Patapon3 (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "grand-theft-auto-chinatown-wars",
+      "title": "Grand Theft Auto Chinatown Wars (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "crisis-core-final-fantasy-vii",
+      "title": "Crisis Core - Final Fantasy VII (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "shodai-nekketsu-kouha-kunio-kun",
+      "title": "Shodai Nekketsu Kouha Kunio-kun (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-quetzal",
+      "title": "Pokemon Quetzal (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-emerald-rogue",
+      "title": "Pokemon Emerald Rogue (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "initial-d-another-stage",
+      "title": "Initial D: Another Stage (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "romance-of-the-three-kingdoms-vi",
+      "title": "Romance of the Three Kingdoms VI (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "valkyrie-profile",
+      "title": "Valkyrie Profile (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "wonder-project-j",
+      "title": "Wonder Project J (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "milandra",
+      "title": "Milandra (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "999-nine-hours-nine-persons-nine-doors",
+      "title": "999: Nine Hours, Nine Persons, Nine Doors (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-vii",
+      "title": "Final Fantasy VII (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "golden-sun-dark-dawn",
+      "title": "Golden Sun: Dark Dawn (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "gekitou-crush-gear-turbo",
+      "title": "Gekitou Crush Gear Turbo (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "arc-the-lad",
+      "title": "Arc the Lad (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "gaiamaster",
+      "title": "GaiaMaster: Kamigami no Board Game (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "digimon-world",
+      "title": "Digimon World (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "shin-nekketsu-kouha-kunio-tachi-no-banka",
+      "title": "Shin Nekketsu Kouha - Kunio-tachi no Banka (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fire-emblem-vision-quest",
+      "title": "Fire Emblem Vision Quest (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fire-emblem-the-sacred-echoes",
+      "title": "Fire Emblem - The Sacred Echoes (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-sangokushi",
+      "title": "Super Sangokushi (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-super-dark-worship",
+      "title": "Pokemon Super Dark Worship (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "bloody-roar-2",
+      "title": "Bloody Roar 2 Bringer of the New Age - (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "clock-tower",
+      "title": "Clock Tower (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "feda-the-emblem-of-justice",
+      "title": "Feda - The Emblem of Justice (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-moon-black-2",
+      "title": "Pokémon Moon Black 2 (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fate-extra-ccc",
+      "title": "Fate/EXTRA CCC (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "metal-max-3",
+      "title": "Metal Max 3 (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-spirit-tracks",
+      "title": "The Legend of Zelda: Spirit Tracks (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-phantom-hourglass",
+      "title": "The Legend of Zelda: Phantom Hourglass (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "go-go-ackman",
+      "title": "Go Go Ackman (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-firered-rocket",
+      "title": "Pokémon FireRed Rocket - (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-red-chapter",
+      "title": "Pokémon - Red Chapter (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-mystery-dungeon-red-rescue-team",
+      "title": "Pokémon Mystery Dungeon: Red Rescue Team - (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-rowe",
+      "title": "Pokemon Rowe - TH Nonplae",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "front-mission",
+      "title": "Front Mission 1 (Snes)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "mother-2",
+      "title": "Mother 2 (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "guranbo-lord",
+      "title": "Granbo (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "jeanne-darce",
+      "title": "Jeanne d’Arce (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "daibakushou-jinsei",
+      "title": "Daibakushou Jinsei (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "ogre-battle",
+      "title": "Ogre Battle (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "romancing-saga-3",
+      "title": "Romancing SaGa 3 (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "oni-chronicles-genesis",
+      "title": "Oni Chronicles Genesis (GB)",
+      "platform": "GAME BOY",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "bakumatsu-kourinden-oni",
+      "title": "Bakumatsu Kourinden Oni (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dragon-ball-z-gokuu-hishouden",
+      "title": "Dragon Ball Z Gokuu Hishouden (GB)",
+      "platform": "GAME BOY",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "oni-v-innin-o-tsugumono",
+      "title": "Oni V - Innin o Tsugumono (GB)",
+      "platform": "GAME BOY",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-sims-bustin-out",
+      "title": "Sims, The - Bustin' Out (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "harvest-moon-more-friends-of-mineral-town",
+      "title": "Harvest Moon More Friends of Mineral Town (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "ginga-sengoku-gunyuuden-rai",
+      "title": "Ginga Sengoku Gunyuuden Rai (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "mega-man-xtreme",
+      "title": "Mega Man Xtreme (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "mega-man-xtreme-2",
+      "title": "Mega Man Xtreme 2 (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "legend-of-the-river-king",
+      "title": "Legend of the River King (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "resident-evil-gaiden",
+      "title": "Resident Evil Gaiden (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "metal-gear-solid",
+      "title": "Metal Gear Solid (GBC)",
+      "platform": "GAME BOY COLOR",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "summon-night-swordcraft-story",
+      "title": "Summon Night Swordcraft Story (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "sd-gundam-g-generation-over-world",
+      "title": "SD Gundam - G Generation Over World (PSP) V1.1",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yugioh-5ds-tag-force-6",
+      "title": "Yu-Gi-Oh 5Ds Tag Force 6 (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yugioh-gx-tag-force-3",
+      "title": "Yu-Gi-Oh! GX Tag Force 3 (PSP)",
+      "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yugioh-ultimate-masters-2006",
+      "title": "Yu-Gi-Oh! - Ultimate Masters (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "kenyuu-densetsu-yaiba",
+      "title": "Kenyuu Densetsu Yaiba (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-gamma-emerald",
+      "title": "Pokémon Gamma Emerald (PC)",
+      "platform": "PC · UNREAL ENGINE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "zenonia-1",
+      "title": "ZENONIA 1 (PC)",
+      "platform": "PC · STEAM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-heart-and-soul",
+      "title": "Pokémon Heart and Soul (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-taisen-original-generation",
+      "title": "Super Robot Taisen: Original Generation (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-taisen-original-generation-2",
+      "title": "Super Robot Taisen: Original Generation 2 (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-wars-j",
+      "title": "Super Robot War J (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "kingdom-hearts-chain-of-memories",
+      "title": "Kingdom Hearts - Chain of Memories (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-unbound",
+      "title": "Pokémon Unbound (GBA) V16",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-adventure",
+      "title": "Final Fantasy Adventure (Game Boy)",
+      "platform": "GAME BOY",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-soulgold",
+      "title": "Pokémon SoulGold (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "golden-sun",
+      "title": "Golden Sun (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "golden-sun-the-lost-age",
+      "title": "Golden Sun: The Lost Age (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dokapon-ikari-no-tekken",
+      "title": "Dokapon! Ikari no Tekken (PS1)",
+      "platform": "PLAYSTATION",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "rockman-x4",
+      "title": "Rockman X4 (PS1)",
+      "platform": "PLAYSTATION",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "rockman-x3",
+      "title": "Rockman X3 (SNES)",
+      "platform": "SUPER NINTENDO",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "ganbare-goemon-3",
+      "title": "Ganbare Goemon 3 (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "shinsetsu-samurai-spirits",
+      "title": "Shinsetsu Samurai Spirits - Bushidou Retsuden (PS1)",
+      "platform": "PLAYSTATION",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yugioh-forbidden-memorise",
+      "title": "Yu-Gi-Oh! Forbidden Memories (PS1)",
+      "platform": "PLAYSTATION",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "bahamut-lagoon",
+      "title": "Bahamut Lagoon (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fire-emblem-seisen-no-keifu",
+      "title": "Fire Emblem - Seisen no Keifu (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "langrisser-i-ii",
+      "title": "Langrisser I&II (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "harvest-moon",
+      "title": "Harvest Moon (SNES)",
+      "platform": "SUPER NINTENDO",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "seiken-densetsu-3",
+      "title": "Seiken Densetsu 3 (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-legend-of-zelda-a-link-to-the-past",
+      "title": "The Legend of Zelda: A Link to the Past (SNES)",
+      "platform": "SUPER NINTENDO",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "breath-of-fire",
+      "title": "Breath of Fire I (SNES)",
+      "platform": "SUPER NINTENDO",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "lufia-2-rise-of-the-sinistrals",
+      "title": "Lufia II: Rise of the Sinistrals (SNES)",
+      "platform": "SUPER NINTENDO",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fire-emblem-the-binding-blade",
+      "title": "Fire Emblem - The Binding Blade (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "fire-emblem-the-blazing-blade",
+      "title": "Fire Emblem - The Blazing Blade (GBA)",
+      "platform": "GAME BOY ADVANCE",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dragon-quest-v",
+      "title": "Dragon Quest V (SNES)",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dragon-quest-vi",
+      "title": "Dragon Quest VI (SNES) V1.2",
+      "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "silent-hill-origins",
+      "title": null,
+      "platform": "PSP • USA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "silent-hill-play-novel",
+      "title": null,
+      "platform": "Game Boy Advance",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "mighty-final-fight",
+      "title": null,
+      "platform": "NES (Nintendo Entertainment System) • USA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "phantom-fighter",
+      "title": null,
+      "platform": "NES (Nintendo Entertainment System) • USA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "megaman-x5",
+      "title": null,
+      "platform": "PlayStation 1 • USA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "resident-evil-directors-cut",
+      "title": null,
+      "platform": "PlayStation 1 • USA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "twilight-syndrome-kyuumei-hen",
+      "title": null,
+      "platform": "PlayStation 1 • Japan",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "twilight-syndrome-tansaku-hen",
+      "title": null,
+      "platform": "PlayStation 1 • Japan",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "murphy",
+      "source": "https://murphy-th.vercel.app/",
+      "key": "sh1-title-silent-hill",
+      "title": null,
+      "platform": null,
+      "state": "pending_route_edition_review"
+    }
+  ],
+  "facebook": "unavailable_without_authorized_API",
+  "newGamePublication": "requires exact route and edition review"
+}

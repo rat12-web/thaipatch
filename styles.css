@@ -632,20 +632,20 @@ html[data-theme="dark"] .card-info{border-top-color:var(--pf-main)}
 .card-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-height:32px}
 .console-mark{display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #9babb8;border-radius:3px;min-width:90px;min-height:32px;padding:5px 8px;box-sizing:border-box;color:#25394b}
 .console-mark .console-logo{display:block;width:92px;height:22px;object-fit:contain;filter:none}
-.cover-console{position:absolute;top:0;right:0;left:auto;z-index:8;display:flex;align-items:center;justify-content:center;min-width:118px;min-height:46px;padding:11px 14px 12px 19px;background:linear-gradient(135deg,#fff,color-mix(in srgb,var(--pf-main) 22%,#f7f9ff));border-left:2px solid var(--pf-strong);border-bottom:2px solid var(--pf-strong);border-radius:0 0 0 13px;box-shadow:-3px 3px 0 #0002;box-sizing:border-box}
+.cover-console{position:absolute;top:0;right:0;left:auto;z-index:8;display:flex;align-items:center;justify-content:center;min-width:84px;min-height:32px;padding:7px 9px 7px 14px;background:linear-gradient(135deg,#fff,color-mix(in srgb,var(--pf-main) 22%,#f7f9ff));border-left:2px solid var(--pf-strong);border-bottom:2px solid var(--pf-strong);border-radius:0 0 0 13px;box-shadow:-3px 3px 0 #0002;box-sizing:border-box}
 .cover-console:before{content:"";position:absolute;left:7px;top:8px;width:5px;height:5px;background:var(--pf-strong);box-shadow:0 8px 0 color-mix(in srgb,var(--pf-main) 60%,#fff)}
 .cover-console .console-mark{background:transparent;border:0;box-shadow:none;padding:0;min-width:0;min-height:0}
 html[data-theme="dark"] .cover-console{border-color:var(--pf-main)}
 html[data-theme] .cover .coverstatus{left:10px!important;right:auto!important;top:12px!important;max-width:calc(100% - 140px)}
-html[data-theme] .cover-console .console-mark .console-logo{width:90px!important;height:22px!important;object-fit:contain!important;object-position:center!important;filter:none!important;transform:none!important;position:static!important;inset:auto!important}
+html[data-theme] .cover-console .console-mark .console-logo{width:60px!important;height:17px!important;object-fit:contain!important;object-position:center!important;filter:none!important;transform:none!important;position:static!important;inset:auto!important}
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .covertranslator{max-width:calc(100% - 24px)}
-html[data-theme] .cover .covertranslator{right:0!important;bottom:0!important;max-width:calc(100% - 24px)}
-html[data-theme] .cover .translatorplate{border-radius:12px 0 0 0!important;min-height:54px;padding:7px 11px!important;border-right:0!important;border-bottom:0!important;box-shadow:-3px -3px 0 #0002!important;gap:8px!important}
+html[data-theme] .cover .covertranslator{left:0!important;right:auto!important;bottom:0!important;max-width:calc(100% - 24px)}
+html[data-theme] .cover .translatorplate{border-radius:0 12px 0 0!important;min-height:54px;padding:7px 11px!important;border-left:0!important;border-bottom:0!important;box-shadow:3px -3px 0 #0002!important;gap:8px!important}
 html[data-theme] .cover .translatorplate .teamlogo{width:46px!important;height:46px!important;max-width:46px!important;border-radius:3px!important;padding:2px!important;flex:none!important}
 html[data-theme] .cover .translatorplate .name{font-size:11px!important;max-width:165px;overflow-wrap:anywhere}
 .cover-origin{position:absolute;z-index:7;left:10px;bottom:10px;max-width:55%;padding:4px 6px;background:#15212bed;color:#fff;font-size:10px;border-radius:3px}
 .image-fallback{display:grid;place-items:center;text-align:center;padding:22px}
 .cover.has-art .image-fallback{visibility:hidden}
 .source-date{display:block;color:var(--sub);font-size:11px;line-height:1.6;min-height:18px}.source-date-unknown{font-size:10px}
-@media(max-width:600px){html[data-theme] .cover-console .console-mark .console-logo{width:80px!important;height:21px!important}.cover-console{min-width:106px;min-height:42px;padding:9px 11px 10px 17px}.console-mark{min-width:86px}.card-meta{gap:8px}}
+@media(max-width:600px){html[data-theme] .cover-console .console-mark .console-logo{width:54px!important;height:16px!important}.cover-console{min-width:76px;min-height:30px;padding:6px 8px 6px 13px}.console-mark{min-width:86px}.card-meta{gap:8px}}
