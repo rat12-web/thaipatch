@@ -1,0 +1,89 @@
+{
+  "url": "http://127.0.0.1:61588/thaipatch/",
+  "runAt": "2026-10-13T11:03:46.525Z",
+  "browser": "154.0.8037.99",
+  "views": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "count": 128,
+      "groups": 126,
+      "verified": 38,
+      "unknown": 90,
+      "sorted": true,
+      "first": {
+        "title": "Pangya: Fantasy Golf",
+        "key": 1791849600000
+      },
+      "knownLast": {
+        "title": "Silent Hill 1",
+        "key": 1788912000000
+      },
+      "unknownFirst": {
+        "title": "2nd Super Robot Wars OG",
+        "key": 0
+      },
+      "importDatesIgnored": true,
+      "newestMatchingSibling": true,
+      "invalidInferredFutureRejected": true,
+      "resetDefault": true,
+      "pass": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "count": 128,
+      "groups": 126,
+      "verified": 38,
+      "unknown": 90,
+      "sorted": true,
+      "first": {
+        "title": "Pangya: Fantasy Golf",
+        "key": 1791849600000
+      },
+      "knownLast": {
+        "title": "Silent Hill 1",
+        "key": 1788912000000
+      },
+      "unknownFirst": {
+        "title": "2nd Super Robot Wars OG",
+        "key": 0
+      },
+      "importDatesIgnored": true,
+      "newestMatchingSibling": true,
+      "invalidInferredFutureRejected": true,
+      "resetDefault": true,
+      "pass": true
+    },
+    {
+      "name": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "count": 128,
+      "groups": 126,
+      "verified": 38,
+      "unknown": 90,
+      "sorted": true,
+      "first": {
+        "title": "Pangya: Fantasy Golf",
+        "key": 1791849600000
+      },
+      "knownLast": {
+        "title": "Silent Hill 1",
+        "key": 1788912000000
+      },
+      "unknownFirst": {
+        "title": "2nd Super Robot Wars OG",
+        "key": 0
+      },
+      "importDatesIgnored": true,
+      "newestMatchingSibling": true,
+      "invalidInferredFutureRejected": true,
+      "resetDefault": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -23,6 +23,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install development tools
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Check generated build
+        run: python tools/build.py --check
       - name: Refresh known source records
         if: github.event_name != 'push'
         run: python .sync/refresh.py
@@ -30,6 +40,8 @@ jobs:
         run: |
           python .sync/test_refresh.py
           python .sync/refresh.py --check
+          python tools/build.py --check
+          npm test
       - name: Save refreshed metadata
         if: github.event_name != 'push'
         run: |

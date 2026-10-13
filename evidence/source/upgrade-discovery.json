@@ -1,0 +1,1642 @@
+{
+  "checkedAt": "2026-10-13T03:54:38.953Z",
+  "reason": "New request: real platform/team logos, replace unresolved cover art, and direct Patch navigation",
+  "routes": [
+    {
+      "name": "90s",
+      "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+      "status": 200,
+      "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+      "images": [
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/brand/logo.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/brand/banner.jpg",
+          "alt": "90S Game เกมเก่า เรโทร แปลไทย",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-legacy-of-goku-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-legacy-of-goku-2-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-buus-fury-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-shin-budokai-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-z-supersonic-warriors-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-advanced-adventure-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/dragon-ball-gt-transformation-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/firered-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/pokemon-leafgreen-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/emerald-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/pokemon-yellow-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/pokemon-gold-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/pokemon-animon-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-sorcerers-stone-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-chamber-of-secrets-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-prisoner-of-azkaban-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-goblet-of-fire-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-quidditch-world-cup-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-collection-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/spider-man-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/spider-man-mysterios-menace-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/spider-man-2-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/spider-man-3-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/spider-man-battle-for-new-york-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/naruto-ninja-council-th.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/naruto-ninja-council-2-th.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/naruto-ultimate-ninja-heroes-th.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/shrek-2-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/shrek-2-beg-for-mercy-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/shrek-the-third-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/pirates-black-pearl-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/pirates-dead-mans-chest-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harvest-moon-friends-of-mineral-town-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/harvest-moon-more-friends-of-mineral-town-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/battle-b-daman-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/battle-b-daman-fire-spirits-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/one-piece-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/street-fighter-alpha-3-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/monster-house-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/super-robot-taisen-og-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/ninku-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/covers/azito-3-th.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/brand/donate-qr.png",
+          "alt": "QR code TrueMoney Wallet สำหรับโดเนท",
+          "loaded": true
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/brand/logo.png",
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#top",
+          "text": "90S Game"
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#games",
+          "text": "เกมทั้งหมด"
+        },
+        {
+          "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+          "text": "แปะแพตช์"
+        }
+      ],
+      "selects": [
+        {
+          "id": "pgame",
+          "value": "dragon-ball-z-legacy-of-goku",
+          "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+        }
+      ],
+      "patchViews": [
+        {
+          "id": "patch",
+          "visible": true,
+          "text": "แปะแพตช์ในเว็บ\n\nไฟล์ ROM ของคุณไม่ถูกอัปโหลดไปไหน ทุกอย่างทำในเบราว์เซอร์ของคุณเอง ระบบจะเช็ก CRC32 ให้ว่าเป็น ROM รุ่นที่ถูกต้อง\n\nเกม\nดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)\nดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)\nดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)\nดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)\nดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)\nดราก้อนบอล แ"
+        }
+      ],
+      "queryHandlers": false,
+      "htmlSha256": "a08296100eecb3fc5cd5aed11bca6c0afcc408d6f02062ed8e626aa268e5955f"
+    },
+    {
+      "name": "rommeaow",
+      "url": "https://rommeaow.com/#patch",
+      "status": 200,
+      "finalUrl": "https://rommeaow.com/#patch",
+      "images": [
+        {
+          "url": "https://rommeaow.com/assets/brand/logo_pixel.png?v=51dc8885",
+          "alt": "รอมเหมียว ROMMEAOW",
+          "loaded": true
+        },
+        {
+          "url": "https://rommeaow.com/assets/story/cover.png?v=51dc8885",
+          "alt": "ปกกล่อง Pokemon SoulGold ฉบับภาษาไทย",
+          "loaded": true
+        },
+        {
+          "url": "https://rommeaow.com/assets/story/ruby_cover.png?v=51dc8885",
+          "alt": "ปกกล่อง Pokémon Ruby ฉบับภาษาไทย",
+          "loaded": true
+        },
+        {
+          "url": "https://rommeaow.com/assets/cats/cat_library.png?v=51dc8885",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://rommeaow.com/assets/cats/cat_lab.png?v=51dc8885",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://rommeaow.com/assets/proof-thai-ingame.png",
+          "alt": "ภาพบทสนทนาภาษาไทยในเกมจริง",
+          "loaded": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1SooLvAymkdTwDK9p4iXYXRnt6d4RhGuO",
+          "text": "⬇ โหลดเกม v1.0.4.5-rm1 (เล่นได้เลย)"
+        },
+        {
+          "url": "https://rommeaow.com/emulator.html",
+          "text": "โปรแกรมเล่นเกม"
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1AGOL3KvED_INoQGRhL-b0JSks1HJbGY2",
+          "text": "⬇ โหลดเกม v1.9 (เล่นได้เลย)"
+        },
+        {
+          "url": "https://rommeaow.com/emulator.html",
+          "text": "โปรแกรมเล่นเกม"
+        },
+        {
+          "url": "https://rommeaow.com/emulator.html",
+          "text": "🕹️โหลดโปรแกรมเล่นเกม (Emulator)แพตช์เสร็จแล้วเปิดเล่นด้วยอะไร — mGBA บนคอม · RetroArch/Pizza Boy บน Android · Delta บน "
+        },
+        {
+          "url": "https://rommeaow.com/guide.html",
+          "text": "\n            \n            Walkthrough\n            บทสรุปเดินเกม SoulGold\n            เดินทีละก้าวจนจบ + ทีมบอสทุกไฟต์ + "
+        },
+        {
+          "url": "https://rommeaow.com/cheats.html",
+          "text": "\n            \n            Cheat Vault\n            คลังสูตรโกง\n            โค้ด Shiny 100% ที่เราแกะจากตัวเกมเอง\n        "
+        }
+      ],
+      "selects": [
+        {
+          "id": "rp-game",
+          "value": "Pokémon Ruby (GBA)",
+          "text": "Pokémon Ruby (GBA)"
+        },
+        {
+          "id": "rp-type",
+          "value": "คำแปลผิด/แปลก",
+          "text": "🔤 คำแปลผิด / คำแปลแปลก"
+        }
+      ],
+      "patchViews": [
+        {
+          "id": "view-patch",
+          "visible": true,
+          "text": "ROMMEAOW PATCH LAB\nแพตช์ไทย\nระบบพร้อมใช้งาน\n\nโยนไฟล์ ROM มาได้เลย — ระบบจะบอกเองว่าเป็นเกมอะไร รุ่นไหน แล้วแพตช์เป็นภาษาไทยให้ในเครื่องคุณ (ไฟล์ไม่ถูกอัปโหลดไปไหน)\n\n🕹️\nลากไฟล์ ROM มาวางตรงนี้\n\nหรือคลิกเพื่อเลือกไฟล์ — ระบบตรวจ SHA-256 แล้วจำแนกเกม/รุ่นให้อัตโนมัติ\nรองรับ .gba .gbc .gb .sfc .smc .nds .bin\n\nหรือเลือกเกมเองก่อนก็ได้\n▼"
+        }
+      ],
+      "queryHandlers": false,
+      "htmlSha256": "c67e7207ecf0e6a0efbc6f40ab4f262627251e5feed8cb1098d48241479bea44"
+    },
+    {
+      "name": "murphy",
+      "url": "https://murphy-th.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://murphy-th.vercel.app/",
+      "images": [
+        {
+          "url": "https://murphy-th.vercel.app/assets/murphy-mascot.png",
+          "alt": "Murphy-TH แปลเกมที่ชอบ",
+          "loaded": true
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/murphy-mascot.png",
+          "alt": "มาสคอตกระต่าย Murphy-TH แปลเกมที่ชอบ",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/0b11f0f7ef42.png",
+          "alt": "Twilight Syndrome: Kinjiratera Toshi Densetsu",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/cc0fc8a3759c.png",
+          "alt": "AKIRA",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/764d1c569edc.png",
+          "alt": "Silent Hill 2 - Director´s Cut",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/1e8a6b6e9415.png",
+          "alt": "Getsu Fuuma Den",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/3ae4b0f60f62.png",
+          "alt": "Silent Hill 3",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/491e09172d13.png",
+          "alt": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/4fc187b13f0f.png",
+          "alt": "Saint Seiya: Ougon Densetsu",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/7d3a38bccf65.png",
+          "alt": "Silent Hill 4: The Room",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/ddff5f174bf9.png",
+          "alt": "Mighty Final Fight",
+          "loaded": true
+        },
+        {
+          "url": "https://cdn.imgchest.com/files/b54455e04f76.png",
+          "alt": "Silent Hill 1",
+          "loaded": true
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/playstation-logo.webp",
+          "alt": "PlayStation",
+          "loaded": true
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/sh1-screenshot-title.png",
+          "alt": "หน้าชื่อเกม Silent Hill ฉบับภาษาไทย",
+          "loaded": false
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/sh1-screenshot-key.png",
+          "alt": "ข้อความและตัวเลือกภาษาไทยภายในเกม Silent Hill",
+          "loaded": false
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/sh1-screenshot-elevator.png",
+          "alt": "คำบรรยายภาษาไทยระหว่างสำรวจฉาก Silent Hill",
+          "loaded": false
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/sh1-screenshot-inventory.png",
+          "alt": "เมนูอุปกรณ์และรายละเอียดไอเทมภาษาไทยใน Silent Hill",
+          "loaded": false
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/silent-hill-logo.png",
+          "alt": "ไซเลนต์ฮิลล์",
+          "loaded": true
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/murphy-promptpay-qr.jpg",
+          "alt": "QR Code พร้อมเพย์สำหรับสนับสนุน Murphy-TH",
+          "loaded": false
+        },
+        {
+          "url": "",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://murphy-th.vercel.app/assets/murphy-contact-logo.png",
+          "alt": "Murphy-TH แปลเกมที่ชอบ",
+          "loaded": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.facebook.com/profile.php?id=61593089914230",
+          "text": "แจ้งบั๊กผ่าน Facebook"
+        },
+        {
+          "url": "https://www.facebook.com/profile.php?id=61593089914230",
+          "text": "\n                📨 แจ้งปัญหาผ่าน Facebook ↗\n            "
+        }
+      ],
+      "selects": [
+        {
+          "id": "patch-game-select",
+          "value": "",
+          "text": "— เลือกเกม —"
+        },
+        {
+          "id": "patch-select",
+          "value": "sh1-title-mueang-ha-phi",
+          "text": "Silent Hill (USA)_MurphyTH_v1.1 (ไตเติ้ลเมืองห่าผี)"
+        }
+      ],
+      "patchViews": [
+        {
+          "id": "section-patch",
+          "visible": false,
+          "text": "\n            \n                \n                    MURPHY-TH PATCH DATABASE\n                    รวม Patch แปลเกม\n                    เลือกเกมจากรายการด้านล่างเพื่อเปิดหน้ารายละเอียด Patch และระบบติดตั้งแพตช์ของเกมนั้นๆ\n                    เลือกเกมที่ต้องการเปิดหน้า Patch\n                    — เลือกเกม —Mega Man X5 — v1.2Silent Hill 1 — v1.1Silent Hill: Origins — v1.1.1Silent Hill: Play Novel — v1."
+        }
+      ],
+      "queryHandlers": false,
+      "htmlSha256": "0597cc2da073457705a466ccd57814ee27b86e281fde6e44501eaec0c6a1e754"
+    },
+    {
+      "name": "memorycard",
+      "url": "https://memorycardth.com/",
+      "status": 200,
+      "finalUrl": "https://memorycardth.com/",
+      "images": [
+        {
+          "url": "https://memorycardth.com/dl/donate/qr.png",
+          "alt": "PromptPay QR สนับสนุน Memory Card TH",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/Mario%20Kart%20DS_box.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bishi_bashi_special_2.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/charumera_ps1.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/digimon_adv_psp.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dq4.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ffta2_box.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/frlg_box.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/harvestmoonawl_ps2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenriderclimaxheroes_ps2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/magic_knight_rayearth_saturn.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn3.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmx5.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/nfsu2_ps2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/phoenixwright_aa_nds.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ragnarok_ds.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/rune_factory_2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pangya_psp.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/xenogears.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/inazuma1.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bokunatsuyasumi_portable_psp.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/magic_knight_rayearth_saturn.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dokapondx_ps2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/metal_gear_solid.jpg",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/onimusha3_ps2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/onimusha2_ps2.png",
+          "alt": "",
+          "loaded": true
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ff12_izjs_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bishi_bashi_special_2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/narutoaccel2_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dokaponworld_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/resident_evil_directors_cut.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/recvx_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/musashi_ps1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/final_fantasy_9.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/final_fantasy_7.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/final_fantasy_8.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/tokimeki_ps1_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/resident_evil_3_nemesis.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz3_budokai3_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/resident_evil_2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dino_crisis_1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dino_crisis_2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/gow2_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ffx2_international_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz_bt4_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/acww.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/tactics_ogre_kol.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ffx_international_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz_sparking_meteor_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/okami_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/fomt_extended.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bokunatsu2_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/gran_turismo_4_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/nfs_carbon_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/burnout_3_takedown_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/alone_in_the_dark_new_nightmare.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/prince_of_persia_warrior_within_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pkmn_bw.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pkmn_white.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/battlestadiumdon_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/parasite_eve.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/jojos_bizarre_adventure.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/rocket_slime.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/onimusha_warlords_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/onimusha_tactics.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/harvest_moon_ds.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/harvest_moon_ds_cute.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/zelda_twilight_princess_gc.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dq9.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/zelda_ph.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/srt_j.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/zelda_st.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/letsgo_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn6.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn6cg.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/nfsu2_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dqm12_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/harvestmoonawl_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenriderryuki_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn4bm.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn3w.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/fomt_gg.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/taro2_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/sims2_psp.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/srt_og2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dq4.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenriderclimaxheroes_ps2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/legend_of_dragoon.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bloody_roar_2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn5.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn5tp.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/hm_btn_girl_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/racing_lagoon_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenrideragito_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn3.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn4.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/srt_og1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/fomt_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mfomt.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/emerald_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/front_mission_3_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bokunatsuyasumi_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/advance_wars.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/advance_wars2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/beyblade_grev_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ffta2_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/phoenixwright_aa_nds.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenriderkuuga_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/tomba2_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenriderkabuto_ps2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/loveplus_nds.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenriderblade_ps2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/hokuto_no_ken_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/kamenrider555_ps2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/parasite_eve_2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dq5.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dq6.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/charumera_ps1.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ultraman_ps2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dokapon_ps1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/yugioh_mcbb_ps1_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/harvestmoon_leafvalley_psp.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/harvestmoon_boygirl_psp.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/digimon_dcb.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/rune_factory_1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dq12_gbc.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/gashbell_zakeru2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ragnarok_ds.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/castlevania_dos.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/rune_factory_3.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/rune_factory_2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/maplestory_ds.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/lufia_tlr.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/saint_paradise.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmbn1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/medabots_metabee.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/medabots_rokusho.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pkmn_hgss_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pkmn_soulsilver_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/smt2.png",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/frlg_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/leafgreen_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ruby_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ruby_sapphire_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/Pok%C3%A9mon%20Diamond_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/Pok%C3%A9mon%20Pearl_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pkmn_platinum.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/pkmn_crystal_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz_buu_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz_legacy1_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz_legacy2_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmz3.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/zelda_albw.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/zelda_mm3d.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/zelda_oot3d.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmz2.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmz4.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmz1.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/ffta.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmx5.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmx6_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/digimon_adv_psp.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/mmx4_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/hm_btn_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/Mario%20Kart%20DS_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/fe_sacred_stones_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbaa_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/bomberman_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/castlevania_aos_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/digimon_world_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/dbz_ssw_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/covers/minish_cap_box.jpg",
+          "alt": "",
+          "loaded": false
+        },
+        {
+          "url": "https://memorycardth.com/dl/donate/qr.png",
+          "alt": "PromptPay QR",
+          "loaded": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://memorycardth.com/index.html",
+          "text": "🎮Memory Card THTHAI GAME PATCH HUB"
+        },
+        {
+          "url": "https://memorycardth.com/#games",
+          "text": "เลือกเกม"
+        },
+        {
+          "url": "https://memorycardth.com/guide.html",
+          "text": "📖 Guide"
+        },
+        {
+          "url": "https://memorycardth.com/progress.html",
+          "text": "🚧 กำลังทำอยู่"
+        },
+        {
+          "url": "https://memorycardth.com/bug.html",
+          "text": "🐛 แจ้งบั๊ก"
+        },
+        {
+          "url": "https://memorycardth.com/support.html",
+          "text": "❤️ สนับสนุน"
+        },
+        {
+          "url": "https://www.facebook.com/memorycard.th/",
+          "text": "ติดตามเพจ"
+        },
+        {
+          "url": "https://www.facebook.com/memorycard.th/",
+          "text": "📘 Facebook"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCucJJy4cXvc8xOZVWT0HgSg",
+          "text": "▶️ YouTube"
+        },
+        {
+          "url": "https://www.tiktok.com/@memory_card_th",
+          "text": "🎵 TikTok"
+        }
+      ],
+      "selects": [],
+      "patchViews": [],
+      "queryHandlers": false,
+      "htmlSha256": "13ec3b49d8ab9c10e07193e4662a1c150bc1ed5260561021b1ed4620ac719aa8"
+    },
+    {
+      "name": "nongjaa",
+      "url": "https://nongjaa.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://nongjaa.vercel.app/",
+      "images": [
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fassets%2Fhero-v2.webp&w=2048&q=75",
+          "alt": "ห้องเล่นเกมยุค 90",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ffatal_frame_2%2Fcover.webp&w=384&q=80",
+          "alt": "Fatal Frame 2 - Crimson Butterfly",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome_2%2Fcover.webp&w=384&q=80",
+          "alt": "Twilight Syndrome: Kyuumei Hen",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_zero4-champ-rr%2Fcover.webp&w=384&q=80",
+          "alt": "Zero4 Champ RR",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_nage_libre%2Fcover.webp&w=384&q=80",
+          "alt": "Nage Libre",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_rai%2Fcover.webp&w=384&q=80",
+          "alt": "Ginga Sengoku Gunyuuden Rai",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_front_mission%2Fcover.webp&w=384&q=80",
+          "alt": "Front Mission",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fghost_head%2Fghost-head.webp&w=384&q=80",
+          "alt": "Clock Tower - Ghost Head",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome%2Ftwilight_syndrome_cover.webp&w=384&q=80",
+          "alt": "Twilight Syndrome - Tansaku-hen",
+          "loaded": true
+        },
+        {
+          "url": "https://nongjaa.vercel.app/_next/image?url=%2Fassets%2Fmascot.png&w=256&q=75",
+          "alt": "",
+          "loaded": true
+        }
+      ],
+      "links": [
+        {
+          "url": "https://nongjaa.vercel.app/game/ps2-fatal-frame-2",
+          "text": "PS2Fatal Frame 2 - Crimson Butterfly"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/ps-twilight-syndrome-2",
+          "text": "PS1Twilight Syndrome: Kyuumei Hen"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/sfc-zero4-champ-rr",
+          "text": "SFCZero4 Champ RR"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/sfc-nage-libre",
+          "text": "SFCNage Libre"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/sfc-rai",
+          "text": "SFCGinga Sengoku Gunyuuden Rai"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/sfc-front-mission",
+          "text": "SFCFront Mission"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/ps-clock-tower-ghost-head",
+          "text": "PS1Clock Tower - Ghost Head"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/game/ps-twilight-syndrome",
+          "text": "PS1Twilight Syndrome - Tansaku-hen"
+        },
+        {
+          "url": "https://www.facebook.com/nongjaaplaetee/",
+          "text": "fFacebook"
+        },
+        {
+          "url": "https://nongjaa.vercel.app/privacy",
+          "text": "ความเป็นส่วนตัว"
+        }
+      ],
+      "selects": [],
+      "patchViews": [],
+      "queryHandlers": false,
+      "htmlSha256": "dbceafc20cee7f74f6d1b8196f1f511426668ba94270f9c78e1a153e924a3e1f"
+    }
+  ],
+  "assets": [
+    {
+      "platform": "PS1",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Playstation_logo_colour.svg",
+      "decoded": true,
+      "width": 134,
+      "height": 102
+    },
+    {
+      "platform": "PS2",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PlayStation_2_logo.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 89
+    },
+    {
+      "platform": "PS3",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PlayStation_3_Logo.svg",
+      "decoded": true,
+      "width": 630,
+      "height": 134
+    },
+    {
+      "platform": "PSP",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PSP_Logo.svg",
+      "decoded": true,
+      "width": 753,
+      "height": 231
+    },
+    {
+      "platform": "GBA",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Game_Boy_Advance_logo.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 35
+    },
+    {
+      "platform": "GB",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gameboy_logo.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 50
+    },
+    {
+      "platform": "GBC",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Game_Boy_Color_logo.svg",
+      "decoded": true,
+      "width": 577,
+      "height": 236
+    },
+    {
+      "platform": "NDS",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_DS_Logo.svg",
+      "decoded": true,
+      "width": 751,
+      "height": 116
+    },
+    {
+      "platform": "3DS",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_3DS_logo.svg",
+      "decoded": true,
+      "width": 132,
+      "height": 16
+    },
+    {
+      "platform": "SNES",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Super_Nintendo_Entertainment_System_logo.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 86
+    },
+    {
+      "platform": "NES",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NES_logo.svg",
+      "decoded": true,
+      "width": 139,
+      "height": 51
+    },
+    {
+      "platform": "GC",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_GameCube_Official_Logo.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 68
+    },
+    {
+      "platform": "WII",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wii.svg",
+      "decoded": true,
+      "width": 301,
+      "height": 131
+    },
+    {
+      "platform": "WII U",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/WiiU.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 85
+    },
+    {
+      "platform": "SATURN",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sega_Saturn_Black_Logo.svg",
+      "decoded": true,
+      "width": 300,
+      "height": 37
+    }
+  ]
+}

@@ -1,0 +1,3607 @@
+[
+  {
+    "id": "90s-028-01",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku#patch",
+    "kind": "90s",
+    "expectedSlug": "dragon-ball-z-legacy-of-goku",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:15.141Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "default_match_inconclusive",
+    "classificationNote": "Selected option equals the default; equality does not prove query handling."
+  },
+  {
+    "id": "90s-028-02",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku-2#patch",
+    "kind": "90s",
+    "expectedSlug": "dragon-ball-z-legacy-of-goku-2",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:15.149Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku-2#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-03",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-buus-fury#patch",
+    "kind": "90s",
+    "expectedSlug": "dragon-ball-z-buus-fury",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:15.163Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-buus-fury#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-04",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-supersonic-warriors#patch",
+    "kind": "90s",
+    "expectedSlug": "dragon-ball-z-supersonic-warriors",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:19.208Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-supersonic-warriors#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-06",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-gt-transformation#patch",
+    "kind": "90s",
+    "expectedSlug": "dragon-ball-gt-transformation",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:19.240Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-gt-transformation#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-05",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-advanced-adventure#patch",
+    "kind": "90s",
+    "expectedSlug": "dragon-ball-advanced-adventure",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:19.221Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-advanced-adventure#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-07",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+    "kind": "90s",
+    "expectedSlug": "firered-th",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:22.018Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-09",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=emerald-th#patch",
+    "kind": "90s",
+    "expectedSlug": "emerald-th",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:22.888Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=emerald-th#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-08",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-leafgreen#patch",
+    "kind": "90s",
+    "expectedSlug": "pokemon-leafgreen",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:22.874Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=pokemon-leafgreen#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-10",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-yellow#patch",
+    "kind": "90s",
+    "expectedSlug": "pokemon-yellow",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:25.538Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=pokemon-yellow#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-12",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-th#patch",
+    "kind": "90s",
+    "expectedSlug": "naruto-ninja-council-th",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:26.439Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-th#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-11",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-gold#patch",
+    "kind": "90s",
+    "expectedSlug": "pokemon-gold",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:26.425Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=pokemon-gold#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-13",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-2-th#patch",
+    "kind": "90s",
+    "expectedSlug": "naruto-ninja-council-2-th",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:28.584Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-2-th#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-14",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-friends-of-mineral-town-th#patch",
+    "kind": "90s",
+    "expectedSlug": "harvest-moon-friends-of-mineral-town-th",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:29.276Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-friends-of-mineral-town-th#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-15",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-more-friends-of-mineral-town-th#patch",
+    "kind": "90s",
+    "expectedSlug": "harvest-moon-more-friends-of-mineral-town-th",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:29.830Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-more-friends-of-mineral-town-th#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-16",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#patch",
+    "kind": "90s",
+    "expectedSlug": "battle-b-daman",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:31.897Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-17",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#patch",
+    "kind": "90s",
+    "expectedSlug": "battle-b-daman-fire-spirits",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:32.437Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "90s-028-18",
+    "title": "90S Game แปลไทย",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=super-robot-taisen-og#patch",
+    "kind": "90s",
+    "expectedSlug": "super-robot-taisen-og",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:33.189Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://90s-game.pitak2540.workers.dev/?game=super-robot-taisen-og#patch",
+    "selects": [
+      {
+        "id": "pgame",
+        "value": "dragon-ball-z-legacy-of-goku",
+        "selected": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)",
+        "options": [
+          {
+            "value": "dragon-ball-z-legacy-of-goku",
+            "text": "ดราก้อนบอล Z ตำนานโกคู (ต้องใช้ CRC32 D47CCFF4)"
+          },
+          {
+            "value": "dragon-ball-z-legacy-of-goku-2",
+            "text": "ดราก้อนบอล Z ตำนานโกคู 2 (ต้องใช้ CRC32 204142E1)"
+          },
+          {
+            "value": "dragon-ball-z-buus-fury",
+            "text": "ดราก้อนบอล Z ศึกจอมมารบู (ต้องใช้ CRC32 01C1707F)"
+          },
+          {
+            "value": "dragon-ball-z-shin-budokai",
+            "text": "ดราก้อนบอล Z ชินบุโดไก (ต้องใช้ CRC32 5F6807D2)"
+          },
+          {
+            "value": "dragon-ball-z-supersonic-warriors",
+            "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง (ต้องใช้ CRC32 9A857A70)"
+          },
+          {
+            "value": "dragon-ball-advanced-adventure",
+            "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์ (ต้องใช้ CRC32 7D7306DF)"
+          },
+          {
+            "value": "dragon-ball-gt-transformation",
+            "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น (ต้องใช้ CRC32 AD964A91)"
+          },
+          {
+            "value": "firered-th",
+            "text": "โปเกมอน ไฟร์เรด (ต้องใช้ CRC32 DD88761C)"
+          },
+          {
+            "value": "pokemon-leafgreen",
+            "text": "โปเกมอน ลีฟกรีน (ต้องใช้ CRC32 DAFFECEC)"
+          },
+          {
+            "value": "emerald-th",
+            "text": "โปเกมอน เอเมอรัลด์ (ต้องใช้ CRC32 1F1C08FB)"
+          },
+          {
+            "value": "pokemon-yellow",
+            "text": "โปเกมอน เยลโลว์ (สีเหลือง) (ต้องใช้ CRC32 7D527D62)"
+          },
+          {
+            "value": "pokemon-gold",
+            "text": "โปเกมอน โกลด์ (ต้องใช้ CRC32 6BDE3C3E)"
+          },
+          {
+            "value": "pokemon-animon",
+            "text": "โปเกมอน แอนิมอน (ต้องใช้ CRC32 14828424)"
+          },
+          {
+            "value": "harry-potter-sorcerers-stone-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับศิลาอาถรรพ์ (ต้องใช้ CRC32 F755065C)"
+          },
+          {
+            "value": "harry-potter-chamber-of-secrets-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับห้องแห่งความลับ (ต้องใช้ CRC32 342816DB)"
+          },
+          {
+            "value": "harry-potter-prisoner-of-azkaban-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับนักโทษแห่งอัซคาบัน (ต้องใช้ CRC32 C0BCCAAD)"
+          },
+          {
+            "value": "harry-potter-goblet-of-fire-th",
+            "text": "แฮร์รี่ พอตเตอร์ กับถ้วยอัคนี (ต้องใช้ CRC32 052708D7)"
+          },
+          {
+            "value": "harry-potter-quidditch-world-cup-th",
+            "text": "แฮร์รี่ พอตเตอร์ ควิดดิชเวิลด์คัพ (ต้องใช้ CRC32 486041A4)"
+          },
+          {
+            "value": "harry-potter-collection-th",
+            "text": "แฮร์รี่ พอตเตอร์ คอลเลกชัน (ต้องใช้ CRC32 FFA9F4FB)"
+          },
+          {
+            "value": "spider-man",
+            "text": "สไปเดอร์แมน (ต้องใช้ CRC32 406265B8)"
+          },
+          {
+            "value": "spider-man-mysterios-menace",
+            "text": "สไปเดอร์แมน ภัยร้ายมิสเตริโอ (ต้องใช้ CRC32 6E135B4D)"
+          },
+          {
+            "value": "spider-man-2",
+            "text": "สไปเดอร์แมน 2 (ต้องใช้ CRC32 0145F3F4)"
+          },
+          {
+            "value": "spider-man-3",
+            "text": "สไปเดอร์แมน 3 (ต้องใช้ CRC32 AD0228A1)"
+          },
+          {
+            "value": "spider-man-battle-for-new-york-th",
+            "text": "สไปเดอร์แมน ศึกชิงนิวยอร์ก (ต้องใช้ CRC32 6310BA16)"
+          },
+          {
+            "value": "naruto-ninja-council-th",
+            "text": "นารูโตะ นินจาเคาน์ซิล (ต้องใช้ CRC32 C402878C)"
+          },
+          {
+            "value": "naruto-ninja-council-2-th",
+            "text": "นารูโตะ 2 สภานินจา (ต้องใช้ CRC32 94699FCA)"
+          },
+          {
+            "value": "naruto-ultimate-ninja-heroes",
+            "text": "นารูโตะ อัลติเมทนินจาฮีโร่ (ต้องใช้ CRC32 1376CE50)"
+          },
+          {
+            "value": "shrek-2-th",
+            "text": "เชร็ค 2 (ต้องใช้ CRC32 52FF42D4)"
+          },
+          {
+            "value": "shrek-2-beg-for-mercy-th",
+            "text": "เชร็ค 2: ร้องขอความเมตตา (ต้องใช้ CRC32 F1861610)"
+          },
+          {
+            "value": "shrek-the-third-th",
+            "text": "เชร็ค 3 (ต้องใช้ CRC32 D7D1DA8D)"
+          },
+          {
+            "value": "pirates-black-pearl-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน (ต้องใช้ CRC32 8F15BF4C)"
+          },
+          {
+            "value": "pirates-dead-mans-chest-th",
+            "text": "ไพเรทส์ ออฟ เดอะ แคริบเบียน: สงครามปีศาจโจรสลัด (ต้องใช้ CRC32 D1A67BE8)"
+          },
+          {
+            "value": "harvest-moon-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล (ต้องใช้ CRC32 8E923168)"
+          },
+          {
+            "value": "harvest-moon-more-friends-of-mineral-town-th",
+            "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ (ต้องใช้ CRC32 1736B957)"
+          },
+          {
+            "value": "battle-b-daman",
+            "text": "แบทเทิล บี-ดามัน (ต้องใช้ CRC32 6DCE8A26)"
+          },
+          {
+            "value": "battle-b-daman-fire-spirits",
+            "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต! (ต้องใช้ CRC32 5789F441)"
+          },
+          {
+            "value": "one-piece-th",
+            "text": "วันพีซ (ต้องใช้ CRC32 7D2CF2A1)"
+          },
+          {
+            "value": "street-fighter-alpha-3",
+            "text": "สตรีทไฟเตอร์ อัลฟ่า 3 (ต้องใช้ CRC32 80B707C2)"
+          },
+          {
+            "value": "monster-house",
+            "text": "บ้านผีสิง (Monster House) (ต้องใช้ CRC32 148B5072)"
+          },
+          {
+            "value": "super-robot-taisen-og",
+            "text": "ซูเปอร์โรบ็อตไทเซ็น OG (ต้องใช้ CRC32 58E86266)"
+          },
+          {
+            "value": "ninku",
+            "text": "นินคู (ต้องใช้ CRC32 14737DF8)"
+          },
+          {
+            "value": "azito-3",
+            "text": "อาจิโตะ 3 (เกมสร้างฐานลับ) (ต้องใช้ CRC32 04631434)"
+          }
+        ]
+      }
+    ],
+    "slugEvidence": "observed_option",
+    "freshState": "failed_or_unconfirmed"
+  },
+  {
+    "id": "ext-029",
+    "title": "แพตช์เกม — แปลไทยเกมเก่า",
+    "url": "https://retrogamethaisub.pages.dev/patch.html",
+    "kind": "critical",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:35.502Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://retrogamethaisub.pages.dev/patch",
+    "selects": [
+      {
+        "id": "gameSelect",
+        "value": "",
+        "selected": "— ยังไม่ได้เลือก —",
+        "options": [
+          {
+            "value": "",
+            "text": "— ยังไม่ได้เลือก —"
+          },
+          {
+            "value": "bof4",
+            "text": "Breath of Fire IV — ลมหายใจแห่งไฟ IV — ผู้เป็นนิรันดร์"
+          },
+          {
+            "value": "ct3",
+            "text": "Captain Tsubasa III — Koutei no Chousen"
+          },
+          {
+            "value": "ct4",
+            "text": "Captain Tsubasa IV — Pro no Rival Tachi"
+          },
+          {
+            "value": "dbz-ssd",
+            "text": "Dragon Ball Z — Super Saiya Densetsu"
+          },
+          {
+            "value": "dq5",
+            "text": "Dragon Quest V (EN) — Hand of the Heavenly Bride"
+          },
+          {
+            "value": "dq5-jp",
+            "text": "Dragon Quest V (JP) — Tenkuu no Hanayome"
+          },
+          {
+            "value": "dq6snes",
+            "text": "Dragon Quest VI — Maboroshi no Daichi"
+          },
+          {
+            "value": "srwa",
+            "text": "Super Robot Taisen α — ซูเปอร์ โรบอท วอร์ส อัลฟา"
+          },
+          {
+            "value": "tod",
+            "text": "Tales of Destiny — เทลส์ ออฟ เดสทินี"
+          },
+          {
+            "value": "trsaga",
+            "text": "TearRing Saga — Yutona Eiyuu Senki"
+          }
+        ]
+      },
+      {
+        "id": "verSelect",
+        "value": "",
+        "options": []
+      }
+    ],
+    "freshState": "inspect_saved_evidence"
+  },
+  {
+    "id": "ext-002",
+    "title": "Memory Card TH — เลือกเกม แล้วแปะแพตช์ภาษาไทยได้เลย",
+    "url": "https://memorycardth.com/#/Metal%20Gear%20Solid/0",
+    "kind": "critical",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:34.939Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://memorycardth.com/#/Metal%20Gear%20Solid/0",
+    "selects": [],
+    "freshState": "inspect_saved_evidence"
+  },
+  {
+    "id": "ext-030",
+    "title": "แพตช์เกม — แปลไทยเกมเก่า",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=dq5",
+    "kind": "critical",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:36.226Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://retrogamethaisub.pages.dev/patch?game=dq5",
+    "selects": [
+      {
+        "id": "gameSelect",
+        "value": "dq5",
+        "selected": "Dragon Quest V (EN) — Hand of the Heavenly Bride",
+        "options": [
+          {
+            "value": "",
+            "text": "— ยังไม่ได้เลือก —"
+          },
+          {
+            "value": "bof4",
+            "text": "Breath of Fire IV — ลมหายใจแห่งไฟ IV — ผู้เป็นนิรันดร์"
+          },
+          {
+            "value": "ct3",
+            "text": "Captain Tsubasa III — Koutei no Chousen"
+          },
+          {
+            "value": "ct4",
+            "text": "Captain Tsubasa IV — Pro no Rival Tachi"
+          },
+          {
+            "value": "dbz-ssd",
+            "text": "Dragon Ball Z — Super Saiya Densetsu"
+          },
+          {
+            "value": "dq5",
+            "text": "Dragon Quest V (EN) — Hand of the Heavenly Bride"
+          },
+          {
+            "value": "dq5-jp",
+            "text": "Dragon Quest V (JP) — Tenkuu no Hanayome"
+          },
+          {
+            "value": "dq6snes",
+            "text": "Dragon Quest VI — Maboroshi no Daichi"
+          },
+          {
+            "value": "srwa",
+            "text": "Super Robot Taisen α — ซูเปอร์ โรบอท วอร์ส อัลฟา"
+          },
+          {
+            "value": "tod",
+            "text": "Tales of Destiny — เทลส์ ออฟ เดสทินี"
+          },
+          {
+            "value": "trsaga",
+            "text": "TearRing Saga — Yutona Eiyuu Senki"
+          }
+        ]
+      },
+      {
+        "id": "verSelect",
+        "value": "",
+        "options": []
+      }
+    ],
+    "freshState": "inspect_saved_evidence"
+  },
+  {
+    "id": "retro-027-01",
+    "title": "RetroSpective — Thai Game Patch Library",
+    "url": "https://retrospective-patch-library.vercel.app/#games",
+    "kind": "critical",
+    "reason": "requested fresh-navigation QA / unresolved direct-game route",
+    "checkedAt": "2026-10-12T06:57:38.794Z",
+    "errors": [],
+    "httpStatus": 200,
+    "finalUrl": "https://retrospective-patch-library.vercel.app/#games",
+    "selects": [],
+    "freshState": "inspect_saved_evidence"
+  }
+]

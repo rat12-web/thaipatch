@@ -1,0 +1,129 @@
+﻿id,title,sourceUploadedAt,sourceUpdatedAt,state,kind,precision,rawValue,field,source,checkedAt,evidence,reason
+ext-001,Dokapon DX: Wataru Sekai wa Oni Darake,,2026-10-11,verified_source_reported,patch_updated,day,2026-10-11,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-002,Metal Gear Solid,,2026-10-11,verified_source_reported,patch_updated,day,2026-10-11,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-003,Onimusha 3: Demon Siege,,2026-10-11,verified_source_reported,patch_updated,day,2026-10-11,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-004,Pangya: Fantasy Golf,,2026-10-13,verified_source_reported,patch_updated,day,2026-10-13,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-005,Onimusha 2: Samurai’s Destiny,,2026-10-10,verified_source_reported,patch_updated,day,2026-10-10,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-006,Xenogears,,2026-10-13,verified_source_reported,patch_updated,day,2026-10-13,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-007,Final Fantasy XII International Zodiac Job System,,2026-10-10,verified_source_reported,patch_updated,day,2026-10-10,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-008,Bishi Bashi Special 2,,2026-10-10,verified_source_reported,patch_updated,day,2026-10-10,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-009,Naruto Shippuuden: Narutimate Accel 2,,2026-10-09,verified_source_reported,patch_updated,day,2026-10-09,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-010,Dokapon the World,,2026-10-09,verified_source_reported,patch_updated,day,2026-10-09,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-011,Resident Evil Director’s Cut,,2026-10-09,verified_source_reported,patch_updated,day,2026-10-09,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-012,Resident Evil Code: Veronica X,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-013,Brave Fencer Musashi,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-014,Final Fantasy IX,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-015,Final Fantasy VII,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-016,Final Fantasy VIII,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-017,Tokimeki Memorial: Forever with You,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-018,Resident Evil 3: Nemesis,,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-019,Dragon Ball Z 3 (Budokai 3),,2026-10-08,verified_source_reported,patch_updated,day,2026-10-08,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-020,Resident Evil 2,,2026-10-07,verified_source_reported,patch_updated,day,2026-10-07,patch_updated,https://memorycardth.com/dl/_patch/site.json,2026-10-13T11:03:23.379328+00:00,.sync/report.json,
+ext-021,TearRing Saga,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-022,Breath of Fire IV,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-023,Captain Tsubasa IV,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-024,Super Robot Taisen α,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-025,Captain Tsubasa III,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-026,Dragon Quest VI,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-027,Tales of Destiny,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-028,Dragon Ball Z,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-029,Dragon Quest V (JP),,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-030,Dragon Quest V (EN),,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-031,The Legend of Zelda: The Minish Cap,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-032,Onimusha: Warlords,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-033,Final Fantasy Tactics Advance,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-034,Tenchu: Wrath of Heaven,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-035,Resident Evil 4,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-036,Castlevania: Symphony of the Night,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-037,Metroid: Zero Mission,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-038,Harvest Moon: Back to Nature,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+ext-039,Final Fantasy Tactics: The War of the Lions,,2026-09-30T02:14:35.086Z,verified_source_reported,patch_updated,timestamp,2026-09-30T02:14:35.086Z,games[].patchUpdatedAt,https://www.nonplae.com/api/patch-games,2026-10-13T06:08:39.341Z,qa/dates/metadata-nonplae-patch-games.json,
+ext-040,Silent Hill 1,,2026-09-09,verified_source_reported,patch_updated,day,9 กันยายน 2026,updated,https://murphy-th.vercel.app/,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+monster-001,Digimon World Data Squad,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-002,Dragon Force,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-003,Persona,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-004,The Legend of Zelda: The Wind Waker HD,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-005,Persona 2: Innocent Sin,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-006,The Legend of Zelda: Twilight Princess HD,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-007,Kamen Rider Battride War Genesis,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-008,Sengoku Basara 3 Utage,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-009,Crusader of Centy,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-010,Beyond Oasis,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-011,God Hand,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-012,Fire Emblem: Radiant Dawn,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-013,God of War: Chains of Olympus,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-014,7th Dragon 2020,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-016,Dante’s Inferno,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-017,Tactics Ogre: Let Us Cling Together,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-018,Summon Night: Swordcraft Story 3,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-019,Digimon World 2,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-020,Digimon World 3,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-021,Monster Hunter Portable 3rd,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-022,Rogue Galaxy,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-023,Shin Megami Tensei IV,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+monster-024,2nd Super Robot Wars OG,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+retro-201,River City Ransom EX,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+retro-202,Initial D - Another Stage,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+retro-203,Dragon Quest III,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+retro-204,Rudra no Hihou,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-01,Fatal Frame II: Crimson Butterfly,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-02,Twilight Syndrome: Kyuumei Hen,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-03,Zero4 Champ RR,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-04,Nage Libre,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-05,Ginga Sengoku Gunyuuden Rai,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-06,Front Mission,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-07,Clock Tower: Ghost Head,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-nongjaa-08,Twilight Syndrome: Tansaku Hen,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-neengan-01,The Legend of Zelda: Oracle of Ages,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-neengan-02,The Legend of Zelda: Oracle of Seasons,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-neengan-03,The Legend of Zelda: A Link to the Past & Four Swords,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-01,Dragon Ball Z Gaiden: Saiya-jin Zetsumetsu Keikaku,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-02,Dragon Ball Z: Attack of the Saiyans,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-03,Goemon: New Age Shutsudou,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-04,CIMA: The Enemy,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-05,Famicom Jump: Heroes History,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-06,Shaman King: Master of Spirits 2,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-07,Kishin Douji Zenki: Denei Raibu,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-08,Perman: Enban wo Torikaese!!,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-09,Yu Yu Hakusho: Tokubetsu Hen,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-10,Yggdra Union: We'll Never Fight Alone,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-11,Sakigake!! Otoko Juku: Shippuu Ichi Gou Sei,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-h2y-12,Yu Yu Hakusho 4: Makai Touitsu Hen,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+new-play-001,Luminous Arc,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+gayray-001,Emerald Dragon,,2026-10-08,verified_source_reported,patch_updated,day,8 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-002,Super Mario RPG: Legend of the Seven Stars,,2026-10-06,verified_source_reported,patch_updated,day,6 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-003,Super Nazo Puyo: Rulue no Roux,,2026-10-06,verified_source_reported,patch_updated,day,6 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-004,Mobile Suit Z Gundam: Away to the Newtype,,2026-10-02,verified_source_reported,patch_updated,day,2 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-005,Ball Bullet Gun,,2026-10-01,verified_source_reported,patch_updated,day,1 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-006,Mobile Suit Gundam: Cross Dimension 0079,,2026-10-01,verified_source_reported,patch_updated,day,1 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-007,Captain Tsubasa II: Super Striker,,2026-10-12,verified_source_reported,patch_updated,day,12 ต.ค. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+gayray-008,Knights of the Round,,2026-09-27,verified_source_reported,patch_updated,day,27 ก.ย. 2569,updated,https://gayray.pages.dev/games.json,2026-10-13T10:59:59.498834+00:00,.sync/report.json,
+monster-gc-windwaker-confirmed,The Legend of Zelda: The Wind Waker,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+retro-027-01,Pokémon Emerald TH,,2026-09-17,verified_source_reported,patch_updated,day,2026-09-17,GAMES[].updated,https://retrospective-patch-library.vercel.app/data/games.js,2026-10-13T06:05:48.331Z,qa/dates/retro.js,
+retro-027-02,Onimusha Tactics TH,,2026-09-15,verified_source_reported,patch_updated,day,2026-09-15,GAMES[].updated,https://retrospective-patch-library.vercel.app/data/games.js,2026-10-13T06:05:48.331Z,qa/dates/retro.js,
+retro-027-03,Pokémon Quetzal TH,,2026-09-22,verified_source_reported,patch_updated,day,2026-09-22,GAMES[].updated,https://retrospective-patch-library.vercel.app/data/games.js,2026-10-13T06:05:48.331Z,qa/dates/retro.js,
+retro-027-04,Pokémon Radical Red 4.1 TH,,2026-10-02,verified_source_reported,patch_updated,day,2026-10-02,GAMES[].updated,https://retrospective-patch-library.vercel.app/data/games.js,2026-10-13T06:05:48.331Z,qa/dates/retro.js,
+retro-027-05,Tengai Makyou Zero TH,,2026-10-10,verified_source_reported,patch_updated,day,2026-10-10,GAMES[].updated,https://retrospective-patch-library.vercel.app/data/games.js,2026-10-13T06:05:48.331Z,qa/dates/retro.js,
+retro-027-06,Pokémon Emerald Seaglass v3.0 TH,,2026-10-11,verified_source_reported,patch_updated,day,2026-10-11,GAMES[].updated,https://retrospective-patch-library.vercel.app/data/games.js,2026-10-13T06:05:48.331Z,qa/dates/retro.js,
+90s-028-01,Dragon Ball Z: The Legacy of Goku,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-02,Dragon Ball Z: The Legacy of Goku II,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-03,Dragon Ball Z: Buu's Fury,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-04,Dragon Ball Z: Supersonic Warriors,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-05,Dragon Ball: Advanced Adventure,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-06,Dragon Ball GT: Transformation,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-07,Pokémon FireRed,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-08,Pokémon LeafGreen,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-09,Pokémon Emerald,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-10,Pokémon Yellow,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-11,Pokémon Gold,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-12,Naruto: Ninja Council,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-13,Naruto: Ninja Council 2,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-14,Harvest Moon: Friends of Mineral Town,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-15,Harvest Moon: More Friends of Mineral Town,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-16,Battle B-Daman,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-17,Battle B-Daman: Fire Spirits!,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+90s-028-18,Super Robot Taisen OG,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+rommeaow-028-01,Pokémon SoulGold (GBA),,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+rommeaow-028-02,Pokémon Ruby,,,missing,,,,,,,,Source upload/patch date is not exposed in the audited metadata; original date/import date are not used.
+murphy-028-01,Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei,,2026-10-07,verified_source_reported,patch_updated,day,7 ตุลาคม 2569,patchProfiles.rahmen.updated,https://murphy-th.vercel.app/,2026-10-13T06:05:48.723Z,qa/dates/murphy.html,
+murphy-028-02,Saint Seiya: Ougon Densetsu,,2026-10-05,verified_source_reported,patch_updated,day,5 ตุลาคม 2026,patchProfiles.saint-seiya-ougon-densetsu.updated,https://murphy-th.vercel.app/,2026-10-13T06:05:48.723Z,qa/dates/murphy.html,

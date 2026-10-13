@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-13T11:51:13.570019+00:00",
+  "repositoryOnlyBuildCheck": true,
+  "cleanDependencyInstall": true,
+  "workspaceReferencesRequired": false,
+  "browser": "installed Chrome via documented executable override; Linux bundled Chromium CI pending",
+  "checks": {
+    "catalog": {
+      "pass": true,
+      "views": 3
+    },
+    "themes": {
+      "pass": true,
+      "views": 6
+    },
+    "cards": {
+      "pass": true,
+      "views": 6
+    },
+    "dates": {
+      "pass": true,
+      "views": 3
+    },
+    "smoke": {
+      "pass": true,
+      "views": 6
+    }
+  },
+  "vendorAgentsInvoked": false,
+  "secretsScan": "70 public text files checked for credential signatures; no matching executable host paths",
+  "sourceCodeOrigin": "extracted from deployed 6c53fa3 app/core and current template files; no restart",
+  "linuxCI": "pending"
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://rat12-web.github.io/thaipatch/",
+  "live": true,
+  "browser": "154.0.8037.99",
+  "runAt": "2026-10-13T11:08:38.689Z",
+  "views": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "records": 128,
+      "games": 126,
+      "slides": 14,
+      "pass": true,
+      "errors": [],
+      "assetFailures": []
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "records": 128,
+      "games": 126,
+      "slides": 14,
+      "pass": true,
+      "errors": [],
+      "assetFailures": []
+    },
+    {
+      "name": "small-mobile",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "records": 128,
+      "games": 126,
+      "slides": 14,
+      "pass": true,
+      "errors": [],
+      "assetFailures": []
+    }
+  ],
+  "pass": true
+}

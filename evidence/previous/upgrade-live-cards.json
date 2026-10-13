@@ -1,0 +1,569 @@
+{
+  "url": "https://rat12-web.github.io/thaipatch/",
+  "live": true,
+  "runAt": "2026-10-13T11:08:38.726Z",
+  "browser": "154.0.8037.99",
+  "views": [
+    {
+      "theme": "light",
+      "view": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "platforms": [
+        {
+          "platform": "PS1",
+          "color": "rgb(49, 88, 156)",
+          "stripe": "linear-gradient(90deg, rgb(239, 58, 53) 0%, rgb(239, 58, 53) 25%, rgb(246, 190, 24) 25%, rgb(246, 190, 24) 50%, rgb(22, 162, 102) 50%, rgb(22, 162, 102) 75%, rgb(37, 134, 214) 75%, rgb(37, 134, 214) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS2",
+          "color": "rgb(20, 84, 211)",
+          "stripe": "linear-gradient(90deg, rgb(22, 79, 216) 0%, rgb(22, 79, 216) 33.3333%, rgb(73, 155, 255) 33.3333%, rgb(73, 155, 255) 66.6667%, rgb(24, 40, 74) 66.6667%, rgb(24, 40, 74) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS3",
+          "color": "rgb(182, 45, 61)",
+          "stripe": "linear-gradient(90deg, rgb(183, 44, 55) 0%, rgb(183, 44, 55) 33.3333%, rgb(229, 93, 102) 33.3333%, rgb(229, 93, 102) 66.6667%, rgb(63, 60, 69) 66.6667%, rgb(63, 60, 69) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PSP",
+          "color": "rgb(171, 107, 24)",
+          "stripe": "linear-gradient(90deg, rgb(206, 149, 61) 0%, rgb(206, 149, 61) 33.3333%, rgb(64, 70, 87) 33.3333%, rgb(64, 70, 87) 66.6667%, rgb(130, 139, 155) 66.6667%, rgb(130, 139, 155) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GBA",
+          "color": "rgb(107, 66, 217)",
+          "stripe": "linear-gradient(90deg, rgb(99, 64, 175) 0%, rgb(99, 64, 175) 33.3333%, rgb(178, 153, 237) 33.3333%, rgb(178, 153, 237) 66.6667%, rgb(94, 74, 150) 66.6667%, rgb(94, 74, 150) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "NDS",
+          "color": "rgb(99, 120, 143)",
+          "stripe": "linear-gradient(90deg, rgb(83, 104, 122) 0%, rgb(83, 104, 122) 33.3333%, rgb(199, 208, 217) 33.3333%, rgb(199, 208, 217) 66.6667%, rgb(201, 49, 56) 66.6667%, rgb(201, 49, 56) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "3DS",
+          "color": "rgb(196, 39, 53)",
+          "stripe": "linear-gradient(90deg, rgb(206, 41, 53) 0%, rgb(206, 41, 53) 33.3333%, rgb(222, 222, 226) 33.3333%, rgb(222, 222, 226) 66.6667%, rgb(56, 62, 71) 66.6667%, rgb(56, 62, 71) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "SNES",
+          "color": "rgb(125, 93, 184)",
+          "stripe": "linear-gradient(90deg, rgb(117, 73, 152) 0%, rgb(117, 73, 152) 33.3333%, rgb(189, 154, 219) 33.3333%, rgb(189, 154, 219) 66.6667%, rgb(98, 82, 119) 66.6667%, rgb(98, 82, 119) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GC",
+          "color": "rgb(84, 70, 190)",
+          "stripe": "linear-gradient(90deg, rgb(85, 73, 160) 0%, rgb(85, 73, 160) 33.3333%, rgb(169, 158, 233) 33.3333%, rgb(169, 158, 233) 66.6667%, rgb(74, 66, 91) 66.6667%, rgb(74, 66, 91) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "WII",
+          "color": "rgb(41, 138, 160)",
+          "stripe": "linear-gradient(90deg, rgb(40, 155, 177) 0%, rgb(40, 155, 177) 33.3333%, rgb(182, 230, 240) 33.3333%, rgb(182, 230, 240) 66.6667%, rgb(150, 162, 171) 66.6667%, rgb(150, 162, 171) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "WII U",
+          "color": "rgb(31, 130, 197)",
+          "stripe": "linear-gradient(90deg, rgb(21, 139, 204) 0%, rgb(21, 139, 204) 33.3333%, rgb(135, 217, 246) 33.3333%, rgb(135, 217, 246) 66.6667%, rgb(39, 100, 136) 66.6667%, rgb(39, 100, 136) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "SATURN",
+          "color": "rgb(32, 118, 124)",
+          "stripe": "linear-gradient(90deg, rgb(44, 139, 146) 0%, rgb(44, 139, 146) 33.3333%, rgb(117, 224, 214) 33.3333%, rgb(117, 224, 214) 66.6667%, rgb(56, 92, 112) 66.6667%, rgb(56, 92, 112) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GENESIS",
+          "color": "rgb(161, 47, 64)",
+          "stripe": "linear-gradient(90deg, rgb(197, 49, 66) 0%, rgb(197, 49, 66) 33.3333%, rgb(68, 72, 87) 33.3333%, rgb(68, 72, 87) 66.6667%, rgb(149, 157, 166) 66.6667%, rgb(149, 157, 166) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "NES",
+          "color": "rgb(169, 67, 56)",
+          "stripe": "linear-gradient(90deg, rgb(184, 66, 55) 0%, rgb(184, 66, 55) 33.3333%, rgb(197, 201, 204) 33.3333%, rgb(197, 201, 204) 66.6667%, rgb(87, 92, 98) 66.6667%, rgb(87, 92, 98) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GBC",
+          "color": "rgb(78, 122, 75)",
+          "stripe": "linear-gradient(90deg, rgb(223, 74, 137) 0%, rgb(223, 74, 137) 25%, rgb(133, 84, 200) 25%, rgb(133, 84, 200) 50%, rgb(66, 157, 204) 50%, rgb(66, 157, 204) 75%, rgb(96, 173, 88) 75%, rgb(96, 173, 88) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GB",
+          "color": "rgb(88, 107, 80)",
+          "stripe": "linear-gradient(90deg, rgb(101, 118, 80) 0%, rgb(101, 118, 80) 33.3333%, rgb(183, 195, 145) 33.3333%, rgb(183, 195, 145) 66.6667%, rgb(74, 85, 64) 66.6667%, rgb(74, 85, 64) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        }
+      ],
+      "logosUpperRightCover": true,
+      "integratedConsoleDock": true,
+      "teamLowerLeft": true,
+      "frameColorOnHover": true,
+      "gbaPurple": true,
+      "teamLoadVisible": true,
+      "logoErrorPreservesArt": true,
+      "coverFallback": true,
+      "neutralChooser": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "theme": "light",
+      "view": "mobile",
+      "width": 390,
+      "height": 844,
+      "platforms": [
+        {
+          "platform": "GBA",
+          "color": "rgb(107, 66, 217)",
+          "stripe": "linear-gradient(90deg, rgb(99, 64, 175) 0%, rgb(99, 64, 175) 33.3333%, rgb(178, 153, 237) 33.3333%, rgb(178, 153, 237) 66.6667%, rgb(94, 74, 150) 66.6667%, rgb(94, 74, 150) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS1",
+          "color": "rgb(49, 88, 156)",
+          "stripe": "linear-gradient(90deg, rgb(239, 58, 53) 0%, rgb(239, 58, 53) 25%, rgb(246, 190, 24) 25%, rgb(246, 190, 24) 50%, rgb(22, 162, 102) 50%, rgb(22, 162, 102) 75%, rgb(37, 134, 214) 75%, rgb(37, 134, 214) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GENESIS",
+          "color": "rgb(161, 47, 64)",
+          "stripe": "linear-gradient(90deg, rgb(197, 49, 66) 0%, rgb(197, 49, 66) 33.3333%, rgb(68, 72, 87) 33.3333%, rgb(68, 72, 87) 66.6667%, rgb(149, 157, 166) 66.6667%, rgb(149, 157, 166) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        }
+      ],
+      "logosUpperRightCover": true,
+      "integratedConsoleDock": true,
+      "teamLowerLeft": true,
+      "frameColorOnHover": true,
+      "gbaPurple": true,
+      "teamLoadVisible": true,
+      "logoErrorPreservesArt": true,
+      "coverFallback": true,
+      "neutralChooser": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "theme": "light",
+      "view": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "platforms": [
+        {
+          "platform": "GBA",
+          "color": "rgb(107, 66, 217)",
+          "stripe": "linear-gradient(90deg, rgb(99, 64, 175) 0%, rgb(99, 64, 175) 33.3333%, rgb(178, 153, 237) 33.3333%, rgb(178, 153, 237) 66.6667%, rgb(94, 74, 150) 66.6667%, rgb(94, 74, 150) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS1",
+          "color": "rgb(49, 88, 156)",
+          "stripe": "linear-gradient(90deg, rgb(239, 58, 53) 0%, rgb(239, 58, 53) 25%, rgb(246, 190, 24) 25%, rgb(246, 190, 24) 50%, rgb(22, 162, 102) 50%, rgb(22, 162, 102) 75%, rgb(37, 134, 214) 75%, rgb(37, 134, 214) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GENESIS",
+          "color": "rgb(161, 47, 64)",
+          "stripe": "linear-gradient(90deg, rgb(197, 49, 66) 0%, rgb(197, 49, 66) 33.3333%, rgb(68, 72, 87) 33.3333%, rgb(68, 72, 87) 66.6667%, rgb(149, 157, 166) 66.6667%, rgb(149, 157, 166) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        }
+      ],
+      "logosUpperRightCover": true,
+      "integratedConsoleDock": true,
+      "teamLowerLeft": true,
+      "frameColorOnHover": true,
+      "gbaPurple": true,
+      "teamLoadVisible": true,
+      "logoErrorPreservesArt": true,
+      "coverFallback": true,
+      "neutralChooser": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "theme": "dark",
+      "view": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "platforms": [
+        {
+          "platform": "PS1",
+          "color": "rgb(106, 143, 202)",
+          "stripe": "linear-gradient(90deg, rgb(239, 58, 53) 0%, rgb(239, 58, 53) 25%, rgb(246, 190, 24) 25%, rgb(246, 190, 24) 50%, rgb(22, 162, 102) 50%, rgb(22, 162, 102) 75%, rgb(37, 134, 214) 75%, rgb(37, 134, 214) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS2",
+          "color": "rgb(73, 178, 255)",
+          "stripe": "linear-gradient(90deg, rgb(22, 79, 216) 0%, rgb(22, 79, 216) 33.3333%, rgb(73, 155, 255) 33.3333%, rgb(73, 155, 255) 66.6667%, rgb(24, 40, 74) 66.6667%, rgb(24, 40, 74) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS3",
+          "color": "rgb(255, 128, 128)",
+          "stripe": "linear-gradient(90deg, rgb(183, 44, 55) 0%, rgb(183, 44, 55) 33.3333%, rgb(229, 93, 102) 33.3333%, rgb(229, 93, 102) 66.6667%, rgb(63, 60, 69) 66.6667%, rgb(63, 60, 69) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PSP",
+          "color": "rgb(231, 178, 108)",
+          "stripe": "linear-gradient(90deg, rgb(206, 149, 61) 0%, rgb(206, 149, 61) 33.3333%, rgb(64, 70, 87) 33.3333%, rgb(64, 70, 87) 66.6667%, rgb(130, 139, 155) 66.6667%, rgb(130, 139, 155) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GBA",
+          "color": "rgb(169, 132, 255)",
+          "stripe": "linear-gradient(90deg, rgb(99, 64, 175) 0%, rgb(99, 64, 175) 33.3333%, rgb(178, 153, 237) 33.3333%, rgb(178, 153, 237) 66.6667%, rgb(94, 74, 150) 66.6667%, rgb(94, 74, 150) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "NDS",
+          "color": "rgb(168, 184, 200)",
+          "stripe": "linear-gradient(90deg, rgb(83, 104, 122) 0%, rgb(83, 104, 122) 33.3333%, rgb(199, 208, 217) 33.3333%, rgb(199, 208, 217) 66.6667%, rgb(201, 49, 56) 66.6667%, rgb(201, 49, 56) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "3DS",
+          "color": "rgb(255, 122, 135)",
+          "stripe": "linear-gradient(90deg, rgb(206, 41, 53) 0%, rgb(206, 41, 53) 33.3333%, rgb(222, 222, 226) 33.3333%, rgb(222, 222, 226) 66.6667%, rgb(56, 62, 71) 66.6667%, rgb(56, 62, 71) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "SNES",
+          "color": "rgb(202, 176, 255)",
+          "stripe": "linear-gradient(90deg, rgb(117, 73, 152) 0%, rgb(117, 73, 152) 33.3333%, rgb(189, 154, 219) 33.3333%, rgb(189, 154, 219) 66.6667%, rgb(98, 82, 119) 66.6667%, rgb(98, 82, 119) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GC",
+          "color": "rgb(141, 131, 255)",
+          "stripe": "linear-gradient(90deg, rgb(85, 73, 160) 0%, rgb(85, 73, 160) 33.3333%, rgb(169, 158, 233) 33.3333%, rgb(169, 158, 233) 66.6667%, rgb(74, 66, 91) 66.6667%, rgb(74, 66, 91) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "WII",
+          "color": "rgb(123, 216, 232)",
+          "stripe": "linear-gradient(90deg, rgb(40, 155, 177) 0%, rgb(40, 155, 177) 33.3333%, rgb(182, 230, 240) 33.3333%, rgb(182, 230, 240) 66.6667%, rgb(150, 162, 171) 66.6667%, rgb(150, 162, 171) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "WII U",
+          "color": "rgb(115, 211, 255)",
+          "stripe": "linear-gradient(90deg, rgb(21, 139, 204) 0%, rgb(21, 139, 204) 33.3333%, rgb(135, 217, 246) 33.3333%, rgb(135, 217, 246) 66.6667%, rgb(39, 100, 136) 66.6667%, rgb(39, 100, 136) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "SATURN",
+          "color": "rgb(111, 216, 213)",
+          "stripe": "linear-gradient(90deg, rgb(44, 139, 146) 0%, rgb(44, 139, 146) 33.3333%, rgb(117, 224, 214) 33.3333%, rgb(117, 224, 214) 66.6667%, rgb(56, 92, 112) 66.6667%, rgb(56, 92, 112) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GENESIS",
+          "color": "rgb(223, 119, 128)",
+          "stripe": "linear-gradient(90deg, rgb(197, 49, 66) 0%, rgb(197, 49, 66) 33.3333%, rgb(68, 72, 87) 33.3333%, rgb(68, 72, 87) 66.6667%, rgb(149, 157, 166) 66.6667%, rgb(149, 157, 166) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "NES",
+          "color": "rgb(231, 144, 123)",
+          "stripe": "linear-gradient(90deg, rgb(184, 66, 55) 0%, rgb(184, 66, 55) 33.3333%, rgb(197, 201, 204) 33.3333%, rgb(197, 201, 204) 66.6667%, rgb(87, 92, 98) 66.6667%, rgb(87, 92, 98) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GBC",
+          "color": "rgb(157, 204, 132)",
+          "stripe": "linear-gradient(90deg, rgb(223, 74, 137) 0%, rgb(223, 74, 137) 25%, rgb(133, 84, 200) 25%, rgb(133, 84, 200) 50%, rgb(66, 157, 204) 50%, rgb(66, 157, 204) 75%, rgb(96, 173, 88) 75%, rgb(96, 173, 88) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GB",
+          "color": "rgb(181, 199, 160)",
+          "stripe": "linear-gradient(90deg, rgb(101, 118, 80) 0%, rgb(101, 118, 80) 33.3333%, rgb(183, 195, 145) 33.3333%, rgb(183, 195, 145) 66.6667%, rgb(74, 85, 64) 66.6667%, rgb(74, 85, 64) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        }
+      ],
+      "logosUpperRightCover": true,
+      "integratedConsoleDock": true,
+      "teamLowerLeft": true,
+      "frameColorOnHover": true,
+      "gbaPurple": true,
+      "teamLoadVisible": true,
+      "logoErrorPreservesArt": true,
+      "coverFallback": true,
+      "neutralChooser": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "theme": "dark",
+      "view": "mobile",
+      "width": 390,
+      "height": 844,
+      "platforms": [
+        {
+          "platform": "GBA",
+          "color": "rgb(169, 132, 255)",
+          "stripe": "linear-gradient(90deg, rgb(99, 64, 175) 0%, rgb(99, 64, 175) 33.3333%, rgb(178, 153, 237) 33.3333%, rgb(178, 153, 237) 66.6667%, rgb(94, 74, 150) 66.6667%, rgb(94, 74, 150) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS1",
+          "color": "rgb(106, 143, 202)",
+          "stripe": "linear-gradient(90deg, rgb(239, 58, 53) 0%, rgb(239, 58, 53) 25%, rgb(246, 190, 24) 25%, rgb(246, 190, 24) 50%, rgb(22, 162, 102) 50%, rgb(22, 162, 102) 75%, rgb(37, 134, 214) 75%, rgb(37, 134, 214) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GENESIS",
+          "color": "rgb(223, 119, 128)",
+          "stripe": "linear-gradient(90deg, rgb(197, 49, 66) 0%, rgb(197, 49, 66) 33.3333%, rgb(68, 72, 87) 33.3333%, rgb(68, 72, 87) 66.6667%, rgb(149, 157, 166) 66.6667%, rgb(149, 157, 166) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        }
+      ],
+      "logosUpperRightCover": true,
+      "integratedConsoleDock": true,
+      "teamLowerLeft": true,
+      "frameColorOnHover": true,
+      "gbaPurple": true,
+      "teamLoadVisible": true,
+      "logoErrorPreservesArt": true,
+      "coverFallback": true,
+      "neutralChooser": true,
+      "pass": true,
+      "errors": []
+    },
+    {
+      "theme": "dark",
+      "view": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "platforms": [
+        {
+          "platform": "GBA",
+          "color": "rgb(169, 132, 255)",
+          "stripe": "linear-gradient(90deg, rgb(99, 64, 175) 0%, rgb(99, 64, 175) 33.3333%, rgb(178, 153, 237) 33.3333%, rgb(178, 153, 237) 66.6667%, rgb(94, 74, 150) 66.6667%, rgb(94, 74, 150) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "PS1",
+          "color": "rgb(106, 143, 202)",
+          "stripe": "linear-gradient(90deg, rgb(239, 58, 53) 0%, rgb(239, 58, 53) 25%, rgb(246, 190, 24) 25%, rgb(246, 190, 24) 50%, rgb(22, 162, 102) 50%, rgb(22, 162, 102) 75%, rgb(37, 134, 214) 75%, rgb(37, 134, 214) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        },
+        {
+          "platform": "GENESIS",
+          "color": "rgb(223, 119, 128)",
+          "stripe": "linear-gradient(90deg, rgb(197, 49, 66) 0%, rgb(197, 49, 66) 33.3333%, rgb(68, 72, 87) 33.3333%, rgb(68, 72, 87) 66.6667%, rgb(149, 157, 166) 66.6667%, rgb(149, 157, 166) 100%)",
+          "offset": {
+            "right": 0,
+            "top": 0
+          },
+          "integratedDock": true
+        }
+      ],
+      "logosUpperRightCover": true,
+      "integratedConsoleDock": true,
+      "teamLowerLeft": true,
+      "frameColorOnHover": true,
+      "gbaPurple": true,
+      "teamLoadVisible": true,
+      "logoErrorPreservesArt": true,
+      "coverFallback": true,
+      "neutralChooser": true,
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "pass": true,
+  "nativePatchClick": {
+    "url": "https://rommeaow.com/#patch",
+    "patchLabVisible": true,
+    "gameAutoSelected": false,
+    "gameIdentification": "source detects the user ROM or allows manual choice"
+  }
+}

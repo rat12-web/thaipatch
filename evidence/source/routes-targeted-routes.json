@@ -1,0 +1,526 @@
+[
+  {
+    "id": "90s-028-01",
+    "title": "Dragon Ball Z: The Legacy of Goku",
+    "kind": "source_card_text_fragment",
+    "targetText": "ดราก้อนบอล Z ตำนานโกคู",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%81%E0%B8%84%E0%B8%B9",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku#patch",
+    "checkedAt": "2026-10-12T07:55:35.985Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ดราก้อนบอล Z ตำนานโกคู",
+        "top": 455.328125,
+        "bottom": 494.328125,
+        "visible": true
+      },
+      {
+        "text": "ดราก้อนบอล Z ตำนานโกคู 2",
+        "top": 455.34375,
+        "bottom": 494.34375,
+        "visible": true
+      }
+    ],
+    "scrollY": 510,
+    "verified": true
+  },
+  {
+    "id": "retro-203",
+    "title": "Dragon Quest III",
+    "kind": "source_card_text_fragment",
+    "targetText": "Dragon Quest III",
+    "selector": "button",
+    "url": "https://maewdamthaisub.aechankiminoto.chatgpt.site/#games:~:text=Dragon%20Quest%20III",
+    "priorUrl": "https://maewdamthaisub.aechankiminoto.chatgpt.site/#games",
+    "checkedAt": "2026-10-12T07:55:35.942Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "พร้อมใช้งานDragon Quest IIISFCแพตช์ภาษาไทยV1.0",
+        "top": 203.703125,
+        "bottom": 570.40625,
+        "visible": true
+      }
+    ],
+    "scrollY": 1049,
+    "verified": true
+  },
+  {
+    "id": "ext-040",
+    "title": "Silent Hill 1",
+    "kind": "source_card_text_fragment",
+    "targetText": "Silent Hill 1",
+    "selector": ".game-card__title",
+    "url": "https://murphy-th.vercel.app/#:~:text=Silent%20Hill%201",
+    "priorUrl": "https://murphy-th.vercel.app/",
+    "checkedAt": "2026-10-12T07:55:35.555Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "Silent Hill 1",
+        "top": 448.875,
+        "bottom": 473.671875,
+        "visible": true
+      }
+    ],
+    "scrollY": 709,
+    "verified": true
+  },
+  {
+    "id": "90s-028-02",
+    "title": "Dragon Ball Z: The Legacy of Goku II",
+    "kind": "source_card_text_fragment",
+    "targetText": "ดราก้อนบอล Z ตำนานโกคู 2",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku-2#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%81%E0%B8%84%E0%B8%B9%202",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-legacy-of-goku-2#patch",
+    "checkedAt": "2026-10-12T07:55:55.584Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ดราก้อนบอล Z ตำนานโกคู 2",
+        "top": 455.34375,
+        "bottom": 494.34375,
+        "visible": true
+      }
+    ],
+    "scrollY": 510,
+    "verified": true
+  },
+  {
+    "id": "90s-028-04",
+    "title": "Dragon Ball Z: Supersonic Warriors",
+    "kind": "source_card_text_fragment",
+    "targetText": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-supersonic-warriors#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-supersonic-warriors#patch",
+    "checkedAt": "2026-10-12T07:56:02.002Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ดราก้อนบอล Z ศึกนักรบเหนือเสียง",
+        "top": 455.34375,
+        "bottom": 494.34375,
+        "visible": true
+      }
+    ],
+    "scrollY": 510,
+    "verified": true
+  },
+  {
+    "id": "90s-028-03",
+    "title": "Dragon Ball Z: Buu's Fury",
+    "kind": "source_card_text_fragment",
+    "targetText": "ดราก้อนบอล Z ศึกจอมมารบู",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-buus-fury#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20Z%20%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B9",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-z-buus-fury#patch",
+    "checkedAt": "2026-10-12T07:56:01.495Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ดราก้อนบอล Z ศึกจอมมารบู",
+        "top": 455.34375,
+        "bottom": 494.34375,
+        "visible": true
+      }
+    ],
+    "scrollY": 510,
+    "verified": true
+  },
+  {
+    "id": "90s-028-05",
+    "title": "Dragon Ball: Advanced Adventure",
+    "kind": "source_card_text_fragment",
+    "targetText": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-advanced-adventure#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20%E0%B9%81%E0%B8%AD%E0%B8%94%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%8B%E0%B9%8C%20%E0%B9%81%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-advanced-adventure#patch",
+    "checkedAt": "2026-10-12T07:56:07.944Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ดราก้อนบอล แอดวานซ์ แอดเวนเจอร์",
+        "top": 450.34375,
+        "bottom": 508.84375,
+        "visible": true
+      }
+    ],
+    "scrollY": 510,
+    "verified": true
+  },
+  {
+    "id": "90s-028-06",
+    "title": "Dragon Ball GT: Transformation",
+    "kind": "source_card_text_fragment",
+    "targetText": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-gt-transformation#games:~:text=%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%A5%20%E0%B8%88%E0%B8%B5%E0%B8%97%E0%B8%B5%20%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B9%8C%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=dragon-ball-gt-transformation#patch",
+    "checkedAt": "2026-10-12T07:56:08.252Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ดราก้อนบอล จีที ทรานส์ฟอร์เมชั่น",
+        "top": 450.53125,
+        "bottom": 489.53125,
+        "visible": true
+      }
+    ],
+    "scrollY": 735,
+    "verified": true
+  },
+  {
+    "id": "90s-028-07",
+    "title": "Pokémon FireRed",
+    "kind": "source_card_text_fragment",
+    "targetText": "โปเกมอน ไฟร์เรด",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%84%E0%B8%9F%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A3%E0%B8%94",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+    "checkedAt": "2026-10-12T07:56:09.062Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "โปเกมอน ไฟร์เรด",
+        "top": 450.609375,
+        "bottom": 470.109375,
+        "visible": true
+      }
+    ],
+    "scrollY": 1001,
+    "verified": true,
+    "patchSelected": "dragon-ball-z-legacy-of-goku"
+  },
+  {
+    "id": "90s-028-08",
+    "title": "Pokémon LeafGreen",
+    "kind": "source_card_text_fragment",
+    "targetText": "โปเกมอน ลีฟกรีน",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-leafgreen#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B8%A5%E0%B8%B5%E0%B8%9F%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=pokemon-leafgreen#patch",
+    "checkedAt": "2026-10-12T07:56:14.382Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "โปเกมอน ลีฟกรีน",
+        "top": 431.125,
+        "bottom": 450.625,
+        "visible": true
+      }
+    ],
+    "scrollY": 1006,
+    "verified": true
+  },
+  {
+    "id": "90s-028-09",
+    "title": "Pokémon Emerald",
+    "kind": "source_card_text_fragment",
+    "targetText": "โปเกมอน เอเมอรัลด์",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=emerald-th#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%A5%E0%B8%94%E0%B9%8C",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=emerald-th#patch",
+    "checkedAt": "2026-10-12T07:56:14.551Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "โปเกมอน เอเมอรัลด์",
+        "top": 431.125,
+        "bottom": 450.625,
+        "visible": true
+      }
+    ],
+    "scrollY": 1006,
+    "verified": true
+  },
+  {
+    "id": "90s-028-10",
+    "title": "Pokémon Yellow",
+    "kind": "source_card_text_fragment",
+    "targetText": "โปเกมอน เยลโลว์ (สีเหลือง)",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-yellow#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%80%E0%B8%A2%E0%B8%A5%E0%B9%82%E0%B8%A5%E0%B8%A7%E0%B9%8C%20(%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87)",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=pokemon-yellow#patch",
+    "checkedAt": "2026-10-12T07:56:19.464Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "โปเกมอน เยลโลว์ (สีเหลือง)",
+        "top": 450.609375,
+        "bottom": 489.609375,
+        "visible": true
+      }
+    ],
+    "scrollY": 1001,
+    "verified": true
+  },
+  {
+    "id": "90s-028-11",
+    "title": "Pokémon Gold",
+    "kind": "source_card_text_fragment",
+    "targetText": "โปเกมอน โกลด์",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=pokemon-gold#games:~:text=%E0%B9%82%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AD%E0%B8%99%20%E0%B9%82%E0%B8%81%E0%B8%A5%E0%B8%94%E0%B9%8C",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=pokemon-gold#patch",
+    "checkedAt": "2026-10-12T07:56:20.425Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "โปเกมอน โกลด์",
+        "top": 431.125,
+        "bottom": 450.625,
+        "visible": true
+      }
+    ],
+    "scrollY": 1006,
+    "verified": true
+  },
+  {
+    "id": "90s-028-12",
+    "title": "Naruto: Ninja Council",
+    "kind": "source_card_text_fragment",
+    "targetText": "นารูโตะ นินจาเคาน์ซิล",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-th#games:~:text=%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%95%E0%B8%B0%20%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B8%B2%E0%B8%99%E0%B9%8C%E0%B8%8B%E0%B8%B4%E0%B8%A5",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-th#patch",
+    "checkedAt": "2026-10-12T07:56:24.477Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "นารูโตะ นินจาเคาน์ซิล",
+        "top": 450.875,
+        "bottom": 470.375,
+        "visible": true
+      }
+    ],
+    "scrollY": 1799,
+    "verified": true
+  },
+  {
+    "id": "90s-028-13",
+    "title": "Naruto: Ninja Council 2",
+    "kind": "source_card_text_fragment",
+    "targetText": "นารูโตะ 2 สภานินจา",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-2-th#games:~:text=%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%95%E0%B8%B0%202%20%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B2",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=naruto-ninja-council-2-th#patch",
+    "checkedAt": "2026-10-12T07:56:26.064Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "นารูโตะ 2 สภานินจา",
+        "top": 450.390625,
+        "bottom": 469.890625,
+        "visible": true
+      }
+    ],
+    "scrollY": 1780,
+    "verified": true
+  },
+  {
+    "id": "90s-028-14",
+    "title": "Harvest Moon: Friends of Mineral Town",
+    "kind": "source_card_text_fragment",
+    "targetText": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-friends-of-mineral-town-th#games:~:text=%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A7%E0%B8%AA%E0%B8%95%E0%B9%8C%E0%B8%A1%E0%B8%B9%E0%B8%99%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B4%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%A5",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-friends-of-mineral-town-th#patch",
+    "checkedAt": "2026-10-12T07:56:26.222Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล",
+        "top": 451.15625,
+        "bottom": 490.15625,
+        "visible": true
+      },
+      {
+        "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ",
+        "top": 451.171875,
+        "bottom": 490.171875,
+        "visible": true
+      }
+    ],
+    "scrollY": 2602,
+    "verified": true
+  },
+  {
+    "id": "90s-028-15",
+    "title": "Harvest Moon: More Friends of Mineral Town",
+    "kind": "source_card_text_fragment",
+    "targetText": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-more-friends-of-mineral-town-th#games:~:text=%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A7%E0%B8%AA%E0%B8%95%E0%B9%8C%E0%B8%A1%E0%B8%B9%E0%B8%99%20%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B4%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%A5%20%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=harvest-moon-more-friends-of-mineral-town-th#patch",
+    "checkedAt": "2026-10-12T07:56:30.545Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ฮาร์เวสต์มูน เพื่อนรักเมืองมิเนอรัล ภาคพิเศษ",
+        "top": 450.671875,
+        "bottom": 509.171875,
+        "visible": true
+      }
+    ],
+    "scrollY": 2622,
+    "verified": true
+  },
+  {
+    "id": "90s-028-16",
+    "title": "Battle B-Daman",
+    "kind": "source_card_text_fragment",
+    "targetText": "แบทเทิล บี-ดามัน",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#games:~:text=%E0%B9%81%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A5%20%E0%B8%9A%E0%B8%B5-%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#patch",
+    "checkedAt": "2026-10-12T07:56:31.175Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "แบทเทิล บี-ดามัน",
+        "top": 2611.25,
+        "bottom": 2630.75,
+        "visible": false
+      },
+      {
+        "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+        "top": 2611.265625,
+        "bottom": 2650.265625,
+        "visible": false
+      }
+    ],
+    "scrollY": 742,
+    "verified": false
+  },
+  {
+    "id": "90s-028-17",
+    "title": "Battle B-Daman: Fire Spirits!",
+    "kind": "source_card_text_fragment",
+    "targetText": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#games:~:text=%E0%B9%81%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A5%20%E0%B8%9A%E0%B8%B5-%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99%20%E0%B9%84%E0%B8%9F%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%95!",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#patch",
+    "checkedAt": "2026-10-12T07:56:31.364Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+        "top": 2611.265625,
+        "bottom": 2650.265625,
+        "visible": false
+      }
+    ],
+    "scrollY": 742,
+    "verified": false
+  },
+  {
+    "id": "90s-028-18",
+    "title": "Super Robot Taisen OG",
+    "kind": "source_card_text_fragment",
+    "targetText": "ซูเปอร์โรบ็อตไทเซ็น OG",
+    "selector": "#shelf .tile b",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=super-robot-taisen-og#games:~:text=%E0%B8%8B%E0%B8%B9%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%A3%E0%B8%9A%E0%B9%87%E0%B8%AD%E0%B8%95%E0%B9%84%E0%B8%97%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%20OG",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=super-robot-taisen-og#patch",
+    "checkedAt": "2026-10-12T07:56:36.090Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "ซูเปอร์โรบ็อตไทเซ็น OG",
+        "top": 450.34375,
+        "bottom": 469.84375,
+        "visible": true
+      }
+    ],
+    "scrollY": 3135,
+    "verified": true
+  },
+  {
+    "id": "rommeaow-028-02",
+    "title": "Pokémon Ruby",
+    "kind": "source_card_text_fragment",
+    "targetText": "Pokémon Ruby (GBA) v1.9",
+    "selector": "h3",
+    "url": "https://rommeaow.com/#home:~:text=Pok%C3%A9mon%20Ruby%20(GBA)%20v1.9",
+    "priorUrl": "https://rommeaow.com/",
+    "checkedAt": "2026-10-12T07:56:36.832Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "Pokémon Ruby (GBA) v1.9 — ภาษาไทยเต็มรูปแบบ",
+        "top": 449.859375,
+        "bottom": 491.703125,
+        "visible": true
+      }
+    ],
+    "scrollY": 431,
+    "verified": true
+  },
+  {
+    "id": "rommeaow-028-01",
+    "title": "Pokémon SoulGold (GBA)",
+    "kind": "source_card_text_fragment",
+    "targetText": "Pokémon SoulGold (GBA) v1.0.4.5-rm1",
+    "selector": "h3",
+    "url": "https://rommeaow.com/#home:~:text=Pok%C3%A9mon%20SoulGold%20(GBA)%20v1.0.4.5-rm1",
+    "priorUrl": "https://rommeaow.com/",
+    "checkedAt": "2026-10-12T07:56:36.602Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "Pokémon SoulGold (GBA) v1.0.4.5-rm1",
+        "top": 594.0625,
+        "bottom": 614.984375,
+        "visible": true
+      }
+    ],
+    "scrollY": 0,
+    "verified": true
+  },
+  {
+    "id": "murphy-028-02",
+    "title": "Saint Seiya: Ougon Densetsu",
+    "kind": "source_card_text_fragment",
+    "targetText": "Saint Seiya: Ougon Densetsu",
+    "selector": ".game-card__title",
+    "url": "https://murphy-th.vercel.app/#:~:text=Saint%20Seiya%3A%20Ougon%20Densetsu",
+    "priorUrl": "https://murphy-th.vercel.app/",
+    "checkedAt": "2026-10-12T07:56:42.273Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "Saint Seiya: Ougon Densetsu",
+        "top": 1157.875,
+        "bottom": 1182.671875,
+        "visible": false
+      }
+    ],
+    "scrollY": 0,
+    "verified": false
+  },
+  {
+    "id": "murphy-028-01",
+    "title": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+    "kind": "source_card_text_fragment",
+    "targetText": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+    "selector": ".game-card__title",
+    "url": "https://murphy-th.vercel.app/#:~:text=Tatakae!!%20Rahmen%20Man%20-%20Sakuretsu%20Choujin%20102%20Gei",
+    "priorUrl": "https://murphy-th.vercel.app/",
+    "checkedAt": "2026-10-12T07:56:40.505Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+        "top": 1157.875,
+        "bottom": 1207.46875,
+        "visible": false
+      }
+    ],
+    "scrollY": 0,
+    "verified": false,
+    "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n"
+  }
+]

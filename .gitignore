@@ -1,2 +1,7 @@
 __pycache__/
 public/
+node_modules/
+qa/
+.env
+.env.*
+*.log

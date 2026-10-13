@@ -1,0 +1,129 @@
+[
+  {
+    "team": "Monster แปล",
+    "url": "https://monster-plae.pages.dev/assets/logo-v2.png?v=1",
+    "verification": "on_site_logo",
+    "source": "creator_website",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "Happy2you.net",
+    "url": "https://retro-trans.h2y.workers.dev/images/home/h2yava1b.png",
+    "verification": "on_site_team_avatar",
+    "source": "creator_website",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "เกเรแปลไทย",
+    "url": "https://gayray.pages.dev/images/Profile.png",
+    "verification": "on_site_profile_image",
+    "source": "creator_website",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "หนีงานมาแปล",
+    "url": "https://neenganmaplae.spiwsiri.workers.dev/assets/neenganmaplae.svg",
+    "verification": "on_site_identity_asset",
+    "source": "creator_website",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "แมแปว",
+    "url": "https://maepaew.com/icon-192.png",
+    "verification": "on_site_app_icon",
+    "source": "creator_website",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "น้องจ๋าแปลที",
+    "url": null,
+    "verification": "site_favicon_only_no_clear_brand_logo",
+    "source": "https://nongjaa.vercel.app/",
+    "checkedAt": "2026-10-12",
+    "hosting": "remote_url_not_mirrored"
+  },
+  {
+    "team": "แปลไทยเกมเก่า",
+    "url": "https://retrogamethaisub.pages.dev/favicon.svg",
+    "verification": "owner_site_favicon_identity",
+    "source": "https://retrogamethaisub.pages.dev/",
+    "checkedAt": "2026-10-12",
+    "hosting": "remote_url_not_mirrored"
+  },
+  {
+    "team": "Murphy-TH",
+    "url": "https://murphy-th.vercel.app/assets/murphy-mascot.png",
+    "verification": "on_site_mascot",
+    "source": "creator_website",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "นอนแปล (NONPLAE)",
+    "url": null,
+    "verification": "generic_gameboy_favicon_not_accepted_as_team_logo",
+    "source": "https://nonplae.com/",
+    "checkedAt": "2026-10-12",
+    "hosting": "remote_url_not_mirrored"
+  },
+  {
+    "team": "INorge Game Stream",
+    "url": null,
+    "verification": "no_verified_logo_text_only"
+  },
+  {
+    "team": "Memory Card TH",
+    "url": null,
+    "verification": "no_verified_logo_text_only"
+  },
+  {
+    "team": "ThaiPatch Studio",
+    "url": null,
+    "verification": "no_verified_logo_text_only"
+  },
+  {
+    "team": "น้า_auns555",
+    "url": null,
+    "verification": "no_verified_logo_text_only"
+  },
+  {
+    "team": "แปลไปเล่นไป",
+    "url": null,
+    "verification": "no_verified_logo_text_only"
+  },
+  {
+    "team": "แมวดำ แปลเกมส์",
+    "url": null,
+    "verification": "no_verified_logo_text_only"
+  },
+  {
+    "team": "RetroSpective",
+    "url": "https://retrospective-patch-library.vercel.app/assets/brand/retrospective-logo-icon.webp",
+    "verification": "on_site_brand_logo",
+    "source": "https://retrospective-patch-library.vercel.app/",
+    "note": "โลโก้ไอคอนทีมจากไฟล์บนเว็บไซต์ต้นทาง",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-12"
+  },
+  {
+    "team": "90S Game",
+    "url": "https://90s-game.pitak2540.workers.dev/brand/logo.png",
+    "verification": "on_site_brand_logo",
+    "source": "https://90s-game.pitak2540.workers.dev/",
+    "checkedAt": "2026-10-12",
+    "hosting": "remote_url_not_mirrored"
+  },
+  {
+    "team": "รอมเหมียว (ROMMEAOW)",
+    "url": "https://rommeaow.com/assets/brand/logo_pixel.png?v=51dc8885",
+    "verification": "on_site_brand_logo",
+    "source": "https://rommeaow.com/",
+    "checkedAt": "2026-10-12",
+    "hosting": "remote_url_not_mirrored"
+  }
+]

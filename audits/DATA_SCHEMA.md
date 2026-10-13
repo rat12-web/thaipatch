@@ -1,0 +1,9 @@
+# Canonical data contract
+
+catalog.json is an array of patch records; stable id identifies one team/edition/patch entry. canonicalGameId plus platform is the grouping key; canonicalTitle/title, platform, baseEdition, patchVersion/version and teamId distinguish games/editions/teams. Do not merge distinct hacks or platforms from title similarity. teams.json is the creator registry (stable id); platforms.json maps the platform key to real logo and main/strong/colors/label.
+
+Each record retains url, source, translatorName, linkScope, sourceAudit and optional sourceLocation. sourceAudit states/methods preserve measured route evidence; inferred/unresolved stays explicit. Source date fields: sourceUploadedAt/sourceUpdatedAt plus sourceDateAudit (state, kind, value, precision, rawValue, field, source, evidence, checkedAt, sourceVersion, uploadDateVerified). Verified file uploads require affirmative uploadDateVerified; update dates remain patch_updated. catalogAddedAt/date must not determine the default source chronology.
+
+cover/coverCandidateUrl, coverAlternatives, coverLabel and coverAudit preserve art source/kind/decoding/rights/localAllowed/evidence. Prefer creator-made, then official game art or a visibly labeled related alternative. No local third-party cover without rights evidence. Historical evidence paths are indexed in PROVENANCE_INDEX.json; omitted raw caches are not required to build.
+
+The refresh tool updates exact-matched existing date/version fields and embedded GAME_CATALOG only. New candidates in .sync/report.json are not published game records. Rebuild with tools/build.py after canonical edits; --check and .sync/refresh.py --check detect mismatched generated data. Full browser QA currently asserts the preserved baseline counts and reference game routes; deliberately update those acceptance expectations with evidence when adding records.

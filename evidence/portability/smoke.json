@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "mode": "offline UI smoke; external image requests aborted; no source-route or artwork verification",
+  "views": [
+    {
+      "theme": "light",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "theme": "light",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "theme": "dark",
+      "width": 320,
+      "pass": true
+    }
+  ]
+}

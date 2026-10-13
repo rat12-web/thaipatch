@@ -1,0 +1,386 @@
+{
+  "url": "https://rat12-web.github.io/thaipatch/",
+  "live": true,
+  "runAt": "2026-10-13T11:08:40.182Z",
+  "browser": "154.0.8037.99",
+  "views": [
+    {
+      "theme": "light",
+      "view": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "pass": true,
+      "toggleAndReload": true,
+      "contrast": [
+        {
+          "selector": ".hero-copy p",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "rgb(255, 254, 248)",
+          "ratio": 6.074222168571907
+        },
+        {
+          "selector": ".card-name",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 12.85526001863158
+        },
+        {
+          "selector": ".card-meta",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.826416239644241
+        },
+        {
+          "selector": ".source-date",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.826416239644241
+        },
+        {
+          "selector": ".catalog-card-team",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 12.85526001863158
+        },
+        {
+          "selector": ".catalog-card-action",
+          "foreground": "rgb(22, 103, 206)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.157540886468624
+        },
+        {
+          "selector": ".variant-name",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "rgb(232, 238, 245)",
+          "ratio": 11.593494479793335
+        },
+        {
+          "selector": ".variant-version",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "rgb(232, 238, 245)",
+          "ratio": 5.254543619762907
+        }
+      ],
+      "errors": []
+    },
+    {
+      "theme": "light",
+      "view": "mobile",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "toggleAndReload": true,
+      "contrast": [
+        {
+          "selector": ".hero-copy p",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "rgb(255, 254, 248)",
+          "ratio": 6.074222168571907
+        },
+        {
+          "selector": ".card-name",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 12.85526001863158
+        },
+        {
+          "selector": ".card-meta",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.826416239644241
+        },
+        {
+          "selector": ".source-date",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.826416239644241
+        },
+        {
+          "selector": ".catalog-card-team",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 12.85526001863158
+        },
+        {
+          "selector": ".catalog-card-action",
+          "foreground": "rgb(22, 103, 206)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.157540886468624
+        },
+        {
+          "selector": ".variant-name",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "rgb(232, 238, 245)",
+          "ratio": 11.593494479793335
+        },
+        {
+          "selector": ".variant-version",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "rgb(232, 238, 245)",
+          "ratio": 5.254543619762907
+        }
+      ],
+      "errors": []
+    },
+    {
+      "theme": "light",
+      "view": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "pass": true,
+      "toggleAndReload": true,
+      "contrast": [
+        {
+          "selector": ".hero-copy p",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "rgb(255, 254, 248)",
+          "ratio": 6.074222168571907
+        },
+        {
+          "selector": ".card-name",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 12.85526001863158
+        },
+        {
+          "selector": ".card-meta",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.826416239644241
+        },
+        {
+          "selector": ".source-date",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.826416239644241
+        },
+        {
+          "selector": ".catalog-card-team",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 12.85526001863158
+        },
+        {
+          "selector": ".catalog-card-action",
+          "foreground": "rgb(22, 103, 206)",
+          "background": "color(srgb 0.993412 0.975216 0.934118)",
+          "ratio": 5.157540886468624
+        },
+        {
+          "selector": ".variant-name",
+          "foreground": "rgb(28, 48, 66)",
+          "background": "rgb(232, 238, 245)",
+          "ratio": 11.593494479793335
+        },
+        {
+          "selector": ".variant-version",
+          "foreground": "rgb(79, 100, 119)",
+          "background": "rgb(232, 238, 245)",
+          "ratio": 5.254543619762907
+        }
+      ],
+      "errors": []
+    },
+    {
+      "theme": "dark",
+      "view": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "pass": true,
+      "toggleAndReload": true,
+      "contrast": [
+        {
+          "selector": ".hero-copy p",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "rgb(28, 42, 54)",
+          "ratio": 7.755744449588862
+        },
+        {
+          "selector": ".card-name",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 11.702633554679608
+        },
+        {
+          "selector": ".card-meta",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.769780474034583
+        },
+        {
+          "selector": ".source-date",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.769780474034583
+        },
+        {
+          "selector": ".catalog-card-team",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 11.702633554679608
+        },
+        {
+          "selector": ".catalog-card-action",
+          "foreground": "rgb(129, 195, 255)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.808165781464703
+        },
+        {
+          "selector": ".variant-name",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "rgb(38, 57, 71)",
+          "ratio": 10.93075761407658
+        },
+        {
+          "selector": ".variant-version",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "rgb(38, 57, 71)",
+          "ratio": 6.323262974648138
+        }
+      ],
+      "errors": []
+    },
+    {
+      "theme": "dark",
+      "view": "mobile",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "toggleAndReload": true,
+      "contrast": [
+        {
+          "selector": ".hero-copy p",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "rgb(28, 42, 54)",
+          "ratio": 7.755744449588862
+        },
+        {
+          "selector": ".card-name",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 11.702633554679608
+        },
+        {
+          "selector": ".card-meta",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.769780474034583
+        },
+        {
+          "selector": ".source-date",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.769780474034583
+        },
+        {
+          "selector": ".catalog-card-team",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 11.702633554679608
+        },
+        {
+          "selector": ".catalog-card-action",
+          "foreground": "rgb(129, 195, 255)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.808165781464703
+        },
+        {
+          "selector": ".variant-name",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "rgb(38, 57, 71)",
+          "ratio": 10.93075761407658
+        },
+        {
+          "selector": ".variant-version",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "rgb(38, 57, 71)",
+          "ratio": 6.323262974648138
+        }
+      ],
+      "errors": []
+    },
+    {
+      "theme": "dark",
+      "view": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "pass": true,
+      "toggleAndReload": true,
+      "contrast": [
+        {
+          "selector": ".hero-copy p",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "rgb(28, 42, 54)",
+          "ratio": 7.755744449588862
+        },
+        {
+          "selector": ".card-name",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 11.702633554679608
+        },
+        {
+          "selector": ".card-meta",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.769780474034583
+        },
+        {
+          "selector": ".source-date",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.769780474034583
+        },
+        {
+          "selector": ".catalog-card-team",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 11.702633554679608
+        },
+        {
+          "selector": ".catalog-card-action",
+          "foreground": "rgb(129, 195, 255)",
+          "background": "color(srgb 0.165529 0.202039 0.226588)",
+          "ratio": 6.808165781464703
+        },
+        {
+          "selector": ".variant-name",
+          "foreground": "rgb(238, 246, 252)",
+          "background": "rgb(38, 57, 71)",
+          "ratio": 10.93075761407658
+        },
+        {
+          "selector": ".variant-version",
+          "foreground": "rgb(173, 191, 206)",
+          "background": "rgb(38, 57, 71)",
+          "ratio": 6.323262974648138
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "behaviors": [
+    "system preference changes",
+    "explicit preference takes priority",
+    "invalid value falls back to system",
+    "cross-tab synchronization",
+    "storage denied: toggle and catalog work"
+  ],
+  "brandAssets": [
+    {
+      "name": "brand-banner.jpg",
+      "bytes": 122261,
+      "sha256": "62c0bcb637f83f4696148243c04350dd6ba1b8980c4350959840782ff350425f",
+      "unchanged": true,
+      "servedBytesVerified": true
+    },
+    {
+      "name": "brand-logo.jpg",
+      "bytes": 157276,
+      "sha256": "77f0a5511509d128f0d42e7bab23406b72cc7105320de4cf31eac8ae73e99834",
+      "unchanged": true,
+      "servedBytesVerified": true
+    }
+  ],
+  "pass": true
+}

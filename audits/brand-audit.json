@@ -1,0 +1,12 @@
+{
+  "brand": "แปลไทยบอกด้วย",
+  "englishBrand": "romthai.app",
+  "checkedAt": "2026-10-13",
+  "authorization": "User supplied both images and explicitly requested applying this branding to their website.",
+  "method": "Exact byte copies; no generation, alteration or external asset survey.",
+  "assets": [
+    {"file": "brand-banner.jpg", "original": "1000041853.jpg", "sha256": "62c0bcb637f83f4696148243c04350dd6ba1b8980c4350959840782ff350425f", "use": "homepage banner and social preview"},
+    {"file": "brand-logo.jpg", "original": "1000041852.jpg", "sha256": "77f0a5511509d128f0d42e7bab23406b72cc7105320de4cf31eac8ae73e99834", "use": "header logo and favicon"}
+  ],
+  "thirdPartyCatalogImages": "Existing remote covers and team logos remain unchanged; existing rights limitations remain in the catalog audit."
+}

@@ -1,0 +1,26 @@
+{
+  "coverRecords": 128,
+  "previousMissing": 13,
+  "changedPrimary": 35,
+  "creatorPrimary": 85,
+  "teamImages": 8,
+  "missingTeamImages": [
+    "หนีงานมาแปล",
+    "แมแปว",
+    "แปลไทยเกมเก่า",
+    "นอนแปล (NONPLAE)",
+    "INorge Game Stream",
+    "Memory Card TH",
+    "น้า_auns555",
+    "แปลไปเล่นไป",
+    "แมวดำ แปลเกมส์"
+  ],
+  "platformLogos": 16,
+  "patchLabUpgrades": 2,
+  "blockedExactPatchRoutes": {
+    "90S": 18,
+    "Murphy": 3,
+    "Maewdam": 1
+  },
+  "evidence": "qa/upgrade/discovery.json"
+}

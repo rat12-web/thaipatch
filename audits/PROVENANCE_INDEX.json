@@ -1,0 +1,16 @@
+{
+  "qa/routes/verified-routes.json": "evidence/source/routes-verified-routes.json",
+  "qa/routes/targeted-routes.json": "evidence/source/routes-targeted-routes.json",
+  "qa/routes/retry-routes.json": "evidence/source/routes-retry-routes.json",
+  "qa/followup-navigation.json": "evidence/source/qa-followup-navigation.json",
+  "qa/upgrade/asset-decode.json": "evidence/source/upgrade-asset-decode.json",
+  "qa/upgrade/discovery.json": "evidence/source/upgrade-discovery.json",
+  "qa/external-navigation.json": "evidence/source/external-navigation-projection.json",
+  "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv": "audits/COVER_PRIORITY_AUDIT_v0.29.csv",
+  "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv": "audits/SOURCE_LINK_AUDIT_v0.29.csv",
+  "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/TEAM_LOGO_REGISTRY_v0.29.json": "audits/TEAM_LOGO_REGISTRY_v0.29.json",
+  "qa/routes/monster-merged.json": "NOT COPIED: raw source manifest; cover URL provenance is in cover-audit.csv and decoder report",
+  "qa/dates/metadata-nonplae-patch-games.json": "NOT COPIED: raw source feed; exact source/date evidence is in source-date-audit.csv",
+  "qa/dates/retro.js": "NOT COPIED: external JS snapshot; source/date audit preserves exact field/slug/version",
+  "qa/routes/retro-games.js": "NOT COPIED: external JS snapshot; source/date audit preserves exact field/slug/version"
+}

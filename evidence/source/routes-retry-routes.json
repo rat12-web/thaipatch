@@ -1,0 +1,175 @@
+[
+  {
+    "id": "90s-028-16",
+    "title": "Battle B-Daman",
+    "kind": "source_card_text_fragment",
+    "targetText": "แบทเทิล บี-ดามัน",
+    "selector": "#shelf .tile b",
+    "url": "https://90s%2Dgame.pitak2540.workers.dev/?game=battle%2Db%2Ddaman#games:~:text=%E0%B9%81%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A5%20%E0%B8%9A%E0%B8%B5%2D%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman#patch",
+    "checkedAt": "2026-10-12T08:03:40.050Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "แบทเทิล บี-ดามัน",
+        "top": 594.25,
+        "visible": true
+      },
+      {
+        "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+        "top": 594.265625,
+        "visible": true
+      }
+    ],
+    "scrollY": 2725,
+    "verified": true,
+    "reason": "Retry failed text targeting using a trusted native link click and encoded hyphens"
+  },
+  {
+    "id": "90s-028-17",
+    "title": "Battle B-Daman: Fire Spirits!",
+    "kind": "source_card_text_fragment",
+    "targetText": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+    "selector": "#shelf .tile b",
+    "url": "https://90s%2Dgame.pitak2540.workers.dev/?game=battle%2Db%2Ddaman%2Dfire%2Dspirits#games:~:text=%E0%B9%81%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A5%20%E0%B8%9A%E0%B8%B5%2D%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99%20%E0%B9%84%E0%B8%9F%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%95!",
+    "priorUrl": "https://90s-game.pitak2540.workers.dev/?game=battle-b-daman-fire-spirits#patch",
+    "checkedAt": "2026-10-12T08:03:46.198Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "แบทเทิล บี-ดามัน ไฟร์สปิริต!",
+        "top": 430.265625,
+        "visible": true
+      }
+    ],
+    "scrollY": 2889,
+    "verified": true,
+    "reason": "Retry failed text targeting using a trusted native link click and encoded hyphens"
+  },
+  {
+    "id": "murphy-028-02",
+    "title": "Saint Seiya: Ougon Densetsu",
+    "kind": "source_card_text_fragment",
+    "targetText": "Saint Seiya: Ougon Densetsu",
+    "selector": ".game-card__title",
+    "url": "https://murphy%2Dth.vercel.app/#:~:text=Saint%20Seiya%3A%20Ougon%20Densetsu",
+    "priorUrl": "https://murphy-th.vercel.app/",
+    "checkedAt": "2026-10-12T08:03:52.429Z",
+    "status": 200,
+    "targets": [
+      {
+        "text": "Saint Seiya: Ougon Densetsu",
+        "top": 450.875,
+        "visible": true
+      }
+    ],
+    "scrollY": 707,
+    "verified": true,
+    "reason": "Retry failed text targeting using a trusted native link click and encoded hyphens"
+  },
+  {
+    "id": "murphy-028-01",
+    "url": "https://murphy-th.vercel.app/#:~:text=Tatakae%21%21%20Rahmen%20Man%20%2D%20Sakuretsu%20Choujin%20102%20Gei",
+    "kind": "source_card_text_fragment",
+    "targetText": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+    "targets": [
+      {
+        "text": "Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei",
+        "top": 360.875,
+        "visible": true
+      }
+    ],
+    "verified": true,
+    "checkedAt": "2026-10-12T08:17:33.153Z",
+    "reason": "Allow slow source font/client rendering to finish; RFC-encoded punctuation",
+    "fontStatus": "loading"
+  },
+  {
+    "id": "monster-016",
+    "title": "Dante’s Inferno",
+    "platform": "PSP",
+    "priorUrl": "https://monster-plae.pages.dev/#games",
+    "url": "https://monster-plae.pages.dev/?game=dante-s-inferno",
+    "reason": "Retry source route after initial asynchronous catalog load timeout",
+    "selector": "#gameDetail h2",
+    "expectedText": "Dante's Inferno",
+    "sourceGame": "Dante's Inferno",
+    "sourcePlatform": "PSP",
+    "kind": "monster",
+    "checkedAt": "2026-10-12T08:04:07.739Z",
+    "imageRequests": "blocked to reduce repeated transfers; title/selection verification only",
+    "status": 200,
+    "verified": true,
+    "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#gdTitle').first() to be visible\u001b[22m\n\u001b[2m    8 × locator resolved to hidden <h2 id=\"gdTitle\"></h2>\u001b[22m\n",
+    "body": "พื่อเลือก หรือลากไฟล์มาวาง · ไฟล์จะไม่ถูกอัปโหลดขึ้นเน็ต\nเตรียมไฟล์ ROM เวอร์ชันที่ตรงกับ MOD นี้ไว้ในเครื่องก่อน · เว็บนี้แจกเฉพาะไฟล์แพตช์ ไม่มีการแจกไฟล์เกม\nล้างไฟล์\nติดตั้ง MOD ไทย\nหมายเหตุ: เว็บนี้เก็บเฉพาะไฟล์แพตช์ (ตัวแปล) ไม่แจก ROM เกม กรุณาใช้รอมที่ dump จากตลับ/เครื่องของคุณเอง การแปะแพตช์ทำงานในเบราว์เซอร์ของคุณทั้งหมด รองรับไฟล์ใหญ่ระดับ GB บนมือถือ (Android/iOS) และคอม · ถ้าขึ้นเตือนว่ารอมไม่ตรง แปลว่ารอมของคุณคนละเวอร์ชันกับที่ใช้ทำ MOD นี้ · ห้ามใช้รอมที่ถูก \"trim\" ตัดพื้นที่ว่างท้ายไฟล์ออก เพราะคำแปลไทยมักยาวกว่าต้นฉบับต้องใช้พื้นที่นั้นฝังข้อความ กรุณาใช้รอมเวอร์ชันเต็ม (full-size dump) เท่านั้น\nสนับสนุนทีมงาน\n☕ เลี้ยงกาแฟทีมแปล Monster แปล\n\nทุก mod บนเว็บนี้แจกฟรีเสมอ ไม่มีการบังคับหรือปลดล็อกอะไรด้วยเงิน — ถ้าอยากสนับสนุนให้ทีมงานมีแรงแปลเกมต่อไป สแกน PromptPay ด้านข้างได้เลยครับ ขอบคุณที่ติดตามผลงาน 🙏\n\nMonster แปล\nMOD แปลภาษาไทยสำหรับเกม แจกฟรี แปะแพตช์ได้ในเบราว์เซอร์ ไม่ต้องลงโปรแกรม · มีเกมให้เลือก 107 เกม\nใช้งาน\nเลือกเกม\nติดตั้ง MOD\n🆕 อัปเดตล่าสุด\n❓ วิธีใช้ & คำถามที่พบบ่อย\n🐛 แจ้งปัญหา\n📋 ติดตามปัญหา\nติดตาม\nเพจ Monster แปล\n💛 สนับสนุนทีมงาน\n© Monster แปล · แจกฟรี ห้ามจำหน่ายและแก้ไขโดยไม่ได้รับอนุญาต\nเพจ Monster แปล · Patch engine based on Rom Patcher JS",
+    "selected": [
+      "Dante's Inferno"
+    ]
+  },
+  {
+    "id": "monster-014",
+    "title": "7th Dragon 2020",
+    "platform": "PSP",
+    "priorUrl": "https://monster-plae.pages.dev/#games",
+    "url": "https://monster-plae.pages.dev/?game=7th-dragon-2020",
+    "reason": "Retry source route after initial asynchronous catalog load timeout",
+    "selector": "#gameDetail h2",
+    "expectedText": "7th Dragon 2020",
+    "sourceGame": "7th Dragon 2020",
+    "sourcePlatform": "PSP",
+    "kind": "monster",
+    "checkedAt": "2026-10-12T08:04:13.904Z",
+    "imageRequests": "blocked to reduce repeated transfers; title/selection verification only",
+    "status": 200,
+    "verified": true,
+    "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#gdTitle').first() to be visible\u001b[22m\n\u001b[2m    8 × locator resolved to hidden <h2 id=\"gdTitle\"></h2>\u001b[22m\n",
+    "body": "พื่อเลือก หรือลากไฟล์มาวาง · ไฟล์จะไม่ถูกอัปโหลดขึ้นเน็ต\nเตรียมไฟล์ ROM เวอร์ชันที่ตรงกับ MOD นี้ไว้ในเครื่องก่อน · เว็บนี้แจกเฉพาะไฟล์แพตช์ ไม่มีการแจกไฟล์เกม\nล้างไฟล์\nติดตั้ง MOD ไทย\nหมายเหตุ: เว็บนี้เก็บเฉพาะไฟล์แพตช์ (ตัวแปล) ไม่แจก ROM เกม กรุณาใช้รอมที่ dump จากตลับ/เครื่องของคุณเอง การแปะแพตช์ทำงานในเบราว์เซอร์ของคุณทั้งหมด รองรับไฟล์ใหญ่ระดับ GB บนมือถือ (Android/iOS) และคอม · ถ้าขึ้นเตือนว่ารอมไม่ตรง แปลว่ารอมของคุณคนละเวอร์ชันกับที่ใช้ทำ MOD นี้ · ห้ามใช้รอมที่ถูก \"trim\" ตัดพื้นที่ว่างท้ายไฟล์ออก เพราะคำแปลไทยมักยาวกว่าต้นฉบับต้องใช้พื้นที่นั้นฝังข้อความ กรุณาใช้รอมเวอร์ชันเต็ม (full-size dump) เท่านั้น\nสนับสนุนทีมงาน\n☕ เลี้ยงกาแฟทีมแปล Monster แปล\n\nทุก mod บนเว็บนี้แจกฟรีเสมอ ไม่มีการบังคับหรือปลดล็อกอะไรด้วยเงิน — ถ้าอยากสนับสนุนให้ทีมงานมีแรงแปลเกมต่อไป สแกน PromptPay ด้านข้างได้เลยครับ ขอบคุณที่ติดตามผลงาน 🙏\n\nMonster แปล\nMOD แปลภาษาไทยสำหรับเกม แจกฟรี แปะแพตช์ได้ในเบราว์เซอร์ ไม่ต้องลงโปรแกรม · มีเกมให้เลือก 107 เกม\nใช้งาน\nเลือกเกม\nติดตั้ง MOD\n🆕 อัปเดตล่าสุด\n❓ วิธีใช้ & คำถามที่พบบ่อย\n🐛 แจ้งปัญหา\n📋 ติดตามปัญหา\nติดตาม\nเพจ Monster แปล\n💛 สนับสนุนทีมงาน\n© Monster แปล · แจกฟรี ห้ามจำหน่ายและแก้ไขโดยไม่ได้รับอนุญาต\nเพจ Monster แปล · Patch engine based on Rom Patcher JS",
+    "selected": [
+      "7th Dragon 2020"
+    ]
+  },
+  {
+    "id": "monster-017",
+    "title": "Tactics Ogre: Let Us Cling Together",
+    "platform": "PSP",
+    "priorUrl": "https://monster-plae.pages.dev/#games",
+    "url": "https://monster-plae.pages.dev/?game=tactics-ogre-let-us-cling-together",
+    "reason": "Retry source route after initial asynchronous catalog load timeout",
+    "selector": "#gameDetail h2",
+    "expectedText": "Tactics Ogre: Let Us Cling Together",
+    "sourceGame": "Tactics Ogre: Let Us Cling Together",
+    "sourcePlatform": "PSP",
+    "kind": "monster",
+    "checkedAt": "2026-10-12T08:04:20.305Z",
+    "imageRequests": "blocked to reduce repeated transfers; title/selection verification only",
+    "status": 200,
+    "verified": true,
+    "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#gdTitle').first() to be visible\u001b[22m\n\u001b[2m    8 × locator resolved to hidden <h2 id=\"gdTitle\"></h2>\u001b[22m\n",
+    "body": "พื่อเลือก หรือลากไฟล์มาวาง · ไฟล์จะไม่ถูกอัปโหลดขึ้นเน็ต\nเตรียมไฟล์ ROM เวอร์ชันที่ตรงกับ MOD นี้ไว้ในเครื่องก่อน · เว็บนี้แจกเฉพาะไฟล์แพตช์ ไม่มีการแจกไฟล์เกม\nล้างไฟล์\nติดตั้ง MOD ไทย\nหมายเหตุ: เว็บนี้เก็บเฉพาะไฟล์แพตช์ (ตัวแปล) ไม่แจก ROM เกม กรุณาใช้รอมที่ dump จากตลับ/เครื่องของคุณเอง การแปะแพตช์ทำงานในเบราว์เซอร์ของคุณทั้งหมด รองรับไฟล์ใหญ่ระดับ GB บนมือถือ (Android/iOS) และคอม · ถ้าขึ้นเตือนว่ารอมไม่ตรง แปลว่ารอมของคุณคนละเวอร์ชันกับที่ใช้ทำ MOD นี้ · ห้ามใช้รอมที่ถูก \"trim\" ตัดพื้นที่ว่างท้ายไฟล์ออก เพราะคำแปลไทยมักยาวกว่าต้นฉบับต้องใช้พื้นที่นั้นฝังข้อความ กรุณาใช้รอมเวอร์ชันเต็ม (full-size dump) เท่านั้น\nสนับสนุนทีมงาน\n☕ เลี้ยงกาแฟทีมแปล Monster แปล\n\nทุก mod บนเว็บนี้แจกฟรีเสมอ ไม่มีการบังคับหรือปลดล็อกอะไรด้วยเงิน — ถ้าอยากสนับสนุนให้ทีมงานมีแรงแปลเกมต่อไป สแกน PromptPay ด้านข้างได้เลยครับ ขอบคุณที่ติดตามผลงาน 🙏\n\nMonster แปล\nMOD แปลภาษาไทยสำหรับเกม แจกฟรี แปะแพตช์ได้ในเบราว์เซอร์ ไม่ต้องลงโปรแกรม · มีเกมให้เลือก 107 เกม\nใช้งาน\nเลือกเกม\nติดตั้ง MOD\n🆕 อัปเดตล่าสุด\n❓ วิธีใช้ & คำถามที่พบบ่อย\n🐛 แจ้งปัญหา\n📋 ติดตามปัญหา\nติดตาม\nเพจ Monster แปล\n💛 สนับสนุนทีมงาน\n© Monster แปล · แจกฟรี ห้ามจำหน่ายและแก้ไขโดยไม่ได้รับอนุญาต\nเพจ Monster แปล · Patch engine based on Rom Patcher JS",
+    "selected": [
+      "Tactics Ogre: Let Us Cling Together"
+    ]
+  },
+  {
+    "id": "retro-204",
+    "url": "https://rudra-no-hihou-thai.vercel.app/",
+    "kind": "single_game_site",
+    "checkedAt": "2026-10-12T08:06:52.425Z",
+    "status": 200,
+    "title": "สมบัติลับแห่งรูดรา ภาษาไทย",
+    "body": "✦ ルドラの秘宝 ✦ สมบัติลับแห่งรูดรา ✦ RUDRA NO HIHOU ✦ ルドラの秘宝 ✦ สมบัติลับแห่งรูดรา ✦ RUDRA NO HIHOU ✦ ภาษาไทย ✦\nทุก ๆ สี่พันปี รูดราจะลงมาล้างโลก\nเพื่อให้เผ่าพันธุ์ใหม่ถือกำเนิดขึ้นแทน\nและบัดนี้ เหลือเวลาอีกเพียง 16 วัน\nก่อนกาลอวสานจะมาถึง\nสมบัติลับแห่งรูดรา\nルドラの秘宝\nคลิกหรือกดปุ่มใดก็ได้เพื่อข้าม ›\nแพตช์เกม\nห้องทดลองคาถา\nแพตช์ Rudra no Hihou เป็นภาษาไทย v3.0\nRUDRA_TH_V3.0-RC2.BPS\n\nทำงานในเครื่องคุณทั้งหมด ไม่มีการอัปโหลด · ใช้ ROM ญี่ปุ่นต้นฉบับของคุณเอง (4,194,304 ไบต์, CRC32 5D8CB7AC; header 512 ไบต์ถูกตัดให้อัตโนมัติ) · v3.0 = คาถาไทยยาวได้ 12 ตัวอักษร · ต้องเริ่มเกมใหม่ (เซฟของแพตช์รุ่นก่อนจะแสดงเป็นช่องว่าง)\n\nROM\nลากไฟล์ ROM มาวางที่นี่ หรือคลิกเพื่อเลือก\nRudra no Hihou (Japan).sfc · คาถาแพตช์จะถูกร่ายและดาวน์โหลดให้ทันที\n✦ v3.0-rc2 · อัปเดต 30 ก.ย. 2569\nAcknowledgements\nคัมภีร์โคโตดามะ (คู่มือระบบคาถา) ›\nแปลไทย โดย INorge Game Stream (lekchai@gmail.com) ·\nคัมภีร์โคโตดามะ ›\n·\n✧ ลดเอฟเฟกต์",
+    "verified": true,
+    "finalUrl": "https://rudra-no-hihou-thai.vercel.app/"
+  },
+  {
+    "id": "retro-201",
+    "url": "https://www.facebook.com/share/p/1CNBmftiFj/",
+    "kind": "single_game_site",
+    "checkedAt": "2026-10-12T08:06:54.521Z",
+    "status": 200,
+    "title": "Facebook",
+    "body": "Log in\nForgotten account?\nThis content isn't available at the moment\nWhen this happens, it's usually because the owner only shared it with a small group of people or changed who can see it, or it's been deleted.\nGo to Feed\nGo back\nVisit Help Centre",
+    "verified": false,
+    "finalUrl": "https://www.facebook.com/auns555toys/posts/pfbid02zMweWjqCX8nv16fg9AeWojHPBsUdPFE66WwZxWXViruwMq8uuqGypDGhVvwZAHKSl?rdid=RLdM52bzqjnLOHBX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1CNBmftiFj%2F#"
+  }
+]

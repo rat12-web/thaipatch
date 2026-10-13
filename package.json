@@ -1,0 +1,18 @@
+{
+  "name": "romthai-app",
+  "version": "0.30.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "python tools/build.py",
+    "build:check": "python tools/build.py --check",
+    "start": "node tools/serve.cjs",
+    "test": "node tools/qa-smoke.cjs",
+    "qa:full": "node tools/run-qa.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

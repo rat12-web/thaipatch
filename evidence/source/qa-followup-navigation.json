@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dq5-jp",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=dq5-jp",
+    "expected": "dq5-jp",
+    "selected": "dq5-jp",
+    "httpStatus": 200,
+    "verified": true,
+    "checkedAt": "2026-10-12T06:59:37.734Z"
+  },
+  {
+    "id": "dq5-en",
+    "url": "https://retrogamethaisub.pages.dev/patch.html?game=dq5",
+    "expected": "dq5",
+    "selected": "dq5",
+    "httpStatus": 200,
+    "verified": true,
+    "checkedAt": "2026-10-12T06:59:40.808Z"
+  },
+  {
+    "id": "firered-retry",
+    "url": "https://90s-game.pitak2540.workers.dev/?game=firered-th#patch",
+    "expected": "firered-th",
+    "selected": "dragon-ball-z-legacy-of-goku",
+    "httpStatus": 200,
+    "verified": false,
+    "checkedAt": "2026-10-12T06:59:49.898Z"
+  },
+  {
+    "id": "retro-emerald",
+    "url": "https://retrospective-patch-library.vercel.app/#game/pekeemerald",
+    "httpStatus": 200,
+    "selected": "Pokémon Emerald TH",
+    "verified": true,
+    "checkedAt": "2026-10-12T06:59:51.991Z"
+  }
+]
