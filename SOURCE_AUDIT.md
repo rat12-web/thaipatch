@@ -1,8 +1,16 @@
 # Source audit summary
 
+## Source chronology, 2026-10-13
+
+Default ordering excludes catalogAddedAt and the untyped legacy date field. Verified source-reported patch dates control recency, using the newest matching variant in a duplicate group; unknown dates sort last. New provenance fields are sourceUploadedAt, sourceUpdatedAt and sourceDateAudit. Upload evidence is distinct from a patch update/release date.
+
+Thirty-eight source update dates were matched by exact game name/platform or previously observed source IDs: Memory Card TH's games[].patch_updated, RetroSpective GAMES[].updated, Gayray games[].updated (Thai Buddhist dates normalized), Murphy patchProfiles[].updated, and NONPLAE games[].patchUpdatedAt. Ninety records remain undated/unconfirmed. No exact upload date is claimed in this snapshot. Site-wide update dates, Monster catalog-row edits/newUntil deadlines, HTTP response time/Last-Modified and import dates are excluded.
+
+Evidence in continuation workspace: qa/dates/ source metadata, discovery.json, metadata-discovery.json, summary.json, browser.json and live-browser.json. This date-specific audit did not repeat the previously confirmed source/cover surveys. Source metadata is a checked snapshot, not an automatically refreshed catalog or complete newest-game feed.
+
 ## 2026-10-13 platform/card and Patch update
 
-The latest request places actual console logos at the upper-left of covers and keeps distinct platform frames/colors, including purple GBA frames on normal, hover and focus states. Creator identities remain at the lower-right. Eight working team identity images are published in teams.json. The inherited NeeNganMaPlae SVG fails to decode and remains a candidate rather than a fabricated replacement. Nine teams still have no usable confirmed identity image. Sixteen console logos are checked; Genesis uses the exact SEGA console logo from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sega_genesis_logo.svg). Original logo colors are retained.
+The latest request places actual console logos in a styled upper-right corner panel on covers and keeps distinct platform frames/colors, including purple GBA frames on normal, hover and focus states. Creator identities sit at the lower-right. Eight working team identity images are published in teams.json. The inherited NeeNganMaPlae SVG fails to decode and remains a candidate rather than a fabricated replacement. Nine teams still have no usable confirmed identity image. Sixteen console logos are checked; Genesis uses the exact SEGA console logo from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sega_genesis_logo.svg). Original logo colors are retained.
 
 Cached creator manifests are reused for cover selection, with targeted follow-up only on failed/unresolved images. Thirty-five primary images changed; thirteen empty covers are filled; all 128 records have an actually decoded exact-game candidate. Eighty-five use creator/team-hosted images, the rest use game art from the existing audit/archive. Related base-game alternatives are marked as such. Art identity/decoding does not establish republication rights; no catalog artwork is copied locally. Cover, team and platform provenance is preserved in public JSON and the continuation workspace's audit CSVs.
 
