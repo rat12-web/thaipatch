@@ -623,14 +623,18 @@ html[data-theme] .filters{border-radius:6px!important;box-shadow:4px 4px 0 var(-
 @media(max-width:430px){html[data-theme] .cards{grid-template-columns:1fr!important}}
 @media(prefers-reduced-motion:reduce){html[data-theme] .gcard{transition:none!important}}
 /* Platform frames keep their own console palette in both modes. */
-html[data-theme] .gcard{border-color:var(--pf-strong)!important}
-html[data-theme="dark"] .gcard{border-color:var(--pf-main)!important}
+html[data-theme] .gcard,html[data-theme] .gcard:hover,html[data-theme] .gcard:focus-within{border-color:var(--pf-strong)!important}
+html[data-theme="dark"] .gcard,html[data-theme="dark"] .gcard:hover,html[data-theme="dark"] .gcard:focus-within{border-color:var(--pf-main)!important}
+html[data-theme] .gcard:focus-visible{outline-color:var(--pf-strong)}html[data-theme="dark"] .gcard:focus-visible{outline-color:var(--pf-main)}
 .platform-stripe{display:block;height:8px;background:var(--pf-stripe);border-bottom:1px solid #0003}
 html[data-theme] .card-info{border-top:2px solid var(--pf-strong);background:color-mix(in srgb,var(--pf-main) 7%,var(--surface))!important}
 html[data-theme="dark"] .card-info{border-top-color:var(--pf-main)}
 .card-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-height:32px}
 .console-mark{display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #9babb8;border-radius:3px;min-width:90px;min-height:32px;padding:5px 8px;box-sizing:border-box;color:#25394b}
 .console-mark .console-logo{display:block;width:92px;height:22px;object-fit:contain;filter:none}
+.cover-console{position:absolute;top:10px;left:10px;z-index:8}
+.cover-console .console-mark{border:2px solid var(--pf-strong);box-shadow:2px 2px 0 #0005;padding:5px 7px;min-width:0;min-height:0}
+html[data-theme] .cover-console .console-mark .console-logo{width:90px!important;height:22px!important;object-fit:contain!important;object-position:center!important;filter:none!important;transform:none!important;position:static!important;inset:auto!important}
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .covertranslator{max-width:calc(100% - 24px)}
 html[data-theme] .cover .translatorplate{border-radius:5px!important;min-height:48px;padding:5px 9px!important;box-shadow:3px 3px 0 #0005!important;gap:8px!important}
@@ -639,4 +643,4 @@ html[data-theme] .cover .translatorplate .name{font-size:11px!important;max-widt
 .cover-origin{position:absolute;z-index:7;left:10px;bottom:10px;max-width:55%;padding:4px 6px;background:#15212bed;color:#fff;font-size:10px;border-radius:3px}
 .image-fallback{display:grid;place-items:center;text-align:center;padding:22px}
 .cover.has-art .image-fallback{visibility:hidden}
-@media(max-width:600px){.console-mark .console-logo{width:84px;height:21px}.console-mark{min-width:86px}.card-meta{gap:8px}}
+@media(max-width:600px){html[data-theme] .cover-console .console-mark .console-logo{width:80px!important;height:21px!important}.cover-console{top:9px;left:9px}.console-mark{min-width:86px}.card-meta{gap:8px}}

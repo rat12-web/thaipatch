@@ -99,7 +99,7 @@ function imageHtml(g,cls=''){
  const team=g.translatorName||g.source,logo=g.grouped?'':teamLogoUrl(g),list=coverCandidates(g),art=list[0]?.url||'';
  const images=art?`<img class="artback" aria-hidden="true" loading="lazy" src="${safe(art)}"><img class="realart" loading="lazy" decoding="async" src="${safe(art)}" alt="${safe(list[0]?.label||'ภาพปก '+g.title)}" data-cover-alt="ภาพปก ${safe(g.title)}" data-cover-options="${safe(JSON.stringify(list))}" data-cover-index="0">`:'';
  const badge=g.grouped?`<div class="translatorplate neutralteam"><span class="name">${safe(g.teamCount+' ทีมแปล · เลือกฉบับ')}</span></div>`:`<div class="translatorplate" title="${safe(team)}">${logo?`<img class="teamlogo" src="${safe(logo)}" decoding="async" alt="โลโก้หรือภาพโปรไฟล์ ${safe(team)}">`:''}<span class="name">${safe(team)}</span></div>`;
- return `<div class="${cls} cover" style="${coverVars(g)}">${coverFallback(g)}${images}<div class="wash"></div><div class="coverstatus">${safe(g.status||'')}</div><div class="covertranslator">${badge}</div><span class="cover-origin ${list[0]?.label?'':'hide'}">${safe(list[0]?.label||'')}</span></div>`;
+ return `<div class="${cls} cover" style="${coverVars(g)}">${coverFallback(g)}${images}<div class="wash"></div><div class="cover-console">${platformMark(g)}</div><div class="coverstatus">${safe(g.status||'')}</div><div class="covertranslator">${badge}</div><span class="cover-origin ${list[0]?.label?'':'hide'}">${safe(list[0]?.label||'')}</span></div>`;
 }
 function platformMark(g){const p=platformTheme(g.platform),logo=platformLogoUrl(g.platform);return `<span class="console-mark" title="${safe(p.label)}">${logo?`<img class="console-logo" src="${safe(logo)}" loading="lazy" alt="${safe(p.label)}">`:''}<span class="console-name ${logo?'sr-only':''}">${safe(p.label)}</span></span>`}
 function mediaLoaded(image){image.dataset.loaded='true';if(image.classList.contains('realart')){image.closest('.cover')?.classList.remove('missing-art');image.closest('.cover')?.classList.add('has-art')}}
@@ -133,7 +133,7 @@ function filtered(){
 function card(g){
  const team=g.grouped?`${g.variants.length} ฉบับ · ${g.teamCount} ทีมแปล`:(g.translatorName||g.source);
  const action=g.grouped?'เลือกทีม / ฉบับ':g.linkScope==='creator_post'?'ไปยังโพสต์ต้นทาง':g.sourceLocation?.method==='text_fragment'?'ไปยังเกมที่ต้นทาง':'ไปหน้าแพตช์';
- const body=`<span class="platform-stripe" aria-hidden="true"></span>${imageHtml(g)}<div class="card-info"><h3 class="card-name">${safe(g.title)}</h3><div class="card-meta">${platformMark(g)}<span>${safe(g.genre||'เกมแปลไทย')}</span></div><p class="catalog-card-team">${safe(team)}</p><span class="catalog-card-action">${action}<span aria-hidden="true">↗</span></span></div>`;
+ const body=`<span class="platform-stripe" aria-hidden="true"></span>${imageHtml(g)}<div class="card-info"><h3 class="card-name">${safe(g.title)}</h3><div class="card-meta"><span>${safe(g.genre||'เกมแปลไทย')}</span></div><p class="catalog-card-team">${safe(team)}</p><span class="catalog-card-action">${action}<span aria-hidden="true">↗</span></span></div>`;
  const attrs=`style="${coverVars(g)}" data-platform="${safe(g.platform)}"`;
  return g.grouped?`<button type="button" class="gcard group-card" ${attrs} data-group-open="${safe(g.groupKey)}">${body}</button>`:`<a class="gcard" ${attrs} data-source-direct="${safe(g.id)}" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer" title="${safe(sourceNote(g)||'เปิดหน้าเกมที่เว็บไซต์เจ้าของผลงาน')}">${body}</a>`;
 }

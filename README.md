@@ -6,7 +6,7 @@ Live: https://rat12-web.github.io/thaipatch/. romthai.app is the English brand; 
 
 The pixel-game UI uses the two original brand images supplied by the user. Dark and light modes follow the system preference on first visit; the header button saves an explicit choice under the sole localStorage key `romthai.theme`. Search and the catalog still work if storage is blocked.
 
-Cards have distinct frames and divided color strips for all 16 platforms. Actual console logos sit below the cover; the upper-left cover overlay is removed. Eight available creator logos/profile images use stable team IDs and appear after loading. The remaining teams use their names instead of invented logos. Logo failures do not hide game covers.
+Cards have distinct frames and divided color strips for all 16 platforms. Actual console logos sit at the upper-left of each cover, preserving their original colors. Frames retain the platform color on hover/focus; GBA uses purple in both light and dark modes. Eight available creator logos/profile images use stable team IDs and appear at the lower-right. The remaining teams use their names instead of invented logos. Logo failures do not hide game covers.
 
 All 128 records now have a decoded cover candidate, including the 13 previously missing images. Creator art is preferred where the cached source manifests identify the exact game. Verified alternatives replace a failed cover; related base-game art is explicitly labeled. `catalog.json`, `teams.json` and `platforms.json` preserve provenance and rights status. Only the user's two brand files are hosted locally.
 
