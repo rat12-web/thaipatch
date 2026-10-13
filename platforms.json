@@ -1,0 +1,244 @@
+{
+  "PS1": {
+    "id": "PS1",
+    "label": "PlayStation",
+    "main": "#6a8fca",
+    "strong": "#31589c",
+    "colors": [
+      "#ef3a35",
+      "#f6be18",
+      "#16a266",
+      "#2586d6"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Playstation_logo_colour.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Playstation_logo_colour.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "PS2": {
+    "id": "PS2",
+    "label": "PlayStation 2",
+    "main": "#49b2ff",
+    "strong": "#1454d3",
+    "colors": [
+      "#164fd8",
+      "#499bff",
+      "#18284a"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PlayStation_2_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:PlayStation_2_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "PS3": {
+    "id": "PS3",
+    "label": "PlayStation 3",
+    "main": "#ff8080",
+    "strong": "#b62d3d",
+    "colors": [
+      "#b72c37",
+      "#e55d66",
+      "#3f3c45"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PlayStation_3_Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:PlayStation_3_Logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "PSP": {
+    "id": "PSP",
+    "label": "PSP",
+    "main": "#e7b26c",
+    "strong": "#ab6b18",
+    "colors": [
+      "#ce953d",
+      "#404657",
+      "#828b9b"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PSP_Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:PSP_Logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "GBA": {
+    "id": "GBA",
+    "label": "Game Boy Advance",
+    "main": "#a984ff",
+    "strong": "#6b42d9",
+    "colors": [
+      "#6340af",
+      "#b299ed",
+      "#5e4a96"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Game_Boy_Advance_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Game_Boy_Advance_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "NDS": {
+    "id": "NDS",
+    "label": "Nintendo DS",
+    "main": "#a8b8c8",
+    "strong": "#63788f",
+    "colors": [
+      "#53687a",
+      "#c7d0d9",
+      "#c93138"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_DS_Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo_DS_Logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "3DS": {
+    "id": "3DS",
+    "label": "Nintendo 3DS",
+    "main": "#ff7a87",
+    "strong": "#c42735",
+    "colors": [
+      "#ce2935",
+      "#dedee2",
+      "#383e47"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_3DS_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo_3DS_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "SNES": {
+    "id": "SNES",
+    "label": "Super Nintendo",
+    "main": "#cab0ff",
+    "strong": "#7d5db8",
+    "colors": [
+      "#754998",
+      "#bd9adb",
+      "#625277"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Super_Nintendo_Entertainment_System_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Super_Nintendo_Entertainment_System_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "GC": {
+    "id": "GC",
+    "label": "Nintendo GameCube",
+    "main": "#8d83ff",
+    "strong": "#5446be",
+    "colors": [
+      "#5549a0",
+      "#a99ee9",
+      "#4a425b"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_GameCube_Official_Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo_GameCube_Official_Logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "WII": {
+    "id": "WII",
+    "label": "Nintendo Wii",
+    "main": "#7bd8e8",
+    "strong": "#298aa0",
+    "colors": [
+      "#289bb1",
+      "#b6e6f0",
+      "#96a2ab"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wii.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Wii.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "WII U": {
+    "id": "WII U",
+    "label": "Wii U",
+    "main": "#73d3ff",
+    "strong": "#1f82c5",
+    "colors": [
+      "#158bcc",
+      "#87d9f6",
+      "#276488"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/WiiU.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:WiiU.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "SATURN": {
+    "id": "SATURN",
+    "label": "SEGA Saturn",
+    "main": "#6fd8d5",
+    "strong": "#20767c",
+    "colors": [
+      "#2c8b92",
+      "#75e0d6",
+      "#385c70"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sega_Saturn_Black_Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sega_Saturn_Black_Logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "GENESIS": {
+    "id": "GENESIS",
+    "label": "SEGA Genesis",
+    "main": "#df7780",
+    "strong": "#a12f40",
+    "colors": [
+      "#c53142",
+      "#444857",
+      "#959da6"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sega_genesis_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sega_genesis_logo.svg",
+    "evidence": "qa/upgrade/asset-decode.json",
+    "localAllowed": false
+  },
+  "NES": {
+    "id": "NES",
+    "label": "Nintendo Entertainment System",
+    "main": "#e7907b",
+    "strong": "#a94338",
+    "colors": [
+      "#b84237",
+      "#c5c9cc",
+      "#575c62"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NES_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:NES_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "GBC": {
+    "id": "GBC",
+    "label": "Game Boy Color",
+    "main": "#9dcc84",
+    "strong": "#4e7a4b",
+    "colors": [
+      "#df4a89",
+      "#8554c8",
+      "#429dcc",
+      "#60ad58"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Game_Boy_Color_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Game_Boy_Color_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "GB": {
+    "id": "GB",
+    "label": "Game Boy",
+    "main": "#b5c7a0",
+    "strong": "#586b50",
+    "colors": [
+      "#657650",
+      "#b7c391",
+      "#4a5540"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gameboy_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gameboy_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  }
+}

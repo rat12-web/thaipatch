@@ -1,5 +1,15 @@
 # Source audit summary
 
+## 2026-10-13 platform/card and Patch update
+
+The latest request removes the upper-left platform overlay, moves real console logos outside the cover, adds platform frames, displays available creator logos/profile images and fills missing covers. Eight working team identity images are published in teams.json. The inherited NeeNganMaPlae SVG fails to decode and remains a candidate rather than a fabricated replacement. Nine teams still have no usable confirmed identity image. Sixteen console logos are checked; Genesis uses the exact SEGA console logo from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sega_genesis_logo.svg). Original logo colors are retained.
+
+Cached creator manifests are reused for cover selection, with targeted follow-up only on failed/unresolved images. Thirty-five primary images changed; thirteen empty covers are filled; all 128 records have an actually decoded exact-game candidate. Eighty-five use creator/team-hosted images, the rest use game art from the existing audit/archive. Related base-game alternatives are marked as such. Art identity/decoding does not establish republication rights; no catalog artwork is copied locally. Cover, team and platform provenance is preserved in public JSON and the continuation workspace's audit CSVs.
+
+ROMMEAOW's two entries now open its visible #patch Lab directly, confirmed by a native catalog click. Game identification happens at the source using the user's own ROM or manual selection. Twenty-two exact-Patch links remain blocked by source-side URL support: 18 90S, three Murphy, and Maewdam DQ III. A fresh ?game=firered-th#patch visit still selected the wrong game on 90S; its current code has no query handler. Murphy uses a click-only Patch flow; Maewdam's previous measured game-card route remains unchanged. An owner-side integration proposal is recorded in SOURCE_PATCH_BLOCKERS.md in the continuation workspace, NOT applied to another team's site. No local ROM patcher, proxy or cross-origin controller is added.
+
+Evidence: qa/upgrade/discovery.json, asset-decode.json, failure-followup.json, cards.json and live-cards.json. The historical route survey below is retained as history; current source-card count is 22, with two verified Patch Lab routes.
+
 Baseline: provided ThaiPatch_WORK_READY_v0.29 archive; all 41 archive manifest entries verified before continuation. Current catalog omits only the synthetic IPS demo: 128 patch records, 126 grouped games.
 
 Fresh critical-page evidence from 2026-10-12:
