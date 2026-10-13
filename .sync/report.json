@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T11:07:29.221095+00:00",
+  "checkedAt": "2026-10-13T19:23:14.579414+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 167,
+      "records": 168,
       "matched": 1,
       "updated": 0
     },
@@ -1344,6 +1344,14 @@
       "source": "https://www.nonplae.com/api/patch-games",
       "key": "dragon-quest-i-ii",
       "title": "Dragon Quest I & II (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "radical-dreamers",
+      "title": "Radical Dreamers (SNES)",
       "platform": "SNES",
       "state": "pending_route_edition_review"
     },
