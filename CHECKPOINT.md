@@ -1,10 +1,11 @@
 # Repository-independent continuation checkpoint
 
-Date: 2026-10-13. Status: isolated repository build and portable browser checks PASS; Linux CI/deployment pending this commit. Complete source/rights acceptance remains PARTIAL.
+Date: 2026-10-13. Status: isolated repository build, portable browser checks, Linux CI and Pages deployment PASS. Complete source/rights acceptance remains PARTIAL.
 
 Site: https://rat12-web.github.io/thaipatch/
 Repository: https://github.com/rat12-web/thaipatch
-Last published UI/reference commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
+Original published UI/reference commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
+Repository independence validated code commit: 407ba41c0f867c6b9a12cc2dd38e0db87596ddf8
 Current milestone commit: identify through git log (the checkpoint is committed with the changes).
 
 ## Result
@@ -22,7 +23,7 @@ An isolated copy excluded .git, node_modules, qa and all workspace baseline/tool
 
 Public text scan found no credential signatures or hardcoded executable paths in src/tools. This is a targeted publication check, not a comprehensive security audit. Third-party artwork stays remote; local assets are only the user's supplied brand images. Individual Claude Code/Antigravity/ZCode/T3/Hermes integrations were NOT RUN.
 
-Linux bundled-Chromium CI and final Pages commit: pending until the workflow completes. See GitHub Actions and evidence/portability/summary.json for follow-up proof.
+Linux bundled-Chromium installation, repository build check, updater tests, offline browser smoke and Pages deploy passed: https://github.com/rat12-web/thaipatch/actions/runs/38393194631. The live deployment.json matched the validated code commit. A fresh GitHub clone rebuilt all five generated files exactly (normalized text) after deleting them; no workspace source was present. Evidence: evidence/portability/linux-ci.json, live-deployment.json and summary.json. Later documentation-only commits do not change this validated implementation; identify current HEAD through Git.
 
 ## Remaining blockers / next action
 

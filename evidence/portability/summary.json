@@ -29,5 +29,10 @@
   "vendorAgentsInvoked": false,
   "secretsScan": "70 public text files checked for credential signatures; no matching executable host paths",
   "sourceCodeOrigin": "extracted from deployed 6c53fa3 app/core and current template files; no restart",
-  "linuxCI": "pending"
+  "linuxCI": "pass",
+  "linuxBundledChromium": true,
+  "linuxRun": "https://github.com/rat12-web/thaipatch/actions/runs/38393194631",
+  "validatedCodeCommit": "407ba41c0f867c6b9a12cc2dd38e0db87596ddf8",
+  "pagesCommitVerified": "407ba41c0f867c6b9a12cc2dd38e0db87596ddf8",
+  "githubCloneBuildRegenerationPass": true
 }
