@@ -124,7 +124,7 @@ function fallbackCopy(text){const el=document.createElement('textarea');el.value
 function allGames(){return catalog}
 function seriesOf(g){return g.series||'เกมอื่น ๆ'}
 function seriesPopularity(g){const n=SERIES_RANK.indexOf(seriesOf(g));return n<0?999:n}
-function qs(){document.title='ThaiPatch — คลังเกมแปลไทย'}
+function qs(){document.title='แปลไทยบอกด้วย · romthai.app — คลังเกมแปลไทย'}
 function filtered(){
  const tokens=normalizeSearch(state.query).split(' ').filter(Boolean);
  const matches=g=>tokens.every(t=>normalizeSearch([g.title,g.translatorName,g.source,g.platform,g.genre,seriesOf(g)].join(' ')).includes(t))&&(!state.platform||g.platform===state.platform)&&(!state.series||seriesOf(g)===state.series)&&(!state.team||(g.translatorName||g.source)===state.team)&&(!state.genre||g.genre===state.genre)&&(!state.art||g.artStyle===state.art);
