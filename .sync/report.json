@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-13T11:03:23.379328+00:00",
+  "checkedAt": "2026-10-13T11:07:29.221095+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 159,
       "matched": 20,
-      "updated": 20
+      "updated": 0
     },
     "gayray": {
       "state": "ok",
@@ -33,28 +33,7 @@
       "updated": 0
     }
   },
-  "changedRecords": [
-    "ext-001",
-    "ext-002",
-    "ext-003",
-    "ext-004",
-    "ext-005",
-    "ext-006",
-    "ext-007",
-    "ext-008",
-    "ext-009",
-    "ext-010",
-    "ext-011",
-    "ext-012",
-    "ext-013",
-    "ext-014",
-    "ext-015",
-    "ext-016",
-    "ext-017",
-    "ext-018",
-    "ext-019",
-    "ext-020"
-  ],
+  "changedRecords": [],
   "newCandidates": [
     {
       "feed": "memory",
