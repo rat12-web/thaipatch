@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T05:04:47.096986+00:00",
+  "checkedAt": "2026-10-14T12:08:38.006006+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 168,
+      "records": 175,
       "matched": 1,
       "updated": 0
     },
@@ -1214,6 +1214,54 @@
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
+      "key": "harvest-moon-3-gbc",
+      "title": "Harvest Moon 3 (GBC)",
+      "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yugioh-dungeon-dice-monsters",
+      "title": "Yu-Gi-Oh! Dungeon Dice Monsters (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "harvest-moon-2-gbc",
+      "title": "Harvest Moon 2 (GBC)",
+      "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-i-ii-dawn-of-souls",
+      "title": "Final Fantasy I & II Dawn of Souls (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "yugioh-nightmare-troubadour",
+      "title": "Yu-Gi-Oh! Nightmare Troubadour (NDS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "viewtiful-joe-double-trouble",
+      "title": "Viewtiful Joe - Double Trouble! (NDS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
       "key": "nekketsu-kouha-kunio-kun-special",
       "title": "Nekketsu Kouha Kunio-kun Special (3DS)",
       "platform": "3DS",
@@ -1241,6 +1289,14 @@
       "key": "harvest-moon-gbc",
       "title": "Harvest Moon (GBC)",
       "platform": "GBC",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "legend-of-mana",
+      "title": "Legend of Mana (PS1)",
+      "platform": "PS1",
       "state": "pending_route_edition_review"
     },
     {
