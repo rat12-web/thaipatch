@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T11:45:05.219234+00:00",
+  "checkedAt": "2026-10-15T17:11:49.213968+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 179,
+      "records": 181,
       "matched": 1,
       "updated": 0
     },
@@ -1206,6 +1206,14 @@
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-emerald-nds",
+      "title": "Pokémon Emerald (DS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
       "key": "warera-mitsurin-tankentai",
       "title": "Warera Mitsurin Tankentai (PS1)",
       "platform": "PS1",
@@ -1217,6 +1225,14 @@
       "key": "zill-oll-infinite-plus",
       "title": "Zill Oll Infinite Plus (PSP)",
       "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-wars-alpha-gaiden",
+      "title": "Super Robot Wars Alpha Gaiden (PS1)",
+      "platform": "PS1",
       "state": "pending_route_edition_review"
     },
     {
