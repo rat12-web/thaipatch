@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T04:53:53.052615+00:00",
+  "checkedAt": "2026-10-15T11:45:05.219234+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,13 +16,13 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 177,
+      "records": 179,
       "matched": 1,
       "updated": 0
     },
     "retro": {
       "state": "ok",
-      "records": 6,
+      "records": 7,
       "matched": 6,
       "updated": 0
     },
@@ -1222,9 +1222,25 @@
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
+      "key": "romance-of-the-three-kingdoms-iv",
+      "title": "Romance of the Three Kingdoms IV: Wall of Fire (SNES)",
+      "platform": "SNES",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
       "key": "super-robot-taisen-g",
       "title": "Dai-2-ji Super Robot Taisen G (GB)",
       "platform": "GB",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "rokudenashi-blues",
+      "title": "Rokudenashi Blues - Taiketsu! Tokyo Shitennou (SNES)",
+      "platform": "SNES",
       "state": "pending_route_edition_review"
     },
     {
@@ -2609,6 +2625,14 @@
       "key": "dragon-quest-vi",
       "title": "Dragon Quest VI (SNES) V1.2",
       "platform": "SUPER FAMICOM",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "retro",
+      "source": "https://retrospective-patch-library.vercel.app/data/games.js",
+      "key": "pokemon-wild-indigo",
+      "title": "Pokémon Wild Indigo TH",
+      "platform": "Game Boy Advance",
       "state": "pending_route_edition_review"
     },
     {
