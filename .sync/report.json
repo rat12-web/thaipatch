@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T21:49:31.570341+00:00",
+  "checkedAt": "2026-10-15T04:53:53.052615+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -10,13 +10,13 @@
     },
     "gayray": {
       "state": "ok",
-      "records": 14,
+      "records": 15,
       "matched": 8,
       "updated": 0
     },
     "nonplae": {
       "state": "ok",
-      "records": 176,
+      "records": 177,
       "matched": 1,
       "updated": 0
     },
@@ -1196,6 +1196,14 @@
       "state": "pending_route_edition_review"
     },
     {
+      "feed": "gayray",
+      "source": "https://gayray.pages.dev/games.json",
+      "key": "yoshis-island-sfc",
+      "title": "Super Mario World 2 - Yoshi's Island (USA)",
+      "platform": "SFC",
+      "state": "pending_route_edition_review"
+    },
+    {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
       "key": "warera-mitsurin-tankentai",
@@ -1209,6 +1217,14 @@
       "key": "zill-oll-infinite-plus",
       "title": "Zill Oll Infinite Plus (PSP)",
       "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-robot-taisen-g",
+      "title": "Dai-2-ji Super Robot Taisen G (GB)",
+      "platform": "GB",
       "state": "pending_route_edition_review"
     },
     {
