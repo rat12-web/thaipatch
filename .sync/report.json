@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-16T11:38:52.890678+00:00",
+  "checkedAt": "2026-10-16T16:48:23.666932+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 161,
       "matched": 20,
-      "updated": 1
+      "updated": 0
     },
     "gayray": {
       "state": "ok",
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 186,
+      "records": 188,
       "matched": 1,
       "updated": 0
     },
@@ -31,9 +31,7 @@
       "reason": "ValueError: unexpected redirect host"
     }
   },
-  "changedRecords": [
-    "ext-004"
-  ],
+  "changedRecords": [],
   "newCandidates": [
     {
       "feed": "memory",
@@ -1254,6 +1252,14 @@
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
+      "key": "another-code-two-memories",
+      "title": "Another Code Two Memories (NDS)",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
       "key": "diablo",
       "title": "Diablo (PS1)",
       "platform": "PS1",
@@ -1281,6 +1287,14 @@
       "key": "super-robot-wars-alpha-gaiden",
       "title": "Super Robot Wars Alpha Gaiden (PS1)",
       "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "brave-story-new-traveler",
+      "title": "Brave Story - New Traveler (PSP)",
+      "platform": "PSP",
       "state": "pending_route_edition_review"
     },
     {
