@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-15T21:33:12.009102+00:00",
+  "checkedAt": "2026-10-16T04:44:28.537058+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
-      "records": 159,
+      "records": 160,
       "matched": 20,
       "updated": 0
     },
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 181,
+      "records": 183,
       "matched": 1,
       "updated": 0
     },
@@ -35,6 +35,14 @@
   },
   "changedRecords": [],
   "newCandidates": [
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Final Fantasy VI (Anthology)",
+      "title": "Final Fantasy VI (Anthology)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
     {
       "feed": "memory",
       "source": "https://memorycardth.com/dl/_patch/site.json",
@@ -1230,6 +1238,14 @@
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
+      "key": "recca-no-honoo-the-game",
+      "title": "Recca no Honoo - The Game (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
       "key": "super-robot-wars-alpha-gaiden",
       "title": "Super Robot Wars Alpha Gaiden (PS1)",
       "platform": "PS1",
@@ -1664,6 +1680,14 @@
       "source": "https://www.nonplae.com/api/patch-games",
       "key": "fullmetal-alchemist-sonata",
       "title": "Fullmetal Alchemist - Sonata of Memories (GBA)",
+      "platform": "GBA",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "magical-vacation",
+      "title": "Magical Vacation (GBA)",
       "platform": "GBA",
       "state": "pending_route_edition_review"
     },
