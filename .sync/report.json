@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-16T04:44:28.537058+00:00",
+  "checkedAt": "2026-10-16T11:38:52.890678+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
-      "records": 160,
+      "records": 161,
       "matched": 20,
-      "updated": 0
+      "updated": 1
     },
     "gayray": {
       "state": "ok",
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 183,
+      "records": 186,
       "matched": 1,
       "updated": 0
     },
@@ -27,14 +27,22 @@
       "updated": 0
     },
     "murphy": {
-      "state": "ok",
-      "records": 10,
-      "matched": 1,
-      "updated": 0
+      "state": "failed_preserved",
+      "reason": "ValueError: unexpected redirect host"
     }
   },
-  "changedRecords": [],
+  "changedRecords": [
+    "ext-004"
+  ],
   "newCandidates": [
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Jump Ultimate Stars",
+      "title": "Jump Ultimate Stars",
+      "platform": "NDS",
+      "state": "pending_route_edition_review"
+    },
     {
       "feed": "memory",
       "source": "https://memorycardth.com/dl/_patch/site.json",
@@ -1222,6 +1230,14 @@
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-ix",
+      "title": "Final Fantasy IX (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
       "key": "warera-mitsurin-tankentai",
       "title": "Warera Mitsurin Tankentai (PS1)",
       "platform": "PS1",
@@ -1233,6 +1249,22 @@
       "key": "zill-oll-infinite-plus",
       "title": "Zill Oll Infinite Plus (PSP)",
       "platform": "PSP",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "diablo",
+      "title": "Diablo (PS1)",
+      "platform": "PS1",
+      "state": "pending_route_edition_review"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "doraemon-3-makai-no-dungeon",
+      "title": "Doraemon 3: Makai no Dungeon (PS1)",
+      "platform": "PS1",
       "state": "pending_route_edition_review"
     },
     {
@@ -2673,78 +2705,6 @@
       "key": "pokemon-wild-indigo",
       "title": "Pokémon Wild Indigo TH",
       "platform": "Game Boy Advance",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "silent-hill-origins",
-      "title": null,
-      "platform": "PSP • USA",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "silent-hill-play-novel",
-      "title": null,
-      "platform": "Game Boy Advance",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "mighty-final-fight",
-      "title": null,
-      "platform": "NES (Nintendo Entertainment System) • USA",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "phantom-fighter",
-      "title": null,
-      "platform": "NES (Nintendo Entertainment System) • USA",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "megaman-x5",
-      "title": null,
-      "platform": "PlayStation 1 • USA",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "resident-evil-directors-cut",
-      "title": null,
-      "platform": "PlayStation 1 • USA",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "twilight-syndrome-kyuumei-hen",
-      "title": null,
-      "platform": "PlayStation 1 • Japan",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "twilight-syndrome-tansaku-hen",
-      "title": null,
-      "platform": "PlayStation 1 • Japan",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.vercel.app/",
-      "key": "sh1-title-silent-hill",
-      "title": null,
-      "platform": null,
       "state": "pending_route_edition_review"
     }
   ],
