@@ -5,7 +5,8 @@
 Owner: Codex; repository rat12-web/thaipatch; branch codex/complete-catalog-sync.
 This is the aggregation catalog requested by the owner. thai-rom-cloud is
 separate personal translation work; Gecko Offline and thai-rom-cloud were
-not changed. Git reference: this change's PR/commit (see Git history).
+not changed. Implementation SHA: 8b9c7a1; PR #1 https://github.com/rat12-web/thaipatch/pull/1.
+Later documentation-only commits do not change the tested catalog/app.
 
 Catalog: 135 entries / 133 game-platform groups. Added seven verified Gayray
 records, all with prefix gayray-sync-: dokapon-monster-hunter-usa,
@@ -50,4 +51,3 @@ candidates; review Memory Card TH's pending records in bounded batches,
 then add only confirmed game/platform/edition/source/artwork records. Resolve
 หนีงานมาแปล's authoritative duplicate/overlay behavior before adding an adapter.
 See docs/SYNC_SOURCES.md for remaining discovery evidence and review gates.
-
