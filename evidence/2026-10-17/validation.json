@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-17T07:10:01.375591+00:00",
+  "repository": "rat12-web/thaipatch",
+  "baseCommit": "2e318b1",
+  "catalogRecords": 135,
+  "gamePlatformGroups": 133,
+  "automaticFeeds": 9,
+  "sourceRows": 566,
+  "matchedSourceRows": 97,
+  "pendingSourceRows": 469,
+  "manualTeams": 8,
+  "checks": {
+    "smoke": {
+      "pass": true,
+      "views": 6
+    },
+    "chronology": {
+      "pass": true,
+      "views": 3
+    },
+    "catalog": {
+      "pass": true,
+      "views": 3
+    },
+    "themes": {
+      "pass": true,
+      "views": 6
+    },
+    "platforms": {
+      "pass": true,
+      "views": 6
+    }
+  },
+  "updaterTests": "PASS: preservation, malformed rows, recovery, exact platform/source keys, version-only refresh, reviewed edition/cover evidence",
+  "buildCheck": "PASS",
+  "embeddedCatalogCheck": "PASS",
+  "diffCheck": "PASS",
+  "nativeNewSourceChecks": {
+    "pass": true,
+    "games": 7,
+    "evidence": "gayray-review.json"
+  },
+  "catalogSha256": "db7e5544b4ccd88a9a8e4640fde6d2d5046d53aa90832ac13142a31458c8ec27",
+  "generatedAppSha256": "4680c6846e761c16e849e1d0e228b5a38779394ee16c02b1770ef3aeca242f5a",
+  "limitations": [
+    "No patch application/emulation or ROM/patch download",
+    "Cover rights unconfirmed; third-party images remain remote",
+    "469 pending source rows are not unique games or ready releases",
+    "Eight teams remain manual; source-side exact-Patch blockers unchanged"
+  ]
+}
