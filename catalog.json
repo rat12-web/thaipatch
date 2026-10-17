@@ -1933,12 +1933,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-10-10",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-10",
+      "rawValue": "2026-10-10",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.0",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -1949,8 +1956,8 @@
     "teamId": "team-0d09e66615c5",
     "platform": "PS1",
     "baseEdition": null,
-    "patchVersion": "1.0",
-    "version": "1.0",
+    "patchVersion": "1.1",
+    "version": "1.1",
     "date": "2026-10-09",
     "status": "พร้อมแพตช์",
     "description": "ลิงก์ตรงเมื่อยืนยันรหัสเกมได้ มิฉะนั้นเปิดหน้ารวมแพตช์ที่ต้นทาง",
@@ -2018,12 +2025,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-10-11",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-11",
+      "rawValue": "2026-10-11",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.1",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2103,12 +2117,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-10-05",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-05",
+      "rawValue": "2026-10-05",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.0",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2188,12 +2209,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-10-01",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-01",
+      "rawValue": "2026-10-01",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.2",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2273,12 +2301,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-10-01",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-01",
+      "rawValue": "2026-10-01",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.0.3",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2358,12 +2393,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-09-12",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-09-12",
+      "rawValue": "2026-09-12",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.0.1",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2443,12 +2485,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-09-11",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-09-11",
+      "rawValue": "2026-09-11",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.1",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2528,12 +2577,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-08-22",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-08-22",
+      "rawValue": "2026-08-22",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.0",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2605,12 +2661,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-08-24",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-08-24",
+      "rawValue": "2026-08-24",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.1",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
@@ -2682,12 +2745,19 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": null,
+    "sourceUpdatedAt": "2026-08-24",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-08-24",
+      "rawValue": "2026-08-24",
+      "precision": "day",
+      "source": "https://retrogamethaisub.pages.dev/games.json",
+      "field": "patches[].date",
+      "uploadDateVerified": false,
+      "sourceVersion": "1.2",
+      "checkedAt": "2026-10-17T03:37:48.288362+00:00",
+      "evidence": ".sync/report.json"
     }
   },
   {
