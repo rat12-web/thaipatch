@@ -1,0 +1,218 @@
+{
+  "checkedAt": "2026-10-17T07:00:39.158Z",
+  "source": "https://gayray.pages.dev/",
+  "pass": true,
+  "scope": "Creator game/patch UI, source edition and decoded remote covers only; no patching, binary download or rights certification",
+  "games": [
+    {
+      "key": "dokapon-monster-hunter-usa",
+      "title": "Dokapon - Monster Hunter (USA)",
+      "titleTh": "โดคาปอง มอนสเตอร์ ฮันเตอร์",
+      "platform": "GBA",
+      "version": "v1.0",
+      "updated": "7 ก.ย. 2569",
+      "baseEdition": "Dokapon - Monster Hunter (USA)",
+      "sourceIdentity": {
+        "label": "Dokapon - Monster Hunter (USA)",
+        "ext": ".gba",
+        "size": 8388608,
+        "crc32": "5617e407",
+        "md5": "936a8172335ffc3391d182e909942d76",
+        "sha1": "280f9e01a3caee74bc9fde55e6326005ddba5196"
+      },
+      "warning": null,
+      "description": "เกมกระดานผจญภัยผสมต่อสู้แบบ RPG เดินทอยลูกเต๋า เก็บเงิน อัปเลเวล ชิงเป็นเจ้าเมือง",
+      "patchReference": "patches/dokapon-usa-th.bps",
+      "url": "https://gayray.pages.dev/#game=dokapon-monster-hunter-usa",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/dokapon-monster-hunter-usa-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    },
+    {
+      "key": "knight-gundam-monogatari-fc",
+      "title": "SD Gundam Gaiden: Knight Gundam Monogatari (Japan)",
+      "titleTh": "อัศวินกันดั้ม",
+      "platform": "FC",
+      "version": "v1.0",
+      "updated": "11 ก.ย. 2569",
+      "baseEdition": "SD Gundam Gaiden - Knight Gundam Monogatari (Japan)",
+      "sourceIdentity": {
+        "label": "SD Gundam Gaiden - Knight Gundam Monogatari (Japan)",
+        "ext": ".nes",
+        "size": 393232,
+        "crc32": "38bd5932",
+        "md5": "de1b17031ae81503969f4db2b53251b6",
+        "sha1": "5f500b11f4b57f6a7ad76d941cd65a47eba900a4"
+      },
+      "warning": "แพตช์นี้เปลี่ยน Mapper ของ ROM จาก 16 เป็น 159 เพื่อเปิดพื้นที่ใส่ฟอนต์ไทย โปรแกรม Mesen เวอร์ชัน standalone บนพีซียังไม่รองรับ Mapper 159 ดีพอ ภาพจะขึ้นเป็นสีเขียวทั้งจอ\nแนะนำให้ใช้ FCEUX แทน หรือถ้าจะใช้ Mesen ให้เล่นผ่าน core ของ RetroArch (ทดสอบแล้วเล่นได้ปกติทั้งสองแบบ)",
+      "description": "SD RPG กันดั้ม เดินสำรวจ ต่อสู้ สะสมการ์ด Carddass ผจญภัยกอบกู้ Lacroix",
+      "patchReference": "patches/knight-gundam-th.bps",
+      "url": "https://gayray.pages.dev/#game=knight-gundam-monogatari-fc",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/knight-gundam-monogatari-fc-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    },
+    {
+      "key": "jojo-no-kimyou-na-bouken-sfc",
+      "title": "JoJo no Kimyou na Bouken (Japan)",
+      "titleTh": "โจโจ้ ล่าข้ามศตวรรษ",
+      "platform": "SFC",
+      "version": "v1.0",
+      "updated": "26 ก.ย. 2569",
+      "baseEdition": "Jojo's Bizarre Adventure (Japan) [T-En by Aeon Genesis v1.00] [Add by brkmnly v1.2]",
+      "sourceIdentity": {
+        "label": "Jojo's Bizarre Adventure (Japan) [T-En by Aeon Genesis v1.00] [Add by brkmnly v1.2]",
+        "ext": ".sfc",
+        "size": 1572864,
+        "crc32": "cf6b0dc8",
+        "md5": "7a531df897d124ff61598af730485226",
+        "sha1": "fe603f3edb148dbd7dd4468fe76a6eff3ea8dc0e"
+      },
+      "warning": "แพตช์นี้ต้องใช้ ROM ภาษาอังกฤษเป็นต้นทาง ไม่ใช่ ROM ญี่ปุ่น คือ Jojo's Bizarre Adventure (Japan) [T-En by Aeon Genesis v1.00] [Add by brkmnly v1.2]\nต่อยอดจากงานแปลอังกฤษของ Aeon Genesis และ brkmnly",
+      "description": "RPG ภาค 3 สตาร์ดัสต์ ครูเซเดอร์ส ออกเดินทางจากญี่ปุ่นสู่อียิปต์เพื่อล้มดิโอ ต่อสู้ด้วยพลังสแตนด์และไพ่ทาโรต์",
+      "patchReference": "patches/jojo-th.bps",
+      "url": "https://gayray.pages.dev/#game=jojo-no-kimyou-na-bouken-sfc",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/jojo-no-kimyou-na-bouken-sfc-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    },
+    {
+      "key": "rockman-and-forte-sfc",
+      "title": "Rockman & Forte (Japan)",
+      "titleTh": "ร็อคแมน & ฟอร์เต้",
+      "platform": "SFC",
+      "version": "v1.0",
+      "updated": "26 ก.ย. 2569",
+      "baseEdition": "Rockman & Forte (Japan) [T-En by Aeon Genesis v1.00]",
+      "sourceIdentity": {
+        "label": "Rockman & Forte (Japan) [T-En by Aeon Genesis v1.00]",
+        "ext": ".sfc",
+        "size": 4194304,
+        "crc32": "03bee91c",
+        "md5": "380841ee3047d81f863e2871112fe36d",
+        "sha1": "991641ff3ec9f94c5ac5149ee7627934d1cceb72"
+      },
+      "warning": "แพตช์นี้ต้องใช้ ROM ภาษาอังกฤษเป็นต้นทาง ไม่ใช่ ROM ญี่ปุ่น คือ Rockman & Forte (Japan) [T-En by Aeon Genesis v1.00]\nต่อยอดจากงานแปลอังกฤษของ Aeon Genesis",
+      "description": "ร็อคแมนและฟอร์เต้ออกล่าคิง หุ่นยนต์ที่บุกพิพิธภัณฑ์หุ่นยนต์ เก็บ CD ข้อมูลหุ่น 100 แผ่น และแลกชิ้นส่วนกับออโต้",
+      "patchReference": "patches/rnf-th.bps",
+      "url": "https://gayray.pages.dev/#game=rockman-and-forte-sfc",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/rockman-and-forte-sfc-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    },
+    {
+      "key": "akumajou-special-boku-dracula-kun-fc",
+      "title": "Akumajou Special: Boku Dracula-kun (Japan)",
+      "titleTh": "แดร็กคูล่าคุง ผจญภัย",
+      "platform": "FC",
+      "version": "v1.0",
+      "updated": "27 ก.ย. 2569",
+      "baseEdition": "Akumajou Special - Boku Dracula-kun (Japan)",
+      "sourceIdentity": {
+        "label": "Akumajou Special - Boku Dracula-kun (Japan)",
+        "ext": ".nes",
+        "size": 262160,
+        "crc32": "c3945386",
+        "md5": "658693554bef354a3e2811e5b259cbcd",
+        "sha1": "8c25c42c514cf3a0d034239418815e234fb23ba4"
+      },
+      "warning": null,
+      "description": "คิวล่าคุง ลูกชายจอมมารแดร็กคูล่า ตื่นจากหลับใหลมาพบว่ากาลามอสตั้งตนเป็นราชาโลก ออกเดินทางปราบกาลามอสเพื่อทวงตำแหน่งจอมมารคืน เกมแอ็กชันแนวน่ารักจาก KONAMI",
+      "patchReference": "patches/aks-th.bps",
+      "url": "https://gayray.pages.dev/#game=akumajou-special-boku-dracula-kun-fc",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/akumajou-special-boku-dracula-kun-fc-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    },
+    {
+      "key": "torneko-no-daibouken-sfc",
+      "title": "Torneko no Daibouken: Fushigi no Dungeon (Japan)",
+      "titleTh": "ทอร์เนโกผจญภัย: ดันเจี้ยนลึกลับ",
+      "platform": "SFC",
+      "version": "v1.0",
+      "updated": "13 ต.ค. 2569",
+      "baseEdition": "Torneko no Daibouken - Fushigi no Dungeon (Japan)",
+      "sourceIdentity": {
+        "label": "Torneko no Daibouken - Fushigi no Dungeon (Japan)",
+        "ext": ".sfc",
+        "size": 1572864,
+        "crc32": "654e1be4",
+        "md5": "6c519cb2d7a0c7b197bb4d4377c82456",
+        "sha1": "7109d343435ffddcbeff5bd75ced52bb0ff71609"
+      },
+      "warning": null,
+      "description": "เกมดันเจี้ยนสุ่มแนว Roguelike วางขายโดย Enix ปี 1993 พัฒนาโดย Chunsoft นำทอร์เนโก พ่อค้าจาก Dragon Quest IV ลงสำรวจดันเจี้ยนลึกลับที่เปลี่ยนรูปทุกครั้งที่ลง เก็บสมบัติกลับมาขยายร้านของครอบครัวในหมู่บ้าน",
+      "patchReference": "patches/tnk-th.bps",
+      "url": "https://gayray.pages.dev/#game=torneko-no-daibouken-sfc",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/torneko-no-daibouken-sfc-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    },
+    {
+      "key": "yoshis-island-sfc",
+      "title": "Super Mario World 2 - Yoshi's Island (USA)",
+      "titleTh": "ซูเปอร์มาริโอเวิลด์ 2: เกาะโยชิ",
+      "platform": "SFC",
+      "version": "v1.0",
+      "updated": "15 ต.ค. 2569",
+      "baseEdition": "Super Mario World 2 - Yoshi's Island (USA)",
+      "sourceIdentity": {
+        "label": "Super Mario World 2 - Yoshi's Island (USA)",
+        "ext": ".sfc",
+        "size": 2097152,
+        "crc32": "d138f224",
+        "md5": "cb472164c5a71ccd3739963390ec6a50",
+        "sha1": "c807f2856f44fb84326fac5b462340dcdd0471f8"
+      },
+      "warning": null,
+      "description": "เกมแอ็กชันแพลตฟอร์มของ Nintendo ปี 1995 ใช้ชิป SuperFX วาดภาพสไตล์ดินสอสี นกกระสาที่คาบเด็กฝาแฝดถูกคาเม็กโจมตีกลางทาง เบบี้มาริโอตกลงบนเกาะโยชิ เหล่าโยชิต้องผลัดกันพาเด็กข้ามเกาะไปช่วยน้องที่ถูกจับตัวไป",
+      "patchReference": "patches/yi-th.bps",
+      "url": "https://gayray.pages.dev/#game=yoshis-island-sfc",
+      "cover": {
+        "url": "https://gayray.pages.dev/covers/yoshis-island-sfc-card.jpg",
+        "width": 800,
+        "height": 800
+      },
+      "nativeClick": true,
+      "freshDeepLink": true,
+      "patchUi": true,
+      "pass": true
+    }
+  ]
+}

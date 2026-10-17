@@ -53,3 +53,82 @@ cat=[copy.deepcopy(catalog_row)];report=m.refresh(cat,retrogame_loader)
 assert report['feeds']['retrogame']['matched']==1 and cat[0]['sourceUpdatedAt']=='2026-08-24'
 assert 'reason' not in cat[0]['sourceDateAudit']
 print('Updater: date validation, exact edition matching, failed-feed preservation, no remote execution PASS')
+
+# A malformed later row must preserve the entire feed, including its review queue.
+original=copy.deepcopy(catalog_row)
+previous={'newCandidates':[{'feed':'retrogame','key':'pending-game','state':'pending_route_edition_review','lastSeenAt':'2026-01-01T00:00:00Z'}]}
+def malformed_loader(url):
+ if url==m.FEEDS['retrogame']:return json.dumps({'games':[retrogame,None]})
+ raise TimeoutError('fixture offline')
+cat=[copy.deepcopy(original)];report=m.refresh(cat,malformed_loader,previous)
+assert cat==[original] and report['feeds']['retrogame']['state']=='failed_preserved'
+assert report['newCandidates'][0]['key']=='pending-game'
+assert report['newCandidates'][0]['lastSeenAt']=='2026-01-01T00:00:00Z'
+assert report['newCandidates'][0]['sourceState']=='stale_feed_unavailable'
+# Recovery replaces stale candidates with the source's current rows, not duplicates.
+report=m.refresh([copy.deepcopy(original)],retrogame_loader,report)
+assert report['feeds']['retrogame']['state']=='ok' and not report['newCandidates']
+# Unhashable edition fields previously crashed after fetch and bypassed preservation.
+bad=copy.deepcopy(retrogame);bad['patches'][0]['version']=[]
+try:m.validate_rows('retrogame',[bad])
+except ValueError:pass
+else:raise AssertionError('Malformed edition version accepted')
+for rows in [[None],[{'id':'x','title':[]}],[{'title':'missing key'}]]:
+ try:m.validate_rows('gayray',rows)
+ except ValueError:pass
+ else:raise AssertionError('Changed row schema accepted')
+coverage=m.refresh([{'source':'INorge Game Stream'}],lambda url: (_ for _ in ()).throw(TimeoutError()))['sourceCoverage']
+assert coverage==[{'team':'INorge Game Stream','feed':None,'mode':'manual_no_public_adapter'}]
+print('Updater: atomic malformed-feed rejection, stale candidate retention, recovery and source coverage PASS')
+
+registry='window.REGISTRY = [\n  {\n    slug: "pokemon-ruby",\n    title: "Ruby Thai",\n    version: "v2.0",\n    platform: "GAME BOY ADVANCE",\n    enabled: true,\n    chains: { file: "never-download.bps" }\n  }\n]; throw Error("never execute");'
+rows=m.parse('rommeaow',registry)
+assert rows[0]['id']=='pokemon-ruby' and rows[0]['version']=='v2.0'
+rom={'id':'rommeaow-028-02','source':'รอมเหมียว (ROMMEAOW)','platform':'GBA','url':'https://rommeaow.com/#patch','patchVersion':'v1.9','sourceUpdatedAt':None}
+def rom_loader(url):
+ if url==m.FEEDS['rommeaow']:return registry
+ raise TimeoutError('fixture offline')
+cat=[copy.deepcopy(rom)];report=m.refresh(cat,rom_loader)
+assert cat[0]['patchVersion']=='v2.0' and cat[0]['sourceUpdatedAt'] is None and 'sourceDateAudit' not in cat[0]
+assert cat[0]['url']==rom['url'] and report['changedRecords']==[rom['id']]
+assert m.refresh(cat,rom_loader)['changedRecords']==[]
+disabled=registry.replace('enabled: true','enabled: false')
+def disabled_loader(url):
+ if url==m.FEEDS['rommeaow']:return disabled
+ raise TimeoutError('fixture offline')
+cat=[copy.deepcopy(rom)];m.refresh(cat,disabled_loader);assert cat==[rom]
+wrong=dict(rom,platform='NDS');assert m.match('rommeaow',wrong,rows) is None
+try:m.parse('rommeaow',registry.replace('version: "v2.0"','version: remoteCode()'))
+except ValueError:pass
+else:raise AssertionError('Executable version expression accepted')
+print('ROMMEAOW: exact GBA identity, version-only updates, disabled release and no execution PASS')
+
+source90='const GAMES = [\n  {\n    id: "firered-th",\n    subtitle: "Pokemon FireRed Thai",\n    chips: ["GBA", "Thai"],\n  }\n]; throw Error("do not execute");'
+rows=m.parse('90s',source90);assert rows==[{'id':'firered-th','title':'Pokemon FireRed Thai','platform':'GBA'}]
+game90={'id':'test90','source':'90S Game','platform':'GBA','url':'https://90s-game.pitak2540.workers.dev/?game=firered-th#games:~:text=FireRed','sourceUpdatedAt':None}
+assert m.match('90s',game90,rows)==rows[0]
+assert m.match('90s',dict(game90,platform='GBC'),rows) is None
+def source90_loader(url):
+ if url==m.FEEDS['90s']:return source90
+ raise TimeoutError('fixture offline')
+cat=[copy.deepcopy(game90)];report=m.refresh(cat,source90_loader);assert cat==[game90] and report['feeds']['90s']['matched']==1
+try:m.parse('90s',source90.replace('subtitle: "Pokemon FireRed Thai"','subtitle: execute()'))
+except ValueError:pass
+else:raise AssertionError('Executable title accepted')
+print('90S: discovery-only, exact source key/platform, no route/date mutation or execution PASS')
+
+review_path=Path(__file__).resolve().parents[1]/'evidence/2026-10-17/gayray-review.json'
+review=json.loads(review_path.read_text(encoding='utf-8'))
+catalog=json.loads((review_path.parents[2]/'catalog.json').read_text(encoding='utf-8'))
+reviewed=[g for g in catalog if g.get('syncSource',{}).get('feed')=='gayray']
+assert len(reviewed)==len(review['games'])==7
+for game in reviewed:
+ source=next(r for r in review['games'] if r['key']==game['syncSource']['key'])
+ assert game['baseEdition']==source['baseEdition'] and game['url']==source['url']
+ assert game['cover']==source['cover']['url'] and game['coverAlternatives']
+ assert m.match('gayray',game,[{'id':source['key']}])=={'id':source['key']}
+ assert game['sourceDateAudit']['uploadDateVerified'] is False
+ assert game['platform']=={'FC':'NES','SFC':'SNES'}.get(source['platform'],source['platform'])
+ assert game['coverAudit']['localAllowed'] is False
+assert any('Aeon Genesis' in g['baseEdition'] and 'brkmnly' in g['baseEdition'] for g in reviewed)
+print('Reviewed additions: seven source identities, edition prerequisites, platforms and remote cover evidence PASS')

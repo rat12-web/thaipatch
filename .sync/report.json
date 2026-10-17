@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T04:42:18.809983+00:00",
+  "checkedAt": "2026-10-17T07:05:16.668202+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -11,12 +11,12 @@
     "gayray": {
       "state": "ok",
       "records": 15,
-      "matched": 8,
+      "matched": 15,
       "updated": 0
     },
     "nonplae": {
       "state": "ok",
-      "records": 189,
+      "records": 190,
       "matched": 1,
       "updated": 0
     },
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 117,
+      "records": 118,
       "matched": 24,
       "updated": 0
     },
@@ -42,6 +42,18 @@
       "state": "ok",
       "records": 10,
       "matched": 10,
+      "updated": 0
+    },
+    "rommeaow": {
+      "state": "ok",
+      "records": 5,
+      "matched": 2,
+      "updated": 0
+    },
+    "90s": {
+      "state": "ok",
+      "records": 48,
+      "matched": 18,
       "updated": 0
     }
   },
@@ -54,7 +66,9 @@
       "title": "Shonen Jump's One Piece",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -63,7 +77,9 @@
       "title": "Final Fantasy V (Anthology)",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -72,7 +88,9 @@
       "title": "Jump Ultimate Stars",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -81,7 +99,9 @@
       "title": "Final Fantasy VI (Anthology)",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -90,7 +110,9 @@
       "title": "Boku no Natsuyasumi Portable (ぼくのなつやすみ ポータブル)",
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -99,7 +121,9 @@
       "title": "Inazuma Eleven",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -108,7 +132,9 @@
       "title": "Magic Knight Rayearth",
       "platform": "Saturn",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -117,7 +143,9 @@
       "title": "God of War II",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -126,7 +154,9 @@
       "title": "Dragon Ball Z Budokai Tenkaichi 4 (ม็อด TeamBT4)",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -135,7 +165,9 @@
       "title": "Final Fantasy X-2 International + Last Mission",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -144,7 +176,9 @@
       "title": "Final Fantasy X International",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -153,7 +187,9 @@
       "title": "Dragon Ball Z Sparking! METEOR",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -162,7 +198,9 @@
       "title": "Okami",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -171,7 +209,9 @@
       "title": "Gran Turismo 4",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -180,7 +220,9 @@
       "title": "Need for Speed: Carbon",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -189,7 +231,9 @@
       "title": "Burnout 3: Takedown",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -198,7 +242,9 @@
       "title": "Prince of Persia: Warrior Within",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -207,7 +253,9 @@
       "title": "Alone in the Dark: The New Nightmare",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -216,7 +264,9 @@
       "title": "Battle Stadium D.O.N",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -225,7 +275,9 @@
       "title": "Boku no Natsuyasumi 2 (ぼくのなつやすみ2 海の冒険篇)",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -234,7 +286,9 @@
       "title": "JoJo's Bizarre Adventure",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -243,7 +297,9 @@
       "title": "Onimusha: Warlords",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -252,7 +308,9 @@
       "title": "The Legend of Zelda: Twilight Princess",
       "platform": "GC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -261,7 +319,9 @@
       "title": "Dragon Quest Heroes: Rocket Slime",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -270,7 +330,9 @@
       "title": "Harvest Moon: Friends of Mineral Town — Extended Edition",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -279,7 +341,9 @@
       "title": "Onimusha Tactics",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -288,7 +352,9 @@
       "title": "The Legend of Zelda: Phantom Hourglass",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -297,7 +363,9 @@
       "title": "The Legend of Zelda: Spirit Tracks",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -306,7 +374,9 @@
       "title": "Pokémon Black Version",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -315,7 +385,9 @@
       "title": "Pokémon White Version",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -324,7 +396,9 @@
       "title": "Super Robot Taisen J",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -333,7 +407,9 @@
       "title": "Need for Speed: Underground 2",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -342,7 +418,9 @@
       "title": "Harvest Moon: A Wonderful Life Special Edition",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -351,7 +429,9 @@
       "title": "Kamen Rider Ryuki",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -360,7 +440,9 @@
       "title": "Mega Man Battle Network 3 White",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -369,7 +451,9 @@
       "title": "Mega Man Battle Network 4 Blue Moon",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -378,7 +462,9 @@
       "title": "The Sims 2",
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -387,7 +473,9 @@
       "title": "Super Robot Taisen: Original Generation 2",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -396,7 +484,9 @@
       "title": "Dragon Quest IV: Chapters of the Chosen",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -405,7 +495,9 @@
       "title": "Mega Man Battle Network 5 Team Colonel",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -414,7 +506,9 @@
       "title": "Mega Man Battle Network 5 Team ProtoMan",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -423,7 +517,9 @@
       "title": "Mega Man Battle Network 6 Cybeast Falzar",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -432,7 +528,9 @@
       "title": "Mega Man Battle Network 6 Cybeast Gregar",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -441,7 +539,9 @@
       "title": "Bloody Roar 2: Bringer of the New Age",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -450,7 +550,9 @@
       "title": "Super Robot Taisen: Original Generation",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -459,7 +561,9 @@
       "title": "Harvest Moon: Friends of Mineral Town — True Love Edition",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -468,7 +572,9 @@
       "title": "Kamen Rider Agito",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -477,7 +583,9 @@
       "title": "Kamen Rider Climax Heroes",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -486,7 +594,9 @@
       "title": "Kamen Rider Kuuga",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -495,7 +605,9 @@
       "title": "Dragon Quest Monsters 1・2 (ドラゴンクエストモンスターズ1・2)",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -504,7 +616,9 @@
       "title": "Kamen Rider Kabuto",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -513,7 +627,9 @@
       "title": "Phoenix Wright: Ace Attorney",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -522,7 +638,9 @@
       "title": "Boku no Natsuyasumi (ぼくのなつやすみ)",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -531,7 +649,9 @@
       "title": "Kamen Rider Blade",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -540,7 +660,9 @@
       "title": "Hokuto no Ken (北斗の拳 世紀末救世主伝説)",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -549,7 +671,9 @@
       "title": "Front Mission 3",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -558,7 +682,9 @@
       "title": "Kamen Rider 555",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -567,7 +693,9 @@
       "title": "Charumera (チャルメラ)",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -576,7 +704,9 @@
       "title": "Ultraman",
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -585,7 +715,9 @@
       "title": "Tomba! 2: The Evil Swine Return",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -594,7 +726,9 @@
       "title": "The Legend of Dragoon",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -603,7 +737,9 @@
       "title": "Advance Wars",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -612,7 +748,9 @@
       "title": "Advance Wars 2: Black Hole Rising",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -621,7 +759,9 @@
       "title": "Tactics Ogre: The Knight of Lodis",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -630,7 +770,9 @@
       "title": "Harvest Moon DS Cute",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -639,7 +781,9 @@
       "title": "Harvest Moon: More Friends of Mineral Town",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -648,7 +792,9 @@
       "title": "Harvest Moon DS",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -657,7 +803,9 @@
       "title": "Dragon Warrior I & II",
       "platform": "GBC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -666,7 +814,9 @@
       "title": "MapleStory DS",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -675,7 +825,9 @@
       "title": "Animal Crossing: Wild World",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -684,7 +836,9 @@
       "title": "Final Fantasy Tactics A2: Grimoire of the Rift",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -693,7 +847,9 @@
       "title": "Pokémon Crystal",
       "platform": "GBC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -702,7 +858,9 @@
       "title": "Dino Crisis",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -711,7 +869,9 @@
       "title": "Dino Crisis 2",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -720,7 +880,9 @@
       "title": "Yu-Gi-Oh! Monster Capsule",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -729,7 +891,9 @@
       "title": "Bakusou Kyoudai Let's & Go!! Eternal Wings",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -738,7 +902,9 @@
       "title": "Beyblade G-Revolution",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -747,7 +913,9 @@
       "title": "Dragon Quest V: Hand of the Heavenly Bride",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -756,7 +924,9 @@
       "title": "Dragon Quest VI: Realms of Revelation",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -765,7 +935,9 @@
       "title": "Lufia: The Legend Returns",
       "platform": "GBC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -774,7 +946,9 @@
       "title": "Rune Factory: A Fantasy Harvest Moon",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -783,7 +957,9 @@
       "title": "Rune Factory 2: A Fantasy Harvest Moon",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -792,7 +968,9 @@
       "title": "Rune Factory 3: A Fantasy Harvest Moon",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -801,7 +979,9 @@
       "title": "Dragon Quest IX: Sentinels of the Starry Skies",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -810,7 +990,9 @@
       "title": "Parasite Eve",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -819,7 +1001,9 @@
       "title": "Parasite Eve II",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -828,7 +1012,9 @@
       "title": "Harvest Moon: Hero of Leaf Valley",
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -837,7 +1023,9 @@
       "title": "Harvest Moon: Boy & Girl",
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -846,7 +1034,9 @@
       "title": "Digimon Digital Card Battle",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -855,7 +1045,9 @@
       "title": "Gash Bell!! Unare! Yuujou no Zakeru 2",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -864,7 +1056,9 @@
       "title": "Castlevania: Dawn of Sorrow",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -873,7 +1067,9 @@
       "title": "Mega Man Battle Network 4 Red Sun",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -882,7 +1078,9 @@
       "title": "Mega Man Battle Network 3 Blue",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -891,7 +1089,9 @@
       "title": "SD Saint Seiya: Saint Paradise",
       "platform": "GB",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -900,7 +1100,9 @@
       "title": "Mega Man Battle Network 2",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -909,7 +1111,9 @@
       "title": "Mega Man Battle Network",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -918,7 +1122,9 @@
       "title": "Shin Megami Tensei II",
       "platform": "SFC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -927,7 +1133,9 @@
       "title": "Ragnarok DS",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -936,7 +1144,9 @@
       "title": "Dragon Ball Z: The Legacy of Goku II",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -945,7 +1155,9 @@
       "title": "Dragon Ball Z: Buu's Fury",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -954,7 +1166,9 @@
       "title": "Mega Man Zero",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -963,7 +1177,9 @@
       "title": "Mega Man Zero 2",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -972,7 +1188,9 @@
       "title": "Mega Man Zero 3",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -981,7 +1199,9 @@
       "title": "Mega Man Zero 4",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -990,7 +1210,9 @@
       "title": "Medabots: Rokusho",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -999,7 +1221,9 @@
       "title": "Medabots: Metabee",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1008,7 +1232,9 @@
       "title": "Final Fantasy Tactics Advance",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1017,7 +1243,9 @@
       "title": "Mega Man X4",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1026,7 +1254,9 @@
       "title": "Mega Man X6",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1035,7 +1265,9 @@
       "title": "Kawa no Nushi Tsuri 2 (ตกปลาทาโร่ 2)",
       "platform": "SFC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1044,7 +1276,9 @@
       "title": "Racing Lagoon",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1053,7 +1287,9 @@
       "title": "Dokapon! Ikari no Tekken",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1062,7 +1298,9 @@
       "title": "Digimon Adventure",
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1071,7 +1309,9 @@
       "title": "Castlevania: Aria of Sorrow",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1080,7 +1320,9 @@
       "title": "Tokimeki Memorial: Densetsu no Ki no Shita de",
       "platform": "SNES",
       "sourceAvailability": "not_listed_for_download",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1089,7 +1331,9 @@
       "title": "Harvest Moon: Back to Nature",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1098,7 +1342,9 @@
       "title": "Harvest Moon: Back to Nature for Girl",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1107,7 +1353,9 @@
       "title": "Bomberman Land",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1116,7 +1364,9 @@
       "title": "Digimon World",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1125,7 +1375,9 @@
       "title": "Digimon Tamers: Battle Evolution",
       "platform": "PS1",
       "sourceAvailability": "not_listed_for_download",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1134,7 +1386,9 @@
       "title": "Harvest Moon: Friends of Mineral Town",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1143,7 +1397,9 @@
       "title": "Dragon Ball: Advanced Adventure",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1152,7 +1408,9 @@
       "title": "The Legend of Zelda: The Minish Cap",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1161,7 +1419,9 @@
       "title": "Pokémon FireRed",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1170,7 +1430,9 @@
       "title": "Pokémon LeafGreen",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1179,7 +1441,9 @@
       "title": "Pokémon Yellow (PC · gen1recomp)",
       "platform": "PC",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1188,7 +1452,9 @@
       "title": "Dragon Ball Z: Supersonic Warriors",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1197,7 +1463,9 @@
       "title": "Pokémon Ruby",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1206,7 +1474,9 @@
       "title": "Pokémon Sapphire",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1215,7 +1485,9 @@
       "title": "Pokémon Emerald",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1224,7 +1496,9 @@
       "title": "Pokémon Diamond",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1233,7 +1507,9 @@
       "title": "Pokémon Pearl",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1242,7 +1518,9 @@
       "title": "Pokémon Platinum",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1251,7 +1529,9 @@
       "title": "Pokémon HeartGold",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1260,7 +1540,9 @@
       "title": "Pokémon SoulSilver",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1269,7 +1551,9 @@
       "title": "Mega Man X5",
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1278,7 +1562,9 @@
       "title": "Dragon Ball Z: The Legacy of Goku",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1287,7 +1573,9 @@
       "title": "The Legend of Zelda: Ocarina of Time 3D",
       "platform": "3DS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1296,7 +1584,9 @@
       "title": "The Legend of Zelda: Majora's Mask 3D",
       "platform": "3DS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1305,7 +1595,9 @@
       "title": "The Legend of Zelda: A Link Between Worlds",
       "platform": "3DS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1314,7 +1606,9 @@
       "title": "Mario Kart DS",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1323,7 +1617,9 @@
       "title": "Fire Emblem: The Sacred Stones",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "memory",
@@ -1332,70 +1628,9 @@
       "title": "Love Plus",
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "dokapon-monster-hunter-usa",
-      "title": "Dokapon - Monster Hunter (USA)",
-      "platform": "GBA",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "knight-gundam-monogatari-fc",
-      "title": "SD Gundam Gaiden: Knight Gundam Monogatari (Japan)",
-      "platform": "FC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "jojo-no-kimyou-na-bouken-sfc",
-      "title": "JoJo no Kimyou na Bouken (Japan)",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "rockman-and-forte-sfc",
-      "title": "Rockman & Forte (Japan)",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "akumajou-special-boku-dracula-kun-fc",
-      "title": "Akumajou Special: Boku Dracula-kun (Japan)",
-      "platform": "FC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "torneko-no-daibouken-sfc",
-      "title": "Torneko no Daibouken: Fushigi no Dungeon (Japan)",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
-    },
-    {
-      "feed": "gayray",
-      "source": "https://gayray.pages.dev/games.json",
-      "key": "yoshis-island-sfc",
-      "title": "Super Mario World 2 - Yoshi's Island (USA)",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1404,7 +1639,9 @@
       "title": "Pokémon Emerald (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1413,7 +1650,9 @@
       "title": "Final Fantasy IX (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1422,7 +1661,9 @@
       "title": "Warera Mitsurin Tankentai (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1431,7 +1672,9 @@
       "title": "Zill Oll Infinite Plus (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1440,7 +1683,9 @@
       "title": "Another Code Two Memories (NDS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1449,7 +1694,20 @@
       "title": "Diablo (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dynasty-warriors-vol-2",
+      "title": "Dynasty Warriors Vol. 2 (PSP)",
+      "platform": "PSP",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1458,7 +1716,9 @@
       "title": "Doraemon 3: Makai no Dungeon (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1467,7 +1727,9 @@
       "title": "Recca no Honoo - The Game (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1476,7 +1738,9 @@
       "title": "Super Robot Wars Alpha Gaiden (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1485,7 +1749,9 @@
       "title": "Brave Story - New Traveler (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1494,7 +1760,9 @@
       "title": "Romance of the Three Kingdoms IV: Wall of Fire (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1503,7 +1771,9 @@
       "title": "Dai-2-ji Super Robot Taisen G (GB)",
       "platform": "GB",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1512,7 +1782,9 @@
       "title": "Rokudenashi Blues - Taiketsu! Tokyo Shitennou (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1521,7 +1793,9 @@
       "title": "Harvest Moon 64 (N64)",
       "platform": "N64",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1530,7 +1804,9 @@
       "title": "Harvest Moon 3 (GBC)",
       "platform": "GBC",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1539,7 +1815,9 @@
       "title": "Yu-Gi-Oh! Dungeon Dice Monsters (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1548,7 +1826,9 @@
       "title": "Harvest Moon 2 (GBC)",
       "platform": "GBC",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1557,7 +1837,9 @@
       "title": "Final Fantasy I & II Dawn of Souls (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1566,7 +1848,9 @@
       "title": "Yu-Gi-Oh! Nightmare Troubadour (NDS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1575,7 +1859,9 @@
       "title": "Viewtiful Joe - Double Trouble! (NDS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1584,7 +1870,9 @@
       "title": "Nekketsu Kouha Kunio-kun Special (3DS)",
       "platform": "3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1593,7 +1881,9 @@
       "title": "Battle Spirits Digital Starter (NDS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1602,7 +1892,9 @@
       "title": "Hamtaro - Ham-Ham Heartbreak (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1611,7 +1903,9 @@
       "title": "Harvest Moon (GBC)",
       "platform": "GBC",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1620,7 +1914,9 @@
       "title": "Legend of Mana (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1629,7 +1925,9 @@
       "title": "Tokyo Majin Gakuen - Kenpuuchou (NDS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1638,7 +1936,9 @@
       "title": "Ranma ½: Akanekodan Teki Hihou (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1647,7 +1947,9 @@
       "title": "Zoids 2: Helic Republic VS Guylos Empire (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1656,7 +1958,9 @@
       "title": "Yu-Gi-Oh! Monster Capsule: Breed & Battle (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1665,7 +1969,9 @@
       "title": "Pokemon Origin Heart Gold (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1674,7 +1980,9 @@
       "title": "Star Ocean First Departure (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1683,7 +1991,9 @@
       "title": "Digimon Emerald (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1692,7 +2002,9 @@
       "title": "Tales of Eternia (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1701,7 +2013,9 @@
       "title": "Front Mission 2 (PS1)",
       "platform": "PLAYSTATION",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1710,7 +2024,9 @@
       "title": "Riot Stars (PS1)",
       "platform": "PLAYSTATION",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1719,7 +2035,9 @@
       "title": "Pokemon Sword and Shield Ultimate - TH Nonplae",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1728,7 +2046,9 @@
       "title": "Majotachi no Nemuri (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1737,7 +2057,9 @@
       "title": "Dragon Quest I & II (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1746,7 +2068,9 @@
       "title": "Radical Dreamers (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1755,7 +2079,9 @@
       "title": "Castlevania: Aria of Sorrow (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1764,7 +2090,9 @@
       "title": "Castlevania: Harmony of Dissonance (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1773,7 +2101,9 @@
       "title": "Tactics Ogre: Let Us Cling Together (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1782,7 +2112,9 @@
       "title": "Kurohyou Ryu ga Gotoku Shinshou (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1791,7 +2123,9 @@
       "title": "Super Robot Wars 4 (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1800,7 +2134,9 @@
       "title": "Super Robot Taisen A (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1809,7 +2145,9 @@
       "title": "Bounty Sword (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1818,7 +2156,9 @@
       "title": "Live A Live (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1827,7 +2167,9 @@
       "title": "The Urbz: Sims in the City (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1836,7 +2178,9 @@
       "title": "Sword Art Online: Infinity Moment (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1845,7 +2189,9 @@
       "title": "Pokemon Emerald Arena (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1854,7 +2200,9 @@
       "title": "Emerald Dragon (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1863,7 +2211,9 @@
       "title": "Super Robot Taisen R (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1872,7 +2222,9 @@
       "title": "Pokemon Super MarioMon (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1881,7 +2233,9 @@
       "title": "Romance of the Three Kingdoms II (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1890,7 +2244,9 @@
       "title": "Itadaki Street - Gorgeous King (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1899,7 +2255,9 @@
       "title": "Monster Rancher (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1908,7 +2266,9 @@
       "title": "Groove Adventure Rave - Yuukyuu no Kizuna (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1917,7 +2277,9 @@
       "title": "Fire Emblem - New Theory of Thracia 776 (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1926,7 +2288,9 @@
       "title": "Love Hina Advance (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1935,7 +2299,9 @@
       "title": "Zoids Legacy (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1944,7 +2310,9 @@
       "title": "Kingyo Chuuihou! - Tobidase! Game Gakuen (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1953,7 +2321,9 @@
       "title": "Riviera - The Promised Land (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1962,7 +2332,9 @@
       "title": "Secret of Evermore (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1971,7 +2343,9 @@
       "title": "Kawa no Nushi Tsuri 5: Fushigi no Mori kara (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1980,7 +2354,9 @@
       "title": "Fullmetal Alchemist - Sonata of Memories (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1989,7 +2365,9 @@
       "title": "Magical Vacation (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -1998,7 +2376,9 @@
       "title": "Yggdra Union - We'll Never Fight Alone (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2007,7 +2387,9 @@
       "title": "Naruto - Ninja Council (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2016,7 +2398,9 @@
       "title": "Yu Yu Hakusho - Tournament Tactics (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2025,7 +2409,9 @@
       "title": "Konjiki no Gashbell!! - Makai no Bookmark (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2034,7 +2420,9 @@
       "title": "The Lord of the Rings - The Return of the King (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2043,7 +2431,9 @@
       "title": "Robotrek (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2052,7 +2442,9 @@
       "title": "Tales of Phantasia (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2061,7 +2453,9 @@
       "title": "Terranigma (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2070,7 +2464,9 @@
       "title": "Super Robot Wars EX (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2079,7 +2475,9 @@
       "title": "Magic Knight Rayearth (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2088,7 +2486,9 @@
       "title": "Super Robot Wars Gaiden (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2097,7 +2497,9 @@
       "title": "Super Robot Taisen D (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2106,7 +2508,9 @@
       "title": "Mario & Luigi  Superstar Saga (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2115,7 +2519,9 @@
       "title": "Bouken-ou Beet - Busters Road (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2124,7 +2530,9 @@
       "title": "Black Matrix Zero (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2133,7 +2541,9 @@
       "title": "Final Fantasy X International (PS2)",
       "platform": "PS2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2142,7 +2552,9 @@
       "title": "Shaman King Master of Spirits (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2151,7 +2563,9 @@
       "title": "The Legend of Zelda - Oracle of Seasons (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2160,7 +2574,9 @@
       "title": "The Legend of Zelda - Oracle of Ages (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2169,7 +2585,9 @@
       "title": "Chrono Trigger (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2178,7 +2596,9 @@
       "title": "Little Master (GB)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2187,7 +2607,9 @@
       "title": "Final Fantasy IV (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2196,7 +2618,9 @@
       "title": "Shadowrun (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2205,7 +2629,9 @@
       "title": "Dark Half (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2214,7 +2640,9 @@
       "title": "Beyblade: Let it Rip! (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2223,7 +2651,9 @@
       "title": "Legend of Zelda, The  Links Awakening DX (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2232,7 +2662,9 @@
       "title": "Xenogear (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2241,7 +2673,9 @@
       "title": "Final Fantasy Type-0 (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2250,7 +2684,9 @@
       "title": "Dragon Ball - Advanced Adventure (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2259,7 +2695,9 @@
       "title": "Legend of Zelda The  Minish Cap (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2268,7 +2706,9 @@
       "title": "Final Fantasy VIII (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2277,7 +2717,9 @@
       "title": "Patapon3 (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2286,7 +2728,9 @@
       "title": "Grand Theft Auto Chinatown Wars (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2295,7 +2739,9 @@
       "title": "Crisis Core - Final Fantasy VII (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2304,7 +2750,9 @@
       "title": "Shodai Nekketsu Kouha Kunio-kun (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2313,7 +2761,9 @@
       "title": "Pokemon Quetzal (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2322,7 +2772,9 @@
       "title": "Pokemon Emerald Rogue (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2331,7 +2783,9 @@
       "title": "Initial D: Another Stage (GBA)",
       "platform": "GBA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2340,7 +2794,9 @@
       "title": "Romance of the Three Kingdoms VI (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2349,7 +2805,9 @@
       "title": "Valkyrie Profile (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2358,7 +2816,9 @@
       "title": "Wonder Project J (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2367,7 +2827,9 @@
       "title": "Milandra (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2376,7 +2838,9 @@
       "title": "999: Nine Hours, Nine Persons, Nine Doors (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2385,7 +2849,9 @@
       "title": "Final Fantasy VII (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2394,7 +2860,9 @@
       "title": "Golden Sun: Dark Dawn (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2403,7 +2871,9 @@
       "title": "Gekitou Crush Gear Turbo (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2412,7 +2882,9 @@
       "title": "Arc the Lad (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2421,7 +2893,9 @@
       "title": "GaiaMaster: Kamigami no Board Game (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2430,7 +2904,9 @@
       "title": "Digimon World (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2439,7 +2915,9 @@
       "title": "Shin Nekketsu Kouha - Kunio-tachi no Banka (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2448,7 +2926,9 @@
       "title": "Fire Emblem Vision Quest (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2457,7 +2937,9 @@
       "title": "Fire Emblem - The Sacred Echoes (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2466,7 +2948,9 @@
       "title": "Super Sangokushi (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2475,7 +2959,9 @@
       "title": "Pokemon Super Dark Worship (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2484,7 +2970,9 @@
       "title": "Bloody Roar 2 Bringer of the New Age - (PS1)",
       "platform": "PS1",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2493,7 +2981,9 @@
       "title": "Clock Tower (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2502,7 +2992,9 @@
       "title": "Feda - The Emblem of Justice (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2511,7 +3003,9 @@
       "title": "Pokémon Moon Black 2 (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2520,7 +3014,9 @@
       "title": "Fate/EXTRA CCC (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2529,7 +3025,9 @@
       "title": "Metal Max 3 (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2538,7 +3036,9 @@
       "title": "The Legend of Zelda: Spirit Tracks (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2547,7 +3047,9 @@
       "title": "The Legend of Zelda: Phantom Hourglass (DS)",
       "platform": "NDS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2556,7 +3058,9 @@
       "title": "Go Go Ackman (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2565,7 +3069,9 @@
       "title": "Pokémon FireRed Rocket - (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2574,7 +3080,9 @@
       "title": "Pokémon - Red Chapter (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2583,7 +3091,9 @@
       "title": "Pokémon Mystery Dungeon: Red Rescue Team - (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2592,7 +3102,9 @@
       "title": "Pokemon Rowe - TH Nonplae",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2601,7 +3113,9 @@
       "title": "Front Mission 1 (Snes)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2610,7 +3124,9 @@
       "title": "Mother 2 (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2619,7 +3135,9 @@
       "title": "Granbo (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2628,7 +3146,9 @@
       "title": "Jeanne d’Arce (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2637,7 +3157,9 @@
       "title": "Daibakushou Jinsei (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2646,7 +3168,9 @@
       "title": "Ogre Battle (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2655,7 +3179,9 @@
       "title": "Romancing SaGa 3 (SNES)",
       "platform": "SNES",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2664,7 +3190,9 @@
       "title": "Oni Chronicles Genesis (GB)",
       "platform": "GAME BOY",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2673,7 +3201,9 @@
       "title": "Bakumatsu Kourinden Oni (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2682,7 +3212,9 @@
       "title": "Dragon Ball Z Gokuu Hishouden (GB)",
       "platform": "GAME BOY",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2691,7 +3223,9 @@
       "title": "Oni V - Innin o Tsugumono (GB)",
       "platform": "GAME BOY",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2700,7 +3234,9 @@
       "title": "Sims, The - Bustin' Out (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2709,7 +3245,9 @@
       "title": "Harvest Moon More Friends of Mineral Town (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2718,7 +3256,9 @@
       "title": "Ginga Sengoku Gunyuuden Rai (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2727,7 +3267,9 @@
       "title": "Mega Man Xtreme (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2736,7 +3278,9 @@
       "title": "Mega Man Xtreme 2 (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2745,7 +3289,9 @@
       "title": "Legend of the River King (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2754,7 +3300,9 @@
       "title": "Resident Evil Gaiden (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2763,7 +3311,9 @@
       "title": "Metal Gear Solid (GBC)",
       "platform": "GAME BOY COLOR",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2772,7 +3322,9 @@
       "title": "Summon Night Swordcraft Story (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2781,7 +3333,9 @@
       "title": "SD Gundam - G Generation Over World (PSP) V1.1",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2790,7 +3344,9 @@
       "title": "Yu-Gi-Oh 5Ds Tag Force 6 (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2799,7 +3355,9 @@
       "title": "Yu-Gi-Oh! GX Tag Force 3 (PSP)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2808,7 +3366,9 @@
       "title": "Yu-Gi-Oh! - Ultimate Masters (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2817,7 +3377,9 @@
       "title": "Kenyuu Densetsu Yaiba (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2826,7 +3388,9 @@
       "title": "Pokémon Gamma Emerald (PC)",
       "platform": "PC · UNREAL ENGINE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2835,7 +3399,9 @@
       "title": "ZENONIA 1 (PC)",
       "platform": "PC · STEAM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2844,7 +3410,9 @@
       "title": "Pokémon Heart and Soul (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2853,7 +3421,9 @@
       "title": "Super Robot Taisen: Original Generation (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2862,7 +3432,9 @@
       "title": "Super Robot Taisen: Original Generation 2 (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2871,7 +3443,9 @@
       "title": "Super Robot War J (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2880,7 +3454,9 @@
       "title": "Kingdom Hearts - Chain of Memories (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2889,7 +3465,9 @@
       "title": "Pokémon Unbound (GBA) V16",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2898,7 +3476,9 @@
       "title": "Final Fantasy Adventure (Game Boy)",
       "platform": "GAME BOY",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2907,7 +3487,9 @@
       "title": "Pokémon SoulGold (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2916,7 +3498,9 @@
       "title": "Golden Sun (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2925,7 +3509,9 @@
       "title": "Golden Sun: The Lost Age (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2934,7 +3520,9 @@
       "title": "Dokapon! Ikari no Tekken (PS1)",
       "platform": "PLAYSTATION",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2943,7 +3531,9 @@
       "title": "Rockman X4 (PS1)",
       "platform": "PLAYSTATION",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2952,7 +3542,9 @@
       "title": "Rockman X3 (SNES)",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2961,7 +3553,9 @@
       "title": "Ganbare Goemon 3 (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2970,7 +3564,9 @@
       "title": "Shinsetsu Samurai Spirits - Bushidou Retsuden (PS1)",
       "platform": "PLAYSTATION",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2979,7 +3575,9 @@
       "title": "Yu-Gi-Oh! Forbidden Memories (PS1)",
       "platform": "PLAYSTATION",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2988,7 +3586,9 @@
       "title": "Bahamut Lagoon (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -2997,7 +3597,9 @@
       "title": "Fire Emblem - Seisen no Keifu (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3006,7 +3608,9 @@
       "title": "Langrisser I&II (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3015,7 +3619,9 @@
       "title": "Harvest Moon (SNES)",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3024,7 +3630,9 @@
       "title": "Seiken Densetsu 3 (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3033,7 +3641,9 @@
       "title": "The Legend of Zelda: A Link to the Past (SNES)",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3042,7 +3652,9 @@
       "title": "Breath of Fire I (SNES)",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3051,7 +3663,9 @@
       "title": "Lufia II: Rise of the Sinistrals (SNES)",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3060,7 +3674,9 @@
       "title": "Fire Emblem - The Binding Blade (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3069,7 +3685,9 @@
       "title": "Fire Emblem - The Blazing Blade (GBA)",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3078,7 +3696,9 @@
       "title": "Dragon Quest V (SNES)",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "nonplae",
@@ -3087,7 +3707,9 @@
       "title": "Dragon Quest VI (SNES) V1.2",
       "platform": "SUPER FAMICOM",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "retro",
@@ -3096,7 +3718,9 @@
       "title": "Pokémon Wild Indigo TH",
       "platform": "Game Boy Advance",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3105,7 +3729,9 @@
       "title": null,
       "platform": "PSP • USA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3114,7 +3740,9 @@
       "title": null,
       "platform": "Game Boy Advance",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3123,7 +3751,9 @@
       "title": null,
       "platform": "NES (Nintendo Entertainment System) • USA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3132,7 +3762,9 @@
       "title": null,
       "platform": "NES (Nintendo Entertainment System) • USA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3141,7 +3773,9 @@
       "title": null,
       "platform": "PlayStation 1 • USA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3150,7 +3784,9 @@
       "title": null,
       "platform": "PlayStation 1 • USA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3159,7 +3795,9 @@
       "title": null,
       "platform": "PlayStation 1 • Japan",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3168,7 +3806,9 @@
       "title": null,
       "platform": "PlayStation 1 • Japan",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "murphy",
@@ -3177,7 +3817,9 @@
       "title": null,
       "platform": null,
       "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3186,7 +3828,9 @@
       "title": "Danball Senki Boost",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3195,7 +3839,9 @@
       "title": "Fire Emblem: Path of Radiance",
       "platform": "GAMECUBE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3204,7 +3850,9 @@
       "title": "Pokémon: Wishes of Tomorrow",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3213,7 +3861,9 @@
       "title": "Sengoku Basara 2 Heroes",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3222,7 +3872,9 @@
       "title": "Akiba's Trip Plus",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3231,7 +3883,9 @@
       "title": "Metal Gear Solid: Peace Walker",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3240,7 +3894,9 @@
       "title": "Yu-Gi-Oh! ARC-V Tag Force Special",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3249,7 +3905,9 @@
       "title": "Persona 3 Portable",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3258,7 +3916,9 @@
       "title": "Digital Tamers 2",
       "platform": "PC (Windows)",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3267,7 +3927,9 @@
       "title": "Monster Hunter Freedom Unite",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3276,7 +3938,9 @@
       "title": "Monster Hunter Double Cross",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3285,7 +3949,9 @@
       "title": "Fire Emblem: New Mystery of the Emblem",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3294,7 +3960,9 @@
       "title": "Fire Emblem: Shadow Dragon",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3303,7 +3971,9 @@
       "title": "Monster Hunter 4 Ultimate",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3312,7 +3982,9 @@
       "title": "Pokemon XD: Gale of Darkness",
       "platform": "GAMECUBE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3321,7 +3993,9 @@
       "title": "Rockman X Command Mission",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3330,7 +4004,9 @@
       "title": "Summon Night: Swordcraft Story 2",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3339,7 +4015,9 @@
       "title": "Breath of Fire II",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3348,7 +4026,9 @@
       "title": "Super Robot Wars J",
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3357,7 +4037,9 @@
       "title": "Super Robot Wars W",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3366,7 +4048,9 @@
       "title": "God of War",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3375,7 +4059,9 @@
       "title": "Final Fantasy Tactics A2: Grimoire of the Rift",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3384,7 +4070,9 @@
       "title": "Final Fantasy XII: Revenant Wings",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3393,7 +4081,9 @@
       "title": "Chrono Trigger",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3402,7 +4092,9 @@
       "title": "Digimon Story: Lost Evolution",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3411,7 +4103,9 @@
       "title": "Pokémon Infinite Fusion",
       "platform": "PC (Windows)",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3420,7 +4114,9 @@
       "title": "Snack World: TreJarers",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3429,7 +4125,9 @@
       "title": "Fantasy Life",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3438,7 +4136,9 @@
       "title": "Pokémon X",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3447,7 +4147,9 @@
       "title": "Pokémon Y",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3456,7 +4158,9 @@
       "title": "Pokémon Ultra Sun",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3465,7 +4169,9 @@
       "title": "Pokémon Ultra Moon",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3474,7 +4180,9 @@
       "title": "Pokemon OmegaRuby",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3483,7 +4191,9 @@
       "title": "Pokémon AlphaSapphire",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3492,7 +4202,9 @@
       "title": "Pokemon Sun",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3501,7 +4213,9 @@
       "title": "PokemonMoon",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3510,7 +4224,9 @@
       "title": "Fire Emblem Awakening",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3519,7 +4235,9 @@
       "title": "Fire Emblem Echoes: Shadows of Valentia",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3528,7 +4246,9 @@
       "title": "Fire Emblem: Fates - Special Edition",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3537,7 +4257,9 @@
       "title": "Digimon World Re:Digitize Decode",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3546,7 +4268,9 @@
       "title": "Digimon World Championship",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3555,7 +4279,9 @@
       "title": "Mega Man X Regenesis",
       "platform": "PC (Windows)",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3564,7 +4290,9 @@
       "title": "Kamen Rider Battride War II",
       "platform": "PlayStation 3",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3573,7 +4301,9 @@
       "title": "Danball Senki W Super Custom",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3582,7 +4312,9 @@
       "title": "Wild Arms",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3591,7 +4323,9 @@
       "title": "Downhill Domination",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3600,7 +4334,9 @@
       "title": "Shin Megami Tensei if...",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3609,7 +4345,9 @@
       "title": "Shin Megami Tensei IV: Apocalypse",
       "platform": "NINTENDO 3DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3618,7 +4356,9 @@
       "title": "Shin Megami Tensei",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3627,7 +4367,9 @@
       "title": "Shin Megami Tensei II",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3636,7 +4378,9 @@
       "title": "Survival Log",
       "platform": "PC (Windows)",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3645,7 +4389,9 @@
       "title": "Midnight Club 3: DUB Edition Remix",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3654,7 +4400,9 @@
       "title": "Serial Experiments Lain",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3663,7 +4411,9 @@
       "title": "Super Robot Wars OG: Original Generations",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3672,7 +4422,9 @@
       "title": "Onimusha: Dawn of Dreams",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3681,7 +4433,9 @@
       "title": "Rockman X8",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3690,7 +4444,9 @@
       "title": "Rockman X7",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3699,7 +4455,9 @@
       "title": "Rockman X2",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3708,7 +4466,9 @@
       "title": "Mega Man ZX",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3717,7 +4477,9 @@
       "title": "Mega Man ZX Advent",
       "platform": "NINTENDO DS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3726,7 +4488,9 @@
       "title": "Bully",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3735,7 +4499,9 @@
       "title": "Dynasty Warriors 4",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3744,7 +4510,9 @@
       "title": "Castlevania: Curse of Darkness",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3753,7 +4521,9 @@
       "title": "God of War III",
       "platform": "PlayStation 3",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3762,7 +4532,9 @@
       "title": "Super Robot Wars OG Gaiden",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3771,7 +4543,9 @@
       "title": "Rockman X",
       "platform": "SUPER NINTENDO",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3780,7 +4554,9 @@
       "title": "Super Robot Wars Alpha 3",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3789,7 +4565,9 @@
       "title": "Chrono Cross",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3798,7 +4576,9 @@
       "title": "Ultraman Fighting Evolution Rebirth",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3807,7 +4587,9 @@
       "title": "Asura's Wrath",
       "platform": "PlayStation 3",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3816,7 +4598,9 @@
       "title": "Oni Zero: Fukkatsu",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3825,7 +4609,9 @@
       "title": "Warriors Orochi 2",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3834,7 +4620,9 @@
       "title": "WWE SmackDown! Here Comes the Pain",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3843,7 +4631,9 @@
       "title": "Phantasy Star Portable 2 Infinity",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3852,7 +4642,9 @@
       "title": "Shin Sangoku Musou Multi Raid 2",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3861,7 +4653,9 @@
       "title": "ตำนานวีรชน รอยแห่งท้องฟ้า (Trails in the Sky)",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3870,7 +4664,9 @@
       "title": "Ragnarok Odyssey ACE",
       "platform": "PS VITA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3879,7 +4675,9 @@
       "title": "Persona 2: Eternal Punishment",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3888,7 +4686,9 @@
       "title": "Dragon Quest V: Hand of the Heavenly Bride",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3897,7 +4697,9 @@
       "title": "Shining Force II",
       "platform": "SEGA GENESIS",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3906,7 +4708,9 @@
       "title": "Digimon World 4",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3915,7 +4719,9 @@
       "title": "Digital Monster Ver.S Digimon Tamers",
       "platform": "SEGA SATURN",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3924,7 +4730,9 @@
       "title": "Naruto Shippuden: Ultimate Ninja Impact",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3933,7 +4741,9 @@
       "title": "Persona 4 Golden",
       "platform": "PS VITA",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3942,7 +4752,9 @@
       "title": "Dynasty Warriors: Gundam 2",
       "platform": "PlayStation 2",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3951,7 +4763,9 @@
       "title": "Super Robot Wars OG: The Moon Dwellers",
       "platform": "PlayStation 3",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3960,7 +4774,9 @@
       "title": "PoPoLoCrois Monogatari",
       "platform": "PlayStation",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3969,7 +4785,9 @@
       "title": "Sengoku Basara 4 Sumeragi",
       "platform": "PlayStation 3",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3978,7 +4796,9 @@
       "title": "Inazuma Eleven Strikers",
       "platform": "WII",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3987,7 +4807,9 @@
       "title": "Inazuma Eleven GO Strikers 2013",
       "platform": "WII",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -3996,7 +4818,9 @@
       "title": "Inazuma Eleven Ares Orion Strikers",
       "platform": "WII",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -4005,7 +4829,9 @@
       "title": "God Eater 2",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     },
     {
       "feed": "monster",
@@ -4014,9 +4840,472 @@
       "title": "Super Robot Wars Z2 Saisei-hen",
       "platform": "PSP",
       "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review"
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "yu-gi-oh-capsule-monster-coliseum",
+      "title": "Yu-Gi-Oh! Capsule Monster Coliseum",
+      "platform": "PlayStation 2",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "rommeaow",
+      "source": "https://rommeaow.com/js/registry.js",
+      "key": "hp3-azkaban",
+      "title": "Harry Potter อัซคาบัน ภาษาไทย",
+      "platform": "GAME BOY ADVANCE",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "rommeaow",
+      "source": "https://rommeaow.com/js/registry.js",
+      "key": "golden-sun",
+      "title": "Golden Sun ภาษาไทย",
+      "platform": "GAME BOY ADVANCE",
+      "sourceAvailability": "source_disabled",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "rommeaow",
+      "source": "https://rommeaow.com/js/registry.js",
+      "key": "fire-red-th",
+      "title": "Pokémon FireRed ภาษาไทย",
+      "platform": "GAME BOY ADVANCE",
+      "sourceAvailability": "source_disabled",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "pirates-black-pearl-th",
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "pirates-dead-mans-chest-th",
+      "title": "Pirates of the Caribbean: Dead Man's Chest · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "naruto-ultimate-ninja-heroes",
+      "title": "Naruto: Ultimate Ninja Heroes · เพลย์สเตชันพอร์เทเบิล (PSP) ภาษาไทย",
+      "platform": "PSP",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "one-piece-th",
+      "title": "One Piece · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "shrek-2-th",
+      "title": "Shrek 2 · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "shrek-2-beg-for-mercy-th",
+      "title": "Shrek 2: Beg for Mercy · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "shrek-the-third-th",
+      "title": "Shrek the Third · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "spider-man-battle-for-new-york-th",
+      "title": "Spider-Man: Battle for New York · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "harry-potter-sorcerers-stone-th",
+      "title": "Harry Potter and the Sorcerer's Stone · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "harry-potter-chamber-of-secrets-th",
+      "title": "Harry Potter and the Chamber of Secrets · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "harry-potter-prisoner-of-azkaban-th",
+      "title": "Harry Potter and the Prisoner of Azkaban · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "harry-potter-goblet-of-fire-th",
+      "title": "Harry Potter and the Goblet of Fire · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "harry-potter-quidditch-world-cup-th",
+      "title": "Harry Potter: Quidditch World Cup · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "harry-potter-collection-th",
+      "title": "Harry Potter Collection (รวม 3 ภาคแรก) · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "street-fighter-alpha-3",
+      "title": "Street Fighter Alpha 3 · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "spider-man",
+      "title": "Spider-Man (เกมภาพยนตร์ปี 2002) · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "spider-man-mysterios-menace",
+      "title": "Spider-Man: Mysterio's Menace · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "spider-man-2",
+      "title": "Spider-Man 2 · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "spider-man-3",
+      "title": "Spider-Man 3 · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "monster-house",
+      "title": "Monster House · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "pokemon-animon",
+      "title": "Pokémon Animon v1.11 · เกมแฮ็กจากไฟร์เรด · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "pokemon-crystal",
+      "title": "Pokémon Crystal · Game Boy Color · ภาษาไทย",
+      "platform": "GBC",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "dragon-ball-z-shin-budokai",
+      "title": "Dragon Ball Z: Shin Budokai · เพลย์สเตชันพอร์เทเบิล (PSP) ภาษาไทย",
+      "platform": "PSP",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "final-fantasy-v-advance",
+      "title": "Final Fantasy V Advance · ภาษาไทย",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "ninku",
+      "title": "Ninku · เกมเกียร์ (Game Gear) ภาษาไทย",
+      "platform": "Game Gear",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "ninku-2",
+      "title": "Ninku 2: Tenkuuryuu e no Michi · เกมเกียร์ (Game Gear) ภาษาไทย",
+      "platform": "Game Gear",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "medarot-3-kabuto",
+      "title": "Medarot 3 Kabuto Version · Game Boy Color · ภาษาไทย",
+      "platform": "GBC",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "medarot-3-kuwagata",
+      "title": "Medarot 3 Kuwagata Version · Game Boy Color · ภาษาไทย",
+      "platform": "GBC",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "resident-evil-gaiden",
+      "title": "Resident Evil Gaiden · Game Boy Color · ภาษาไทย",
+      "platform": "GBC",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
+    },
+    {
+      "feed": "90s",
+      "source": "https://90s-game.pitak2540.workers.dev/",
+      "key": "azito-3",
+      "title": "Azito 3 · PlayStation · ภาษาไทย",
+      "platform": "PS1",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-17T07:05:16.668202+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
-  "newGamePublication": "requires exact route and edition review"
+  "newGamePublication": "requires exact route and edition review",
+  "sourceCoverage": [
+    {
+      "team": "90S Game",
+      "feed": "90s",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "Happy2you.net",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "INorge Game Stream",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "Memory Card TH",
+      "feed": "memory",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "Monster แปล",
+      "feed": "monster",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "Murphy-TH",
+      "feed": "murphy",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "RetroSpective",
+      "feed": "retro",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "นอนแปล (NONPLAE)",
+      "feed": "nonplae",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "น้องจ๋าแปลที",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "น้า_auns555",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "รอมเหมียว (ROMMEAOW)",
+      "feed": "rommeaow",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "หนีงานมาแปล",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "เกเรแปลไทย",
+      "feed": "gayray",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "แปลไทยเกมเก่า",
+      "feed": "retrogame",
+      "mode": "automatic_public_feed"
+    },
+    {
+      "team": "แปลไปเล่นไป",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "แมวดำ แปลเกมส์",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "แมแปว",
+      "feed": null,
+      "mode": "manual_no_public_adapter"
+    }
+  ]
 }

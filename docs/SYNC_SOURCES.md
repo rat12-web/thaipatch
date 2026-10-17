@@ -1,52 +1,85 @@
 # Public source synchronization
 
-Status as of 2026-10-17. This catalog links to creators' pages; it does not
-download ROMs or publish patch binaries. `.sync/refresh.py` reads public
-metadata only and never executes source JavaScript.
+Current measurement: 2026-10-17. Correct project: rat12-web/thaipatch,
+which aggregates other creators' Thai translation releases. thai-rom-cloud
+is the owner's separate ROM translation workspace; nothing is imported from
+or written to that repository. No Gecko Offline files are part of this work.
 
-| Feed | Current rows | Exact catalog matches | New source rows pending review | Synced fields |
+The catalog now has **135 records / 133 game-platform groups**. Seven Gayray
+records were added only after native source clicks, fresh direct links,
+base-ROM edition checks and decoded covers passed. Public evidence:
+`evidence/2026-10-17/gayray-review.json`. Cover rights are still unconfirmed;
+images remain remote and no ROM/patch bytes were fetched.
+
+| Feed | Source rows | Exact catalog matches | Pending source rows | Synced fields |
 | --- | ---: | ---: | ---: | --- |
-| Memory Card TH | 162 | 20 | 142 | Patch update date and version |
-| Gayray | 15 | 8 | 7 | Patch update date and version |
-| NONPLAE | 188 | 1 | 187 | Patch update date and version |
-| RetroSpective | 7 | 6 | 1 | Patch update date and version |
-| Murphy-TH | 10 | 1 | 9 | Patch update date and version when present |
-| Monster แปล | 117 | 24 | 93 | Discovery only; base JSON plus live overlay |
-| แปลไทยเกมเก่า | 10 | 10 | 0 | Explicit latest patch date and version |
-| **Total source rows** | **509** | **70** | **439** | Counts are source rows, not unique games |
+| Memory Card TH | 163 | 20 | 143 | Patch update date/version |
+| Gayray | 15 | 15 | 0 | Patch update date/version |
+| NONPLAE | 190 | 1 | 189 | Patch update date/version |
+| RetroSpective | 7 | 6 | 1 | Patch update date/version |
+| Murphy-TH | 10 | 1 | 9 | Patch update date/version when present |
+| Monster แปล | 118 | 24 | 94 | Discovery only: base JSON + live overlay |
+| แปลไทยเกมเก่า | 10 | 10 | 0 | Explicit latest patch date/version |
+| ROMMEAOW | 5 | 2 | 3 | Explicit version only; no release date inferred |
+| 90S Game | 48 | 18 | 30 | Discovery only; no dates or routes changed |
+| **Total** | **566** | **97** | **469** | Source rows, not unique games |
 
-The Murphy feed uses its current canonical domain. The Monster adapter merges
-the public base and overlay records, including hidden and replaced entries,
-without evaluating the site's JavaScript. If either endpoint fails or the
-overlay schema changes, the feed fails closed and prior catalog data remains.
-The แปลไทยเกมเก่า adapter requires all explicitly latest variants of one game
-to agree on date and version before updating its one catalog record.
+The 469 remaining rows include 141 `patch_listed`, 323 `site_listed`,
+2 `not_listed_for_download`, 2 `source_disabled` and 1 `release_unconfirmed`.
+These states describe source claims, not independently tested artifacts.
+Gayray's current 15-game feed is fully represented in the catalog.
 
-`.sync/report.json` is the candidate queue. `sourceAvailability` summarizes
-what a source advertises; it does not verify that a specific patch works or
-that a URL selects the correct game. Current queue: 147 `patch_listed`, 289
-`site_listed`, 2 `not_listed_for_download`, and 1 `release_unconfirmed`.
-Candidates can repeat the same game across teams or editions. No candidate
-becomes a public card automatically.
+All nine adapters passed the live refresh. Every six hours Actions repeats
+metadata refresh; failed feeds preserve both prior catalog values and their
+candidate queue, marked `sourceState=stale_feed_unavailable`. `lastSeenAt`
+remains the last successful observation. Successful feed recovery replaces
+stale candidates with the current feed's unmatched rows. Schema validation
+runs before catalog changes, so one malformed row cannot partly update that
+feed. An all-feed outage leaves the previous report/deployment untouched.
 
-## Review gate for a new card
+`sourceCoverage` in `.sync/report.json` lists all 17 represented teams:
+nine automatic adapters and eight teams still requiring manual review.
+Monster and 90S only discover games; ROMMEAOW reads explicit versions;
+these capabilities do not imply date synchronization. Dates are always
+source-reported patch updates, never import times or file-upload claims.
+ROMMEAOW is matched by reviewed GBA identities, preserving both existing
+Patch Lab URLs. Pokémon SoulGold GBA is not the NDS edition.
 
-1. Confirm the exact game, platform, source edition, and translating team.
-   Compare against existing stable IDs and duplicate groups.
-2. Open the creator route in a fresh browser and verify that it selects this
-   game and leads to the actual public patch flow. An HTTP 200 or a plausible
-   URL alone is insufficient.
-3. Confirm the creator currently exposes the patch. Preserve disabled, hidden,
-   beta, and unreleased distinctions. Do not link directly to ROM archives.
-4. Inspect the cover source, exact-game identity, rendering, and rights state.
-   Do not copy third-party artwork into this repository without permission.
-5. Add the card to `catalog.json` with a stable ID and evidence, rebuild with
-   `python tools/build.py`, run affected browser QA, and record the result.
+## Remaining source discovery and blockers
 
-Sources already represented by static catalog cards but without automatic
-adapters include 90S Game, Happy2you.net, ROMMEAOW, น้องจ๋าแปลที,
-แปลไปเล่นไป, หนีงานมาแปล, แมแปว,
-แมวดำ แปลเกมส์, INorge Game Stream and Facebook-only sources. Inspect each
-source for a stable public feed before adding an adapter; do not scrape login
-walls or infer release dates from page/server timestamps. `SOURCE_PATCH_BLOCKERS.md`
-tracks source-side exact Patch navigation limitations separately.
+Public roots for the remaining teams were inspected on 2026-10-17. No stable
+JSON catalog was identified in that bounded root/script inspection for
+Happy2you.net, น้องจ๋าแปลที, แมแปว, แมวดำ แปลเกมส์,
+แปลไปเล่นไป or INorge Game Stream. This is not proof that no API exists.
+น้า_auns555 remains a Facebook/manual source; no login bypass was attempted.
+
+หนีงานมาแปล exposes `/data/projects.json`, discovered from
+`/src/home.js` and `/src/data/projects.js`. The response repeats the ID
+`pokemon-mystery-dungeon-explorers-of-sky` with conflicting development/ready
+states. The creator's own validator rejects duplicate IDs; its homepage also
+merges `/api/site-content`. No adapter is enabled until the authoritative
+identity/overlay behavior is resolved. Do not choose a duplicate arbitrarily.
+
+The prior source-side exact-Patch blockers remain in
+`SOURCE_PATCH_BLOCKERS.md`. Adding discovery adapters does not fix creators'
+route selection. The first schedule-triggered seven-feed refresh/deployment
+was observed successful: Actions run **39003522358**, head
+`2ee12fca90fb33e38ffcf37ea632679c49942914`. That run does not validate the
+new nine-feed implementation; its deployment is recorded separately.
+
+## Review gate for another card
+
+1. Confirm exact game, platform, base edition and creator against stable IDs.
+2. Click the actual creator card, then verify its direct URL in a fresh page
+   selects the same game and exposes the public patch UI. HTTP 200 alone fails
+   this gate. Disabled, beta and development states must remain distinct.
+3. Decode and visually inspect exact-game artwork; document rights state and
+   keep third-party images remote. No ROM archives or patch bytes are needed.
+4. Add reviewed metadata to `catalog.json`, rebuild, run affected browser QA,
+   then record evidence and Git reference. No automatic candidate publication.
+
+Run `python .sync/test_refresh.py`, `python .sync/refresh.py --check`,
+`python tools/build.py --check`, `npm test` and affected `npm run qa:full`.
+`node tools/qa-review-gayray.cjs` repeats the seven reviewed source checks
+(and any future Gayray candidates). It blocks binary requests and never
+submits a file. Screenshots stay under ignored `qa/`.
