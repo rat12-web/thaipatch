@@ -1,5 +1,23 @@
 # Repository-independent continuation checkpoint
 
+## 2026-10-17 sync checkpoint
+
+The seven-feed sync implementation is at commit
+`5edcb32cb1be44464199069305b69b7cbb5e130b`. A real local refresh read
+all seven feeds (509 rows), exact-matched 70 existing records and queued 439
+unreviewed source rows. Ten existing แปลไทยเกมเก่า records gained explicit
+source-reported latest patch date/version metadata. The public card count is
+still 128; no newly discovered game was automatically published.
+
+PASS: `.sync/test_refresh.py`, live `.sync/refresh.py`, `--check`,
+`tools/build.py --check`, six offline Chrome smoke views and three Chrome
+date-order views. The date QA now derives expected verified counts from the
+catalog, so future legitimate source updates do not break a fixed-count
+assertion. `docs/SYNC_SOURCES.md` records coverage and review requirements.
+NOT RUN: fresh route, edition, cover and rights checks for the candidate
+queue; remaining teams' feed adapter discovery. These gates still block a
+claim that all Thai patch games are published or verified.
+
 Date: 2026-10-13. Status: isolated repository build, portable browser checks, Linux CI and Pages deployment PASS. Complete source/rights acceptance remains PARTIAL.
 
 Site: https://rat12-web.github.io/thaipatch/

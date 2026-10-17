@@ -1,5 +1,25 @@
 # Agent handoff: แปลไทยบอกด้วย · romthai.app
 
+## 2026-10-17 — Multi-source sync continuation
+
+Implementation commit: `5edcb32cb1be44464199069305b69b7cbb5e130b` on `main`.
+Seven public feeds were readable in the local real refresh: 509 source rows,
+70 exact existing catalog matches, 439 new source rows queued in
+`.sync/report.json`. Murphy now uses its canonical domain; Monster แปล's
+base JSON and live overlay are merged for discovery; แปลไทยเกมเก่า's
+explicit latest patch dates and versions update 10 existing cards. Public
+card count remains 128. See `docs/SYNC_SOURCES.md` for feed counts and the
+review gate. Candidate counts are source rows, not unique games.
+
+Checks passed: updater fixture tests, live refresh from all seven feeds,
+embedded catalog/build checks, offline browser smoke (6 views), date-order
+browser QA (3 views), and `git diff --check`. Real navigation/artwork for
+the 439 candidates was NOT RUN. No new candidate is published automatically.
+Next action: verify actual creator routes, game/edition/team and artwork for
+a bounded candidate batch, then add only reviewed cards. Continue adapters
+for stable public feeds from the remaining teams. Facebook needs authorized
+public access; do not bypass login. No ROMs or patch binaries were fetched.
+
 Live: https://rat12-web.github.io/thaipatch/
 Commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
 Status: UI deployed; prior real local/online Chromium Desktop/Mobile/320px QA passed in both themes. Repository-independent continuation milestone passed; see CHECKPOINT.md and evidence/portability/. Full source/rights audit remains partial.

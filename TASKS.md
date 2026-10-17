@@ -1,5 +1,13 @@
 # Remaining work
 
+2026-10-17 sync update: seven public feeds now produce 70 exact matches
+and 439 new source rows awaiting review. See `docs/SYNC_SOURCES.md` and
+`.sync/report.json`. The public catalog still contains 128 reviewed entries.
+The next batch should take candidates with `sourceAvailability=patch_listed`,
+verify exact creator route/edition/team and cover evidence, then publish only
+the verified subset. After that, add adapters for other teams with stable
+public feeds; retain manual handling for Facebook/login-limited sources.
+
 These items are independent of any chat application. The current site is deployed, but full source/rights acceptance remains partial.
 
 | Priority | Item | Acceptance/evidence |
