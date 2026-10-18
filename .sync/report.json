@@ -1,11 +1,12 @@
 {
-  "checkedAt": "2026-10-17T20:45:32.291384+00:00",
+  "checkedAt": "2026-10-18T04:47:50.685590+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
-      "state": "failed_preserved",
-      "reason": "HTTPError: HTTP Error 502: Bad Gateway",
-      "retainedCandidates": 143
+      "state": "ok",
+      "records": 164,
+      "matched": 20,
+      "updated": 0
     },
     "gayray": {
       "state": "ok",
@@ -33,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 121,
+      "records": 122,
       "matched": 24,
       "updated": 0
     },
@@ -61,13 +62,24 @@
     {
       "feed": "memory",
       "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Ultraman Fighting Evolution 3",
+      "title": "Ultraman Fighting Evolution 3",
+      "platform": "PS2",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
       "key": "Shonen Jump's One Piece",
       "title": "Shonen Jump's One Piece",
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -77,8 +89,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -88,8 +100,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -99,8 +111,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -110,8 +122,8 @@
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -121,8 +133,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -132,8 +144,8 @@
       "platform": "Saturn",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -143,8 +155,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -154,8 +166,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -165,8 +177,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -176,8 +188,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -187,8 +199,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -198,8 +210,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -209,8 +221,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -220,8 +232,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -231,8 +243,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -242,8 +254,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -253,8 +265,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -264,8 +276,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -275,8 +287,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -286,8 +298,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -297,8 +309,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -308,8 +320,8 @@
       "platform": "GC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -319,8 +331,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -330,8 +342,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -341,8 +353,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -352,8 +364,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -363,8 +375,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -374,8 +386,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -385,8 +397,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -396,8 +408,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -407,8 +419,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -418,8 +430,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -429,8 +441,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -440,8 +452,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -451,8 +463,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -462,8 +474,8 @@
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -473,8 +485,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -484,8 +496,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -495,8 +507,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -506,8 +518,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -517,8 +529,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -528,8 +540,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -539,8 +551,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -550,8 +562,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -561,8 +573,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -572,8 +584,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -583,8 +595,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -594,8 +606,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -605,8 +617,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -616,8 +628,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -627,8 +639,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -638,8 +650,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -649,8 +661,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -660,8 +672,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -671,8 +683,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -682,8 +694,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -693,8 +705,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -704,8 +716,8 @@
       "platform": "PS2",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -715,8 +727,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -726,8 +738,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -737,8 +749,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -748,8 +760,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -759,8 +771,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -770,8 +782,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -781,8 +793,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -792,8 +804,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -803,8 +815,8 @@
       "platform": "GBC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -814,8 +826,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -825,8 +837,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -836,8 +848,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -847,8 +859,8 @@
       "platform": "GBC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -858,8 +870,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -869,8 +881,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -880,8 +892,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -891,8 +903,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -902,8 +914,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -913,8 +925,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -924,8 +936,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -935,8 +947,8 @@
       "platform": "GBC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -946,8 +958,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -957,8 +969,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -968,8 +980,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -979,8 +991,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -990,8 +1002,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1001,8 +1013,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1012,8 +1024,8 @@
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1023,8 +1035,8 @@
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1034,8 +1046,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1045,8 +1057,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1056,8 +1068,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1067,8 +1079,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1078,8 +1090,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1089,8 +1101,8 @@
       "platform": "GB",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1100,8 +1112,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1111,8 +1123,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1122,8 +1134,8 @@
       "platform": "SFC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1133,8 +1145,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1144,8 +1156,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1155,8 +1167,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1166,8 +1178,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1177,8 +1189,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1188,8 +1200,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1199,8 +1211,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1210,8 +1222,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1221,8 +1233,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1232,8 +1244,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1243,8 +1255,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1254,8 +1266,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1265,8 +1277,8 @@
       "platform": "SFC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1276,8 +1288,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1287,8 +1299,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1298,8 +1310,8 @@
       "platform": "PSP",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1309,8 +1321,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1320,8 +1332,8 @@
       "platform": "SNES",
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1331,8 +1343,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1342,8 +1354,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1353,8 +1365,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1364,8 +1376,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1375,8 +1387,8 @@
       "platform": "PS1",
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1386,8 +1398,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1397,8 +1409,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1408,8 +1420,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1419,8 +1431,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1430,8 +1442,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1441,8 +1453,8 @@
       "platform": "PC",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1452,8 +1464,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1463,8 +1475,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1474,8 +1486,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1485,8 +1497,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1496,8 +1508,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1507,8 +1519,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1518,8 +1530,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1529,8 +1541,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1540,8 +1552,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1551,8 +1563,8 @@
       "platform": "PS1",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1562,8 +1574,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1573,8 +1585,8 @@
       "platform": "3DS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1584,8 +1596,8 @@
       "platform": "3DS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1595,8 +1607,8 @@
       "platform": "3DS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1606,8 +1618,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1617,8 +1629,8 @@
       "platform": "GBA",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "memory",
@@ -1628,8 +1640,8 @@
       "platform": "NDS",
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-17T07:13:40.978701+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "gayray",
@@ -1640,7 +1652,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1651,7 +1663,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1662,7 +1674,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1673,7 +1685,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1684,7 +1696,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1695,7 +1707,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1706,7 +1718,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1717,7 +1729,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1728,7 +1740,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1739,7 +1751,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1750,7 +1762,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1761,7 +1773,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1772,7 +1784,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1783,7 +1795,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1794,7 +1806,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1805,7 +1817,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1816,7 +1828,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1827,7 +1839,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1838,7 +1850,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1849,7 +1861,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1860,7 +1872,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1871,7 +1883,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1882,7 +1894,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1893,7 +1905,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1904,7 +1916,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1915,7 +1927,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1926,7 +1938,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1937,7 +1949,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1948,7 +1960,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1959,7 +1971,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1970,7 +1982,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1981,7 +1993,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -1992,7 +2004,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2003,7 +2015,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2014,7 +2026,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2025,7 +2037,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2036,7 +2048,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2047,7 +2059,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2058,7 +2070,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2069,7 +2081,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2080,7 +2092,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2091,7 +2103,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2102,7 +2114,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2113,7 +2125,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2124,7 +2136,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2135,7 +2147,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2146,7 +2158,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2157,7 +2169,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2168,7 +2180,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2179,7 +2191,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2190,7 +2202,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2201,7 +2213,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2212,7 +2224,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2223,7 +2235,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2234,7 +2246,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2245,7 +2257,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2256,7 +2268,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2267,7 +2279,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2278,7 +2290,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2289,7 +2301,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2300,7 +2312,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2311,7 +2323,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2322,7 +2334,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2333,7 +2345,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2344,7 +2356,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2355,7 +2367,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2366,7 +2378,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2377,7 +2389,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2388,7 +2400,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2399,7 +2411,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2410,7 +2422,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2421,7 +2433,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2432,7 +2444,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2443,7 +2455,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2454,7 +2466,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2465,7 +2477,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2476,7 +2488,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2487,7 +2499,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2498,7 +2510,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2509,7 +2521,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2520,7 +2532,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2531,7 +2543,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2542,7 +2554,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2553,7 +2565,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2564,7 +2576,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2575,7 +2587,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2586,7 +2598,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2597,7 +2609,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2608,7 +2620,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2619,7 +2631,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2630,7 +2642,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2641,7 +2653,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2652,7 +2664,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2663,7 +2675,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2674,7 +2686,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2685,7 +2697,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2696,7 +2708,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2707,7 +2719,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2718,7 +2730,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2729,7 +2741,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2740,7 +2752,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2751,7 +2763,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2762,7 +2774,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2773,7 +2785,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2784,7 +2796,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2795,7 +2807,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2806,7 +2818,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2817,7 +2829,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2828,7 +2840,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2839,7 +2851,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2850,7 +2862,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2861,7 +2873,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2872,7 +2884,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2883,7 +2895,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2894,7 +2906,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2905,7 +2917,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2916,7 +2928,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2927,7 +2939,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2938,7 +2950,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2949,7 +2961,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2960,7 +2972,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2971,7 +2983,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2982,7 +2994,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -2993,7 +3005,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3004,7 +3016,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3015,7 +3027,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3026,7 +3038,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3037,7 +3049,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3048,7 +3060,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3059,7 +3071,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3070,7 +3082,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3081,7 +3093,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3092,7 +3104,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3103,7 +3115,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3114,7 +3126,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3125,7 +3137,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3136,7 +3148,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3147,7 +3159,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3158,7 +3170,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3169,7 +3181,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3180,7 +3192,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3191,7 +3203,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3202,7 +3214,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3213,7 +3225,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3224,7 +3236,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3235,7 +3247,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3246,7 +3258,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3257,7 +3269,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3268,7 +3280,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3279,7 +3291,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3290,7 +3302,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3301,7 +3313,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3312,7 +3324,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3323,7 +3335,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3334,7 +3346,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3345,7 +3357,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3356,7 +3368,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3367,7 +3379,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3378,7 +3390,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3389,7 +3401,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3400,7 +3412,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3411,7 +3423,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3422,7 +3434,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3433,7 +3445,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3444,7 +3456,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3455,7 +3467,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3466,7 +3478,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3477,7 +3489,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3488,7 +3500,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3499,7 +3511,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3510,7 +3522,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3521,7 +3533,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3532,7 +3544,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3543,7 +3555,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3554,7 +3566,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3565,7 +3577,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3576,7 +3588,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3587,7 +3599,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3598,7 +3610,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3609,7 +3621,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3620,7 +3632,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3631,7 +3643,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3642,7 +3654,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3653,7 +3665,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3664,7 +3676,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3675,7 +3687,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3686,7 +3698,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3697,7 +3709,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3708,7 +3720,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3719,7 +3731,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3730,7 +3742,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3741,7 +3753,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3752,7 +3764,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3763,7 +3775,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3774,7 +3786,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3785,7 +3797,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3796,7 +3808,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3807,7 +3819,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3818,7 +3830,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "nonplae",
@@ -3829,7 +3841,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "retro",
@@ -3840,7 +3852,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3851,7 +3863,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3862,7 +3874,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3873,7 +3885,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3884,7 +3896,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3895,7 +3907,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3906,7 +3918,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3917,7 +3929,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3928,7 +3940,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "murphy",
@@ -3939,7 +3951,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -3950,7 +3962,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -3961,7 +3973,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -3972,7 +3984,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -3983,7 +3995,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -3994,7 +4006,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4005,7 +4017,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4016,7 +4028,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4027,7 +4039,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4038,7 +4050,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4049,7 +4061,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4060,7 +4072,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4071,7 +4083,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4082,7 +4094,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4093,7 +4105,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4104,7 +4116,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4115,7 +4127,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4126,7 +4138,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4137,7 +4149,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4148,7 +4160,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4159,7 +4171,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4170,7 +4182,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4181,7 +4193,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4192,7 +4204,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4203,7 +4215,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4214,7 +4226,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4225,7 +4237,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4236,7 +4248,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4247,7 +4259,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4258,7 +4270,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4269,7 +4281,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4280,7 +4292,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4291,7 +4303,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4302,7 +4314,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4313,7 +4325,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4324,7 +4336,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4335,7 +4347,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4346,7 +4358,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4357,7 +4369,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4368,7 +4380,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4379,7 +4391,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4390,7 +4402,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4401,7 +4413,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4412,7 +4424,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4423,7 +4435,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4434,7 +4446,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4445,7 +4457,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4456,7 +4468,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4467,7 +4479,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4478,7 +4490,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4489,7 +4501,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4500,7 +4512,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4511,7 +4523,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4522,7 +4534,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4533,7 +4545,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4544,7 +4556,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4555,7 +4567,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4566,7 +4578,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4577,7 +4589,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4588,7 +4600,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4599,7 +4611,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4610,7 +4622,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4621,7 +4633,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4632,7 +4644,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4643,7 +4655,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4654,7 +4666,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4665,7 +4677,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4676,7 +4688,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4687,7 +4699,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4698,7 +4710,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4709,7 +4721,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4720,7 +4732,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4731,7 +4743,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4742,7 +4754,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4753,7 +4765,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4764,7 +4776,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4775,7 +4787,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4786,7 +4798,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4797,7 +4809,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4808,7 +4820,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4819,7 +4831,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4830,7 +4842,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4841,7 +4853,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4852,7 +4864,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4863,7 +4875,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4874,7 +4886,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4885,7 +4897,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4896,7 +4908,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4907,7 +4919,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4918,7 +4930,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4929,7 +4941,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4940,7 +4952,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4951,7 +4963,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4962,7 +4974,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4973,7 +4985,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4984,7 +4996,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -4995,7 +5007,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "monster",
@@ -5006,7 +5018,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "monster-rancher-4",
+      "title": "Monster Rancher 4",
+      "platform": "PlayStation 2",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "rommeaow",
@@ -5017,7 +5040,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "rommeaow",
@@ -5028,7 +5051,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "rommeaow",
@@ -5039,7 +5062,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5050,7 +5073,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5061,7 +5084,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5072,7 +5095,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5083,7 +5106,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5094,7 +5117,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5105,7 +5128,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5116,7 +5139,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5127,7 +5150,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5138,7 +5161,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5149,7 +5172,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5160,7 +5183,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5171,7 +5194,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5182,7 +5205,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5193,7 +5216,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5204,7 +5227,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5215,7 +5238,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5226,7 +5249,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5237,7 +5260,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5248,7 +5271,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5259,7 +5282,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5270,7 +5293,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5281,7 +5304,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5292,7 +5315,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5303,7 +5326,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5314,7 +5337,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5325,7 +5348,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5336,7 +5359,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5347,7 +5370,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5358,7 +5381,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     },
     {
       "feed": "90s",
@@ -5369,7 +5392,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-17T20:45:32.291384+00:00"
+      "lastSeenAt": "2026-10-18T04:47:50.685590+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
