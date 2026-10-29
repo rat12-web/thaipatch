@@ -83,12 +83,18 @@ html[data-theme] .cover .translatorplate .name{font-size:11px!important;max-widt
 .update-card-badge{flex:none;background:var(--mint);color:#fff;font:800 10px/1.2 ui-monospace,monospace;padding:4px 6px;border-radius:3px;text-align:center;letter-spacing:0.5px}
 html[data-theme="dark"] .update-card-badge{background:#185a9d;color:#e8f4ff}
 .update-card-content{flex:1;min-width:0;overflow:hidden}
-.update-card-title{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--txt);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.update-card-title strong{overflow:hidden;text-overflow:ellipsis}
+.update-card-title{display:flex;align-items:center;flex-wrap:wrap;gap:6px;font-size:13px;color:var(--txt);line-height:1.35}
+.update-card-title strong{color:var(--txt);font-weight:700}
+.update-action-tag{font:700 10.5px/1.3 ui-monospace,monospace;padding:2px 6px;border-radius:3px;flex:none}
+.update-action-tag.tag-update{background:rgba(43,143,132,.15);color:#2b8f84;border:1px solid rgba(43,143,132,.3)}
+.update-action-tag.tag-fix{background:rgba(217,119,6,.15);color:#d97706;border:1px solid rgba(217,119,6,.3)}
+html[data-theme="dark"] .update-action-tag.tag-update{background:rgba(118,216,200,.18);color:#76d8c8;border-color:rgba(118,216,200,.35)}
+html[data-theme="dark"] .update-action-tag.tag-fix{background:rgba(245,158,11,.18);color:#fbbf24;border-color:rgba(245,158,11,.35)}
 .update-pf-tag{font:800 10px/1 ui-monospace,monospace;color:var(--sub);background:var(--surface);border:1px solid var(--line);padding:2px 5px;border-radius:3px;flex:none}
-.update-card-meta{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--sub);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.update-card-meta{display:flex;align-items:flex-start;gap:6px;font-size:11.5px;color:var(--sub);margin-top:4px}
 .update-team-name{font-weight:700;color:var(--txt);flex:none}
-.update-change{color:var(--sub);overflow:hidden;text-overflow:ellipsis}
+.update-change-icon{flex:none;font-size:11px;margin-top:1px}
+.update-change{color:var(--sub);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .update-card-arrow{color:var(--mint);font-size:14px;flex:none}
 @media(max-width:600px){
   .recent-updates-box{padding:14px 12px}

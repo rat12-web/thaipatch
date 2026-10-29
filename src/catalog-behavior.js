@@ -49,22 +49,24 @@ function metrics(){$('metricGames').textContent=groupGameEntries(catalog).length
 function renderRecentUpdates(){
  const track=$('recentUpdatesTrack');
  if(!track)return;
- const recent=[...catalog].filter(g=>g.sourceUpdatedAt||g.sourceUploadedAt||g.date).sort((a,b)=>sourceOrderKey(b)-sourceOrderKey(a)).slice(0,5);
+ const recent=[...catalog].filter(g=>g.sourceUpdatedAt||g.sourceUploadedAt||g.date).sort((a,b)=>sourceOrderKey(b)-sourceOrderKey(a)).slice(0,8);
  if(!recent.length){track.innerHTML='<span class="empty-update">ไม่มีรายการอัปเดตล่าสุด</span>';return;}
  track.innerHTML=recent.map(g=>{
   const val=g.sourceUpdatedAt||g.sourceUploadedAt||g.date;
   const d=new Date(verifiedSourceStamp(g)||Date.parse(val));
   const team=g.translatorName||g.source||'';
   const ver=g.patchVersion||g.version||'';
+  const isFix=g.patchCategory==='fix_update'||(g.patchChanges&&g.patchChanges.includes('แก้ไข'));
+  const actionText=isFix?'อัปเดตแก้ไขเกม':'อัปเดตเกม';
   let changeText=g.patchChanges||(ver?`เวอร์ชัน ${ver}`:'อัปเดตแพตช์');
   if(!g.patchChanges){
-   if(g.description&&g.description.includes('แปลทั้งเกม'))changeText=`แพตช์ ${ver||'สมบูรณ์'} (แปลทั้งเกม)`;
-   else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แพตช์ ${ver||'ใหม่'} (เนื้อเรื่อง)`;
+   if(g.description&&g.description.includes('แปลทั้งเกม'))changeText=`แปลสมบูรณ์ทั้งเกม ${ver||''}`.trim();
+   else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แปลเนื้อเรื่องและบทสนทนา ${ver||''}`.trim();
   }
-  const dateStr=new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(d);
+  const dateStr='วันที่ '+new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(d);
   const timeNote=g.sourceDateAudit?.rawValue&&g.sourceDateAudit.rawValue.includes(':')?g.sourceDateAudit.rawValue.split(' ')[1]+' น.':'';
   const whenLabel=`${dateStr}${timeNote?' '+timeNote:''}`;
-  return `<a class="recent-update-card" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer" title="${safe(g.title)} - ${safe(team)}"><span class="update-card-badge">${safe(whenLabel)}</span><div class="update-card-content"><div class="update-card-title"><strong>${safe(g.title)}</strong><span class="update-pf-tag">${safe(g.platform)}</span></div><div class="update-card-meta"><span class="update-team-name">${safe(team)}</span><span class="meta-dot">·</span><span class="update-change">${safe(changeText)}</span></div></div><span class="update-card-arrow" aria-hidden="true">↗</span></a>`;
+  return `<a class="recent-update-card" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer" title="${safe(g.title)} - ${safe(team)}"><span class="update-card-badge">${safe(whenLabel)}</span><div class="update-card-content"><div class="update-card-title"><span class="update-team-name">${safe(team)}</span><span class="update-action-tag ${isFix?'tag-fix':'tag-update'}">${safe(actionText)}</span><strong>${safe(g.title)}</strong><span class="update-pf-tag">${safe(g.platform)}</span></div><div class="update-card-meta"><span class="update-change-icon">${isFix?'🔧':'✨'}</span><span class="update-change" title="${safe(changeText)}">${safe(changeText)}</span></div></div><span class="update-card-arrow" aria-hidden="true">↗</span></a>`;
  }).join('');
 }
 function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();metrics()}
