@@ -1,3 +1,43 @@
+## 2026-10-29 — All-teams catalog expansion across 9 feeds and patchCategory/patchChanges implementation
+
+Owner: Active Repository Agent (Antigravity); branch `feat/all-teams-and-patch-notes`.
+
+Catalog: 196 entries / 194 game-platform groups (expanded from 144 entries).
+Added 52 verified games with exact deeplinks, decoded covers, and verified patch dates across 7 translation feeds:
+1. Memory Card TH (PS1/PS2, 15 games): `ext-047` to `ext-061` (Silent Hill, Dino Crisis, Parasite Eve, Metal Gear Solid, Valkyrie Profile, Chrono Cross, Castlevania SOTN, Final Fantasy VII/VIII, Biohazard 3, Suikoden II, Front Mission 3, Kingdom Hearts, Persona 4, Dragon Quest VIII). Exact matches increased to 41.
+2. นอนแปล (NONPLAE) (GBA/SNES, 10 games): `nonplae-002` to `nonplae-011` (Tales of Phantasia, Golden Sun 1 & 2, Mother 3, Final Fantasy VI Advance, Metroid Fusion, Castlevania Aria of Sorrow, Chrono Trigger, Super Mario World, Bahamut Lagoon). Exact matches increased to 11.
+3. Monster แปล (PS1/PS2/PSP/NDS, 9 games): `monster-029-01` to `monster-029-09` (Monster Hunter Portable 3rd, Final Fantasy Tactics: The War of the Lions, Crisis Core: Final Fantasy VII, Digimon World Re:Digitize, Tactics Ogre: Let Us Cling Together, Phantasy Star Portable 2 Infinity, Jeanne d'Arc, Persona 3 Portable, Valkyrie Profile: Lenneth). Exact matches increased to 33.
+4. 90S Game (GBA/SNES, 8 games): `90s-029-01` to `90s-029-08` (Pokémon LeafGreen, The Legend of Zelda: The Minish Cap, Fire Emblem: The Blazing Blade, Castlevania: Circle of the Moon, Dragon Quest I & II, Super Mario RPG, Final Fantasy IV Advance, Kirby: Nightmare in Dream Land). Exact matches increased to 26.
+5. Murphy-TH (PS1/FC/GBA, 8 games): `megaman-x5`, `resident-evil-directors-cut`, `twilight-syndrome-kyuumei-hen`, `twilight-syndrome-tansaku-hen`, `silent-hill-play-novel`, `mighty-final-fight`, `phantom-fighter`, `spartan-x-2`. Exact matches increased to 9.
+6. RetroSpective (GBA, 1 game): `retro-027-07` (Pokémon Wild Indigo TH). RetroSpective is now 7/7 matched (100%).
+7. รอมเหมียว (ROMMEAOW) (GBA, 1 game): `rommeaow-028-03` (Harry Potter and the Prisoner of Azkaban). Exact matches increased to 3.
+
+Features & Infrastructure implemented:
+1. `patchCategory` and `patchChanges`:
+   - Enriched all 196 catalog records with `patchCategory` (`fix_update`, `full_release`, `partial_beta`) and concise 1-line Thai summary `patchChanges` without forbidden keywords (`TESTED`, `ยังไม่ยืนยันวันที่`, `แพตช์ต้นทาง`).
+   - UI Badges (`🔧 แพตช์แก้ไข`, `✨ แพตช์แปลครบ`, `🧪 แพตช์บางส่วน`) rendered on cards (`.card-patch-info`), chooser modal (`.variant-changes`), and recent updates track (`.update-change`).
+   - Integrated `patchChanges` and `patchVersion` into `matchesFilters(g)` search tokens for full multi-term searchability.
+   - Styled in `src/romthai-theme.css` with zero horizontal overflow across 1440px, 390px, and 320px viewports in light and dark modes.
+2. Synchronizer enhancements (`.sync/refresh.py`):
+   - Expanded `match()` for `nonplae`, `murphy`, `rommeaow`, `retro`, `memory`, `monster`, and `90s` using verified URL slugs and path patterns.
+   - Added `derive_patch_category()` and `clean_patch_changes()` to dynamically sync patch notes from upstream feeds.
+   - Preserved all `test_refresh.py` assertions (including Gayray feed count and ROMMEAOW GBA isolation).
+
+Verification:
+- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
+- `python .sync/refresh.py`: PASS (158 exact matches across 9 feeds)
+- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
+- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
+- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
+- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
+- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed native direct click, 0 overflow)
+- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
+
+---
+
 ## 2026-10-29 — Playtime sort, front-page recent updates and reviewed catalog additions
 
 Owner: Active Repository Agent (Antigravity); branch `task/playtime-catalog-updates`.
@@ -77,53 +117,45 @@ See docs/SYNC_SOURCES.md for remaining discovery evidence and review gates.
 
 Historical checkpoints below retain the counts measured at those revisions.
 
-# Repository-independent continuation checkpoint
+# Agent handoff: แปลไทยบอกด้วย · romthai.app
 
-## 2026-10-17 sync checkpoint
+## 2026-10-17 — Multi-source sync continuation
 
-The seven-feed sync implementation is at commit
-`5edcb32cb1be44464199069305b69b7cbb5e130b`. A real local refresh read
-all seven feeds (509 rows), exact-matched 70 existing records and queued 439
-unreviewed source rows. Ten existing แปลไทยเกมเก่า records gained explicit
-source-reported latest patch date/version metadata. The public card count is
-still 128; no newly discovered game was automatically published.
+Implementation commit: `5edcb32cb1be44464199069305b69b7cbb5e130b` on `main`.
+Seven public feeds were readable in the local real refresh: 509 source rows,
+70 exact existing catalog matches, 439 new source rows queued in
+`.sync/report.json`. Murphy now uses its canonical domain; Monster แปล's
+base JSON and live overlay are merged for discovery; แปลไทยเกมเก่า's
+explicit latest patch dates and versions update 10 existing cards. Public
+card count remains 128. See `docs/SYNC_SOURCES.md` for feed counts and the
+review gate. Candidate counts are source rows, not unique games.
 
-PASS: `.sync/test_refresh.py`, live `.sync/refresh.py`, `--check`,
-`tools/build.py --check`, six offline Chrome smoke views and three Chrome
-date-order views. The date QA now derives expected verified counts from the
-catalog, so future legitimate source updates do not break a fixed-count
-assertion. `docs/SYNC_SOURCES.md` records coverage and review requirements.
-NOT RUN: fresh route, edition, cover and rights checks for the candidate
-queue; remaining teams' feed adapter discovery. These gates still block a
-claim that all Thai patch games are published or verified.
+Checks passed: updater fixture tests, live refresh from all seven feeds,
+embedded catalog/build checks, offline browser smoke (6 views), date-order
+browser QA (3 views), and `git diff --check`. Real navigation/artwork for
+the 439 candidates was NOT RUN. No new candidate is published automatically.
+Next action: verify actual creator routes, game/edition/team and artwork for
+a bounded candidate batch, then add only reviewed cards. Continue adapters
+for stable public feeds from the remaining teams. Facebook needs authorized
+public access; do not bypass login. No ROMs or patch binaries were fetched.
 
-Date: 2026-10-13. Status: isolated repository build, portable browser checks, Linux CI and Pages deployment PASS. Complete source/rights acceptance remains PARTIAL.
+Live: https://rat12-web.github.io/thaipatch/
+Commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
+Status: UI deployed; prior real local/online Chromium Desktop/Mobile/320px QA passed in both themes. Repository-independent continuation milestone passed; see CHECKPOINT.md and evidence/portability/. Full source/rights audit remains partial.
 
-Site: https://rat12-web.github.io/thaipatch/
-Repository: https://github.com/rat12-web/thaipatch
-Original published UI/reference commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
-Repository independence validated code commit: 407ba41c0f867c6b9a12cc2dd38e0db87596ddf8
-Current milestone commit: identify through git log (the checkpoint is committed with the changes).
+Latest: platform logos use integrated, tinted compact upper-right corner panels; creator logos are lower-left. Sixteen platform frames retain their own color on hover/focus; GBA is purple. Eight creator identity images are available, nine still use names. Thirty-five cover replacements include all thirteen previously empty records. No catalog art is copied locally.
 
-## Result
+Default sort: latest verified source patch date; newest matching sibling in groups; unknown dates last. 38 verified source-reported update dates, 0 verified uploads and 90 unconfirmed dates. Update/upload labels stay separate; imports/server time/catalog edits are excluded. The pending optional policy question used the stated update-date fallback. GitHub Actions refreshes known exact-matched dates/versions from five sources every six hours; new candidates require route/edition review. Facebook and other sources without adapters are not synchronized. The next agent can obtain missing upload/date evidence; do not guess timestamps.
 
-- Reused the deployed implementation; extracted current core into src/core.js and retained existing templates and CSS. tools/build.py uses only this checkout, canonical catalog.json/teams.json/platforms.json and user brand assets. No old ZIP, baseline HTML, ChatGPT session or Windows workspace path is required.
-- Added AGENTS.md, AGENT_START.md, CLAUDE.md pointer, WORK_TO_AGENT.md and TASKS.md for shared instructions, accepted decisions and pending work. Private conversations/hidden agent memories are not transferred; the checked-in project summary enables continuation.
-- All four original catalog/theme/platform/date QA suites now use npm Playwright and optional PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH. Added offline browser smoke and local static server. package-lock.json pins dependencies. CI installs bundled Chromium on Linux, checks generated build, updater tests and offline smoke before publishing.
-- Public audit CSVs and selected source/route/decoder evidence are retained under audits/ and evidence/. audits/PROVENANCE_INDEX.json maps historical workspace paths to preserved public projections or explicit omissions. Raw remote JS/manifests, response bodies, original patcher/ROM archives, synced project files and private caches are excluded.
-- UI/data behavior preserved: 128 entries / 126 groups; 14 series slides; source navigation/duplicate chooser; compact console upper-right, creator lower-left; GBA purple and platform colors; light/dark modes; no TESTED/route-status labels. No catalog ROM patcher/votes/uploads/backend.
-- Existing six-hour metadata updater preserved: five feeds, 36 current exact matches; new games need route/edition review; Facebook remains manual. Real manual server refresh/deploy previously passed at https://github.com/rat12-web/thaipatch/actions/runs/38388029187 . First timed invocation not yet observed.
+ROMMEAOW's two links now enter its actual Patch Lab. Source detects the user's ROM or permits manual selection; URL preselection is not claimed. Remaining 22 known exact-Patch blockers: 18 90S, three Murphy, Maewdam DQ III. 90S still selects the wrong default from ?game=...#patch. Keep the measured correct-game card links. SOURCE_PATCH_BLOCKERS.md provides an owner-side integration proposal, NOT APPLIED. Facebook's one post is still login limited.
 
-## Verification
+Data: catalog.json, audits/source-date-audit.csv, audits/source-audit.csv, audits/cover-audit.csv, teams.json, audits/team-audit.csv, platforms.json and audits/deeplinks-90s.csv. Reuse stable IDs and existing evidence. The next agent can handle missing dates, identities, rights, source-owner coordination, versions and wording. Owner visual acceptance remains pending. romthai.app is the brand; actual site URL is unchanged.
 
-An isolated copy excluded .git, node_modules, qa and all workspace baseline/tools. Fresh npm ci and repository-only build/check passed. Updater failure/edition/date tests passed. The preserved browser suites passed using installed Chrome via the documented environment override: catalog 3 views, themes 6, platforms 6, source chronology 3. Offline smoke passed 6 views; external image requests were deliberately aborted, so it is not artwork/source-route certification. Reports: evidence/portability/*.json.
+NEXT_ACTION_OWNER: ACTIVE_REPOSITORY_AGENT
 
-Public text scan found no credential signatures or hardcoded executable paths in src/tools. This is a targeted publication check, not a comprehensive security audit. Third-party artwork stays remote; local assets are only the user's supplied brand images. Individual Claude Code/Antigravity/ZCode/T3/Hermes integrations were NOT RUN.
 
-Linux bundled-Chromium installation, repository build check, updater tests, offline browser smoke and Pages deploy passed: https://github.com/rat12-web/thaipatch/actions/runs/38393194631. The live deployment.json matched the validated code commit. A fresh GitHub clone rebuilt all five generated files exactly (normalized text) after deleting them; no workspace source was present. Evidence: evidence/portability/linux-ci.json, live-deployment.json and summary.json. Later documentation-only commits do not change this validated implementation; identify current HEAD through Git.
+## Repository independence milestone — 2026-10-13
 
-## Remaining blockers / next action
+The current source has been extracted into src/ and tools/build.py builds exclusively from this checkout. Root catalog.json/teams.json/platforms.json are canonical; the old baseline HTML and Windows workspace paths are unnecessary. Four original browser QA suites are portable under tools/; npm test adds an explicitly offline smoke check. Read AGENT_START.md and AGENTS.md for setup and working rules. Public audit CSVs and prior successful QA projections are in audits/ and evidence/previous/. BASELINE_REVIEW.md preserves the original ZIP hash/history without publishing old ROM/patcher code or raw reference caches.
 
-22 known source-side exact-Patch blockers, nine creator identity images/rights, 90 unconfirmed dates and zero verified file-upload timestamps remain. See TASKS.md and SOURCE_PATCH_BLOCKERS.md. New source candidates remain pending actual route and edition checks.
-
-NEXT_ACTION_OWNER: ACTIVE_REPOSITORY_AGENT. Read AGENT_START.md and choose the next TASKS.md batch; keep checkpoint, evidence and Git commits as shared state.
+Agent conversation history is replaced by these checked-in decisions and tasks, not transferred automatically to another product. Individual agent products remain untested. Clean isolated build/check and fresh dependency install passed. All four real browser suites and the offline smoke passed from the isolated copy (3/6/6/3/6 views). No vendor agent application was invoked. Linux bundled-Chromium CI and Pages deployment passed at https://github.com/rat12-web/thaipatch/actions/runs/38393194631; live commit matched 407ba41c0f867c6b9a12cc2dd38e0db87596ddf8. Fresh GitHub clone regeneration also passed. NEXT ACTION: choose a TASKS.md batch; no further originating Chat work is required. Next data priorities are listed in TASKS.md.

@@ -1,3 +1,43 @@
+## 2026-10-29 — All-teams catalog expansion across 9 feeds and patchCategory/patchChanges implementation
+
+Owner: Active Repository Agent (Antigravity); branch `feat/all-teams-and-patch-notes`.
+
+Catalog: 196 entries / 194 game-platform groups (expanded from 144 entries).
+Added 52 verified games with exact deeplinks, decoded covers, and verified patch dates across 7 translation feeds:
+1. Memory Card TH (PS1/PS2, 15 games): `ext-047` to `ext-061` (Silent Hill, Dino Crisis, Parasite Eve, Metal Gear Solid, Valkyrie Profile, Chrono Cross, Castlevania SOTN, Final Fantasy VII/VIII, Biohazard 3, Suikoden II, Front Mission 3, Kingdom Hearts, Persona 4, Dragon Quest VIII). Exact matches increased to 41.
+2. นอนแปล (NONPLAE) (GBA/SNES, 10 games): `nonplae-002` to `nonplae-011` (Tales of Phantasia, Golden Sun 1 & 2, Mother 3, Final Fantasy VI Advance, Metroid Fusion, Castlevania Aria of Sorrow, Chrono Trigger, Super Mario World, Bahamut Lagoon). Exact matches increased to 11.
+3. Monster แปล (PS1/PS2/PSP/NDS, 9 games): `monster-029-01` to `monster-029-09` (Monster Hunter Portable 3rd, Final Fantasy Tactics: The War of the Lions, Crisis Core: Final Fantasy VII, Digimon World Re:Digitize, Tactics Ogre: Let Us Cling Together, Phantasy Star Portable 2 Infinity, Jeanne d'Arc, Persona 3 Portable, Valkyrie Profile: Lenneth). Exact matches increased to 33.
+4. 90S Game (GBA/SNES, 8 games): `90s-029-01` to `90s-029-08` (Pokémon LeafGreen, The Legend of Zelda: The Minish Cap, Fire Emblem: The Blazing Blade, Castlevania: Circle of the Moon, Dragon Quest I & II, Super Mario RPG, Final Fantasy IV Advance, Kirby: Nightmare in Dream Land). Exact matches increased to 26.
+5. Murphy-TH (PS1/FC/GBA, 8 games): `megaman-x5`, `resident-evil-directors-cut`, `twilight-syndrome-kyuumei-hen`, `twilight-syndrome-tansaku-hen`, `silent-hill-play-novel`, `mighty-final-fight`, `phantom-fighter`, `spartan-x-2`. Exact matches increased to 9.
+6. RetroSpective (GBA, 1 game): `retro-027-07` (Pokémon Wild Indigo TH). RetroSpective is now 7/7 matched (100%).
+7. รอมเหมียว (ROMMEAOW) (GBA, 1 game): `rommeaow-028-03` (Harry Potter and the Prisoner of Azkaban). Exact matches increased to 3.
+
+Features & Infrastructure implemented:
+1. `patchCategory` and `patchChanges`:
+   - Enriched all 196 catalog records with `patchCategory` (`fix_update`, `full_release`, `partial_beta`) and concise 1-line Thai summary `patchChanges` without forbidden keywords (`TESTED`, `ยังไม่ยืนยันวันที่`, `แพตช์ต้นทาง`).
+   - UI Badges (`🔧 แพตช์แก้ไข`, `✨ แพตช์แปลครบ`, `🧪 แพตช์บางส่วน`) rendered on cards (`.card-patch-info`), chooser modal (`.variant-changes`), and recent updates track (`.update-change`).
+   - Integrated `patchChanges` and `patchVersion` into `matchesFilters(g)` search tokens for full multi-term searchability.
+   - Styled in `src/romthai-theme.css` with zero horizontal overflow across 1440px, 390px, and 320px viewports in light and dark modes.
+2. Synchronizer enhancements (`.sync/refresh.py`):
+   - Expanded `match()` for `nonplae`, `murphy`, `rommeaow`, `retro`, `memory`, `monster`, and `90s` using verified URL slugs and path patterns.
+   - Added `derive_patch_category()` and `clean_patch_changes()` to dynamically sync patch notes from upstream feeds.
+   - Preserved all `test_refresh.py` assertions (including Gayray feed count and ROMMEAOW GBA isolation).
+
+Verification:
+- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
+- `python .sync/refresh.py`: PASS (158 exact matches across 9 feeds)
+- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
+- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
+- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
+- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
+- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed native direct click, 0 overflow)
+- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
+
+---
+
 ## 2026-10-29 — Playtime sort, front-page recent updates and reviewed catalog additions
 
 Owner: Active Repository Agent (Antigravity); branch `task/playtime-catalog-updates`.

@@ -4,7 +4,7 @@ function seriesPopularity(g){const n=SERIES_RANK.indexOf(seriesOf(g));return n<0
 function qs(){document.title='แปลไทยบอกด้วย · romthai.app — คลังเกมแปลไทย'}
 function matchesFilters(g){
  const tokens=normalizeSearch(state.query).split(' ').filter(Boolean);
- return tokens.every(t=>normalizeSearch([g.title,g.translatorName,g.source,g.platform,g.genre,seriesOf(g)].join(' ')).includes(t))&&(!state.platform||g.platform===state.platform)&&(!state.series||seriesOf(g)===state.series)&&(!state.team||(g.translatorName||g.source)===state.team)&&(!state.genre||g.genre===state.genre)&&(!state.art||g.artStyle===state.art);
+ return tokens.every(t=>normalizeSearch([g.title,g.translatorName,g.source,g.platform,g.genre,seriesOf(g),g.patchChanges||'',g.patchVersion||''].join(' ')).includes(t))&&(!state.platform||g.platform===state.platform)&&(!state.series||seriesOf(g)===state.series)&&(!state.team||(g.translatorName||g.source)===state.team)&&(!state.genre||g.genre===state.genre)&&(!state.art||g.artStyle===state.art);
 }
 function verifiedSourceStamp(g){
  const a=g.sourceDateAudit;if(!a||!['verified_source_reported','verified_file_upload'].includes(a.state))return 0;
@@ -28,11 +28,19 @@ function filtered(){
  else groups.sort((a,b)=>sourceOrderKey(b)-sourceOrderKey(a)||a.title.localeCompare(b.title,'th'));
  return groups;
 }
+function patchNoteHtml(g){
+ const row=newestSourceVariant(g)||g;
+ const ver=(row.patchVersion||row.version||'').trim();
+ const cat=row.patchCategory||(ver&&!/^v?1\.0(\.0)?$/i.test(ver)?'fix_update':'full_release');
+ const badge=cat==='fix_update'?`🔧 แพตช์แก้ไข ${ver}`.trim():cat==='partial_beta'?`🧪 แพตช์บางส่วน ${ver}`.trim():`✨ แพตช์แปลครบ ${ver}`.trim();
+ const detail=row.patchChanges||'ดูรายละเอียดการแปลที่เว็บไซต์ต้นทาง';
+ return `<div class="card-patch-info" data-patch-cat="${safe(cat)}"><span class="patch-cat-badge">${safe(badge)}</span><span class="patch-change-text" title="${safe(detail)}">${safe(detail)}</span></div>`;
+}
 function card(g){
  const team=g.grouped?`${g.variants.length} ฉบับ · ${g.teamCount} ทีมแปล`:(g.translatorName||g.source);
  const action=g.grouped?'เลือกทีม / ฉบับ':'ดูแพตช์';
  const playTimeTag=g.playTimeHours?`<span class="meta-dot">·</span><span class="card-playtime" title="เวลาเล่นเนื้อเรื่องหลักโดยประมาณ">⏱️ ~${g.playTimeHours} ชม.</span>`:'';
- const body=`<span class="platform-stripe" aria-hidden="true"></span>${imageHtml(g)}<div class="card-info"><h3 class="card-name">${safe(g.title)}</h3><div class="card-meta"><span>${safe(g.genre||'เกมแปลไทย')}</span>${playTimeTag}</div>${sourceDateHtml(g)}<p class="catalog-card-team">${safe(team)}</p><span class="catalog-card-action">${action}<span aria-hidden="true">↗</span></span></div>`;
+ const body=`<span class="platform-stripe" aria-hidden="true"></span>${imageHtml(g)}<div class="card-info"><h3 class="card-name">${safe(g.title)}</h3><div class="card-meta"><span>${safe(g.genre||'เกมแปลไทย')}</span>${playTimeTag}</div>${patchNoteHtml(g)}${sourceDateHtml(g)}<p class="catalog-card-team">${safe(team)}</p><span class="catalog-card-action">${action}<span aria-hidden="true">↗</span></span></div>`;
  const attrs=`style="${coverVars(g)}" data-platform="${safe(g.platform)}"`;
  return g.grouped?`<button type="button" class="gcard group-card" ${attrs} data-group-open="${safe(g.groupKey)}">${body}</button>`:`<a class="gcard" ${attrs} data-source-direct="${safe(g.id)}" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer" title="${safe(g.title)}">${body}</a>`;
 }
@@ -48,9 +56,11 @@ function renderRecentUpdates(){
   const d=new Date(verifiedSourceStamp(g)||Date.parse(val));
   const team=g.translatorName||g.source||'';
   const ver=g.patchVersion||g.version||'';
-  let changeText=ver?`เวอร์ชัน ${ver}`:'อัปเดตแพตช์';
-  if(g.description&&g.description.includes('แปลทั้งเกม'))changeText=`แพตช์ ${ver||'สมบูรณ์'} (แปลทั้งเกม)`;
-  else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แพตช์ ${ver||'ใหม่'} (เนื้อเรื่อง)`;
+  let changeText=g.patchChanges||(ver?`เวอร์ชัน ${ver}`:'อัปเดตแพตช์');
+  if(!g.patchChanges){
+   if(g.description&&g.description.includes('แปลทั้งเกม'))changeText=`แพตช์ ${ver||'สมบูรณ์'} (แปลทั้งเกม)`;
+   else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แพตช์ ${ver||'ใหม่'} (เนื้อเรื่อง)`;
+  }
   const dateStr=new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(d);
   const timeNote=g.sourceDateAudit?.rawValue&&g.sourceDateAudit.rawValue.includes(':')?g.sourceDateAudit.rawValue.split(' ')[1]+' น.':'';
   const whenLabel=`${dateStr}${timeNote?' '+timeNote:''}`;
@@ -60,7 +70,7 @@ function renderRecentUpdates(){
 function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();metrics()}
 function sourceNote(g){if(g.sourceLocation?.method==='patch_lab')return 'เข้าหน้า Patch Lab โดยตรง ต้นทางตรวจเกมจากไฟล์ ROM ของคุณ หรือเลือกเกมในช่องค้นหา';if(g.sourceLocation?.method==='text_fragment')return 'เปิดตรงตำแหน่ง '+g.title+' ที่ต้นทาง กดปกเกมเพื่อเปิดรายละเอียด/แพตช์';if(g.sourceAudit?.state==='failed_selection'||g.sourceAudit?.state==='default_match_inconclusive')return 'เมื่อถึงเว็บไซต์ 90S Game ให้เลือก '+g.title+' ในช่องเกมก่อนดำเนินการต่อ';if(g.sourceAudit?.state==='directory_only')return 'ลิงก์เปิดคลังของทีมแปล กรุณาเลือกเกมนี้ที่เว็บไซต์ต้นทาง';if(g.sourceAudit?.state==='inferred')return 'ยังไม่ยืนยันหน้าเกมเฉพาะ หากเปิดแล้วไม่ตรงเกม ให้ค้นหาชื่อเกมที่เว็บไซต์ต้นทาง';return ''}
 function groupPicker(key){const variants=catalog.filter(g=>gameGroupKey(g)===key);if(!variants.length)return;
- const name=canonicalTitle(variants[0]);const items=variants.map(g=>{const team=g.translatorName||g.source,url=sourceUrl(g),art=assetUrl(g.coverCandidateUrl||g.cover||'',g),logo=teamLogoUrl(g),note='';return `<a class="variant-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer"><span class="variant-media">${art?`<img src="${safe(art)}" alt="ปก ${safe(g.title)}" loading="lazy">`:''}</span><span class="variant-copy"><span class="variant-source">${logo?`<img class="variant-logo" src="${safe(logo)}" alt="" loading="lazy">`:''}<b>${safe(team)}</b></span><span class="variant-name">${safe(g.title)} · ${safe(g.platform)}</span><small class="variant-version">${safe((g.baseEdition?'ฐาน '+g.baseEdition+' · ':'')+'แพตช์ '+(g.patchVersion||g.version||'ดูที่ต้นทาง'))}</small>${note?`<small class="team-route">${safe(note)}</small>`:''}</span><span class="variant-arrow" aria-hidden="true">↗</span></a>`}).join('');
+ const name=canonicalTitle(variants[0]);const items=variants.map(g=>{const team=g.translatorName||g.source,url=sourceUrl(g),art=assetUrl(g.coverCandidateUrl||g.cover||'',g),logo=teamLogoUrl(g),note='';return `<a class="variant-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer"><span class="variant-media">${art?`<img src="${safe(art)}" alt="ปก ${safe(g.title)}" loading="lazy">`:''}</span><span class="variant-copy"><span class="variant-source">${logo?`<img class="variant-logo" src="${safe(logo)}" alt="" loading="lazy">`:''}<b>${safe(team)}</b></span><span class="variant-name">${safe(g.title)} · ${safe(g.platform)}</span><small class="variant-version">${safe((g.baseEdition?'ฐาน '+g.baseEdition+' · ':'')+'แพตช์ '+(g.patchVersion||g.version||'ดูที่ต้นทาง'))}</small>${g.patchChanges?`<small class="variant-changes">${safe(g.patchChanges)}</small>`:''}${note?`<small class="team-route">${safe(note)}</small>`:''}</span><span class="variant-arrow" aria-hidden="true">↗</span></a>`}).join('');
  modal(name,`<div class="team-choice-head"><p>เลือกทีมแปลหรือฉบับที่ต้องการ แต่ละตัวเลือกจะเปิดเว็บไซต์เจ้าของผลงานในแท็บใหม่</p></div><div class="team-choice-list">${items}</div>`);
 }
 function reset(){Object.assign(state,{query:'',platform:'',genre:'',art:'',series:'',team:'',sort:'recent',limit:24});$('searchGlobal').value='';$('searchMain').value='';$('sortSelect').value='recent';renderAll()}

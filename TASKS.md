@@ -1,11 +1,16 @@
 # Remaining work
 
-Current 2026-10-29 result: 144 cards / 142 groups,
+Current 2026-10-29 result: 196 cards / 194 groups,
+nine sources / 158 exact matches (expanded across 7 feeds: Memory Card TH 41, NONPLAE 11, Monster แปล 33, 90S Game 26, Murphy-TH 9, RetroSpective 7, ROMMEAOW 3);
+added `patchCategory` (`fix_update`, `full_release`, `partial_beta`) and Thai `patchChanges` summaries across all entries, rendered in game cards, chooser/groupPicker, recent updates strip, and search filters.
+Evidence recorded in evidence/2026-10-29/all-teams-expansion.json.
+
+The earlier snapshots below are historical.
+
+Current 2026-10-29 result (earlier batch): 144 cards / 142 groups,
 nine sources / 106 exact matches (Gayray 18/18 matched, Memory Card TH 26/182 matched);
 added Playtime sort option and front-page recent updates banner.
 Evidence recorded in evidence/2026-10-29/reviewed-additions.json.
-
-The earlier snapshot below is historical.
 
 Current 2026-10-17 result: correct repository confirmed, 135 cards / 133 groups,
 nine sources / 566 rows / 97 matches / 469 pending rows; Gayray 15/15.
