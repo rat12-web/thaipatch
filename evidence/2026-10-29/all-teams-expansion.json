@@ -1,15 +1,15 @@
 {
   "checkedAt": "2026-10-29T04:22:00Z",
   "scope": "All-teams catalog expansion and patchCategory/patchChanges implementation across 9 feeds",
-  "totalGamesAdded": 52,
-  "totalCatalogEntries": 196,
+  "totalGamesAdded": 295,
+  "totalCatalogEntries": 439,
   "pass": true,
   "breakdownByTeam": {
     "RetroSpective": 1,
     "รอมเหมียว (ROMMEAOW)": 1,
     "Murphy-TH": 8,
     "Memory Card TH": 15,
-    "นอนแปล (NONPLAE)": 10,
+    "นอนแปล (NONPLAE)": 253,
     "Monster แปล": 9,
     "90S Game": 8
   },

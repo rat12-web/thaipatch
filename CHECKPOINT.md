@@ -1,3 +1,38 @@
+## 2026-10-29 — Complete NONPLAE console catalog integration (254 games), cover fallback hardening, and descriptive changelog UI
+
+Owner: Active Repository Agent (Antigravity); branch `main`.
+
+Catalog: 439 entries / 426 game-platform groups (expanded from 196 entries).
+Added 243 verified console games from นอนแปล (NONPLAE) (`nonplae-012` to `nonplae-254`), bringing นอนแปล to 254 console games (100% of all 16-platform retro console games in the feed; only 3 non-console/PC entries skipped). Total matched records across all feeds reached 401.
+
+Features & Improvements implemented:
+1. Complete นอนแปล (NONPLAE) console coverage:
+   - Full 254 console games across SNES, GBA, PS1, PSP, NDS, GBC, GB, NES, 3DS, PS2 with normalized platforms.
+   - Exact deeplinks (`https://www.nonplae.com/games/[slug]`), patch versions, and verified upstream dates (`patchUpdatedAt`).
+   - Dual-layer `coverAlternatives`: creator-made cover at index 0, official Libretro boxart at index 1.
+2. Cover optimization & fallback verification:
+   - `loading="lazy"` and `decoding="async"` on all card covers.
+   - On image load failure, `mediaFailed` automatically switches to the verified official clean boxart candidate.
+3. Front-page Recent Updates Changelog UI:
+   - Formatted recent updates as explicit, descriptive changelog entries:
+     `วันที่ [D] [ด.อ.] [เวลา] [ทีมแปล] [อัปเดตเกม/อัปเดตแก้ไขเกม] [ชื่อเกม] ([แพลตฟอร์ม]) — [รายละเอียดการแปล/สิ่งที่แก้ไข]`
+   - Expanded recent track from 5 to 8 cards with unclamped 2-line changelogs so text doesn't truncate prematurely.
+
+Verification:
+- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
+- `python .sync/refresh.py`: PASS (401 exact matches; 254/257 nonplae matched)
+- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
+- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
+- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
+- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
+- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed direct click, 0 overflow)
+- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
+
+---
+
 ## 2026-10-29 — All-teams catalog expansion across 9 feeds and patchCategory/patchChanges implementation
 
 Owner: Active Repository Agent (Antigravity); branch `feat/all-teams-and-patch-notes`.
