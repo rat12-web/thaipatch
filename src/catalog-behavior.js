@@ -50,8 +50,8 @@ function renderRecentUpdates(){
  const track=$('recentUpdatesTrack');
  if(!track)return;
  const recent=[...catalog].filter(g=>g.sourceUpdatedAt||g.sourceUploadedAt||g.date).sort((a,b)=>sourceOrderKey(b)-sourceOrderKey(a)).slice(0,8);
- if(!recent.length){track.innerHTML='<span class="empty-update">ไม่มีรายการอัปเดตล่าสุด</span>';return;}
- track.innerHTML=recent.map(g=>{
+ if(!recent.length){track.innerHTML='<p class="empty-update">ไม่มีรายการอัปเดตล่าสุด</p>';return;}
+ track.innerHTML=`<div class="recent-changelog-list">${recent.map(g=>{
   const val=g.sourceUpdatedAt||g.sourceUploadedAt||g.date;
   const d=new Date(verifiedSourceStamp(g)||Date.parse(val));
   const team=g.translatorName||g.source||'';
@@ -64,10 +64,8 @@ function renderRecentUpdates(){
    else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แปลเนื้อเรื่องและบทสนทนา ${ver||''}`.trim();
   }
   const dateStr='วันที่ '+new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(d);
-  const timeNote=g.sourceDateAudit?.rawValue&&g.sourceDateAudit.rawValue.includes(':')?g.sourceDateAudit.rawValue.split(' ')[1]+' น.':'';
-  const whenLabel=`${dateStr}${timeNote?' '+timeNote:''}`;
-  return `<a class="recent-update-card" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer" title="${safe(g.title)} - ${safe(team)}"><span class="update-card-badge">${safe(whenLabel)}</span><div class="update-card-content"><div class="update-card-title"><span class="update-team-name">${safe(team)}</span><span class="update-action-tag ${isFix?'tag-fix':'tag-update'}">${safe(actionText)}</span><strong>${safe(g.title)}</strong><span class="update-pf-tag">${safe(g.platform)}</span></div><div class="update-card-meta"><span class="update-change-icon">${isFix?'🔧':'✨'}</span><span class="update-change" title="${safe(changeText)}">${safe(changeText)}</span></div></div><span class="update-card-arrow" aria-hidden="true">↗</span></a>`;
- }).join('');
+  return `<div class="changelog-row"><a class="changelog-link" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer"><span class="cl-date">${safe(dateStr)}</span> <span class="cl-team">${safe(team)}</span> <span class="cl-action ${isFix?'cl-fix':'cl-update'}">${safe(actionText)}</span> <strong class="cl-title">${safe(g.title)} (${safe(g.platform)})</strong> <span class="cl-sep">—</span> <span class="cl-detail">${safe(changeText)}</span></a></div>`;
+ }).join('')}</div>`;
 }
 function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();metrics()}
 function sourceNote(g){if(g.sourceLocation?.method==='patch_lab')return 'เข้าหน้า Patch Lab โดยตรง ต้นทางตรวจเกมจากไฟล์ ROM ของคุณ หรือเลือกเกมในช่องค้นหา';if(g.sourceLocation?.method==='text_fragment')return 'เปิดตรงตำแหน่ง '+g.title+' ที่ต้นทาง กดปกเกมเพื่อเปิดรายละเอียด/แพตช์';if(g.sourceAudit?.state==='failed_selection'||g.sourceAudit?.state==='default_match_inconclusive')return 'เมื่อถึงเว็บไซต์ 90S Game ให้เลือก '+g.title+' ในช่องเกมก่อนดำเนินการต่อ';if(g.sourceAudit?.state==='directory_only')return 'ลิงก์เปิดคลังของทีมแปล กรุณาเลือกเกมนี้ที่เว็บไซต์ต้นทาง';if(g.sourceAudit?.state==='inferred')return 'ยังไม่ยืนยันหน้าเกมเฉพาะ หากเปิดแล้วไม่ตรงเกม ให้ค้นหาชื่อเกมที่เว็บไซต์ต้นทาง';return ''}

@@ -1,3 +1,38 @@
+## 2026-10-29 — Plain text changelog UI, Nonplae route fix (?game=), full cover recovery, and Facebook team linking
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 439 entries / 426 game-platform groups.
+All 439 covers verified working (zero 'ภาพปกไม่พร้อมใช้งาน'). Nonplae URLs fixed from 404 to HTTP 200 SPA route ?game=[slug].
+
+Features & Improvements implemented:
+1. Plain text changelog UI:
+   - Converted recent updates from boxed card grid into a clean, unboxed changelog list (.recent-changelog-list / .changelog-row).
+   - Format: วันที่ [D] [ด.อ.] [ทีม] [อัปเดตเกม/อัปเดตแก้ไขเกม] [ชื่อเกม] ([แพลตฟอร์ม]) — [รายละเอียดการแปล/สิ่งที่แก้ไข].
+2. Nonplae route fix:
+   - Updated all 254 Nonplae game links to https://www.nonplae.com/?game=[slug], resolving the previous 404 SPA issue.
+3. Box art recovery:
+   - Replaced all 29 broken/unreachable covers (Nongjaa, Murphy, Memory Card TH, Monster แปล, 90S) with verified 200 OK official Libretro box arts and creator assets.
+4. Facebook-only team links:
+   - Linked teams without dedicated websites (แมวดำ แปลเกมส์, แปลไปเล่นไป, น้า_auns555, หนีงานมาแปล, น้องจ๋าแปลที) to their official Facebook announcement pages.
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/test_refresh.py: PASS
+- python .sync/refresh.py --check: PASS
+- 
+ode tools/qa-platform-cards.cjs: PASS (6 views)
+- 
+ode tools/qa-themes.cjs: PASS (6 views)
+- 
+ode tools/qa-source-dates.cjs: PASS (3 views)
+- 
+ode tools/qa-catalog.cjs: PASS (3 views)
+- 
+ode tools/qa-smoke.cjs: PASS (6 views)
+
+---
+
 ## 2026-10-29 — Complete NONPLAE console catalog integration (254 games), cover fallback hardening, and descriptive changelog UI
 
 Owner: Active Repository Agent (Antigravity); branch `main`.

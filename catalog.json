@@ -3607,7 +3607,7 @@
     "creditRole": "ชื่อทีมเว็บไซต์",
     "creditStatus": "publisher_only",
     "creditEvidence": "https://www.nonplae.com/",
-    "url": "https://www.nonplae.com/?game=final-fantasy-tactics",
+    "url": "https://www.nonplae.com/?game=bd31dadb334a312e",
     "linkScope": "owner_game",
     "navigationNote": "",
     "sourceAudit": {
@@ -6071,7 +6071,7 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://andaplus.com/games/index.php/thai-game-patches?catid=475&id=5749%3Ainitial-d-another-stage-thai-patch&view=article",
-    "url": "https://plae-pai-len-pai.regal-wolf-0754.chatgpt.site/games/18",
+    "url": "https://www.facebook.com/plaipailenpai",
     "linkScope": "owner_game",
     "navigationNote": "",
     "sourceAudit": {
@@ -6161,7 +6161,7 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://andaplus.com/games/index.php/thai-game-patches?catid=475&id=5669%3A%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%97%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%9A%E0%B8%99%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-sfc-%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E-dragon-quest-iii-%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B8%94%E0%B8%B3-%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AA%E0%B9%8C&view=article",
-    "url": "https://maewdamthaisub.aechankiminoto.chatgpt.site/#games:~:text=Dragon%20Quest%20III",
+    "url": "https://www.facebook.com/maewdamthaisub",
     "linkScope": "owner_game_card",
     "navigationNote": "",
     "sourceAudit": {
@@ -6348,8 +6348,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ffatal_frame_2%2Fcover.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ffatal_frame_2%2Fcover.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Fatal%20Frame%20II%20-%20Crimson%20Butterfly%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Fatal%20Frame%20II%20-%20Crimson%20Butterfly%20%28USA%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6375,10 +6375,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ffatal_frame_2%2Fcover.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Fatal%20Frame%20II%20-%20Crimson%20Butterfly%20%28USA%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -6427,8 +6427,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome_2%2Fcover.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome_2%2Fcover.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei-hen%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei-hen%20%28Japan%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6454,10 +6454,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome_2%2Fcover.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei-hen%20%28Japan%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -6506,8 +6506,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_zero4-champ-rr%2Fcover.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_zero4-champ-rr%2Fcover.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Zero%204%20Champ%20RR%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Zero%204%20Champ%20RR%20%28Japan%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6533,10 +6533,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_zero4-champ-rr%2Fcover.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Zero%204%20Champ%20RR%20%28Japan%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -6585,8 +6585,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_nage_libre%2Fcover.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_nage_libre%2Fcover.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Nage%20Libre%20-%20Seijaku%20no%20Suishin%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Nage%20Libre%20-%20Seijaku%20no%20Suishin%20%28Japan%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6612,10 +6612,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_nage_libre%2Fcover.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Nage%20Libre%20-%20Seijaku%20no%20Suishin%20%28Japan%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -6743,8 +6743,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_front_mission%2Fcover.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_front_mission%2Fcover.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Front%20Mission%20%28Japan%29%20%28Rev%201%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Front%20Mission%20%28Japan%29%20%28Rev%201%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6770,10 +6770,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fsfc_front_mission%2Fcover.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Front%20Mission%20%28Japan%29%20%28Rev%201%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -6822,8 +6822,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fghost_head%2Fghost-head.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fghost_head%2Fghost-head.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Clock%20Tower%20-%20Ghost%20Head%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Clock%20Tower%20-%20Ghost%20Head%20%28Japan%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6849,10 +6849,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Fghost_head%2Fghost-head.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Clock%20Tower%20-%20Ghost%20Head%20%28Japan%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -6901,8 +6901,8 @@
       "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
       "fresh": false
     },
-    "cover": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome%2Ftwilight_syndrome_cover.webp&w=828&q=80",
-    "coverCandidateUrl": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome%2Ftwilight_syndrome_cover.webp&w=828&q=80",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku-hen%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku-hen%20%28Japan%29.png",
     "coverSource": "น้องจ๋าแปลที - game cover image",
     "imageCredit": "น้องจ๋าแปลที - game cover image",
     "coverAudit": {
@@ -6928,10 +6928,10 @@
     "catalogAddedAt": "2026-10-11",
     "coverAlternatives": [
       {
-        "url": "https://nongjaa.vercel.app/_next/image?url=%2Fgames%2Ftwilight_syndrome%2Ftwilight_syndrome_cover.webp&w=828&q=80",
-        "kind": "creator_made",
-        "source": "น้องจ๋าแปลที - game cover image",
-        "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/COVER_PRIORITY_AUDIT_v0.29.csv",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku-hen%20%28Japan%29.png",
+        "kind": "official_art_candidate",
+        "source": "Official Box Art",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -8155,7 +8155,7 @@
     "creditRole": "ทีมแปล/ผู้จัดทำแพตช์",
     "creditStatus": "source_page_confirmed",
     "creditEvidence": "https://plae-pai-len-pai.regal-wolf-0754.chatgpt.site/games/1",
-    "url": "https://plae-pai-len-pai.regal-wolf-0754.chatgpt.site/games/1",
+    "url": "https://www.facebook.com/plaipailenpai",
     "linkScope": "owner_game",
     "navigationNote": "หน้าเกม/แพตช์ต้นฉบับที่ตรวจสอบแล้ว",
     "sourceAudit": {
@@ -13352,8 +13352,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei%20Hen%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei%20Hen%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei-hen%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei-hen%20%28Japan%29.png",
     "coverSource": "Murphy-TH",
     "imageCredit": "Murphy-TH",
     "coverLabel": "",
@@ -13385,9 +13385,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei%20Hen%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Kyuumei-hen%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -13439,8 +13439,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku%20Hen%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku%20Hen%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku-hen%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku-hen%20%28Japan%29.png",
     "coverSource": "Murphy-TH",
     "imageCredit": "Murphy-TH",
     "coverLabel": "",
@@ -13472,9 +13472,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku%20Hen%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Twilight%20Syndrome%20-%20Tansaku-hen%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -13874,8 +13874,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Boku%20no%20Natsuyasumi%204%20-%20Seitouchi%20Shounen%20Tanteidan%2C%20Boku%20to%20Himitsu%20no%20Chizu%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Boku%20no%20Natsuyasumi%204%20-%20Seitouchi%20Shounen%20Tanteidan%2C%20Boku%20to%20Himitsu%20no%20Chizu%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Boku%20no%20Natsuyasumi%204%20-%20Setouchi%20Shounen%20Tanteidan%20-%20Boku%20to%20Himitsu%20no%20Chizu%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Boku%20no%20Natsuyasumi%204%20-%20Setouchi%20Shounen%20Tanteidan%20-%20Boku%20to%20Himitsu%20no%20Chizu%20%28Japan%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -13907,9 +13907,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Boku%20no%20Natsuyasumi%204%20-%20Seitouchi%20Shounen%20Tanteidan%2C%20Boku%20to%20Himitsu%20no%20Chizu%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Boku%20no%20Natsuyasumi%204%20-%20Setouchi%20Shounen%20Tanteidan%20-%20Boku%20to%20Himitsu%20no%20Chizu%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -13961,8 +13961,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Hajime%20no%20Ippo%20Portable%20-%20Victorious%20Spirits%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Hajime%20no%20Ippo%20Portable%20-%20Victorious%20Spirits%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Snaps/Hajime%20no%20Ippo%20Portable%20-%20Victorious%20Spirits%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Snaps/Hajime%20no%20Ippo%20Portable%20-%20Victorious%20Spirits%20%28Japan%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -13994,9 +13994,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Hajime%20no%20Ippo%20Portable%20-%20Victorious%20Spirits%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Snaps/Hajime%20no%20Ippo%20Portable%20-%20Victorious%20Spirits%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -14048,8 +14048,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Disney-Pixar%20Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Disney-Pixar%20Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -14081,9 +14081,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Disney-Pixar%20Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -14135,8 +14135,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29.png",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -14168,9 +14168,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29.png",
+        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Black%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -14222,8 +14222,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29.png",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -14255,9 +14255,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29.png",
+        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20White%20Version%202%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -14309,8 +14309,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Manpuku%21%21%20Nabe%20Kazoku%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Manpuku%21%21%20Nabe%20Kazoku%20%28Japan%29.png",
+    "cover": "https://memorycardth.com/dl/covers/manpuku_nabe.jpg",
+    "coverCandidateUrl": "https://memorycardth.com/dl/covers/manpuku_nabe.jpg",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -14342,9 +14342,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Manpuku%21%21%20Nabe%20Kazoku%20%28Japan%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://memorycardth.com/dl/covers/manpuku_nabe.jpg",
+        "kind": "creator_made",
+        "source": "Memory Card TH",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -14831,8 +14831,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20Z%20-%20Idainaru%20Dragon%20Ball%20Densetsu%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20Z%20-%20Idainaru%20Dragon%20Ball%20Densetsu%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20Z%20-%20Ultimate%20Battle%2022%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20Z%20-%20Ultimate%20Battle%2022%20%28Japan%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -14864,9 +14864,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20Z%20-%20Idainaru%20Dragon%20Ball%20Densetsu%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Ball%20Z%20-%20Ultimate%20Battle%2022%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -14918,8 +14918,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ultraman%20Fighting%20Evolution%203%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ultraman%20Fighting%20Evolution%203%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ultraman%20-%20Fighting%20Evolution%203%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ultraman%20-%20Fighting%20Evolution%203%20%28Japan%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -14951,9 +14951,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ultraman%20Fighting%20Evolution%203%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Ultraman%20-%20Fighting%20Evolution%203%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -15005,8 +15005,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Shonen%20Jump%27s%20One%20Piece%20%28USA%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Shonen%20Jump%27s%20One%20Piece%20%28USA%29.png",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/One%20Piece%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/One%20Piece%20%28USA%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -15038,9 +15038,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Shonen%20Jump%27s%20One%20Piece%20%28USA%29.png",
+        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/One%20Piece%20%28USA%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -15092,8 +15092,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20V%20%28Japan%29.png",
-    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20V%20%28Japan%29.png",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20Anthology%20-%20Final%20Fantasy%20V%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20Anthology%20-%20Final%20Fantasy%20V%20%28USA%29.png",
     "coverSource": "Memory Card TH",
     "imageCredit": "Memory Card TH",
     "coverLabel": "",
@@ -15125,9 +15125,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20V%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20Anthology%20-%20Final%20Fantasy%20V%20%28USA%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -15160,7 +15160,7 @@
     "description": "โทคิเดน คิวะมิ ล่าอสูรปีศาจ แปลเนื้อเรื่องหลักและเนื้อเรื่อง Kiwami บทสนทนา NPC และภารกิจเป็นไทย",
     "genre": "Action RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/toukiden-kiwami",
+    "url": "https://www.nonplae.com/?game=toukiden-kiwami",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15212,6 +15212,13 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://www.nonplae.com/api/media/patch-0a8ae269-f714-4158-9fd5-4f9f51d852a5.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
+      {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Toukiden%20Kiwami%20%28Europe%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -15247,7 +15254,7 @@
     "description": "แกรนด์ไนท์ ฮิสทรี จัดทัพอัศวินชิงดินแดน แปลเนื้อเรื่อง บทสนทนา ภารกิจ และระบบต่อสู้เป็นไทย",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/grand-knight",
+    "url": "https://www.nonplae.com/?game=grand-knight",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15266,8 +15273,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-cfc6c8f2-8c1d-450f-a496-ec619ca2ee91.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-cfc6c8f2-8c1d-450f-a496-ec619ca2ee91.png",
+    "cover": "https://www.nonplae.com/api/media/patch-d1852ea7-01cf-4ebf-b234-d75e54afdefa.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-d1852ea7-01cf-4ebf-b234-d75e54afdefa.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15298,6 +15305,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-d1852ea7-01cf-4ebf-b234-d75e54afdefa.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Knights%20History%20%28Japan%29.png",
         "kind": "official_art_candidate",
@@ -15334,7 +15348,7 @@
     "description": "นีดฟอร์สปีด มอสท์วอนเต็ด ซิ่งหนีตำรวจไต่อันดับแบล็คลิสต์ แปลเมนูและหน้าจอคำสั่งภาษาไทย",
     "genre": "Racing",
     "series": "Need for Speed",
-    "url": "https://www.nonplae.com/games/need-for-speed-most-wanted-5-1-0",
+    "url": "https://www.nonplae.com/?game=need-for-speed-most-wanted-5-1-0",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15353,8 +15367,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-f6b957e8-dcbe-4b95-bd42-fca7ce7ea3e2.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-f6b957e8-dcbe-4b95-bd42-fca7ce7ea3e2.png",
+    "cover": "https://www.nonplae.com/api/media/patch-dc218aa8-9fba-48eb-98a7-e2950a55342e.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-dc218aa8-9fba-48eb-98a7-e2950a55342e.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15385,6 +15399,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-dc218aa8-9fba-48eb-98a7-e2950a55342e.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Need%20for%20Speed%20-%20Most%20Wanted%205-1-0%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15421,7 +15442,7 @@
     "description": "โปเกมอน ร็อกเก็ต เอดิชั่น สวมบทบาทลูกสมุนแก๊งร็อกเก็ต แปลบทพูดเนื้อเรื่อง ภารกิจ และเมนูภาษาไทย",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-rocket-edition",
+    "url": "https://www.nonplae.com/?game=pokemon-rocket-edition",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15440,8 +15461,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-a066be52-da73-455b-b9f4-ebfa1fe203f5.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-a066be52-da73-455b-b9f4-ebfa1fe203f5.png",
+    "cover": "https://www.nonplae.com/api/media/patch-ff6fd5a2-02cf-4807-af3a-8918edbcb283.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-ff6fd5a2-02cf-4807-af3a-8918edbcb283.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15472,6 +15493,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-ff6fd5a2-02cf-4807-af3a-8918edbcb283.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20FireRed%20Version%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15508,7 +15536,7 @@
     "description": "ยูกิโอ GX แท็กฟอร์ซ 2 ดูเอลการ์ดจับคู่แท็กทีม แปลบทสนทนาเนื้อเรื่องและคำอธิบายเอฟเฟกต์การ์ด",
     "genre": "Card Battle",
     "series": "Yu-Gi-Oh!",
-    "url": "https://www.nonplae.com/games/yugioh-gx-tag-force-2",
+    "url": "https://www.nonplae.com/?game=yugioh-gx-tag-force-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15527,8 +15555,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-2c6dcf38-8fa1-4a11-a887-f82725fa820a.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-2c6dcf38-8fa1-4a11-a887-f82725fa820a.png",
+    "cover": "https://www.nonplae.com/api/media/patch-1d2835e3-30f8-4dea-8858-fba7951cbbd5.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-1d2835e3-30f8-4dea-8858-fba7951cbbd5.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15559,6 +15587,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-1d2835e3-30f8-4dea-8858-fba7951cbbd5.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Yu-Gi-Oh%21%20GX%20Tag%20Force%202%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15595,7 +15630,7 @@
     "description": "โปเกมอน เล็ตส์โกพิคาชู ฉบับรีเมกบน GBA แปลบทพูดเนื้อเรื่อง เมนู คำอธิบายไอเทม และสกิล",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-lets-go-pikachu",
+    "url": "https://www.nonplae.com/?game=pokemon-lets-go-pikachu",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15614,8 +15649,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-7eef9805-d5c2-430f-bceb-baea327915ae.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-7eef9805-d5c2-430f-bceb-baea327915ae.png",
+    "cover": "https://www.nonplae.com/api/media/patch-be0a827e-b869-437b-a78f-7e9e30c2e368.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-be0a827e-b869-437b-a78f-7e9e30c2e368.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15646,6 +15681,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-be0a827e-b869-437b-a78f-7e9e30c2e368.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20FireRed%20Version%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15682,7 +15724,7 @@
     "description": "เบรธ ออฟ ไฟร์ 3 การเดินทางของริวมังกรหนุ่ม แปลเนื้อเรื่อง บทสนทนา ไอเทม สกิล และเมนูภาษาไทย",
     "genre": "RPG",
     "series": "Breath of Fire",
-    "url": "https://www.nonplae.com/games/breath-of-fire-iii",
+    "url": "https://www.nonplae.com/?game=breath-of-fire-iii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15701,8 +15743,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-d1f855a8-208b-4a57-b08e-59b5d3839215.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-d1f855a8-208b-4a57-b08e-59b5d3839215.png",
+    "cover": "https://www.nonplae.com/covers/bof3-ps1-nonplae-cover.webp",
+    "coverCandidateUrl": "https://www.nonplae.com/covers/bof3-ps1-nonplae-cover.webp",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15733,6 +15775,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/covers/bof3-ps1-nonplae-cover.webp",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Breath%20of%20Fire%20III%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15769,7 +15818,7 @@
     "description": "คุโรเฮียว 2 ยากูซ่าแห่งคามุโรโจ แปลเนื้อเรื่องหลัก บทสนทนา และซับไตเติลคัตซีนภาษาไทยเข้มข้น",
     "genre": "Action Adventure",
     "series": "Yakuza",
-    "url": "https://www.nonplae.com/games/kurohyou-2-ryuu-ga-gotoku-ashura-hen",
+    "url": "https://www.nonplae.com/?game=kurohyou-2-ryuu-ga-gotoku-ashura-hen",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15788,8 +15837,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-a0352ef2-c0e8-46eb-a9c0-ea4f02fa5bc4.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-a0352ef2-c0e8-46eb-a9c0-ea4f02fa5bc4.png",
+    "cover": "https://www.nonplae.com/api/media/patch-90a984f3-1040-4890-8cf0-15bf9c02526a.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-90a984f3-1040-4890-8cf0-15bf9c02526a.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15820,6 +15869,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-90a984f3-1040-4890-8cf0-15bf9c02526a.png",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Kurohyou%202%20-%20Ryuu%20ga%20Gotoku%20Ashura%20Hen%20%28Japan%29.png",
         "kind": "official_art_candidate",
@@ -15856,7 +15912,7 @@
     "description": "บัลดรูส์เกต ดาร์กอัลไลแอนซ์ แอ็กชัน RPG ตะลุยดันเจี้ยน แปลบทพูด 1,172 รายการ และเมนูภาษาไทย",
     "genre": "Action RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/baldurs-gate-dark-alliance",
+    "url": "https://www.nonplae.com/?game=baldurs-gate-dark-alliance",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15875,8 +15931,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-2c262117-9150-482a-bc3e-001d2a1389aa.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-2c262117-9150-482a-bc3e-001d2a1389aa.png",
+    "cover": "https://www.nonplae.com/covers/baldurs-gate-dark-alliance-nonplae-cover.webp",
+    "coverCandidateUrl": "https://www.nonplae.com/covers/baldurs-gate-dark-alliance-nonplae-cover.webp",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15907,6 +15963,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/covers/baldurs-gate-dark-alliance-nonplae-cover.webp",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Baldur%27s%20Gate%20-%20Dark%20Alliance%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15943,7 +16006,7 @@
     "description": "เดอะซิมส์ 2 ฉบับสแตรนด์วิลล์บน GBA แปลบทพูดตัวละคร เควสต์รายการทีวี และปฏิสัมพันธ์ภาษาไทย",
     "genre": "Simulation",
     "series": "The Sims",
-    "url": "https://www.nonplae.com/games/the-sims-2-gba",
+    "url": "https://www.nonplae.com/?game=the-sims-2-gba",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -15962,8 +16025,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://www.nonplae.com/api/media/patch-07eebfe3-ee10-4e39-95a9-0822646279f0.png",
-    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-07eebfe3-ee10-4e39-95a9-0822646279f0.png",
+    "cover": "https://www.nonplae.com/covers/the-sims-2-gba-nonplae-cover.webp",
+    "coverCandidateUrl": "https://www.nonplae.com/covers/the-sims-2-gba-nonplae-cover.webp",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverLabel": "",
@@ -15994,6 +16057,13 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/covers/the-sims-2-gba-nonplae-cover.webp",
+        "kind": "creator_made",
+        "source": "นอนแปล (NONPLAE)",
+        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/The%20Sims%202%20%28USA%2C%20Europe%29.png",
         "kind": "official_art_candidate",
@@ -16049,8 +16119,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-sengoku-basara-2-heroes.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-sengoku-basara-2-heroes.jpg",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Sengoku%20Basara%202%20-%20Heroes%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Sengoku%20Basara%202%20-%20Heroes%20%28Japan%29.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16082,9 +16152,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Sengoku%20Basara%202%20Heroes%20%28Japan%29.png",
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Sengoku%20Basara%202%20-%20Heroes%20%28Japan%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16136,8 +16206,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-fire-emblem-path-of-radiance.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-fire-emblem-path-of-radiance.jpg",
+    "cover": "https://monster-plae.pages.dev/patches/images/fire-emblem-path-of-radiance.png",
+    "coverCandidateUrl": "https://monster-plae.pages.dev/patches/images/fire-emblem-path-of-radiance.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16169,9 +16239,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Fire%20Emblem%20-%20Path%20of%20Radiance%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://monster-plae.pages.dev/patches/images/fire-emblem-path-of-radiance.png",
+        "kind": "creator_made",
+        "source": "Monster แปล",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16223,8 +16293,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-persona-3-portable.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-persona-3-portable.jpg",
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%203%20Portable%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%203%20Portable%20%28USA%29.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16258,7 +16328,7 @@
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%203%20Portable%20%28USA%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16310,8 +16380,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-monster-hunter-freedom-unite.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-monster-hunter-freedom-unite.jpg",
+    "cover": "https://monster-plae.pages.dev/patches/images/monster-hunter-freedom-unite.png",
+    "coverCandidateUrl": "https://monster-plae.pages.dev/patches/images/monster-hunter-freedom-unite.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16343,9 +16413,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Monster%20Hunter%20Freedom%20Unite%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://monster-plae.pages.dev/patches/images/monster-hunter-freedom-unite.png",
+        "kind": "creator_made",
+        "source": "Monster แปล",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16397,8 +16467,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-monster-hunter-double-cross.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-monster-hunter-double-cross.jpg",
+    "cover": "https://monster-plae.pages.dev/patches/images/monster-hunter-double-cross.png",
+    "coverCandidateUrl": "https://monster-plae.pages.dev/patches/images/monster-hunter-double-cross.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16430,9 +16500,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Monster%20Hunter%20Double%20Cross%20%28Japan%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://monster-plae.pages.dev/patches/images/monster-hunter-double-cross.png",
+        "kind": "creator_made",
+        "source": "Monster แปล",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16484,8 +16554,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-fire-emblem-new-mystery-of-the-emblem.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-fire-emblem-new-mystery-of-the-emblem.jpg",
+    "cover": "https://monster-plae.pages.dev/patches/images/fire-emblem-new-mystery.png",
+    "coverCandidateUrl": "https://monster-plae.pages.dev/patches/images/fire-emblem-new-mystery.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16517,9 +16587,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Fire%20Emblem%20-%20Shin%20Monshou%20no%20Nazo%20-%20Hikari%20to%20Kage%20no%20Eiyuu%20%28Japan%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://monster-plae.pages.dev/patches/images/fire-emblem-new-mystery.png",
+        "kind": "creator_made",
+        "source": "Monster แปล",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16571,8 +16641,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-fire-emblem-shadow-dragon.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-fire-emblem-shadow-dragon.jpg",
+    "cover": "https://monster-plae.pages.dev/patches/images/fire-emblem-shadow-dragon.png",
+    "coverCandidateUrl": "https://monster-plae.pages.dev/patches/images/fire-emblem-shadow-dragon.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16604,9 +16674,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Fire%20Emblem%20-%20Shadow%20Dragon%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://monster-plae.pages.dev/patches/images/fire-emblem-shadow-dragon.png",
+        "kind": "creator_made",
+        "source": "Monster แปล",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16658,8 +16728,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-monster-hunter-4-ultimate.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-monster-hunter-4-ultimate.jpg",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Monster%20Hunter%204%20Ultimate%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Monster%20Hunter%204%20Ultimate%20%28USA%29.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16693,7 +16763,7 @@
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Monster%20Hunter%204%20Ultimate%20%28USA%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -16745,8 +16815,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://monster-plae.pages.dev/api/download/cover-pokemon-xd-gale-of-darkness.jpg",
-    "coverCandidateUrl": "https://monster-plae.pages.dev/api/download/cover-pokemon-xd-gale-of-darkness.jpg",
+    "cover": "https://monster-plae.pages.dev/patches/images/pokemon-xd-gale-of-darkness.png",
+    "coverCandidateUrl": "https://monster-plae.pages.dev/patches/images/pokemon-xd-gale-of-darkness.png",
     "coverSource": "Monster แปล",
     "imageCredit": "Monster แปล",
     "coverLabel": "",
@@ -16778,9 +16848,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pokemon%20XD%20-%20Gale%20of%20Darkness%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "url": "https://monster-plae.pages.dev/patches/images/pokemon-xd-gale-of-darkness.png",
+        "kind": "creator_made",
+        "source": "Monster แปล",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -17354,8 +17424,8 @@
       "checkedAt": "2026-10-29T02:30:00Z",
       "evidence": "evidence/2026-10-29/all-teams-expansion.json"
     },
-    "cover": "https://90s-game.pitak2540.workers.dev/covers/street-fighter-alpha-3.png",
-    "coverCandidateUrl": "https://90s-game.pitak2540.workers.dev/covers/street-fighter-alpha-3.png",
+    "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Street%20Fighter%20Alpha%203%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Street%20Fighter%20Alpha%203%20%28USA%29.png",
     "coverSource": "90S Game",
     "imageCredit": "90S Game",
     "coverLabel": "",
@@ -17389,7 +17459,7 @@
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Street%20Fighter%20Alpha%203%20%28USA%29.png",
         "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
+        "source": "Official Box Art",
         "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
@@ -17509,7 +17579,7 @@
     "description": "Dragon Quest & Final Fantasy in Itadaki Street Portable รายละเอียดแปล - แก้อาการเปิดเกมแล้วเครื่องดับบน PSP จริง (ผู้ใช้ยืนยัน PSP-3000 / 6.61 ARK) - รองรับ ISO",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/itadaki-street-portable",
+    "url": "https://www.nonplae.com/?game=itadaki-street-portable",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -17603,7 +17673,7 @@
     "description": "Pokémon Emerald (Nintendo DS) รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - ตัวเลือก คำถาม และเมนูข้อความพื้นฐาน - ข้อความระบบต่อสู้ จับ Pokémon และตั้งชื่อ - ข้อความ",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-emerald-nds",
+    "url": "https://www.nonplae.com/?game=pokemon-emerald-nds",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -17697,7 +17767,7 @@
     "description": "Final Fantasy IX — V1.1 รายละเอียดอัปเดต V1.1 - Chocobo Hot & Cold แผ่น 1–4: แยกข้อความเสียงร้องพร้อมคำบอกระยะ ไม่พบ / ไกล / ใกล้ / เจอแล้ว - ปรับคู่มือมินิเกมใ",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-ix",
+    "url": "https://www.nonplae.com/?game=final-fantasy-ix",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -17791,7 +17861,7 @@
     "description": "Warera Mitsurin Tankentai!! รายละเอียดแปล - บทสนทนา จดหมาย เนื้อเรื่องและเหตุการณ์ - บทสอนเล่นและคู่มือในเกม - เมนูและข้อความเลือกสมาชิกทีม - หน้าตั้งชื่อและตาร",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/warera-mitsurin-tankentai",
+    "url": "https://www.nonplae.com/?game=warera-mitsurin-tankentai",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -17885,7 +17955,7 @@
     "description": "Zill Oll Infinite Plus รายละเอียดแปล - เนื้อเรื่อง บทสนทนา ฉากเริ่มต้น และคัตซีน - ตัวเลือกบทสนทนา เมนูหน้าแรก และเมนูต่อสู้ - ข้อความระบบ ป๊อปอัป และคำแนะนำ -",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/zill-oll-infinite-plus",
+    "url": "https://www.nonplae.com/?game=zill-oll-infinite-plus",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -17979,7 +18049,7 @@
     "description": "Beyblade G-Revolution ภาษาไทย NONPLAE V1.0 แปลบทสนทนา ตัวเลือก เมนู รายการอุปกรณ์ ชิ้นส่วน",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/beyblade-g-revolution",
+    "url": "https://www.nonplae.com/?game=beyblade-g-revolution",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18073,7 +18143,7 @@
     "description": "Advance Wars ภาษาไทย NONPLAE V1.0 แปลบทสนทนา คำแนะนำ ตัวเลือก และข้อความระบบ พร้อมฟอนต์ไทยและเครดิต TH BY NONPLAE ตรวจชุดข้อความ 2,743 รายการ แปลไทย 2,658 รายกา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/advance-wars",
+    "url": "https://www.nonplae.com/?game=advance-wars",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18167,7 +18237,7 @@
     "description": "Fire Emblem Tordo Revolution — TH Nonplae Version 1.0 | Super Famicom / SNES  รายละเอียดการแปล • บทสนทนาและเนื้อเรื่องภาษาไทย ตามเรื่องราวของ Tordo Revolution •",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-tordo-revolution",
+    "url": "https://www.nonplae.com/?game=fire-emblem-tordo-revolution",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18261,7 +18331,7 @@
     "description": "Story of Seasons - Trio of Towns รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — Nintendo 3DS ใช้ต้นฉบับ Europe (.3ds) ที่ระบุ และสำรองเซฟก่อนใช้งาน",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/story-of-seasons-trio-of-towns",
+    "url": "https://www.nonplae.com/?game=story-of-seasons-trio-of-towns",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18355,7 +18425,7 @@
     "description": "Star Wars Episode III: Revenge of the Sith ภาษาไทย NONPLAE V1.0",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/star-wars-episode-iii-revenge-of-the-sith",
+    "url": "https://www.nonplae.com/?game=star-wars-episode-iii-revenge-of-the-sith",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18449,7 +18519,7 @@
     "description": "Bokura wa Kaseki Holder Cr.Tarep - บทพูด เมนู ชื่อและคำอธิบาย ภาพเมนูและฟอนต์ไทย Version 1.0 — Nintendo DS",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bokura-wa-kaseki-holder",
+    "url": "https://www.nonplae.com/?game=bokura-wa-kaseki-holder",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18543,7 +18613,7 @@
     "description": "Super Robot Taisen F Final (Kanketsu-hen) รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — PlayStation ใช้ Japan ต้นฉบับ เลือก BIN ทั้ง 2 แทร็กพร้อมกัน หรื",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-f-final",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-f-final",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18637,7 +18707,7 @@
     "description": "Super Robot Taisen F รายละเอียดแปล ✅ แปลเนื้อเรื่อง-บทสนทนา  ✅ แปลชื่อคน , หุ่น , ชื่อท่าภาษาไทย  ✅ แปลรายละเอียดไอเทม , พลังจิต ✅ แปลเมนูหลักๆบางส่วน Version 1",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-f",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-f",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18731,7 +18801,7 @@
     "description": "Castlevania: Symphony of the Night รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — PlayStation ใช้ USA ต้นฉบับ เลือก BIN ทั้ง 2 แทร็กพร้อมกัน หรือ ZIP ที่",
     "genre": "Action",
     "series": "Castlevania",
-    "url": "https://www.nonplae.com/games/castlevania-symphony-of-the-night",
+    "url": "https://www.nonplae.com/?game=castlevania-symphony-of-the-night",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18825,7 +18895,7 @@
     "description": "Harvest Moon: Back to Nature ภาษาไทย  MOD ใหม่จาก Kucing NPC มีอะไรน่าสนใจ? - 🐎 ขี่ม้าออกนอกฟาร์มได้ ไม่จำกัดแค่พื้นที่ฟาร์ม - 💦 สปริงเกอร์รดน้ำอัตโนมัติ อัปเกร",
     "genre": "Adventure",
     "series": "Harvest Moon",
-    "url": "https://www.nonplae.com/games/harvest-moon-back-to-nature-mod",
+    "url": "https://www.nonplae.com/?game=harvest-moon-back-to-nature-mod",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -18919,7 +18989,7 @@
     "description": "Umi no Nushi-tsuri - Takarajima ni Mukatte รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — PlayStation ใช้ BIN ญี่ปุ่นต้นฉบับ หรือ ZIP/RAR ที่มี BIN ผลลัพ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/umi-no-nushi-tsuri-ps1",
+    "url": "https://www.nonplae.com/?game=umi-no-nushi-tsuri-ps1",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19013,7 +19083,7 @@
     "description": "Breath of Fire II รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.1 — Super Nintendo อัปเดตจากไฟล์แพตช์ที่ผู้แปลส่งล่าสุด ตรวจสอบผลลัพธ์ตรงต้นฉบับแพตช์และทดสอ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/breath-of-fire-ii-snes",
+    "url": "https://www.nonplae.com/?game=breath-of-fire-ii-snes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19107,7 +19177,7 @@
     "description": "Langrisser V รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — PlayStation ใช้ต้นฉบับ Disc 2 (Langrisser V Disc) เลือก ZIP ที่มี BIN ครบ 4 แทร็ก หรือเลือก B",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/langrisser-v",
+    "url": "https://www.nonplae.com/?game=langrisser-v",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19201,7 +19271,7 @@
     "description": "Captain Tsubasa ภาษาไทย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/captain-tsubasa-nes",
+    "url": "https://www.nonplae.com/?game=captain-tsubasa-nes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19295,7 +19365,7 @@
     "description": "Langrisser IV รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/langrisser-iv",
+    "url": "https://www.nonplae.com/?game=langrisser-iv",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19389,7 +19459,7 @@
     "description": "Crystalis ภาษาไทย NONPLAE V1.0 เดโม — NES รุ่น USA แปลบทสนทนา 511 จุดอ้างอิง ชื่อไอเทม/เวท 73 รายการ ฉากเปิด 9 แผง เมนูสถานะ ร้านค้าและข้อความเซฟ/โหลด เพิ่มเครด",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/crystalis-nes-th",
+    "url": "https://www.nonplae.com/?game=crystalis-nes-th",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19483,7 +19553,7 @@
     "description": "Bio Senshi Dan ภาษาไทย NONPLAE V1.0 เดโม — Famicom / NES ญี่ปุ่น แปล 87 ระเบียนจากตาราง 118 ระเบียน คงช่องสำรองคานะหนึ่งตัว 14 รายการและข้อมูลควบคุม 17 รายการ แ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bio-senshi-dan",
+    "url": "https://www.nonplae.com/?game=bio-senshi-dan",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19577,7 +19647,7 @@
     "description": "Getsu Fuuma Den ภาษาไทย NONPLAE — Famicom / NES ญี่ปุ่น แปลบทสนทนา 148 รายการ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/getsu-fuuma-den",
+    "url": "https://www.nonplae.com/?game=getsu-fuuma-den",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19671,7 +19741,7 @@
     "description": "Final Fantasy VI T-Edition ภาษาไทย NONPLAE V1.1 — SNES แก้บัฟเฟอร์คำอธิบายล้นที่ทำให้เมนูของขลัง/จัดอุปกรณ์เป็นช่องดำหรือตัวอักษรเพี้ยน และราคาซื้อของผิด ปรับคำ",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-vi-t-edition",
+    "url": "https://www.nonplae.com/?game=final-fantasy-vi-t-edition",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19765,7 +19835,7 @@
     "description": "Romancing Sa-Ga ภาษาไทย V1.1  SNES / Super Famicom",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/romancing-saga-sfc",
+    "url": "https://www.nonplae.com/?game=romancing-saga-sfc",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19859,7 +19929,7 @@
     "description": "Ninja Gaiden Trilogy ภาษาไทย V1.0 เดโม — SNES USA รวมเนื้อเรื่องสามภาค 145 รายการ 525 หน้า พร้อมฟอนต์ไทยและเครดิต TH BY NONPLAE คงภาพต้นฉบับ ทดสอบเริ่มเกม เดิน",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/ninja-gaiden-trilogy-snes",
+    "url": "https://www.nonplae.com/?game=ninja-gaiden-trilogy-snes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -19953,7 +20023,7 @@
     "description": "Ninja Gaiden ภาษาไทย  แปลบทเนื้อเรื่อง 113 บล็อก พร้อมฟอนต์ไทยและเครดิต TH BY NONPLAE คงภาพต้นฉบับ ตรวจข้อความ 172 หน้า",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/ninja-gaiden-nes",
+    "url": "https://www.nonplae.com/?game=ninja-gaiden-nes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20047,7 +20117,7 @@
     "description": "SD Gundam G Generation Advance ภาษาไทย NONPLAE V1.2 — Game Boy Advance อัปเดตแพตช์ SDGGA-TH-r14 ตามไฟล์ที่ผู้ใช้ส่ง ตรวจโครงสร้างแพตช์และ checksum ของหน้าต่างผล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/sd-gundam-g-generation-advance",
+    "url": "https://www.nonplae.com/?game=sd-gundam-g-generation-advance",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20141,7 +20211,7 @@
     "description": "Umi no Nushi Tsuri ภาษาไทย V1.0 เดโม — Super Famicom ญี่ปุ่น Rev 1 ผจญภัยตกปลาทะเล พร้อมบทสนทนา เมนู ร้านค้า สมุดปลาและการเขียนข้อความภาษาไทย แปลข้อความหลัก 635",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/umi-no-nushi-tsuri",
+    "url": "https://www.nonplae.com/?game=umi-no-nushi-tsuri",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20235,7 +20305,7 @@
     "description": "Kawa no Nushi Tsuri 2 ภาษาไทย V1.0 เดโม — Super Famicom ญี่ปุ่น ผจญภัยตกปลา สำรวจแม่น้ำและหมู่บ้าน พร้อมบทสนทนา สมุดปลา แผนที่และเมนูภาษาไทย แปลข้อความหลัก 531",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/kawa-no-nushi-tsuri-2",
+    "url": "https://www.nonplae.com/?game=kawa-no-nushi-tsuri-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20329,7 +20399,7 @@
     "description": "Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel ภาษาไทย V1.0 — Game Boy Advance USA ดวลการ์ดกับตัวละครคุ้นเคย จัดเด็คตามสไตล์คุณ พร้อมบทสนทนาและเอฟเฟ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-worldwide-edition",
+    "url": "https://www.nonplae.com/?game=yugioh-worldwide-edition",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20423,7 +20493,7 @@
     "description": "Tom Clancy’s Splinter Cell ภาษาไทย — Game Boy Advance USA แปลข้อความเนื้อเรื่อง วิทยุ เป้าหมายภารกิจ ตัวเลือก เมนู และข้อความระบบที่วาดด้วยฟอนต์ พร้อมฟอนต์ไทย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/splinter-cell-gba",
+    "url": "https://www.nonplae.com/?game=splinter-cell-gba",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20517,7 +20587,7 @@
     "description": "Ōkamiden ภาษาไทยสำหรับ Nintendo DS รุ่น USA  ออกผจญภัยกับชิบิเทราสึและเหล่าคู่หู ใช้พู่กันสวรรค์ไขปริศนา ช่วยผู้คน และต่อสู้กับปีศาจ  แปลข้อความที่แสดงด้วยฟอนต์",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/okamiden",
+    "url": "https://www.nonplae.com/?game=okamiden",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20611,7 +20681,7 @@
     "description": "Dogz 2 ภาษาไทย แปลข้อความเนื้อเรื่องที่สกัดได้ 2,767 รายการ ข้อความรอง 219 รายการ และข้อความ HUD 51 รายการ พร้อมฟอนต์",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dogz-2",
+    "url": "https://www.nonplae.com/?game=dogz-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20705,7 +20775,7 @@
     "description": "Super Robot Taisen L รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — Nintendo DS",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-l",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-l",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20799,7 +20869,7 @@
     "description": "Motteke Oh! Dorobou ภาษาไทย V1.0  — Super Famicom ญี่ปุ่น",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/motteke-oh-dorobou",
+    "url": "https://www.nonplae.com/?game=motteke-oh-dorobou",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20893,7 +20963,7 @@
     "description": "Dragon View ภาษาไทย V1.0 เดโม — Super Nintendo USA แปลบทหลัก 710 รายการจากพอยน์เตอร์ 784 ช่อง คำศัพท์ 117 รายการ และเมนูเริ่มเกม/จัดการเซฟ 122 รายการ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dragon-view",
+    "url": "https://www.nonplae.com/?game=dragon-view",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -20987,7 +21057,7 @@
     "description": "Lufia: The Ruins of Lore ภาษาไทย V1.0  — Game Boy Advance USA AGDE แปลเหตุการณ์ 4,818 รายการ ข้อมูล 2,754 ระเบียน และข้อความส่วนติดต่อ 439 รายการ พร้อมฟอนต์ไทยแ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/lufia-the-ruins-of-lore",
+    "url": "https://www.nonplae.com/?game=lufia-the-ruins-of-lore",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21081,7 +21151,7 @@
     "description": "Project X Zone รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.1 — Nintendo 3DS เลือกวิธีเล่นใน popup: EMU ใช้แพตช์เดิม ส่วนเครื่อง 3DS ใช้แพตช์ V1.1 และดาวน์",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/project-x-zone",
+    "url": "https://www.nonplae.com/?game=project-x-zone",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21175,7 +21245,7 @@
     "description": "ภาษาไทย V1.0  — Nintendo DS USA  แปลข้อความเนื้อเรื่องที่จัดทำดัชนี 27,063 รายการ พร้อมข้อความทดแทน 30,039 รายการ ตัวเลือก 465 ช่อง คำถาม 396 ช่องและสรุปบท 9 เล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/hotel-dusk-room-215",
+    "url": "https://www.nonplae.com/?game=hotel-dusk-room-215",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21269,7 +21339,7 @@
     "description": "ภาษาไทย V1.0 เดโม — Super Famicom ญี่ปุ่น แปลเนื้อเรื่องที่ระบุขอบเขตได้ 5,912 รายการ และ UI 415 รายการ พร้อมฟอนต์ไทย ข้อความกราฟิก/ตัวเลือกที่ตรวจแล้ว และเครดิ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/mujintou-monogatari",
+    "url": "https://www.nonplae.com/?game=mujintou-monogatari",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21363,7 +21433,7 @@
     "description": "Sylvanian Families 4 - Meguru Kisetsu no Tapestry ภาษาไทย V1.0",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/sylvanian-families-4",
+    "url": "https://www.nonplae.com/?game=sylvanian-families-4",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21457,7 +21527,7 @@
     "description": "ภาษาไทย V1.0 เดโม — GBA บนฐานอังกฤษ Pokeytax v1.00 แปลเนื้อเรื่อง 1,993 ข้อความไม่ซ้ำ ตัวเลือกตอบ 241 รายการ และคำอธิบายผลการ์ด 185 แบบ ชื่อย่อ ค่าสถานะและ UI น",
     "genre": "Adventure",
     "series": "Suikoden",
-    "url": "https://www.nonplae.com/games/suikoden-card-stories",
+    "url": "https://www.nonplae.com/?game=suikoden-card-stories",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21551,7 +21621,7 @@
     "description": "ภาษาไทย V1.0 เดโม — GBA บนฐานอังกฤษ The Romhacking Aerie v1.0 แปลเนื้อเรื่องหลัก คำตอบที่ตรวจพบและคำอธิบาย 9,546 ข้อความไม่ซ้ำ รวม 12,775 จุดอ้างอิง ชื่อเฉพาะนอ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/oriental-blue-ao-no-tengai",
+    "url": "https://www.nonplae.com/?game=oriental-blue-ao-no-tengai",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21645,7 +21715,7 @@
     "description": "ภาษาไทย V1.0 เดโม — Game Boy Advance Europe A84P เลือก English เพื่อเล่นภาษาไทย ภาษาอื่นคงเดิม แปล 5,850 จาก 6,159 รายการ ครอบคลุมบทสนทนา คำอธิบาย คำใบ้ ตัวเลือ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/hamtaro-rainbow-rescue",
+    "url": "https://www.nonplae.com/?game=hamtaro-rainbow-rescue",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21739,7 +21809,7 @@
     "description": "ภาษาไทย V1.0 เดโม — SNES บนฐานอังกฤษ DQ Translations v1.1 แปลข้อความหลักและต่อสู้ 4,423 รายการ รวมคำตอบ/ตัวเลือกและป้ายคงที่ 46 รายการ พร้อมข้อความช่วยเหลือเพิ่",
     "genre": "RPG",
     "series": "Dragon Quest",
-    "url": "https://www.nonplae.com/games/dragon-quest-iii-snes",
+    "url": "https://www.nonplae.com/?game=dragon-quest-iii-snes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21833,7 +21903,7 @@
     "description": "Another Code Two Memories รายละเอียดแปล - แพตช์ภาษาไทย TH terap Version 1.0 — Nintendo DS",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/another-code-two-memories",
+    "url": "https://www.nonplae.com/?game=another-code-two-memories",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -21927,7 +21997,7 @@
     "description": "Grand Theft Auto - Vice City Stories รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — PSP",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/grand-theft-auto-vice-city-stories",
+    "url": "https://www.nonplae.com/?game=grand-theft-auto-vice-city-stories",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22021,7 +22091,7 @@
     "description": "Diablo ภาษาไทย V1.0 แปลข้อความ 820 จาก 1,685 รายการ  - เนื้อเรื่อง บทสนทนา  - สถานที่",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/diablo",
+    "url": "https://www.nonplae.com/?game=diablo",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22115,7 +22185,7 @@
     "description": "ภาษาไทย V1.1 แปลเนื้อเรื่อง บทสนทนา ประวัติขุนพล คำแนะนำ เหตุการณ์สนามรบและบทพูดหลังชัยชนะ 3,586 รายการ พร้อมฟอนต์ไทยและเครดิต TH BY NONPLAE ปรับชื่อขุนพลเป็นชื",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dynasty-warriors-vol-2",
+    "url": "https://www.nonplae.com/?game=dynasty-warriors-vol-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22209,7 +22279,7 @@
     "description": "ภาษาไทย V1.0 แปลข้อความที่ตรวจยืนยัน 8,724 ตำแหน่ง ทั้งบทสนทนา ชื่อบุคคลและสถานที่ ของวิเศษ คำอธิบาย เมนูและระบบ พร้อมฟอนต์ไทย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/doraemon-3-makai-no-dungeon",
+    "url": "https://www.nonplae.com/?game=doraemon-3-makai-no-dungeon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22303,7 +22373,7 @@
     "description": "Recca no Honoo - The Game รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — Game Boy Advance",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/recca-no-honoo-the-game",
+    "url": "https://www.nonplae.com/?game=recca-no-honoo-the-game",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22397,7 +22467,7 @@
     "description": "Twilight Syndrome แปลข้อความหลัก 5,819 รายการ ผ่านจุดอ้างอิง 6,861 จุด พร้อมทรัพยากรภาพที่ตรวจสอบ 399 รายการ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/twilight-syndrome-kinjirareta-toshi-densetsu",
+    "url": "https://www.nonplae.com/?game=twilight-syndrome-kinjirareta-toshi-densetsu",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22491,7 +22561,7 @@
     "description": "OG2 NEWversion v1.25 (ม็อดญี่ปุ่น B2RJ) ภาษาไทย V1.0 ใช้ OG2 ญี่ปุ่นต้นฉบับ แล้วแพตช์รวมม็อด NEWversion v1.25 และภาษาไทยในขั้นตอนเดียว ไม่ต้องหา ROM ม็อดหรือลงแ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-wars-og2-newversion-v125",
+    "url": "https://www.nonplae.com/?game=super-robot-wars-og2-newversion-v125",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22585,7 +22655,7 @@
     "description": "Super Robot Wars Alpha Gaiden รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — PlayStation",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-wars-alpha-gaiden",
+    "url": "https://www.nonplae.com/?game=super-robot-wars-alpha-gaiden",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22679,7 +22749,7 @@
     "description": "Brave Story - New Traveler รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.1 — PSP",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/brave-story-new-traveler",
+    "url": "https://www.nonplae.com/?game=brave-story-new-traveler",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22773,7 +22843,7 @@
     "description": "Romance of the Three Kingdoms IV: Wall of Fire ภาษาไทย V1.0 แปลบทสนทนาและเหตุการณ์ 2,414 ข้อความในข้อมูลบีบอัด 25 ชุด ชื่อขุนพลและเมือง 505 รายการ พร้อมชื่อบุคค",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/romance-of-the-three-kingdoms-iv",
+    "url": "https://www.nonplae.com/?game=romance-of-the-three-kingdoms-iv",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22867,7 +22937,7 @@
     "description": "Dai-2-ji Super Robot Taisen G ภาษาไทย V1.0 แปลบทสนทนา 1,530 รายการ บทพูดต่อสู้ 665 รายการ ชื่อนักบิน หุ่นและอาวุธ 605 รายการ เมนู คำอธิบาย ชื่อตอน 33 รายการและเ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-g",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-g",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -22961,7 +23031,7 @@
     "description": "Rokudenashi Blues - Taiketsu! Tokyo Shitennou ภาษาไทย V1.0 แปลบทสนทนาที่สกัดได้ 1,200 รายการ เมนูหลัก คำสั่ง และตั้งค่า พร้อมฟอนต์ไทยและเครดิต",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/rokudenashi-blues",
+    "url": "https://www.nonplae.com/?game=rokudenashi-blues",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23055,7 +23125,7 @@
     "description": "Harvest Moon 3 GBC รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — Game Boy Color",
     "genre": "Adventure",
     "series": "Harvest Moon",
-    "url": "https://www.nonplae.com/games/harvest-moon-3-gbc",
+    "url": "https://www.nonplae.com/?game=harvest-moon-3-gbc",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23149,7 +23219,7 @@
     "description": "Yu-Gi-Oh! Dungeon Dice Monsters รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — Game Boy Advance",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-dungeon-dice-monsters",
+    "url": "https://www.nonplae.com/?game=yugioh-dungeon-dice-monsters",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23243,7 +23313,7 @@
     "description": "Harvest Moon 2 GBC รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — Game Boy Color",
     "genre": "Adventure",
     "series": "Harvest Moon",
-    "url": "https://www.nonplae.com/games/harvest-moon-2-gbc",
+    "url": "https://www.nonplae.com/?game=harvest-moon-2-gbc",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23337,7 +23407,7 @@
     "description": "Final Fantasy I & II Dawn of Souls รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.1 - แก้บัค เข้าโรงแรมค้าง - ช้อยแปลไทย",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-i-ii-dawn-of-souls",
+    "url": "https://www.nonplae.com/?game=final-fantasy-i-ii-dawn-of-souls",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23431,7 +23501,7 @@
     "description": "Yu-Gi-Oh! Nightmare Troubadour รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-nightmare-troubadour",
+    "url": "https://www.nonplae.com/?game=yugioh-nightmare-troubadour",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23525,7 +23595,7 @@
     "description": "Boktai 2 - Solar Boy Django ภาษาไทย  แปลข้อความ 5,188 ระเบียน รวมชื่อเมืองตั้งนาฬิกา 72 เมือง พร้อมฟอนต์ไทย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/boktai-2-solar-boy-django",
+    "url": "https://www.nonplae.com/?game=boktai-2-solar-boy-django",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23619,7 +23689,7 @@
     "description": "Viewtiful Joe - Double Trouble! ภาษาไทย แปลข้อความ 603 ช่องข้อมูล (602 ช่องมีข้อความ) ภาพสอน 39 แผงพร้อมสำเนา BMP สำหรับฉากสาธิต ภาพร้านค้า 18 แผง และภาพข้อความ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/viewtiful-joe-double-trouble",
+    "url": "https://www.nonplae.com/?game=viewtiful-joe-double-trouble",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23713,7 +23783,7 @@
     "description": "Mystic Ark ภาษาไทย แปลข้อความที่ใส่ในเกม 5,350 ระเบียน พร้อมฟอนต์ไทย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/mystic-ark",
+    "url": "https://www.nonplae.com/?game=mystic-ark",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23807,7 +23877,7 @@
     "description": "Nekketsu Kouha Kunio-kun Special รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — Nintendo 3DS",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/nekketsu-kouha-kunio-kun-special",
+    "url": "https://www.nonplae.com/?game=nekketsu-kouha-kunio-kun-special",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23901,7 +23971,7 @@
     "description": "Naruto Shippuu Den - Dairansen! Kagebunshin Emaki - แปลเนื้อเรื่อง บทสนทนา NPC เมนู ตัวเลือก และคำอธิบายไอเทม/วิชา 4,211 ช่วงข้อความนอกเครดิตเดิม พร้อมชื่อและข้",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/naruto-shippuu-den-dairansen-kagebunshin-emaki",
+    "url": "https://www.nonplae.com/?game=naruto-shippuu-den-dairansen-kagebunshin-emaki",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -23995,7 +24065,7 @@
     "description": "Mother 3 ภาษาไทย รุ่น1.0 (ชุดงานภายใน0.1.0) - บทสนทนา คำอธิบาย และข้อความต่อสู้เป็นไทย พร้อมเสียง HQ เดิม - เมนูเล็ก ชื่อไอเทมและทักษะบางส่วนยังเป็นอังกฤษ คงเคร",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/mother-3",
+    "url": "https://www.nonplae.com/?game=mother-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24089,7 +24159,7 @@
     "description": "Battle Spirits Digital Starter ภาษาไทย รุ่น1.0 (ชุดงานภายใน0.1.1) - ประมวลผลข้อความ8,901รายการ: ไทย8,409 คงต้นฉบับ450 และอังกฤษหรือสัญลักษณ์42 - เพิ่มงานภาพเมนู",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/battle-spirits-digital-starter",
+    "url": "https://www.nonplae.com/?game=battle-spirits-digital-starter",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24183,7 +24253,7 @@
     "description": "Hamtaro - Ham-Ham Heartbreak รายละเอียดแปล - บทสนทนาและข้อความเนื้อเรื่อง - คำศัพท์ Ham-Chat และความหมายในพจนานุกรม - เมนูและข้อความสถานะ - ชื่อและคำอธิบายไอเทม",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/hamtaro-ham-ham-heartbreak",
+    "url": "https://www.nonplae.com/?game=hamtaro-ham-ham-heartbreak",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24277,7 +24347,7 @@
     "description": "Harvest Moon GBC ภาษาไทย - แปลบทสนทนา 507 ร้านค้า 242 และระบบแลกเปลี่ยน 68 ระเบียนในเส้นทางที่ยืนยันแล้ว รวม 817 ระเบียน - คงชื่อผู้เล่น เมนูแคบ ชื่อไอเทมและหน้",
     "genre": "Adventure",
     "series": "Harvest Moon",
-    "url": "https://www.nonplae.com/games/harvest-moon-gbc",
+    "url": "https://www.nonplae.com/?game=harvest-moon-gbc",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24371,7 +24441,7 @@
     "description": "Legend of Mana ภาษาไทย V0.2 — PlayStation USA - บทสนทนา 6,391 ข้อความ และคำอธิบายอุปกรณ์ ไอเทมและท่าในสารานุกรม 267 หน้า - เพิ่มเมนู ตัวเลือก และข้อความช่วยเหลื",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/legend-of-mana",
+    "url": "https://www.nonplae.com/?game=legend-of-mana",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24465,7 +24535,7 @@
     "description": "Tokyo Majin Gakuen - Kenpuuchou ภาษาไทย V1.1 — Nintendo DS - ปรับข้อความตัวเลือก 851 แบบ ตรวจ 1,275 ช่องด้วยตัวถอดข้อความของเกม - ตรวจชื่อไอเทม 402 ชื่อ: ไทย 31",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/tokyo-majin-gakuen-kenpuuchou",
+    "url": "https://www.nonplae.com/?game=tokyo-majin-gakuen-kenpuuchou",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24559,7 +24629,7 @@
     "description": "Burning Heroes ภาษาไทย — SNES - แปลเนื้อเรื่อง บทสนทนา ตัวเลือก และคำอธิบายไอเทม - แปลชื่อตัวละคร ชื่อผู้พูด ชื่อปาร์ตี้ ชื่อสถานที่ และฉายา/อาชีพที่ตรวจพบเป็นไ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/nekketsu-tairiku-burning-heroes",
+    "url": "https://www.nonplae.com/?game=nekketsu-tairiku-burning-heroes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24653,7 +24723,7 @@
     "description": "Ranma 1-2 ภาษาไทย V0.4 - แก้บั๊กภาพตัวละครหายระหว่างคุยกับยาฉะ โดยย้ายบัฟเฟอร์ข้อความออกจากพื้นที่กราฟิกตัวละคร - แปลเมนูเลือกและข้อความประกอบหน้าต่าง 56 รายการ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/ranma-half-akanekodan-teki-hihou",
+    "url": "https://www.nonplae.com/?game=ranma-half-akanekodan-teki-hihou",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24747,7 +24817,7 @@
     "description": "Zoids 2: Helic Republic VS Guylos Empire (PS1) - เนื้อเรื่อง บทสนทนา - ช้อยหัวข้อเมนูต่างๆ ครบ - อุปกรณ์ชื่ออาวุธ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/zoids-2-helic-republic-vs-guylos-empire",
+    "url": "https://www.nonplae.com/?game=zoids-2-helic-republic-vs-guylos-empire",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24841,7 +24911,7 @@
     "description": "Yu-Gi-Oh! Monster Capsule Breed & Battle ภาษาไทย — PS1 - แปลบทพูดต่อสู้ เหตุการณ์เลี้ยงมอนสเตอร์ เตรียมต่อสู้ ผลการต่อสู้ และข้อความฉากจบที่สกัดพบ - แปลสารานุกร",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yu-gi-oh-monster-capsule-breed-and-battle",
+    "url": "https://www.nonplae.com/?game=yu-gi-oh-monster-capsule-breed-and-battle",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -24935,7 +25005,7 @@
     "description": "The King of Fighters Kyo แปลเนื้อเรื่อง บทสนทนา ตัวเลือก ชื่อตัวละคร ทักษะและชื่อสถานที่ พร้อมฟอนต์ไทย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/the-king-of-fighters-kyo",
+    "url": "https://www.nonplae.com/?game=the-king-of-fighters-kyo",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25029,7 +25099,7 @@
     "description": "Pokemon Origin Heart Gold รายละเอียดแปล - เนื้อเรื่อง บทสนทนา เทรนเนอร์ และข้อความต่อสู้ - เมนูหลัก เมนูย่อย ช้อย และป้าย - รายละเอียดไอเทม ข้อมูล Pokédex และ A",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-origin-heartgold",
+    "url": "https://www.nonplae.com/?game=pokemon-origin-heartgold",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25123,7 +25193,7 @@
     "description": "Star Ocean First Departure รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และบทบรรยาย - คำอธิบายไอเทมและอุปกรณ์ - รายละเอียดสกิล เวทมนตร์ และท่าไม้ตาย - คำสั่งต่อสู้และรูป",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/star-ocean-first-departure",
+    "url": "https://www.nonplae.com/?game=star-ocean-first-departure",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25217,7 +25287,7 @@
     "description": "Digimon Emerald v2.0 รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - เมนูและตัวเลือก ชาย/หญิง ใช่/ไม่ และตั้งชื่อดิจิมอน - ป้าย สิ่งของ และข้อความสำรวจ - รายละเอียดท่า",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/digimon-emerald",
+    "url": "https://www.nonplae.com/?game=digimon-emerald",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25311,7 +25381,7 @@
     "description": "Tales of Eternia UNDUB รายละเอียดแปล - ข้อความฉากและบทสนทนาเนื้อเรื่อง - เมนูและข้อความระบบ - ชื่อและคำอธิบายไอเทม - ทักษะ เวท และคำอธิบาย - ชื่อสถานที่และเมนูเ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/tales-of-eternia",
+    "url": "https://www.nonplae.com/?game=tales-of-eternia",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25405,7 +25475,7 @@
     "description": "Front Mission 2 ภาษาไทย  - บทสนทนา ชื่อผู้พูด สถานที่ เนื้อความและคำอธิบายภาษาไทย เพิ่มคำช่วยเมนู 105 รายการและป้ายผู้พูด 234 รายการ - คงชื่อผู้ขับ อาวุธ ไอเทม",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/front-mission-2",
+    "url": "https://www.nonplae.com/?game=front-mission-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25499,7 +25569,7 @@
     "description": "Riot Stars ภาษาไทย - บทสนทนารบและภาคสนาม 44+44 แบงก์ พร้อมเมนู คำอธิบาย เงื่อนไข เซฟ และหน้าตั้งชื่อ ใช้ Thai Font Library ตามพิกเซลเดิม - เพิ่ม 150 ป้าย: ภูมิป",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/riot-stars",
+    "url": "https://www.nonplae.com/?game=riot-stars",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25593,7 +25663,7 @@
     "description": "Pokemon Sword and Shield Ultimate Plus รายละเอียดแปล - เนื้อเรื่อง บทสนทนา NPC เทรนเนอร์ ป้าย และข้อความสำรวจ - เมนูหลัก เมนูย่อย ตัวเลือก กระเป๋า ร้านค้า PC แล",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-sword-and-shield-ultimate",
+    "url": "https://www.nonplae.com/?game=pokemon-sword-and-shield-ultimate",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25687,7 +25757,7 @@
     "description": "Majotachi no Nemuri ภาษาไทย - แปลบทเนื้อเรื่องหลัก 27,963 ช่วง / 5,655 กลุ่มข้อความ บทสนทนา ตัวเลือก และคำอธิบายในเนื้อเรื่อง ไม่ใช่การยืนยันแปลทั้งเกม 100% - ย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/majotachi-no-nemuri",
+    "url": "https://www.nonplae.com/?game=majotachi-no-nemuri",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25781,7 +25851,7 @@
     "description": "Dragon Quest I & II  - เนื้อหา บทสนทนาเท่านั้น - ข้อความต่อสู้แบบภาพยังเป็นอังกฤษ รุ่นเว็บ 1.1 (ชุดงาน 0.1.0-beta.4) - เพิ่มข้อความเหตุการณ์/ระบบ 54 กลุ่ม และแก",
     "genre": "RPG",
     "series": "Dragon Quest",
-    "url": "https://www.nonplae.com/games/dragon-quest-i-ii",
+    "url": "https://www.nonplae.com/?game=dragon-quest-i-ii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25875,7 +25945,7 @@
     "description": "Radical Dreamers ภาษาไทย v1.0 - แปลและตรวจสคริปต์ 6,207 ระเบียน คงหน้าเปิด/ชื่อเกม/เมนูหน้าแรก 20 ระเบียนตามต้นฉบับ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/radical-dreamers",
+    "url": "https://www.nonplae.com/?game=radical-dreamers",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -25969,7 +26039,7 @@
     "description": "Castlevania: Aria of Sorrow ภาษาไทย — GBA  - เนื้อเรื่อง บทสนทนา คำอธิบายไอเทม/โซล ศัตรู และคำแนะนำเมนูภาษาไทย - ใช้ฟอนต์จาก Thai Font Library ตามขนาดและเงื่อนไ",
     "genre": "Action",
     "series": "Castlevania",
-    "url": "https://www.nonplae.com/games/castlevania-aria-of-sorrow",
+    "url": "https://www.nonplae.com/?game=castlevania-aria-of-sorrow",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26063,7 +26133,7 @@
     "description": "Castlevania: Harmony of Dissonance ภาษาไทย — GBA  - แปล 427 รายการในตารางข้อความ: เนื้อเรื่อง บทสนทนา ชื่อศัตรู คำอธิบายไอเทม และคำแนะนำเมนู - คงชื่อบุคคลเป็นอั",
     "genre": "Action",
     "series": "Castlevania",
-    "url": "https://www.nonplae.com/games/castlevania-harmony-of-dissonance",
+    "url": "https://www.nonplae.com/?game=castlevania-harmony-of-dissonance",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26157,7 +26227,7 @@
     "description": "Tactics Ogre ภาษาไทย — SNES - เนื้อเรื่อง บทสนทนา ตัวเลือก คำอธิบาย เมนูย่อย และชื่อสถานที่ - จัดบรรทัดบทพูดและเครื่องหมายคำพูดใหม่ โดยคงตัวเลือกและจังหวะหยุด/เ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/tactics-ogre-let-us-cling-together",
+    "url": "https://www.nonplae.com/?game=tactics-ogre-let-us-cling-together",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26251,7 +26321,7 @@
     "description": "Kurohyou: Ryu ga Gotoku Shinshou Version 1.6 — PSP รายละเอียดแปล - เนื้อเรื่อง บทสนทนาในเมือง เควสต์ และคัตซีน - ชื่อตัวละคร ผู้พูด บทสนทนาโฮสเตส ตัวเลือก และฉา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/kurohyou-ryu-ga-gotoku-shinshou",
+    "url": "https://www.nonplae.com/?game=kurohyou-ryu-ga-gotoku-shinshou",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26345,7 +26415,7 @@
     "description": "Super Robot Wars 4 ภาษาไทย - เนื้อเรื่อง บทพูดต่อสู้ บทนำ บทส่งท้าย และชื่อตอน - ชื่อท่า ตัวละคร หุ่น พลังจิต และคำอธิบายพลังกับชิ้นส่วน - ฟอนต์ไทย จัดบรรทัด แล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-wars-4",
+    "url": "https://www.nonplae.com/?game=super-robot-wars-4",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26439,7 +26509,7 @@
     "description": "Super Robot Taisen A ภาษาไทย - เนื้อเรื่องที่ถอดอ่านได้ 23,074 ตำแหน่ง และบทพูดต่อสู้ 10,614 ตำแหน่ง - ชื่อท่าโจมตี 488 รายการ ชื่อพลังจิต 30 รายการ พร้อมคำอธิบ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-a",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-a",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26533,7 +26603,7 @@
     "description": "Bounty Sword ภาษาไทย แปลบทสนทนาที่สำรวจพบ 3,602 ช่วง แปลชื่อบุคคล อาชีพ ไอเทม ทักษะ สถานที่ เมนู สถานะ และข้อความระบบที่ระบุได้ เพิ่มฟอนต์ไทย การแบ่งบรรทัดตามคำ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bounty-sword",
+    "url": "https://www.nonplae.com/?game=bounty-sword",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26627,7 +26697,7 @@
     "description": "Live A Live ภาษาไทย - แปลบทสนทนาจากตารางทั้ง 9 บท รวมบท Medieval และ Finale - แปลเมนู บทนำ คำสั่งต่อสู้ ข้อมูลศัตรู คำอธิบายไอเทมและสกิล - เพิ่มฟอนต์ไทยและข้อคว",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/live-a-live",
+    "url": "https://www.nonplae.com/?game=live-a-live",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26721,7 +26791,7 @@
     "description": "The Urbz: Sims in the City ภาษาไทย\r - แปลบทสนทนา ตัวเลือก เป้าหมายภารกิจ เมนู และข้อความระบบ\r - เพิ่มฟอนต์ไทยและปรับการตัดบรรทัดตามคำ\r - คงชื่อเฉพาะ ชื่อสินค้า",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/the-urbz-sims-in-the-city",
+    "url": "https://www.nonplae.com/?game=the-urbz-sims-in-the-city",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26815,7 +26885,7 @@
     "description": "Sword Art Online: Infinity Moment รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - ตัวเลือกบทสนทนา - บันทึกเนื้อเรื่องและเป้าหมาย - ชื่อเควสต์และรายละเอียดเควสต์ - บทพูด",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/sword-art-online-infinity-moment",
+    "url": "https://www.nonplae.com/?game=sword-art-online-infinity-moment",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -26909,7 +26979,7 @@
     "description": "Pokemon Emerald Arena 0.13 รายละเอียดแปล - เนื้อเรื่อง บทสนทนา เทรนเนอร์ ป้ายและคำอธิบาย - เมนูและตัวเลือกที่รองรับ - รายละเอียดไอเทม ท่า และ Ability - ข้อมูล P",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-emerald-arena",
+    "url": "https://www.nonplae.com/?game=pokemon-emerald-arena",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27003,7 +27073,7 @@
     "description": "Emerald Dragon ภาษาไทย - แปลเนื้อเรื่อง บทสนทนา ตัวเลือก และคำอธิบายไอเทม - แปลเมนูหลัก ตั้งค่า บันทึก/โหลด ซื้อ/ขาย และข้อความช่วยเหลือสำคัญ - เพิ่มฟอนต์ไทย 16",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/emerald-dragon",
+    "url": "https://www.nonplae.com/?game=emerald-dragon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27097,7 +27167,7 @@
     "description": "Super Robot Taisen R ภาษาไทย - แปลเนื้อเรื่อง บทสนทนา และบทพูดต่อสู้ - แปลชื่ออาวุธ คำอธิบายสกิล เมนูและข้อความระบบ พร้อมฟอนต์ไทย - คงชื่ออังกฤษ คำสั่งและค่าสถา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-r",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-r",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27191,7 +27261,7 @@
     "description": "Pokemon Super MarioMon รายละเอียดแปล - เนื้อเรื่อง บทสนทนา NPC เทรนเนอร์ ป้าย และข้อความสำรวจ - ตัวเลือกและข้อความระบบ - ข้อความต่อสู้ พร้อมเงาตัวอักษรไทย - เมน",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-super-mariomon",
+    "url": "https://www.nonplae.com/?game=pokemon-super-mariomon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27285,7 +27355,7 @@
     "description": "Romance of the Three Kingdoms II ภาษาไทย - แปลบทสนทนา คำถาม และข้อความเหตุการณ์ 608 ข้อความ - แปลบทบรรยายเปิดเกม 5 หน้า และชื่อสถานการณ์ 7 แถว - แปลป้ายเมนู 55",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/romance-of-the-three-kingdoms-ii",
+    "url": "https://www.nonplae.com/?game=romance-of-the-three-kingdoms-ii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27379,7 +27449,7 @@
     "description": "Itadaki Street - Gorgeous King ภาษาไทย V2.0 - เพิ่มชื่อไทยของตัวละคร แผนที่ ชื่อเขต และร้านค้าบนทุกกระดาน - ขยายคำแปลกติกามินิเกม เมนูและเมนูย่อย หน้าก่อนเริ่มเ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/itadaki-street-gorgeous-king",
+    "url": "https://www.nonplae.com/?game=itadaki-street-gorgeous-king",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27473,7 +27543,7 @@
     "description": "Monster Rancher ภาษาไทย – Demo • แปลบทสนทนาและข้อความบางส่วน รวมคำอธิบายมอนสเตอร์ใน Book 215 รายการ • เพิ่มคำพูด NPC ผู้ประกาศ เมนูฝึก และผลการฝึกเป็นภาษาไทย •",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/monster-rancher",
+    "url": "https://www.nonplae.com/?game=monster-rancher",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27567,7 +27637,7 @@
     "description": "Groove Adventure Rave - Yuukyuu no Kizuna รายละเอียดแปล แปลบทสนทนา 3,462 รายการใน 39 ชุดฉาก ตัวเลือกสนทนา 135 ตัวเลือก และเมนูระบบ 126 รายการ ชื่อคน เมือง สกิล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/rave-yuukyuu-no-kizuna",
+    "url": "https://www.nonplae.com/?game=rave-yuukyuu-no-kizuna",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27661,7 +27731,7 @@
     "description": "Fire Emblem - New Theory of Thracia 776 รายละเอียดแปล - บทสนทนา เหตุการณ์ และบทพูดระหว่างเล่นและต่อสู้ในสาขา B-English - เพิ่มคำอธิบายโหมด Classic/Casual และบทบ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-thracia776",
+    "url": "https://www.nonplae.com/?game=fire-emblem-thracia776",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27755,7 +27825,7 @@
     "description": "Love Hina Advance รายละเอียดแปล แปลบทสนทนา รวมชื่อสถานที่เป็นไทย ชื่อคน ไอเทม ทักษะ ภาพชื่อตัวละครและเครดิตคงเดิม พร้อมแก้ปลายทางเงื่อนไขผิดหนึ่งจุดจากฉบับอังกฤ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/love-hina-advance",
+    "url": "https://www.nonplae.com/?game=love-hina-advance",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27849,7 +27919,7 @@
     "description": "Zoids Legacy รายละเอียดแปล แปลบทพูดและข้อความในเกม เพิ่มเมนู ตัวเลือก และคำแนะนำ 195 รายการ พร้อมภาพปุ่มและแท็บ 6 รายการ ชื่อคน หุ่น อาวุธ ไอเทม สกิล และป้ายค่า",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/zoids-legacy",
+    "url": "https://www.nonplae.com/?game=zoids-legacy",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -27943,7 +28013,7 @@
     "description": "Kingyo Chuuihou! - Tobidase! Game Gakuen รายละเอียดแปล แปลบทสนทนาและข้อสอบบางส่วน เพิ่มป้ายอาหาร 42 รายการ ประเทศ 14 รายการ คำถามจับคู่ 60 รายการ สถานที่ 21 ราย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/kingyo-game-gakuen",
+    "url": "https://www.nonplae.com/?game=kingyo-game-gakuen",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28037,7 +28107,7 @@
     "description": "Super Mario RPG Armageddon v10 รายละเอียดแปล แปลเนื้อเรื่อง เมนู คำอธิบาย และสถานที่เป็นไทย ชื่อคน ไอเทม สกิล คำสั่งต่อสู้ และป้ายค่าสถานะคงเดิม Version 1.0 — S",
     "genre": "Adventure",
     "series": "Super Mario",
-    "url": "https://www.nonplae.com/games/super-mario-rpg-armageddon",
+    "url": "https://www.nonplae.com/?game=super-mario-rpg-armageddon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28131,7 +28201,7 @@
     "description": "Riviera - The Promised Land · GBA แปลบทสนทนา ตัวเลือก คำอธิบายระบบ และสถานที่ รวม 11,159 ตำแหน่ง ชื่ออังกฤษรวมไอเทมและท่า คำสั่งต่อสู้ ค่าสถานะ และป้ายภาพบางส่ว",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/riviera-promised-land",
+    "url": "https://www.nonplae.com/?game=riviera-promised-land",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28225,7 +28295,7 @@
     "description": "Tsuri Tarou รายละเอียดแปล แปลข้อความในเกม ชื่อปลา 15 ชนิด ชื่อเหยื่อและอุปกรณ์ 8 คำ และชื่อตัวละครในเรื่องเป็นไทย พร้อมปรับฟอนต์ คงหน้ากรอกชื่อเซฟ ตัวเลข ค่าสถา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/tsuri-tarou",
+    "url": "https://www.nonplae.com/?game=tsuri-tarou",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28319,7 +28389,7 @@
     "description": "Rebelstar - Tactical Command รายละเอียดแปล แปลข้อความ 1,433 รายการ พร้อมปรับฟอนต์ไทยและการตัดบรรทัด ชื่ออังกฤษ คำสั่งต่อสู้ ค่าสถานะ และฟอนต์ย่อยเดิมคงไว้ Versi",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/rebelstar-tactical-command",
+    "url": "https://www.nonplae.com/?game=rebelstar-tactical-command",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28413,7 +28483,7 @@
     "description": "Secret of Evermore รายละเอียดแปล แปลข้อความไทย 2,775 รายการ คำอธิบาย 67 รายการ และข้อความระบบ 14 รายการ พร้อมปรับฟอนต์และช่องไฟ ชื่อภาษาอังกฤษ ชื่อที่ผู้เล่นตั้",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/secret-of-evermore",
+    "url": "https://www.nonplae.com/?game=secret-of-evermore",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28507,7 +28577,7 @@
     "description": "Kawa no Nushi Tsuri 5 รายละเอียดแปล แปลบทสนทนาและชื่อปลา ไอเทม อุปกรณ์ เหยื่อ สถานที่ และชื่อเฉพาะภาษาญี่ปุ่นเป็นไทย พร้อมปรับฟอนต์และระยะอักษร ชื่ออังกฤษ คำสั่",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/kawa-no-nushi-tsuri-5",
+    "url": "https://www.nonplae.com/?game=kawa-no-nushi-tsuri-5",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28601,7 +28671,7 @@
     "description": "Fullmetal Alchemist - Sonata of Memories รายละเอียดแปล แปลข้อความในเกมเป็นไทย พร้อมปรับระยะอักษรและเครื่องหมายโดยคงขนาดฟอนต์เดิม ชื่ออังกฤษ คำสั่งต่อสู้ ป้ายค่า",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fullmetal-alchemist-sonata",
+    "url": "https://www.nonplae.com/?game=fullmetal-alchemist-sonata",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28695,7 +28765,7 @@
     "description": "Magical Vacation รายละเอียดแปล แปลบทสนทนาและข้อความในเกมเป็นไทย พร้อมปรับช่องไฟ สระ และเครื่องหมาย ชื่ออังกฤษ ชื่อที่ผู้เล่นตั้ง คำสั่งต่อสู้ ค่าสถานะ และข้อควา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/magical-vacation",
+    "url": "https://www.nonplae.com/?game=magical-vacation",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28789,7 +28859,7 @@
     "description": "Yggdra Union - We'll Never Fight Alone รายละเอียดแปล แปลบทสนทนา คำแนะนำ ข้อความต่อสู้ ผลภารกิจ สถานที่ และคำอธิบาย 12,905 หน่วย รวมเมนูหลัก บทนำ ภาพเรื่องเล่าแล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yggdra-union",
+    "url": "https://www.nonplae.com/?game=yggdra-union",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28883,7 +28953,7 @@
     "description": "Naruto - Ninja Council รายละเอียดแปล แปลบทภาษาไทย 460 รายการ พร้อมปรับฟอนต์และระยะอักษร เมนูใช้ขนาดตัวอักษรเดิม ชื่อ คำสั่ง และค่าสถานะภาษาอังกฤษคงเดิม Version",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/naruto-ninja-council",
+    "url": "https://www.nonplae.com/?game=naruto-ninja-council",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -28977,7 +29047,7 @@
     "description": "Yu Yu Hakusho - Tournament Tactics รายละเอียดแปล แปลข้อความภาษาไทย 519 รายการ ครอบคลุมเนื้อเรื่องและข้อความในเกม พร้อมปรับระยะอักษรและเครื่องหมาย ชื่ออังกฤษ คำส",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yuyu-tournament-tactics",
+    "url": "https://www.nonplae.com/?game=yuyu-tournament-tactics",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29071,7 +29141,7 @@
     "description": "GetBackers - Metropolis Dakkan Sakusen! รายละเอียดแปล แปลบทสนทนา ชื่อคนและสถานที่ ไอเทมพร้อมคำอธิบาย 272 รายการ สกิล 36 รายการ และเมนูภาษาญี่ปุ่น พร้อมปรับฟอนต์",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/getbackers-metropolis",
+    "url": "https://www.nonplae.com/?game=getbackers-metropolis",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29165,7 +29235,7 @@
     "description": "Konjiki no Gashbell!! - Makai no Bookmark รายละเอียดแปล แปลบทสนทนา ชื่อคน ไอเทม เวท ท่า และสถานที่ รวมป้ายผู้พูดและชื่อคู่ตัวละคร พร้อมปรับฟอนต์ไทย ชื่ออังกฤษ ค",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/gashbell-bookmark",
+    "url": "https://www.nonplae.com/?game=gashbell-bookmark",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29259,7 +29329,7 @@
     "description": "The Lord of the Rings - The Return of the King รายละเอียดแปล - แปลบทสนทนา ประวัติตัวละคร และข้อความส่วนหนึ่งรวม 459 รายการ พร้อมปรับฟอนต์และช่องไฟภาษาไทย คำสั่ง",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/lotr-return-of-the-king",
+    "url": "https://www.nonplae.com/?game=lotr-return-of-the-king",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29353,7 +29423,7 @@
     "description": "Robotrek รายละเอียดแปล - บทสนทนาและเมนูย่อยภาษาไทย - ชื่อคน สถานที่ และศัตรูทั่วไปเป็นไทย ยกเว้น Turbo - ฟอนต์บทสนทนาไทย 16px และฟอนต์เมนูพื้นที่แคบ 8px - ปรับร",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/robotrek",
+    "url": "https://www.nonplae.com/?game=robotrek",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29447,7 +29517,7 @@
     "description": "Tales of Phantasia รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และข้อความเมนูภาษาไทย - ฟอนต์บทสนทนาไทย 16px และฟอนต์เมนูขนาดเล็ก - ปรับช่องไฟสระ วรรณยุกต์ เครื่องหมาย แ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/tales-of-phantasia",
+    "url": "https://www.nonplae.com/?game=tales-of-phantasia",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29541,7 +29611,7 @@
     "description": "Terranigma รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และคำอธิบายภาษาไทย - ชื่อสถานที่และวัตถุภาษาไทยตามฉบับแปล - ฟอนต์ไทย 16px และการจัดวางสระ วรรณยุกต์ เครื่องหมาย แ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/terranigma",
+    "url": "https://www.nonplae.com/?game=terranigma",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29635,7 +29705,7 @@
     "description": "Super Robot Wars EX ภาษาไทย NONPLAE V1.1 — SNES - แก้ฟอนต์ชื่ออาวุธไทยชนกับกราฟิกเมนู Spirit ทำให้ป้ายแสดงผิด - แก้กล่องคำสั่ง Move ที่ข้อความถูกตัด หลังเปิดเกม",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-wars-ex",
+    "url": "https://www.nonplae.com/?game=super-robot-wars-ex",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29729,7 +29799,7 @@
     "description": "Magic Knight Rayearth รายละเอียดแปล - ข้อความภาษาไทยในเกม - เมนูและส่วนติดต่อผู้เล่นภาษาไทย  Version 1.0",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/magic-knight-rayearth",
+    "url": "https://www.nonplae.com/?game=magic-knight-rayearth",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29823,7 +29893,7 @@
     "description": "Super Robot Wars Gaiden  รองรับ: Super Robot Wars Gaiden - The Elemental Lords (Japan) [T-En by Aeon Genesis v1.05] [Music Persistence] [n].sfc Version 1.0",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-wars-gaiden",
+    "url": "https://www.nonplae.com/?game=super-robot-wars-gaiden",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -29917,7 +29987,7 @@
     "description": "Super Robot Taisen D ภาษาไทย อัปเดต Version 1.1 - แปลคำอธิบายค่าสถานะมุมซ้ายล่างเป็นภาษาไทย - จัดข้อความให้อยู่ในกรอบ และแก้ตัวอักษร Aim ที่แสดงผิด - คงชื่อค่าส",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-d",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-d",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30011,7 +30081,7 @@
     "description": "Mario & Luigi - Superstar Saga รายละเอียดแปล บทสนทนา - บทสนทนาภาษาไทยในเกม ข้อความแนะนำการเล่น - ข้อความแนะนำการต่อสู้ภาษาไทย ฟอนต์ภาษาไทย - รองรับการแสดงผลตัวอ",
     "genre": "Adventure",
     "series": "Super Mario",
-    "url": "https://www.nonplae.com/games/mario-and-luigi-superstar-saga",
+    "url": "https://www.nonplae.com/?game=mario-and-luigi-superstar-saga",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30105,7 +30175,7 @@
     "description": "Bouken-ou Beet - Busters Road รายละเอียดแปล เนื้อเรื่องและบทสนทนา - บทพูด บทนำ และข้อความภารกิจ ชื่อและข้อมูลในเกม - ตัวละคร เมือง สิ่งของ อาวุธ ชุดเกราะ ทักษะ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bouken-ou-beet-busters-road",
+    "url": "https://www.nonplae.com/?game=bouken-ou-beet-busters-road",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30199,7 +30269,7 @@
     "description": "Black Matrix Zero รายละเอียดแปล - เนื้อเรื่องและบทสนทนา 3,868 ข้อความ - เมนู คำอธิบาย ชื่อตัวละครและสถานที่ 503 ช่อง - บทเปิด 12 หน้า ป้ายบททั้ง 7 บท หัวข้อเมนู",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/black-matrix-zero",
+    "url": "https://www.nonplae.com/?game=black-matrix-zero",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30293,7 +30363,7 @@
     "description": "Final Fantasy X International รายละเอียดแปล - เนื้อเรื่อง บทสนทนาตัวละครและ NPC - ตัวเลือกบทสนทนาและข้อความระบบ - หัวข้อเมนูและคำอธิบายเมนูนอกฉากต่อสู้ - คำอธิบ",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-x-international",
+    "url": "https://www.nonplae.com/?game=final-fantasy-x-international",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30387,7 +30457,7 @@
     "description": "Shaman King - Master of Spirits รายละเอียดแปล - ข้อความภาษาไทยตามไฟล์ Shaman_King_Master_of_Spirits_Thai.gba  รองรับ: Shaman King - Master of Spirits (USA).gba",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/shaman-king-master-of-spirits",
+    "url": "https://www.nonplae.com/?game=shaman-king-master-of-spirits",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30481,7 +30551,7 @@
     "description": "The Legend of Zelda - Oracle of Seasons รายละเอียดแปล - ข้อความภาษาไทยในเกมตามฉบับ TH BY NONPLAE  รองรับ: Legend of Zelda, The - Oracle of Seasons (USA, Austral",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-oracle-of-seasons",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-oracle-of-seasons",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30575,7 +30645,7 @@
     "description": "The Legend of Zelda - Oracle of Ages รายละเอียดแปล - ข้อความภาษาไทยตามไฟล์ฉบับ TH BY NONPLAE  รองรับ: Legend of Zelda, The - Oracle of Ages (USA, Australia).gbc",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-oracle-of-ages",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-oracle-of-ages",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30669,7 +30739,7 @@
     "description": "Racing Lagoon รายละเอียดแปล - เนื้อเรื่องและบทสนทนา พร้อมขัดเกลาสำนวนและแก้ข้อความคลาดเคลื่อน - คำแนะนำการเล่นและตัวเลือกบทสนทนา - ชื่อแก๊งและชื่อกลุ่มนักแข่งภา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/racing-lagoon",
+    "url": "https://www.nonplae.com/?game=racing-lagoon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30763,7 +30833,7 @@
     "description": "Chrono Trigger รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และข้อความคำถาม - ชื่อสถานที่ภาษาไทย - คำอธิบายหน้า Battle Mode ทั้ง ACTIVE และ WAIT - คำอธิบายสถานะและเมนูเพ",
     "genre": "RPG",
     "series": "Chrono",
-    "url": "https://www.nonplae.com/games/chrono-trigger",
+    "url": "https://www.nonplae.com/?game=chrono-trigger",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30857,7 +30927,7 @@
     "description": "Little Master รายละเอียดแปล - ข้อความในเกมเป็นภาษาไทย  Version 1.0 — Game Boy",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/little-master",
+    "url": "https://www.nonplae.com/?game=little-master",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -30951,7 +31021,7 @@
     "description": "Final Fantasy IV: The Complete Collection รายละเอียดแปล - เนื้อเรื่องและบทสนทนา FFIV, Interlude และ The After Years ตามรายการที่แปลแล้ว - บทพูดและข้อความการต่อส",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-iv",
+    "url": "https://www.nonplae.com/?game=final-fantasy-iv",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31045,7 +31115,7 @@
     "description": "Shadowrun รายละเอียดแปล - ข้อความในเกมเป็นภาษาไทย - เมนูไม่ภาษาไทย เพราะชื่อเฉพาะค่อนข้างเยอะ - ฟอนต์แสดงผลภาษาไทย  Version 1.0 — SNES",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/shadowrun",
+    "url": "https://www.nonplae.com/?game=shadowrun",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31139,7 +31209,7 @@
     "description": "Dark Half รายละเอียดแปล - เนื้อเรื่องและบทสนทนาตัวละคร - ข้อความบรรยายเปิดเรื่อง - คำอธิบายไอเท็มและเวทมนตร์ - คำบรรยายฉากจบทั้ง 4 แบบ - ฟอนต์ภาษาไทยพร้อมสระและ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dark-half",
+    "url": "https://www.nonplae.com/?game=dark-half",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31233,7 +31303,7 @@
     "description": "Beyblade: Let it Rip! รายละเอียดแปล - เนื้อเรื่องและบทสนทนาตัวละคร - คำพูดต่อสู้และผู้ประกาศการแข่งขัน - คำแนะนำและคำอธิบายการเล่น - รายละเอียดชิ้นส่วนเบย์เบลด",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/beyblade-let-it-rip",
+    "url": "https://www.nonplae.com/?game=beyblade-let-it-rip",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31327,7 +31397,7 @@
     "description": "The Legend of Zelda: Link's Awakening DX รายละเอียดแปล - เนื้อเรื่องและบทสนทนา 688 รายการ - ตัวเลือกบทสนทนา 69 รายการ - คำอธิบายไอเทม คำแนะนำ และข้อความช่วยเหลื",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-links-awakening-dx",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-links-awakening-dx",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31421,7 +31491,7 @@
     "description": "Xenogears รายละเอียดแปล - เนื้อเรื่องและบทสนทนา แผ่น 1–2 - ชื่อตัวละคร เมือง และสถานที่เป็นคำอ่านไทย - ชื่อไอเทม อาวุธ ของสวมใส่ สกิล ท่าไม้ตาย และคำอธิบาย - เม",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/xenogears",
+    "url": "https://www.nonplae.com/?game=xenogears",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31515,7 +31585,7 @@
     "description": "Final Fantasy Type-0 รายละเอียดแปล - เนื้อเรื่อง บทสนทนา NPC และตัวเลือกบทสนทนา - ซับ Intro และบทบรรยายที่เกมแสดงแยกจากคลิป - ชื่อคนและสถานที่เป็นคำอ่านไทย - เป",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-type-0",
+    "url": "https://www.nonplae.com/?game=final-fantasy-type-0",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31609,7 +31679,7 @@
     "description": "Dragon Ball - Advanced Adventure รายละเอียดแปล - ข้อความภาษาไทยในเกม - เมนูและข้อความเลือกข้อมูลบันทึกเกม - ข้อความแนะนำปุ่มและหน้าเริ่มเกม - ฟอนต์ภาษาไทย - เคร",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dragon-ball-advanced-adventure",
+    "url": "https://www.nonplae.com/?game=dragon-ball-advanced-adventure",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31703,7 +31773,7 @@
     "description": "The Legend of Zelda: The Minish Cap รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และตัวเลือกคำตอบ - ชื่อไอเทม สถานที่ ตัวละคร และท่าดาบ - เมนูหลัก เลือกไฟล์ ตั้งชื่อ และ",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-the-minish-cap",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-the-minish-cap",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31797,7 +31867,7 @@
     "description": "Final Fantasy VIII รายละเอียดแปล - เนื้อเรื่องและบทสนทนา แผ่น 1–4 - เมนู เมนูย่อย และข้อความช่วยเหลือ - คำอธิบายไอเทม เวท สกิล และการต่อสู้ โดยคงชื่อไอเทม เวท แ",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-viii",
+    "url": "https://www.nonplae.com/?game=final-fantasy-viii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31891,7 +31961,7 @@
     "description": "Patapon 3 รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - บทพูดในค่ายและการต่อสู้ - ชื่อภารกิจและคำอธิบายภารกิจ - ชื่อสถานที่ แผนที่ และรายละเอียดแผนที่ - ชื่อไอเทม อาว",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/patapon-3",
+    "url": "https://www.nonplae.com/?game=patapon-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -31985,7 +32055,7 @@
     "description": "Grand Theft Auto Chinatown Wars รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และบทนำ - ภารกิจหลัก ภารกิจเสริม ชื่อภารกิจ และรายละเอียดภารกิจ - อีเมลเนื้อเรื่อง บันทึก แล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/grand-theft-auto-chinatown-wars",
+    "url": "https://www.nonplae.com/?game=grand-theft-auto-chinatown-wars",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32079,7 +32149,7 @@
     "description": "Crisis Core - Final Fantasy VII รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และบทบรรยาย - ซับคัทซีนและฉากจบ รวมบทพูดหลังเครดิต - ชื่อสถานที่ - ภารกิจ: หมวด หัวข้อ และรา",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/crisis-core-final-fantasy-vii",
+    "url": "https://www.nonplae.com/?game=crisis-core-final-fantasy-vii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32173,7 +32243,7 @@
     "description": "แพตช์ภาษาไทย V1.3 สำหรับญี่ปุ่นต้นฉบับ - แก้ชื่อปลายทางมอเตอร์ไซค์หาย ครบทั้ง 6 จุด - แก้อาการภาพกระพริบขณะเปิดและกลับจากเมนู ใช้สกิลและไอเทม - ตัดคำลงท้าย ครับ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/shodai-nekketsu-kouha-kunio-kun",
+    "url": "https://www.nonplae.com/?game=shodai-nekketsu-kouha-kunio-kun",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32267,7 +32337,7 @@
     "description": "Pokemon Quetzal รายละเอียดแปล - เนื้อเรื่อง บทสนทนา เทรนเนอร์ ป้ายและข้อความสำรวจ - ข้อความระบบต่อสู้ - รายละเอียดไอเทม ท่า และ Ability - ข้อมูล Pokédex - เมนูห",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-quetzal",
+    "url": "https://www.nonplae.com/?game=pokemon-quetzal",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32361,7 +32431,7 @@
     "description": "Pokémon Emerald Rogue EX V2.2.1 — แพตช์ภาษาไทย Version 1.0 (GBA)  รายละเอียดการแปล • บทสนทนาและเนื้อเรื่อง • เมนูและเมนูย่อย ตัวเลือกพื้นฐาน และระบบ PC • คำอธิบ",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-emerald-rogue",
+    "url": "https://www.nonplae.com/?game=pokemon-emerald-rogue",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32455,7 +32525,7 @@
     "description": "Initial D: Another Stage รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และตัวเลือกบทสนทนา - ชื่อตัวละคร ชื่อคู่แข่ง และชื่อบนแผนที่ - เมนูหลัก ตั้งค่า บันทึกและโหลดเกม -",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/initial-d-another-stage",
+    "url": "https://www.nonplae.com/?game=initial-d-another-stage",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32549,7 +32619,7 @@
     "description": "Romance of the Three Kingdoms VI - Awakening of the Dragon\r แพตช์ภาษาไทย V1.4 — PS1\r รายละเอียดแปล\r - บทสนทนา เหตุการณ์ ชื่อขุนพล ชื่อเมือง เมนู และหน้าจัดการเม",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/romance-of-the-three-kingdoms-vi",
+    "url": "https://www.nonplae.com/?game=romance-of-the-three-kingdoms-vi",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32643,7 +32713,7 @@
     "description": "Valkyrie Profile รายละเอียดแปล - เนื้อเรื่องและบทสนทนา แผ่น 1–2 ตามชุดแปลที่จัดทำ - คำเกริ่นนำ คำบรรยาย และรายงาน Sacred Phase - ชื่อตัวละคร สถานที่ ป้ายทางเข้า",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/valkyrie-profile",
+    "url": "https://www.nonplae.com/?game=valkyrie-profile",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32737,7 +32807,7 @@
     "description": "Wonder Project J: Mechanical Boy Pino รายละเอียดแปล - เนื้อเรื่องและบทสนทนา 1,440 รายการ - คำแนะนำและบทสอนการเล่น - เมนูหลักและเมนูตั้งค่า - ข้อความบันทึก โหลด",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/wonder-project-j",
+    "url": "https://www.nonplae.com/?game=wonder-project-j",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32831,7 +32901,7 @@
     "description": "Milandra รายละเอียดแปล - เนื้อเรื่องและบทสนทนาตัวละคร - บทเปิดเรื่อง ป้าย ตำนาน และคำแนะนำ - เมนูหลัก เมนูตั้งค่า และตัวเลือก - ข้อความระบบ ไอเทม และคำอธิบาย -",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/milandra",
+    "url": "https://www.nonplae.com/?game=milandra",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -32925,7 +32995,7 @@
     "description": "999: Nine Hours, Nine Persons, Nine Doors รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - สำรวจห้อง ปริศนา และตัวเลือกเนื้อเรื่อง - ชื่อไอเทม ห้อง มุมกล้อง และตัวละคร -",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/999-nine-hours-nine-persons-nine-doors",
+    "url": "https://www.nonplae.com/?game=999-nine-hours-nine-persons-nine-doors",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33019,7 +33089,7 @@
     "description": "Final Fantasy VII รายละเอียดแปล - เนื้อเรื่องและบทสนทนา แผ่น 1–3 ตามชุดแปลที่จัดทำ - เมนูและข้อความช่วยเหลือในส่วนที่แปลแล้ว - ชื่อตัวละคร ศัตรู และสถานที่เป็นค",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-vii",
+    "url": "https://www.nonplae.com/?game=final-fantasy-vii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33113,7 +33183,7 @@
     "description": "Golden Sun: Dark Dawn รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - บทเกริ่นนำและคำบรรยายเปิดเรื่อง - เนื้อหาสารานุกรม - คำอธิบายไอเทมและสกิล รวมสกิลนอกการต่อสู้ - เม",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/golden-sun-dark-dawn",
+    "url": "https://www.nonplae.com/?game=golden-sun-dark-dawn",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33207,7 +33277,7 @@
     "description": "Gekitou Crush Gear Turbo รายละเอียดแปล - เนื้อเรื่อง บทสนทนาตัวละคร และคำพูดต่อสู้ - คำแนะนำและบทสอนการเล่น - เมนูหลัก ตั้งค่า และตัวเลือกคำสั่ง - ข้อความบันทึก",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/gekitou-crush-gear-turbo",
+    "url": "https://www.nonplae.com/?game=gekitou-crush-gear-turbo",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33301,7 +33371,7 @@
     "description": "Arc the Lad รายละเอียดแปล - เนื้อเรื่องและบทสนทนาตามชุดข้อความที่แกะได้ - ตัวเลือกบทสนทนา - เมนูโหลดเซฟ เริ่มเกม และข้อความระบบ - คำแนะนำและคำอธิบายการต่อสู้ -",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/arc-the-lad",
+    "url": "https://www.nonplae.com/?game=arc-the-lad",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33395,7 +33465,7 @@
     "description": "GaiaMaster - Kamigami no Board Game รายละเอียดแปล - เนื้อเรื่องและบทสนทนาในชุดข้อความที่แปล - เมนูหลัก ตั้งค่า กติกา และหน้าตัวละคร - เมนูสมุด ชื่อ ทรัพย์สิน แล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/gaiamaster",
+    "url": "https://www.nonplae.com/?game=gaiamaster",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33489,7 +33559,7 @@
     "description": "Digimon World รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - บทสนทนาร้านค้า บริการ และตัวเลือกซื้อขาย - เมนูหลัก เมนูย่อย และเมนูตัวละครในส่วนที่แกะได้ - คำอธิบายไอเทม",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/digimon-world",
+    "url": "https://www.nonplae.com/?game=digimon-world",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33583,7 +33653,7 @@
     "description": "Shin Nekketsu Kouha - Kunio-tachi no Banka รายละเอียดแปล - เนื้อเรื่องและบทสนทนา  - ชื่อผู้พูด ตัวละคร สถานที่ และแก๊งเป็นภาษาไทย - ชื่อบนแถบพลังเป็นไทย อัปเดต",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/shin-nekketsu-kouha-kunio-tachi-no-banka",
+    "url": "https://www.nonplae.com/?game=shin-nekketsu-kouha-kunio-tachi-no-banka",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33677,7 +33747,7 @@
     "description": "Fire Emblem Vision Quest รายละเอียดแปล - เนื้อเรื่อง บทสนทนา และบทส่งท้าย - คำอธิบายค่าสถานะ สกิล ไอเทม อาวุธ และข้อความช่วยเหลือ - คำแนะนำและเป้าหมายภารกิจ - เ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-vision-quest",
+    "url": "https://www.nonplae.com/?game=fire-emblem-vision-quest",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33771,7 +33841,7 @@
     "description": "Fire Emblem - The Sacred Echoes รายละเอียดแปล - บทนำเปิดเกมครบทั้ง 7 หน้า พร้อมกราฟิกข้อความไทย โดยคงภาพพื้นหลังและจังหวะฉากเดิม - เนื้อเรื่องและบทสนทนา - คำอธิ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-the-sacred-echoes",
+    "url": "https://www.nonplae.com/?game=fire-emblem-the-sacred-echoes",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33865,7 +33935,7 @@
     "description": "Super Sangokushi — แพตช์ภาษาไทย V1.1 (SNES) รายละเอียดคำแปลเดิม - เมนูหลัก/ย่อย ชื่อขุนพลและเมือง เหตุการณ์ และข้อมูลฉากรบ - ปุ่มคำสั่ง 117 ช่อง ป้ายข้อมูลสีเขี",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-sangokushi",
+    "url": "https://www.nonplae.com/?game=super-sangokushi",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -33959,7 +34029,7 @@
     "description": "Pokemon Super Dark Worship รายละเอียดแปล - เนื้อเรื่อง บทสนทนา NPC และเทรนเนอร์ - ตัวเลือก คำถาม ป้าย และข้อมูลรายละเอียด - ข้อความการต่อสู้ สถานะ และบทกลับบ้าน",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-super-dark-worship",
+    "url": "https://www.nonplae.com/?game=pokemon-super-dark-worship",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34053,7 +34123,7 @@
     "description": "Bloody Roar 2 - Bringer of the New Age รายละเอียดแปล - บทนำ 3 หน้า - เนื้อเรื่องและบทสนทนา 396 หน้า ครบ 11 เส้นเรื่องที่แกะได้ - ภาษาไทยอิงบริบท Lore และแนวบุคล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bloody-roar-2",
+    "url": "https://www.nonplae.com/?game=bloody-roar-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34147,7 +34217,7 @@
     "description": "Clock Tower รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - บทบรรยายเปิดเรื่องและข้อความฉากจบ - ข้อความสำรวจและชื่อไอเทม - เอกสาร บันทึก และปริศนา - เมนูหลัก รายการฉากจ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/clock-tower",
+    "url": "https://www.nonplae.com/?game=clock-tower",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34241,7 +34311,7 @@
     "description": "Feda - The Emblem of Justice รายละเอียดแปล - เนื้อเรื่องและบทสนทนา รวมบทบรรยายเปิดเรื่องและปิดเรื่อง - ข้อความระหว่างต่อสู้และสกิล - คำถาม คำอธิบายเมนู ร้านค้า",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/feda-the-emblem-of-justice",
+    "url": "https://www.nonplae.com/?game=feda-the-emblem-of-justice",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34335,7 +34405,7 @@
     "description": "Pokemon Moon Black 2 รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - ตัวเลือก คำถาม ป้าย และข้อมูลรายละเอียด - บทพูดเทรนเนอร์และข้อความระบบต่อสู้ - คำอธิบายท่า Ability",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-moon-black-2",
+    "url": "https://www.nonplae.com/?game=pokemon-moon-black-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34429,7 +34499,7 @@
     "description": "Fate/EXTRA CCC ภาษาไทย โดย Nonplae (PSP) หัวข้อที่แปล • เนื้อเรื่องและบทสนทนาทุกเส้นทางตัวละคร • บทพูดในดันเจียน และข้อความป๊อปอัป • บทสนทนานักเรียนและฉากในโรงเ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fate-extra-ccc",
+    "url": "https://www.nonplae.com/?game=fate-extra-ccc",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34523,7 +34593,7 @@
     "description": "Metal Max 3 รายละเอียดแปล - เนื้อเรื่องและบทสนทนา - คำอธิบายไอเทม อุปกรณ์ และข้อความระบบ - เมนูข้อมูล สถิติ ตั้งค่า และเมนูย่อย - ฟอนต์ไทยและเครดิต THAI BY NONP",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/metal-max-3",
+    "url": "https://www.nonplae.com/?game=metal-max-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34617,7 +34687,7 @@
     "description": "The Legend of Zelda: Spirit Tracks — แปลไทย โดย นอนแปล รายละเอียดการแปล • เนื้อเรื่อง/บทสนทนา • ต่อสู้/ศัตรู • ของสะสม • ระบบ",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-spirit-tracks",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-spirit-tracks",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34711,7 +34781,7 @@
     "description": "Phantom Hourglass ภาษาไทยโดย นอนแปล แปลไทย - เนื้อเรื่อง บทสนทนา - ข้อความต่อสู้ - ของสะสม ไอเทม - เมนูบางส่วน V1.2 - แก้การแบ่งหน้าและจังหวะข้อความอัตโนมัติคัท",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-phantom-hourglass",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-phantom-hourglass",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34805,7 +34875,7 @@
     "description": "Go Go Ackman ภาษาไทย Nonplae",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/go-go-ackman",
+    "url": "https://www.nonplae.com/?game=go-go-ackman",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34899,7 +34969,7 @@
     "description": "Pokémon FireRed Rocket Edition รายละเอียดแปล Version 1.0 โดย นอนแปล - เนื้อเรื่อง บทสนทนา NPC เทรนเนอร์ และฉากต้อนรับ - เมนู เมนูย่อย และคำอธิบายการใช้งาน - ข้อ",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-firered-rocket",
+    "url": "https://www.nonplae.com/?game=pokemon-firered-rocket",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -34993,7 +35063,7 @@
     "description": "Pokémon Adventure Red Chapter Beta 15 แปลไทย Nonplae แปลไทย ✅ เนื้อเรื่องและบทสนทนาหลัก ✅ ชื่อท่าและคำอธิบาย ✅ ข้อมูลโปเกมอนและ Ability ✅ เมนู–เมนูย่อย ✅ ตัวเลื",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-red-chapter",
+    "url": "https://www.nonplae.com/?game=pokemon-red-chapter",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35087,7 +35157,7 @@
     "description": "Pokémon Mystery Dungeon: Red Rescue Team รายละเอียดแปล - บทนำ เนื้อเรื่องหลัก จดหมาย และภารกิจ - เมนูระบบ หน้าตั้งชื่อ คำสอนเล่น และคำอธิบายภายในดันเจี้ยน - ข้อ",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-mystery-dungeon-red-rescue-team",
+    "url": "https://www.nonplae.com/?game=pokemon-mystery-dungeon-red-rescue-team",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35181,7 +35251,7 @@
     "description": "Pokemon Rowe - TH Nonplae ฉบับภาษาไทยสำหรับ Game Boy Advance รองรับการ Patch จาก Pokemon Emerald (USA, Europe) ต้นฉบับที่หาได้ง่าย โดยระบบจะสร้าง Rowe 2.1.9.1 ภ",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-rowe",
+    "url": "https://www.nonplae.com/?game=pokemon-rowe",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35275,7 +35345,7 @@
     "description": "Front Mission ภาษาไทยโดย Nonplae รุ่น R2 - เนื้อหาบทสนทนา  - เมนู คำอธิบาย",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/front-mission",
+    "url": "https://www.nonplae.com/?game=front-mission",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35369,7 +35439,7 @@
     "description": "MOTHER 2 แปลไทยโดย Nonplae ✅บทสนทนาและเนื้อเรื่อง ✅เมนูหลักและเมนูย่อย สถานะตัวละคร ✅ เมนูคำสั่งต่อสู้ ✅คำอธิบายไอเทมและสกิล",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/mother-2",
+    "url": "https://www.nonplae.com/?game=mother-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35463,7 +35533,7 @@
     "description": "Guranbo ฉบับภาษาไทยโดย terap สำหรับ Game Boy Advance รองรับ ROM ญี่ปุ่นต้นฉบับ Granbo-Lord-Moyne.gba ขนาด 8 MiB ที่ตรวจ CRC32 และ SHA-256 ตรงกัน ระบบสร้าง Granb",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/guranbo-lord",
+    "url": "https://www.nonplae.com/?game=guranbo-lord",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35557,7 +35627,7 @@
     "description": "JEANNE D’ARC ภาษาไทย โดย Nonplae ** PSP ยังมีปัญหาแก้ไขอยู่ ** ✅ ซับไทยคัทซีนเนื้อเรื่อง ✅แปลเนื้อเรื่องและบทสนทนา ✅ แปลบทพูดระหว่างต่อสู้ ✅แปลคำอธิบายไอเทมและส",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/jeanne-darce",
+    "url": "https://www.nonplae.com/?game=jeanne-darce",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35651,7 +35721,7 @@
     "description": "Daibakushou Jinsei Gekijou: Zukkoke Salaryman Hen ฉบับภาษาไทยโดย Nonplae ในเกมนี้เราแปลภาษาไทยครอบคลุมส่วนหลัก ๆ ได้แก่ - เนื้อเรื่องและบทสนทนาในเหตุการณ์ต่าง ๆ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/daibakushou-jinsei",
+    "url": "https://www.nonplae.com/?game=daibakushou-jinsei",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35745,7 +35815,7 @@
     "description": "Ogre Battle: The March of the Black Queen ภาษาไทยโดย Nonplae  ✅บทนำ เนื้อเรื่อง บทสนทนา ✅บทสนทนาการต่อสู้ ✅คำอธิบายเมนู ไอเทม ✅รายละเอียดคลาสและความสามารถ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/ogre-battle",
+    "url": "https://www.nonplae.com/?game=ogre-battle",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35839,7 +35909,7 @@
     "description": "Romancing SaGa 3 ภาษาไทยโดย Nonplae",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/romancing-saga-3",
+    "url": "https://www.nonplae.com/?game=romancing-saga-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -35933,7 +36003,7 @@
     "description": "Oni Chronicles Genesis แพตช์ภาษาไทยโดย Nonplae สำหรับ Game Boy ใช้ไฟล์ .gb ฉบับอังกฤษ v1.01 โดย Aishsha / Stardust Crusaders ที่ SHA-256 ตรงกัน ไม่ใช่ ROM ญี่ปุ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/oni-chronicles-genesis",
+    "url": "https://www.nonplae.com/?game=oni-chronicles-genesis",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36027,7 +36097,7 @@
     "description": "Oni - Bakumatsu Kourinden โดย Nonplae แปลทุกอย่างที่แปลได้ ✅ เนื้อเรื่อง บทสนทนา ✅ เมนู หัวข้อต่างๆ TH-EN ✅ รายละเอียดไอเทม ✅ รายละเอียดท่า V79: แก้หัวข้อ ONI ฟ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bakumatsu-kourinden-oni",
+    "url": "https://www.nonplae.com/?game=bakumatsu-kourinden-oni",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36121,7 +36191,7 @@
     "description": "Dragon Ball Z Gokuu Hishouden ภาษาไทยโดย Nonplae ✅เนื้อเรื่อง บทสนทนา ✅เมนู ช้อยต่างๆ ✅ชื่อท่า บทต่อสู้ภาษาไทย",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dragon-ball-z-gokuu-hishouden",
+    "url": "https://www.nonplae.com/?game=dragon-ball-z-gokuu-hishouden",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36215,7 +36285,7 @@
     "description": "Oni V - Innin o Tsugumono (TH by Nonplae) แปลทุกอย่าง ✅เนื้อเรื่อง บทสนทนา ✅เมนู ✅รายละเอียดไอเทม ✅รายละเอียดสกิล",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/oni-v-innin-o-tsugumono",
+    "url": "https://www.nonplae.com/?game=oni-v-innin-o-tsugumono",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36309,7 +36379,7 @@
     "description": "The Sims: Bustin' Out ฉบับภาษาไทยโดย นอนแปล สำหรับ Game Boy Advance แปลเนื้อเรื่องและบทสนทนา พร้อมฟอนต์ไทย 8×12 รองรับเฉพาะ ROM USA Rev 1 ต้นฉบับที่มี SHA-256 ต",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/the-sims-bustin-out",
+    "url": "https://www.nonplae.com/?game=the-sims-bustin-out",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36403,7 +36473,7 @@
     "description": "Harvest Moon: More Friends of Mineral Town ฉบับภาษาไทยโดย Nonplae สำหรับ Game Boy Advance รองรับเฉพาะ ROM USA ต้นฉบับที่มี SHA-256 ตรงกัน ✅ตั้งชื่อภาษาไทย ✅เนื้",
     "genre": "Adventure",
     "series": "Harvest Moon",
-    "url": "https://www.nonplae.com/games/harvest-moon-more-friends-of-mineral-town",
+    "url": "https://www.nonplae.com/?game=harvest-moon-more-friends-of-mineral-town",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36497,7 +36567,7 @@
     "description": "Ginga Sengoku Gunyuuden Rai ฉบับภาษาไทยโดยพี่ terap",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/ginga-sengoku-gunyuuden-rai",
+    "url": "https://www.nonplae.com/?game=ginga-sengoku-gunyuuden-rai",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36591,7 +36661,7 @@
     "description": "Mega Man Xtreme ฉบับภาษาไทยโดย Nonplae เน้นเนื้อเรื่องและบทสนทนา",
     "genre": "Adventure",
     "series": "Mega Man",
-    "url": "https://www.nonplae.com/games/mega-man-xtreme",
+    "url": "https://www.nonplae.com/?game=mega-man-xtreme",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36685,7 +36755,7 @@
     "description": "Mega Man Xtreme 2 ฉบับภาษาไทยโดย Nonplae แปลเนื้อเรื่อง บทสนทนา ไอเทม และอาวุธ",
     "genre": "Adventure",
     "series": "Mega Man",
-    "url": "https://www.nonplae.com/games/mega-man-xtreme-2",
+    "url": "https://www.nonplae.com/?game=mega-man-xtreme-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36779,7 +36849,7 @@
     "description": "Legend of the River King ฉบับภาษาไทยสำหรับ Game Boy Color แปลเนื้อเรื่อง",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/legend-of-the-river-king",
+    "url": "https://www.nonplae.com/?game=legend-of-the-river-king",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36873,7 +36943,7 @@
     "description": "Resident Evil Gaiden ฉบับภาษาไทย ✅เนื้อเรื่อง บทสนทนา ✅เอกสาร ✅รายละเอียดไอเทม",
     "genre": "Action",
     "series": "Resident Evil",
-    "url": "https://www.nonplae.com/games/resident-evil-gaiden",
+    "url": "https://www.nonplae.com/?game=resident-evil-gaiden",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -36967,7 +37037,7 @@
     "description": "Metal Gear Solid ฉบับภาษาไทยโดย Nonplae ✅เนื้อหา ✅รายละเอียดอาวุธ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/metal-gear-solid",
+    "url": "https://www.nonplae.com/?game=metal-gear-solid",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37061,7 +37131,7 @@
     "description": "Summon Night: Swordcraft Story ฉบับภาษาไทยโดย Nonplae  ✅เนื้อเรื่อง ✅เมนู ✅รายละเอียดไอเทม ✅รายละเอียดสกิล ✅เท่าที่จะแปลได้",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/summon-night-swordcraft-story",
+    "url": "https://www.nonplae.com/?game=summon-night-swordcraft-story",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37155,7 +37225,7 @@
     "description": "SD Gundam - G Generation Over World ฉบับภาษาไทยโดย Nonplae รุ่น V6.4.19 รองรับ CHD, ISO, ZIP หรือ RAR ที่มี ROM ภาษาอังกฤษต้นฉบับตรงรุ่นหรือ ISO ภาษาไทย V6.4.19",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/sd-gundam-g-generation-over-world",
+    "url": "https://www.nonplae.com/?game=sd-gundam-g-generation-over-world",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37249,7 +37319,7 @@
     "description": "Yu-Gi-Oh! GX - Tag Force — แพตช์ภาษาไทย Version 1.3 (PSP) หัวข้อที่แปล: • เนื้อเรื่องและบทสนทนาภาษากลาง • รายละเอียดและเอฟเฟกต์การ์ด โดยคงชื่อการ์ดภาษาอังกฤษ •",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-gx-tag-force",
+    "url": "https://www.nonplae.com/?game=yugioh-gx-tag-force",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37343,7 +37413,7 @@
     "description": "แพตช์ภาษาไทยรุ่น 024 สำหรับ PSP แก้ชื่อการ์ดที่อ้างในคำอธิบายครบทั้งฐาน พร้อมบทสอน ผลดูเอล และข้อความ POPUP รองรับ ISO Japan (T-En by Nzxth2 v1.1) หรือ ZIP/RAR",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-5ds-tag-force-6",
+    "url": "https://www.nonplae.com/?game=yugioh-5ds-tag-force-6",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37437,7 +37507,7 @@
     "description": "Yu-Gi-Oh! GX Tag Force 3 ฉบับภาษาไทยโดย Nonplae  รองรับ ISO Europe ต้นฉบับที่ตรวจสอบตรงกันเท่านั้น ✅แปลเนื้อเรื่อง ✅แปลการ์ดทุกใบ ✅แปลคัทซีน ✅แปลมินิเกม ✅แปลเมน",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-gx-tag-force-3",
+    "url": "https://www.nonplae.com/?game=yugioh-gx-tag-force-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37531,7 +37601,7 @@
     "description": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 ภาษาไทยโดย ✅รายละเอียดการ์ด ✅ป๊อปอัปในสนาม ✅เมนูบางส่วน",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-ultimate-masters-2006",
+    "url": "https://www.nonplae.com/?game=yugioh-ultimate-masters-2006",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37625,7 +37695,7 @@
     "description": "Kenyuu Densetsu Yaiba ฉบับภาษาไทยโดย Nonplae เน้นเนื้อเรื่องและบทสนทนา รองรับ ROM ญี่ปุ่น ✅เทสเล่นจบ เข้าใจแน่นอน ✅แปลเนื้อเรื่อง 95% มีหลุดญี่ปุ่นบ้าง  ❎ไม่ได้",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/kenyuu-densetsu-yaiba",
+    "url": "https://www.nonplae.com/?game=kenyuu-densetsu-yaiba",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37719,7 +37789,7 @@
     "description": "Pokémon Heart and Soul ฉบับภาษาไทยโดย Nonplae  รองรับ ROM Pokémon Emerald (USA, Europe) ต้นฉบับ  ✅แปลเนื้อเรื่อง บทสนทนา ✅แปลไอเทม ✅แปลท่า & ability ✅แปล Info",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-heart-and-soul",
+    "url": "https://www.nonplae.com/?game=pokemon-heart-and-soul",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37813,7 +37883,7 @@
     "description": "Super Robot Taisen: Original Generation รองรับเฉพาะ ROM USA ที่มี CRC32 ตรงกัน ✅ เนื้อเรื่อง ✅ บทต่อสู้",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-original-generation",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-original-generation",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -37907,7 +37977,7 @@
     "description": "Super Robot Taisen: Original Generation 2 ฉบับภาษาไทยโดย Nonplae เน้นเฉพาะเนื้อเรื่อง",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-taisen-original-generation-2",
+    "url": "https://www.nonplae.com/?game=super-robot-taisen-original-generation-2",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38001,7 +38071,7 @@
     "description": "Super Robot Wars J ภาษาไทย ✅แปลเนื้อเรื่อง คำบรรยาย  ✅ข้อความต่อสู้",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/super-robot-wars-j",
+    "url": "https://www.nonplae.com/?game=super-robot-wars-j",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38095,7 +38165,7 @@
     "description": "Kingdom Hearts - Chain of Memories ฉบับภาษาไทย ✅เนื้อเรื่องบทสนทนา ✅ข้อมูลเวท ✅ข้อมูลการ์ด ✅รายละเอียดต่างๆ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/kingdom-hearts-chain-of-memories",
+    "url": "https://www.nonplae.com/?game=kingdom-hearts-chain-of-memories",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38189,7 +38259,7 @@
     "description": "Pokémon Unbound v2.1.1.1 ฉบับภาษาไทยโดย Nonplae รุ่น V16 แก้ภาษาและฟอนต์เพี้ยนในหน้า Move Reminder ตอนใช้ Heart Scale เรียนท่า รวมถึงคำอธิบาย Power Swap และประโ",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-unbound",
+    "url": "https://www.nonplae.com/?game=pokemon-unbound",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38283,7 +38353,7 @@
     "description": "Final Fantasy Adventure ฉบับภาษาไทยโดย Nonplae รุ่นฟอนต์ 8×14 เน้นเนื้อเรื่องและบทสนทนา",
     "genre": "RPG",
     "series": "Final Fantasy",
-    "url": "https://www.nonplae.com/games/final-fantasy-adventure",
+    "url": "https://www.nonplae.com/?game=final-fantasy-adventure",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38377,7 +38447,7 @@
     "description": "Pokémon SoulGold แพตช์ไทย V1.3 โดย Nonplae บนฐาน Official V1.2 แก้ BOX 18 ค้าง คืนชื่อท่าเป็นอังกฤษ และเก็บคำอธิบายท่าภาษาไทย พร้อมฟอนต์ไทยและแถบเครดิต มีฐานเกม",
     "genre": "RPG",
     "series": "Pokémon",
-    "url": "https://www.nonplae.com/games/pokemon-soulgold",
+    "url": "https://www.nonplae.com/?game=pokemon-soulgold",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38471,7 +38541,7 @@
     "description": "เกม RPG ระดับตำนานจาก Camelot ฉบับภาษาไทยโดย นอนแปล เน้นเนื้อเรื่องและบทสนทนา V1.1 ✅ แก้ไขคำแปลแปลกๆ ที่หลุดจาก google ตอนเทส",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/golden-sun",
+    "url": "https://www.nonplae.com/?game=golden-sun",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38565,7 +38635,7 @@
     "description": "ภาคต่อของ Golden Sun ฉบับภาษาไทยโดย นอนแปล เน้นเนื้อเรื่องและบทสนทนา",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/golden-sun-the-lost-age",
+    "url": "https://www.nonplae.com/?game=golden-sun-the-lost-age",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38659,7 +38729,7 @@
     "description": "Dokapon! Ikari no Tekken ภาษาไทย V2.1 - แก้อาการค้างในการต่อสู้กับโกเลมเมื่อหน่วยความจำเสียงไม่พอ ทดสอบโกเลม 3 แบบ - แก้การสุ่มชื่อภาษาไทยของ CPU ทดสอบ 100 ชื่อ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/dokapon-ikari-no-tekken",
+    "url": "https://www.nonplae.com/?game=dokapon-ikari-no-tekken",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38753,7 +38823,7 @@
     "description": "Rockman X4 ฉบับภาษาไทยโดย นอนแปล เน้นเนื้อเรื่องและบทสนทนา พร้อมเมนู ฟอนต์ไทย และซับไตเติล รองรับเฉพาะ Rockman X4 (Japan) BIN ต้นฉบับที่ตรวจสอบไว้",
     "genre": "Action",
     "series": "Mega Man",
-    "url": "https://www.nonplae.com/games/rockman-x4",
+    "url": "https://www.nonplae.com/?game=rockman-x4",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38847,7 +38917,7 @@
     "description": "Rockman X3 ฉบับภาษาไทยโดย Nonplae เน้นเนื้อเรื่องและบทสนทนา พร้อมฟอนต์ไทย  รองรับ ROM แปลอังกฤษโดย Solid One v0.1 ที่ตรวจสอบตรงกันเท่านั้น",
     "genre": "Action",
     "series": "Mega Man",
-    "url": "https://www.nonplae.com/games/rockman-x3",
+    "url": "https://www.nonplae.com/?game=rockman-x3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -38941,7 +39011,7 @@
     "description": "Ganbare Goemon 3 รองรับ ROM USA 🆙Update วันที่ 23/08/2026🆙 1. โรงแรมค้างตอนเลือกจ่ายเงิน 2. สไปรท์กระพริบ มีบล็อกสีทับตัวละคร 3. กล่อง cutscene เป็นตัวอักษรมั่ว",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/ganbare-goemon-3",
+    "url": "https://www.nonplae.com/?game=ganbare-goemon-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39035,7 +39105,7 @@
     "description": "วิถีซามูไร คมดาบสะท้านภพ หรือ Shinsetsu Samurai Spirits ฉบับแปลไทย แปลหมดเท่าที่จะแปลได้ 🔥 ✅เนื้อเรื่อง บทสนทนา ✅เมนู ✅รายละเอียดต่อสู้ ✅รายละเอียดไอเทม ✅รายละเ",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/shinsetsu-samurai-spirits",
+    "url": "https://www.nonplae.com/?game=shinsetsu-samurai-spirits",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39129,7 +39199,7 @@
     "description": "เกมการ์ด RPG บน PlayStation ฉบับภาษาไทยโดย Nonplae รองรับเฉพาะไฟล์ BIN ต้นฉบับที่ตรวจสอบตรงกัน ✅ เนื้อเรื่อง ✅ รายละเอียดการ์ด",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/yugioh-forbidden-memorise",
+    "url": "https://www.nonplae.com/?game=yugioh-forbidden-memorise",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39223,7 +39293,7 @@
     "description": "เกมวางแผนการรบและเลี้ยงมังกรจาก Square ฉบับภาษาไทยโดย นอนแปล - TH Ver1.3 ถ้ากรณีเปิด Cheat เล่นจะทำให้บ้างด่านมีปัญหา แนะนำให้ปิดนะครับ ที่แก้ไข - Font เพี้ยนช่",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/bahamut-lagoon",
+    "url": "https://www.nonplae.com/?game=bahamut-lagoon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39317,7 +39387,7 @@
     "description": "เกมวางแผนการรบแห่งตำนานจาก Intelligent Systems ฉบับภาษาไทยโดย Nonplae เน้นเนื้อเรื่องและบทสนทนา V1.1 ✅ แก้ไขปัญหาจอดำ",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-seisen-no-keifu",
+    "url": "https://www.nonplae.com/?game=fire-emblem-seisen-no-keifu",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39411,7 +39481,7 @@
     "description": "เกมวางแผนกลยุทธ์แฟนตาซีฉบับภาษาไทยโดย นอนแปล เน้นคำแปลเนื้อเรื่องและบทสนทนา",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/langrisser-i-ii",
+    "url": "https://www.nonplae.com/?game=langrisser-i-ii",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39505,7 +39575,7 @@
     "description": "เกมจำลองชีวิตในฟาร์มฉบับภาษาไทยโดย นอนแปล สำหรับ SNES รองรับเฉพาะ ROM .sfc ของ USA, Europe, Germany และ Bokujou Monogatari (Japan) ตรวจ SHA-256 ก่อนและหลัง Patc",
     "genre": "Adventure",
     "series": "Harvest Moon",
-    "url": "https://www.nonplae.com/games/harvest-moon",
+    "url": "https://www.nonplae.com/?game=harvest-moon",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39599,7 +39669,7 @@
     "description": "Seiken Densetsu 3 (SNES) แปลโดย Nonplae แก้ไขจนถึงจุดจบของเกมเรียบร้อยแล้ว",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/seiken-densetsu-3",
+    "url": "https://www.nonplae.com/?game=seiken-densetsu-3",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39693,7 +39763,7 @@
     "description": "การผจญภัยระดับตำนานของ Link ฉบับภาษาไทยโดย นอนแปล รองรับเฉพาะ ROM USA พร้อมตัวเลือกสีผมต้นฉบับหรือผมสีทอง",
     "genre": "Adventure",
     "series": "The Legend of Zelda",
-    "url": "https://www.nonplae.com/games/the-legend-of-zelda-a-link-to-the-past",
+    "url": "https://www.nonplae.com/?game=the-legend-of-zelda-a-link-to-the-past",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39787,7 +39857,7 @@
     "description": "Breath of Fire (SNES)  — ภาษาไทย 🇹🇭 🔥Version 2.0 ทำใหม่หมด  ✅ แปลเนื้อเรื่อง-บทสนทนา ✅ แปลรายละเอียดสกิล,ไอเทม ✅ ข้อความฉากต่อสู้",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/breath-of-fire",
+    "url": "https://www.nonplae.com/?game=breath-of-fire",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39881,7 +39951,7 @@
     "description": "Lufia II: Rise of the Sinistrals ฉบับภาษาไทยโดย Nonplae แปลเนื้อเรื่องและบทสนทนาครบ พร้อมฟอนต์ไทยและระบบข้อความสำหรับ ROM ที่ขยายพื้นที่ รองรับเฉพาะ ROM USA ต้น",
     "genre": "Adventure",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/lufia-2-rise-of-the-sinistrals",
+    "url": "https://www.nonplae.com/?game=lufia-2-rise-of-the-sinistrals",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -39975,7 +40045,7 @@
     "description": "Fire Emblem - The Binding Blade รายละเอียดแปล - แปลเนื้อเรื่อง บทสนทนา Support บทนำ และตอนจบตัวละคร - แปลคำอธิบาย ระบบ เมนู ร้านค้า และสนามประลอง - เพิ่มฟอนต์ไท",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-the-binding-blade",
+    "url": "https://www.nonplae.com/?game=fire-emblem-the-binding-blade",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -40069,7 +40139,7 @@
     "description": "Fire Emblem: The Blazing Blade ฉบับภาษาไทยโดย Nonplae  ✅แปลเนื้อเรื่อง  ✅บทสนทนา  ✅เมนู  ✅คำอธิบาย",
     "genre": "RPG",
     "series": "เกมอื่น ๆ",
-    "url": "https://www.nonplae.com/games/fire-emblem-the-blazing-blade",
+    "url": "https://www.nonplae.com/?game=fire-emblem-the-blazing-blade",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -40163,7 +40233,7 @@
     "description": "การผจญภัยข้ามรุ่นของ Dragon Quest V ฉบับภาษาไทยโดย นอนแปล เน้นเนื้อเรื่องและบทสนทนา พร้อมฟอนต์ไทย 8×12 ที่ออกแบบสำหรับเกมโดยเฉพาะ",
     "genre": "RPG",
     "series": "Dragon Quest",
-    "url": "https://www.nonplae.com/games/dragon-quest-v",
+    "url": "https://www.nonplae.com/?game=dragon-quest-v",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
@@ -40257,7 +40327,7 @@
     "description": "การผจญภัยระหว่างโลกแห่งความจริงและโลกแห่งความฝันของ Dragon Quest VI ฉบับภาษาไทยโดย นอนแปล V1.1 - แก้ไขอาการค้าง เวลากด Info > All V1.2 - info ดูยอดเงินได้แล้ว",
     "genre": "RPG",
     "series": "Dragon Quest",
-    "url": "https://www.nonplae.com/games/dragon-quest-vi",
+    "url": "https://www.nonplae.com/?game=dragon-quest-vi",
     "navigationNote": "",
     "catalogAddedAt": "2026-10-29",
     "sourceLocation": {
