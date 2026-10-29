@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-10-29T02:30:00Z",
+  "scope": "Reviewed new candidates with patch_listed availability, exact deeplinks, decoded covers, verified patch dates and playtime hours",
+  "pass": true,
+  "games": [
+    {
+      "id": "gayray-sync-treasure-hunter-g-sfc",
+      "title": "Treasure Hunter G",
+      "platform": "SNES",
+      "team": "เกเรแปลไทย",
+      "version": "v1.0",
+      "updated": "2026-10-18",
+      "url": "https://gayray.pages.dev/#game=treasure-hunter-g-sfc",
+      "cover": "https://gayray.pages.dev/covers/treasure-hunter-g-sfc-card.jpg",
+      "playTimeHours": 18
+    },
+    {
+      "id": "gayray-sync-zero-4-champ-rr-z-sfc",
+      "title": "Zero 4 Champ RR-Z",
+      "platform": "SNES",
+      "team": "เกเรแปลไทย",
+      "version": "v1.0",
+      "updated": "2026-10-27",
+      "url": "https://gayray.pages.dev/#game=zero-4-champ-rr-z-sfc",
+      "cover": "https://gayray.pages.dev/covers/zero-4-champ-rr-z-sfc-card.jpg",
+      "playTimeHours": 20
+    },
+    {
+      "id": "gayray-sync-bushi-seiryuuden-sfc",
+      "title": "Bushi Seiryuuden - Futari no Yuusha",
+      "platform": "SNES",
+      "team": "เกเรแปลไทย",
+      "version": "v1.0",
+      "updated": "2026-10-29",
+      "url": "https://gayray.pages.dev/#game=bushi-seiryuuden-sfc",
+      "cover": "https://gayray.pages.dev/covers/bushi-seiryuuden-sfc-card.jpg",
+      "playTimeHours": 15
+    },
+    {
+      "id": "ext-041",
+      "title": "Kamen Rider: Seigi no Keifu",
+      "platform": "PS2",
+      "team": "Memory Card TH",
+      "version": "V1.0",
+      "updated": "2026-10-27",
+      "url": "https://memorycardth.com/#/Kamen%20Rider%3A%20Seigi%20no%20Keifu/0",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Kamen%20Rider%20-%20Seigi%20no%20Keifu%20%28Japan%29.png",
+      "playTimeHours": 8
+    },
+    {
+      "id": "ext-042",
+      "title": "Mega Man Legends",
+      "platform": "PS1",
+      "team": "Memory Card TH",
+      "version": "V1.0",
+      "updated": "2026-10-25",
+      "url": "https://memorycardth.com/#/Mega%20Man%20Legends%20%28%E0%B9%80%E0%B8%A1%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A1%E0%B8%99%20%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%AA%29/0",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20Legends%20%28USA%29.png",
+      "playTimeHours": 14
+    },
+    {
+      "id": "ext-043",
+      "title": "Chocobo Racing",
+      "platform": "PS1",
+      "team": "Memory Card TH",
+      "version": "V1.0",
+      "updated": "2026-10-23",
+      "url": "https://memorycardth.com/#/Chocobo%20Racing%20%28%E0%B9%82%E0%B8%8A%E0%B9%82%E0%B8%81%E0%B9%82%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%8b%E0%B8%8b%E0%B8%B4%E0%B9%88%E0%B8%87%20~%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B9%81%E0%B8%94%E0%B8%99%E0%B8%A0%E0%B8%B9%E0%B8%95~%29/0",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Chocobo%20Racing%20%28USA%29.png",
+      "playTimeHours": 4
+    },
+    {
+      "id": "ext-044",
+      "title": "Tenchu: Stealth Assassins",
+      "platform": "PS1",
+      "team": "Memory Card TH",
+      "version": "V1.0",
+      "updated": "2026-10-23",
+      "url": "https://memorycardth.com/#/Tenchu%3A%20Stealth%20Assassins/0",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tenchu%20-%20Stealth%20Assassins%20%28USA%29.png",
+      "playTimeHours": 10
+    },
+    {
+      "id": "ext-045",
+      "title": "Wild Arms 2",
+      "platform": "PS1",
+      "team": "Memory Card TH",
+      "version": "V1.0",
+      "updated": "2026-10-25",
+      "url": "https://memorycardth.com/#/Wild%20Arms%202%20%28%E0%B9%84%E0%B8%A7%E0%B8%A5%E0%B8%94%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B8%AA%E0%B9%8C%202%29/0",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wild%20Arms%202%20%28USA%29%20%28Disc%201%29.png",
+      "playTimeHours": 40
+    },
+    {
+      "id": "ext-046",
+      "title": "God of War",
+      "platform": "PS2",
+      "team": "Memory Card TH",
+      "version": "V1.2",
+      "updated": "2026-10-27",
+      "url": "https://memorycardth.com/#/God%20of%20War/0",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+      "playTimeHours": 9
+    }
+  ]
+}

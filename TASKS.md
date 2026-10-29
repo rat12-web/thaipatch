@@ -1,5 +1,12 @@
 # Remaining work
 
+Current 2026-10-29 result: 144 cards / 142 groups,
+nine sources / 106 exact matches (Gayray 18/18 matched, Memory Card TH 26/182 matched);
+added Playtime sort option and front-page recent updates banner.
+Evidence recorded in evidence/2026-10-29/reviewed-additions.json.
+
+The earlier snapshot below is historical.
+
 Current 2026-10-17 result: correct repository confirmed, 135 cards / 133 groups,
 nine sources / 566 rows / 97 matches / 469 pending rows; Gayray 15/15.
 Eight represented teams remain manual. ROMMEAOW syncs versions only;

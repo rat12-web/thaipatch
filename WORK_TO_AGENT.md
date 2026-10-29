@@ -1,3 +1,26 @@
+## 2026-10-29 — Playtime sort, front-page recent updates and reviewed catalog additions
+
+Owner: Active Repository Agent (Antigravity); branch `task/playtime-catalog-updates`.
+
+Catalog: 144 entries / 142 game-platform groups (expanded from 135 entries).
+Added 9 verified games with exact deeplinks, decoded covers, and verified patch dates:
+1. เกเรแปลไทย (SFC/SNES, 3 games): `gayray-sync-treasure-hunter-g-sfc` (Treasure Hunter G), `gayray-sync-zero-4-champ-rr-z-sfc` (Zero 4 Champ RR-Z), `gayray-sync-bushi-seiryuuden-sfc` (Bushi Seiryuuden - Futari no Yuusha). เกเรแปลไทย is now 18/18 matched (100%).
+2. Memory Card TH (PS1/PS2, 6 games): `ext-041` (Kamen Rider: Seigi no Keifu), `ext-042` (Mega Man Legends), `ext-043` (Chocobo Racing), `ext-044` (Tenchu: Stealth Assassins), `ext-045` (Wild Arms 2), `ext-046` (God of War). Memory Card TH exact matches increased from 20 to 26.
+
+Features implemented:
+1. Sort by Play Time: added `playtime` (เวลาเล่น สั้นไปยาว) and `playtime_desc` (เวลาเล่น ยาวไปสั้น) in `#sortSelect`. Added `playTimeHours` across all catalog entries derived from HowLongToBeat Main Story retro game averages, and rendered playtime tag (`⏱️ ~X ชม.`) in game card metadata.
+2. Front-page Recent Updates: added `#recentUpdatesSection` and dynamic `renderRecentUpdates()` showing recent updates from yesterday and this week (e.g. Bushi Seiryuuden, Zero 4 Champ RR-Z, Kamen Rider Seigi no Keifu, Onimusha 2, Final Fantasy IX), displaying game title, console platform, translator team, update/patch details, and timestamp. Fully responsive for 1440px, 390px, and 320px viewports.
+
+Verification:
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (updater fixtures and exact match validation)
+- `python .sync/refresh.py --check`: PASS (catalog and embedded data agree)
+- `python .sync/refresh.py`: PASS (all 9 feeds ok; Gayray 18/18 matched, Memory Card TH 26/182 matched)
+- `npm test`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- Evidence recorded in `evidence/2026-10-29/reviewed-additions.json`.
+
+---
+
 ## 2026-10-17 — Correct repository, reviewed additions and nine-source sync
 
 Owner: Codex; repository rat12-web/thaipatch; branch codex/complete-catalog-sync.
