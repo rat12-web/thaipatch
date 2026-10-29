@@ -649,3 +649,34 @@ html[data-theme] .cover .translatorplate .name{font-size:11px!important;max-widt
 .cover.has-art .image-fallback{visibility:hidden}
 .source-date{display:block;color:var(--sub);font-size:11px;line-height:1.6;min-height:18px}.source-date-unknown{font-size:10px}
 @media(max-width:600px){html[data-theme] .cover-console .console-mark .console-logo{width:54px!important;height:16px!important}.cover-console{min-width:76px;min-height:30px;padding:6px 8px 6px 13px}.console-mark{min-width:86px}.card-meta{gap:8px}}
+
+/* Playtime badge and recent updates styling */
+.meta-dot{display:inline-block;margin:0 4px;color:var(--line);opacity:0.7}
+.card-playtime{color:var(--mint);font-size:11px;font-weight:700}
+.recent-updates-section{margin:0 0 36px}
+.recent-updates-box{border:2px solid var(--frame);border-radius:6px;background:var(--surface);box-shadow:4px 4px 0 var(--shade);padding:18px 20px}
+.recent-updates-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid var(--line);padding-bottom:10px}
+.recent-updates-title{display:flex;align-items:center;gap:10px;font-size:16px;color:var(--txt)}
+.recent-updates-badge{background:var(--surface2);border:1px solid var(--line);border-radius:4px;padding:2px 8px;font:700 11px/1.4 ui-monospace,monospace;color:var(--sub)}
+.recent-updates-hint{font-size:12px;color:var(--sub)}
+.recent-updates-track{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.recent-update-card{display:flex;align-items:center;gap:12px;background:var(--surface2);border:1px solid var(--line);border-radius:5px;padding:10px 14px;color:inherit;text-decoration:none;transition:border-color .15s,transform .15s;min-width:0}
+.recent-update-card:hover{border-color:var(--blue);transform:translateY(-1px)}
+.update-card-badge{flex:none;background:var(--mint);color:#fff;font:800 10px/1.2 ui-monospace,monospace;padding:4px 6px;border-radius:3px;text-align:center;letter-spacing:0.5px}
+html[data-theme="dark"] .update-card-badge{background:#185a9d;color:#e8f4ff}
+.update-card-content{flex:1;min-width:0;overflow:hidden}
+.update-card-title{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--txt);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.update-card-title strong{overflow:hidden;text-overflow:ellipsis}
+.update-pf-tag{font:800 10px/1 ui-monospace,monospace;color:var(--sub);background:var(--surface);border:1px solid var(--line);padding:2px 5px;border-radius:3px;flex:none}
+.update-card-meta{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--sub);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.update-team-name{font-weight:700;color:var(--txt);flex:none}
+.update-change{color:var(--sub);overflow:hidden;text-overflow:ellipsis}
+.update-card-arrow{color:var(--mint);font-size:14px;flex:none}
+@media(max-width:600px){
+  .recent-updates-box{padding:14px 12px}
+  .recent-updates-title{font-size:14px}
+  .recent-updates-track{grid-template-columns:1fr;gap:8px}
+  .recent-update-card{padding:8px 10px;gap:8px}
+  .update-card-title{font-size:12px}
+  .update-card-meta{font-size:10px}
+}

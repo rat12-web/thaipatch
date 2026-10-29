@@ -92,7 +92,8 @@
       "sourceVersion": "V1.1",
       "artifactReference": "/dl/PS2/DokaponDX/DokaponDX_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 20
   },
   {
     "id": "ext-002",
@@ -177,7 +178,8 @@
       "sourceVersion": "V1.2",
       "artifactReference": "/dl/PS1/MGS1/MGS1_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 11
   },
   {
     "id": "ext-003",
@@ -261,7 +263,8 @@
       "sourceVersion": "V1.0",
       "artifactReference": "/dl/PS2/Onimusha3/Onimusha3_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 11
   },
   {
     "id": "ext-004",
@@ -345,7 +348,8 @@
       "sourceVersion": "V1.5",
       "artifactReference": "/dl/PSP/Pangya/Pangya_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 15
   },
   {
     "id": "ext-005",
@@ -440,7 +444,8 @@
       "sourceVersion": "V1.1",
       "artifactReference": "/dl/PS2/Onimusha2/Onimusha2_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 7
   },
   {
     "id": "ext-006",
@@ -524,7 +529,8 @@
       "sourceVersion": "V1.2",
       "artifactReference": "/dl/PS1/Xenogears/Xenogears_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 65
   },
   {
     "id": "ext-007",
@@ -619,7 +625,8 @@
       "sourceVersion": "V1.3",
       "artifactReference": "/dl/PS2/FF12_IZJS/FF12_IZJS_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 60
   },
   {
     "id": "ext-008",
@@ -714,7 +721,8 @@
       "sourceVersion": "V1.0",
       "artifactReference": "/dl/PS1/BishiBashi2/BishiBashi2_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 2
   },
   {
     "id": "ext-009",
@@ -809,7 +817,8 @@
       "sourceVersion": "V1.0",
       "artifactReference": "/dl/PS2/NarutoAccel2/NarutoAccel2_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 12
   },
   {
     "id": "ext-010",
@@ -904,7 +913,8 @@
       "sourceVersion": "V1.1",
       "artifactReference": "/dl/PS2/DokaponWorld/DokaponTheWorld_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-011",
@@ -999,7 +1009,8 @@
       "sourceVersion": "V1.3",
       "artifactReference": "/dl/PS1/RE1/RE1_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "ext-012",
@@ -1094,7 +1105,8 @@
       "sourceVersion": "V1.0",
       "artifactReference": "/dl/PS2/RECVX/ResidentEvilCodeVeronicaX_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "ext-013",
@@ -1189,7 +1201,8 @@
       "sourceVersion": "V1.1",
       "artifactReference": "/dl/PS1/Musashi/Musashi_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 12
   },
   {
     "id": "ext-014",
@@ -1284,7 +1297,8 @@
       "sourceVersion": "V1.3",
       "artifactReference": "/dl/PS1/FF9/FF9_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 16
   },
   {
     "id": "ext-015",
@@ -1379,7 +1393,8 @@
       "sourceVersion": "V1.3",
       "artifactReference": "/dl/PS1/FF7/FF7_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 32
   },
   {
     "id": "ext-016",
@@ -1474,7 +1489,8 @@
       "sourceVersion": "V1.1",
       "artifactReference": "/dl/PS1/FF8/FF8_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 32
   },
   {
     "id": "ext-017",
@@ -1569,7 +1585,8 @@
       "sourceVersion": "V1.7",
       "artifactReference": "/dl/PS1/Tokimeki/Tokimeki_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "ext-018",
@@ -1664,7 +1681,8 @@
       "sourceVersion": "V2.0",
       "artifactReference": "/dl/PS1/RE3/RE3_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "ext-019",
@@ -1759,7 +1777,8 @@
       "sourceVersion": "V1.2",
       "artifactReference": "/dl/PS2/DBZ3/DBZ3_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "ext-020",
@@ -1854,7 +1873,8 @@
       "sourceVersion": "V2.1",
       "artifactReference": "/dl/PS1/RE2/RE2_Thai.zip",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "ext-021",
@@ -1946,7 +1966,8 @@
       "sourceVersion": "1.0",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-022",
@@ -2038,7 +2059,8 @@
       "sourceVersion": "1.1",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-023",
@@ -2130,7 +2152,8 @@
       "sourceVersion": "1.0",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-024",
@@ -2222,7 +2245,8 @@
       "sourceVersion": "1.3",
       "checkedAt": "2026-10-20T11:52:28.362982+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-025",
@@ -2314,7 +2338,8 @@
       "sourceVersion": "1.0.3",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-026",
@@ -2406,7 +2431,8 @@
       "sourceVersion": "1.0.1",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 32
   },
   {
     "id": "ext-027",
@@ -2498,7 +2524,8 @@
       "sourceVersion": "1.1",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "ext-028",
@@ -2590,7 +2617,8 @@
       "sourceVersion": "1.0",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "ext-029",
@@ -2674,7 +2702,8 @@
       "sourceVersion": "1.1",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 32
   },
   {
     "id": "ext-030",
@@ -2758,7 +2787,8 @@
       "sourceVersion": "1.2",
       "checkedAt": "2026-10-17T03:37:48.288362+00:00",
       "evidence": ".sync/report.json"
-    }
+    },
+    "playTimeHours": 32
   },
   {
     "id": "ext-031",
@@ -2847,7 +2877,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 15
   },
   {
     "id": "ext-032",
@@ -2936,7 +2967,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 5
   },
   {
     "id": "ext-033",
@@ -3025,7 +3057,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 40
   },
   {
     "id": "ext-034",
@@ -3113,7 +3146,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "ext-035",
@@ -3202,7 +3236,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "ext-036",
@@ -3291,7 +3326,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 9
   },
   {
     "id": "ext-037",
@@ -3380,7 +3416,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 5
   },
   {
     "id": "ext-038",
@@ -3469,7 +3506,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 45
   },
   {
     "id": "ext-039",
@@ -3572,7 +3610,8 @@
       "sourceVersion": "1.0",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 40
   },
   {
     "id": "ext-040",
@@ -3666,7 +3705,8 @@
       "sourceVersion": "v1.1 Full • 2 Title",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-001",
@@ -3760,7 +3800,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-002",
@@ -3854,7 +3895,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-003",
@@ -3948,7 +3990,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-004",
@@ -4042,7 +4085,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 15
   },
   {
     "id": "monster-005",
@@ -4136,7 +4180,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-006",
@@ -4223,7 +4268,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 15
   },
   {
     "id": "monster-007",
@@ -4310,7 +4356,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-008",
@@ -4397,7 +4444,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-009",
@@ -4484,7 +4532,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-010",
@@ -4571,7 +4620,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-011",
@@ -4665,7 +4715,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-012",
@@ -4759,7 +4810,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-013",
@@ -4853,7 +4905,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 9
   },
   {
     "id": "monster-014",
@@ -4947,7 +5000,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-016",
@@ -5034,7 +5088,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-017",
@@ -5128,7 +5183,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-018",
@@ -5222,7 +5278,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-019",
@@ -5316,7 +5373,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-020",
@@ -5410,7 +5468,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-021",
@@ -5504,7 +5563,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-022",
@@ -5598,7 +5658,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-023",
@@ -5692,7 +5753,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "monster-024",
@@ -5779,7 +5841,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "retro-201",
@@ -5855,7 +5918,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "retro-202",
@@ -5942,7 +6006,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "retro-203",
@@ -6028,7 +6093,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 9
   },
   {
     "id": "retro-204",
@@ -6113,7 +6179,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-nongjaa-01",
@@ -6189,7 +6256,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "new-nongjaa-02",
@@ -6265,7 +6333,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "new-nongjaa-03",
@@ -6341,7 +6410,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-nongjaa-04",
@@ -6417,7 +6487,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-nongjaa-05",
@@ -6493,7 +6564,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-nongjaa-06",
@@ -6569,7 +6641,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-nongjaa-07",
@@ -6645,7 +6718,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "new-nongjaa-08",
@@ -6721,7 +6795,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "new-neengan-01",
@@ -6797,7 +6872,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 16
   },
   {
     "id": "new-neengan-02",
@@ -6873,7 +6949,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 16
   },
   {
     "id": "new-neengan-03",
@@ -6949,7 +7026,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 16
   },
   {
     "id": "new-h2y-01",
@@ -7025,7 +7103,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-h2y-02",
@@ -7101,7 +7180,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-h2y-03",
@@ -7177,7 +7257,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "new-h2y-04",
@@ -7253,7 +7334,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-h2y-05",
@@ -7329,7 +7411,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-h2y-06",
@@ -7405,7 +7488,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "new-h2y-07",
@@ -7481,7 +7565,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "new-h2y-08",
@@ -7557,7 +7642,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "new-h2y-09",
@@ -7633,7 +7719,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "new-h2y-10",
@@ -7709,7 +7796,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "new-h2y-11",
@@ -7785,7 +7873,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "new-h2y-12",
@@ -7861,7 +7950,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "new-play-001",
@@ -7937,7 +8027,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-001",
@@ -8021,7 +8112,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/ed-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-002",
@@ -8105,7 +8197,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/smrpg-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-003",
@@ -8189,7 +8282,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/snp-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "gayray-004",
@@ -8273,7 +8367,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/zga-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-005",
@@ -8357,7 +8452,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/bbg-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-006",
@@ -8441,7 +8537,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/gcd-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-007",
@@ -8525,7 +8622,8 @@
       "sourceVersion": "v1.2",
       "artifactReference": "patches/ct2-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "gayray-008",
@@ -8609,7 +8707,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": "patches/kotr-th.bps",
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "monster-gc-windwaker-confirmed",
@@ -8696,7 +8795,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 15
   },
   {
     "id": "retro-027-01",
@@ -8788,7 +8888,8 @@
       "sourceVersion": "2026-09-17 FINAL",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "retro-027-02",
@@ -8890,7 +8991,8 @@
       "sourceVersion": "v1.0.3 FINAL",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 7
   },
   {
     "id": "retro-027-03",
@@ -8992,7 +9094,8 @@
       "sourceVersion": "v1.0.3",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "retro-027-04",
@@ -9094,7 +9197,8 @@
       "sourceVersion": "v1.0.9",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "retro-027-05",
@@ -9196,7 +9300,8 @@
       "sourceVersion": "v1.0.1",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "retro-027-06",
@@ -9298,7 +9403,8 @@
       "sourceVersion": "v1.1.3",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-01",
@@ -9384,7 +9490,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "90s-028-02",
@@ -9470,7 +9577,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "90s-028-03",
@@ -9556,7 +9664,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "90s-028-04",
@@ -9642,7 +9751,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 10
   },
   {
     "id": "90s-028-05",
@@ -9728,7 +9838,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "90s-028-06",
@@ -9814,7 +9925,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "90s-028-07",
@@ -9900,7 +10012,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-08",
@@ -9986,7 +10099,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-09",
@@ -10072,7 +10186,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-10",
@@ -10158,7 +10273,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-11",
@@ -10244,7 +10360,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-12",
@@ -10330,7 +10447,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "90s-028-13",
@@ -10416,7 +10534,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "90s-028-14",
@@ -10502,7 +10621,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 40
   },
   {
     "id": "90s-028-15",
@@ -10588,7 +10708,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "90s-028-16",
@@ -10674,7 +10795,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "90s-028-17",
@@ -10760,7 +10882,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 8
   },
   {
     "id": "90s-028-18",
@@ -10846,7 +10969,8 @@
       "kind": null,
       "value": null,
       "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "rommeaow-028-01",
@@ -10952,7 +11076,8 @@
       "field": "version",
       "sourceKey": "pokemon-soulgold",
       "checkedAt": "2026-10-17T07:02:41.464431+00:00"
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "rommeaow-028-02",
@@ -11051,7 +11176,8 @@
       "field": "version",
       "sourceKey": "pokemon-ruby",
       "checkedAt": "2026-10-17T07:02:41.464431+00:00"
-    }
+    },
+    "playTimeHours": 30
   },
   {
     "id": "murphy-028-01",
@@ -11145,7 +11271,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "id": "murphy-028-02",
@@ -11239,7 +11366,8 @@
       "sourceVersion": "v1.0",
       "artifactReference": null,
       "uploadDateVerified": false
-    }
+    },
+    "playTimeHours": 25
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11317,7 +11445,8 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 18
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11396,7 +11525,8 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 15
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11475,7 +11605,8 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 16
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11554,7 +11685,8 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 3
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11632,7 +11764,8 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 3
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11710,7 +11843,8 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 15
   },
   {
     "teamId": "team-33f2b2340a7a",
@@ -11788,6 +11922,748 @@
         "evidence": "evidence/2026-10-17/gayray-review.json",
         "label": ""
       }
-    ]
+    ],
+    "playTimeHours": 5
+  },
+  {
+    "id": "gayray-sync-treasure-hunter-g-sfc",
+    "teamId": "team-33f2b2340a7a",
+    "translatorName": "เกเรแปลไทย",
+    "source": "เกเรแปลไทย",
+    "publisher": "เกเรแปลไทย",
+    "creditRole": "ทีมแปล/ผู้เผยแพร่",
+    "creditStatus": "first_party_project",
+    "creditEvidence": "https://gayray.pages.dev/",
+    "linkScope": "owner_game",
+    "artStyle": "พิกเซล",
+    "title": "Treasure Hunter G",
+    "canonicalTitle": "Treasure Hunter G",
+    "canonicalGameId": "treasure-hunter-g",
+    "platform": "SNES",
+    "baseEdition": "Treasure Hunter G (Japan)",
+    "patchVersion": "v1.0",
+    "version": "v1.0",
+    "date": "2026-10-18",
+    "status": "พร้อมแพตช์",
+    "description": "แพตช์ภาษาไทยโดยเกเรแปลไทย · แปลบทพูดและเนื้อเรื่องทั้งเกมจากต้นฉบับญี่ปุ่น (3,062 กล่อง) ใช้ ROM ญี่ปุ่น",
+    "genre": "วางแผน / RPG",
+    "series": "เกมอื่น ๆ",
+    "url": "https://gayray.pages.dev/#game=treasure-hunter-g-sfc",
+    "navigationNote": "ตรวจโดยกดการ์ดจริงและเปิดลิงก์ตรงในหน้าใหม่",
+    "catalogAddedAt": "2026-10-29",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "observed_first_party_click_and_fresh_deeplink",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "fresh": true
+    },
+    "cover": "https://gayray.pages.dev/covers/treasure-hunter-g-sfc-card.jpg",
+    "coverCandidateUrl": "https://gayray.pages.dev/covers/treasure-hunter-g-sfc-card.jpg",
+    "coverSource": "creator_website",
+    "imageCredit": "เกเรแปลไทย · ภาพปกจากเว็บไซต์ผู้แปล",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "creator_cover",
+      "state": "decoded_exact_game_source_match",
+      "source": "https://gayray.pages.dev/",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-18",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-18",
+      "precision": "day",
+      "rawValue": "18 ต.ค. 2569",
+      "source": "https://gayray.pages.dev/games.json",
+      "field": "updated",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "v1.0",
+      "uploadDateVerified": false
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://gayray.pages.dev/covers/treasure-hunter-g-sfc-card.jpg",
+        "kind": "creator_cover",
+        "source": "creator_website",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "playTimeHours": 18
+  },
+  {
+    "id": "gayray-sync-zero-4-champ-rr-z-sfc",
+    "teamId": "team-33f2b2340a7a",
+    "translatorName": "เกเรแปลไทย",
+    "source": "เกเรแปลไทย",
+    "publisher": "เกเรแปลไทย",
+    "creditRole": "ทีมแปล/ผู้เผยแพร่",
+    "creditStatus": "first_party_project",
+    "creditEvidence": "https://gayray.pages.dev/",
+    "linkScope": "owner_game",
+    "artStyle": "พิกเซล",
+    "title": "Zero 4 Champ RR-Z",
+    "canonicalTitle": "Zero 4 Champ RR-Z",
+    "canonicalGameId": "zero-4-champ-rr-z",
+    "platform": "SNES",
+    "baseEdition": "Zero 4 Champ RR-Z (Japan)",
+    "patchVersion": "v1.0",
+    "version": "v1.0",
+    "date": "2026-10-27",
+    "status": "พร้อมแพตช์",
+    "description": "แพตช์ภาษาไทยโดยเกเรแปลไทย · แข่งรถแดร็กผสมจำลองชีวิตและโหมด RPG แปลเนื้อเรื่องทั้งเกม (4,218 ข้อความ)",
+    "genre": "แข่งรถ / RPG",
+    "series": "เกมอื่น ๆ",
+    "url": "https://gayray.pages.dev/#game=zero-4-champ-rr-z-sfc",
+    "navigationNote": "ตรวจโดยกดการ์ดจริงและเปิดลิงก์ตรงในหน้าใหม่",
+    "catalogAddedAt": "2026-10-29",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "observed_first_party_click_and_fresh_deeplink",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "fresh": true
+    },
+    "cover": "https://gayray.pages.dev/covers/zero-4-champ-rr-z-sfc-card.jpg",
+    "coverCandidateUrl": "https://gayray.pages.dev/covers/zero-4-champ-rr-z-sfc-card.jpg",
+    "coverSource": "creator_website",
+    "imageCredit": "เกเรแปลไทย · ภาพปกจากเว็บไซต์ผู้แปล",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "creator_cover",
+      "state": "decoded_exact_game_source_match",
+      "source": "https://gayray.pages.dev/",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-27",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-27",
+      "precision": "day",
+      "rawValue": "27 ต.ค. 2569",
+      "source": "https://gayray.pages.dev/games.json",
+      "field": "updated",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "v1.0",
+      "uploadDateVerified": false
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://gayray.pages.dev/covers/zero-4-champ-rr-z-sfc-card.jpg",
+        "kind": "creator_cover",
+        "source": "creator_website",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "playTimeHours": 20
+  },
+  {
+    "id": "gayray-sync-bushi-seiryuuden-sfc",
+    "teamId": "team-33f2b2340a7a",
+    "translatorName": "เกเรแปลไทย",
+    "source": "เกเรแปลไทย",
+    "publisher": "เกเรแปลไทย",
+    "creditRole": "ทีมแปล/ผู้เผยแพร่",
+    "creditStatus": "first_party_project",
+    "creditEvidence": "https://gayray.pages.dev/",
+    "linkScope": "owner_game",
+    "artStyle": "พิกเซล",
+    "title": "Bushi Seiryuuden - Futari no Yuusha",
+    "canonicalTitle": "Bushi Seiryuuden - Futari no Yuusha",
+    "canonicalGameId": "bushi-seiryuuden",
+    "platform": "SNES",
+    "baseEdition": "Warriors - Legend of the Blue Dragon - The Two Heroes (Japan) [T-En by DDSTranslation v2.0]",
+    "patchVersion": "v1.0",
+    "version": "v1.0",
+    "date": "2026-10-29",
+    "status": "พร้อมแพตช์",
+    "description": "แพตช์ภาษาไทยโดยเกเรแปลไทย · แอ็กชัน RPG แบบเดินเป็นตาของ GAME FREAK แปลเนื้อเรื่องทั้งเกม (2,484 ข้อความ)",
+    "genre": "แอ็กชัน / RPG",
+    "series": "เกมอื่น ๆ",
+    "url": "https://gayray.pages.dev/#game=bushi-seiryuuden-sfc",
+    "navigationNote": "ตรวจโดยกดการ์ดจริงและเปิดลิงก์ตรงในหน้าใหม่",
+    "catalogAddedAt": "2026-10-29",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "observed_first_party_click_and_fresh_deeplink",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "fresh": true
+    },
+    "cover": "https://gayray.pages.dev/covers/bushi-seiryuuden-sfc-card.jpg",
+    "coverCandidateUrl": "https://gayray.pages.dev/covers/bushi-seiryuuden-sfc-card.jpg",
+    "coverSource": "creator_website",
+    "imageCredit": "เกเรแปลไทย · ภาพปกจากเว็บไซต์ผู้แปล",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "creator_cover",
+      "state": "decoded_exact_game_source_match",
+      "source": "https://gayray.pages.dev/",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-29",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-29",
+      "precision": "day",
+      "rawValue": "29 ต.ค. 2569",
+      "source": "https://gayray.pages.dev/games.json",
+      "field": "updated",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "v1.0",
+      "uploadDateVerified": false
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://gayray.pages.dev/covers/bushi-seiryuuden-sfc-card.jpg",
+        "kind": "creator_cover",
+        "source": "creator_website",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "playTimeHours": 15
+  },
+  {
+    "id": "ext-041",
+    "title": "Kamen Rider: Seigi no Keifu",
+    "canonicalTitle": "Kamen Rider: Seigi no Keifu",
+    "canonicalGameId": "kamen-rider-seigi-no-keifu",
+    "teamId": "team-c54df0a28c1d",
+    "platform": "PS2",
+    "baseEdition": "Kamen Rider - Seigi no Keifu (Japan).iso · SLPS-25302",
+    "patchVersion": "V1.0",
+    "version": "V1.0",
+    "date": "2026-10-27",
+    "status": "TESTED",
+    "description": "รายการจริงจาก Memory Card TH · แอ็กชันผจญภัยคาเมนไรเดอร์ แปลบทสนทนา เอกสาร เมนู และซับไตเติลเสียงบรรยาย",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "series": "เกมอื่น ๆ",
+    "artStyle": "สามมิติ",
+    "translatorName": "Memory Card TH",
+    "source": "Memory Card TH",
+    "publisher": "Memory Card TH",
+    "creditRole": "ทีมแปลและพัฒนา",
+    "creditStatus": "verified_translator",
+    "creditEvidence": "https://memorycardth.com/support.html",
+    "url": "https://memorycardth.com/#/Kamen%20Rider%3A%20Seigi%20no%20Keifu/0",
+    "linkScope": "owner_game",
+    "navigationNote": "",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "fresh": true,
+      "checkedAt": "2026-10-29T02:30:00Z"
+    },
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Kamen%20Rider%20-%20Seigi%20no%20Keifu%20%28Japan%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Kamen%20Rider%20-%20Seigi%20no%20Keifu%20%28Japan%29.png",
+    "coverSource": "Libretro thumbnail archive",
+    "imageCredit": "Libretro thumbnail archive",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "official_art_candidate",
+      "state": "decoded_exact_game_source_match",
+      "source": "Libretro thumbnail archive",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "catalogAddedAt": "2026-10-29",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "selected": [
+        "Kamen Rider: Seigi no Keifu"
+      ],
+      "autoSelectsPatch": true
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Kamen%20Rider%20-%20Seigi%20no%20Keifu%20%28Japan%29.png",
+        "kind": "official_art_candidate",
+        "source": "Libretro thumbnail archive",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-27",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-27",
+      "precision": "day",
+      "rawValue": "2026-10-27",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "field": "patch_updated",
+      "evidence": ".sync/report.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "V1.0",
+      "artifactReference": "/dl/PS2/KamenRiderSeigi/KamenRiderSeigi_Thai.zip",
+      "uploadDateVerified": false
+    },
+    "playTimeHours": 8
+  },
+  {
+    "id": "ext-042",
+    "title": "Mega Man Legends",
+    "canonicalTitle": "Mega Man Legends",
+    "canonicalGameId": "mega-man-legends",
+    "teamId": "team-c54df0a28c1d",
+    "platform": "PS1",
+    "baseEdition": "Mega Man Legends (USA)",
+    "patchVersion": "V1.0",
+    "version": "V1.0",
+    "date": "2026-10-25",
+    "status": "TESTED",
+    "description": "รายการจริงจาก Memory Card TH · แอ็กชันผจญภัยร็อคแมนสามมิติภาคแรกบน PS1 แปลภาษาไทยครบถ้วน",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "series": "เกมอื่น ๆ",
+    "artStyle": "สามมิติ",
+    "translatorName": "Memory Card TH",
+    "source": "Memory Card TH",
+    "publisher": "Memory Card TH",
+    "creditRole": "ทีมแปลและพัฒนา",
+    "creditStatus": "verified_translator",
+    "creditEvidence": "https://memorycardth.com/support.html",
+    "url": "https://memorycardth.com/#/Mega%20Man%20Legends%20%28%E0%B9%80%E0%B8%A1%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A1%E0%B8%99%20%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%AA%29/0",
+    "linkScope": "owner_game",
+    "navigationNote": "",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "fresh": true,
+      "checkedAt": "2026-10-29T02:30:00Z"
+    },
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20Legends%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20Legends%20%28USA%29.png",
+    "coverSource": "Libretro thumbnail archive",
+    "imageCredit": "Libretro thumbnail archive",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "official_art_candidate",
+      "state": "decoded_exact_game_source_match",
+      "source": "Libretro thumbnail archive",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "catalogAddedAt": "2026-10-29",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "selected": [
+        "Mega Man Legends (เมก้าแมน เลเจนด์ส)"
+      ],
+      "autoSelectsPatch": true
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20Legends%20%28USA%29.png",
+        "kind": "official_art_candidate",
+        "source": "Libretro thumbnail archive",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-25",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-25",
+      "precision": "day",
+      "rawValue": "2026-10-25",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "field": "patch_updated",
+      "evidence": ".sync/report.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "V1.0",
+      "artifactReference": "/dl/PS1/MegaManLegends/MegaManLegends_Thai.zip",
+      "uploadDateVerified": false
+    },
+    "playTimeHours": 14
+  },
+  {
+    "id": "ext-043",
+    "title": "Chocobo Racing",
+    "canonicalTitle": "Chocobo Racing",
+    "canonicalGameId": "chocobo-racing",
+    "teamId": "team-c54df0a28c1d",
+    "platform": "PS1",
+    "baseEdition": "Chocobo Racing (USA)",
+    "patchVersion": "V1.0",
+    "version": "V1.0",
+    "date": "2026-10-23",
+    "status": "TESTED",
+    "description": "รายการจริงจาก Memory Card TH · เกมแข่งรถโกคาร์ตแฟนตาซีจาก Square แปลเนื้อเรื่อง โหมด และเมนูภาษาไทย",
+    "genre": "แข่งรถ",
+    "series": "Final Fantasy",
+    "artStyle": "สามมิติ",
+    "translatorName": "Memory Card TH",
+    "source": "Memory Card TH",
+    "publisher": "Memory Card TH",
+    "creditRole": "ทีมแปลและพัฒนา",
+    "creditStatus": "verified_translator",
+    "creditEvidence": "https://memorycardth.com/support.html",
+    "url": "https://memorycardth.com/#/Chocobo%20Racing%20%28%E0%B9%82%E0%B8%8A%E0%B9%82%E0%B8%81%E0%B9%82%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%8b%E0%B8%8b%E0%B8%B4%E0%B9%88%E0%B8%87%20~%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B9%81%E0%B8%94%E0%B8%99%E0%B8%A0%E0%B8%B9%E0%B8%95~%29/0",
+    "linkScope": "owner_game",
+    "navigationNote": "",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "fresh": true,
+      "checkedAt": "2026-10-29T02:30:00Z"
+    },
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Chocobo%20Racing%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Chocobo%20Racing%20%28USA%29.png",
+    "coverSource": "Libretro thumbnail archive",
+    "imageCredit": "Libretro thumbnail archive",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "official_art_candidate",
+      "state": "decoded_exact_game_source_match",
+      "source": "Libretro thumbnail archive",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "catalogAddedAt": "2026-10-29",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "selected": [
+        "Chocobo Racing (โชโกโบเรซซิ่ง ~ถนนสู่แดนภูต~)"
+      ],
+      "autoSelectsPatch": true
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Chocobo%20Racing%20%28USA%29.png",
+        "kind": "official_art_candidate",
+        "source": "Libretro thumbnail archive",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-23",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-23",
+      "precision": "day",
+      "rawValue": "2026-10-23",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "field": "patch_updated",
+      "evidence": ".sync/report.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "V1.0",
+      "artifactReference": "/dl/PS1/ChocoboRacing/ChocoboRacing_Thai.zip",
+      "uploadDateVerified": false
+    },
+    "playTimeHours": 4
+  },
+  {
+    "id": "ext-044",
+    "title": "Tenchu: Stealth Assassins",
+    "canonicalTitle": "Tenchu: Stealth Assassins",
+    "canonicalGameId": "tenchu-stealth-assassins",
+    "teamId": "team-c54df0a28c1d",
+    "platform": "PS1",
+    "baseEdition": "Tenchu - Stealth Assassins (USA)",
+    "patchVersion": "V1.0",
+    "version": "V1.0",
+    "date": "2026-10-23",
+    "status": "TESTED",
+    "description": "รายการจริงจาก Memory Card TH · นินจาลอบเร้นริคิมารุและอายาเมะ แปลเนื้อเรื่อง บทสนทนา และภารกิจภาษาไทย",
+    "genre": "แอ็กชัน / ลอบเร้น",
+    "series": "เกมอื่น ๆ",
+    "artStyle": "สามมิติ",
+    "translatorName": "Memory Card TH",
+    "source": "Memory Card TH",
+    "publisher": "Memory Card TH",
+    "creditRole": "ทีมแปลและพัฒนา",
+    "creditStatus": "verified_translator",
+    "creditEvidence": "https://memorycardth.com/support.html",
+    "url": "https://memorycardth.com/#/Tenchu%3A%20Stealth%20Assassins/0",
+    "linkScope": "owner_game",
+    "navigationNote": "",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "fresh": true,
+      "checkedAt": "2026-10-29T02:30:00Z"
+    },
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tenchu%20-%20Stealth%20Assassins%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tenchu%20-%20Stealth%20Assassins%20%28USA%29.png",
+    "coverSource": "Libretro thumbnail archive",
+    "imageCredit": "Libretro thumbnail archive",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "official_art_candidate",
+      "state": "decoded_exact_game_source_match",
+      "source": "Libretro thumbnail archive",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "catalogAddedAt": "2026-10-29",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "selected": [
+        "Tenchu: Stealth Assassins"
+      ],
+      "autoSelectsPatch": true
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tenchu%20-%20Stealth%20Assassins%20%28USA%29.png",
+        "kind": "official_art_candidate",
+        "source": "Libretro thumbnail archive",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-23",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-23",
+      "precision": "day",
+      "rawValue": "2026-10-23",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "field": "patch_updated",
+      "evidence": ".sync/report.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "V1.0",
+      "artifactReference": "/dl/PS1/Tenchu/Tenchu_Thai.zip",
+      "uploadDateVerified": false
+    },
+    "playTimeHours": 10
+  },
+  {
+    "id": "ext-045",
+    "title": "Wild Arms 2",
+    "canonicalTitle": "Wild Arms 2",
+    "canonicalGameId": "wild-arms-2",
+    "teamId": "team-c54df0a28c1d",
+    "platform": "PS1",
+    "baseEdition": "Wild Arms 2 (USA)",
+    "patchVersion": "V1.0",
+    "version": "V1.0",
+    "date": "2026-10-25",
+    "status": "TESTED",
+    "description": "รายการจริงจาก Memory Card TH · RPG ตะวันตกแฟนตาซีเรื่องเยี่ยมของค่าย Sony แปลเนื้อเรื่องทั้ง 2 แผ่น",
+    "genre": "RPG",
+    "series": "เกมอื่น ๆ",
+    "artStyle": "สามมิติ",
+    "translatorName": "Memory Card TH",
+    "source": "Memory Card TH",
+    "publisher": "Memory Card TH",
+    "creditRole": "ทีมแปลและพัฒนา",
+    "creditStatus": "verified_translator",
+    "creditEvidence": "https://memorycardth.com/support.html",
+    "url": "https://memorycardth.com/#/Wild%20Arms%202%20%28%E0%B9%84%E0%B8%A7%E0%B8%A5%E0%B8%94%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B8%AA%E0%B9%8C%202%29/0",
+    "linkScope": "owner_game",
+    "navigationNote": "",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "fresh": true,
+      "checkedAt": "2026-10-29T02:30:00Z"
+    },
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wild%20Arms%202%20%28USA%29%20%28Disc%201%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wild%20Arms%202%20%28USA%29%20%28Disc%201%29.png",
+    "coverSource": "Libretro thumbnail archive",
+    "imageCredit": "Libretro thumbnail archive",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "official_art_candidate",
+      "state": "decoded_exact_game_source_match",
+      "source": "Libretro thumbnail archive",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "catalogAddedAt": "2026-10-29",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "selected": [
+        "Wild Arms 2 (ไวลด์อาร์มส์ 2)"
+      ],
+      "autoSelectsPatch": true
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Wild%20Arms%202%20%28USA%29%20%28Disc%201%29.png",
+        "kind": "official_art_candidate",
+        "source": "Libretro thumbnail archive",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-25",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-25",
+      "precision": "day",
+      "rawValue": "2026-10-25",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "field": "patch_updated",
+      "evidence": ".sync/report.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "V1.0",
+      "artifactReference": "/dl/PS1/WildArms2/WildArms2_Thai.zip",
+      "uploadDateVerified": false
+    },
+    "playTimeHours": 40
+  },
+  {
+    "id": "ext-046",
+    "title": "God of War",
+    "canonicalTitle": "God of War",
+    "canonicalGameId": "god-of-war",
+    "teamId": "team-c54df0a28c1d",
+    "platform": "PS2",
+    "baseEdition": "God of War (USA)",
+    "patchVersion": "V1.2",
+    "version": "V1.2",
+    "date": "2026-10-27",
+    "status": "TESTED",
+    "description": "รายการจริงจาก Memory Card TH · มหากาพย์แอ็กชันเครโทสปราบเทพสงครามแอรีส แปลภาษาไทยอัปเดตเวอร์ชัน 1.2",
+    "genre": "แอ็กชัน / ผจญภัย",
+    "series": "God of War",
+    "artStyle": "สามมิติ",
+    "translatorName": "Memory Card TH",
+    "source": "Memory Card TH",
+    "publisher": "Memory Card TH",
+    "creditRole": "ทีมแปลและพัฒนา",
+    "creditStatus": "verified_translator",
+    "creditEvidence": "https://memorycardth.com/support.html",
+    "url": "https://memorycardth.com/#/God%20of%20War/0",
+    "linkScope": "owner_game",
+    "navigationNote": "",
+    "sourceAudit": {
+      "state": "verified",
+      "basis": "fresh_source_selected_game",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "fresh": true,
+      "checkedAt": "2026-10-29T02:30:00Z"
+    },
+    "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+    "coverCandidateUrl": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+    "coverSource": "Libretro thumbnail archive",
+    "imageCredit": "Libretro thumbnail archive",
+    "coverLabel": "",
+    "coverAudit": {
+      "kind": "official_art_candidate",
+      "state": "decoded_exact_game_source_match",
+      "source": "Libretro thumbnail archive",
+      "sourceEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "decodeEvidence": "evidence/2026-10-29/reviewed-additions.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "rightsState": "unconfirmed",
+      "localAllowed": false,
+      "rightsEvidence": null
+    },
+    "catalogAddedAt": "2026-10-29",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": true,
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "evidence": "evidence/2026-10-29/reviewed-additions.json",
+      "selected": [
+        "God of War"
+      ],
+      "autoSelectsPatch": true
+    },
+    "coverAlternatives": [
+      {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+        "kind": "official_art_candidate",
+        "source": "Libretro thumbnail archive",
+        "evidence": "evidence/2026-10-29/reviewed-additions.json",
+        "label": ""
+      }
+    ],
+    "sourceUploadedAt": null,
+    "sourceUpdatedAt": "2026-10-27",
+    "sourceDateAudit": {
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-10-27",
+      "precision": "day",
+      "rawValue": "2026-10-27",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "field": "patch_updated",
+      "evidence": ".sync/report.json",
+      "checkedAt": "2026-10-29T02:30:00Z",
+      "sourceVersion": "V1.2",
+      "artifactReference": "/dl/PS2/GodOfWar/GodOfWar_Thai.zip",
+      "uploadDateVerified": false
+    },
+    "playTimeHours": 9
   }
 ]
