@@ -1,3 +1,25 @@
+## 2026-10-29 — Full Monster แปล console import (144 games), verified Facebook teams and posts, and broken vanity URL resolution
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 552 entries / 550 game-platform groups.
+- Monster แปล (https://monster-plae.pages.dev/) fully audited and imported: all 144 supported retro console games across 13 console platforms (PS2, PSP, 3DS, NDS, PS1, PS3, WII, GBA, GENESIS, GC, SNES, SATURN, WII U). 111 new games added; all 144 cover assets verified HTTP 200 OK.
+- Added verified Facebook translation creators and releases:
+  - สลอธเล่นเกม เล่นเกมแบบสลอธ: Added team and game "SD Gundam G Generation DS" (NDS) linking directly to exact Facebook permalink post (story_fbid=pfbid0zvHqcUUatSEYkgkBr9SRzC8USPRWbAzV32Qk5EAyCCpzQpVySuARQPoK8TEoCaeNl).
+  - ตลับเกมภาษาไทย: Added team and game "Dragon Quest VI: Realms of Revelation" (SNES) linking directly to exact Facebook release post (posts/pfbid0MzMSfYrpn1fCZvy46wEJmBMSRPKgFgxJrRzpw2yGp65LaDq45yqLvRMsJaQ5LSESl).
+- Resolved broken vanity Facebook links: Reverted previous vanity URLs for teams with stable working domains (หนีงานมาแปล on workers.dev, น้องจ๋าแปลที on vercel.app, แปลไปเล่นไป on chatgpt.site, แมวดำ on chatgpt.site) to eliminate 404s.
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/test_refresh.py: PASS
+- node tools/qa-platform-cards.cjs: PASS (6 views)
+- node tools/qa-catalog.cjs: PASS (3 views, 552 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+
+---
+
 ## 2026-10-29 — Plain text changelog UI, Nonplae route fix (?game=), full cover recovery, and Facebook team linking
 
 Owner: Active Repository Agent (Antigravity); branch main.

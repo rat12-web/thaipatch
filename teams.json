@@ -48,7 +48,7 @@
     "team": "หนีงานมาแปล",
     "url": null,
     "verification": "on_site_identity_asset",
-    "source": "https://www.facebook.com/neenganmaplae",
+    "source": "https://neenganmaplae.spiwsiri.workers.dev/",
     "hosting": "remote_url_not_mirrored",
     "checkedAt": "2026-10-13T05:14:44.606Z",
     "id": "team-7223514d515e",
@@ -78,7 +78,7 @@
     "team": "น้องจ๋าแปลที",
     "url": "https://nongjaa.vercel.app/assets/mascot.png",
     "verification": "on_site_profile_mascot",
-    "source": "https://www.facebook.com/nongjaatranslation",
+    "source": "https://nongjaa.vercel.app/",
     "checkedAt": "2026-10-13T05:11:10.394Z",
     "hosting": "remote_url_not_mirrored",
     "id": "team-37dd8abb8132",
@@ -171,7 +171,7 @@
     "localAllowed": false,
     "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/TEAM_LOGO_REGISTRY_v0.29.json",
     "reviewState": "missing_verified_logo",
-    "source": "https://www.facebook.com/plaipailenpai"
+    "source": "https://plae-pai-len-pai.regal-wolf-0754.chatgpt.site/"
   },
   {
     "team": "แมวดำ แปลเกมส์",
@@ -182,7 +182,7 @@
     "localAllowed": false,
     "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/TEAM_LOGO_REGISTRY_v0.29.json",
     "reviewState": "missing_verified_logo",
-    "source": "https://www.facebook.com/maewdamthaisub"
+    "source": "https://maewdamthaisub.aechankiminoto.chatgpt.site/"
   },
   {
     "team": "RetroSpective",
@@ -228,6 +228,36 @@
     "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/TEAM_LOGO_REGISTRY_v0.29.json",
     "reviewState": "inherited_identity_audit",
     "imageDecoded": true,
+    "decodeEvidence": "qa/upgrade/asset-decode.json"
+  },
+  {
+    "team": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
+    "url": null,
+    "verification": "on_site_identity_asset",
+    "source": "https://www.facebook.com/profile.php?id=61578104811406",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-29T16:00:00.000Z",
+    "id": "team-sloth",
+    "rightsState": "unconfirmed",
+    "localAllowed": false,
+    "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+    "reviewState": "identity_image_unavailable",
+    "imageDecoded": false,
+    "decodeEvidence": "qa/upgrade/asset-decode.json"
+  },
+  {
+    "team": "ตลับเกมภาษาไทย",
+    "url": null,
+    "verification": "on_site_identity_asset",
+    "source": "https://www.facebook.com/talubgamethai",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-10-29T16:00:00.000Z",
+    "id": "team-talub",
+    "rightsState": "unconfirmed",
+    "localAllowed": false,
+    "evidence": "https://www.facebook.com/talubgamethai",
+    "reviewState": "identity_image_unavailable",
+    "imageDecoded": false,
     "decodeEvidence": "qa/upgrade/asset-decode.json"
   }
 ]

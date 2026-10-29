@@ -1,5 +1,11 @@
 # Remaining work
 
+Current 2026-10-29 result: 552 cards / 550 groups,
+Monster แปล fully imported (144 console games total; 111 new); verified Facebook creators added (สลอธเล่นเกม เล่นเกมแบบสลอธ - SD Gundam G Generation DS NDS; ตลับเกมภาษาไทย - Dragon Quest VI SNES); restored stable mirror endpoints for teams whose vanity Facebook URLs failed; all covers verified HTTP 200 OK.
+Evidence recorded in evidence/2026-10-29/all-teams-expansion.json.
+
+The earlier snapshots below are historical.
+
 Current 2026-10-29 result: 439 cards / 426 groups,
 nine sources / 401 exact matches (expanded นอนแปล to 254/257 console games matched 100%, Memory Card TH 41, Monster แปล 33, 90S Game 26, Gayray 18, Murphy-TH 9, RetroSpective 7, ROMMEAOW 3);
 enhanced front-page recent updates changelog layout with explicit date, team, action, game title, and multi-line patch details; verified dual-layer official cover fallback on image load failure.
