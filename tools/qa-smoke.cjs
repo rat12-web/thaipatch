@@ -9,7 +9,7 @@ const {start}=require('./serve.cjs');
   const source=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8'));
   for(const theme of ['light','dark'])for(const width of [1440,390,320]){
    const context=await browser.newContext({viewport:{width,height:900},colorScheme:theme});await context.route('https://**',r=>r.abort());
-   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(url);await page.locator('#cards .gcard').first().waitFor();
+   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(url,{waitUntil:'domcontentloaded'});await page.locator('#cards .gcard').first().waitFor();
    assert.equal(await page.evaluate(()=>catalog.length),source.length);assert.equal(await page.locator('#sortSelect').inputValue(),'recent');
    assert(await page.evaluate(()=>filtered().every((g,i,a)=>!i||sourceOrderKey(a[i-1])>=sourceOrderKey(g))));
    assert.equal(await page.evaluate(()=>document.documentElement.dataset.theme),theme);assert.equal(await page.locator('.coverstatus,.team-route').count(),0);
@@ -17,7 +17,7 @@ const {start}=require('./serve.cjs');
    await page.locator('#searchMain').fill('Pokémon Emerald');await page.locator('[data-group-open]').click();assert.equal(await page.locator('.variant-link').count(),2);assert.equal(await page.locator('.team-route').count(),0);await page.keyboard.press('Escape');
    await page.locator('#resetFilters').click();await page.locator('#platformSelect').selectOption('GBA');assert(await page.evaluate(()=>filtered().every(g=>g.platform==='GBA')));
    await page.locator('#searchMain').fill('<img src=x onerror=alert(1)>');assert.equal(await page.locator('#cards .gcard').count(),0);await page.locator('#resetFilters').click();
-   await page.locator('#themeToggle').click();const other=theme==='dark'?'light':'dark';await page.reload();assert.equal(await page.evaluate(()=>document.documentElement.dataset.theme),other);
+   await page.locator('#themeToggle').click();const other=theme==='dark'?'light':'dark';await page.reload({waitUntil:'domcontentloaded'});assert.equal(await page.evaluate(()=>document.documentElement.dataset.theme),other);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);assert.deepEqual(errors,[]);
    report.views.push({theme,width,pass:true});await context.close();
   }
