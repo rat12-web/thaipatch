@@ -1,3 +1,26 @@
+## 2026-10-29 — Complete multi-team catalog expansion (721 games): 100% Memory Card TH, 100% 90S Game, Murphy-TH updates, and verified 200 OK covers
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 721 entries / 716 game-platform groups.
+- Memory Card TH (https://memorycardth.com/): fully audited and imported all 181 supported console games (added 142 games, from 41 to 181; only 1 PC entry skipped). All covers verified HTTP 200 OK via https://memorycardth.com/dl/covers/ with URL encoding. Direct hash route navigation to exact patch station: https://memorycardth.com/#/{name}/0.
+- 90S Game (https://90s-game.pitak2540.workers.dev/): fully audited and imported all 49 games (added 24 games, from 26 to 49). All 49 covers verified HTTP 200 OK. Direct game URLs: https://90s-game.pitak2540.workers.dev/?game={id}.
+- Murphy-TH (https://murphy-th.com/): added 3 missing console games (Silent Hill: Origins on PSP, Meitantei Conan: Norowareta Kouro on GBC, Meitantei Conan on PS1) with verified 200 OK cover assets.
+- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): updated TearRing Saga (ext-021) to v1.0.1 (2026-10-29).
+- Retained 100% complete catalogs for นอนแปล (254 console games), Monster แปล (144 console games), Gayray (18 games), RetroSpective (7 games), ROMMEAOW (3 console games), and verified Facebook releases.
+- Zero broken or missing covers across all 721 catalog entries.
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/test_refresh.py: PASS
+- node tools/qa-platform-cards.cjs: PASS (6 views)
+- node tools/qa-catalog.cjs: PASS (3 views, 721 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+
+---
+
 ## 2026-10-29 — Full Monster แปล console import (144 games), verified Facebook teams and posts, and broken vanity URL resolution
 
 Owner: Active Repository Agent (Antigravity); branch main.
