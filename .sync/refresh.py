@@ -138,25 +138,53 @@ def latest_retrogame_patch(row):
 
 def match(name,g,rows):
  fragment=unquote(urlparse(g['url']).fragment)
+ path=urlparse(g['url']).path
+ query=parse_qs(urlparse(g['url']).query)
  if name=='memory' and g['source']=='Memory Card TH':
-  key=fragment.split('/')[1] if fragment.startswith('/') else fragment.removeprefix('game/');hits=[r for r in rows if r.get('name')==key and r.get('platform')==g['platform']]
- elif name=='gayray' and g['source']=='เกเรแปลไทย': hits=[r for r in rows if r.get('id')==fragment.removeprefix('game=')]
- elif name=='retro' and g['source']=='RetroSpective': hits=[r for r in rows if r.get('id')==fragment.removeprefix('game/')]
- elif name=='nonplae' and urlparse(g['url']).hostname=='www.nonplae.com':
-  hits=[r for r in rows if r.get('slug')=='final-fantasy-tactics' and g['id']=='ext-039']
+  key=fragment.split('/')[1] if fragment.startswith('/') else fragment.removeprefix('game/')
+  hits=[r for r in rows if (r.get('name')==key or r.get('name')==g.get('sourceKey')) and r.get('platform')==g['platform']]
+ elif name=='gayray' and g['source']=='เกเรแปลไทย':
+  key=g.get('sourceKey') or fragment.removeprefix('game=')
+  hits=[r for r in rows if r.get('id')==key]
+ elif name=='retro' and g['source']=='RetroSpective':
+  key=g.get('sourceKey') or fragment.removeprefix('game/')
+  hits=[r for r in rows if r.get('id')==key]
+ elif name=='nonplae' and (urlparse(g['url']).hostname=='www.nonplae.com' or g.get('source')=='นอนแปล (NONPLAE)'):
+  slug=g.get('sourceKey') or (path.strip('/').split('/')[-1] if path else None) or query.get('game',[None])[0]
+  hits=[r for r in rows if r.get('slug')==slug]
  elif name=='murphy' and g['source']=='Murphy-TH':
-  key={'ext-040':'sh1','murphy-028-01':'rahmen','murphy-028-02':'saint-seiya-ougon-densetsu'}.get(g['id']);hits=[r for r in rows if r.get('id')==key]
+  key=g.get('sourceKey') or {'ext-040':'sh1','murphy-028-01':'rahmen','murphy-028-02':'saint-seiya-ougon-densetsu'}.get(g['id']) or query.get('game',[None])[0] or fragment.removeprefix('game/')
+  hits=[r for r in rows if r.get('id')==key]
  elif name=='monster' and g['source']=='Monster แปล':
-  key=parse_qs(urlparse(g['url']).query).get('game',[None])[0];hits=[r for r in rows if r.get('id')==key]
+  key=g.get('sourceKey') or query.get('game',[None])[0]
+  hits=[r for r in rows if r.get('id')==key]
  elif name=='90s' and g['source']=='90S Game':
-  key=parse_qs(urlparse(g['url']).query).get('game',[None])[0];hits=[r for r in rows if r.get('id')==key and r.get('platform')==g.get('platform')]
+  key=g.get('sourceKey') or query.get('game',[None])[0]
+  hits=[r for r in rows if r.get('id')==key and r.get('platform')==g.get('platform')]
  elif name=='rommeaow' and g['source']=='รอมเหมียว (ROMMEAOW)' and g.get('platform')=='GBA':
-  key={'rommeaow-028-01':'pokemon-soulgold','rommeaow-028-02':'pokemon-ruby'}.get(g['id']);hits=[r for r in rows if r.get('id')==key and r.get('platform')=='GAME BOY ADVANCE']
+  key=g.get('sourceKey') or {'rommeaow-028-01':'pokemon-soulgold','rommeaow-028-02':'pokemon-ruby'}.get(g['id']) or query.get('game',[None])[0] or fragment.removeprefix('game=')
+  hits=[r for r in rows if r.get('id')==key and r.get('platform')=='GAME BOY ADVANCE']
  elif name=='retrogame' and g['source']=='แปลไทยเกมเก่า':
-  key=parse_qs(urlparse(g['url']).query).get('game',[None])[0];hits=[r for r in rows if r.get('id')==key]
+  key=g.get('sourceKey') or query.get('game',[None])[0]
+  hits=[r for r in rows if r.get('id')==key]
  else: return None
  if len(hits)!=1: return None
  return hits[0]
+def derive_patch_category(version, text):
+ v = (version or '').lower()
+ t = (text or '').lower()
+ if any(k in v or k in t for k in ['beta','demo','partial','กำลังแปล','ทดลอง','บางส่วน','alpha','wip']): return 'partial_beta'
+ if any(k in v or k in t for k in ['แก้ไข','แก้','อัปเดต','ปรับปรุง','fix','hotfix','v1.1','v1.2','v1.3','v1.4','v1.5','v2.','v3.','v4.','v10.']): return 'fix_update'
+ if v and not re.match(r'^v?1\.0(\.0)?$', v): return 'fix_update'
+ return 'full_release'
+
+def clean_patch_changes(text, max_len=105):
+ if not text: return ''
+ t = re.sub(r'[\U00010000-\U0010ffff]|[\u2600-\u27bf]', '', str(text))
+ t = re.sub(r'\s+', ' ', t).strip(' ·-:,')
+ for bad in ['TESTED', 'ยังไม่ยืนยันวันที่', 'แพตช์ต้นทาง']: t = t.replace(bad, '')
+ return t[:max_len-3].rstrip() + '...' if len(t) > max_len else t
+
 
 def validate_rows(name,rows):
  """Reject a changed feed before touching any catalog or review records."""
@@ -194,8 +222,12 @@ def refresh(cat,loader=fetch,previous_report=None):
     if row.get('enabled') is True and isinstance(version,str) and 0<len(version)<=200:
      audit={'state':'verified_source_reported','value':version,'source':url,'field':'version','sourceKey':row['id']}
      prior=g.get('sourceVersionAudit',{})
+     note=clean_patch_changes(row.get('progressNote') or row.get('description'))
+     cat_type=derive_patch_category(version, note)
      if g.get('patchVersion')!=version or any(prior.get(k)!=v for k,v in audit.items()):
       audit['checkedAt']=now;g.update(version=version,patchVersion=version,sourceVersionAudit=audit)
+      if note and not g.get('patchChanges'): g['patchChanges']=note
+      if not g.get('patchCategory'): g['patchCategory']=cat_type
       report['changedRecords'].append(g['id']);updated+=1
     continue  # Explicit version only; this registry exposes no release dates.
    if name in ('monster','90s'):continue  # Discovery only; no structured patch dates/versions.
@@ -213,6 +245,19 @@ def refresh(cat,loader=fetch,previous_report=None):
    if changed:
     audit['checkedAt']=now;audit['evidence']='.sync/report.json';g.update(sourceUpdatedAt=value,sourceDateAudit=audit)
     if isinstance(version,str) and len(version)<=200:g.update(version=version,patchVersion=version)
+    src_note=''
+    if name=='memory': src_note=row.get('milestone') or row.get('desc')
+    elif name=='gayray': src_note=row.get('versionStatus') or row.get('details')
+    elif name=='retrogame':
+     patches=row.get('patches',[])
+     latest=[p for p in patches if isinstance(p,dict) and p.get('latest') is True]
+     src_note=(latest[0].get('note') if latest else None) or row.get('description')
+    elif name=='retro': src_note=row.get('summary') or row.get('description')
+    elif name=='murphy': src_note=row.get('patchNote') or row.get('desc')
+    elif name=='nonplae': src_note=row.get('description')
+    clean_note=clean_patch_changes(src_note)
+    if clean_note: g['patchChanges']=clean_note
+    g['patchCategory']=derive_patch_category(version or g.get('patchVersion'), g.get('patchChanges'))
     report['changedRecords'].append(g['id']);updated+=1
   for r in rows:
    if id(r) not in matched:

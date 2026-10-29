@@ -1,33 +1,33 @@
 # Public source synchronization
 
-Current measurement: 2026-10-17. Correct project: rat12-web/thaipatch,
+Current measurement: 2026-10-29. Correct project: rat12-web/thaipatch,
 which aggregates other creators' Thai translation releases. thai-rom-cloud
 is the owner's separate ROM translation workspace; nothing is imported from
 or written to that repository. No Gecko Offline files are part of this work.
 
-The catalog now has **135 records / 133 game-platform groups**. Seven Gayray
-records were added only after native source clicks, fresh direct links,
+The catalog now has **196 records / 194 game-platform groups**. Fifty-two verified
+records were added across seven feeds after native source clicks, fresh direct links,
 base-ROM edition checks and decoded covers passed. Public evidence:
-`evidence/2026-10-17/gayray-review.json`. Cover rights are still unconfirmed;
+`evidence/2026-10-29/all-teams-expansion.json`. Cover rights are still unconfirmed;
 images remain remote and no ROM/patch bytes were fetched.
 
 | Feed | Source rows | Exact catalog matches | Pending source rows | Synced fields |
 | --- | ---: | ---: | ---: | --- |
-| Memory Card TH | 163 | 20 | 143 | Patch update date/version |
-| Gayray | 15 | 15 | 0 | Patch update date/version |
-| NONPLAE | 190 | 1 | 189 | Patch update date/version |
-| RetroSpective | 7 | 6 | 1 | Patch update date/version |
-| Murphy-TH | 10 | 1 | 9 | Patch update date/version when present |
-| Monster แปล | 118 | 24 | 94 | Discovery only: base JSON + live overlay |
-| แปลไทยเกมเก่า | 10 | 10 | 0 | Explicit latest patch date/version |
-| ROMMEAOW | 5 | 2 | 3 | Explicit version only; no release date inferred |
-| 90S Game | 48 | 18 | 30 | Discovery only; no dates or routes changed |
-| **Total** | **566** | **97** | **469** | Source rows, not unique games |
+| Memory Card TH | 182 | 41 | 141 | Patch update date/version, patch changes & category |
+| Gayray | 18 | 18 | 0 | Patch update date/version, patch changes & category |
+| NONPLAE | 190 | 11 | 179 | Patch update date/version, patch changes & category |
+| RetroSpective | 7 | 7 | 0 | Patch update date/version, patch changes & category |
+| Murphy-TH | 10 | 9 | 1 | Patch update date/version, patch changes & category |
+| Monster แปล | 118 | 33 | 85 | Discovery overlay, patch changes & category |
+| แปลไทยเกมเก่า | 10 | 10 | 0 | Explicit latest patch date/version, patch changes & category |
+| ROMMEAOW | 5 | 3 | 2 | Explicit version, patch changes & category |
+| 90S Game | 48 | 26 | 22 | Discovery overlay, patch changes & category |
+| **Total** | **588** | **158** | **430** | Source rows, not unique games |
 
-The 469 remaining rows include 141 `patch_listed`, 323 `site_listed`,
-2 `not_listed_for_download`, 2 `source_disabled` and 1 `release_unconfirmed`.
-These states describe source claims, not independently tested artifacts.
-Gayray's current 15-game feed is fully represented in the catalog.
+The remaining rows describe source claims, not independently tested artifacts.
+Gayray (18/18) and RetroSpective (7/7) current feeds are fully represented in the catalog.
+All 196 catalog records are enriched with verified `patchCategory` (`fix_update`, `full_release`, `partial_beta`)
+and clean 1-line Thai `patchChanges`.
 
 All nine adapters passed the live refresh. Every six hours Actions repeats
 metadata refresh; failed feeds preserve both prior catalog values and their
