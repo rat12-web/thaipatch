@@ -1,5 +1,18 @@
 # Remaining work
 
+Current 2026-10-30 result: 742 cards / 737 groups,
+Completed full multi-team synchronization, 100% cover rendering fix, Murphy-TH Silent Hill 4 (PC GOG), Monster แปล 11 new games, PS VITA platform support, and zero missing covers:
+- Zero Missing Covers: Added neutral official boxart for Final Fantasy Tactics A2 (NDS), Super Robot Taisen OG (GBA), and Pokémon Crystal (GBC) to NEUTRAL_GROUP_ART with resilient fallback. 0 missing covers across all 737 cards.
+- แปลไทยเกมเก่า: 10 games 100% fresh with latest release dates (TearRing Saga 1.0.1, Super Robot Taisen α 1.4, Dragon Quest VI 1.0.2).
+- Murphy-TH: Added Silent Hill 4: The Room (PC GOG) (murphy-028-14, v1.0 RC1, 2026-10-21); fixed dates for Rahmen Man and Saint Seiya.
+- Monster แปล: Ingested 11 new games from patches.json and api/catalog (Custom Robo N64, Phantasy Star 0 NDS, Super Robot Wars K NDS, Blue Dragon NDS, Mega Man X Regenesis PC, Survival Log PC, Ragnarok Battle Offline PC, Digital Tamers 2 PC, Pokémon Infinite Fusion PC, Ragnarok Odyssey ACE PS VITA, Persona 4 Golden PS VITA).
+- Platforms: Added PS VITA (19 platforms total) with official Wikimedia SVG logo and responsive styling.
+- นอนแปล & Memory Card TH: 100% in sync; ext-039 date populated.
+- Verified Facebook: ตลับเกมภาษาไทย and สลอธเล่นเกม with verified post links and boxart.
+Evidence recorded in evidence/2026-10-30/cover-and-teams-audit.json.
+
+The earlier snapshots below are historical.
+
 Current 2026-10-30 result: 730 cards / 725 groups,
 Completed 100% audit & sync across all translation teams:
 - นอนแปล (NONPLAE): 262 games (all 261 live games matched 100%, including today's release Metroid Fusion on GBA, plus Top Secret, MetaFight, Harvest Moon 64, Pokemon Crystal Advance Redux, Final Fantasy Tactics, Pokemon Gamma Emerald, ZENONIA 1).

@@ -3,7 +3,7 @@ function platformLogoUrl(p){return safeUrl(PLATFORM_REGISTRY[p]?.logo||'')}
 function teamLogoUrl(team){const t=typeof team==='object'?TEAM_REGISTRY.find(t=>t.id===team.teamId):TEAM_REGISTRY.find(t=>t.team===team);return safeUrl(t?.url||'')}
 function coverVars(g){const p=platformTheme(g.platform),t=teamTheme(g.translatorName||g.source),colors=p.colors;const stops=colors.map((c,i)=>`${c} ${i/colors.length*100}% ${(i+1)/colors.length*100}%`).join(',');return `--pf-main:${p.main};--pf-strong:${p.strong};--pf-stripe:linear-gradient(90deg,${stops});--team-main:${t.main};--team-strong:${t.strong};`}
 function coverCandidates(g){
- if(g.grouped)return g.neutralCover?[{url:safeUrl(g.neutralCover),kind:'official_game_art',label:''}]:[];
+ if(g.grouped){const c=g.neutralCover||g.cover||g.coverCandidateUrl||(g.variants&&g.variants.find(v=>v.cover)?.cover);return c?[{url:safeUrl(c),kind:'official_game_art',label:''}]:[];}
  return (g.coverAlternatives?.length?g.coverAlternatives:[{url:g.coverCandidateUrl||g.cover||'',label:g.coverLabel||''}]).map(c=>typeof c==='string'?{url:safeUrl(c),label:''}:({...c,url:safeUrl(c.url)})).filter(c=>c.url);
 }
 function coverFallback(g){return `<div class="image-fallback"><span>${safe(g.title)}<br><small>ภาพปกไม่พร้อมใช้งาน</small></span></div>`}

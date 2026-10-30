@@ -27,7 +27,13 @@ const TEAM_THEME={
  'รอมเหมียว (ROMMEAOW)':{main:'#ffedf6',strong:'#ed5f9b'},
  'RetroSpective':{main:'#efe9ff',strong:'#7556d8'}
 };
-const NEUTRAL_GROUP_ART={"Dragon Quest V|NDS":"https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Dragon%20Quest%20V%20-%20Tenkuu%20no%20Hanayome%20%28Japan%29.png","Pokémon Emerald|GBA":"https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.png"};
+const NEUTRAL_GROUP_ART={
+  "Dragon Quest V|NDS":"https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Dragon%20Quest%20V%20-%20Tenkuu%20no%20Hanayome%20%28Japan%29.png",
+  "Pokémon Emerald|GBA":"https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.png",
+  "Final Fantasy Tactics A2: Grimoire of the Rift|NDS":"https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Final%20Fantasy%20Tactics%20A2%20-%20Grimoire%20of%20the%20Rift%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+  "Super Robot Taisen: Original Generation|GBA":"https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20Taisen%20-%20Original%20Generation%20%28USA%29.png",
+  "Pokémon Crystal|GBC":"https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Pokemon%20-%20Crystal%20Version%20%28USA%2C%20Europe%29%20%28Rev%201%29.png"
+};
 let catalog=GAME_CATALOG;let modalReturnFocus=null;let state={query:'',platform:'',genre:'',art:'',series:'',team:'',sort:'recent',lane:'new',limit:24};
 function teamTheme(name){
   if(TEAM_THEME[name]) return TEAM_THEME[name];
@@ -44,8 +50,8 @@ function groupGameEntries(items){
  for(const g of items){const key=gameGroupKey(g);if(!map.has(key))map.set(key,[]);map.get(key).push(g)}
  return [...map.entries()].map(([key,list])=>{
    if(list.length===1)return list[0];
-   const official=NEUTRAL_GROUP_ART[canonicalTitle(list[0])+'|'+list[0].platform]||'';
    const defaultItem=list[0];
+   const official=NEUTRAL_GROUP_ART[canonicalTitle(defaultItem)+'|'+defaultItem.platform]||defaultItem.coverCandidateUrl||defaultItem.cover||(list.find(x=>x.cover)?.cover)||'';
    return {...defaultItem,id:'group:'+key,title:canonicalTitle(defaultItem),grouped:true,neutralCover:official,cover:official,coverLocal:'',coverCandidateUrl:official,groupKey:key,variants:list,teamCount:new Set(list.map(x=>x.translatorName||x.source||x.publisher)).size,source:'',translatorName:'',publisher:'',coverSource:'official_cover_for_neutral_group'};
  });
 }
