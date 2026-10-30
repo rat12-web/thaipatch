@@ -1,3 +1,14 @@
+## 2026-10-30 — Fix Nonplae cover alternatives (255 dead URLs cleaned), 100% verified primary covers, and compact 10-item alternating changelog
+
+Owner: Active Repository Agent (Antigravity); branch feat/fix-nonplae-covers-and-compact-changelog.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Broken Cover Resolution (User Screenshot): Investigated the broken covers on Top Secret, MetaFight, and Pokémon Crystal Advance Redux. Found that all 3 had working 200 OK primary covers on nonplae.com, but `src/catalog-media.js` preferentially loaded `coverAlternatives` which contained guessed 404 Libretro URLs. Fixed `coverCandidates` to always prioritize `g.cover` as candidate #0. Tested all 1,025 catalog URLs, purged 255 dead Libretro URLs from `coverAlternatives` across 267 games, and verified that all 742 primary covers return HTTP 200 OK. Chrome E2E test `qa_verify_user_screenshot_games.js` confirmed naturalWidth = 1536 across all three screenshot targets.
+- Compact 10-Item Changelog with Alternating Colors: Updated `renderRecentUpdates` to limit to exactly 10 items, tightened padding and font size (12px, line-height 1.45), shortened patch detail text to max 52 chars, added zebra-striping alternating row backgrounds (`:nth-child(even)`), and styled "อัปเดตเกม" (mint green chip) and "อัปเดตแก้ไขเกม" (amber orange chip).
+- QA Verification: All 8 test suites pass (`tools/build.py --check`, `.sync/refresh.py --check`, `.sync/test_refresh.py`, `qa_verify_user_screenshot_games.js`, `qa-platform-cards.cjs`, `qa-catalog.cjs`, `qa-smoke.cjs`, `qa-themes.cjs`, `qa-source-dates.cjs`, `qa-review-gayray.cjs`).
+
+---
+
 ## 2026-10-30 — Full multi-team synchronization, 100% cover rendering fix, Murphy-TH Silent Hill 4 (PC GOG), Monster แปล 11 new games, PS VITA platform support, and zero missing covers
 
 Owner: Active Repository Agent (Antigravity); branch feat/fix-all-covers-and-complete-teams-sync.

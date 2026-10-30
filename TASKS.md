@@ -1,6 +1,13 @@
 # Remaining work
 
 Current 2026-10-30 result: 742 cards / 737 groups,
+Resolved broken covers on user-reported cards (Top Secret, MetaFight, Pokémon Crystal Advance Redux) by prioritizing verified primary covers and purging 255 dead Libretro fallback URLs across 267 games.
+Enhanced frontpage recent updates changelog to compact 10-item limit with zebra-striping alternating row colors and distinct mint-green / amber-orange action chips for 'อัปเดตเกม' vs 'อัปเดตแก้ไขเกม'.
+Evidence recorded in evidence/2026-10-30/cover-and-changelog-fix.json.
+
+The earlier snapshots below are historical.
+
+Current 2026-10-30 result: 742 cards / 737 groups,
 Completed full multi-team synchronization, 100% cover rendering fix, Murphy-TH Silent Hill 4 (PC GOG), Monster แปล 11 new games, PS VITA platform support, and zero missing covers:
 - Zero Missing Covers: Added neutral official boxart for Final Fantasy Tactics A2 (NDS), Super Robot Taisen OG (GBA), and Pokémon Crystal (GBC) to NEUTRAL_GROUP_ART with resilient fallback. 0 missing covers across all 737 cards.
 - แปลไทยเกมเก่า: 10 games 100% fresh with latest release dates (TearRing Saga 1.0.1, Super Robot Taisen α 1.4, Dragon Quest VI 1.0.2).

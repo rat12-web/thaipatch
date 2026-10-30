@@ -58,7 +58,7 @@ function renderRecentUpdates(){
   const key=team+'_'+day;
   seenTeamDay[key]=(seenTeamDay[key]||0)+1;
   if(seenTeamDay[key]<=2)recent.push(g);
-  if(recent.length>=14)break;
+  if(recent.length>=10)break;
  }
  if(!recent.length){track.innerHTML='<p class="empty-update">ไม่มีรายการอัปเดตล่าสุด</p>';return;}
  track.innerHTML=`<div class="recent-changelog-list">${recent.map(g=>{
@@ -73,6 +73,8 @@ function renderRecentUpdates(){
    if(g.description&&g.description.includes('แปลทั้งเกม'))changeText=`แปลสมบูรณ์ทั้งเกม ${ver||''}`.trim();
    else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แปลเนื้อเรื่องและบทสนทนา ${ver||''}`.trim();
   }
+  changeText=changeText.replace(/^อัปเดต\s*(?:v[0-9.]+|ครั้งแรก)?[:—\s]*/,'').trim();
+  if(changeText.length>52)changeText=changeText.slice(0,50)+'…';
   const dateStr='วันที่ '+new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(d);
   return `<div class="changelog-row"><a class="changelog-link" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer"><span class="cl-date">${safe(dateStr)}</span> <span class="cl-team">${safe(team)}</span> <span class="cl-action ${isFix?'cl-fix':'cl-update'}">${safe(actionText)}</span> <strong class="cl-title">${safe(g.title)} (${safe(g.platform)})</strong> <span class="cl-sep">—</span> <span class="cl-detail">${safe(changeText)}</span></a></div>`;
  }).join('')}</div>`;
