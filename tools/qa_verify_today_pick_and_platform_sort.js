@@ -36,7 +36,14 @@ const assert = require('assert');
   });
 
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
-  await page.goto(url, { waitUntil: 'networkidle' });
+  await page.goto(url, { waitUntil: 'domcontentloaded' });
+  await page.locator('#cards .gcard').first().waitFor();
+  await page.locator('#todayPickCards .gcard').first().waitFor();
+
+  // Verify total catalog length
+  const totalInPage = await page.evaluate(() => catalog.length);
+  console.log('Total games in browser catalog:', totalInPage);
+  assert.equal(totalInPage, 1000, 'Expected 1000 games in catalog');
 
   // 1. Verify "Official Artwork" or "Official Game Artwork" is NOT displayed on any card
   const visibleOriginLabels = await page.locator('.cover-origin:not(.hide)').allInnerTexts();
@@ -129,6 +136,7 @@ const assert = require('assert');
   await browser.close();
   server.close();
   console.log('ALL TESTS PASSED WITH 100% SUCCESS!');
+  process.exit(0);
 })().catch(err => {
   console.error(err);
   process.exit(1);

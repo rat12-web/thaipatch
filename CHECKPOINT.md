@@ -1,3 +1,18 @@
+## 2026-10-30 — Standardize genres (13 clean categories), art styles (3 clean categories), and expand catalog to exactly 1,000 games with zero duplicates and verified boxart
+
+Owner: Active Repository Agent (Antigravity); branch feat/standardize-genre-artstyle-and-expand-catalog-1000.
+
+Catalog: Exactly 1,000 entries across 20 platforms (995 rendered groups/cards, 42 registered translation teams).
+- Standardized Genres: Consolidated from 79 noisy/overlapping categories to exactly 13 clean, non-duplicative categories: RPG (375), ผจญภัย (178), แอ็กชัน (123), วางแผน / แทคติก (101), แอ็กชัน-ผจญภัย (44), จำลองชีวิต (42), แอ็กชัน-RPG (30), การ์ดเกม / พัซเซิล (29), สยองขวัญเอาชีวิตรอด (28), ต่อสู้ (20), กีฬา (18), แข่งรถ (10), นิยายภาพ (2). Eliminated all English mixed jargon and duplicate subgenres.
+- Standardized Art Styles: Consolidated from 9 variants to exactly 3 pure Thai categories: สามมิติ (440), พิกเซล (409), สองมิติ (151). Eliminated `pixel_art`, `3d_rendered`, `Retro Pixel`, `3D Polygonal`, `2.5 มิติ`, `2.5D`.
+- Expanded Catalog to 1,000 Games: Added 258 authentic translation entries from verified Thai translation teams (ตลับเกมภาษาไทย, แปลไปเล่นไป, เล่าเรื่องเกม, Amnaj Thanya, น้า_auns555, น้องจ๋าแปลที, แมวดำ แปลเกมส์, แท็บแปล, ต้น คนนะไม่ใช่แมว, สลอธเล่นเกม, Happy2you.net, แปล mod by kai16, Chira Ae, etc.) plus Castlevania: Circle of the Moon (GBA, นอนแปล) and Silent Hill: Downpour (PS3, Murphy-TH).
+- Strict Zero Duplicate Enforcement: Rigorously filtered against title, normalized title, and same-team translations. Removed base catalog duplicate FFT (`nonplae-ext-final-fantasy-tactics` in favor of `ext-039`) and excluded candidate variants of Pokémon Emerald. Duplicate count: exactly 0.
+- Resolved User Screenshot Target Covers: Updated `Top Secret (Bionic Commando)` (NES), `MetaFight (Blaster Master)` (NES), and `Pokémon Crystal Advance Redux` (GBA) with verified high-resolution boxart covers hosted on Cloudflare R2 (matching user screenshot 2) with local nonplae.com URLs preserved in alternatives. Zero broken image fallbacks ("ภาพปกไม่พร้อมใช้งาน").
+- Zero Official Artwork Badges: Guaranteed `coverLabel: ""` across all catalog items; `cleanLabel()` purges any "Official" badges so they never obscure the translator plate.
+- QA Verification: All tests pass (`python tools/build.py --check`, `python .sync/refresh.py --check`, `python .sync/test_refresh.py` 5/5, `tools/qa-smoke.cjs` 6/6 views pass, `tools/qa_verify_today_pick_and_platform_sort.js` PASS 1000 games, 4 Today Pick cards with 4 unique genres and 4 unique teams, 0 Official Artwork badges, 5 responsive viewports 1440/1024/600/390/320px).
+
+---
+
 ## 2026-10-30 — Today Pick: 4 games, no re-roll button, weighted by visitor interest and download engagement, deterministic daily rotation
 
 Owner: Active Repository Agent (Antigravity); branch feat/today-pick-4-games-interest-rotation.
