@@ -80,7 +80,30 @@ function renderRecentUpdates(){
   return `<div class="changelog-row"><a class="changelog-link" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer"><span class="cl-date">${safe(dateStr)}</span> <span class="cl-team">${safe(team)}</span> <span class="cl-action ${isFix?'cl-fix':'cl-update'}">${safe(actionText)}</span> <strong class="cl-title">${safe(g.title)} (${safe(g.platform)})</strong> <span class="cl-sep">—</span> <span class="cl-detail">${safe(changeText)}</span></a></div>`;
  }).join('')}</div>`;
 }
-let todayRollOffset=0;
+function interestScore(g){
+ let s=10;
+ const series=seriesOf(g);
+ if(series&&SERIES_RANK.includes(series)){
+  const rank=SERIES_RANK.indexOf(series);
+  s+=Math.max(5,45-rank);
+ }else if(series&&series!=='เกมอื่น ๆ'){
+  s+=15;
+ }
+ const t=(g.title||'').toLowerCase();
+ if(/chrono|suikoden|valkyrie|xenogears|parasite eve|dino crisis|clock tower|bloody roar|breath of fire|front mission|mario/.test(t)){
+  s+=25;
+ }
+ if(g.patchCategory==='full_release')s+=25;
+ else if(g.patchCategory==='fix_update')s+=20;
+ else if(g.patchCategory==='partial_beta')s+=5;
+ if(g.sourceLocation&&g.sourceLocation.autoSelectsPatch)s+=15;
+ const plat=g.platform;
+ if(plat==='GBA'||plat==='PS1'||plat==='PS2'||plat==='SNES'||plat==='NDS'||plat==='PSP')s+=15;
+ const pt=g.playTimeHours||0;
+ if(pt>=20)s+=10;else if(pt>=8)s+=5;
+ return s;
+}
+
 function renderTodayPick(){
  const container=$('todayPickCards');
  if(!container)return;
@@ -89,37 +112,60 @@ function renderTodayPick(){
  const thDate='วันที่ '+new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(now);
  const dateBadge=$('todayPickDate');
  if(dateBadge)dateBadge.textContent=thDate;
- const seed=dStr+(todayRollOffset?'_'+todayRollOffset:'');
- let h=0;
- for(let i=0;i<seed.length;i++){
-  h=((h<<5)-h)+seed.charCodeAt(i);
-  h=h&0xFFFFFFFF;
- }
- function score(g){
-  let kh=h;
-  const str=(g.id||'')+(g.title||'');
+
+ function hashStr(str){
+  let h=0x811c9dc5;
   for(let i=0;i<str.length;i++){
-   kh=((kh<<5)-kh)+str.charCodeAt(i);
-   kh=kh&0xFFFFFFFF;
+   h^=str.charCodeAt(i);
+   h=Math.imul(h,0x01000193);
   }
-  return kh>>>0;
+  h^=h>>>16;h=Math.imul(h,0x85ebca6b);
+  h^=h>>>13;h=Math.imul(h,0xc2b2ae35);
+  h^=h>>>16;
+  return (h>>>0);
  }
- const pool=catalog.filter(g=>g.cover&&g.genre&&(g.translatorName||g.source));
- const sorted=[...pool].sort((a,b)=>score(a)-score(b));
+
+ function dailyScore(g){
+  const gh=hashStr((g.id||'')+'_'+dStr)%1000;
+  return gh + interestScore(g)*0.8;
+ }
+
+ const pool=catalog.filter(g=>g.cover&&g.genre&&(g.translatorName||g.source)&&(g.patchCategory==='full_release'||g.patchCategory==='fix_update')&&interestScore(g)>=65);
+ const sorted=[...pool].sort((a,b)=>dailyScore(b)-dailyScore(a));
+
  const chosen=[];
  const usedGenres=new Set();
  const usedTeams=new Set();
+ const usedSeries=new Set();
+
  for(const g of sorted){
   const genre=(g.genre||'').trim();
   const team=(g.translatorName||g.source||'').trim();
-  if(!genre||!team)continue;
-  if(!usedGenres.has(genre)&&!usedTeams.has(team)){
+  let ser=seriesOf(g);
+  if(!ser||ser==='เกมอื่น ๆ')ser=g.title||g.id;
+  if(!usedTeams.has(team)&&!usedSeries.has(ser)&&!usedGenres.has(genre)){
    chosen.push(g);
-   usedGenres.add(genre);
    usedTeams.add(team);
-   if(chosen.length===3)break;
+   usedSeries.add(ser);
+   usedGenres.add(genre);
+   if(chosen.length===4)break;
   }
  }
+
+ if(chosen.length<4){
+  for(const g of sorted){
+   const team=(g.translatorName||g.source||'').trim();
+   let ser=seriesOf(g);
+   if(!ser||ser==='เกมอื่น ๆ')ser=g.title||g.id;
+   if(!chosen.includes(g)&&!usedTeams.has(team)&&!usedSeries.has(ser)){
+    chosen.push(g);
+    usedTeams.add(team);
+    usedSeries.add(ser);
+    if(chosen.length===4)break;
+   }
+  }
+ }
+
  container.innerHTML=chosen.map(g=>card(g)).join('');
 }
 
@@ -135,7 +181,7 @@ function events(){
  document.addEventListener('keydown',e=>{if(!$('modalVeil').classList.contains('show'))return;if(e.key==='Escape'){closeModal();return}if(e.key==='Tab'){const els=[...$('modalVeil').querySelectorAll('button,a[href]')].filter(x=>x.getClientRects().length),first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
  $('modalClose').onclick=closeModal;$('modalVeil').onclick=e=>{if(e.target===$('modalVeil'))closeModal()};
  for(const id of ['searchGlobal','searchMain'])$(id).oninput=e=>{state.query=e.target.value;state.limit=24;$('searchGlobal').value=state.query;$('searchMain').value=state.query;renderLibrary()};$('searchGlobal').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('library').scrollIntoView({behavior:'smooth',block:'start'});$('searchMain').focus({preventScroll:true})}};
- for(const key of ['platform','series','team','genre','art','sort'])$(key+'Select').onchange=e=>{state[key]=e.target.value;state.limit=24;renderLibrary()};$('moreBtn').onclick=()=>{state.limit+=24;renderLibrary()};$('resetFilters').onclick=reset;$('todayPickRoll')?.addEventListener('click',()=>{todayRollOffset++;renderTodayPick();});
+ for(const key of ['platform','series','team','genre','art','sort'])$(key+'Select').onchange=e=>{state[key]=e.target.value;state.limit=24;renderLibrary()};$('moreBtn').onclick=()=>{state.limit+=24;renderLibrary()};$('resetFilters').onclick=reset;
  document.addEventListener('load',e=>{if(e.target instanceof HTMLImageElement)mediaLoaded(e.target)},true);
  document.addEventListener('error',e=>{if(e.target instanceof HTMLImageElement)mediaFailed(e.target)},true);
  document.querySelectorAll('img').forEach(image=>{if(image.complete&&image.naturalWidth>0)mediaLoaded(image)});

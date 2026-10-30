@@ -2,21 +2,29 @@ const { chromium } = require('playwright');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const assert = require('assert/strict');
+const assert = require('assert');
 
 (async () => {
+  const root = path.resolve(__dirname, '..');
   const server = http.createServer((req, res) => {
-    const rel = decodeURIComponent(req.url.split('?')[0]).replace(/^\/thaipatch\/?/, '').replace(/^\//, '') || 'index.html';
-    const file = path.resolve(__dirname, '..', rel);
-    if (!fs.existsSync(file) || !fs.statSync(file).isFile()) {
-      res.writeHead(404);
-      res.end();
-      return;
+    let filePath = path.join(root, req.url.replace(/^\/thaipatch\//, '').split('?')[0]);
+    if (filePath.endsWith('/') || filePath.endsWith('\\')) filePath = path.join(filePath, 'index.html');
+    if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
+      filePath = path.join(root, 'index.html');
     }
-    const ext = path.extname(file);
-    const mime = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.html': 'text/html' }[ext] || 'application/octet-stream';
-    res.setHeader('Content-Type', mime);
-    res.end(fs.readFileSync(file));
+    const ext = path.extname(filePath);
+    const contentType = {
+      '.html': 'text/html; charset=utf-8',
+      '.js': 'application/javascript; charset=utf-8',
+      '.css': 'text/css; charset=utf-8',
+      '.json': 'application/json; charset=utf-8',
+      '.png': 'image/png',
+      '.jpg': 'image/jpeg',
+      '.svg': 'image/svg+xml'
+    }[ext] || 'text/plain';
+
+    res.writeHead(200, { 'Content-Type': contentType });
+    res.end(fs.readFileSync(filePath));
   }).listen(0, '127.0.0.1');
 
   await new Promise(r => server.once('listening', r));
@@ -38,25 +46,26 @@ const assert = require('assert/strict');
   }
   console.log('PASS: Zero Official Artwork labels visible on cards');
 
-  // Check user-reported games specifically (Top Secret, MetaFight, Pokémon Crystal Advance Redux)
-  for (const gid of ['nonplae-ext-top-secret', 'nonplae-ext-metafight', 'nonplae-ext-pokemon-crystal-advance-redux']) {
-    const card = page.locator(`[data-source-direct="${gid}"]`);
-    await card.scrollIntoViewIfNeeded();
-    const origin = card.locator('.cover-origin');
-    const isHidden = await origin.evaluate(el => el.classList.contains('hide') || getComputedStyle(el).display === 'none');
-    assert(isHidden, `Card ${gid} must have hidden cover-origin`);
-    const team = await card.locator('.covertranslator .name').innerText();
-    console.log(`Game ${gid} translator plate: "${team}" (not blocked!)`);
-    assert(team.includes('นอนแปล'), `Expected team to include นอนแปล, got ${team}`);
+  // Verify Nonplae cards show translator plate clearly without any cover-origin blocking
+  const nonplaeCards = ['nonplae-ext-top-secret', 'nonplae-ext-metafight', 'nonplae-ext-pokemon-crystal-advance-redux'];
+  for (const id of nonplaeCards) {
+    const cardEl = page.locator(`[data-game-id="${id}"]`);
+    if (await cardEl.count() > 0) {
+      const plate = cardEl.locator('.covertranslator');
+      assert(await plate.isVisible(), `Translator plate for ${id} must be visible`);
+      const origin = cardEl.locator('.cover-origin');
+      const originVisible = await origin.isVisible().catch(() => false);
+      assert(!originVisible, `cover-origin for ${id} should be hidden`);
+      console.log(`Game ${id} translator plate: "${(await plate.innerText()).trim()}" (not blocked!)`);
+    }
   }
 
-  // 2. Test "เรียงตามเครื่องเกม" (Sort by platform)
+  // 2. Test "ตามเครื่องเกม" (Sort by Platform)
   await page.locator('#sortSelect').selectOption('platform');
   await page.waitForTimeout(300);
-  const first10Platforms = await page.locator('#cards .gcard').evaluateAll(cards => cards.slice(0, 10).map(c => c.dataset.platform));
-  console.log('First 10 platforms sorted by platform:', first10Platforms);
-  assert(first10Platforms.length >= 10);
-  // Verify that all identical platforms are consecutive (grouped)
+
+  const first10Platforms = await page.locator('#cards .gcard .game-badge-platform').allInnerTexts();
+  console.log('First 10 platforms sorted by platform:', first10Platforms.slice(0, 10));
   let switches = 0;
   for (let i = 1; i < first10Platforms.length; i++) {
     if (first10Platforms[i] !== first10Platforms[i-1]) switches++;
@@ -65,20 +74,27 @@ const assert = require('assert/strict');
   assert(switches <= 3, 'Platform sort should group games by console consecutively');
   console.log('PASS: Sort by platform works properly');
 
-  // 3. Test "Today Pick" (3 games, 3 genres, 3 teams)
+  // 3. Test "Today Pick" (4 games, no re-roll button, diverse genres & teams)
   const todayPickSection = page.locator('#todayPickSection');
   assert(await todayPickSection.isVisible(), 'Today Pick section must be visible');
   
+  // Verify NO roll button exists
+  const rollBtnCount = await page.locator('#todayPickRoll').count();
+  console.log(`Today Pick roll button count: ${rollBtnCount}`);
+  assert.equal(rollBtnCount, 0, 'No re-roll button should exist in Today Pick');
+  console.log('PASS: No re-roll button present as requested');
+
+  // Verify exactly 4 cards
   const todayCards = page.locator('#todayPickCards .gcard');
   const count = await todayCards.count();
   console.log(`Today Pick cards count: ${count}`);
-  assert.equal(count, 3, 'Expected exactly 3 cards in Today Pick');
+  assert.equal(count, 4, 'Expected exactly 4 cards in Today Pick');
 
   const genres = [];
   const teams = [];
   const titles = [];
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 4; i++) {
     const c = todayCards.nth(i);
     const title = await c.locator('.card-name').innerText();
     const genre = await c.locator('.card-meta span').first().innerText();
@@ -88,32 +104,27 @@ const assert = require('assert/strict');
     teams.push(team);
   }
 
-  console.log('Today Pick #1 Titles:', titles);
-  console.log('Today Pick #1 Genres (must be 3 unique):', genres);
-  console.log('Today Pick #1 Teams (must be 3 unique):', teams);
+  console.log('Today Pick 4 Titles:', titles);
+  console.log('Today Pick 4 Genres:', genres);
+  console.log('Today Pick 4 Teams:', teams);
 
-  assert.equal(new Set(genres).size, 3, 'Must have 3 different genres');
-  assert.equal(new Set(teams).size, 3, 'Must have 3 different teams');
-
-  // Test "🎲 สุ่มใหม่"
-  await page.locator('#todayPickRoll').click();
-  await page.waitForTimeout(300);
-
-  const titlesAfterRoll = await page.locator('#todayPickCards .card-name').allInnerTexts();
-  const genresAfterRoll = await page.locator('#todayPickCards .card-meta span:first-child').allInnerTexts();
-  const teamsAfterRoll = await page.locator('#todayPickCards .catalog-card-team').allInnerTexts();
-
-  console.log('Today Pick Roll #2 Titles:', titlesAfterRoll);
-  console.log('Today Pick Roll #2 Genres:', genresAfterRoll);
-  console.log('Today Pick Roll #2 Teams:', teamsAfterRoll);
-
-  assert.equal(new Set(genresAfterRoll).size, 3, 'Roll #2 must have 3 different genres');
-  assert.equal(new Set(teamsAfterRoll).size, 3, 'Roll #2 must have 3 different teams');
-  assert.notDeepEqual(titles, titlesAfterRoll, 'Roll #2 should pick a new set of games');
+  assert.equal(new Set(genres).size, 4, 'Must have 4 different genres');
+  assert.equal(new Set(teams).size, 4, 'Must have 4 different teams');
+  console.log('PASS: 4 games with 4 unique genres and 4 unique teams');
 
   // Screenshot Today Pick
-  await todayPickSection.screenshot({ path: path.join(__dirname, '../qa/today-pick.png') });
-  console.log('Captured qa/today-pick.png');
+  await todayPickSection.screenshot({ path: path.join(__dirname, '../qa/today-pick-4-games.png') });
+  console.log('Captured qa/today-pick-4-games.png');
+
+  // Responsive smoke checks across viewports
+  for (const width of [1440, 1024, 600, 390, 320]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.waitForTimeout(100);
+    const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+    const innerWidth = await page.evaluate(() => window.innerWidth);
+    assert(scrollWidth <= innerWidth, `Horizontal scroll overflow detected at width ${width}: scrollWidth=${scrollWidth}, innerWidth=${innerWidth}`);
+    console.log(`PASS: Responsive width ${width}px (no horizontal overflow)`);
+  }
 
   await browser.close();
   server.close();

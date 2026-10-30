@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-30",
+  "task": "Today Pick update: 4 games, no re-roll, visitor interest & download weighted, daily rotation",
+  "verification": {
+    "todayPicksCount": 4,
+    "hasReRollButton": false,
+    "criteria": {
+      "pool": "games with verified cover, genre, valid translator/source, patchCategory in ['full_release', 'fix_update'], and interestScore >= 65",
+      "interestWeightFactors": [
+        "Major recognized series rank (Pokemon, Zelda, FF, RE, DQ, DB, Onimusha, etc.)",
+        "Top-demand standalone classics (Chrono, Suikoden, Valkyrie, Xenogears, Dino Crisis, Mario, etc.)",
+        "Translation completion status (full_release: +25, fix_update: +20)",
+        "Direct download / autoSelectsPatch: +15",
+        "High-engagement platform (GBA, PS1, PS2, SNES, NDS, PSP): +15",
+        "Substantial playtime depth: +10"
+      ],
+      "dailyRotation": "deterministic FNV-1a hash with bit mixing on (gameId + Bangkok date YYYY-MM-DD)",
+      "diversityGuarantee": "4 unique teams, 4 unique series/titles, 4 distinct genres"
+    },
+    "sampleTodayPicks20261030": [
+      {
+        "id": "mem-043",
+        "title": "Pokémon White Version 2",
+        "platform": "NDS",
+        "genre": "RPG",
+        "team": "Memory Card TH"
+      },
+      {
+        "id": "nonplae-ext-diablo",
+        "title": "Diablo",
+        "platform": "PS1",
+        "genre": "Adventure",
+        "team": "นอนแปล (NONPLAE)"
+      },
+      {
+        "id": "monster-141",
+        "title": "Fire Emblem: Shadow Dragon",
+        "platform": "NDS",
+        "genre": "Strategy RPG",
+        "team": "Monster แปล"
+      },
+      {
+        "id": "90s-103",
+        "title": "One Piece",
+        "platform": "GBA",
+        "genre": "Action",
+        "team": "90S Game"
+      }
+    ],
+    "testsPassed": [
+      "tools/build.py --check",
+      "python .sync/refresh.py --check",
+      "python .sync/test_refresh.py (5/5)",
+      "tools/qa_verify_today_pick_and_platform_sort.js (Playwright 4 cards, no roll button, zero Official badges, responsive 1440/1024/600/390/320)",
+      "tools/qa-smoke.cjs (6/6 views pass)"
+    ]
+  }
+}
