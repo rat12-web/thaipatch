@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-30T13:37:00.000Z",
+  "audit": "Removal of Official Artwork label, added sort by platform (ตามเครื่องเกม), and daily Today Pick feature",
+  "changes": {
+    "officialArtworkLabelRemoval": {
+      "issue": "Official Artwork black pill badge was rendered on the lower-left corner of game cards, obscuring the translator team plate.",
+      "resolution": [
+        "Purged all 16 occurrences of 'Official Game Artwork' label in catalog.json.",
+        "Updated coverCandidates() in src/catalog-media.js to filter out any 'Official Game Artwork' string.",
+        "Repositioned .cover-origin to top: 8px; left: 8px with .hide rule in src/romthai-theme.css so it never overlaps the bottom-left translator plate.",
+        "Verified in Chrome: 0 visible cover-origin badges and translator plates are fully legible without obstruction."
+      ]
+    },
+    "sortByPlatform": {
+      "feature": "Added 'ตามเครื่องเกม' option to #sortSelect.",
+      "implementation": [
+        "Added <option value=\"platform\">ตามเครื่องเกม</option> to src/catalog-body.html.",
+        "Implemented platform sorting in filtered() in src/catalog-behavior.js using (a.platform||'').localeCompare(b.platform||'','en') || a.title.localeCompare(b.title,'th').",
+        "Verified in Chrome: games are cleanly grouped consecutively by console (3DS, GBA, NDS, PS1, etc.)."
+      ]
+    },
+    "todayPick": {
+      "feature": "Today's Pick daily showcase of exactly 3 games, 3 different genres, and 3 different translation teams.",
+      "implementation": [
+        "Added <section class=\"today-pick-section\" id=\"todayPickSection\"> to src/catalog-body.html with responsive 3-column grid.",
+        "Implemented deterministic daily seed (Asia/Bangkok YYYY-MM-DD) in renderTodayPick() in src/catalog-behavior.js ensuring exactly 3 games from 3 unique genres and 3 unique teams.",
+        "Added '🎲 สุ่มใหม่' button allowing users to re-roll a new trio on demand.",
+        "Verified in Chrome: exactly 3 games rendered with full interactive cards, distinct genres, distinct teams, and re-roll produces a new valid trio."
+      ]
+    }
+  },
+  "verification": {
+    "buildCheck": "PASS",
+    "refreshCheck": "PASS",
+    "refreshTests": "PASS",
+    "qaTodayPickAndPlatformSort": "PASS",
+    "qaCatalog": "PASS",
+    "qaPlatformCards": "PASS",
+    "qaSmoke": "PASS",
+    "qaThemes": "PASS",
+    "qaSourceDates": "PASS",
+    "qaReviewGayray": "PASS"
+  }
+}

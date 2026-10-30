@@ -21,6 +21,7 @@ function sourceDateHtml(g){const row=newestSourceVariant(g);if(!row)return '';co
 function filtered(){
  const groups=groupGameEntries(allGames()).filter(g=>(g.variants||[g]).some(matchesFilters));
  if(state.sort==='alpha')groups.sort((a,b)=>a.title.localeCompare(b.title,'th'));
+ else if(state.sort==='platform')groups.sort((a,b)=>(a.platform||'').localeCompare(b.platform||'','en')||a.title.localeCompare(b.title,'th'));
  else if(state.sort==='series')groups.sort((a,b)=>seriesPopularity(a)-seriesPopularity(b)||a.title.localeCompare(b.title));
  else if(state.sort==='added')groups.sort((a,b)=>(b.catalogAddedAt||'').localeCompare(a.catalogAddedAt||'')||a.title.localeCompare(b.title));
  else if(state.sort==='playtime')groups.sort((a,b)=>(a.playTimeHours||999)-(b.playTimeHours||999)||a.title.localeCompare(b.title,'th'));
@@ -79,7 +80,50 @@ function renderRecentUpdates(){
   return `<div class="changelog-row"><a class="changelog-link" href="${safe(sourceUrl(g))}" target="_blank" rel="noopener noreferrer"><span class="cl-date">${safe(dateStr)}</span> <span class="cl-team">${safe(team)}</span> <span class="cl-action ${isFix?'cl-fix':'cl-update'}">${safe(actionText)}</span> <strong class="cl-title">${safe(g.title)} (${safe(g.platform)})</strong> <span class="cl-sep">—</span> <span class="cl-detail">${safe(changeText)}</span></a></div>`;
  }).join('')}</div>`;
 }
-function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();metrics()}
+let todayRollOffset=0;
+function renderTodayPick(){
+ const container=$('todayPickCards');
+ if(!container)return;
+ const now=new Date();
+ const dStr=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok'}).format(now);
+ const thDate='วันที่ '+new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',timeZone:'Asia/Bangkok'}).format(now);
+ const dateBadge=$('todayPickDate');
+ if(dateBadge)dateBadge.textContent=thDate;
+ const seed=dStr+(todayRollOffset?'_'+todayRollOffset:'');
+ let h=0;
+ for(let i=0;i<seed.length;i++){
+  h=((h<<5)-h)+seed.charCodeAt(i);
+  h=h&0xFFFFFFFF;
+ }
+ function score(g){
+  let kh=h;
+  const str=(g.id||'')+(g.title||'');
+  for(let i=0;i<str.length;i++){
+   kh=((kh<<5)-kh)+str.charCodeAt(i);
+   kh=kh&0xFFFFFFFF;
+  }
+  return kh>>>0;
+ }
+ const pool=catalog.filter(g=>g.cover&&g.genre&&(g.translatorName||g.source));
+ const sorted=[...pool].sort((a,b)=>score(a)-score(b));
+ const chosen=[];
+ const usedGenres=new Set();
+ const usedTeams=new Set();
+ for(const g of sorted){
+  const genre=(g.genre||'').trim();
+  const team=(g.translatorName||g.source||'').trim();
+  if(!genre||!team)continue;
+  if(!usedGenres.has(genre)&&!usedTeams.has(team)){
+   chosen.push(g);
+   usedGenres.add(genre);
+   usedTeams.add(team);
+   if(chosen.length===3)break;
+  }
+ }
+ container.innerHTML=chosen.map(g=>card(g)).join('');
+}
+
+function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();renderTodayPick();metrics()}
 function sourceNote(g){if(g.sourceLocation?.method==='patch_lab')return 'เข้าหน้า Patch Lab โดยตรง ต้นทางตรวจเกมจากไฟล์ ROM ของคุณ หรือเลือกเกมในช่องค้นหา';if(g.sourceLocation?.method==='text_fragment')return 'เปิดตรงตำแหน่ง '+g.title+' ที่ต้นทาง กดปกเกมเพื่อเปิดรายละเอียด/แพตช์';if(g.sourceAudit?.state==='failed_selection'||g.sourceAudit?.state==='default_match_inconclusive')return 'เมื่อถึงเว็บไซต์ 90S Game ให้เลือก '+g.title+' ในช่องเกมก่อนดำเนินการต่อ';if(g.sourceAudit?.state==='directory_only')return 'ลิงก์เปิดคลังของทีมแปล กรุณาเลือกเกมนี้ที่เว็บไซต์ต้นทาง';if(g.sourceAudit?.state==='inferred')return 'ยังไม่ยืนยันหน้าเกมเฉพาะ หากเปิดแล้วไม่ตรงเกม ให้ค้นหาชื่อเกมที่เว็บไซต์ต้นทาง';return ''}
 function groupPicker(key){const variants=catalog.filter(g=>gameGroupKey(g)===key);if(!variants.length)return;
  const name=canonicalTitle(variants[0]);const items=variants.map(g=>{const team=g.translatorName||g.source,url=sourceUrl(g),art=assetUrl(g.coverCandidateUrl||g.cover||'',g),logo=teamLogoUrl(g),note='';return `<a class="variant-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer"><span class="variant-media">${art?`<img src="${safe(art)}" alt="ปก ${safe(g.title)}" loading="lazy">`:''}</span><span class="variant-copy"><span class="variant-source">${logo?`<img class="variant-logo" src="${safe(logo)}" alt="" loading="lazy">`:''}<b>${safe(team)}</b></span><span class="variant-name">${safe(g.title)} · ${safe(g.platform)}</span><small class="variant-version">${safe((g.baseEdition?'ฐาน '+g.baseEdition+' · ':'')+'แพตช์ '+(g.patchVersion||g.version||'ดูที่ต้นทาง'))}</small>${g.patchChanges?`<small class="variant-changes">${safe(g.patchChanges)}</small>`:''}${note?`<small class="team-route">${safe(note)}</small>`:''}</span><span class="variant-arrow" aria-hidden="true">↗</span></a>`}).join('');
@@ -91,7 +135,7 @@ function events(){
  document.addEventListener('keydown',e=>{if(!$('modalVeil').classList.contains('show'))return;if(e.key==='Escape'){closeModal();return}if(e.key==='Tab'){const els=[...$('modalVeil').querySelectorAll('button,a[href]')].filter(x=>x.getClientRects().length),first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
  $('modalClose').onclick=closeModal;$('modalVeil').onclick=e=>{if(e.target===$('modalVeil'))closeModal()};
  for(const id of ['searchGlobal','searchMain'])$(id).oninput=e=>{state.query=e.target.value;state.limit=24;$('searchGlobal').value=state.query;$('searchMain').value=state.query;renderLibrary()};$('searchGlobal').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('library').scrollIntoView({behavior:'smooth',block:'start'});$('searchMain').focus({preventScroll:true})}};
- for(const key of ['platform','series','team','genre','art','sort'])$(key+'Select').onchange=e=>{state[key]=e.target.value;state.limit=24;renderLibrary()};$('moreBtn').onclick=()=>{state.limit+=24;renderLibrary()};$('resetFilters').onclick=reset;
+ for(const key of ['platform','series','team','genre','art','sort'])$(key+'Select').onchange=e=>{state[key]=e.target.value;state.limit=24;renderLibrary()};$('moreBtn').onclick=()=>{state.limit+=24;renderLibrary()};$('resetFilters').onclick=reset;$('todayPickRoll')?.addEventListener('click',()=>{todayRollOffset++;renderTodayPick();});
  document.addEventListener('load',e=>{if(e.target instanceof HTMLImageElement)mediaLoaded(e.target)},true);
  document.addEventListener('error',e=>{if(e.target instanceof HTMLImageElement)mediaFailed(e.target)},true);
  document.querySelectorAll('img').forEach(image=>{if(image.complete&&image.naturalWidth>0)mediaLoaded(image)});
