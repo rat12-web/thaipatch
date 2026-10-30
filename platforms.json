@@ -270,5 +270,20 @@
     "source": "https://commons.wikimedia.org/wiki/File:Windows_logo_-_2021.svg",
     "evidence": "qa/upgrade/discovery.json",
     "localAllowed": false
+  },
+  "PS VITA": {
+    "id": "PS VITA",
+    "label": "PlayStation Vita",
+    "main": "#003791",
+    "strong": "#00205b",
+    "colors": [
+      "#003791",
+      "#0070d1",
+      "#00205b"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PlayStation_Vita_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:PlayStation_Vita_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
   }
 }
