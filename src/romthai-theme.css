@@ -62,7 +62,7 @@ html[data-theme] .cover .covertranslator{left:0!important;right:auto!important;b
 html[data-theme] .cover .translatorplate{border-radius:0 12px 0 0!important;min-height:54px;padding:7px 11px!important;border-left:0!important;border-bottom:0!important;box-shadow:3px -3px 0 #0002!important;gap:8px!important}
 html[data-theme] .cover .translatorplate .teamlogo{width:46px!important;height:46px!important;max-width:46px!important;border-radius:3px!important;padding:2px!important;flex:none!important}
 html[data-theme] .cover .translatorplate .name{font-size:11px!important;max-width:165px;overflow-wrap:anywhere}
-.cover-origin{position:absolute;z-index:7;left:10px;bottom:10px;max-width:55%;padding:4px 6px;background:#15212bed;color:#fff;font-size:10px;border-radius:3px}
+.cover-origin{position:absolute;z-index:7;left:8px;top:8px;max-width:55%;padding:3px 6px;background:#15212bed;color:#fff;font-size:10px;border-radius:3px;pointer-events:none}.cover-origin.hide{display:none!important}
 .image-fallback{display:grid;place-items:center;text-align:center;padding:22px}
 .cover.has-art .image-fallback{visibility:hidden}
 .source-date{display:block;color:var(--sub);font-size:11px;line-height:1.6;min-height:18px}.source-date-unknown{font-size:10px}
@@ -120,4 +120,23 @@ html[data-theme="dark"] [data-patch-cat="partial_beta"] .patch-cat-badge{backgro
   .patch-cat-badge{font-size:9.5px;padding:1px 6px}
   .patch-change-text{font-size:10.5px}
   .variant-changes{font-size:10.5px}
+}
+
+
+/* Today's Pick Section */
+.today-pick-section{margin:0 0 28px}
+.today-pick-box{border:2px solid var(--frame);border-radius:6px;background:var(--surface);box-shadow:3px 3px 0 var(--shade);padding:14px 16px}
+.today-pick-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:12px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.today-pick-title{display:flex;align-items:center;gap:8px;font-size:15px;color:var(--txt)}
+.pixel-star{color:#fbbf24;font-size:14px}
+.today-pick-badge{background:var(--surface2);border:1px solid var(--line);border-radius:4px;padding:2px 7px;font:700 11px/1.3 ui-monospace,monospace;color:var(--sub)}
+.today-pick-actions{display:flex;align-items:center;gap:10px}
+.today-pick-hint{font-size:12px;color:var(--sub)}
+.today-pick-btn{padding:2px 8px!important;font-size:11.5px!important;cursor:pointer}
+.today-pick-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media(max-width:820px){
+  .today-pick-cards{grid-template-columns:1fr}
+  .today-pick-box{padding:10px 12px}
+  .today-pick-title{font-size:13.5px}
+  .today-pick-hint{font-size:11px}
 }

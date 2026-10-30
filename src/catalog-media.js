@@ -6,12 +6,14 @@ function coverCandidates(g){
  if(g.grouped){const c=g.neutralCover||g.cover||g.coverCandidateUrl||(g.variants&&g.variants.find(v=>v.cover)?.cover);return c?[{url:safeUrl(c),kind:'official_game_art',label:''}]:[];}
  const primary=safeUrl(g.cover||g.coverCandidateUrl||'');
  const list=[];
- if(primary)list.push({url:primary,label:g.coverLabel||''});
+ const cleanLabel=l=>(l&&l!=='Official Game Artwork'&&!l.includes('Official'))?l:'';
+ if(primary)list.push({url:primary,label:cleanLabel(g.coverLabel)});
  if(Array.isArray(g.coverAlternatives)){
   for(const c of g.coverAlternatives){
    const u=safeUrl(typeof c==='string'?c:c?.url);
+   const lab=cleanLabel(typeof c==='string'?'':c?.label);
    if(u&&!list.some(x=>x.url===u)){
-    list.push(typeof c==='string'?{url:u,label:''}:({...c,url:u}));
+    list.push(typeof c==='string'?{url:u,label:''}:({...c,url:u,label:lab}));
    }
   }
  }

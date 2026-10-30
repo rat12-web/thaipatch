@@ -1,6 +1,14 @@
 # Remaining work
 
 Current 2026-10-30 result: 742 cards / 737 groups,
+Removed Official Artwork labels from game cards so the translator team plate is completely unobstructed.
+Added 'ตามเครื่องเกม' (Sort by platform) option to sortSelect, grouping all games consecutively by console.
+Added Today's Pick daily showcase featuring 3 games across 3 different genres and 3 different translation teams, with daily date seeding and on-demand '🎲 สุ่มใหม่' re-roll.
+Evidence recorded in evidence/2026-10-30/today-pick-and-sort.json.
+
+The earlier snapshots below are historical.
+
+Current 2026-10-30 result: 742 cards / 737 groups,
 Resolved broken covers on user-reported cards (Top Secret, MetaFight, Pokémon Crystal Advance Redux) by prioritizing verified primary covers and purging 255 dead Libretro fallback URLs across 267 games.
 Enhanced frontpage recent updates changelog to compact 10-item limit with zebra-striping alternating row colors and distinct mint-green / amber-orange action chips for 'อัปเดตเกม' vs 'อัปเดตแก้ไขเกม'.
 Evidence recorded in evidence/2026-10-30/cover-and-changelog-fix.json.

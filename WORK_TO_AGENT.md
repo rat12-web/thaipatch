@@ -1,3 +1,15 @@
+## 2026-10-30 — Removal of Official Artwork label, added sort by platform (ตามเครื่องเกม), and daily Today Pick feature
+
+Owner: Active Repository Agent (Antigravity); branch feat/remove-official-artwork-label-add-platform-sort-and-today-pick.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Removal of Official Artwork Labels: Diagnosed user-reported issue where "Official Game Artwork" badges appeared on the bottom-left of card covers, obscuring the translator team plate. Purged all 16 occurrences from `catalog.json`, filtered them out in `coverCandidates()`, and moved `.cover-origin` to top-left (`top: 8px; left: 8px;`) so it never covers the team plate. Verified 0 visible "Official" labels in browser.
+- Sort by Platform (ตามเครื่องเกม): Added `<option value="platform">ตามเครื่องเกม</option>` to `#sortSelect` and updated `filtered()` in `src/catalog-behavior.js` to sort games by console name consecutively and then alphabetically by game title.
+- Today Pick Daily Showcase: Added `<section class="today-pick-section" id="todayPickSection">` featuring 3 games, 3 different genres, and 3 different translation teams, seeded deterministically by date (`YYYY-MM-DD` in Asia/Bangkok time) with a "🎲 สุ่มใหม่" on-demand re-roll button.
+- QA Verification: All 9 test suites pass (`tools/build.py --check`, `.sync/refresh.py --check`, `.sync/test_refresh.py`, `qa_verify_today_pick_and_platform_sort.js`, `qa_verify_user_screenshot_games.js`, `qa-platform-cards.cjs`, `qa-catalog.cjs`, `qa-smoke.cjs`, `qa-themes.cjs`, `qa-source-dates.cjs`, `qa-review-gayray.cjs`).
+
+---
+
 ## 2026-10-30 — Fix Nonplae cover alternatives (255 dead URLs cleaned), 100% verified primary covers, and compact 10-item alternating changelog
 
 Owner: Active Repository Agent (Antigravity); branch feat/fix-nonplae-covers-and-compact-changelog.
