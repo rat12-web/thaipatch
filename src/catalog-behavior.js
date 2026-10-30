@@ -49,7 +49,17 @@ function metrics(){$('metricGames').textContent=groupGameEntries(catalog).length
 function renderRecentUpdates(){
  const track=$('recentUpdatesTrack');
  if(!track)return;
- const recent=[...catalog].filter(g=>g.sourceUpdatedAt||g.sourceUploadedAt||g.date).sort((a,b)=>sourceOrderKey(b)-sourceOrderKey(a)).slice(0,8);
+ const allRecent=[...catalog].filter(g=>g.sourceUpdatedAt||g.sourceUploadedAt||g.date).sort((a,b)=>sourceOrderKey(b)-sourceOrderKey(a));
+ const seenTeamDay={};
+ const recent=[];
+ for(const g of allRecent){
+  const team=g.translatorName||g.source||'';
+  const day=(g.sourceUpdatedAt||g.date||'').slice(0,10);
+  const key=team+'_'+day;
+  seenTeamDay[key]=(seenTeamDay[key]||0)+1;
+  if(seenTeamDay[key]<=2)recent.push(g);
+  if(recent.length>=14)break;
+ }
  if(!recent.length){track.innerHTML='<p class="empty-update">ไม่มีรายการอัปเดตล่าสุด</p>';return;}
  track.innerHTML=`<div class="recent-changelog-list">${recent.map(g=>{
   const val=g.sourceUpdatedAt||g.sourceUploadedAt||g.date;

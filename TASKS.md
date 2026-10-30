@@ -1,5 +1,19 @@
 # Remaining work
 
+Current 2026-10-30 result: 730 cards / 725 groups,
+Completed 100% audit & sync across all translation teams:
+- นอนแปล (NONPLAE): 262 games (all 261 live games matched 100%, including today's release Metroid Fusion on GBA, plus Top Secret, MetaFight, Harvest Moon 64, Pokemon Crystal Advance Redux, Final Fantasy Tactics, Pokemon Gamma Emerald, ZENONIA 1).
+- Memory Card TH: 184 games (all 182 games matched 100%, including Pokémon Yellow gen1recomp on PC; all 182 milestones and timestamps synced).
+- เกเรแปลไทย (Gayray): 18 games with 100% verified ISO dates from Thai Buddhist era.
+- แปลไทยเกมเก่า: 10 games with latest v1.0.1/v1.0.2/v1.4 patches (2026-10-29).
+- Monster แปล (144 games), 90S Game (50 games), Murphy-TH (14 games), RetroSpective (7 games), ROMMEAOW (3 games), and Facebook teams.
+- All 1013 cover URLs verified HTTP 200 OK (0 broken covers).
+- Added N64 and PC platforms with full SVG logos and themes.
+- Enhanced front-page recent updates changelog to display balanced multi-team updates.
+Evidence recorded in evidence/2026-10-30/all-teams-sync.json.
+
+The earlier snapshots below are historical.
+
 Current 2026-10-29 result: 721 cards / 716 groups,
 Completed 100% console coverage for Memory Card TH (181 console games), 90S Game (49 games), Monster แปล (144 games), นอนแปล (254 games), Murphy-TH (14 console games), Gayray (18 games), RetroSpective (7 games), ROMMEAOW (3 games), and Facebook teams; all 721 covers verified HTTP 200 OK.
 Evidence recorded in evidence/2026-10-29/all-teams-expansion.json.
