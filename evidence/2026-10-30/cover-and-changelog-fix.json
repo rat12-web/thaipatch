@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-30T11:55:00.000Z",
+  "audit": "Fix for Nonplae cover fallback and compact 10-item alternating changelog",
+  "summary": {
+    "totalGames": 742,
+    "primaryCoversVerified": 742,
+    "primaryCoverFailures": 0,
+    "deadCoverAlternativesCleaned": 255,
+    "changelogLimit": 10,
+    "changelogZebraStriping": true,
+    "changelogColoredChips": true
+  },
+  "rootCauseInvestigation": {
+    "screenshotReport": "User screenshot showed Top Secret (Bionic Commando), MetaFight (Blaster Master), and Pokémon Crystal Advance Redux displaying 'ภาพปกไม่พร้อมใช้งาน'.",
+    "findings": [
+      "All 3 games had working, verified 200 OK primary covers hosted on nonplae.com (e.g. https://www.nonplae.com/covers/top-secret-th-nonplae-v1.0.webp).",
+      "However, their coverAlternatives array contained guessed Libretro URLs that returned 404 (e.g. Top Secret - Hitler no Fukkatsu (Japan).png was 404).",
+      "In src/catalog-media.js, coverCandidates(g) checked 'g.coverAlternatives?.length ? g.coverAlternatives : ...' which completely discarded g.cover when coverAlternatives was non-empty.",
+      "The browser requested the dead 404 URL, triggering mediaFailed(), and fell back to 'ภาพปกไม่พร้อมใช้งาน'."
+    ],
+    "resolution": [
+      "Updated coverCandidates in src/catalog-media.js to always prioritize g.cover / g.coverCandidateUrl as candidate #0 (primary), appending valid coverAlternatives as fallbacks.",
+      "Tested all 1,025 distinct URLs across the catalog; identified 255 dead Libretro candidate URLs and purged them from coverAlternatives across 267 games.",
+      "Verified in real Chrome via tools/qa_verify_user_screenshot_games.js: Top Secret (naturalWidth=1536), MetaFight (naturalWidth=1536), and Pokémon Crystal Advance Redux (naturalWidth=1536) now all render with real, sharp covers."
+    ]
+  },
+  "changelogEnhancement": {
+    "count": 10,
+    "styling": "Compact box with padding 10px 14px, font-size 12px, line-height 1.45, truncated summaries (max 52 chars).",
+    "alternatingColors": "Zebra striping on .changelog-row:nth-child(even) with subtle translucent background tint.",
+    "actionBadges": "Mint green badge for 'อัปเดตเกม' (new full release) and Amber orange badge for 'อัปเดตแก้ไขเกม' (patch update)."
+  },
+  "verification": {
+    "buildCheck": "PASS",
+    "refreshCheck": "PASS",
+    "refreshTests": "PASS",
+    "qaUserScreenshotGames": "PASS",
+    "qaCatalog": "PASS",
+    "qaPlatformCards": "PASS",
+    "qaSmoke": "PASS",
+    "qaThemes": "PASS",
+    "qaSourceDates": "PASS",
+    "qaReviewGayray": "PASS"
+  }
+}

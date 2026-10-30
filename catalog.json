@@ -13021,6 +13021,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://retrospective-patch-library.vercel.app/assets/covers/pokemon-wild-indigo-th.webp",
+        "kind": "primary_cover",
+        "source": "RetroSpective",
+        "label": ""
+      },
+      {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -13203,6 +13209,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://cdn.imgchest.com/files/8a28d4842067.png",
+        "kind": "primary_cover",
+        "source": "Murphy-TH",
+        "label": ""
+      },
+      {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Mega%20Man%20X5%20%28USA%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -13289,6 +13301,12 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://cdn.imgchest.com/files/551224c499a3.png",
+        "kind": "primary_cover",
+        "source": "Murphy-TH",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%20-%20Director%27s%20Cut%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -13551,6 +13569,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://cdn.imgchest.com/files/930c0d2d98cf.png",
+        "kind": "primary_cover",
+        "source": "Murphy-TH",
+        "label": ""
+      },
+      {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Play%20Novel%20-%20Silent%20Hill%20%28Japan%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -13638,6 +13662,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://cdn.imgchest.com/files/ddff5f174bf9.png",
+        "kind": "primary_cover",
+        "source": "Murphy-TH",
+        "label": ""
+      },
+      {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Mighty%20Final%20Fight%20%28USA%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -13724,6 +13754,12 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://cdn.imgchest.com/files/62df95e67d97.png",
+        "kind": "primary_cover",
+        "source": "Murphy-TH",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Phantom%20Fighter%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -15220,16 +15256,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0a8ae269-f714-4158-9fd5-4f9f51d852a5.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Toukiden%20Kiwami%20%28Europe%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -15314,16 +15342,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-d1852ea7-01cf-4ebf-b234-d75e54afdefa.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Knights%20History%20%28Japan%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -15596,16 +15616,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-1d2835e3-30f8-4dea-8858-fba7951cbbd5.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Yu-Gi-Oh%21%20GX%20Tag%20Force%202%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -15878,16 +15890,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-90a984f3-1040-4890-8cf0-15bf9c02526a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Kurohyou%202%20-%20Ryuu%20ga%20Gotoku%20Ashura%20Hen%20%28Japan%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -16066,16 +16070,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/the-sims-2-gba-nonplae-cover.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/The%20Sims%202%20%28USA%2C%20Europe%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -16942,10 +16938,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pirates%20of%20the%20Caribbean%20-%20The%20Curse%20of%20the%20Black%20Pearl%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "url": "https://90s-game.pitak2540.workers.dev/covers/pirates-black-pearl-th.png",
+        "kind": "primary_cover",
+        "source": "90S Game",
         "label": ""
       }
     ],
@@ -17029,10 +17024,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pirates%20of%20the%20Caribbean%20-%20Dead%20Man%27s%20Chest%20%28USA%2C%20Europe%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "url": "https://90s-game.pitak2540.workers.dev/covers/pirates-dead-mans-chest-th.png",
+        "kind": "primary_cover",
+        "source": "90S Game",
         "label": ""
       }
     ],
@@ -17203,6 +17197,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://90s-game.pitak2540.workers.dev/covers/one-piece-th.png",
+        "kind": "primary_cover",
+        "source": "90S Game",
+        "label": ""
+      },
+      {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/One%20Piece%20%28USA%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -17290,10 +17290,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Shrek%202%20%28USA%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "url": "https://90s-game.pitak2540.workers.dev/covers/shrek-2-th.png",
+        "kind": "primary_cover",
+        "source": "90S Game",
         "label": ""
       }
     ],
@@ -17376,6 +17375,12 @@
       "uploadDateVerified": false
     },
     "coverAlternatives": [
+      {
+        "url": "https://90s-game.pitak2540.workers.dev/covers/spider-man-battle-for-new-york-th.png",
+        "kind": "primary_cover",
+        "source": "90S Game",
+        "label": ""
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Spider-Man%20-%20Battle%20for%20New%20York%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -17551,10 +17556,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone%20%28USA%2C%20Europe%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
+        "url": "https://90s-game.pitak2540.workers.dev/covers/harry-potter-sorcerers-stone-th.png",
+        "kind": "primary_cover",
+        "source": "90S Game",
         "label": ""
       }
     ],
@@ -17639,16 +17643,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2861bc5f-4252-4f5c-8b13-96fce0a79483.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Dragon%20Quest%20Final%20Fantasy%20in%20Itadaki%20Street%20Portable.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -17733,16 +17729,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f21b6cfd-c9d6-46d0-a024-78464c05a08b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pok%C3%A9mon%20Emerald.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -17827,16 +17815,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4b081b28-1819-4430-bb54-b7b0462fa051.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20IX.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -17921,16 +17901,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-50eabbb0-db4b-4499-876e-fc88f1611da7.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Warera%20Mitsurin%20Tankentai.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18015,16 +17987,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a59458bf-c146-4586-aaa2-d47ec323a25b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Zill%20Oll%20Infinite%20Plus.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18109,16 +18073,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/beyblade-g-revolution-nonplae-cover.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Beyblade%20G-Revolution.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18203,16 +18159,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/advance-wars-nonplae-cover.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Advance%20Wars.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18297,16 +18245,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3b5b9b9b-8bff-4fb1-a751-b18d8cf38ff1.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Fire%20Emblem%20Tordo%20Revolution.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18391,16 +18331,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-bf001e85-6f2b-477c-98d9-384d0dca5563.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Story%20of%20Seasons%20-%20Trio%20of%20Towns.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18485,16 +18417,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6ed6850b-b9db-4b79-8bd3-f07962cbae21.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Star%20Wars%20Episode%20III%3A%20Revenge%20of%20the%20Sith.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18579,16 +18503,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-d1f5fb4d-43cd-4ce9-a5d7-b490e9be5477.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Bokura%20wa%20Kaseki%20Holder.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18673,16 +18589,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-05b30155-021f-458a-9011-c7f2157d70f1.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Super%20Robot%20Taisen%20F%20Final.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18767,16 +18675,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6de3cf96-a262-4684-9baa-96da6e1b9b9f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Super%20Robot%20Taisen%20F.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18861,16 +18761,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f4774be0-dd33-4985-bf04-b287654c55b3.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Castlevania%3A%20Symphony%20of%20the%20Night.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -18955,16 +18847,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-35097a39-cfeb-4248-b1a7-6cf324a2da6b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Harvest%20Moon%3A%20Back%20to%20Nature%20Mod.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19049,16 +18933,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0af9ab7e-5d0a-4e2e-869c-37f5d5cdd151.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Umi%20no%20Nushi-tsuri%20-%20Takarajima%20ni%20Mukatte.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19143,16 +19019,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-7d6c2a20-6720-4aa3-ba73-6632e084ceab.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Breath%20of%20Fire%20II.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19237,16 +19105,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-10de96fd-5523-437e-bc0e-ecc683a7d53c.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Langrisser%20V.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19331,16 +19191,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-cf8efc03-0126-49e3-9331-f7a8679b7ba6.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Tsubasa.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19425,16 +19277,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f7f29e14-dd04-404b-8049-fab53550b4bc.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Langrisser%20IV.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19519,16 +19363,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/crystalis-nes-th-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Crystalis.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19613,16 +19449,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/bio-senshi-dan-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Bio%20Senshi%20Dan.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19707,16 +19535,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/getsu-fuuma-den-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Getsu%20Fuuma%20Den.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19801,16 +19621,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2ed0e1fe-436d-4767-bc8b-afcc5790e397.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%20VI%20T-Edition.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19895,16 +19707,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4c3d548e-4867-46ad-880f-461f38aed29a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Romancing%20Sa-Ga.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -19989,16 +19793,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/ninja-gaiden-trilogy-snes-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ninja%20Gaiden%20Trilogy.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20083,16 +19879,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/ninja-gaiden-nes-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Ninja%20Gaiden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20177,16 +19965,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-fc3a6440-3e6a-4822-aa3f-bad61dd460d4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/SD%20Gundam%20G%20Generation%20Advance.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20271,16 +20051,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6faa4129-f882-48a6-9f21-d0221d221b7f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Umi%20no%20Nushi%20Tsuri.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20365,16 +20137,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/kawa-no-nushi-tsuri-2-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Kawa%20no%20Nushi%20Tsuri%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20459,16 +20223,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-bdf1971e-e322-49cb-b0e0-24916dbcc90c.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yu-Gi-Oh%21%20Worldwide%20Edition%3A%20Stairway%20to%20the%20Destined%20Duel.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20553,16 +20309,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/splinter-cell-gba-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Tom%20Clancy%E2%80%99s%20Splinter%20Cell.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20647,16 +20395,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/okamiden-usa-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/%C5%8Ckamiden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20741,16 +20481,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b0f7f356-95f9-4db3-97db-8f96a7b12851.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Dogz%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20835,16 +20567,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/super-robot-taisen-l-themed-ui-20261018.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Super%20Robot%20Taisen%20L.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -20929,16 +20653,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/motteke-oh-dorobou-th-nonplae-v1.0.webp?v=20261018-ui2",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Motteke%20Oh%21%20Dorobou.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21023,16 +20739,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3ae05312-8590-4706-9cd6-a88d76967518.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20View.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21117,16 +20825,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-178490fe-2c24-4dca-a3fb-0f448eee9338.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Lufia%3A%20The%20Ruins%20of%20Lore.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21211,16 +20911,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/project-x-zone-themed-ui-20261018.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Project%20X%20Zone.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21305,16 +20997,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/hotel-dusk-room-215-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Hotel%20Dusk%3A%20Room%20215.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21399,16 +21083,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/mujintou-monogatari-th-nonplae-v1.0.webp?v=20261018-ui2",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mujintou%20Monogatari.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21493,16 +21169,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/sylvanian-families-4-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sylvanian%20Families%204%20-%20Meguru%20Kisetsu%20no%20Tapestry.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21587,16 +21255,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-bfadebdf-ab4a-4cc0-9607-cd9922e7ab93.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Suikoden%20Card%20Stories.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21681,16 +21341,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a0bd7a23-0fc9-4edc-93f2-cfe72af17a41.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Oriental%20Blue%3A%20Ao%20no%20Tengai.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21775,16 +21427,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/hamtaro-rainbow-rescue-th-nonplae-v1.0.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Hamtaro%3A%20Rainbow%20Rescue.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21869,16 +21513,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0831de0c-d1a2-47df-b4f7-40bdfea9e2e3.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20III.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -21963,16 +21599,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-fc7b295e-b4dc-4c36-b45e-64a3eb92c52d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Another%20Code%20Two%20Memories.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22057,16 +21685,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e7a49005-2bf2-4fff-a219-6ca813945809.jpg",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22151,16 +21771,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c5099ea1-3699-4bed-a385-f4877790e348.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Diablo.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22245,16 +21857,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e68b562c-a025-407e-9b66-2de24ef2bcb5.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Dynasty%20Warriors%20Vol.%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22339,16 +21943,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/doraemon3-ps1-th-nonplae.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Doraemon%203%3A%20Makai%20no%20Dungeon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22433,16 +22029,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ac42de49-13a5-40fd-a8c2-c5c6dba696ff.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Recca%20no%20Honoo%20-%20The%20Game.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22527,16 +22115,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/twilight-syndrome-th-nonplae.webp?v=20261018-ui2",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Twilight%20Syndrome%3A%20Kinjirareta%20Toshi%20Densetsu.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22621,16 +22201,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/og2-newversion-th-nonplae.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/OG2%20NEWversion%20v1.25%20%E2%80%94%20TH%20Nonplae.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22715,16 +22287,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c41e5e8a-b4ad-4142-880b-5d7976406c8d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Super%20Robot%20Wars%20Alpha%20Gaiden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22809,16 +22373,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c3d0547d-3555-4edd-8e7a-6ccb68ad63f0.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Brave%20Story%20-%20New%20Traveler.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22903,16 +22459,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/romance-of-the-three-kingdoms-iv-th-nonplae.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Romance%20of%20the%20Three%20Kingdoms%20IV%3A%20Wall%20of%20Fire.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -22997,16 +22545,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/super-robot-taisen-g-th-nonplae.webp",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Dai-2-ji%20Super%20Robot%20Taisen%20G.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23091,16 +22631,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0a7ba1a4-93bc-48df-8a7b-6b311b631292.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rokudenashi%20Blues%20-%20Taiketsu%21%20Tokyo%20Shitennou.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23185,16 +22717,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-1094bd15-9d2b-4b55-9cf9-421b53d1ab4f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Harvest%20Moon%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23279,16 +22803,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4c94c31c-bbf2-4d9f-b716-8ea7d2e40781.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yu-Gi-Oh%21%20Dungeon%20Dice%20Monsters.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23373,16 +22889,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b4722302-e54d-4131-9dc9-6fae5dc0f9aa.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Harvest%20Moon%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23467,16 +22975,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-8dc6157c-a2f2-471b-aaa3-cc54e3549fe4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Final%20Fantasy%20I%20%26%20II%20Dawn%20of%20Souls.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23561,16 +23061,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-51f9fc6a-87e8-49e9-a463-56c691a6ba89.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Yu-Gi-Oh%21%20Nightmare%20Troubadour.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23655,16 +23147,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-44b4579e-5fbe-443e-bcc1-cb59e6948902.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Boktai%202%20-%20Solar%20Boy%20Django.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23749,16 +23233,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4d29731c-3125-4332-bcf0-4f0f9e349ca4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Viewtiful%20Joe%20-%20Double%20Trouble%21.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23843,16 +23319,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5d551fb3-1b54-41a6-8601-51fe0927829d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mystic%20Ark.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -23937,16 +23405,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6637185e-c2b3-4dae-ac68-fa72086cdd29.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Nekketsu%20Kouha%20Kunio-kun%20Special.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24031,16 +23491,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-8581d62f-e7ac-4475-93e6-5d2c89b3a91f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Naruto%20Shippuu%20Den%20-%20Dairansen%21%20Kagebunshin%20Emaki.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24125,16 +23577,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9efac34c-fba8-4a79-8d27-005b11bbeda8.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mother%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24219,16 +23663,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3b03da7c-0226-413b-8798-03ea223124dc.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Battle%20Spirits%20Digital%20Starter.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24313,16 +23749,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-37a74102-3e4c-4c28-8574-7a8ed9c1d7b9.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Hamtaro%20-%20Ham-Ham%20Heartbreak.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24407,16 +23835,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-78437e16-f714-4fb3-b7ff-ee1db885f7b3.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Harvest%20Moon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24501,16 +23921,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-287655e1-145a-46a6-a40a-30549c139607.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Legend%20of%20Mana.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24595,16 +24007,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5ea6b91f-adae-4067-8244-1ab0fa236a0a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Tokyo%20Majin%20Gakuen%20-%20Kenpuuchou.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24689,16 +24093,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-79eccaf1-a732-4a6c-aba1-ad930c56509a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Nekketsu%20Tairiku%20Burning%20Heroes.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24783,16 +24179,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-7bee1a37-5633-4000-bb84-1d31c23a26b7.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ranma%20%C2%BD%3A%20Akanekodan%20Teki%20Hihou.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24877,16 +24265,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ad0ea15c-815e-4990-a6fe-e2b4c7974168.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Zoids%202%3A%20Helic%20Republic%20VS%20Guylos%20Empire.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -24971,16 +24351,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f742eaee-ddb4-453b-bb2d-2ab6e96a6508.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh%21%20Monster%20Capsule%3A%20Breed%20%26%20Battle.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25065,16 +24437,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/the-king-of-fighters-kyo-th-nonplae.webp?v=20261018-ui2",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/The%20King%20of%20Fighters%20Kyo.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25159,16 +24523,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-1345a3f8-2d94-4715-9226-7766af962e69.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20Origin%20Heart%20Gold.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25253,16 +24609,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3d8a38ff-d952-418a-a3b4-cf48c45459f7.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Star%20Ocean%20First%20Departure.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25347,16 +24695,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-fad3092f-c82d-4674-983f-59deb748c675.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Digimon%20Emerald.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25441,16 +24781,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-88c608e2-f96b-49d4-89ee-832e97e0779b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Tales%20of%20Eternia.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25535,16 +24867,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0fd33286-3afb-41a6-8409-2551aed6893a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Front%20Mission%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25629,16 +24953,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/riot-stars-nonplae-75174e40.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Riot%20Stars.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25723,16 +25039,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9538d827-ce61-43ff-86f6-9d22d406893e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Sword%20and%20Shield%20Ultimate.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25817,16 +25125,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/majotachi-no-nemuri-nonplae-v01.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Majotachi%20no%20Nemuri.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -25911,16 +25211,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/dragon-quest-i-ii-nonplae-beta.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20I%20%26%20II.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26005,16 +25297,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/radical-dreamers-nonplae-v1.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Radical%20Dreamers.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26099,16 +25383,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/castlevania-aria-nonplae-v01.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Castlevania%3A%20Aria%20of%20Sorrow.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26193,16 +25469,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/castlevania-harmony-nonplae-60723347.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Castlevania%3A%20Harmony%20of%20Dissonance.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26287,16 +25555,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/tactics-ogre-snes-nonplae-v1.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tactics%20Ogre%3A%20Let%20Us%20Cling%20Together.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26381,16 +25641,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-7bcf6f02-e474-46a0-8af6-a5b7bfb5b21f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Kurohyou%20Ryu%20ga%20Gotoku%20Shinshou.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26475,16 +25727,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/super-robot-wars-4-nonplae-v1.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Robot%20Wars%204.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26569,16 +25813,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a839a2a3-b1a0-4472-8cd3-8b5c158906ff.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20Taisen%20A.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26663,16 +25899,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ae6c7092-51a8-48ca-8096-c407605169ea.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bounty%20Sword.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26757,16 +25985,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-7e975c32-1b36-4d65-b786-fdf222137cfb.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Live%20A%20Live.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26851,16 +26071,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/covers/the-urbz-nonplae-d2f93a36.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/The%20Urbz%3A%20Sims%20in%20the%20City.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -26945,16 +26157,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c20cd294-63b0-4fb9-af83-79e77c0841a4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Sword%20Art%20Online%3A%20Infinity%20Moment.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27039,16 +26243,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ef9bf22a-9383-4f22-9e7f-ebeb5de4a90e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Emerald%20Arena.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27133,16 +26329,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-299cc406-6978-4c5d-8e41-7f0d3f679a19.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Emerald%20Dragon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27227,16 +26415,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e940790c-27b3-4617-949b-f7ffefd2558f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20Taisen%20R.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27321,16 +26501,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9b88eba9-342c-4c5a-963a-475b3fdc235a.jpg",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Super%20MarioMon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27415,16 +26587,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-cd75a797-bd66-4d98-a802-559f5065dca8.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Romance%20of%20the%20Three%20Kingdoms%20II.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27509,16 +26673,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-81ac99ba-9587-42ce-bfbb-52e05ee0ec45.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Itadaki%20Street%20-%20Gorgeous%20King.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27603,16 +26759,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5754df14-38ad-4385-95d8-1e96a22cf45f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Monster%20Rancher.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27697,16 +26845,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-87a1cd55-c749-42bc-bf7d-83574412f7a8.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Groove%20Adventure%20Rave%20-%20Yuukyuu%20no%20Kizuna.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27791,16 +26931,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-41ed4ebd-384c-40bb-9162-ec512d085a54.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Fire%20Emblem%20-%20New%20Theory%20of%20Thracia%20776.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27885,16 +27017,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-809e9574-a5f3-41c6-9bcf-7fed7de3d955.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Love%20Hina%20Advance.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -27979,16 +27103,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-122ff620-a345-497a-9c8d-925847c8d9e6.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Zoids%20Legacy.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28073,16 +27189,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c605208f-db3e-4482-b17d-63b1a6ee9781.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Kingyo%20Chuuihou%21%20-%20Tobidase%21%20Game%20Gakuen.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28167,16 +27275,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b8fe6b1d-998c-47ab-b436-f14634ca6838.jpg",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20RPG%20Armageddon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28261,16 +27361,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-077b7c1a-4a9a-4359-9f40-e1c756d1c7e6.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Riviera%20-%20The%20Promised%20Land.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28355,16 +27447,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3e374b66-40a5-4de9-8ac4-429850ebd09c.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tsuri%20Tarou.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28449,16 +27533,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c9d9c9c7-e91e-4e0e-9dcf-a100cae95646.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Rebelstar%20-%20Tactical%20Command.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28543,16 +27619,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-16a1cdb5-4b94-4858-be26-ddf4f7945c4e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Secret%20of%20Evermore.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28637,16 +27705,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b09219c5-80ab-4082-906f-d5b2267bc60a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kawa%20no%20Nushi%20Tsuri%205%3A%20Fushigi%20no%20Mori%20kara.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28731,16 +27791,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2b1c9e7f-8b98-4731-b956-cc637d244b38.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Fullmetal%20Alchemist%20-%20Sonata%20of%20Memories.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28825,16 +27877,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-cd0f1f43-fec4-4fd2-b6eb-5aa31fb271ba.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Magical%20Vacation.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -28919,16 +27963,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-08de8c2b-599e-4ba7-b34b-fa55302ecda0.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yggdra%20Union%20-%20We%27ll%20Never%20Fight%20Alone.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29013,16 +28049,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-aa543c03-6621-46a2-bddf-8d83b3495342.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Naruto%20-%20Ninja%20Council.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29107,16 +28135,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e23c943b-5ce8-4d4e-b160-2dcd9fa1faee.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yu%20Yu%20Hakusho%20-%20Tournament%20Tactics.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29201,16 +28221,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5a143d91-c619-414c-a647-6711ddf539d0.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/GetBackers%20-%20Metropolis%20Dakkan%20Sakusen%21.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29295,16 +28307,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5afaf7a7-1a24-42c7-b188-344baf391a0e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Konjiki%20no%20Gashbell%21%21%20-%20Makai%20no%20Bookmark.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29389,16 +28393,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-65c10047-c134-4f30-8d5a-212431250571.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/The%20Lord%20of%20the%20Rings%20-%20The%20Return%20of%20the%20King.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29483,16 +28479,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9feace4a-39c9-45f5-8efa-246a2c44ac0c.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Robotrek.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29577,16 +28565,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-dc4de423-85e1-419e-a55f-69f0b4cf6555.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tales%20of%20Phantasia.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29671,16 +28651,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-429ee2ab-3cf7-4679-bbfd-612ee339c267.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Terranigma.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29765,16 +28737,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a216bb9b-eb36-48d1-b494-2d951d7e5bba.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Robot%20Wars%20EX.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29859,16 +28823,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6232e6b7-9540-4698-b2db-c188a07834d4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Magic%20Knight%20Rayearth.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -29953,16 +28909,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ea5a10d0-2a68-478d-91c0-7437e3123a42.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Robot%20Wars%20Gaiden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30047,16 +28995,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a5263dc5-2d4f-4105-883a-15087ab4d208.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20Taisen%20D.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30141,16 +29081,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3f604d80-8814-4f56-8946-c436c663489f.jpg",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Mario%20%26%20Luigi%20%20Superstar%20Saga.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30235,16 +29167,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3b96b8b6-86bf-4d68-a83f-3c3ce521b5f6.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Bouken-ou%20Beet%20-%20Busters%20Road.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30329,16 +29253,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ff4b1d31-2c19-4bf7-916e-b6dd9ade8746.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Black%20Matrix%20Zero.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30423,16 +29339,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-aabc165a-b575-4904-94fd-35863de8041c.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Final%20Fantasy%20X%20International.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30517,16 +29425,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-abd2d332-52fb-4da0-9de3-5c436de7e2fb.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Shaman%20King%20Master%20of%20Spirits.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30611,16 +29511,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-bf5421c9-3fbc-4c28-ab56-5cefd2138ece.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Seasons.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30705,16 +29597,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-51fefc7e-dd4b-4ca2-865b-9bc6d88e54f9.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Ages.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30799,16 +29683,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2a1ec05d-841b-4bfd-aa09-0e8fcaf036c4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Racing%20Lagoon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30893,16 +29769,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-34623994-2e11-4560-baea-3deca457b348.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Chrono%20Trigger.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -30987,16 +29855,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c2480077-e0db-4ace-9b8d-a0e56a1092c4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Little%20Master.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31081,16 +29941,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ff31349b-00b7-4ffc-aa38-f7e49f5ad323.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Final%20Fantasy%20IV.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31175,16 +30027,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f61f8e03-f780-4e49-b05c-f0328be08e43.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Shadowrun.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31269,16 +30113,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2e284cc6-43c4-480a-a3e2-018b59b08e30.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dark%20Half.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31363,16 +30199,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2bb77cfa-ce1e-464a-b2f9-6c8be1081175.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Beyblade%3A%20Let%20it%20Rip%21.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31457,16 +30285,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-089b305a-2ad9-46d7-8062-2b152c7bb218.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20%20Links%20Awakening%20DX.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31551,16 +30371,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-35d9221e-b777-4fdd-8d12-1b2bdd78048d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Xenogear.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31645,16 +30457,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-416265b3-98a1-452a-a807-c6f380a478c0.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Final%20Fantasy%20Type-0.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31739,16 +30543,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5363ea97-da07-4f0c-b43b-36778ced7c0b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Dragon%20Ball%20-%20Advanced%20Adventure.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31833,16 +30629,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b8be2fb5-0a4b-4ddd-987e-434154fefd8f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Legend%20of%20Zelda%20The%20%20Minish%20Cap.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -31927,16 +30715,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-13e6e79d-17b8-48d1-a257-afe18661a981.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VIII.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32021,16 +30801,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0100b4fe-4aa4-4066-9d1a-88e3e96e26dd.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Patapon3.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32115,16 +30887,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-20f92b68-63b1-4630-ad3b-9dd776afe923.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Grand%20Theft%20Auto%20Chinatown%20Wars.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32209,16 +30973,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b23703fe-fa45-4c55-b178-e3d2aa13e464.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Crisis%20Core%20-%20Final%20Fantasy%20VII.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32303,16 +31059,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-efbc7e4e-8ea8-4e2f-87bd-323561aa4239.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Shodai%20Nekketsu%20Kouha%20Kunio-kun.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32397,16 +31145,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4d08e73d-0e7d-4d65-a89d-dcf711b8dc34.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Quetzal.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32491,16 +31231,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3aeb4eca-ce05-4f57-b548-c90a44f65767.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Emerald%20Rogue.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32585,16 +31317,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-edeb710d-a3b7-49af-ba4c-6cccc17f3e4d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Initial%20D%3A%20Another%20Stage.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32679,16 +31403,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-39c2df9d-fd4a-4ecf-a0a1-3d469721ffdf.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Romance%20of%20the%20Three%20Kingdoms%20VI.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32773,16 +31489,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3db68bb2-4e15-4b47-9570-c39c305fcf52.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Valkyrie%20Profile.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32867,16 +31575,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9674980e-81f8-45b8-bb0f-20d580d4c982.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Wonder%20Project%20J.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -32961,16 +31661,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-dd0e2d29-3b57-4778-a475-36e24b3a2579.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Milandra.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33055,16 +31747,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-1967d430-a702-4d6a-b4a5-162403356bbd.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/999%3A%20Nine%20Hours%2C%20Nine%20Persons%2C%20Nine%20Doors.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33149,16 +31833,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5bfb9e86-b05a-4b00-90ad-7c3905f32faf.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Final%20Fantasy%20VII.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33243,16 +31919,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-add8a6ad-c3bf-4d5b-ba19-96cab8a46419.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Golden%20Sun%3A%20Dark%20Dawn.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33337,16 +32005,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2e5520ae-4454-46e0-b876-a5f20a1e30ac.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Gekitou%20Crush%20Gear%20Turbo.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33431,16 +32091,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-043a64ea-a80a-49f7-925f-50b66908d98b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Arc%20the%20Lad.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33525,16 +32177,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-68d66685-ede6-4673-8bd7-7d12ab3593f2.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/GaiaMaster%3A%20Kamigami%20no%20Board%20Game.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33619,16 +32263,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-d16acc11-dd0f-43bf-8da7-abffb84f066a.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33713,16 +32349,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-cecab16d-32f7-4391-8f31-45f3af4b8c11.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Shin%20Nekketsu%20Kouha%20-%20Kunio-tachi%20no%20Banka.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33807,16 +32435,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0b28db37-24d9-421d-b8bb-0b02dd91a826.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Fire%20Emblem%20Vision%20Quest.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33901,16 +32521,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-25c70ac1-4b87-42b6-92fc-96f0cc13bb01.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Fire%20Emblem%20-%20The%20Sacred%20Echoes.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -33995,16 +32607,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-83242c7e-0051-4478-ad5a-bf64cfe98c72.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Sangokushi.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34089,16 +32693,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-757e3162-b79b-44ff-8c07-17242c922944.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Super%20Dark%20Worship.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34183,16 +32779,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f8989052-40d2-4658-9dae-c6848ba97d51.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bloody%20Roar%202%20Bringer%20of%20the%20New%20Age%20-.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34277,16 +32865,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-50d9f1ad-f42a-482c-bfe1-1910f74e5fe2.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Clock%20Tower.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34371,16 +32951,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6a2f8847-4859-4a5f-8915-85400f1b6383.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Feda%20-%20The%20Emblem%20of%20Justice.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34465,16 +33037,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-937e495b-841b-4914-985b-8161f9c79b43.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pok%C3%A9mon%20Moon%20Black%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34559,16 +33123,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-64b6468a-7719-4750-9aa1-2676ae7c3cf5.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Fate/EXTRA%20CCC.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34653,16 +33209,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9f751207-b4ed-42d7-afe9-3be795d58b40.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Metal%20Max%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34747,16 +33295,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-36daf42b-d667-4c9e-b77c-87c04e65d46e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/The%20Legend%20of%20Zelda%3A%20Spirit%20Tracks.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34841,16 +33381,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-98f09f75-925d-44e1-8d05-5a5cd42f58f3.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/The%20Legend%20of%20Zelda%3A%20Phantom%20Hourglass.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -34935,16 +33467,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-913ca76e-2007-4010-ba7d-adadb06d3054.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Go%20Go%20Ackman.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35029,16 +33553,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-aaff3aa6-fb20-4234-abe2-e20567dceac3.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pok%C3%A9mon%20FireRed%20Rocket.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35123,16 +33639,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-af773f60-2fa5-4f01-9f13-87858d0587fc.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pok%C3%A9mon%20-%20Red%20Chapter.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35217,16 +33725,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ac9a9864-b6a1-45db-9420-ee4e7a5b660f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pok%C3%A9mon%20Mystery%20Dungeon%3A%20Red%20Rescue%20Team%20-.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35311,16 +33811,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9ee54f1e-9d39-435b-be12-4be1a8ca4cbc.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Rowe%20-%20TH%20Nonplae.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35405,16 +33897,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-b2c60ea7-9c24-4122-a13b-b63aae5ecce9.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Front%20Mission%201.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35499,16 +33983,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-39a58306-ef11-491a-8b0b-fd7fa00001db.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mother%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35593,16 +34069,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e16c6c64-374d-4f0c-9f1e-74f99cb17727.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Granbo.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35687,16 +34155,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-9d33a52e-a345-4cc6-a9c6-bf9896dafaab.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Jeanne%20d%E2%80%99Arce.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35781,16 +34241,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-472e0a47-a996-4ab4-be10-0424c5d1e11b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Daibakushou%20Jinsei.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35875,16 +34327,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-62ac1e30-edeb-4774-b47c-f5871fcbba26.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ogre%20Battle.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -35969,16 +34413,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a609f790-d9dc-437e-af16-4288552408b5.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Romancing%20SaGa%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36063,16 +34499,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-cce1d42b-8dd8-4c40-bc44-4ca8cab6129d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Oni%20Chronicles%20Genesis.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36157,16 +34585,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-72507a10-cfe8-4892-876b-04b611d9a09d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bakumatsu%20Kourinden%20Oni.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36251,16 +34671,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-49c64531-6987-4d84-b74f-41f81dc4ac1f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Dragon%20Ball%20Z%20Gokuu%20Hishouden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36345,16 +34757,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-82503671-7247-4acf-bdbc-82811a3165ad.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Oni%20V%20-%20Innin%20o%20Tsugumono.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36439,16 +34843,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-55ec8b8e-09c7-4dd7-8d85-8d06cc2c8689.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sims%2C%20The%20-%20Bustin%27%20Out.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36533,16 +34929,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-18f2b799-79db-4edd-a821-6d72c36b5aee.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Harvest%20Moon%20More%20Friends%20of%20Mineral%20Town.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36627,16 +35015,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-7be0d2a4-8852-4ece-81e5-d25bae47f39e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ginga%20Sengoku%20Gunyuuden%20Rai.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36721,16 +35101,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3e0fa14c-0e78-4e48-a972-b926300419ab.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Mega%20Man%20Xtreme.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36815,16 +35187,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-a6110c09-698c-4410-ba7e-6f9b832f8c88.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Mega%20Man%20Xtreme%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -36909,16 +35273,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-76750d0c-8fe6-4c9a-af7c-b13ca387444f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20the%20River%20King.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37003,16 +35359,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e2053c44-1dfd-4ad2-afc1-285db3439c01.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Resident%20Evil%20Gaiden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37097,16 +35445,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-dbe94854-a74e-4b0a-a0ed-de94ee88e28d.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Metal%20Gear%20Solid.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37191,16 +35531,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-51b6a3c0-697d-4ce1-b91d-c7988ed31528.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Summon%20Night%20Swordcraft%20Story.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37285,16 +35617,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-358ae33b-2a28-414a-ab37-1eb65cc6fd44.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/SD%20Gundam%20-%20G%20Generation%20Over%20World.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37379,16 +35703,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6a40368f-dac7-457a-8862-50c7d807b57c.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Yu-Gi-Oh%20GX%20-%20Tag%20Force.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37473,16 +35789,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-750adfe3-f30e-4071-8583-61aba4579133.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Yu-Gi-Oh%205Ds%20Tag%20Force%206.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37567,16 +35875,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c853ad84-25e4-4d3a-b968-7724c95273d7.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Yu-Gi-Oh%21%20GX%20Tag%20Force%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37661,16 +35961,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-8b68c34a-4a1f-4f12-8d89-320200e07944.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Yu-Gi-Oh%21%20-%20Ultimate%20Masters.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37755,16 +36047,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4d4421d9-2b5d-4fbb-aec1-a8a733f8e48b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Kenyuu%20Densetsu%20Yaiba.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37849,16 +36133,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-84d6661d-5db1-4539-b277-97526815a1d2.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20Heart%20and%20Soul.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -37943,16 +36219,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-f94c6352-76cd-4929-8d82-6b2aaf395475.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20Taisen%3A%20Original%20Generation.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38037,16 +36305,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ab4a35aa-e1f3-4857-9c0d-67d069995654.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20Taisen%3A%20Original%20Generation%202.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38131,16 +36391,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-2604d087-2924-4dfd-9095-13d869b92bae.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Robot%20War%20J.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38225,16 +36477,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-11bdef4f-e8aa-44ba-b205-b74117e6e48b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38319,16 +36563,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-406e10f2-a036-45d3-93c2-1a250c963aa6.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pok%C3%A9mon%20Unbound%20%28GBA%29%20V16.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38413,16 +36649,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-4f899ada-761c-401f-a6de-0fb9c1df1b07.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Final%20Fantasy%20Adventure%20%28Game%20Boy%29.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38507,16 +36735,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-de102635-83d8-42e4-a48e-cb950b3ec6ed.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pok%C3%A9mon%20SoulGold.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38601,16 +36821,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-7f7da29b-b6a8-46b8-89c4-8964cfcab6e6.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Golden%20Sun.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38695,16 +36907,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ff3a5703-d8ce-42d1-ae0a-94c4d0b38016.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Golden%20Sun%3A%20The%20Lost%20Age.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38789,16 +36993,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e03727c7-02a5-4046-8571-0c14e69aa825.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dokapon%21%20Ikari%20no%20Tekken.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38883,16 +37079,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-3b84d85a-d562-4576-b105-163a2db580d3.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Rockman%20X4.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -38977,16 +37165,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-8096b982-d0e5-4171-a231-d7c4459ee010.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rockman%20X3.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39071,16 +37251,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-eb8e9198-aa66-4c9e-b680-b4979d7d5e05.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ganbare%20Goemon%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39165,16 +37337,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c6dba8ad-4b81-44b5-8add-2f8b8e12e420.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Shinsetsu%20Samurai%20Spirits%20-%20Bushidou%20Retsuden.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39259,16 +37423,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-c6768509-674f-48d1-b6e0-1d72998f1e20.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39353,16 +37509,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/bahamut-lagoon-patcher-hero.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bahamut%20Lagoon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39447,16 +37595,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-d704eabf-d8a3-4ef4-8c7f-cc071c6632f5.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Fire%20Emblem%20-%20Seisen%20no%20Keifu.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39541,16 +37681,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5eb8e97e-deb7-40bb-b575-cad969b0c04e.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Langrisser%20I%26II.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39635,16 +37767,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-6d054bde-af33-4973-bede-f9afb1526b66.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Harvest%20Moon.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39729,16 +37853,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0894c1be-832a-4209-97fe-b7dfc0465f52.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Seiken%20Densetsu%203.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39823,16 +37939,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-91da1572-32ab-4622-b3f5-9dcdc38d40ff.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/The%20Legend%20of%20Zelda%3A%20A%20Link%20to%20the%20Past.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -39917,16 +38025,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-e489443e-069f-450b-af4b-d8df770da0ec.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Breath%20of%20Fire%20I.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -40011,16 +38111,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-ecbd191c-cdd0-48e5-9399-4909cebe904f.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Lufia%20II%3A%20Rise%20of%20the%20Sinistrals.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -40105,16 +38197,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-13302dbc-e218-4bd7-b5b6-bae3b26d6cb9.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Fire%20Emblem%20-%20The%20Binding%20Blade.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -40199,16 +38283,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-1c61f80f-62f0-4746-97bf-6913e3cb03f4.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Fire%20Emblem%20-%20The%20Blazing%20Blade.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -40293,16 +38369,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-0003c531-d934-474f-b80f-38d1abb19d83.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20V.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -40387,16 +38455,8 @@
     "coverAlternatives": [
       {
         "url": "https://www.nonplae.com/api/media/patch-5d958521-0003-4d98-9523-67394af5109b.png",
-        "kind": "creator_made",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
-        "label": ""
-      },
-      {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%20VI%20%28SNES%29%20V1.2.png",
-        "kind": "official_art_candidate",
-        "source": "Libretro thumbnail archive",
-        "evidence": "evidence/2026-10-29/all-teams-expansion.json",
         "label": ""
       }
     ],
@@ -64475,11 +62535,10 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Pokemon%20-%20Crystal%20Version%20%28USA%2C%20Europe%29.png",
-        "kind": "official_art_candidate",
+        "url": "https://www.nonplae.com/api/media/patch-33aa903c-359e-4499-991d-4064d9d7caba.png",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "catalog-cover-candidate",
-        "label": ""
+        "label": "Official Game Artwork"
       }
     ],
     "coverLabel": "Official Game Artwork",
@@ -64544,11 +62603,10 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Top%20Secret%20-%20Hitler%20no%20Fukkatsu%20%28Japan%29.png",
-        "kind": "official_art_candidate",
+        "url": "https://www.nonplae.com/covers/top-secret-th-nonplae-v1.0.webp",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "catalog-cover-candidate",
-        "label": ""
+        "label": "Official Game Artwork"
       }
     ],
     "coverLabel": "Official Game Artwork",
@@ -64613,11 +62671,10 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Chou-Wakusei%20Senki%20-%20Metafight%20%28Japan%29.png",
-        "kind": "official_art_candidate",
+        "url": "https://www.nonplae.com/covers/metafight-th-nonplae-v1.0.webp",
+        "kind": "primary_cover",
         "source": "นอนแปล (NONPLAE)",
-        "evidence": "catalog-cover-candidate",
-        "label": ""
+        "label": "Official Game Artwork"
       }
     ],
     "coverLabel": "Official Game Artwork",
@@ -64681,6 +62738,12 @@
       "key": "harvest-moon-64"
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-862dc0e1-ef3a-4e6e-9e16-fd4f6f8035b1.png",
+        "kind": "primary_cover",
+        "source": "นอนแปล (NONPLAE)",
+        "label": "Official Game Artwork"
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Harvest%20Moon%2064%20%28USA%29.png",
         "kind": "official_art_candidate",
@@ -64820,6 +62883,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Zenonia%20%28USA%29.png",
+        "kind": "primary_cover",
+        "source": "Libretro thumbnail archive",
+        "label": "Official Game Artwork"
+      },
+      {
         "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2421890/header.jpg",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -64889,6 +62958,12 @@
     },
     "coverAlternatives": [
       {
+        "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Final%20Fantasy%20Tactics%20-%20The%20War%20of%20the%20Lions%20%28USA%29.png",
+        "kind": "primary_cover",
+        "source": "Libretro thumbnail archive",
+        "label": "Official Game Artwork"
+      },
+      {
         "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Final%20Fantasy%20Tactics%20-%20The%20War%20of%20the%20Lions%20%28Europe%29.png",
         "kind": "official_art_candidate",
         "source": "Libretro thumbnail archive",
@@ -64957,6 +63032,12 @@
       "key": "metroid-fusion"
     },
     "coverAlternatives": [
+      {
+        "url": "https://www.nonplae.com/api/media/patch-85725f6d-8f4b-476e-83f5-b2c632c6bc22.png",
+        "kind": "primary_cover",
+        "source": "นอนแปล (NONPLAE)",
+        "label": "Official Game Artwork"
+      },
       {
         "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Metroid%20Fusion%20%28USA%29.png",
         "kind": "official_art_candidate",
