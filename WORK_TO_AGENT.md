@@ -1,3 +1,17 @@
+## 2026-10-30 — Today Pick: 4 games, no re-roll button, weighted by visitor interest and download engagement, deterministic daily rotation
+
+Owner: Active Repository Agent (Antigravity); branch feat/today-pick-4-games-interest-rotation.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Today Pick 4 Games: Updated Today's Pick showcase from 3 games to exactly 4 games per user request.
+- No Re-Roll Button: Removed the "🎲 สุ่มใหม่" (`#todayPickRoll`) button from DOM and behavior handlers to present a confident, curated set.
+- Interest & Download Engagement Weighting: Developed `interestScore(g)` analyzing franchise popularity (`SERIES_RANK` tier-1 series: Pokémon, Zelda, FF, RE, DQ, DB, etc.), high-demand standalone titles (Chrono, Suikoden, Valkyrie, Xenogears, Mario, etc.), full completion status (`patchCategory: full_release` +25, `fix_update` +20), direct download readiness (`autoSelectsPatch` +15), top consoles (GBA, PS1, PS2, SNES, NDS, PSP +15), and story depth (playtime >= 20h +10).
+- Deterministic Daily Rotation: Implemented FNV-1a hashing with avalanche bit-mixing based on Bangkok date (`YYYY-MM-DD` + `gameId`), ensuring fresh 4-game selections rotate every day while guaranteeing 4 distinct genres and 4 distinct translation teams with zero duplicates.
+- Responsive Layout: Updated `.today-pick-cards` CSS grid to `repeat(4, minmax(0, 1fr))` on desktop, 2 columns on tablet, and 1 column on mobile with zero horizontal overflow across 1440px, 1024px, 600px, 390px, and 320px viewports.
+- QA Verification: `tools/build.py --check` PASS; `.sync/refresh.py --check` PASS; `.sync/test_refresh.py` (5/5) PASS; `qa_verify_today_pick_and_platform_sort.js` PASS; `qa-smoke.cjs` (6/6 views) PASS.
+
+---
+
 ## 2026-10-30 — Removal of Official Artwork label, added sort by platform (ตามเครื่องเกม), and daily Today Pick feature
 
 Owner: Active Repository Agent (Antigravity); branch feat/remove-official-artwork-label-add-platform-sort-and-today-pick.

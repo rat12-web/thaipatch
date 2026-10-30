@@ -1,6 +1,16 @@
 # Remaining work
 
 Current 2026-10-30 result: 742 cards / 737 groups,
+Updated Today's Pick showcase to 4 games, removed the '🎲 สุ่มใหม่' re-roll button, and implemented visitor interest and download engagement weighting:
+- Developed interestScore(g) analyzing franchise popularity, top-demand standalone classics, completed translations (full_release), direct downloads (autoSelectsPatch), top consoles, and playtime depth.
+- Deterministic FNV-1a hash daily rotation ensures 4 fresh games appear every day with 4 distinct genres and 4 distinct translation teams.
+- Updated 4-column responsive grid on desktop with 2 columns on tablet and 1 column on mobile (no horizontal overflow across 1440/1024/600/390/320).
+Evidence recorded in evidence/2026-10-30/today-pick-4-games-interest.json.
+
+The earlier snapshots below are historical.
+
+
+Current 2026-10-30 result: 742 cards / 737 groups,
 Removed Official Artwork labels from game cards so the translator team plate is completely unobstructed.
 Added 'ตามเครื่องเกม' (Sort by platform) option to sortSelect, grouping all games consecutively by console.
 Added Today's Pick daily showcase featuring 3 games across 3 different genres and 3 different translation teams, with daily date seeding and on-demand '🎲 สุ่มใหม่' re-roll.
