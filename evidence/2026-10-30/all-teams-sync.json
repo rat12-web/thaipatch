@@ -1,0 +1,109 @@
+{
+  "auditDate": "2026-10-30T10:00:00Z",
+  "totalCatalogEntries": 730,
+  "teamsAudited": {
+    "นอนแปล (NONPLAE)": {
+      "liveApiUrl": "https://www.nonplae.com/api/patch-games",
+      "liveCount": 261,
+      "catalogCount": 262,
+      "missingCount": 0,
+      "newReleasesCaptured": [
+        "Metroid Fusion (GBA) - released 2026-10-30T02:55:06.367Z",
+        "Pokemon Crystal Advance Redux (GBA) - released 2026-10-29",
+        "Top Secret (Japan) (NES) - released 2026-10-29",
+        "MetaFight (NES) - released 2026-10-29",
+        "Harvest Moon 64 (N64) - released 2026-10-15",
+        "Final Fantasy Tactics: The War of the Lions (PSP) - released 2026-09-30",
+        "Pokémon Gamma Emerald (PC) - released 2026-08-22",
+        "ZENONIA 1 (PC) - Steam 1.0.1_10101"
+      ],
+      "updatedExisting": "Fire Emblem Tordo Revolution (SNES) updated to v1.1 (2026-10-29)"
+    },
+    "Memory Card TH": {
+      "liveApiUrl": "https://memorycardth.com/dl/_patch/site.json",
+      "liveCount": 182,
+      "catalogCount": 184,
+      "missingCount": 0,
+      "milestoneSync": "100% synced all 182 game milestones, versions, and updated_at timestamps",
+      "newReleasesCaptured": [
+        "Pokémon Yellow (gen1recomp) (PC) - gen1recomp V1.1 (2026-08-07)"
+      ],
+      "latestOctoberReleases": [
+        "Kamen Rider: Seigi no Keifu (PS2) - V1.0 (2026-10-27 14:16)",
+        "Boku no Natsuyasumi 4 (PSP) - V1.1 (2026-10-27 22:10)",
+        "God of War (PS2) - V1.2 (2026-10-27 17:10)",
+        "God of War II (PS2) - V1.2 (2026-10-27 09:29)",
+        "Onimusha 2: Samurai's Destiny (PS2) - V1.1 (2026-10-27 15:52)",
+        "Pokémon Black Version (NDS) - V1.2 (2026-10-27 22:16)",
+        "Pokémon White Version (NDS) - V1.2 (2026-10-27 22:16)",
+        "Medabots: Rokusho (GBA) - V1.2 (2026-10-27 15:57)",
+        "Medabots: Metabee (GBA) - V1.2 (2026-10-27 15:57)",
+        "Pokémon HeartGold (NDS) - V1.4.2 (2026-10-27 22:18)",
+        "Pokémon SoulSilver (NDS) - V1.4.2 (2026-10-27 22:18)",
+        "Tokimeki Memorial 2 (PS1) - V1.1 (2026-10-26 15:25)",
+        "Final Fantasy Tactics Advance (GBA) - V1.4 (2026-10-26 14:54)",
+        "Final Fantasy IX (PS1) - V1.3 (2026-10-26 13:33)",
+        "Final Fantasy Tactics A2 (NDS) - V1.5 (2026-10-26 10:25)",
+        "Onimusha Tactics (GBA) - V1.2 (2026-10-25 22:39)",
+        "Mega Man Legends (PS1) - V1.0 (2026-10-25 21:35)",
+        "Hajime no Ippo Portable (PSP) - V1.0 (2026-10-25 09:41)"
+      ]
+    },
+    "เกเรแปลไทย": {
+      "liveApiUrl": "https://gayray.pages.dev/games.json",
+      "liveCount": 18,
+      "catalogCount": 18,
+      "dateStatus": "100% converted from Thai Buddhist Era strings to verified ISO dates",
+      "latestOctoberReleases": [
+        "Bushi Seiryuuden - Futari no Yuusha (SNES) - v1.0 (2026-10-29)",
+        "Zero 4 Champ RR-Z (SNES) - v1.0 (2026-10-27)",
+        "Treasure Hunter G (SNES) - v1.0 (2026-10-18)",
+        "Super Mario World 2 - Yoshi's Island (SNES) - v1.0 (2026-10-15)",
+        "Torneko no Daibouken: Fushigi no Dungeon (SNES) - v1.0 (2026-10-13)"
+      ]
+    },
+    "แปลไทยเกมเก่า": {
+      "liveApiUrl": "https://retrogamethaisub.pages.dev/games.json",
+      "liveCount": 10,
+      "catalogCount": 10,
+      "latestOctoberReleases": [
+        "TearRing Saga (PS1) - v1.0.1 (2026-10-29)",
+        "Super Robot Taisen α (PS1) - v1.4 (2026-10-29)",
+        "Dragon Quest VI (SNES) - v1.0.2 (2026-10-29)",
+        "Breath of Fire IV (PS1) - v1.1 (2026-10-11)"
+      ]
+    },
+    "Monster แปล": {
+      "catalogCount": 144,
+      "liveStatus": "100% matched"
+    },
+    "90S Game": {
+      "catalogCount": 50,
+      "liveStatus": "100% matched"
+    },
+    "Murphy-TH": {
+      "catalogCount": 14,
+      "liveStatus": "100% matched"
+    }
+  },
+  "coverVerification": {
+    "totalTested": 1013,
+    "badPrimaryCovers": 0,
+    "brokenUrls": 0,
+    "passRate": "100%"
+  },
+  "platformsRegistry": {
+    "totalPlatforms": 18,
+    "addedPlatforms": ["N64", "PC"],
+    "allDecodableSvgLogos": true
+  },
+  "qaVerification": {
+    "buildCheck": "PASS",
+    "updaterTests": "PASS (5/5)",
+    "qaPlatformCards": "PASS (6 views, 18 platforms)",
+    "qaCatalog": "PASS (3 views, 730 records)",
+    "qaSmoke": "PASS (6 views)",
+    "qaThemes": "PASS (6 views, 5 behaviors)",
+    "qaSourceDates": "PASS (3 views)"
+  }
+}

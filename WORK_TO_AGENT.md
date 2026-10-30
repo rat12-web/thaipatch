@@ -1,3 +1,28 @@
+## 2026-10-30 — Complete all-teams audit & sync: 100% Nonplae (262 games including Metroid Fusion), 100% Memory Card TH (184 games), Gayray dates, RetroGameThaiSub, N64 & PC platforms, and 100% verified 200 OK covers
+
+Owner: Active Repository Agent (Antigravity); branch feat/complete-nonplae-memorycard-all-teams-sync.
+
+Catalog: 730 entries across 18 platforms.
+- นอนแปล (NONPLAE) (https://www.nonplae.com/#games): 100% complete sync across all 261 live games (262 catalog entries). Captured today's brand new release Metroid Fusion (GBA, released 2026-10-30T02:55:06Z), plus Pokemon Crystal Advance Redux (GBA, 2026-10-29), Top Secret (NES, 2026-10-29), MetaFight (NES, 2026-10-29), Harvest Moon 64 (N64, 2026-10-15), Final Fantasy Tactics (PSP, 2026-09-30), Pokémon Gamma Emerald (PC), and ZENONIA 1 (PC). Updated Fire Emblem Tordo Revolution (SNES) to v1.1.
+- Memory Card TH (https://memorycardth.com/): 100% complete sync of all 182 games (184 catalog entries). Added Pokémon Yellow (gen1recomp) on PC. Synced all 182 milestones, versions, and exact updated_at timestamps (including October 27 releases: Kamen Rider: Seigi no Keifu, Boku no Natsuyasumi 4, God of War I & II, Onimusha 2, Pokémon Black & White, Medabots Rokusho & Metabee, Pokémon HeartGold & SoulSilver).
+- เกเรแปลไทย (Gayray) (https://gayray.pages.dev/): 100% verified dates converted from Thai Buddhist Era to ISO format (Bushi Seiryuuden 2026-10-29, Zero 4 Champ RR-Z 2026-10-27, Treasure Hunter G 2026-10-18, Yoshi's Island 2026-10-15, Torneko 2026-10-13, Captain Tsubasa II 2026-10-12, etc.).
+- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): updated TearRing Saga (1.0.1, 2026-10-29), Super Robot Taisen α (1.4, 2026-10-29), and Dragon Quest VI (1.0.2, 2026-10-29).
+- Platform expansion: added N64 and PC platforms to platforms.json with decodable Wikimedia SVG logos, distinctive color palettes, and full responsive theme support.
+- Frontpage Changelog: enhanced renderRecentUpdates to ensure balanced multi-team visibility (up to 14 recent entries, capped per team per day so updates from Nonplae, Memory Card TH, Gayray, and RetroGameThaiSub are all visibly featured).
+- Cover verification: 1013 unique cover URLs across all 730 catalog entries tested; 0 broken covers (100% HTTP 200 OK).
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/refresh.py --check: PASS
+- python .sync/test_refresh.py: PASS (5/5)
+- node tools/qa-platform-cards.cjs: PASS (6 views, 18 platforms)
+- node tools/qa-catalog.cjs: PASS (3 views, 730 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+
+---
+
 ## 2026-10-29 — Complete multi-team catalog expansion (721 games): 100% Memory Card TH, 100% 90S Game, Murphy-TH updates, and verified 200 OK covers
 
 Owner: Active Repository Agent (Antigravity); branch main.

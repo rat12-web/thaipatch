@@ -240,5 +240,35 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gameboy_logo.svg",
     "evidence": "qa/upgrade/discovery.json",
     "localAllowed": false
+  },
+  "N64": {
+    "id": "N64",
+    "label": "Nintendo 64",
+    "main": "#e6443b",
+    "strong": "#be2626",
+    "colors": [
+      "#be2626",
+      "#3b82f6",
+      "#22c55e"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_64_wordmark.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo_64_wordmark.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
+  },
+  "PC": {
+    "id": "PC",
+    "label": "PC / Windows",
+    "main": "#00adef",
+    "strong": "#0078d7",
+    "colors": [
+      "#0078d7",
+      "#00adef",
+      "#2b579a"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Windows_logo_-_2021.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Windows_logo_-_2021.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
   }
 }
