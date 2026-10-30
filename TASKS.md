@@ -1,5 +1,18 @@
 # Remaining work
 
+Current 2026-10-30 result: 1,000 cards / 995 groups,
+Standardized genres (13 clean categories), art styles (3 clean categories), and expanded catalog to exactly 1,000 games with zero duplicates and verified boxart:
+- Standardized Genres: Consolidated from 79 noisy/overlapping categories to exactly 13 clean, non-duplicative categories: RPG (375), ผจญภัย (178), แอ็กชัน (123), วางแผน / แทคติก (101), แอ็กชัน-ผจญภัย (44), จำลองชีวิต (42), แอ็กชัน-RPG (30), การ์ดเกม / พัซเซิล (29), สยองขวัญเอาชีวิตรอด (28), ต่อสู้ (20), กีฬา (18), แข่งรถ (10), นิยายภาพ (2).
+- Standardized Art Styles: Consolidated from 9 variants to exactly 3 pure Thai categories: สามมิติ (440), พิกเซล (409), สองมิติ (151).
+- Expanded Catalog to Exactly 1,000 Games: Curated 258 authentic translation entries from verified Thai translation teams plus Castlevania: Circle of the Moon (GBA, นอนแปล) and Silent Hill: Downpour (PS3, Murphy-TH).
+- Strict Zero Duplicate Enforcement: Title, normalized title, and same-team translations strictly deduplicated. Exactly 0 duplicates.
+- Resolved User Screenshot Target Covers: Updated Top Secret (Bionic Commando) (NES), MetaFight (Blaster Master) (NES), and Pokémon Crystal Advance Redux (GBA) with verified high-resolution boxart covers hosted on Cloudflare R2 (matching user screenshot 2) with local nonplae.com URLs preserved in alternatives. Zero broken image fallbacks ("ภาพปกไม่พร้อมใช้งาน").
+- Zero Official Artwork Badges: Guaranteed coverLabel: "" across all catalog items; cleanLabel() purges any "Official" badges so they never obscure the translator plate.
+Evidence recorded in evidence/2026-10-30/standardize-genres-and-expand-1000-games.json.
+
+The earlier snapshots below are historical.
+
+
 Current 2026-10-30 result: 742 cards / 737 groups,
 Updated Today's Pick showcase to 4 games, removed the '🎲 สุ่มใหม่' re-roll button, and implemented visitor interest and download engagement weighting:
 - Developed interestScore(g) analyzing franchise popularity, top-demand standalone classics, completed translations (full_release), direct downloads (autoSelectsPatch), top consoles, and playtime depth.
