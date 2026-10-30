@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T13:13:18.397450+00:00",
+  "checkedAt": "2026-10-30T22:30:35.229500+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 156,
+      "records": 157,
       "matched": 154,
       "updated": 0
     },
@@ -58,8 +58,8 @@
     }
   },
   "changedRecords": [
-    "ext-db-207-final-fantasy-anthology",
-    "nonplae-025"
+    "ext-048",
+    "nonplae-246"
   ],
   "newCandidates": [
     {
@@ -71,7 +71,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "memory",
@@ -82,7 +82,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "memory",
@@ -93,7 +93,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -104,7 +104,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -115,7 +115,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -126,7 +126,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -137,7 +137,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -148,7 +148,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -159,7 +159,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -170,7 +170,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "nonplae",
@@ -181,7 +181,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "murphy",
@@ -192,7 +192,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "murphy",
@@ -203,7 +203,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "murphy",
@@ -214,7 +214,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "murphy",
@@ -225,7 +225,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "monster",
@@ -236,7 +236,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "monster",
@@ -247,7 +247,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "dragon-quest-viii-journey-of-the-cursed-king",
+      "title": "Dragon Quest VIII: Journey of the Cursed King",
+      "platform": "PlayStation 2",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "rommeaow",
@@ -258,7 +269,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "rommeaow",
@@ -269,7 +280,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     },
     {
       "feed": "90s",
@@ -280,7 +291,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T13:13:18.397450+00:00"
+      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",

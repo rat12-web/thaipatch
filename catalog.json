@@ -13964,8 +13964,8 @@
     "canonicalGameId": "hajime-no-ippo-portable",
     "platform": "PSP",
     "baseEdition": "",
-    "patchVersion": "V1.0",
-    "version": "V1.0",
+    "patchVersion": "V1.1",
+    "version": "V1.1",
     "date": "2026-10-25",
     "status": "released",
     "description": "ก้าวแรกสู่สังเวียน ฉบับพกพา แปลโหมดเนื้อเรื่องทั้ง 116 ฉาก เมนู ชื่อนักมวย และป้ายคำสั่งเป็นไทย",
@@ -14007,18 +14007,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-25",
+    "sourceUpdatedAt": "2026-10-30",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-25",
+      "value": "2026-10-30",
       "precision": "day",
-      "rawValue": "2026-10-25",
+      "rawValue": "2026-10-30",
       "source": "https://memorycardth.com/dl/_patch/site.json",
       "field": "patch_updated",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T06:03:26.167847+00:00",
-      "sourceVersion": "V1.0",
+      "checkedAt": "2026-10-30T22:30:35.229500+00:00",
+      "sourceVersion": "V1.1",
       "artifactReference": "/dl/PSP/HajimeNoIppo/HajimeNoIppo_Thai.zip",
       "uploadDateVerified": false
     },
@@ -14032,8 +14032,8 @@
       }
     ],
     "playTimeHours": 12,
-    "patchCategory": "full_release",
-    "patchChanges": "V1.0 (25 ต.ค.) โหมดเนื้อเรื่องทั้ง 116 ฉาก เมนู ชื่อนักมวย และป้ายเมนูเป็นไทย",
+    "patchCategory": "fix_update",
+    "patchChanges": "V1.1 (30 ต.ค.) แก้เปิดเกมบน PSP เครื่องจริงแล้วจอดำ",
     "sourceKey": "Hajime no Ippo Portable: Victorious Spirits (ก้าวแรกสู่สังเวียน)"
   },
   {
@@ -37750,17 +37750,17 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-24T09:33:57.000Z",
+    "sourceUpdatedAt": "2026-10-30T13:49:47.000Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-24T09:33:57.000Z",
+      "value": "2026-10-30T13:49:47.000Z",
       "precision": "timestamp",
-      "rawValue": "2026-10-24T09:33:57.000Z",
+      "rawValue": "2026-10-30T13:49:47.000Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T09:56:23.511251Z",
+      "checkedAt": "2026-10-30T22:30:35.229500+00:00",
       "sourceVersion": "1.0",
       "uploadDateVerified": false
     },
@@ -37774,7 +37774,7 @@
     ],
     "playTimeHours": 30,
     "patchCategory": "full_release",
-    "patchChanges": "เกมจำลองชีวิตในฟาร์มฉบับภาษาไทยโดย นอนแปล สำหรับ SNES รองรับเฉพาะ ROM .sfc ของ USA, Europe, Germany และ Bokujou Mon",
+    "patchChanges": "เกมจำลองชีวิตในฟาร์มฉบับภาษาไทยโดย นอนแปล สำหรับ SNES รองรับเฉพาะ ROM .sfc ของ USA, Europe, Germany แล...",
     "sourceKey": "harvest-moon"
   },
   {
