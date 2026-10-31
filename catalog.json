@@ -15736,8 +15736,8 @@
     "canonicalGameId": "breath-of-fire-iii",
     "platform": "PS1",
     "baseEdition": "",
-    "patchVersion": "1.0",
-    "version": "1.0",
+    "patchVersion": "1.1",
+    "version": "1.1",
     "date": "2026-10-25",
     "status": "released",
     "description": "เบรธ ออฟ ไฟร์ 3 การเดินทางของริวมังกรหนุ่ม แปลเนื้อเรื่อง บทสนทนา ไอเทม สกิล และเมนูภาษาไทย",
@@ -15779,18 +15779,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-25T06:08:07.474Z",
+    "sourceUpdatedAt": "2026-10-31T06:08:06.585Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-25T06:08:07.474Z",
+      "value": "2026-10-31T06:08:06.585Z",
       "precision": "timestamp",
-      "rawValue": "2026-10-25T06:08:07.474Z",
+      "rawValue": "2026-10-31T06:08:06.585Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T09:56:23.505244Z",
-      "sourceVersion": "1.0",
+      "checkedAt": "2026-10-31T12:49:52.340093+00:00",
+      "sourceVersion": "1.1",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
@@ -15810,8 +15810,8 @@
       }
     ],
     "playTimeHours": 40,
-    "patchCategory": "full_release",
-    "patchChanges": "Breath of Fire III (PS1) - Nonplae เนื้อเรื่อง บทสนทนา รายละเอียดไอเทม สกิล เมนู ตัวเลือก",
+    "patchCategory": "fix_update",
+    "patchChanges": "Breath of Fire III (PS1) — NONPLAE V1.1 แก้ข้อความไทยที่กลายเป็นเลข 8888 ในบทสนทนาเอฟเฟกต์ขยาย/ย่อ รวม...",
     "sourceKey": "breath-of-fire-iii"
   },
   {
