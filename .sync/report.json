@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-30T22:30:35.229500+00:00",
+  "checkedAt": "2026-10-31T05:58:12.816122+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 182,
       "matched": 179,
-      "updated": 1
+      "updated": 2
     },
     "gayray": {
       "state": "ok",
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 268,
+      "records": 271,
       "matched": 260,
       "updated": 1
     },
@@ -58,8 +58,9 @@
     }
   },
   "changedRecords": [
-    "ext-048",
-    "nonplae-246"
+    "ext-054",
+    "ext-055",
+    "nonplae-ext-pokemon-crystal-advance-redux"
   ],
   "newCandidates": [
     {
@@ -71,7 +72,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "memory",
@@ -82,7 +83,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "memory",
@@ -93,7 +94,18 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "pokemon-mono-myth",
+      "title": "Pokemon Mono Myth (GBA)",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -104,7 +116,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "akira",
+      "title": "AKIRA (PSP)",
+      "platform": "Movie",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -115,7 +138,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "sd-gundam-gaiden-knight-gundam-monogatari",
+      "title": "SD Gundam Gaiden: Knight Gundam Monogatari (NES)",
+      "platform": "NES",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -126,7 +160,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -137,7 +171,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -148,7 +182,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -159,7 +193,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -170,7 +204,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "nonplae",
@@ -181,7 +215,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "murphy",
@@ -192,7 +226,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "murphy",
@@ -203,7 +237,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "murphy",
@@ -214,7 +248,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "murphy",
@@ -225,7 +259,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "monster",
@@ -236,7 +270,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "monster",
@@ -247,7 +281,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "monster",
@@ -258,7 +292,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "rommeaow",
@@ -269,7 +303,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "rommeaow",
@@ -280,7 +314,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     },
     {
       "feed": "90s",
@@ -291,7 +325,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-30T22:30:35.229500+00:00"
+      "lastSeenAt": "2026-10-31T05:58:12.816122+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
