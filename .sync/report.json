@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-01T17:59:34.899760+00:00",
+  "checkedAt": "2026-11-01T22:12:49.378988+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 182,
       "matched": 179,
-      "updated": 2
+      "updated": 0
     },
     "gayray": {
       "state": "ok",
@@ -57,10 +57,7 @@
       "updated": 0
     }
   },
-  "changedRecords": [
-    "ext-188",
-    "ext-189"
-  ],
+  "changedRecords": [],
   "newCandidates": [
     {
       "feed": "memory",
@@ -71,7 +68,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "memory",
@@ -82,7 +79,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "memory",
@@ -93,7 +90,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -104,7 +101,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -115,7 +112,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -126,7 +123,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -137,7 +134,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -148,7 +145,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -159,7 +156,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -170,7 +167,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -181,7 +178,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -192,7 +189,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -203,7 +200,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -214,7 +211,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -225,7 +222,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -236,7 +233,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -247,7 +244,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -258,7 +255,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -269,7 +266,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "nonplae",
@@ -280,7 +277,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "murphy",
@@ -291,7 +288,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "murphy",
@@ -302,7 +299,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "murphy",
@@ -313,7 +310,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "murphy",
@@ -324,7 +321,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -335,7 +332,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -346,7 +343,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -357,7 +354,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -368,7 +365,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -379,7 +376,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -390,7 +387,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "monster",
@@ -401,7 +398,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "rommeaow",
@@ -412,7 +409,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "rommeaow",
@@ -423,7 +420,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     },
     {
       "feed": "90s",
@@ -434,7 +431,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+      "lastSeenAt": "2026-11-01T22:12:49.378988+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
