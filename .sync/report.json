@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-31T21:45:10.772839+00:00",
+  "checkedAt": "2026-11-01T06:27:32.299432+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 182,
       "matched": 179,
-      "updated": 0
+      "updated": 3
     },
     "gayray": {
       "state": "ok",
@@ -16,9 +16,9 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 274,
+      "records": 275,
       "matched": 260,
-      "updated": 0
+      "updated": 2
     },
     "retro": {
       "state": "ok",
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 158,
+      "records": 160,
       "matched": 154,
       "updated": 0
     },
@@ -45,9 +45,10 @@
       "updated": 0
     },
     "rommeaow": {
-      "state": "failed_preserved",
-      "reason": "ValueError: registry assignment missing",
-      "retainedCandidates": 2
+      "state": "ok",
+      "records": 5,
+      "matched": 3,
+      "updated": 0
     },
     "90s": {
       "state": "ok",
@@ -56,7 +57,13 @@
       "updated": 0
     }
   },
-  "changedRecords": [],
+  "changedRecords": [
+    "ext-163",
+    "ext-164",
+    "ext-165",
+    "nonplae-171",
+    "nonplae-246"
+  ],
   "newCandidates": [
     {
       "feed": "memory",
@@ -67,7 +74,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "memory",
@@ -78,7 +85,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "memory",
@@ -89,7 +96,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -100,7 +107,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -111,7 +118,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -122,7 +129,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -133,7 +140,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -144,7 +151,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -155,7 +162,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -166,7 +173,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "the-violinist-of-hameln",
+      "title": "The Violinist of Hameln (SNES)",
+      "platform": "SNES",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -177,7 +195,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -188,7 +206,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -199,7 +217,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -210,7 +228,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -221,7 +239,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -232,7 +250,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "nonplae",
@@ -243,7 +261,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "murphy",
@@ -254,7 +272,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "murphy",
@@ -265,7 +283,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "murphy",
@@ -276,7 +294,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "murphy",
@@ -287,7 +305,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "monster",
@@ -298,7 +316,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "monster",
@@ -309,7 +327,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "monster",
@@ -320,7 +338,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "monster",
@@ -331,7 +349,29 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "custom-robo-v2",
+      "title": "Custom Robo V2",
+      "platform": "NINTENDO 64",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "custom-robo-gx",
+      "title": "Custom Robo GX",
+      "platform": "GAME BOY ADVANCE",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "rommeaow",
@@ -341,8 +381,8 @@
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-31T12:49:52.340093+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "rommeaow",
@@ -352,8 +392,8 @@
       "platform": "GAME BOY ADVANCE",
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
-      "sourceState": "stale_feed_unavailable",
-      "lastSeenAt": "2026-10-31T12:49:52.340093+00:00"
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     },
     {
       "feed": "90s",
@@ -364,7 +404,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-10-31T21:45:10.772839+00:00"
+      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
