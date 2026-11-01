@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-01T06:27:32.299432+00:00",
+  "checkedAt": "2026-11-01T17:59:34.899760+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 182,
       "matched": 179,
-      "updated": 3
+      "updated": 2
     },
     "gayray": {
       "state": "ok",
@@ -16,9 +16,9 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 275,
+      "records": 277,
       "matched": 260,
-      "updated": 2
+      "updated": 0
     },
     "retro": {
       "state": "ok",
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 160,
+      "records": 161,
       "matched": 154,
       "updated": 0
     },
@@ -58,11 +58,8 @@
     }
   },
   "changedRecords": [
-    "ext-163",
-    "ext-164",
-    "ext-165",
-    "nonplae-171",
-    "nonplae-246"
+    "ext-188",
+    "ext-189"
   ],
   "newCandidates": [
     {
@@ -74,7 +71,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "memory",
@@ -85,7 +82,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "memory",
@@ -96,7 +93,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -107,7 +104,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "super-paper-mario",
+      "title": "Super Paper Mario (WII)",
+      "platform": "Wii",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -118,7 +126,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -129,7 +137,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -140,7 +148,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "animal-crossing-wild-world",
+      "title": "Animal Crossing - Wild World (NDS)",
+      "platform": "NDS",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -151,7 +170,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -162,7 +181,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -173,7 +192,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -184,7 +203,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -195,7 +214,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -206,7 +225,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -217,7 +236,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -228,7 +247,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -239,7 +258,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -250,7 +269,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "nonplae",
@@ -261,7 +280,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "murphy",
@@ -272,7 +291,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "murphy",
@@ -283,7 +302,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "murphy",
@@ -294,7 +313,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "murphy",
@@ -305,7 +324,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "monster",
@@ -316,7 +335,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "monster",
@@ -327,7 +346,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "monster",
@@ -338,7 +357,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "monster",
@@ -349,7 +368,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "monster",
@@ -360,7 +379,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "monster",
@@ -371,7 +390,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "super-robot-wars-alpha-2",
+      "title": "Super Robot Wars Alpha 2",
+      "platform": "PlayStation 2",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "rommeaow",
@@ -382,7 +412,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "rommeaow",
@@ -393,7 +423,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     },
     {
       "feed": "90s",
@@ -404,7 +434,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-01T06:27:32.299432+00:00"
+      "lastSeenAt": "2026-11-01T17:59:34.899760+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
