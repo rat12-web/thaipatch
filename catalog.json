@@ -20507,8 +20507,8 @@
     "canonicalGameId": "super-robot-taisen-l",
     "platform": "NDS",
     "baseEdition": "",
-    "patchVersion": "1.2",
-    "version": "1.2",
+    "patchVersion": "1.3",
+    "version": "1.3",
     "date": "2026-10-20",
     "status": "released",
     "description": "Super Robot Taisen L รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — Nintendo DS",
@@ -20550,18 +20550,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-20T12:23:01.446Z",
+    "sourceUpdatedAt": "2026-11-02T12:25:45.209Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-20T12:23:01.446Z",
+      "value": "2026-11-02T12:25:45.209Z",
       "precision": "timestamp",
-      "rawValue": "2026-10-20T12:23:01.446Z",
+      "rawValue": "2026-11-02T12:25:45.209Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T09:56:23.506256Z",
-      "sourceVersion": "1.2",
+      "checkedAt": "2026-11-02T21:48:37.926071+00:00",
+      "sourceVersion": "1.3",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
@@ -20574,7 +20574,7 @@
     ],
     "playTimeHours": 15,
     "patchCategory": "fix_update",
-    "patchChanges": "Super Robot Taisen L รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — Nintendo DS",
+    "patchChanges": "Super Robot Taisen L (NDS) ภาษาไทย NONPLAE V1.3 รายละเอียดแปล - คงคำแปลไทยเดิม เพิ่มคำแปล 3,417 รายการ...",
     "sourceKey": "super-robot-taisen-l"
   },
   {
@@ -22485,8 +22485,8 @@
     "canonicalGameId": "super-robot-taisen-g",
     "platform": "GB",
     "baseEdition": "",
-    "patchVersion": "1.1",
-    "version": "1.1",
+    "patchVersion": "1.2",
+    "version": "1.2",
     "date": "2026-10-15",
     "status": "released",
     "description": "Dai-2-ji Super Robot Taisen G ภาษาไทย V1.0 แปลบทสนทนา 1,530 รายการ บทพูดต่อสู้ 665 รายการ ชื่อนักบิน หุ่นและอาวุธ 605 รายการ เมนู คำอธิบาย ชื่อตอน 33 รายการและเ",
@@ -22528,18 +22528,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-15T02:54:52.953Z",
+    "sourceUpdatedAt": "2026-11-02T07:19:39.601Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-15T02:54:52.953Z",
+      "value": "2026-11-02T07:19:39.601Z",
       "precision": "timestamp",
-      "rawValue": "2026-10-15T02:54:52.953Z",
+      "rawValue": "2026-11-02T07:19:39.601Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T09:56:23.506256Z",
-      "sourceVersion": "1.1",
+      "checkedAt": "2026-11-02T21:48:37.926071+00:00",
+      "sourceVersion": "1.2",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
@@ -22552,7 +22552,7 @@
     ],
     "playTimeHours": 15,
     "patchCategory": "fix_update",
-    "patchChanges": "Dai-2-ji Super Robot Taisen G ภาษาไทย V1.0 แปลบทสนทนา 1,530 รายการ บทพูดต่อสู้ 665 รายการ ชื่อนักบิน หุ่นและอาวุธ 6",
+    "patchChanges": "Dai-2-ji Super Robot Taisen G (GB) ภาษาไทย V1.2 รายละเอียดแปล - บทสนทนาและเนื้อเรื่อง 1,530 รายการ บทพ...",
     "sourceKey": "super-robot-taisen-g"
   },
   {
