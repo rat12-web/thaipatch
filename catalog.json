@@ -20507,8 +20507,8 @@
     "canonicalGameId": "super-robot-taisen-l",
     "platform": "NDS",
     "baseEdition": "",
-    "patchVersion": "1.3",
-    "version": "1.3",
+    "patchVersion": "1.4",
+    "version": "1.4",
     "date": "2026-10-20",
     "status": "released",
     "description": "Super Robot Taisen L รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — Nintendo DS",
@@ -20550,18 +20550,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-11-02T12:25:45.209Z",
+    "sourceUpdatedAt": "2026-11-03T05:59:29.693Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-11-02T12:25:45.209Z",
+      "value": "2026-11-03T05:59:29.693Z",
       "precision": "timestamp",
-      "rawValue": "2026-11-02T12:25:45.209Z",
+      "rawValue": "2026-11-03T05:59:29.693Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-11-02T21:48:37.926071+00:00",
-      "sourceVersion": "1.3",
+      "checkedAt": "2026-11-03T07:00:13.014343+00:00",
+      "sourceVersion": "1.4",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
@@ -20574,7 +20574,7 @@
     ],
     "playTimeHours": 15,
     "patchCategory": "fix_update",
-    "patchChanges": "Super Robot Taisen L (NDS) ภาษาไทย NONPLAE V1.3 รายละเอียดแปล - คงคำแปลไทยเดิม เพิ่มคำแปล 3,417 รายการ...",
+    "patchChanges": "Super Robot Taisen L (NDS) รายละเอียดแปล - เนื้อเรื่องและบทสนทนาตามชุดคำแปลที่นำเข้า - ภาพข้อความเนื้อ...",
     "sourceKey": "super-robot-taisen-l"
   },
   {
