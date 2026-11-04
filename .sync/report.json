@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T19:39:00.531018+00:00",
+  "checkedAt": "2026-11-04T06:42:59.986673+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 284,
+      "records": 285,
       "matched": 260,
       "updated": 0
     },
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 172,
+      "records": 173,
       "matched": 154,
       "updated": 0
     },
@@ -68,7 +68,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "memory",
@@ -79,7 +79,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "memory",
@@ -90,7 +90,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -101,7 +101,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -112,7 +112,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -123,7 +123,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -134,7 +134,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -145,7 +145,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -156,7 +156,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -167,7 +167,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -178,7 +178,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -189,7 +189,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -200,7 +200,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -211,7 +211,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -222,7 +222,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -233,7 +233,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -244,7 +244,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -255,7 +255,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -266,7 +266,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -277,7 +277,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -288,7 +288,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "spider-man-mysterios-menace",
+      "title": "Spider-Man: Mysterio's Menace (GBA)",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -299,7 +310,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -310,7 +321,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -321,7 +332,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -332,7 +343,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -343,7 +354,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "nonplae",
@@ -354,7 +365,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "murphy",
@@ -365,7 +376,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "murphy",
@@ -376,7 +387,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "murphy",
@@ -387,7 +398,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "murphy",
@@ -398,7 +409,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -409,7 +420,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -420,7 +431,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -431,7 +442,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -442,7 +453,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -453,7 +464,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -464,7 +475,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -475,7 +486,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -486,7 +497,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -497,7 +508,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -508,7 +519,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -519,7 +530,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -530,7 +541,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -541,7 +552,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -552,7 +563,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -563,7 +574,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -574,7 +585,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -585,7 +596,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "monster",
@@ -596,7 +607,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "super-robot-wars-neo",
+      "title": "Super Robot Wars Neo",
+      "platform": "WII",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "rommeaow",
@@ -607,7 +629,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "rommeaow",
@@ -618,7 +640,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     },
     {
       "feed": "90s",
@@ -629,7 +651,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-03T19:39:00.531018+00:00"
+      "lastSeenAt": "2026-11-04T06:42:59.986673+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
