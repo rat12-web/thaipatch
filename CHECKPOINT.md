@@ -1,3 +1,25 @@
+## 2026-11-05 — Verify game existence & provenance across catalog, purge 86 invalid/duplicate ext-db entries, ingest 130 authentic new games (1,044 total), and expand automatic sync to 14 public creator feeds
+
+Owner: Active Repository Agent (Antigravity); branch feat/discover-new-games-verify-provenance-2026-11-05.
+
+Catalog: 1,044 verified entries across 20 platforms (40 registered translation teams).
+- Provenance & Existence Audit: Audited all 1,000 catalog entries against upstream creator feeds and webpages. Removed 86 invalid/duplicate ext-db-* entries imported on 2026-10-30 (83 duplicate/generic root-URL entries of official feed teams, 2 misattributed Emu เข้าเล้น entries that duplicated RetroSpective, and 1 broken แปลนาน placeholder pointing to 
+omhacking.net/patch).
+- Creator Attribution Fixes:
+  - Reassigned ext-db-202-dragon-ball-z-ii-gekishin from placeholder ยังไม่มี to its verified creator Happy2you.net (https://retro-trans.h2y.workers.dev/games/dragon-ball-z-ii-gekishin-freeza) and removed ยังไม่มี from 	eams.json.
+  - Renamed placeholder ทีมแปลไทย back to true creator team ใครแปล (https://khraiplae-web.pages.dev/), enriched all 14 existing records with exact game URLs (?id=<id>), covers, versions, and dates, and added the remaining 16 games (all 30 games included).
+  - Enriched existing Happy2you.net, แปลเกมเก่า, แท็บแปล, ต้น คนนะไม่ใช่แมว, หนีงานมาแปล, Varbara Kung, and แมวดำ แปลเกมส์ entries with exact game URLs, covers, versions, and sourceKeys.
+- Ingested 130 Authentic New Games Across 14 Teams:
+  - Happy2you.net (+25 new published 100% games; all 53 published games matched), นอนแปล (NONPLAE) (+22 new console/PC games; 284/284 games matched, excluding 4 PSP UMD movies), Monster แปล (+19 new games; 173/173 matched), ใครแปล (+16 new games; 30/30 matched), แปลเกมเก่า (+16 new games), ต้น คนนะไม่ใช่แมว (+8 new released games), Memory Card TH (+6 new games; 188/188 matched), แท็บแปล (+6 new released games), Varbara Kung (+3 new enabled games; 4/4 matched), แมวดำ แปลเกมส์ (+3 new released SNES games), หนีงานมาแปล (+2 new available games; 6/6 matched), Amnaj Thanya (+2 new GBA games), 90S Game (+1 new game: Lunar Legend GBA; 50/50 matched), น้าเหมา (+1 new ready game: Super Robot Wars UX 3DS).
+- Expanded Automatic 6-Hour Sync (.sync/refresh.py): Added 5 structured JSON creator feeds (khraiplae, h2y, 
+eengan, arbara, 
+amao) to .sync/refresh.py, expanding automatic 6-hour metadata refresh and candidate discovery from 9 to 14 public feeds, and normalized Memory Card TH platform matching (SFC -> SNES, Saturn -> SATURN).
+- Verification: python tools/build.py --check PASS; python .sync/refresh.py --check PASS; python .sync/test_refresh.py (6/6) PASS; HTTP 200 check across all 300 new/updated cover URLs (0 broken covers); 
+ode tools/qa-smoke.cjs (6/6 views) PASS; 
+ode tools/qa_verify_today_pick_and_platform_sort.js (1,044 games) PASS. Evidence: evidence/2026-11-05/discover-games-and-verify-provenance.json.
+
+---
+
 ## 2026-10-30 — Standardize genres (13 clean categories), art styles (3 clean categories), and expand catalog to exactly 1,000 games with zero duplicates and verified boxart
 
 Owner: Active Repository Agent (Antigravity); branch feat/standardize-genre-artstyle-and-expand-catalog-1000.

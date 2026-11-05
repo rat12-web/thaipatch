@@ -321,21 +321,6 @@
     "decodeEvidence": null
   },
   {
-    "team": "ทีมแปลไทย",
-    "url": null,
-    "verification": "creator_community_attribution",
-    "source": "https://thairomdb.pages.dev/",
-    "hosting": "remote_url_not_mirrored",
-    "checkedAt": "2026-10-30",
-    "id": "team-94d430fd2a6e",
-    "rightsState": "unconfirmed",
-    "localAllowed": false,
-    "evidence": ".sync/report.json",
-    "reviewState": "creator_profile_identity",
-    "imageDecoded": false,
-    "decodeEvidence": null
-  },
-  {
     "team": "เล่าเรื่องเกม",
     "url": null,
     "verification": "creator_community_attribution",
@@ -456,36 +441,6 @@
     "decodeEvidence": null
   },
   {
-    "team": "Emu เข้าเล้น",
-    "url": null,
-    "verification": "creator_community_attribution",
-    "source": "https://thairomdb.pages.dev/",
-    "hosting": "remote_url_not_mirrored",
-    "checkedAt": "2026-10-30",
-    "id": "team-59cc60c4c544",
-    "rightsState": "unconfirmed",
-    "localAllowed": false,
-    "evidence": ".sync/report.json",
-    "reviewState": "creator_profile_identity",
-    "imageDecoded": false,
-    "decodeEvidence": null
-  },
-  {
-    "team": "แปลนาน",
-    "url": null,
-    "verification": "creator_community_attribution",
-    "source": "https://thairomdb.pages.dev/",
-    "hosting": "remote_url_not_mirrored",
-    "checkedAt": "2026-10-30",
-    "id": "team-94e8444a85f9",
-    "rightsState": "unconfirmed",
-    "localAllowed": false,
-    "evidence": ".sync/report.json",
-    "reviewState": "creator_profile_identity",
-    "imageDecoded": false,
-    "decodeEvidence": null
-  },
-  {
     "team": "Gadget Door",
     "url": null,
     "verification": "creator_community_attribution",
@@ -561,16 +516,6 @@
     "reviewState": "missing_verified_logo"
   },
   {
-    "team": "ยังไม่มี",
-    "url": null,
-    "verification": "catalog_translator_entry",
-    "id": "team-6c944d104fce",
-    "rightsState": "unconfirmed",
-    "localAllowed": false,
-    "evidence": "catalog.json",
-    "reviewState": "missing_verified_logo"
-  },
-  {
     "team": "แปลเกมเก่า",
     "url": null,
     "verification": "catalog_translator_entry",
@@ -579,5 +524,35 @@
     "localAllowed": false,
     "evidence": "catalog.json",
     "reviewState": "missing_verified_logo"
+  },
+  {
+    "team": "ใครแปล",
+    "url": "https://khraiplae-web.pages.dev/assets/logo-sm.png",
+    "verification": "on_site_logo",
+    "source": "https://khraiplae-web.pages.dev/",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-11-05",
+    "id": "team-khraiplae-f3c190a1",
+    "rightsState": "unconfirmed",
+    "localAllowed": false,
+    "evidence": "evidence/2026-11-05/discover-games-and-verify-provenance.json",
+    "reviewState": "creator_profile_identity",
+    "imageDecoded": true,
+    "decodeEvidence": null
+  },
+  {
+    "team": "น้าเหมา",
+    "url": null,
+    "verification": "creator_community_attribution",
+    "source": "https://www.namaomodth.com/",
+    "hosting": "remote_url_not_mirrored",
+    "checkedAt": "2026-11-05",
+    "id": "team-namao-88b120e4",
+    "rightsState": "unconfirmed",
+    "localAllowed": false,
+    "evidence": "evidence/2026-11-05/discover-games-and-verify-provenance.json",
+    "reviewState": "creator_profile_identity",
+    "imageDecoded": false,
+    "decodeEvidence": null
   }
 ]

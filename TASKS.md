@@ -1,5 +1,13 @@
 # Remaining work
 
+Current 2026-11-05 result: 1,044 cards,
+Verified game existence and translator provenance across the catalog, purged 86 invalid/duplicate ext-db entries, fixed misattributed teams (ใครแปล, Happy2you.net), ingested 130 authentic new games across 14 translation teams, and expanded automatic 6-hour sync in .sync/refresh.py from 9 to 14 public creator feeds (188/188 Memory Card TH, 284/284 NONPLAE games, 173/173 Monster แปล, 53/53 Happy2you.net published, 50/50 90S Game, 30/30 ใครแปล, 18/18 Gayray, 13/13 Murphy-TH released, 10/10 แปลไทยเกมเก่า, 7/7 RetroSpective, 6/6 หนีงานมาแปล available, 4/4 Varbara Kung enabled, 3/3 ROMMEAOW enabled, 1/1 น้าเหมา ready).
+All 300 new/updated covers verified HTTP 200 OK.
+Evidence recorded in evidence/2026-11-05/discover-games-and-verify-provenance.json.
+
+The earlier snapshots below are historical.
+
+
 Current 2026-10-30 result: 1,000 cards / 995 groups,
 Standardized genres (13 clean categories), art styles (3 clean categories), and expanded catalog to exactly 1,000 games with zero duplicates and verified boxart:
 - Standardized Genres: Consolidated from 79 noisy/overlapping categories to exactly 13 clean, non-duplicative categories: RPG (375), ผจญภัย (178), แอ็กชัน (123), วางแผน / แทคติก (101), แอ็กชัน-ผจญภัย (44), จำลองชีวิต (42), แอ็กชัน-RPG (30), การ์ดเกม / พัซเซิล (29), สยองขวัญเอาชีวิตรอด (28), ต่อสู้ (20), กีฬา (18), แข่งรถ (10), นิยายภาพ (2).

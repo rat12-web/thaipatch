@@ -41,9 +41,11 @@ const assert = require('assert');
   await page.locator('#todayPickCards .gcard').first().waitFor();
 
   // Verify total catalog length
+  const expectedTotal = JSON.parse(fs.readFileSync(path.join(root, 'catalog.json'), 'utf8')).length;
   const totalInPage = await page.evaluate(() => catalog.length);
   console.log('Total games in browser catalog:', totalInPage);
-  assert.equal(totalInPage, 1000, 'Expected 1000 games in catalog');
+  assert.equal(totalInPage, expectedTotal, `Expected ${expectedTotal} games in catalog`);
+  assert(totalInPage >= 1000, 'Expected at least 1000 games in catalog');
 
   // 1. Verify "Official Artwork" or "Official Game Artwork" is NOT displayed on any card
   const visibleOriginLabels = await page.locator('.cover-origin:not(.hide)').allInnerTexts();

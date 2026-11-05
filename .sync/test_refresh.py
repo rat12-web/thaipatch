@@ -132,3 +132,13 @@ for game in reviewed:
  assert game['coverAudit']['localAllowed'] is False
 assert any('Aeon Genesis' in g['baseEdition'] and 'brkmnly' in g['baseEdition'] for g in reviewed)
 print('Reviewed additions: seven source identities, edition prerequisites, platforms and remote cover evidence PASS')
+
+assert m.date_value('2026-04-06 14:43:29')=='2026-04-06'
+assert len(m.FEEDS)==14 and {'khraiplae','h2y','neengan','varbara','namao'}<=set(m.FEEDS)
+kp_row={'id':'gb2','title':'The Great Battle II','console':'snes','patchVersion':'1.01','updatedDate':'2026-03-31','patchFile':'patches/gb2.bps'}
+assert m.candidate_availability('khraiplae',kp_row)=='patch_listed'
+assert m.match('khraiplae',{'source':'ใครแปล','url':'https://khraiplae-web.pages.dev/game?id=gb2'},[kp_row])==kp_row
+h2y_row={'slug':'yu-yu-hakusho','title':'Yu Yu Hakusho','platform':'SNES','status':'published','current_version':'1.1','updated_at':'2026-04-01 10:00:00'}
+assert m.candidate_availability('h2y',h2y_row)=='patch_listed'
+assert m.match('h2y',{'source':'Happy2you.net','url':'https://retro-trans.h2y.workers.dev/games/yu-yu-hakusho'},[h2y_row])==h2y_row
+print('New structured creator feeds (khraiplae, h2y, neengan, varbara, namao): 14-feed sync & matching PASS')

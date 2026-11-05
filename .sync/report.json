@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-04T19:54:37.556912+00:00",
+  "checkedAt": "2026-11-05T03:33:20.485406+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
       "records": 188,
-      "matched": 179,
+      "matched": 188,
       "updated": 0
     },
     "gayray": {
@@ -17,7 +17,7 @@
     "nonplae": {
       "state": "ok",
       "records": 286,
-      "matched": 260,
+      "matched": 284,
       "updated": 0
     },
     "retro": {
@@ -29,13 +29,13 @@
     "murphy": {
       "state": "ok",
       "records": 16,
-      "matched": 12,
+      "matched": 13,
       "updated": 0
     },
     "monster": {
       "state": "ok",
       "records": 173,
-      "matched": 154,
+      "matched": 173,
       "updated": 0
     },
     "retrogame": {
@@ -53,144 +53,44 @@
     "90s": {
       "state": "ok",
       "records": 50,
-      "matched": 49,
+      "matched": 50,
+      "updated": 0
+    },
+    "khraiplae": {
+      "state": "ok",
+      "records": 30,
+      "matched": 30,
+      "updated": 0
+    },
+    "h2y": {
+      "state": "ok",
+      "records": 60,
+      "matched": 53,
+      "updated": 1
+    },
+    "neengan": {
+      "state": "ok",
+      "records": 8,
+      "matched": 6,
+      "updated": 0
+    },
+    "varbara": {
+      "state": "ok",
+      "records": 5,
+      "matched": 4,
+      "updated": 0
+    },
+    "namao": {
+      "state": "ok",
+      "records": 4,
+      "matched": 1,
       "updated": 0
     }
   },
-  "changedRecords": [],
+  "changedRecords": [
+    "new-h2y-09"
+  ],
   "newCandidates": [
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Ultimate Spider-Man",
-      "title": "Ultimate Spider-Man",
-      "platform": "GBA",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "The Firemen",
-      "title": "The Firemen",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "The Firemen 2: Pete & Danny",
-      "title": "The Firemen 2: Pete & Danny",
-      "platform": "PS1",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Silent Hill",
-      "title": "Silent Hill",
-      "platform": "PS1",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Croket! Great: Toki no Boukensha",
-      "title": "Croket! Great: Toki no Boukensha",
-      "platform": "GBA",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Magic Knight Rayearth",
-      "title": "Magic Knight Rayearth",
-      "platform": "Saturn",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Shin Megami Tensei II",
-      "title": "Shin Megami Tensei II",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Kawa no Nushi Tsuri 2 (ตกปลาทาโร่ 2)",
-      "title": "Kawa no Nushi Tsuri 2 (ตกปลาทาโร่ 2)",
-      "platform": "SFC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "memory",
-      "source": "https://memorycardth.com/dl/_patch/site.json",
-      "key": "Ninpuu Sentai Hurricanger",
-      "title": "Ninpuu Sentai Hurricanger",
-      "platform": "PS1",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "pokemon-mono-myth",
-      "title": "Pokemon Mono Myth (GBA)",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "super-paper-mario",
-      "title": "Super Paper Mario (WII)",
-      "platform": "Wii",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "harvest-moon-animal-parade",
-      "title": "Harvest Moon: Animal Parade (Wii)",
-      "platform": "Wii",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
     {
       "feed": "nonplae",
       "source": "https://www.nonplae.com/api/patch-games",
@@ -200,7 +100,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
       "feed": "nonplae",
@@ -211,238 +111,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "final-fantasy-ii-nes",
-      "title": "Final Fantasy II (NES)",
-      "platform": "NES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "arc-the-lad-ii",
-      "title": "Arc the Lad II (PS1)",
-      "platform": "PS1",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "super-robot-wars-3",
-      "title": "Dai-3-Ji Super Robot Taisen (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "final-fantasy-nes",
-      "title": "Final Fantasy (NES)",
-      "platform": "NES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "front-mission-gun-hazard",
-      "title": "Front Mission Series: Gun Hazard (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "splinter-cell-pandora-tomorrow",
-      "title": "Tom Clancy's Splinter Cell - Pandora Tomorrow (GBA)",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "animal-crossing-wild-world",
-      "title": "Animal Crossing - Wild World (NDS)",
-      "platform": "NDS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "saiyuki-journey-west",
-      "title": "Saiyuki - Journey West (PS1)",
-      "platform": "PS1",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "sd-gundam-gaiden-knight-gundam-monogatari",
-      "title": "SD Gundam Gaiden: Knight Gundam Monogatari (NES)",
-      "platform": "NES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "castlevania-circle-of-the-moon",
-      "title": "Castlevania: Circle of the Moon (GBA)",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "warriors-legend-of-the-blue-dragon",
-      "title": "Warriors : Legend of the Blue Dragon (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "the-violinist-of-hameln",
-      "title": "The Violinist of Hameln (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "grand-theft-auto-advance",
-      "title": "Grand Theft Auto Advance (GBA)",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "assault-suits-valken",
-      "title": "Assault Suits Valken (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "spider-man-mysterios-menace",
-      "title": "Spider-Man: Mysterio's Menace (GBA)",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "gunstar-super-heroes",
-      "title": "Gunstar Super Heroes (GBA)",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "strider-2",
-      "title": "Strider 2 (PS1)",
-      "platform": "PS1",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "the-world-ends-with-you",
-      "title": "The World Ends with You (NDS)",
-      "platform": "NDS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "monster-maker-iii-hikari-no-majutsushi",
-      "title": "Monster Maker III: Hikari no Majutsushi (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "kunios-dodge-ball",
-      "title": "Kunio’s Dodge Ball (SNES)",
-      "platform": "SNES",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "nonplae",
-      "source": "https://www.nonplae.com/api/patch-games",
-      "key": "final-fantasy-tactics",
-      "title": "Final Fantasy Tactics (PSP)",
-      "platform": "PSP",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
       "feed": "murphy",
@@ -453,29 +122,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
       "feed": "murphy",
       "source": "https://murphy-th.com/",
-      "key": "silent-hill-downpour",
-      "title": null,
-      "platform": "PlayStation 3 • BLUS30565 (RPCS3)",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "murphy",
-      "source": "https://murphy-th.com/",
-      "key": "meitantei-conan-norowareta-kouro",
+      "key": "conan-norowareta-kouro",
       "title": null,
       "platform": "Game Boy Color • Japan",
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
       "feed": "murphy",
@@ -486,216 +144,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "pok-mon-infinite-fusion",
-      "title": "Pokémon Infinite Fusion",
-      "platform": "PC (Windows)",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "custom-robo-arena-redux",
-      "title": "Custom Robo Arena Redux",
-      "platform": "NINTENDO DS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "dragon-quest-viii-journey-of-the-cursed-king",
-      "title": "Dragon Quest VIII: Journey of the Cursed King",
-      "platform": "PlayStation 2",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "custom-robo-gamecube",
-      "title": "Custom Robo (GameCube)",
-      "platform": "GAMECUBE",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "custom-robo-v2",
-      "title": "Custom Robo V2",
-      "platform": "NINTENDO 64",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "custom-robo-gx",
-      "title": "Custom Robo GX",
-      "platform": "GAME BOY ADVANCE",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-wars-alpha-2",
-      "title": "Super Robot Wars Alpha 2",
-      "platform": "PlayStation 2",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-wars-impact",
-      "title": "Super Robot Wars Impact",
-      "platform": "PlayStation 2",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-wars-a-portable",
-      "title": "Super Robot Wars A Portable",
-      "platform": "PSP",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "eyeshield-21-max-devil-power",
-      "title": "Eyeshield 21 Max Devil Power!",
-      "platform": "NINTENDO DS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "gear-fighter-dendoh",
-      "title": "Gear Fighter Dendoh",
-      "platform": "PlayStation",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "vanguard-bandits",
-      "title": "Vanguard Bandits",
-      "platform": "PlayStation",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "digimon-story-super-xros-wars-blue",
-      "title": "Digimon Story Super Xros Wars Blue",
-      "platform": "NINTENDO DS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "digimon-story-super-xros-wars-red",
-      "title": "Digimon Story Super Xros Wars Red",
-      "platform": "NINTENDO DS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-taisen-game-boy",
-      "title": "Super Robot Taisen (Game Boy)",
-      "platform": "GAME BOY",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-wars-operation-extend",
-      "title": "Super Robot Wars Operation Extend",
-      "platform": "PSP",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "blazer-drive",
-      "title": "Blazer Drive",
-      "platform": "NINTENDO DS",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-wars-neo",
-      "title": "Super Robot Wars Neo",
-      "platform": "WII",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "super-robot-taisen-og-saga-masou-kishin-the-lord-of-elemental",
-      "title": "Super Robot Taisen OG Saga: Masou Kishin - The Lord of Elemental",
-      "platform": "PSP",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
       "feed": "rommeaow",
@@ -706,7 +155,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
       "feed": "rommeaow",
@@ -717,18 +166,150 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     },
     {
-      "feed": "90s",
-      "source": "https://90s-game.pitak2540.workers.dev/",
-      "key": "lunar-legend",
-      "title": "Lunar Legend · Game Boy Advance · ภาษาไทย",
-      "platform": "GBA",
-      "sourceAvailability": "site_listed",
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 61,
+      "title": "Rockman World 5",
+      "platform": "GB",
+      "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-04T19:54:37.556912+00:00"
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 59,
+      "title": "Mouryou Senki Madara",
+      "platform": "NES",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 58,
+      "title": "Shantae",
+      "platform": "GBC",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 57,
+      "title": "Mahoujin Guruguru",
+      "platform": "SNES",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 55,
+      "title": "One Piece  - Maboroshi no Grand Line Boukenki!",
+      "platform": "GBC",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 44,
+      "title": "Juukou Senki Bullet Battlers",
+      "platform": "GBC",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 7,
+      "title": "Dragon Knight 4",
+      "platform": "PlayStation",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "neengan",
+      "source": "https://neenganmaplae.spiwsiri.workers.dev/data/games.json",
+      "key": "pmd-explorers-of-darkness-th",
+      "title": "Pokémon Mystery Dungeon: Explorers of Darkness",
+      "platform": "Nintendo DS",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "neengan",
+      "source": "https://neenganmaplae.spiwsiri.workers.dev/data/games.json",
+      "key": "golden-sun-dark-dawn-th",
+      "title": "Golden Sun: Dark Dawn",
+      "platform": "Nintendo DS",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "varbara",
+      "source": "https://dokvpn.uk/api/games",
+      "key": "persona-test-psp-0442f9",
+      "title": "Persona test psp",
+      "platform": "PSP",
+      "sourceAvailability": "source_disabled",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "namao",
+      "source": "https://www.namaomodth.com/api/games",
+      "key": "srw-bx",
+      "title": "Super Robot Wars BX",
+      "platform": "3DS",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "namao",
+      "source": "https://www.namaomodth.com/api/games",
+      "key": "btl-th",
+      "title": "Beyond of the labyrinth",
+      "platform": "3DS",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
+    },
+    {
+      "feed": "namao",
+      "source": "https://www.namaomodth.com/api/games",
+      "key": "ex-troopers",
+      "title": "E.X. Troopers",
+      "platform": "3DS",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T03:33:20.485406+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
@@ -755,19 +336,14 @@
       "mode": "manual_no_public_adapter"
     },
     {
-      "team": "Emu เข้าเล้น",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
-    },
-    {
       "team": "Gadget Door",
       "feed": null,
       "mode": "manual_no_public_adapter"
     },
     {
       "team": "Happy2you.net",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
+      "feed": "h2y",
+      "mode": "automatic_public_feed"
     },
     {
       "team": "INorge Game Stream",
@@ -816,8 +392,8 @@
     },
     {
       "team": "Varbara Kung",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
+      "feed": "varbara",
+      "mode": "automatic_public_feed"
     },
     {
       "team": "ตลับเกมภาษาไทย",
@@ -826,11 +402,6 @@
     },
     {
       "team": "ต้น คนนะไม่ใช่แมว",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
-    },
-    {
-      "team": "ทีมแปลไทย",
       "feed": null,
       "mode": "manual_no_public_adapter"
     },
@@ -860,9 +431,9 @@
       "mode": "manual_no_public_adapter"
     },
     {
-      "team": "ยังไม่มี",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
+      "team": "น้าเหมา",
+      "feed": "namao",
+      "mode": "automatic_public_feed"
     },
     {
       "team": "รอมเหมียว (ROMMEAOW)",
@@ -881,8 +452,8 @@
     },
     {
       "team": "หนีงานมาแปล",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
+      "feed": "neengan",
+      "mode": "automatic_public_feed"
     },
     {
       "team": "เกเรแปลไทย",
@@ -915,11 +486,6 @@
       "mode": "manual_no_public_adapter"
     },
     {
-      "team": "แปลนาน",
-      "feed": null,
-      "mode": "manual_no_public_adapter"
-    },
-    {
       "team": "แปลเกมเก่า",
       "feed": null,
       "mode": "manual_no_public_adapter"
@@ -943,6 +509,11 @@
       "team": "แมแปว",
       "feed": null,
       "mode": "manual_no_public_adapter"
+    },
+    {
+      "team": "ใครแปล",
+      "feed": "khraiplae",
+      "mode": "automatic_public_feed"
     }
   ]
 }
