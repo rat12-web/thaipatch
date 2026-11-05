@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-05T07:02:24.537680+00:00",
+  "checkedAt": "2026-11-05T20:07:41.551645+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
-      "records": 191,
+      "records": 197,
       "matched": 188,
-      "updated": 15
+      "updated": 0
     },
     "gayray": {
       "state": "ok",
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 287,
+      "records": 288,
       "matched": 284,
       "updated": 0
     },
@@ -27,14 +27,13 @@
       "updated": 0
     },
     "murphy": {
-      "state": "ok",
-      "records": 16,
-      "matched": 13,
-      "updated": 0
+      "state": "failed_preserved",
+      "reason": "HTTPError: HTTP Error 402: Payment Required",
+      "retainedCandidates": 3
     },
     "monster": {
       "state": "ok",
-      "records": 173,
+      "records": 174,
       "matched": 173,
       "updated": 0
     },
@@ -58,7 +57,7 @@
     },
     "khraiplae": {
       "state": "ok",
-      "records": 30,
+      "records": 31,
       "matched": 30,
       "updated": 0
     },
@@ -87,24 +86,74 @@
       "updated": 0
     }
   },
-  "changedRecords": [
-    "ext-009",
-    "ext-017",
-    "ext-050",
-    "ext-051",
-    "ext-061",
-    "ext-063",
-    "ext-064",
-    "ext-100",
-    "ext-122",
-    "ext-136",
-    "ext-140",
-    "ext-141",
-    "ext-184",
-    "ext-199",
-    "ext-202"
-  ],
+  "changedRecords": [],
   "newCandidates": [
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Yo-Kai Watch 2: Psychic Specters",
+      "title": "Yo-Kai Watch 2: Psychic Specters",
+      "platform": "3DS",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Shaman King: Spirit of Shamans",
+      "title": "Shaman King: Spirit of Shamans",
+      "platform": "PS1",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Hyrule Warriors Legends",
+      "title": "Hyrule Warriors Legends",
+      "platform": "3DS",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Yo-Kai Watch",
+      "title": "Yo-Kai Watch",
+      "platform": "3DS",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Midnight Club 3: DUB Edition",
+      "title": "Midnight Club 3: DUB Edition",
+      "platform": "PS2",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Sword of Mana",
+      "title": "Sword of Mana",
+      "platform": "GBA",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
     {
       "feed": "memory",
       "source": "https://memorycardth.com/dl/_patch/site.json",
@@ -114,7 +163,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "memory",
@@ -125,7 +174,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "memory",
@@ -136,7 +185,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "nonplae",
@@ -147,7 +196,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "nonplae",
@@ -158,7 +207,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "nonplae",
@@ -169,7 +218,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "final-fantasy-iii-nes",
+      "title": "Final Fantasy III (NES)",
+      "platform": "NES",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "murphy",
@@ -179,7 +239,7 @@
       "platform": "PlayStation 3 • BLUS30565 (RPCS3)",
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "current",
+      "sourceState": "stale_feed_unavailable",
       "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
     },
     {
@@ -190,7 +250,7 @@
       "platform": "Game Boy Color • Japan",
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
-      "sourceState": "current",
+      "sourceState": "stale_feed_unavailable",
       "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
     },
     {
@@ -201,8 +261,19 @@
       "platform": null,
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
-      "sourceState": "current",
+      "sourceState": "stale_feed_unavailable",
       "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "digimon-world-horizon",
+      "title": "Digimon World Horizon",
+      "platform": "PlayStation",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "rommeaow",
@@ -213,7 +284,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "rommeaow",
@@ -224,29 +295,18 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 57,
-      "title": "Mahoujin Guruguru",
-      "platform": "SNES",
-      "sourceAvailability": "patch_listed",
+      "feed": "khraiplae",
+      "source": "https://khraiplae-web.pages.dev/data/games.json",
+      "key": "hokuto-no-ken-3",
+      "title": "Hokuto no Ken 3: Shin Seiki Souzou Seiken Retsuden",
+      "platform": "nes",
+      "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 61,
-      "title": "Rockman World 5",
-      "platform": "GB",
-      "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "h2y",
@@ -257,7 +317,29 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 61,
+      "title": "Rockman World 5",
+      "platform": "GB",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 57,
+      "title": "Mahoujin Guruguru",
+      "platform": "SNES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "h2y",
@@ -268,7 +350,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "h2y",
@@ -279,7 +361,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "h2y",
@@ -290,7 +372,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "h2y",
@@ -301,7 +383,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "neengan",
@@ -312,7 +394,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "neengan",
@@ -323,7 +405,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "varbara",
@@ -334,7 +416,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "namao",
@@ -345,7 +427,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "namao",
@@ -356,7 +438,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     },
     {
       "feed": "namao",
@@ -367,7 +449,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-05T07:02:24.537680+00:00"
+      "lastSeenAt": "2026-11-05T20:07:41.551645+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
