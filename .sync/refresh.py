@@ -14,18 +14,27 @@ FEEDS = {
  'retrogame': 'https://retrogamethaisub.pages.dev/games.json',
  'rommeaow': 'https://rommeaow.com/js/registry.js',
  '90s': 'https://90s-game.pitak2540.workers.dev/',
+ 'khraiplae': 'https://khraiplae-web.pages.dev/data/games.json',
+ 'h2y': 'https://retro-trans.h2y.workers.dev/api/games',
+ 'neengan': 'https://neenganmaplae.spiwsiri.workers.dev/data/games.json',
+ 'varbara': 'https://dokvpn.uk/api/games',
+ 'namao': 'https://www.namaomodth.com/api/games',
 }
 FEED_TEAMS = {
  'memory':'Memory Card TH', 'gayray':'เกเรแปลไทย',
  'nonplae':'นอนแปล (NONPLAE)', 'retro':'RetroSpective',
  'murphy':'Murphy-TH', 'monster':'Monster แปล', 'retrogame':'แปลไทยเกมเก่า',
  'rommeaow':'รอมเหมียว (ROMMEAOW)', '90s':'90S Game',
+ 'khraiplae':'ใครแปล', 'h2y':'Happy2you.net',
+ 'neengan':'หนีงานมาแปล', 'varbara':'Varbara Kung', 'namao':'น้าเหมา',
 }
 MONSTER_OVERLAY = 'https://monster-plae.pages.dev/api/catalog'
 MONTHS = {'มกราคม':1,'กุมภาพันธ์':2,'มีนาคม':3,'เมษายน':4,'พฤษภาคม':5,'มิถุนายน':6,'กรกฎาคม':7,'สิงหาคม':8,'กันยายน':9,'ตุลาคม':10,'พฤศจิกายน':11,'ธันวาคม':12,'มค':1,'กพ':2,'มีค':3,'เมย':4,'พค':5,'มิย':6,'กค':7,'สค':8,'กย':9,'ตค':10,'พย':11,'ธค':12}
 
 def date_value(raw):
  if not isinstance(raw,str): return None
+ if re.fullmatch(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}',raw.strip()):
+  raw=raw.strip()[:10]
  if re.fullmatch(r'\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2}))?',raw):
   value=dt.datetime.fromisoformat(raw.replace('Z','+00:00'))
   if value.date() > dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).date(): raise ValueError('future date')
@@ -73,8 +82,12 @@ def parse(name,text):
    row['enabled']=enabled[1]=='true';rows.append(row)
   if not rows: raise ValueError('registry schema changed')
   return rows
- if name in ('memory','gayray','nonplae','retrogame'):
+ if name in ('memory','gayray','nonplae','retrogame','khraiplae','h2y','varbara'):
   rows=json.loads(text)['games']
+  if not isinstance(rows,list) or not rows or len(rows)>2000: raise ValueError('feed schema changed')
+  return rows
+ if name in ('neengan','namao'):
+  rows=json.loads(text)
   if not isinstance(rows,list) or not rows or len(rows)>2000: raise ValueError('feed schema changed')
   return rows
  # Read quoted scalar fields only; never eval source scripts.
@@ -124,6 +137,11 @@ def candidate_availability(name,row):
   try: return 'site_listed' if date_value(row.get('updated')) else 'release_unconfirmed'
   except (ValueError,KeyError): return 'release_unconfirmed'
  if name=='retrogame': return 'patch_listed' if latest_retrogame_patch(row) else 'release_unconfirmed'
+ if name=='khraiplae': return 'patch_listed' if row.get('patchFile') else 'not_listed_for_download'
+ if name=='h2y': return 'patch_listed' if row.get('status')=='published' else 'release_unconfirmed'
+ if name=='neengan': return 'patch_listed' if row.get('available') is True else 'release_unconfirmed'
+ if name=='varbara': return 'patch_listed' if row.get('enabled')==1 and 'test' not in (row.get('title') or '').lower() else 'source_disabled'
+ if name=='namao': return 'patch_listed' if row.get('development_status')=='ready' else 'release_unconfirmed'
  if name in ('retro','monster','90s'): return 'site_listed'
  raise ValueError('unknown feed')
 
@@ -142,7 +160,7 @@ def match(name,g,rows):
  query=parse_qs(urlparse(g['url']).query)
  if name=='memory' and g['source']=='Memory Card TH':
   key=fragment.split('/')[1] if fragment.startswith('/') else fragment.removeprefix('game/')
-  hits=[r for r in rows if (r.get('name')==key or r.get('name')==g.get('sourceKey')) and r.get('platform')==g['platform']]
+  hits=[r for r in rows if (r.get('name')==key or r.get('name')==g.get('sourceKey')) and {'SFC':'SNES','Saturn':'SATURN'}.get(r.get('platform'),r.get('platform'))==g['platform']]
  elif name=='gayray' and g['source']=='เกเรแปลไทย':
   key=g.get('sourceKey') or fragment.removeprefix('game=')
   hits=[r for r in rows if r.get('id')==key]
@@ -167,9 +185,25 @@ def match(name,g,rows):
  elif name=='retrogame' and g['source']=='แปลไทยเกมเก่า':
   key=g.get('sourceKey') or query.get('game',[None])[0]
   hits=[r for r in rows if r.get('id')==key]
+ elif name=='khraiplae' and g['source']=='ใครแปล':
+  key=g.get('sourceKey') or query.get('id',[None])[0]
+  hits=[r for r in rows if r.get('id')==key]
+ elif name=='h2y' and g['source']=='Happy2you.net':
+  key=g.get('sourceKey') or (path.strip('/').split('/')[-1] if path else None)
+  hits=[r for r in rows if r.get('slug')==key]
+ elif name=='neengan' and g['source']=='หนีงานมาแปล':
+  key=g.get('sourceKey') or query.get('game',[None])[0]
+  hits=[r for r in rows if r.get('id')==key]
+ elif name=='varbara' and g['source']=='Varbara Kung':
+  key=g.get('sourceKey') or query.get('id',[None])[0]
+  hits=[r for r in rows if r.get('id')==key]
+ elif name=='namao' and g['source']=='น้าเหมา':
+  key=g.get('sourceKey') or (path.strip('/').split('/')[-1] if path else None)
+  hits=[r for r in rows if r.get('id')==key]
  else: return None
  if len(hits)!=1: return None
  return hits[0]
+
 def derive_patch_category(version, text):
  v = (version or '').lower()
  t = (text or '').lower()
@@ -189,7 +223,7 @@ def clean_patch_changes(text, max_len=105):
 def validate_rows(name,rows):
  """Reject a changed feed before touching any catalog or review records."""
  if not isinstance(rows,list) or not 1<=len(rows)<=2000: raise ValueError('feed rows changed')
- key_field={'memory':'name','nonplae':'slug'}.get(name,'id')
+ key_field={'memory':'name','nonplae':'slug','h2y':'slug'}.get(name,'id')
  for row in rows:
   if not isinstance(row,dict): raise ValueError('feed row must be an object')
   if not isinstance(row.get(key_field),str) or not row[key_field].strip(): raise ValueError('feed key missing')
@@ -231,14 +265,20 @@ def refresh(cat,loader=fetch,previous_report=None):
       report['changedRecords'].append(g['id']);updated+=1
     continue  # Explicit version only; this registry exposes no release dates.
    if name in ('monster','90s'):continue  # Discovery only; no structured patch dates/versions.
-   field={'memory':'patch_updated','gayray':'updated','retro':'updated','murphy':'updated','nonplae':'patchUpdatedAt','retrogame':'patches[].date'}[name]
+   field={'memory':'patch_updated','gayray':'updated','retro':'updated','murphy':'updated','nonplae':'patchUpdatedAt','retrogame':'patches[].date','khraiplae':'updatedDate','h2y':'updated_at','neengan':'releaseDate','varbara':'latest_update_at','namao':'updated_at'}[name]
    latest=latest_retrogame_patch(row) if name=='retrogame' else None
-   raw=latest[0] if latest else row.get(field)
+   raw=latest[0] if latest else (row.get(field) or (row.get('releaseDate') if name=='khraiplae' else None))
    if not raw:continue
    try:value=date_value(raw)
    except (ValueError,KeyError):continue
    if not value:continue
-   version=latest[1] if latest else row.get('versionTag' if name=='nonplae' else 'version')
+   if name=='retrogame': version=latest[1] if latest else None
+   elif name=='nonplae': version=row.get('versionTag')
+   elif name=='khraiplae': version=('v'+str(row['patchVersion']).lstrip('vV')) if row.get('patchVersion') else None
+   elif name=='h2y': version=('v'+str(row['current_version']).lstrip('vV')) if row.get('current_version') else None
+   elif name=='varbara': version=row.get('latest_update_version')
+   elif name=='namao': version=('v'+str((row.get('patch') or {}).get('version')).lstrip('vV')) if (row.get('patch') or {}).get('version') else None
+   else: version=row.get('version')
    audit=dict(g.get('sourceDateAudit',{}),state='verified_source_reported',kind='patch_updated',value=value,rawValue=raw,precision='timestamp' if 'T' in value else 'day',source=url,field=field,uploadDateVerified=False,sourceVersion=version)
    audit.pop('reason',None)  # A former missing-date explanation must not survive verified source evidence.
    changed=g.get('sourceUpdatedAt')!=value or (isinstance(version,str) and version!=g.get('patchVersion'))
@@ -250,18 +290,20 @@ def refresh(cat,loader=fetch,previous_report=None):
     elif name=='gayray': src_note=row.get('versionStatus') or row.get('details')
     elif name=='retrogame':
      patches=row.get('patches',[])
-     latest=[p for p in patches if isinstance(p,dict) and p.get('latest') is True]
-     src_note=(latest[0].get('note') if latest else None) or row.get('description')
+     latest_p=[p for p in patches if isinstance(p,dict) and p.get('latest') is True]
+     src_note=(latest_p[0].get('note') if latest_p else None) or row.get('description')
     elif name=='retro': src_note=row.get('summary') or row.get('description')
     elif name=='murphy': src_note=row.get('patchNote') or row.get('desc')
     elif name=='nonplae': src_note=row.get('description')
+    elif name in ('h2y','varbara'): src_note=row.get('description')
+    elif name=='namao': src_note=row.get('summary')
     clean_note=clean_patch_changes(src_note)
     if clean_note: g['patchChanges']=clean_note
     g['patchCategory']=derive_patch_category(version or g.get('patchVersion'), g.get('patchChanges'))
     report['changedRecords'].append(g['id']);updated+=1
   for r in rows:
    if id(r) not in matched:
-    report['newCandidates'].append({'feed':name,'source':url,'key':r.get('id') or r.get('slug') or r.get('name'),'title':r.get('game') or r.get('title') or r.get('titleEn') or r.get('name'),'platform':r.get('platform') or r.get('platformTag'),'sourceAvailability':candidate_availability(name,r),'state':'pending_route_edition_review','sourceState':'current','lastSeenAt':now})
+    report['newCandidates'].append({'feed':name,'source':url,'key':r.get('id') or r.get('slug') or r.get('name'),'title':r.get('game') or r.get('title') or r.get('titleEn') or r.get('name'),'platform':r.get('platform') or r.get('platformTag') or r.get('console') or r.get('platform_short_name'),'sourceAvailability':candidate_availability(name,r),'state':'pending_route_edition_review','sourceState':'current','lastSeenAt':now})
   report['feeds'][name]={'state':'ok','records':len(rows),'matched':len(matched),'updated':updated}
  return report
 

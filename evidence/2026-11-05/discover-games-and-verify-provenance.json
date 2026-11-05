@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-11-05T10:33:00+07:00",
+  "owner": "Active Repository Agent (Antigravity)",
+  "branch": "feat/discover-new-games-verify-provenance-2026-11-05",
+  "summary": "Verified game existence and translator provenance across the entire catalog, purged 86 invalid/duplicate ext-db entries, fixed misattributed teams, ingested 130 authentic new games across 14 translation teams (expanding catalog to 1,044 verified games), and expanded automatic 6-hour feed synchronization in .sync/refresh.py from 9 to 14 public creator feeds.",
+  "catalogCountBefore": 1000,
+  "invalidOrDuplicateRecordsRemoved": 86,
+  "authenticNewGamesAdded": 130,
+  "catalogCountAfter": 1044,
+  "provenanceCorrections": {
+    "removedDuplicateExtDbOfficialTeamEntries": 83,
+    "removedMisattributedEmuKhaoLenDuplicates": [
+      "ext-db-094-pokemon-radical-red",
+      "ext-db-184-tengai-makyou-zero"
+    ],
+    "removedBrokenRomhackingNetPlaceholder": [
+      "ext-db-102-dr-mario"
+    ],
+    "reassignedToTrueCreator": {
+      "ext-db-202-dragon-ball-z-ii-gekishin": {
+        "fromTeam": "ยังไม่มี",
+        "toTeam": "Happy2you.net",
+        "url": "https://retro-trans.h2y.workers.dev/games/dragon-ball-z-ii-gekishin-freeza"
+      }
+    },
+    "renamedPlaceholderTeamToTrueCreator": {
+      "fromTeam": "ทีมแปลไทย",
+      "toTeam": "ใครแปล",
+      "source": "https://khraiplae-web.pages.dev/",
+      "enrichedRecords": 14,
+      "newRecordsAdded": 16,
+      "totalTeamRecords": 30
+    },
+    "fixedMalformedOrGenericUrls": [
+      "ext-db-042-prince-of-persia-the-sand",
+      "ext-db-132-super-dodge-ball-advance",
+      "ext-db-003-harobots-robo-hero-battli",
+      "ext-db-026-harry-potter-and-the-phil",
+      "ext-db-245-zoids-teikoku-vs-kyouwako"
+    ]
+  },
+  "newGamesByTeam": {
+    "Happy2you.net": 25,
+    "นอนแปล (NONPLAE)": 22,
+    "Monster แปล": 19,
+    "ใครแปล": 16,
+    "แปลเกมเก่า": 16,
+    "ต้น คนนะไม่ใช่แมว": 8,
+    "Memory Card TH": 6,
+    "แท็บแปล": 6,
+    "Varbara Kung": 3,
+    "แมวดำ แปลเกมส์": 3,
+    "หนีงานมาแปล": 2,
+    "Amnaj Thanya": 2,
+    "90S Game": 1,
+    "น้าเหมา": 1
+  },
+  "automaticSyncFeeds": {
+    "totalFeeds": 14,
+    "feeds": {
+      "memory": { "team": "Memory Card TH", "records": 188, "matched": 188 },
+      "gayray": { "team": "เกเรแปลไทย", "records": 18, "matched": 18 },
+      "nonplae": { "team": "นอนแปล (NONPLAE)", "records": 286, "matched": 284 },
+      "retro": { "team": "RetroSpective", "records": 7, "matched": 7 },
+      "murphy": { "team": "Murphy-TH", "records": 16, "matched": 13 },
+      "monster": { "team": "Monster แปล", "records": 173, "matched": 173 },
+      "retrogame": { "team": "แปลไทยเกมเก่า", "records": 10, "matched": 10 },
+      "rommeaow": { "team": "รอมเหมียว (ROMMEAOW)", "records": 5, "matched": 3 },
+      "90s": { "team": "90S Game", "records": 50, "matched": 50 },
+      "khraiplae": { "team": "ใครแปล", "records": 30, "matched": 30 },
+      "h2y": { "team": "Happy2you.net", "records": 59, "matched": 53 },
+      "neengan": { "team": "หนีงานมาแปล", "records": 8, "matched": 6 },
+      "varbara": { "team": "Varbara Kung", "records": 5, "matched": 4 },
+      "namao": { "team": "น้าเหมา", "records": 4, "matched": 1 }
+    }
+  },
+  "verification": {
+    "buildCheck": "PASS",
+    "refreshCheck": "PASS",
+    "testRefresh": "PASS (6/6)",
+    "coverHttp200Check": "PASS (0 broken covers across all 300 new/updated URLs)",
+    "qaSmoke": "PASS (6/6 responsive views in light/dark themes)",
+    "qaTodayPickAndPlatformSort": "PASS (1,044 games, 4 Today Pick cards, 0 Official Artwork badges, 5 viewports)"
+  }
+}
