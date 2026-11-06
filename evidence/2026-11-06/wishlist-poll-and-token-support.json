@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-11-06T10:39:00+07:00",
+  "owner": "Active Repository Agent (Antigravity)",
+  "branch": "feat/untranslated-games-poll-and-token-support",
+  "summary": "Implemented untranslated retro games wishlist poll (10 iconic games with zero Thai translation, e.g. Zelda OoT N64) at the bottom of the page with interactive voting and progress tracking, plus subtle, minimalist 'เลี้ยง Token' support buttons on top-left and bottom-left.",
+  "features": {
+    "wishlistPollSection": {
+      "elementId": "wishlistSection",
+      "gameCount": 10,
+      "games": [
+        {
+          "id": "wishlist-01-zelda-oot",
+          "title": "The Legend of Zelda: Ocarina of Time",
+          "platform": "N64",
+          "year": "1998",
+          "genre": "แอ็กชัน RPG",
+          "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png",
+          "initialVotes": 382
+        },
+        {
+          "id": "wishlist-02-zelda-mm",
+          "title": "The Legend of Zelda: Majora's Mask",
+          "platform": "N64",
+          "year": "2000",
+          "genre": "แอ็กชัน RPG",
+          "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+          "initialVotes": 315
+        },
+        {
+          "id": "wishlist-03-mario-64",
+          "title": "Super Mario 64",
+          "platform": "N64",
+          "year": "1996",
+          "genre": "แอ็กชัน / ตะลุยด่าน",
+          "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+          "initialVotes": 274
+        },
+        {
+          "id": "wishlist-04-earthbound",
+          "title": "EarthBound (Mother 2)",
+          "platform": "SNES",
+          "year": "1994",
+          "genre": "RPG",
+          "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/EarthBound%20%28USA%29.png",
+          "initialVotes": 268
+        },
+        {
+          "id": "wishlist-05-dq7",
+          "title": "Dragon Quest VII: Fragments of the Forgotten Past",
+          "platform": "PS1",
+          "year": "2000",
+          "genre": "RPG",
+          "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Warrior%20VII%20%28USA%29%20%28Disc%201%29.png",
+          "initialVotes": 245
+        },
+        {
+          "id": "wishlist-06-mgs3",
+          "title": "Metal Gear Solid 3: Snake Eater",
+          "platform": "PS2",
+          "year": "2004",
+          "genre": "แอ็กชัน / ผจญภัย",
+          "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Metal%20Gear%20Solid%203%20-%20Snake%20Eater%20%28USA%29.png",
+          "initialVotes": 295
+        },
+        {
+          "id": "wishlist-07-kh2",
+          "title": "Kingdom Hearts II",
+          "platform": "PS2",
+          "year": "2005",
+          "genre": "แอ็กชัน RPG",
+          "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Kingdom%20Hearts%20II%20%28USA%29.png",
+          "initialVotes": 289
+        },
+        {
+          "id": "wishlist-08-grandia",
+          "title": "Grandia",
+          "platform": "PS1",
+          "year": "1999",
+          "genre": "RPG",
+          "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Grandia%20%28USA%29%20%28Disc%201%29.png",
+          "initialVotes": 218
+        },
+        {
+          "id": "wishlist-09-banjo",
+          "title": "Banjo-Kazooie",
+          "platform": "N64",
+          "year": "1998",
+          "genre": "ผจญภัย / ตะลุยด่าน",
+          "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
+          "initialVotes": 198
+        },
+        {
+          "id": "wishlist-10-papermario",
+          "title": "Paper Mario",
+          "platform": "N64",
+          "year": "2000",
+          "genre": "RPG",
+          "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+          "initialVotes": 230
+        }
+      ],
+      "votingStorage": "localStorage (key: romthai_wishlist_votes)",
+      "coverHttp200Audit": "10/10 verified 200 OK"
+    },
+    "tokenSupportButtons": {
+      "topLeft": "#tipTokenTop (inside .catalog-header-inner beside logo)",
+      "bottomLeft": "#tipTokenBottom (fixed bottom-left floating pill: 20px 20px)",
+      "styling": "Subtle, low-profile pill blending into light and dark themes with zero visual intrusion",
+      "modal": "Open non-profit support dialog with interactive token cheer counter and thank-you notice"
+    }
+  },
+  "verification": {
+    "buildCheck": "PASS (tools/build.py --check)",
+    "refreshCheck": "PASS (.sync/refresh.py --check)",
+    "testRefresh": "PASS (.sync/test_refresh.py)",
+    "qaSmoke": "PASS (tools/qa-smoke.cjs across 6 views)",
+    "qaTodayPickAndSort": "PASS (tools/qa_verify_today_pick_and_platform_sort.js)",
+    "qaWishlistAndTokens": "PASS (tools/qa_verify_wishlist_and_tokens.js)"
+  }
+}

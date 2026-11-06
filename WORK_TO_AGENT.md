@@ -1,3 +1,30 @@
+## 2026-11-06 — Untranslated games wishlist poll (10 iconic games, e.g. Zelda OoT N64) and subtle Token support buttons (top-left & bottom-left)
+
+Owner: Active Repository Agent (Antigravity); branch feat/untranslated-games-poll-and-token-support.
+
+Catalog: 1,044 verified entries across 20 platforms.
+- Untranslated Games Wishlist Poll: Added an interactive community wishlist poll section at the very bottom of the website (`#wishlistSection`) featuring 10 universally acclaimed classic retro games that currently have NO Thai translation on those platforms:
+  1. The Legend of Zelda: Ocarina of Time (N64)
+  2. The Legend of Zelda: Majora's Mask (N64)
+  3. Super Mario 64 (N64)
+  4. EarthBound / Mother 2 (SNES)
+  5. Dragon Quest VII: Fragments of the Forgotten Past (PS1)
+  6. Metal Gear Solid 3: Snake Eater (PS2)
+  7. Kingdom Hearts II (PS2)
+  8. Grandia (PS1)
+  9. Banjo-Kazooie (N64)
+  10. Paper Mario (N64)
+  - Interactive voting with real-time percentage progress bars, dynamic ranking (#1 gold, #2 silver, #3 bronze), and persistent vote toggle saved to `localStorage` (`romthai_wishlist_votes`).
+  - All 10 game box arts verified HTTP 200 OK from Libretro.
+- Subtle Token Support Buttons ("เลี้ยง Token"): Added clean, minimalist, low-profile pill buttons at:
+  - Top-Left: `#tipTokenTop` in the header next to the brand logo.
+  - Bottom-Left: `#tipTokenBottom` pinned at the bottom-left of the viewport (`fixed; bottom: 20px; left: 20px; z-index: 35`).
+  - Designed to blend smoothly into both light and dark themes without distracting from the main content.
+  - Interactive modal dialog (`เลี้ยง Token สนับสนุนเว็บ`) with non-profit support explanation and interactive token cheer counter.
+- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` PASS; `node tools/qa-smoke.cjs` (6/6 views) PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa_verify_wishlist_and_tokens.js` (10/10 games, voting persistence, token interaction, 5 responsive viewports 1440/1024/600/390/320px) PASS. Evidence: `evidence/2026-11-06/wishlist-poll-and-token-support.json`.
+
+---
+
 ## 2026-11-05 — Verify game existence & provenance across catalog, purge 86 invalid/duplicate ext-db entries, ingest 130 authentic new games (1,044 total), and expand automatic sync to 14 public creator feeds
 
 Owner: Active Repository Agent (Antigravity); branch feat/discover-new-games-verify-provenance-2026-11-05.
