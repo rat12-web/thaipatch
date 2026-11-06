@@ -75524,8 +75524,8 @@
     "teamId": "team-007421f0cdaa",
     "platform": "NES",
     "baseEdition": null,
-    "patchVersion": "v1.0a",
-    "version": "v1.0a",
+    "patchVersion": "v1.1",
+    "version": "v1.1",
     "date": "2026-10-24",
     "status": "พร้อมแพตช์",
     "description": "แพตช์ภาษาไทยเกม Mike Tyson's Punch-Out!! บนเครื่องเล่น NES โดยทีม Happy2You",
@@ -75577,26 +75577,26 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-24",
+    "sourceUpdatedAt": "2026-11-06",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-23",
+      "value": "2026-11-06",
       "precision": "day",
-      "rawValue": "2026-10-23",
-      "source": "https://retro-trans.h2y.workers.dev/",
-      "field": "updateDate",
+      "rawValue": "2026-11-06 15:27:05",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "field": "updated_at",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "sourceVersion": "v1.0",
+      "checkedAt": "2026-11-06T19:34:04.307957+00:00",
+      "sourceVersion": "v1.1",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
       "https://retro-trans.h2y.workers.dev/api/files/images/mike-tyson-s-punch-out/1792546211996-a0b34ebc-mike_po_h2y_cover.png"
     ],
     "playTimeHours": 3,
-    "patchChanges": "แพตช์ภาษาไทยโดย Happy2You",
-    "patchCategory": "full_release",
+    "patchChanges": "เกมส์ : Mike Tyson's Punch-Out!! เครื่อง : Famicom ชื่อเกมส์ไทยๆ : ไมค์ ไทสัน พั้นช์เอาต์ เวอร์ชั่น :...",
+    "patchCategory": "fix_update",
     "sourceKey": "mike-tyson-s-punch-out"
   },
   {
@@ -82174,10 +82174,10 @@
     "teamId": "team-007421f0cdaa",
     "platform": "SNES",
     "baseEdition": null,
-    "patchVersion": "v1.0",
-    "version": "v1.0",
+    "patchVersion": "v1.1",
+    "version": "v1.1",
     "date": "2026-11-04",
-    "sourceUpdatedAt": "2026-11-04",
+    "sourceUpdatedAt": "2026-11-06",
     "status": "TESTED",
     "description": "เกมส์ : Yokoyama Mitsuteru Sangokushi เครื่อง : Super Famicom ชื่อเกมส์ไทยๆ : สามก๊ก มิตสึเทรุ โยโกยามะ / สามก๊ก การ์ตูน",
     "genre": "วางแผนการรบ / กลยุทธ์",
@@ -82204,13 +82204,15 @@
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-11-04",
-      "rawValue": "2026-11-04",
+      "value": "2026-11-06",
+      "rawValue": "2026-11-06 08:48:50",
       "precision": "day",
-      "source": "https://retro-trans.h2y.workers.dev/games/yokoyama-mitsuteru-sangokushi",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
       "uploadDateVerified": false,
-      "checkedAt": "2026-11-05T10:15:00+07:00",
-      "evidence": "evidence/2026-11-05/discover-games-and-verify-provenance.json"
+      "checkedAt": "2026-11-06T19:34:04.307957+00:00",
+      "evidence": ".sync/report.json",
+      "field": "updated_at",
+      "sourceVersion": "v1.1"
     },
     "cover": "https://retro-trans.h2y.workers.dev/api/files/images/yokoyama-mitsuteru-sangokushi/1793629255091-9d71229e-Yokoyama-Mitsuteru-Sangokushi.png",
     "coverSource": "https://retro-trans.h2y.workers.dev/api/files/images/yokoyama-mitsuteru-sangokushi/1793629255091-9d71229e-Yokoyama-Mitsuteru-Sangokushi.png",
@@ -82226,8 +82228,8 @@
     "coverAlternatives": [
       "https://retro-trans.h2y.workers.dev/api/files/images/yokoyama-mitsuteru-sangokushi/1793629255091-9d71229e-Yokoyama-Mitsuteru-Sangokushi.png"
     ],
-    "patchCategory": "full_release",
-    "patchChanges": "เกมส์ : Yokoyama Mitsuteru Sangokushi เครื่อง : Super Famicom ชื่อเกมส์ไทยๆ : สามก๊ก มิตสึเทรุ โยโกย",
+    "patchCategory": "fix_update",
+    "patchChanges": "เกมส์ : Yokoyama Mitsuteru Sangokushi เครื่อง : Super Famicom ชื่อเกมส์ไทยๆ : สามก๊ก มิตสึเทรุ โยโกยาม...",
     "sourceKey": "yokoyama-mitsuteru-sangokushi"
   },
   {
@@ -82430,10 +82432,10 @@
     "teamId": "team-007421f0cdaa",
     "platform": "NES",
     "baseEdition": null,
-    "patchVersion": "v1.0",
-    "version": "v1.0",
+    "patchVersion": "v1.1",
+    "version": "v1.1",
     "date": "2026-11-03",
-    "sourceUpdatedAt": "2026-11-03",
+    "sourceUpdatedAt": "2026-11-06",
     "status": "TESTED",
     "description": "เกมส์ : Zelda II - The Adventure of Link เครื่อง : Famicom ชื่อเกมส์ไทยๆ : เซลด้า II - การผจญภัยของลิงค์",
     "genre": "แอ็กชัน RPG",
@@ -82460,13 +82462,15 @@
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-11-03",
-      "rawValue": "2026-11-03",
+      "value": "2026-11-06",
+      "rawValue": "2026-11-06 15:19:25",
       "precision": "day",
-      "source": "https://retro-trans.h2y.workers.dev/games/zelda-ii-the-adventure-of-link",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
       "uploadDateVerified": false,
-      "checkedAt": "2026-11-05T10:15:00+07:00",
-      "evidence": "evidence/2026-11-05/discover-games-and-verify-provenance.json"
+      "checkedAt": "2026-11-06T19:34:04.307957+00:00",
+      "evidence": ".sync/report.json",
+      "field": "updated_at",
+      "sourceVersion": "v1.1"
     },
     "cover": "https://retro-trans.h2y.workers.dev/api/files/images/new-game/1793588710806-881751fc-zelda2_h2y_cover.png",
     "coverSource": "https://retro-trans.h2y.workers.dev/api/files/images/new-game/1793588710806-881751fc-zelda2_h2y_cover.png",
@@ -82482,8 +82486,8 @@
     "coverAlternatives": [
       "https://retro-trans.h2y.workers.dev/api/files/images/new-game/1793588710806-881751fc-zelda2_h2y_cover.png"
     ],
-    "patchCategory": "full_release",
-    "patchChanges": "เกมส์ : Zelda II - The Adventure of Link เครื่อง : Famicom ชื่อเกมส์ไทยๆ : เซลด้า II - การผจญภัยของล",
+    "patchCategory": "fix_update",
+    "patchChanges": "เกมส์ : Zelda II - The Adventure of Link เครื่อง : Famicom ชื่อเกมส์ไทยๆ : เซลด้า II - การผจญภัยของลิง...",
     "sourceKey": "zelda-ii-the-adventure-of-link"
   },
   {

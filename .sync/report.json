@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T07:02:05.160235+00:00",
+  "checkedAt": "2026-11-06T19:34:04.307957+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
       "state": "ok",
-      "records": 197,
+      "records": 198,
       "matched": 188,
       "updated": 0
     },
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 288,
+      "records": 289,
       "matched": 284,
       "updated": 0
     },
@@ -64,9 +64,9 @@
     },
     "h2y": {
       "state": "ok",
-      "records": 62,
+      "records": 63,
       "matched": 53,
-      "updated": 0
+      "updated": 3
     },
     "neengan": {
       "state": "ok",
@@ -87,8 +87,23 @@
       "updated": 0
     }
   },
-  "changedRecords": [],
+  "changedRecords": [
+    "ext-db-212-mike-tyson-s-punch-out",
+    "h2y-20261105-03-yokoyama-mitsuteru-sangoku",
+    "h2y-20261105-07-zelda-ii-the-adventure-of-"
+  ],
   "newCandidates": [
+    {
+      "feed": "memory",
+      "source": "https://memorycardth.com/dl/_patch/site.json",
+      "key": "Harvest Moon: Save the Homeland",
+      "title": "Harvest Moon: Save the Homeland",
+      "platform": "PS2",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
+    },
     {
       "feed": "memory",
       "source": "https://memorycardth.com/dl/_patch/site.json",
@@ -98,7 +113,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -109,7 +124,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -120,7 +135,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -131,7 +146,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -142,7 +157,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -153,7 +168,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -164,7 +179,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -175,7 +190,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "memory",
@@ -186,7 +201,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "nonplae",
@@ -197,7 +212,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "nonplae",
@@ -208,7 +223,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "nonplae",
@@ -219,7 +234,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "nonplae",
@@ -230,7 +245,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "dragon-ball-gt-transformation",
+      "title": "Dragon Ball GT: Transformation (GBA)",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "murphy",
@@ -241,7 +267,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "murphy",
@@ -252,18 +278,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "murphy",
       "source": "https://murphy-th.com/",
       "key": "sh1-title-silent-hill",
-      "title": null,
+      "title": "เตรียมเกมและปิดเกม",
       "platform": null,
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "monster",
@@ -274,7 +300,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "monster",
@@ -285,7 +311,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "monster",
@@ -296,7 +322,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "rommeaow",
@@ -307,7 +333,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "rommeaow",
@@ -318,7 +344,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "khraiplae",
@@ -329,7 +355,7 @@
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -337,10 +363,32 @@
       "key": 63,
       "title": "Nekketsu Koukou Dodgeball-bu",
       "platform": "NES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 55,
+      "title": "One Piece  - Maboroshi no Grand Line Boukenki!",
+      "platform": "GBC",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 64,
+      "title": "The Legend of Zelda",
+      "platform": "NES",
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -351,7 +399,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -362,7 +410,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -373,7 +421,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -384,7 +432,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -395,18 +443,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 55,
-      "title": "One Piece  - Maboroshi no Grand Line Boukenki!",
-      "platform": "GBC",
-      "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -417,7 +454,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "h2y",
@@ -428,7 +465,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "neengan",
@@ -439,7 +476,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "neengan",
@@ -450,7 +487,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "varbara",
@@ -461,7 +498,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "namao",
@@ -472,7 +509,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "namao",
@@ -483,7 +520,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     },
     {
       "feed": "namao",
@@ -494,7 +531,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-06T07:02:05.160235+00:00"
+      "lastSeenAt": "2026-11-06T19:34:04.307957+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
