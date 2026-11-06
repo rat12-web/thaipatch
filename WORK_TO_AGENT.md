@@ -1,3 +1,28 @@
+## 2026-11-06 — Thai-translation research for five requested games, Facebook source check, 3 new แมแปว releases (1,047), RE4 V1.2 refresh, and wishlist correction
+
+Owner: Active Repository Agent (OpenCode/DeepSeek); branch main (uncommitted at handoff until the commit step).
+
+Catalog: 1,047 verified entries across 20 platforms (40 teams).
+- Requested-game research (evidence: `evidence/2026-11-06/maepaew-new-releases-and-wishlist-correction.json`):
+  - Dragon Quest VII (PS1): no Thai patch found. Only Thai strategy guidebooks and a 2026 PC "Reimagined" mod exist.
+  - Grandia (PS1): no Thai patch found. Only a GRANDIA HD Remaster (PC) mod exists.
+  - Paper Mario (N64): no Thai patch found; only Super Paper Mario (Wii) is translated.
+  - Kingdom Hearts II (PS2): Thai localization exists for the PC Final Mix release (Nexus Mods 434); no distributable PS2 patch verified, so PS2 status stays unconfirmed.
+  - EarthBound / Mother 2 (SNES): Thai patch exists — นอนแปล v1.0, 2026-09-14, catalog `nonplae-202`.
+  - Method: scanned all 11 structured Thai feeds plus catalog, then targeted Google/Facebook checks.
+- Facebook: public post pages were readable in the in-app browser without login, so no plugin was installed. Confirmed นอนแปล's Mother 2 release post and Emulator Club's PS1 Thai-team list. Login-only posts and Facebook search remain inaccessible; no bypass attempted.
+- New catalog records from แมแปว (maepaew, already registered team), all route-verified in a browser:
+  - `ext-204` God of War (PS2, V1.0, 2026-11-02, `?game=17`, .ppf)
+  - `ext-205` God of War II (PS2, V1.0, 2026-11-02, `?game=18`, .ppf)
+  - `ext-206` Konami Wai Wai World (NES, Japan, V1.0, 2026-10-28, `?game=16`, .ips). Source labels the console Super Famicom, but the required ROM is a 262,160-byte `.nes` with a 16-byte header; recorded as NES with `navigationNote` explaining the discrepancy.
+- Corrected `ext-035` Resident Evil 4 (PS2): V1.1/2026-09-12 → V1.2/2026-10-23 with a verified source-date audit.
+- Wishlist correction: EarthBound was listed as untranslated although `nonplae-202` already provides it. Replaced `wishlist-04-earthbound` with `wishlist-04-supermetroid` (SNES, cover HTTP 200) and updated `tools/qa_verify_wishlist_and_tokens.js`; poll still has 10 entries.
+- Checks: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS (10 cards, 5 viewports); `node tools/qa_verify_today_pick_and_platform_sort.js` PASS (1,047 games, 0 Official labels); `node tools/qa-catalog.cjs` 3/3 PASS.
+- Known failure (pre-existing, not introduced here): `node tools/qa-platform-cards.cjs` fails its `coverAlternatives` assertion because 109 legacy records (mostly `ext-db-*`) have a primary cover but an empty alternatives list. The same predicate fails on `HEAD`/1,044, so this needs a separate data-fix batch.
+- Next concrete action: decide whether PC-only Thai mods (KH2 Final Mix, GRANDIA HD, DQ VII Reimagined) belong in the catalog; audit the Facebook-only teams named by Emulator Club (แปลนาน, Emu เข้าเส้น, เอไอแปลเกม, แมวเป้าแปลไปเรื่อย, Retro Thai Hub); consider a maepaew feed adapter; fix the 109 missing `coverAlternatives`.
+
+---
+
 ## 2026-11-06 — Fix user screenshot covers: prioritize authentic NONPLAE translation banner art, retain high-res backup alts, and guarantee zero 'Official Artwork' obstruction
 
 Owner: Active Repository Agent (Antigravity); branch feat/nonplae-target-covers-and-clean-plates.

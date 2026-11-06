@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-06",
+  "task": "Research Thai-translation availability for five requested games, check Facebook sources, sync new แมแปว (maepaew) releases, and correct the untranslated wishlist entry that was already translated",
+  "catalogBefore": 1044,
+  "catalogAfter": 1047,
+  "facebookAccess": {
+    "method": "Public Facebook post pages opened in the in-app browser without logging in",
+    "loginRequired": false,
+    "pluginInstalled": false,
+    "postsChecked": [
+      "https://www.facebook.com/groups/emulator.club/posts/1981201809246200/",
+      "https://www.facebook.com/groups/emulator.club/posts/1973684893331225/"
+    ],
+    "observed": [
+      "นอนแปล public post (14 Sep 2026) confirms Mother 2 (SNES) Thai patch released, link to facebook.com/share/p/1EjPfo7nJg/",
+      "Emulator Club PS1 Thai list (5 Sep 2026) names 19 Thai translation teams/communities; game titles were not enumerated in that post"
+    ],
+    "limits": "Facebook search and login-only posts remain inaccessible; only public post permalinks were read. No bypass or login was used."
+  },
+  "requestedGames": [
+    {
+      "game": "Dragon Quest VII (PS1)",
+      "verdict": "no_thai_patch_found",
+      "evidence": [
+        "Not present in any of the 11 structured Thai translation feeds scanned (memory, gayray, nonplae, retro, monster, retrogame, khraiplae, h2y, neengan, varbara, namao)",
+        "Not present in catalog.json before or after this change",
+        "Google results return only Thai strategy guidebooks for the Japanese PS1 release and a Thai mod for the 2026 'Dragon Quest VII Reimagined' PC remake (Niramit Studio / Nexus Mods), not the PS1 game"
+      ],
+      "note": "The 2026 remake Thai mod is a separate PC product and is not the PS1 release."
+    },
+    {
+      "game": "Grandia (PS1)",
+      "verdict": "no_thai_patch_found",
+      "evidence": [
+        "Not present in the 11 structured Thai feeds",
+        "Not present in catalog.json",
+        "Search results only show a Thai mod for GRANDIA HD Remaster on PC (Nexus Mods mod 6, modthai-en0va mirror)"
+      ]
+    },
+    {
+      "game": "Paper Mario (N64)",
+      "verdict": "no_thai_patch_found",
+      "evidence": [
+        "Not present in the 11 structured Thai feeds",
+        "Not present in catalog.json; only Super Paper Mario (Wii, นอนแปล) exists",
+        "Google AI overview and result set show no N64 Thai patch; community mentions concern the Wii title"
+      ]
+    },
+    {
+      "game": "Kingdom Hearts II (PS2)",
+      "verdict": "thai_exists_for_pc_final_mix_only_unconfirmed_for_ps2",
+      "evidence": [
+        "Nexus Mods 434 provides a Thai localization for Kingdom Hearts II Final Mix on PC (LLM-assisted translation)",
+        "No PS2 patch appears in the 11 structured Thai feeds; catalog has Kingdom Hearts - Chain of Memories (GBA, นอนแปล) only",
+        "Old Thai 'Final Mix' playthrough videos exist but no distributable PS2 patch could be verified; treat PS2 as unverified, not confirmed absent"
+      ]
+    },
+    {
+      "game": "EarthBound / Mother 2 (SNES)",
+      "verdict": "thai_patch_exists",
+      "evidence": [
+        "catalog.json nonplae-202 'Mother 2' (SNES, นอนแปล, v1.0, 2026-09-14, https://www.nonplae.com/?game=mother-2)",
+        "Public Facebook post by นอนแปล, 14 Sep 2026: 'Mother 2 ภาษาไทย แพตช์ SNES พร้อมให้ดาวน์โหลด'",
+        "Present in NONPLAE API patch-games feed (slug mother-2, patchUpdatedAt 2026-09-14T08:48:39.714Z)"
+      ]
+    }
+  ],
+  "feedScan": {
+    "feedsScanned": 11,
+    "matchesForRequestedTitles": {
+      "Dragon Quest VII": 0,
+      "Grandia": 0,
+      "Paper Mario (N64)": 0,
+      "Kingdom Hearts II": 0,
+      "Mother 2 / EarthBound": "nonplae: mother-2 (already catalogued)"
+    },
+    "nearMatches": [
+      "nonplae: Super Paper Mario (WII) - different platform/game",
+      "nonplae: Kingdom Hearts - Chain of Memories (GBA) - different game"
+    ]
+  },
+  "addedRecords": [
+    {
+      "id": "ext-204",
+      "title": "God of War",
+      "platform": "PS2",
+      "team": "แมแปว",
+      "version": "V1.0",
+      "date": "2026-11-02",
+      "url": "https://maepaew.com/patch?game=17",
+      "routeCheck": "Browser opened ?game=17; page selected 'God of War', PlayStation 2 · V1.0, patch format .ppf, updated 2026-11-02",
+      "cover": "https://maepaew.com/api/cover/34b2350e-a3b0-41b4-9984-b306d5a53b5a-dfbd3d7d-afe0-4672-901b-70891def361d.jpg",
+      "coverCheck": "HTTP 200 image/jpeg 444070 bytes"
+    },
+    {
+      "id": "ext-205",
+      "title": "God of War II",
+      "platform": "PS2",
+      "team": "แมแปว",
+      "version": "V1.0",
+      "date": "2026-11-02",
+      "url": "https://maepaew.com/patch?game=18",
+      "routeCheck": "Browser opened ?game=18; page selected 'God of War II', PlayStation 2 · V1.0, patch format .ppf, updated 2026-11-02",
+      "cover": "https://maepaew.com/api/cover/37457317-6a43-4b6d-a28d-37f405297230-c030e5ad-f1f9-4aab-ad28-d58ed70e4633.jpg",
+      "coverCheck": "HTTP 200 image/jpeg 497901 bytes"
+    },
+    {
+      "id": "ext-206",
+      "title": "Konami Wai Wai World",
+      "platform": "NES",
+      "baseEdition": "Japan",
+      "team": "แมแปว",
+      "version": "V1.0",
+      "date": "2026-10-28",
+      "url": "https://maepaew.com/patch?game=16",
+      "routeCheck": "Browser opened ?game=16; page selected 'Konami Wai Wai World', V1.0, .ips, updated 2026-10-28; required ROM is Konami Wai Wai World (Japan).nes, 262,160 bytes with 16-byte header",
+      "platformNote": "Source labels the console 'Super Famicom', but the required .nes file with iNES header is a Famicom/NES ROM; catalog records NES and keeps navigationNote explaining the discrepancy",
+      "cover": "https://maepaew.com/api/cover/10b6aba9-06b1-4406-a2db-7cfd10c54f82-wai.jpg",
+      "coverCheck": "HTTP 200 image/jpeg 391605 bytes"
+    }
+  ],
+  "correctedRecords": [
+    {
+      "id": "ext-035",
+      "title": "Resident Evil 4",
+      "platform": "PS2",
+      "change": "version 1.1 -> V1.2; date 2026-09-12 -> 2026-10-23; source date audit marked verified_source_reported",
+      "evidence": "https://maepaew.com/patch?game=11 shows PATCH V1.2, updated 2026-10-23"
+    }
+  ],
+  "wishlistCorrection": {
+    "reason": "The wishlist claimed EarthBound (Mother 2, SNES) had no Thai translation, but the catalog already contains nonplae-202 Mother 2 and นอนแปล published the patch on 2026-09-14",
+    "removed": "wishlist-04-earthbound",
+    "added": {
+      "id": "wishlist-04-supermetroid",
+      "title": "Super Metroid",
+      "platform": "SNES",
+      "year": "1994",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Metroid%20%28Japan%2C%20USA%29%20%28En%2CJa%29.png",
+      "coverCheck": "HTTP 200 image/png 314351 bytes",
+      "verification": "No Super Metroid SNES Thai patch found in the 11 feeds, catalog, or web search; Metroid Fusion and Zero Mission do have Thai patches, so the note states that distinction"
+    },
+    "countPreserved": 10
+  },
+  "openLeads": [
+    "Niramit Studio Thai mod for Dragon Quest VII Reimagined (PC, 40,638 lines) - out of scope for the PS1 catalog",
+    "Nexus Mods 434 Thai localization for Kingdom Hearts II Final Mix (PC) - candidate PC record if PC mods are accepted",
+    "GRANDIA HD Remaster Thai mod (Nexus Mods 6) - candidate PC record",
+    "Facebook-only teams named in Emulator Club's PS1 Thai list but not yet audited: แปลนาน, Emu เข้าเส้น, เอไอแปลเกม, แมวเป้าแปลไปเรื่อย, Retro Thai Hub",
+    "แมแปว has no automatic feed adapter; new releases still require manual review"
+  ],
+  "checks": {
+    "python tools/build.py --check": "PASS",
+    "python .sync/refresh.py --check": "PASS",
+    "python .sync/test_refresh.py": "PASS (6/6 suites)",
+    "cover HTTP checks": "3/3 new covers 200; Super Metroid replacement cover 200"
+  }
+}

@@ -1,3 +1,18 @@
+## 2026-11-06 — Thai-translation research for five requested games, Facebook source check, 3 new แมแปว releases (1,047), RE4 V1.2 refresh, and wishlist correction
+
+Owner: Active Repository Agent (OpenCode/DeepSeek); branch main.
+
+Catalog: 1,047 verified entries across 20 platforms (40 teams).
+- Research verdicts: DQ VII (PS1) none; Grandia (PS1) none; Paper Mario (N64) none; Kingdom Hearts II PS2 unconfirmed (Thai PC Final Mix mod exists); EarthBound / Mother 2 (SNES) exists (`nonplae-202`, นอนแปล, v1.0, 2026-09-14). All 11 structured Thai feeds were scanned; none contain the four missing titles.
+- Facebook: public posts readable in the in-app browser without login, so no plugin was installed. Verified นอนแปล's Mother 2 post and Emulator Club's PS1 Thai-team list.
+- Added: `ext-204` God of War (PS2, V1.0, 2026-11-02), `ext-205` God of War II (PS2, V1.0, 2026-11-02), `ext-206` Konami Wai Wai World (NES, V1.0, 2026-10-28). Routes `?game=17/18/16` verified in a browser; covers HTTP 200.
+- Corrected: `ext-035` Resident Evil 4 → V1.2, 2026-10-23.
+- Wishlist: EarthBound replaced by Super Metroid (SNES); 10-card poll preserved; test updated.
+- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa-catalog.cjs` PASS.
+- Pre-existing failure: `node tools/qa-platform-cards.cjs` fails because 109 legacy records have no `coverAlternatives`; the same assertion fails on the 1,044-entry HEAD data. Evidence: `evidence/2026-11-06/maepaew-new-releases-and-wishlist-correction.json`.
+
+---
+
 ## 2026-11-06 — Fix user screenshot covers: prioritize authentic NONPLAE translation banner art, retain high-res backup alts, and guarantee zero 'Official Artwork' obstruction
 
 Owner: Active Repository Agent (Antigravity); branch feat/nonplae-target-covers-and-clean-plates.

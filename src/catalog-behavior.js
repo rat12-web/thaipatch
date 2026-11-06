@@ -202,14 +202,14 @@ const UNTRANSLATED_WISHLIST = [
   note: 'เกมแอ็กชัน 3 มิติระดับตำนานที่พลิกประวัติศาสตร์วงการเกม กระโดดเข้าสู่ภาพวาดในปราสาทเจ้าหญิงพีชบน N64'
  },
  {
-  id: 'wishlist-04-earthbound',
-  title: 'EarthBound (Mother 2)',
+  id: 'wishlist-04-supermetroid',
+  title: 'Super Metroid',
   platform: 'SNES',
   year: '1994',
-  genre: 'RPG',
+  genre: 'แอ็กชัน / ผจญภัย',
   votes: 268,
-  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/EarthBound%20%28USA%29.png',
-  note: 'RPG สุดคัลต์ของ Shigesato Itoi เรื่องราวอบอุ่น ปรัชญา มิตรภาพ และมุกตลกอันเป็นเอกลักษณ์บน SNES'
+  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Metroid%20%28Japan%2C%20USA%29%20%28En%2CJa%29.png',
+  note: 'สุดยอดเกมสำรวจดาว Zebes ของ Samus ที่ยังไม่มีแพตช์แปลไทยบน SNES แม้ภาคต่ออย่าง Fusion และ Zero Mission จะมีฉบับแปลไทยแล้ว'
  },
  {
   id: 'wishlist-05-dq7',

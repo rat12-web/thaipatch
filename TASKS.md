@@ -1,5 +1,14 @@
 # Remaining work
 
+Current 2026-11-06 result: 1,047 cards,
+Researched the five owner-requested titles and found: Dragon Quest VII (PS1), Grandia (PS1) and Paper Mario (N64) have no Thai patch; Kingdom Hearts II has a Thai PC Final Mix localization but no verified PS2 patch; EarthBound / Mother 2 (SNES) already has a Thai patch by นอนแปล (`nonplae-202`, v1.0, 2026-09-14).
+Facebook public post pages were readable without login (no plugin needed).
+Added three route-verified แมแปว (maepaew) releases: God of War (PS2), God of War II (PS2) and Konami Wai Wai World (NES); refreshed Resident Evil 4 to V1.2 (2026-10-23); replaced the inaccurate EarthBound wishlist entry with Super Metroid.
+Evidence recorded in evidence/2026-11-06/maepaew-new-releases-and-wishlist-correction.json.
+Open: 109 legacy records lack `coverAlternatives` (qa-platform-cards fails at HEAD too); Facebook-only teams (แปลนาน, Emu เข้าเส้น, เอไอแปลเกม, แมวเป้าแปลไปเรื่อย, Retro Thai Hub) are unaudited; maepaew has no auto-sync adapter; PC-only Thai mods (KH2 Final Mix, GRANDIA HD, DQ VII Reimagined) need an inclusion decision.
+
+The earlier snapshots below are historical.
+
 Current 2026-11-06 result: 1,044 cards,
 Resolved user screenshot cover comparison for NONPLAE releases:
 - Prioritized authentic Thai fan-translation promotional banners from นอนแปล (NONPLAE) as primary covers for Top Secret (NES), MetaFight (NES), and Pokémon Crystal Advance Redux (GBA).
