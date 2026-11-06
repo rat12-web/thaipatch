@@ -62471,8 +62471,8 @@
       "evidence": "audit-2026-10-30",
       "checkedAt": "2026-10-30T09:56:23.511251Z"
     },
-    "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/55ef21d7-7ffb-40d2-920a-8757f470d7df.webp?t=1793287153299",
-    "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/55ef21d7-7ffb-40d2-920a-8757f470d7df.webp?t=1793287153299",
+    "cover": "https://www.nonplae.com/api/media/patch-33aa903c-359e-4499-991d-4064d9d7caba.png",
+    "coverCandidateUrl": "https://www.nonplae.com/api/media/patch-33aa903c-359e-4499-991d-4064d9d7caba.png",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverAudit": "verified_boxart",
@@ -62483,9 +62483,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://www.nonplae.com/api/media/patch-33aa903c-359e-4499-991d-4064d9d7caba.png",
-        "kind": "primary_cover",
-        "source": "นอนแปล (NONPLAE)",
+        "url": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/55ef21d7-7ffb-40d2-920a-8757f470d7df.webp?t=1793287153299",
+        "kind": "backup_boxart",
+        "source": "Libretro",
         "label": ""
       }
     ],
@@ -62539,8 +62539,8 @@
       "evidence": "audit-2026-10-30",
       "checkedAt": "2026-10-30T09:56:23.511251Z"
     },
-    "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2a231a62-267d-4c00-979c-0ccfd5139a2f.webp?t=1793286863369",
-    "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2a231a62-267d-4c00-979c-0ccfd5139a2f.webp?t=1793286863369",
+    "cover": "https://www.nonplae.com/covers/top-secret-th-nonplae-v1.0.webp",
+    "coverCandidateUrl": "https://www.nonplae.com/covers/top-secret-th-nonplae-v1.0.webp",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverAudit": "verified_boxart",
@@ -62551,9 +62551,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://www.nonplae.com/covers/top-secret-th-nonplae-v1.0.webp",
-        "kind": "primary_cover",
-        "source": "นอนแปล (NONPLAE)",
+        "url": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2a231a62-267d-4c00-979c-0ccfd5139a2f.webp?t=1793286863369",
+        "kind": "backup_boxart",
+        "source": "Libretro",
         "label": ""
       }
     ],
@@ -62607,8 +62607,8 @@
       "evidence": "audit-2026-10-30",
       "checkedAt": "2026-10-30T09:56:23.511251Z"
     },
-    "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/5646928c-f8fa-4cfe-9ddb-c7ba8854f3d8.webp?t=1793287050962",
-    "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/5646928c-f8fa-4cfe-9ddb-c7ba8854f3d8.webp?t=1793287050962",
+    "cover": "https://www.nonplae.com/covers/metafight-th-nonplae-v1.0.webp",
+    "coverCandidateUrl": "https://www.nonplae.com/covers/metafight-th-nonplae-v1.0.webp",
     "coverSource": "นอนแปล (NONPLAE)",
     "imageCredit": "นอนแปล (NONPLAE)",
     "coverAudit": "verified_boxart",
@@ -62619,9 +62619,9 @@
     },
     "coverAlternatives": [
       {
-        "url": "https://www.nonplae.com/covers/metafight-th-nonplae-v1.0.webp",
-        "kind": "primary_cover",
-        "source": "นอนแปล (NONPLAE)",
+        "url": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/5646928c-f8fa-4cfe-9ddb-c7ba8854f3d8.webp?t=1793287050962",
+        "kind": "backup_boxart",
+        "source": "Libretro",
         "label": ""
       }
     ],

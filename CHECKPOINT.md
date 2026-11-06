@@ -1,3 +1,17 @@
+## 2026-11-06 — Fix user screenshot covers: prioritize authentic NONPLAE translation banner art, retain high-res backup alts, and guarantee zero 'Official Artwork' obstruction
+
+Owner: Active Repository Agent (Antigravity); branch feat/nonplae-target-covers-and-clean-plates.
+
+Catalog: 1,044 verified entries across 20 platforms.
+- Screenshot 1 & 2 Root Cause Resolution:
+  - Addressed user screenshots comparing broken cover fallbacks ('ภาพปกไม่พร้อมใช้งาน') in Screenshot 1 with obstructive 'Official Game Artwork' label in Screenshot 2.
+  - Set authentic high-resolution Thai translation promotional banners from นอนแปล (NONPLAE) as primary covers for `Top Secret (Bionic Commando)` (NES), `MetaFight (Blaster Master)` (NES), and `Pokémon Crystal Advance Redux` (GBA).
+  - Preserved verified high-resolution R2/Libretro box arts in `coverAlternatives` so that cards automatically fall back to boxart if an upstream image is ever unreachable, ensuring zero broken cover fallbacks.
+  - Ensured `coverLabel: ""` and verified `cleanLabel()` in `src/catalog-media.js` suppresses any 'Official' badge, leaving the creator team plate `นอนแปล (NONPLAE)` completely clean and unobstructed in the bottom-left corner.
+- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` PASS; `node tools/qa-smoke.cjs` (6/6 views) PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS. Evidence: `evidence/2026-11-06/nonplae-target-covers-and-zero-official-label.json`.
+
+---
+
 ## 2026-11-06 — Untranslated games wishlist poll (10 iconic games, e.g. Zelda OoT N64) and subtle Token support buttons (top-left & bottom-left)
 
 Owner: Active Repository Agent (Antigravity); branch feat/untranslated-games-poll-and-token-support.

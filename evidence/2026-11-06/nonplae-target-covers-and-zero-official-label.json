@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-06T10:57:00+07:00",
+  "audit": "nonplae-target-covers-and-zero-official-label",
+  "summary": "Verified user screenshots comparison: eliminated broken cover fallback ('ภาพปกไม่พร้อมใช้งาน') from Screenshot 1, and eliminated obstructive 'Official Game Artwork' label from Screenshot 2. Prioritized authentic NONPLAE translation banner artwork with high-res R2/Libretro backup fallbacks.",
+  "targetGames": [
+    {
+      "id": "nonplae-ext-top-secret",
+      "title": "Top Secret (Bionic Commando)",
+      "platform": "NES",
+      "team": "นอนแปล (NONPLAE)",
+      "primaryCover": "https://www.nonplae.com/covers/top-secret-th-nonplae-v1.0.webp",
+      "backupCover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2a231a62-267d-4c00-979c-0ccfd5139a2f.webp?t=1793286863369",
+      "primaryStatus": 200,
+      "backupStatus": 200,
+      "coverLabel": "",
+      "officialBadgeVisible": false,
+      "translatorPlateUnobstructed": true
+    },
+    {
+      "id": "nonplae-ext-metafight",
+      "title": "MetaFight (Blaster Master)",
+      "platform": "NES",
+      "team": "นอนแปล (NONPLAE)",
+      "primaryCover": "https://www.nonplae.com/covers/metafight-th-nonplae-v1.0.webp",
+      "backupCover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/5646928c-f8fa-4cfe-9ddb-c7ba8854f3d8.webp?t=1793287050962",
+      "primaryStatus": 200,
+      "backupStatus": 200,
+      "coverLabel": "",
+      "officialBadgeVisible": false,
+      "translatorPlateUnobstructed": true
+    },
+    {
+      "id": "nonplae-ext-pokemon-crystal-advance-redux",
+      "title": "Pokémon Crystal Advance Redux",
+      "platform": "GBA",
+      "team": "นอนแปล (NONPLAE)",
+      "primaryCover": "https://www.nonplae.com/api/media/patch-33aa903c-359e-4499-991d-4064d9d7caba.png",
+      "backupCover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/55ef21d7-7ffb-40d2-920a-8757f470d7df.webp?t=1793287153299",
+      "primaryStatus": 200,
+      "backupStatus": 200,
+      "coverLabel": "",
+      "officialBadgeVisible": false,
+      "translatorPlateUnobstructed": true
+    }
+  ],
+  "verification": {
+    "toolsBuildCheck": "PASS",
+    "syncRefreshCheck": "PASS",
+    "testRefresh": "PASS",
+    "qaSmokeViews": "6/6 PASS",
+    "todayPickAndPlatformSort": "PASS",
+    "wishlistPollAndTokens": "PASS"
+  }
+}

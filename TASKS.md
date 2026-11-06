@@ -1,6 +1,16 @@
 # Remaining work
 
 Current 2026-11-06 result: 1,044 cards,
+Resolved user screenshot cover comparison for NONPLAE releases:
+- Prioritized authentic Thai fan-translation promotional banners from นอนแปล (NONPLAE) as primary covers for Top Secret (NES), MetaFight (NES), and Pokémon Crystal Advance Redux (GBA).
+- Retained high-res R2/Libretro boxart in coverAlternatives as robust fallback (zero broken image fallbacks / 'ภาพปกไม่พร้อมใช้งาน').
+- Suppressed all 'Official Artwork' labels; translator team plate 'นอนแปล (NONPLAE)' is 100% visible, crisp, and unobstructed.
+Evidence recorded in evidence/2026-11-06/nonplae-target-covers-and-zero-official-label.json.
+
+The earlier snapshots below are historical.
+
+
+Current 2026-11-06 result: 1,044 cards,
 Added untranslated retro games wishlist poll (10 iconic games with zero Thai translation, e.g. Zelda OoT N64) at the bottom of the page with interactive voting and progress tracking, plus subtle, minimalist 'เลี้ยง Token' support buttons on top-left (header) and bottom-left (viewport).
 All 10 box arts verified HTTP 200 OK.
 Evidence recorded in evidence/2026-11-06/wishlist-poll-and-token-support.json.
