@@ -143,3 +143,402 @@ html[data-theme="dark"] [data-patch-cat="partial_beta"] .patch-cat-badge{backgro
   .today-pick-title{font-size:13.5px}
   .today-pick-hint{font-size:11px}
 }
+
+/* Token Support Buttons (เลี้ยง Token - Top Left & Bottom Left) */
+.token-support-btn{
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  color: var(--sub);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 5px 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all .2s ease;
+  white-space: nowrap;
+  user-select: none;
+  box-shadow: 1px 1px 0 var(--shade);
+}
+.token-support-btn:hover{
+  color: var(--txt);
+  border-color: var(--mint);
+  background: var(--surface);
+  transform: translateY(-1px);
+}
+.token-support-btn .token-icon{
+  font-size: 13px;
+  line-height: 1;
+}
+.token-support-top{
+  margin-left: 12px;
+}
+.token-support-bottom{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 35;
+  box-shadow: 2px 2px 0 var(--shade);
+  backdrop-filter: blur(8px);
+}
+@media(max-width:760px){
+  .token-support-top{
+    margin-left: 6px;
+    padding: 4px 8px;
+  }
+}
+@media(max-width:520px){
+  .token-support-top .token-btn-text{
+    display: none;
+  }
+  .token-support-bottom{
+    bottom: 14px;
+    left: 14px;
+    padding: 4px 9px;
+    font-size: 11px;
+  }
+}
+
+/* Token Modal Styling */
+.token-modal-card{
+  text-align: center;
+  padding: 8px 4px;
+}
+.token-hero-icon{
+  font-size: 42px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.token-modal-lead{
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--txt);
+  margin-bottom: 10px;
+}
+.token-modal-sub{
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--sub);
+  margin-bottom: 20px;
+}
+.token-counter-panel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+}
+.token-stat-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.token-stat-num{
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--mint2);
+  line-height: 1.2;
+}
+.token-stat-lbl{
+  font-size: 11px;
+  color: var(--sub);
+  margin-top: 3px;
+}
+.token-stat-divider{
+  width: 1px;
+  height: 36px;
+  background: var(--line);
+}
+.token-btn-group{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.token-thanks-box{
+  font-size: 12px;
+  color: #116e30;
+  background: rgba(37,185,86,0.12);
+  border: 1px solid rgba(37,185,86,0.4);
+  border-radius: 6px;
+  padding: 9px 14px;
+  margin-top: 12px;
+}
+html[data-theme="dark"] .token-thanks-box{
+  color: #55e284;
+  background: rgba(37,185,86,0.2);
+}
+
+/* Wishlist Poll Section (โหวตเกมที่ยังไม่มีการแปล) */
+.wishlist-poll-section{
+  margin: 36px 0 24px;
+}
+.wishlist-poll-box{
+  border: 2px solid var(--frame);
+  border-radius: 6px;
+  background: var(--surface);
+  box-shadow: 3px 3px 0 var(--shade);
+  padding: 18px 20px;
+}
+.wishlist-poll-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+.wishlist-poll-title{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: var(--txt);
+}
+.wishlist-poll-badge{
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font: 700 11px/1.3 ui-monospace,monospace;
+  color: var(--sub);
+}
+.wishlist-poll-hint{
+  font-size: 12px;
+  color: var(--sub);
+}
+.wishlist-poll-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+@media(max-width:920px){
+  .wishlist-poll-grid{
+    grid-template-columns: 1fr;
+  }
+}
+.wishlist-card{
+  display: flex;
+  gap: 14px;
+  background: var(--surface2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px;
+  position: relative;
+  transition: border-color .18s, transform .18s;
+}
+.wishlist-card:hover{
+  border-color: var(--mint);
+  transform: translateY(-2px);
+}
+.wishlist-card-cover{
+  width: 78px;
+  height: 106px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--shade);
+  position: relative;
+  border: 1px solid var(--line);
+}
+.wishlist-card-cover img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.wishlist-rank{
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: rgba(13, 23, 36, 0.88);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 1px 5px;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.wishlist-rank.gold{
+  color: #ffd700;
+  border-color: #ffd700;
+  background: rgba(0,0,0,0.85);
+}
+.wishlist-rank.silver{
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+.wishlist-rank.bronze{
+  color: #cd7f32;
+  border-color: #cd7f32;
+}
+.wishlist-card-info{
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.wishlist-card-top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 6px;
+}
+.wishlist-card-title{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 4px;
+  color: var(--txt);
+  word-break: break-word;
+}
+.wishlist-meta{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 11px;
+  color: var(--sub);
+  margin-bottom: 5px;
+}
+.wishlist-platform{
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-weight: 800;
+  font-size: 9.5px;
+  letter-spacing: 0.02em;
+}
+.platform-chip-n64{
+  background: rgba(124, 58, 237, 0.18);
+  color: #8b5cf6;
+  border: 1px solid rgba(139, 92, 246, 0.4);
+}
+.platform-chip-ps2{
+  background: rgba(0, 55, 145, 0.18);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.4);
+}
+.platform-chip-ps1{
+  background: rgba(100, 116, 139, 0.18);
+  color: #94a3b8;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+}
+.platform-chip-snes{
+  background: rgba(225, 29, 72, 0.18);
+  color: #f43f5e;
+  border: 1px solid rgba(244, 63, 94, 0.4);
+}
+html[data-theme="dark"] .platform-chip-n64{
+  color: #a78bfa;
+}
+html[data-theme="dark"] .platform-chip-ps2{
+  color: #60a5fa;
+}
+html[data-theme="dark"] .platform-chip-ps1{
+  color: #cbd5e1;
+}
+html[data-theme="dark"] .platform-chip-snes{
+  color: #fb7185;
+}
+.wishlist-note{
+  font-size: 11.5px;
+  color: var(--sub);
+  line-height: 1.45;
+  margin: 0 0 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wishlist-vote-action{
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.wishlist-progress-wrap{
+  flex: 1;
+  min-width: 0;
+}
+.wishlist-progress-bar{
+  height: 5px;
+  background: var(--line);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+.wishlist-progress-fill{
+  height: 100%;
+  background: var(--mint);
+  border-radius: 3px;
+  transition: width .3s ease;
+}
+.wishlist-votes-count{
+  font-size: 10.5px;
+  color: var(--sub);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.wishlist-vote-btn{
+  border: 1px solid var(--frame);
+  background: var(--surface);
+  color: var(--txt);
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 4px 11px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all .15s;
+  white-space: nowrap;
+  user-select: none;
+}
+.wishlist-vote-btn:hover{
+  background: var(--mint);
+  color: #0a111b;
+  border-color: var(--mint);
+}
+.wishlist-vote-btn.voted{
+  background: var(--mint);
+  color: #0a111b;
+  border-color: var(--mint);
+  font-weight: 800;
+}
+@media(max-width:600px){
+  .wishlist-poll-box{
+    padding: 12px 14px;
+  }
+  .wishlist-card{
+    padding: 10px;
+    gap: 10px;
+  }
+  .wishlist-card-cover{
+    width: 66px;
+    height: 90px;
+  }
+  .wishlist-card-title{
+    font-size: 13px;
+  }
+  .wishlist-note{
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .wishlist-vote-btn{
+    padding: 3px 8px;
+    font-size: 11px;
+  }
+}

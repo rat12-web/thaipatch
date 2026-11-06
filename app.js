@@ -307,7 +307,174 @@ function renderTodayPick(){
  container.innerHTML=chosen.map(g=>card(g)).join('');
 }
 
-function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();renderTodayPick();metrics()}
+
+const UNTRANSLATED_WISHLIST = [
+ {
+  id: 'wishlist-01-zelda-oot',
+  title: 'The Legend of Zelda: Ocarina of Time',
+  platform: 'N64',
+  year: '1998',
+  genre: 'แอ็กชัน RPG',
+  votes: 382,
+  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png',
+  note: 'มหากาพย์การเดินทางข้ามเวลาของ Link บน N64 หนึ่งในเกมที่ดีที่สุดตลอดกาลที่ผู้เล่นชาวไทยรอคอยฉบับแปลไทย'
+ },
+ {
+  id: 'wishlist-02-zelda-mm',
+  title: "The Legend of Zelda: Majora's Mask",
+  platform: 'N64',
+  year: '2000',
+  genre: 'แอ็กชัน RPG',
+  votes: 315,
+  cover: "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+  note: 'การผจญภัยวนลูป 3 วันใน Termina ปริศนาหน้ากากและเนื้อเรื่องดำดิ่งสุดประทับใจบนเครื่อง N64'
+ },
+ {
+  id: 'wishlist-03-mario-64',
+  title: 'Super Mario 64',
+  platform: 'N64',
+  year: '1996',
+  genre: 'แอ็กชัน / ตะลุยด่าน',
+  votes: 274,
+  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png',
+  note: 'เกมแอ็กชัน 3 มิติระดับตำนานที่พลิกประวัติศาสตร์วงการเกม กระโดดเข้าสู่ภาพวาดในปราสาทเจ้าหญิงพีชบน N64'
+ },
+ {
+  id: 'wishlist-04-earthbound',
+  title: 'EarthBound (Mother 2)',
+  platform: 'SNES',
+  year: '1994',
+  genre: 'RPG',
+  votes: 268,
+  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/EarthBound%20%28USA%29.png',
+  note: 'RPG สุดคัลต์ของ Shigesato Itoi เรื่องราวอบอุ่น ปรัชญา มิตรภาพ และมุกตลกอันเป็นเอกลักษณ์บน SNES'
+ },
+ {
+  id: 'wishlist-05-dq7',
+  title: 'Dragon Quest VII: Fragments of the Forgotten Past',
+  platform: 'PS1',
+  year: '2000',
+  genre: 'RPG',
+  votes: 245,
+  cover: 'https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Dragon%20Warrior%20VII%20%28USA%29%20%28Disc%201%29.png',
+  note: 'RPG สุดยิ่งใหญ่แห่งการฟื้นฟูเกาะที่สาบสูญด้วยชิ้นส่วนศิลาโบราณ เรื่องราวมหากาพย์ยาวกว่า 100 ชั่วโมงบน PS1'
+ },
+ {
+  id: 'wishlist-06-mgs3',
+  title: 'Metal Gear Solid 3: Snake Eater',
+  platform: 'PS2',
+  year: '2004',
+  genre: 'แอ็กชัน / ผจญภัย',
+  votes: 295,
+  cover: 'https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Metal%20Gear%20Solid%203%20-%20Snake%20Eater%20%28USA%29.png',
+  note: 'ผลงานมาสเตอร์พีซของ Hideo Kojima ในสมรภูมิป่าดงดิบยุคสงครามเย็น เรื่องราวต้นกำเนิดของ Big Boss บน PS2'
+ },
+ {
+  id: 'wishlist-07-kh2',
+  title: 'Kingdom Hearts II',
+  platform: 'PS2',
+  year: '2005',
+  genre: 'แอ็กชัน RPG',
+  votes: 289,
+  cover: 'https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Kingdom%20Hearts%20II%20%28USA%29.png',
+  note: 'การผจญภัยอันตราตรึงของ Sora ในโลกดิสนีย์และไฟนอลแฟนตาซี เผชิญหน้ากับ Organization XIII บน PS2'
+ },
+ {
+  id: 'wishlist-08-grandia',
+  title: 'Grandia',
+  platform: 'PS1',
+  year: '1999',
+  genre: 'RPG',
+  votes: 218,
+  cover: 'https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Grandia%20%28USA%29%20%28Disc%201%29.png',
+  note: 'การเดินทางของหนุ่มน้อย Justin สู่จุดสิ้นสุดของโลก (End of the World) ระบบต่อสู้และการเล่าเรื่องอันยอดเยี่ยมบน PS1'
+ },
+ {
+  id: 'wishlist-09-banjo',
+  title: 'Banjo-Kazooie',
+  platform: 'N64',
+  year: '1998',
+  genre: 'ผจญภัย / ตะลุยด่าน',
+  votes: 198,
+  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png',
+  note: 'การผจญภัยของหมี Banjo และนก Kazooie เพื่อช่วยน้องสาวจากแม่มด Gruntilda มุกตลกและบทสนทนาเปี่ยมเสน่ห์บน N64'
+ },
+ {
+  id: 'wishlist-10-papermario',
+  title: 'Paper Mario',
+  platform: 'N64',
+  year: '2000',
+  genre: 'RPG',
+  votes: 230,
+  cover: 'https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png',
+  note: 'มาริโอในโลกหนังสือนิทานกระดาษสุดอบอุ่น ช่วยเหลือวิญญาณแห่งดวงดาวทั้ง 7 และปราบ Bowser บนเครื่อง N64'
+ }
+];
+
+function renderWishlistPoll(){
+ const container=$('wishlistGrid');
+ if(!container)return;
+ let votedMap={};
+ try{votedMap=JSON.parse(localStorage.getItem('romthai_wishlist_votes')||'{}');}catch(e){}
+
+ const list=UNTRANSLATED_WISHLIST.map(item=>{
+  const hasVoted=!!votedMap[item.id];
+  const count=item.votes+(hasVoted?1:0);
+  return {...item,hasVoted,count};
+ });
+
+ list.sort((a,b)=>b.count-a.count);
+ const total=list.reduce((s,x)=>s+x.count,0);
+ const maxCount=Math.max(...list.map(x=>x.count),1);
+
+ container.innerHTML=list.map((item,idx)=>{
+  const pct=((item.count/total)*100).toFixed(1);
+  const barWidth=Math.min(100,Math.round((item.count/maxCount)*100));
+  const rankClass=idx===0?'gold':idx===1?'silver':idx===2?'bronze':'';
+  return `<div class="wishlist-card" data-wishlist-id="${safe(item.id)}"><div class="wishlist-card-cover"><img src="${safe(item.cover)}" alt="ปก ${safe(item.title)}" loading="lazy"><span class="wishlist-rank ${rankClass}">#${idx+1}</span></div><div class="wishlist-card-info"><div class="wishlist-card-top"><h3 class="wishlist-card-title">${safe(item.title)}</h3></div><div class="wishlist-meta"><span class="wishlist-platform platform-chip-${safe(item.platform.toLowerCase())}">${safe(item.platform)}</span><span>${safe(item.genre)}</span><span>·</span><span>ปี ${safe(item.year)}</span></div><p class="wishlist-note">${safe(item.note)}</p><div class="wishlist-vote-action"><div class="wishlist-progress-wrap"><div class="wishlist-progress-bar"><div class="wishlist-progress-fill" style="width:${barWidth}%"></div></div><div class="wishlist-votes-count"><span>${item.count.toLocaleString()} โหวต</span><span>${pct}%</span></div></div><button type="button" class="wishlist-vote-btn ${item.hasVoted?'voted':''}" data-wishlist-vote="${safe(item.id)}" aria-pressed="${item.hasVoted}">${item.hasVoted?'✓ โหวตแล้ว':'🗳️ โหวต'}</button></div></div></div>`;
+ }).join('');
+}
+
+function handleWishlistVote(id){
+ let votedMap={};
+ try{votedMap=JSON.parse(localStorage.getItem('romthai_wishlist_votes')||'{}');}catch(e){}
+ const item=UNTRANSLATED_WISHLIST.find(x=>x.id===id);
+ if(!item)return;
+ if(votedMap[id]){
+  delete votedMap[id];
+  try{localStorage.setItem('romthai_wishlist_votes',JSON.stringify(votedMap));}catch(e){}
+  toast('ยกเลิกโหวต '+item.title+' เรียบร้อยแล้ว');
+ }else{
+  votedMap[id]=1;
+  try{localStorage.setItem('romthai_wishlist_votes',JSON.stringify(votedMap));}catch(e){}
+  toast('โหวต '+item.title+' เรียบร้อยแล้ว!');
+ }
+ renderWishlistPoll();
+}
+
+function openTokenModal(){
+ let myTokens=0;
+ try{myTokens=parseInt(localStorage.getItem('romthai_user_tokens')||'0',10);}catch(e){}
+ const totalTokens=152+myTokens;
+ const body=`<div class="token-modal-card"><div class="token-hero-icon" aria-hidden="true">🪙</div><p class="token-modal-lead">เว็บ <strong>แปลไทยบอกด้วย</strong> (romthai.app) จัดทำขึ้นโดยไม่มีการแสวงหากำไร ไม่มีโฆษณารบกวน เพื่อรวบรวมและเผยแพร่ผลงานเกมแปลไทยจากทุกทีมถึงผู้เล่นทุกคน</p><p class="token-modal-sub">หากชื่นชอบและอยากร่วมช่วยค่าเซิร์ฟเวอร์ ค่าโดเมน หรือส่งกำลังใจ/เลี้ยงน้ำทีมงานพัฒนาเว็บ สามารถกดส่ง Token ให้กำลังใจได้ที่นี่ครับ</p><div class="token-counter-panel"><div class="token-stat-item"><span class="token-stat-num" id="userTokenDisplay">${myTokens}</span><span class="token-stat-lbl">Token ที่คุณส่งแล้ว</span></div><div class="token-stat-divider"></div><div class="token-stat-item"><span class="token-stat-num" id="totalTokenDisplay">${totalTokens}</span><span class="token-stat-lbl">Token สนับสนุนทั้งหมด</span></div></div><div class="token-btn-group"><button id="sendOneTokenBtn" class="btn primary" type="button">🪙 ส่ง 1 Token ให้กำลังใจ</button><button id="sendFiveTokenBtn" class="btn secondary" type="button">✨ เลี้ยง 5 Token รวด</button></div><div id="tokenThanksNotice" class="token-thanks-box ${myTokens>0?'':'hide'}">❤️ ขอบคุณสำหรับกำลังใจที่ช่วยให้คลังเกมแปลไทยเปิดให้บริการต่อไปได้อย่างยั่งยืนครับ!</div></div>`;
+ modal('เลี้ยง Token สนับสนุนเว็บ',body);
+
+ function addTokens(n){
+  let cur=0;
+  try{cur=parseInt(localStorage.getItem('romthai_user_tokens')||'0',10);}catch(e){}
+  cur+=n;
+  try{localStorage.setItem('romthai_user_tokens',cur.toString());}catch(e){}
+  const uEl=$('userTokenDisplay');if(uEl)uEl.textContent=cur;
+  const tEl=$('totalTokenDisplay');if(tEl)tEl.textContent=(152+cur);
+  const box=$('tokenThanksNotice');if(box)box.classList.remove('hide');
+  toast(`🪙 ขอบคุณมากครับ! เลี้ยง ${n} Token เรียบร้อยแล้ว`);
+ }
+
+ const b1=$('sendOneTokenBtn');if(b1)b1.onclick=()=>addTokens(1);
+ const b5=$('sendFiveTokenBtn');if(b5)b5.onclick=()=>addTokens(5);
+}
+
+function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();renderTodayPick();renderWishlistPoll();metrics()}
 function sourceNote(g){if(g.sourceLocation?.method==='patch_lab')return 'เข้าหน้า Patch Lab โดยตรง ต้นทางตรวจเกมจากไฟล์ ROM ของคุณ หรือเลือกเกมในช่องค้นหา';if(g.sourceLocation?.method==='text_fragment')return 'เปิดตรงตำแหน่ง '+g.title+' ที่ต้นทาง กดปกเกมเพื่อเปิดรายละเอียด/แพตช์';if(g.sourceAudit?.state==='failed_selection'||g.sourceAudit?.state==='default_match_inconclusive')return 'เมื่อถึงเว็บไซต์ 90S Game ให้เลือก '+g.title+' ในช่องเกมก่อนดำเนินการต่อ';if(g.sourceAudit?.state==='directory_only')return 'ลิงก์เปิดคลังของทีมแปล กรุณาเลือกเกมนี้ที่เว็บไซต์ต้นทาง';if(g.sourceAudit?.state==='inferred')return 'ยังไม่ยืนยันหน้าเกมเฉพาะ หากเปิดแล้วไม่ตรงเกม ให้ค้นหาชื่อเกมที่เว็บไซต์ต้นทาง';return ''}
 function groupPicker(key){const variants=catalog.filter(g=>gameGroupKey(g)===key);if(!variants.length)return;
  const name=canonicalTitle(variants[0]);const items=variants.map(g=>{const team=g.translatorName||g.source,url=sourceUrl(g),art=assetUrl(g.coverCandidateUrl||g.cover||'',g),logo=teamLogoUrl(g),note='';return `<a class="variant-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer"><span class="variant-media">${art?`<img src="${safe(art)}" alt="ปก ${safe(g.title)}" loading="lazy">`:''}</span><span class="variant-copy"><span class="variant-source">${logo?`<img class="variant-logo" src="${safe(logo)}" alt="" loading="lazy">`:''}<b>${safe(team)}</b></span><span class="variant-name">${safe(g.title)} · ${safe(g.platform)}</span><small class="variant-version">${safe((g.baseEdition?'ฐาน '+g.baseEdition+' · ':'')+'แพตช์ '+(g.patchVersion||g.version||'ดูที่ต้นทาง'))}</small>${g.patchChanges?`<small class="variant-changes">${safe(g.patchChanges)}</small>`:''}${note?`<small class="team-route">${safe(note)}</small>`:''}</span><span class="variant-arrow" aria-hidden="true">↗</span></a>`}).join('');
@@ -315,11 +482,14 @@ function groupPicker(key){const variants=catalog.filter(g=>gameGroupKey(g)===key
 }
 function reset(){Object.assign(state,{query:'',platform:'',genre:'',art:'',series:'',team:'',sort:'recent',limit:24});$('searchGlobal').value='';$('searchMain').value='';$('sortSelect').value='recent';renderAll()}
 function events(){
- document.addEventListener('click',e=>{const group=e.target.closest('[data-group-open]');if(group){groupPicker(group.dataset.groupOpen)}});
+ document.addEventListener('click',e=>{const group=e.target.closest('[data-group-open]');if(group){groupPicker(group.dataset.groupOpen)}const wBtn=e.target.closest('[data-wishlist-vote]');if(wBtn){handleWishlistVote(wBtn.dataset.wishlistVote)}});
  document.addEventListener('keydown',e=>{if(!$('modalVeil').classList.contains('show'))return;if(e.key==='Escape'){closeModal();return}if(e.key==='Tab'){const els=[...$('modalVeil').querySelectorAll('button,a[href]')].filter(x=>x.getClientRects().length),first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
  $('modalClose').onclick=closeModal;$('modalVeil').onclick=e=>{if(e.target===$('modalVeil'))closeModal()};
  for(const id of ['searchGlobal','searchMain'])$(id).oninput=e=>{state.query=e.target.value;state.limit=24;$('searchGlobal').value=state.query;$('searchMain').value=state.query;renderLibrary()};$('searchGlobal').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('library').scrollIntoView({behavior:'smooth',block:'start'});$('searchMain').focus({preventScroll:true})}};
  for(const key of ['platform','series','team','genre','art','sort'])$(key+'Select').onchange=e=>{state[key]=e.target.value;state.limit=24;renderLibrary()};$('moreBtn').onclick=()=>{state.limit+=24;renderLibrary()};$('resetFilters').onclick=reset;
+ const tTop=$('tipTokenTop');if(tTop)tTop.onclick=openTokenModal;
+ const tBtm=$('tipTokenBottom');if(tBtm)tBtm.onclick=openTokenModal;
+
  document.addEventListener('load',e=>{if(e.target instanceof HTMLImageElement)mediaLoaded(e.target)},true);
  document.addEventListener('error',e=>{if(e.target instanceof HTMLImageElement)mediaFailed(e.target)},true);
  document.querySelectorAll('img').forEach(image=>{if(image.complete&&image.naturalWidth>0)mediaLoaded(image)});
