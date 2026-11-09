@@ -73419,8 +73419,8 @@
     "teamId": "team-007421f0cdaa",
     "platform": "GB",
     "baseEdition": null,
-    "patchVersion": "v1.4 Final",
-    "version": "v1.4 Final",
+    "patchVersion": "v2.0",
+    "version": "v2.0",
     "date": "2026-09-21",
     "status": "พร้อมแพตช์",
     "description": "แพตช์ภาษาไทยเกม Dragon Ball Z Goku Gekitouden บนเครื่องเล่น GB โดยทีม Happy2You.net",
@@ -73472,26 +73472,26 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-09-21",
+    "sourceUpdatedAt": "2026-11-09",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-09-09",
+      "value": "2026-11-09",
       "precision": "day",
-      "rawValue": "2026-09-09",
-      "source": "https://retro-trans.h2y.workers.dev/games/dbz-gokuu-gekitouden",
-      "field": "updateDate",
+      "rawValue": "2026-11-09 04:14:12",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "field": "updated_at",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "sourceVersion": "v1.0",
+      "checkedAt": "2026-11-09T06:54:31.463746+00:00",
+      "sourceVersion": "v2.0",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
       "https://retro-trans.h2y.workers.dev/api/files/images/dbz-gokuu-gekitouden/1789530904803-06fefc21-dbz2gb_h2y.png"
     ],
     "playTimeHours": 8,
-    "patchChanges": "แพตช์ภาษาไทยโดย Happy2You.net",
-    "patchCategory": "full_release",
+    "patchChanges": "เกมส์ : Dragon Ball Z - Gokuu Gekitouden เครื่อง : Game Boy ชื่อเกมส์ไทยๆ : ดราก้อนบอลแซด - ตำนานศึกอั...",
+    "patchCategory": "fix_update",
     "sourceKey": "dbz-gokuu-gekitouden"
   },
   {
