@@ -1,3 +1,19 @@
+## 2026-11-06 — Facebook-only creator links now point at the exact game post, or the team's own per-game page
+
+Owner: Active Repository Agent (OpenCode/DeepSeek); branch main.
+
+Catalog: 1,047 entries across 20 platforms (40 teams).
+- Broad Facebook links (page profiles and `share/<token>` links reused by several games) were replaced with the exact creator post in 24 entries: แปล mod by kai16 (7), สลอธเล่นเกม (2), แมวดำ แปลเกมส์ (1), น้า_auns555 (3), แปลตอนมีอารมณ์ (2), แปลตามใจ (2), INorge Game Stream (1), Slinger Channel (1), ตลับเกมภาษาไทย (2). kai16's Rockman DASH entry now uses the canonical `story.php` permalink of the post its old share link resolved to.
+- 13 `ตลับเกมภาษาไทย` entries moved off `facebook.com/talubgamethai/` to the team's own per-game page `https://haasbeat.github.io/talub-game-thai/game.html?game=<slug>`: Phoenix Wright Trilogy, Rune Factory 4, Bravely Default, Yo-kai Watch 2, DQM Joker 3 Professional, Time Travelers, Front Mission 2089, Love Plus+, The World Ends with You, Dragon Quest VIII, Inazuma Eleven GO Thunderflash, Mini Yonku WGP2, Inazuma Eleven 1-2-3. The page Intro and its posts announce that site, so it is the team's own per-game target rather than an aggregator.
+- `retro-201` River City Ransom EX: the old `share/p/1CNBmftiFj` link now returns "เนื้อหานี้ไม่พร้อมใช้งาน", so the entry points at the Andaplus article that names น้า_auns555 as the translator.
+- 11 entries could not be resolved to a per-game post and are marked honestly instead of being claimed as verified game links (`linkScope: owner_page` ×9, `linkScope: mismatched_post` + `sourceAudit.state: unresolved` ×2). Per-entry reasons live in `SOURCE_PATCH_BLOCKERS.md`.
+- Method: in-app browser using the existing logged-in session; one Facebook post search per game, then every chosen permalink was opened and its page title checked against the catalog title and the credited page id. Each ตลับเกมภาษาไทย site page was opened and its title/platform read. Evidence: `evidence/2026-11-06/facebook-per-game-links.json`.
+- Checks: `python tools/build.py` and `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa-catalog.cjs` 3/3 PASS.
+- Known pre-existing failure (unchanged, fails at HEAD too): `node tools/qa-platform-cards.cjs` on the 109 legacy records without `coverAlternatives`.
+- Next concrete action: keep looking for per-game posts for the 11 open entries (Metal Max 4, E.X. Troopers, Cardfight!! Vanguard G, Wagamama Mirumo, Crayon Shin-Chan, Dragon Ball: Mystery of Shenron, Atelier Lise, Spice and Wolf, Lina no Atelier, Harobots, Final Fantasy VI Advance), and decide whether `ext-db-006` Rockman DASH belongs as a patch entry — the post it now links to is a walkthrough.
+
+---
+
 ## 2026-11-06 — Thai-translation research for five requested games, Facebook source check, 3 new แมแปว releases (1,047), RE4 V1.2 refresh, and wishlist correction
 
 Owner: Active Repository Agent (OpenCode/DeepSeek); branch main (uncommitted at handoff until the commit step).

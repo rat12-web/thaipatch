@@ -1,6 +1,14 @@
 # Remaining work
 
 Current 2026-11-06 result: 1,047 cards,
+Fixed the Facebook links of teams that only publish on Facebook, per the owner's request: 24 entries now open the exact post for that game (kai16 7, สลอธเล่นเกม 2, แมวดำ 1, น้า_auns555 3, แปลตอนมีอารมณ์ 2, แปลตามใจ 2, INorge 1, Slinger Channel 1, ตลับเกมภาษาไทย 2), and 13 ตลับเกมภาษาไทย entries now open the team's own per-game page on haasbeat.github.io/talub-game-thai (the site the page announces) instead of the page feed.
+Every changed permalink was opened and its page title matched the catalog title and credited page; evidence in evidence/2026-11-06/facebook-per-game-links.json.
+11 entries still have no per-game post and are now labeled honestly (linkScope owner_page ×9, mismatched_post + sourceAudit unresolved ×2) instead of being claimed as verified game links; details in SOURCE_PATCH_BLOCKERS.md.
+Open: those 11 Facebook entries (Metal Max 4, E.X. Troopers, Cardfight!! Vanguard G, Wagamama Mirumo, Crayon Shin-Chan, Dragon Ball: Mystery of Shenron, Atelier Lise, Spice and Wolf, Lina no Atelier, Harobots, Final Fantasy VI Advance); review whether ext-db-006 Rockman DASH is a patch (its linked post is a walkthrough); 109 legacy records lack `coverAlternatives` (qa-platform-cards fails at HEAD too); maepaew has no auto-sync adapter; PC-only Thai mods (KH2 Final Mix, GRANDIA HD, DQ VII Reimagined) need an inclusion decision.
+
+The earlier snapshots below are historical.
+
+Current 2026-11-06 result: 1,047 cards,
 Researched the five owner-requested titles and found: Dragon Quest VII (PS1), Grandia (PS1) and Paper Mario (N64) have no Thai patch; Kingdom Hearts II has a Thai PC Final Mix localization but no verified PS2 patch; EarthBound / Mother 2 (SNES) already has a Thai patch by นอนแปล (`nonplae-202`, v1.0, 2026-09-14).
 Facebook public post pages were readable without login (no plugin needed).
 Added three route-verified แมแปว (maepaew) releases: God of War (PS2), God of War II (PS2) and Konami Wai Wai World (NES); refreshed Resident Evil 4 to V1.2 (2026-10-23); replaced the inaccurate EarthBound wishlist entry with Super Metroid.

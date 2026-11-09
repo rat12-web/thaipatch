@@ -1,3 +1,17 @@
+## 2026-11-06 — Facebook-only creator links now point at the exact game post, or the team's own per-game page
+
+Owner: Active Repository Agent (OpenCode/DeepSeek); branch main.
+
+Catalog: 1,047 entries across 20 platforms (40 teams).
+- 24 entries now link to the exact Facebook post for that game (kai16 7, สลอธเล่นเกม 2, แมวดำ 1, น้า_auns555 3, แปลตอนมีอารมณ์ 2, แปลตามใจ 2, INorge 1, Slinger Channel 1, ตลับเกมภาษาไทย 2). Every permalink was opened and its page title matched the catalog title and the credited page id.
+- 13 ตลับเกมภาษาไทย entries moved to the team's own per-game page `haasbeat.github.io/talub-game-thai/game.html?game=<slug>` (site announced by the page's Intro and posts).
+- `retro-201` River City Ransom EX: old `share/p/1CNBmftiFj` no longer loads ("เนื้อหานี้ไม่พร้อมใช้งาน"); now points at the Andaplus article naming น้า_auns555.
+- 11 entries remain without a per-game post and are labeled honestly (`owner_page` ×9, `mismatched_post` + `unresolved` ×2) instead of claiming a verified game link; see `SOURCE_PATCH_BLOCKERS.md`.
+- Verification: `python tools/build.py` + `--check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa-catalog.cjs` 3/3 PASS. Evidence: `evidence/2026-11-06/facebook-per-game-links.json`.
+- Pre-existing failure unchanged: `node tools/qa-platform-cards.cjs` (109 legacy records without `coverAlternatives`, fails at HEAD too).
+
+---
+
 ## 2026-11-06 — Thai-translation research for five requested games, Facebook source check, 3 new แมแปว releases (1,047), RE4 V1.2 refresh, and wishlist correction
 
 Owner: Active Repository Agent (OpenCode/DeepSeek); branch main.

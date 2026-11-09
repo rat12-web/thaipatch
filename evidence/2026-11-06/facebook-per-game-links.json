@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-06",
+  "task": "ให้ลิงก์ของค่ายแปลที่มีแต่ Facebook ชี้ไปที่โพสต์ของเกมนั้นโดยตรง (ไม่ใช่หน้าเพจ/โพสต์รวม)",
+  "method": "เปิด Facebook ด้วย in-app browser ในเซสชันที่ล็อกอินอยู่ ใช้ Facebook post search (facebook.com/search/posts/?q=...) เพื่อหาลิงก์โพสต์ แล้วเปิดทุก permalink เพื่อยืนยันว่า ชื่อเพจและชื่อเกมในโพสต์ตรงกับรายการในแคตตาล็อก ก่อนบันทึก สำหรับ ตลับเกมภาษาไทย ใช้เว็บทางการของทีม (ลิงก์ที่เพจประกาศเองในหน้า Intro) และเปิดหน้าเกมทุกหน้าจนเห็นชื่อเกม+แพลตฟอร์ม",
+  "identityEvidence": {
+    "ตลับเกมภาษาไทย": "หน้าเพจ facebook.com/talubgamethai ประกาศเว็บ https://haasbeat.github.io/talub-game-thai/ ใน Intro และในโพสต์",
+    "kai16": "permalink.php?...&id=61593778466354 ตรงกับเพจ แปล mod by kai16",
+    "สลอธเล่นเกม": "permalink.php?...&id=61578104811406 ตรงกับเพจ สลอธเล่นเกม เล่นเกมแบบสลอธ",
+    "แมวดำ แปลเกมส์": "permalink.php?...&id=61593545720503 ตรงกับเพจ แมวดำ แปลเกมส์",
+    "แปลตอนมีอารมณ์": "permalink.php?...&id=61565630320285 ตรงกับเพจ แปลตอนมีอารมณ์",
+    "แปลตามใจ": "permalink.php?...&id=61594616446354 ตรงกับเพจ แปลตามใจ",
+    "INorge Game Stream": "permalink.php?...&id=61594597258105 ตรงกับเพจ INorge Game Stream V2",
+    "น้า_auns555": "URL รูปแบบ facebook.com/auns555toys/posts/<pfbid>",
+    "Slinger Channel": "URL รูปแบบ facebook.com/Slingerchannel/posts/<pfbid>"
+  },
+  "updatedPerGamePosts": [
+    {
+      "id": "ext-db-017-drill-dozer",
+      "title": "Drill Dozer",
+      "platform": "GBA",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ufGjE1YABst4vKhdwksQA9HETgWdLTceHuMbXmXu4g3DLkQBCk7V4spHpdFqWVHvl&id=61593778466354",
+      "verifiedPageTitle": "🛠️💥 Drill Dozer ภาษาไทย มาแล้ว! 🇹🇭 Drill Dozer... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-044-grand-theft-auto-advance",
+      "title": "Grand Theft Auto Advance",
+      "platform": "GBA",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0tkJeZiVTvikvzeD97JZ654gNLuFgfKHYWuumAQamUx4gAmhmKsMV94QjSkgpK6Vtl&id=61593778466354",
+      "verifiedPageTitle": "🚗💥 GTA บน GBA ภาษาไทย มาแล้ว! 🇹🇭 Grand Theft... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-093-lego-star-wars-the-comple",
+      "title": "LEGO Star Wars: The Complete Saga",
+      "platform": "NDS",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02f1Q2mdHrBdxBL7p85xqPC3PCgr7SGzVExnq94PAZXUNee1LL7iTUk2FtGwhZNPD1l&id=61593778466354",
+      "verifiedPageTitle": "🌌🧱 แจกม็อดภาษาไทย LEGO Star Wars: The Complete... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-109-star-fox",
+      "title": "Star Fox",
+      "platform": "SNES",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHDyackZMU8Su7bfpJch3ahmFuiJZqZdTtNKGYRV1iwgeWwRLjjk7STsBY9k61Mkl&id=61593778466354",
+      "verifiedPageTitle": "🦊🚀 แจกฟรี! แพตช์ภาษาไทย Star Fox [Super Famicom... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-116-metal-gear-solid-integral",
+      "title": "Metal Gear Solid: Integral",
+      "platform": "PS1",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0361AMW3Q2HdVVRePAZAEEdAETB8ac66UbsXfyiMcGpKWgqmFvNja2mDR81vgbddXRl&id=61593778466354",
+      "verifiedPageTitle": "🎮 แจกฟรี! Metal Gear Solid Integral ภาษาไทย... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-127-dragon-ball-3-gokuu-den",
+      "title": "Dragon Ball 3: Gokuu Den",
+      "platform": "NES",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0387NHRbJjJ8PuCDFpp6Ed91kGq9pTSAg1PYK3bmzTXz7HusjYyzidgCthxBGz424ul&id=61593778466354",
+      "verifiedPageTitle": "แจกฟรี! Dragon Ball 3 – Gokuu Den ภาษาไทย 🇹🇭🎮... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-143-nekketsu-kakutou-densetsu",
+      "title": "Nekketsu Kakutou Densetsu",
+      "platform": "NES",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZmTzRbs4XcS9A7hCc92CoqBaqdy7m4aiGcy1a79MGkAXU85fWWSubrJFhmsHtYd5l&id=61593778466354",
+      "verifiedPageTitle": "🎮 แจกฟรี Nekketsu Kakutou Densetsu Thai Patch... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-006-rockman-dash-hagane-no-bo",
+      "title": "Rockman Dash: Hagane no Boukenshin",
+      "platform": "PS1",
+      "team": "แปล mod by kai16",
+      "url": "https://www.facebook.com/story.php?story_fbid=122115836973459282&id=61593778466354",
+      "verifiedPageTitle": "🎮📖 แจกฟรี! บทสรุป Rockman DASH [PS1]... - แปล mod by kai16 | Facebook"
+    },
+    {
+      "id": "ext-db-073-yuu-yuu-hakusho-ds-ankoku",
+      "title": "Yuu Yuu Hakusho DS: Ankoku Bujutsukai Hen",
+      "platform": "NDS",
+      "team": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0NHcWwA9Kh7LLjwrdDp9KGtkgm46b5rSK2XaM4GLRUw2cvnrr3ZkX6tE18tHsJ8o5l&id=61578104811406",
+      "verifiedPageTitle": "Yuu Yuu Hakusho DS Ankoku Bujutsukai... - สลอธเล่นเกม เล่นเกมแบบสลอธ | Facebook"
+    },
+    {
+      "id": "ext-db-241-mini-yonku-ds",
+      "title": "Mini Yonku DS",
+      "platform": "NDS",
+      "team": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JtVJyLr7z23rVeuWZrcSh9PcxKcMw5hmKC9hn8RYKbuLDGFY13kyc8U2dQmoF5P6l&id=61578104811406",
+      "verifiedPageTitle": "Mini-Yonku-DS - v0.9 มีแก้ไข... - สลอธเล่นเกม เล่นเกมแบบสลอธ | Facebook"
+    },
+    {
+      "id": "ext-db-192-emblem-of-gundam",
+      "title": "Emblem of Gundam",
+      "platform": "NDS",
+      "team": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid036p82fxJ1eTqWxz6SBWTtXWtbdNRBE88JrPxvDSGryPXHpNFkE97H1W1FxodZCwKkl&id=61578104811406",
+      "verifiedPageTitle": "Emblem of Gundam (Nintendo DS) v0.90... - สลอธเล่นเกม เล่นเกมแบบสลอธ | Facebook"
+    },
+    {
+      "id": "ext-db-023-magical-pop-n",
+      "title": "Magical Pop'n",
+      "platform": "SNES",
+      "team": "แมวดำ แปลเกมส์",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0wAkQrM5dp3ydrDQueLkXLm8WTREaLQbKfhbrTWXeDuFfqigEFiyRh94ri7dNhtjZl&id=61593545720503",
+      "verifiedPageTitle": "แมวดำ แปลเกมส์ - 🎉 แจกแล้ว! Magical Pop’n ฉบับแปลไทย 🇹🇭... | Facebook"
+    },
+    {
+      "id": "ext-db-062-fire-emblem-monshou-no-na",
+      "title": "Fire Emblem: Monshou no Nazo",
+      "platform": "SNES",
+      "team": "แมวดำ แปลเกมส์",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zStEKC5G6qrzsLrN2oHTf9tuRhBXBeZgHPi9W2VZKCsmECcgArceTQbo4xm1goBil&id=61593545720503",
+      "verifiedPageTitle": "แมวดำ แปลเกมส์ - 🔥 อัปเดต Fire Emblem: Monshou no Nazo ภาษาไทย... | Facebook"
+    },
+    {
+      "id": "ext-db-022-contra",
+      "title": "Contra",
+      "platform": "GB",
+      "team": "น้า_auns555",
+      "url": "https://www.facebook.com/auns555toys/posts/pfbid0jHXLY5Js2eKhWw3JvQyY4BQLiXtDLr9UpxLWBv9TAxEgk7aNHMKSXcZPbAsJReXvl",
+      "verifiedPageTitle": "น้า_auns555 - ทำเอาตามใจตัวเองจริงๆ Contra GB ซึ่งถ้าจะว่ากันจริงๆ... | Facebook"
+    },
+    {
+      "id": "ext-db-059-sword-of-mana",
+      "title": "Sword of Mana",
+      "platform": "GBA",
+      "team": "น้า_auns555",
+      "url": "https://www.facebook.com/auns555toys/posts/pfbid0x2YoQmEs9arWENxFQwEaocWmErtEEmQK3GU6mqsaxgCppEA3tiHPDPcYh9EGpu5Kl",
+      "verifiedPageTitle": "น้า_auns555 - Sword of mana (GBA) ผมใช้เวลาราวๆ... | Facebook"
+    },
+    {
+      "id": "ext-db-166-shining-soul",
+      "title": "Shining Soul",
+      "platform": "GBA",
+      "team": "น้า_auns555",
+      "url": "https://www.facebook.com/auns555toys/posts/pfbid034rm9Kasx15eSUQLEGbUQSVqjZ3pBniMs1dounrXVCxtypFS2npb97JXDPYmTKcMLl",
+      "verifiedPageTitle": "น้า_auns555 - เล่นจบแล้วครับ Shining Soul (ภาค 1) GBA ม็อดไทยเอง... | Facebook"
+    },
+    {
+      "id": "ext-db-043-disney-s-tarzan",
+      "title": "Disney's Tarzan",
+      "platform": "PS1",
+      "team": "แปลตอนมีอารมณ์",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MmoHRq6rFPvHDDeMKdAvtVEDQ32BZSykcdwHN7n6nfqaYa4NCQyEWs3P4LTVRZMWl&id=61565630320285",
+      "verifiedPageTitle": "แปลตอนมีอารมณ์ - patch ภาษาไทยเต็มรูปแบบ Tarzan ps1 ( USA รหัส... | Facebook"
+    },
+    {
+      "id": "ext-db-249-pepsiman",
+      "title": "Pepsiman",
+      "platform": "PS1",
+      "team": "แปลตอนมีอารมณ์",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0357wcxzRitH9mEw9vdieGsdwAn958BBp6UoibKeTzx79SFB2KnwDpvPXuwbM2gTpYl&id=61565630320285",
+      "verifiedPageTitle": "แปลตอนมีอารมณ์ - รับไปพวกเด็กหนวด patch ภาษาไทย เป๊ปซี่แมน Ps1... | Facebook"
+    },
+    {
+      "id": "ext-db-092-super-mario-land-dx",
+      "title": "Super Mario Land DX",
+      "platform": "GBC",
+      "team": "แปลตามใจ",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0336m3DXbYjwV8E57Xx74sHiRKFTD6MHpQAvv6czcNrcBc9SpikJr6nonAV5tp6aF2l&id=61594616446354",
+      "verifiedPageTitle": "แปลตามใจ - SUPER MARIO LAND : THAI EDITION (ฉบับภาษาไทย) ... (post body)"
+    },
+    {
+      "id": "ext-db-097-goodboy-galaxy",
+      "title": "Goodboy Galaxy",
+      "platform": "GBA",
+      "team": "แปลตามใจ",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gxktgm4ozSX6iGn83ggwAu8cQSjseUNkHba7o2juvjFM9rm1zJdGaRCUKLBY9VjEl&id=61594616446354",
+      "verifiedPageTitle": "แปลตามใจ - 🚀 Goodboy Galaxy ภาษาไทย (GBA) เล่น Goodboy Galaxy... | Facebook"
+    },
+    {
+      "id": "ext-db-035-energy-breaker",
+      "title": "Energy Breaker",
+      "platform": "SNES",
+      "team": "INorge Game Stream",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ADaPA4Hxqri8KYPjE5DEtV83WXtBmcXEgDfNmfyNYkr2YP3ujMPFgsicWP6Z7e3Sl&id=61594597258105",
+      "verifiedPageTitle": "Energy Breaker จากเครื่อง SNES... - INorge Game Stream V2 | Facebook"
+    },
+    {
+      "id": "ext-db-081-prince-of-tennis-form-the",
+      "title": "Prince of Tennis: Form the Strongest Team",
+      "platform": "PS2",
+      "team": "Slinger Channel",
+      "url": "https://www.facebook.com/Slingerchannel/posts/pfbid0ofSKZH4sVJzHLK4dkJyFRkYd5UVbM13Uk8CfKfXGSTnbEEqNABrvmrn1YKobn9fgl",
+      "verifiedPageTitle": "Slinger Channel - ⚠️ อัพเดตแปลไทย : Prince of Tennis - Slinger... | Facebook"
+    },
+    {
+      "id": "ext-db-233-popolocrois",
+      "title": "PoPoLoCrois",
+      "platform": "PSP",
+      "team": "ตลับเกมภาษาไทย",
+      "url": "https://www.facebook.com/talubgamethai/posts/pfbid036fAdHLQVXGuSoYVseRAQ3pSYyXs88iYGztLR7AAP6ZTxbGxV66YN5GooAmWiKSanl",
+      "verifiedPageTitle": "ตลับเกมภาษาไทย - PoPoLoCrois PSP แปลเสร็จแล้วล่ะ... | Facebook"
+    },
+    {
+      "id": "ext-db-037-sweet-home",
+      "title": "Sweet Home",
+      "platform": "NES",
+      "team": "ตลับเกมภาษาไทย",
+      "url": "https://www.facebook.com/talubgamethai/posts/pfbid023cuJuTAQZoLaFrNoxjEjEUgKNLpyj36EtWcZNmDZgYMXfu2PrtWYifYDN2uBFXYfl",
+      "verifiedPageTitle": "ตลับเกมภาษาไทย - 📌📌Release📌📌 .. Nes / Famicom Sweet Home (Japan)... | Facebook"
+    }
+  ],
+  "updatedOfficialGamePages": [
+    {
+      "id": "ext-db-076-phoenix-wright-ace-attorn",
+      "title": "Phoenix Wright: Ace Attorney Trilogy",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=phoenix-wright-trilogy",
+      "verifiedPageTitle": "Phoenix Wright: Ace Attorney Trilogy — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-103-rune-factory-4",
+      "title": "Rune Factory 4",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=rune-factory-4",
+      "verifiedPageTitle": "Rune Factory 4 — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-106-bravely-default",
+      "title": "Bravely Default",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=bravely-default",
+      "verifiedPageTitle": "Bravely Default — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-121-yo-kai-watch-2-psychic-sp",
+      "title": "Yo-kai Watch 2: Psychic Specters",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=yo-kai-watch-2",
+      "verifiedPageTitle": "Yo-kai Watch 2: Psychic Specters — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-138-dragon-quest-monsters-jok",
+      "title": "Dragon Quest Monsters: Joker 3 Professional",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=dqm-joker-3-professional",
+      "verifiedPageTitle": "Dragon Quest Monsters: Joker 3 Professional — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-140-time-travelers",
+      "title": "Time Travelers",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=time-travelers",
+      "verifiedPageTitle": "Time Travelers — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-158-front-mission-2089-border",
+      "title": "Front Mission 2089: Border of Madness",
+      "platform": "NDS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=front-mission-2089",
+      "verifiedPageTitle": "Front Mission 2089: Border of Madness — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-162-love-plus",
+      "title": "Love Plus+",
+      "platform": "NDS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=love-plus-plus",
+      "verifiedPageTitle": "Love Plus+ — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-175-the-world-ends-with-you",
+      "title": "The World Ends with You",
+      "platform": "NDS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=the-world-ends-with-you",
+      "verifiedPageTitle": "The World Ends with You — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-179-dragon-quest-viii-journey",
+      "title": "Dragon Quest VIII: Journey of the Cursed King",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=dragon-quest-viii",
+      "verifiedPageTitle": "Dragon Quest VIII: Journey of the Cursed King — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-188-inazuma-eleven-go-chrono-",
+      "title": "Inazuma Eleven GO Chrono Stones: Thunderflash",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-go-thunderflash",
+      "verifiedPageTitle": "Inazuma Eleven GO: Chrono Stones - Thunderflash — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-234-mini-yonku-let-s-go-power",
+      "title": "Mini Yonku Let's & Go!! Power WGP 2",
+      "platform": "SNES",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=mini-yonku-wgp2",
+      "verifiedPageTitle": "Mini Yonku Let's & Go!!: Power WGP 2 — ตลับเกมภาษาไทย"
+    },
+    {
+      "id": "ext-db-254-inazuma-eleven-1-2-3-endo",
+      "title": "Inazuma Eleven 1-2-3!! Endou Mamoru Densetsu",
+      "platform": "3DS",
+      "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-eleven-123",
+      "verifiedPageTitle": "Inazuma Eleven 1-2-3!! - Endou Mamoru Densetsu — ตลับเกมภาษาไทย"
+    }
+  ],
+  "pageLevelLinksStillOpen": [
+    {
+      "id": "ext-db-012-metal-max-4-gekkou-no-div",
+      "title": "Metal Max 4: Gekkou no Diva",
+      "team": "ตลับเกมภาษาไทย",
+      "url": "https://www.facebook.com/talubgamethai/",
+      "reason": "ไม่พบโพสต์เฉพาะเกมบนเพจ (ค้นทั้ง Facebook search และการไล่ฟีดเพจ)"
+    },
+    {
+      "id": "ext-db-083-e-x-troopers",
+      "title": "E.X. Troopers",
+      "team": "ตลับเกมภาษาไทย",
+      "url": "https://www.facebook.com/talubgamethai/",
+      "reason": "พบแต่โพสต์แม่แบบ Release ที่ไม่ระบุชื่อเกม"
+    },
+    {
+      "id": "ext-db-176-cardfight-vanguard-g-stri",
+      "title": "Cardfight!! Vanguard G: Stride to Victory!! Sign In to Save",
+      "team": "ตลับเกมภาษาไทย",
+      "url": "https://www.facebook.com/talubgamethai/",
+      "reason": "ไม่พบโพสต์เฉพาะเกม"
+    },
+    {
+      "id": "ext-db-008-wagamama-fairy-mirumo-de-",
+      "title": "Wagamama Fairy Mirumo de Pon! - Taisen Mahoudama",
+      "team": "น้า_auns555",
+      "url": "https://www.facebook.com/auns555toys",
+      "reason": "พบแต่โพสต์ความคืบหน้ารวมเกม GBA ไม่ระบุเกมเดียว"
+    },
+    {
+      "id": "ext-db-020-crayon-shin-chan-arashi-o",
+      "title": "Crayon Shin-Chan: Arashi o Yobu Cinema-Land no Daibouken!",
+      "team": "น้า_auns555",
+      "url": "https://www.facebook.com/auns555toys",
+      "reason": "พบแต่โพสต์รวม/ความคืบหน้า ไม่ระบุเกมเดียว"
+    },
+    {
+      "id": "ext-db-111-dragon-ball-mystery-of-sh",
+      "title": "Dragon Ball: Mystery of Shenron",
+      "team": "Gadget Door",
+      "url": "https://www.facebook.com/GadgetdoorFanpage",
+      "reason": "ไม่พบโพสต์เฉพาะเกมบนเพจ Gadgetdoor"
+    },
+    {
+      "id": "ext-db-182-atelier-lise-the-alchemis",
+      "title": "Atelier Lise: The Alchemist of Orde",
+      "team": "นักป้ายยา",
+      "url": "https://www.facebook.com/druglabeler",
+      "reason": "ไล่ฟีดเพจ 46 โพสต์แล้วไม่พบโพสต์เกมนี้"
+    },
+    {
+      "id": "ext-db-198-spice-and-wolf-the-wind-t",
+      "title": "Spice and Wolf: The Wind that Spans the Sea",
+      "team": "นักป้ายยา",
+      "url": "https://www.facebook.com/druglabeler",
+      "reason": "ไล่ฟีดเพจ 46 โพสต์แล้วไม่พบโพสต์เกมนี้"
+    },
+    {
+      "id": "ext-db-209-lina-no-atelier-strahl-no",
+      "title": "Lina no Atelier: Strahl no Renkinjutsushi",
+      "team": "นักป้ายยา",
+      "url": "https://www.facebook.com/druglabeler",
+      "reason": "ไล่ฟีดเพจ 46 โพสต์แล้วไม่พบโพสต์เกมนี้"
+    }
+  ],
+  "mismatchedLinksMarkedUnresolved": [
+    {
+      "id": "ext-db-003-harobots-robo-hero-battli",
+      "title": "Harobots: Robo Hero Battling",
+      "team": "Chira Ae",
+      "url": "https://www.facebook.com/share/p/1dirDcoMYm/",
+      "reason": "ลิงก์ share/p/1dirDcoMYm เปิดแล้วไปโพสต์ของ น้า_auns555 (\"โหลดไม่เป็น ลงไม่เป็น...\") ไม่ใช่โพสต์ของ Chira Ae"
+    },
+    {
+      "id": "ext-db-214-final-fantasy-vi-advance",
+      "title": "Final Fantasy VI Advance",
+      "team": "Kenghot",
+      "url": "https://www.facebook.com/share/p/18tgQMpYRG/",
+      "reason": "ลิงก์ share/p/18tgQMpYRG เปิดแล้วไปโพสต์ของ Kiatisak Khamnuengsuk เรื่องบทสรุปเกม GBA ไม่ใช่โพสต์ของ Kenghot"
+    }
+  ],
+  "alsoChanged": {
+    "retro-201": {
+      "title": "River City Ransom EX",
+      "reason": "ลิงก์ Facebook เดิม (share/p/1CNBmftiFj) เปิดแล้วขึ้น \"เนื้อหานี้ไม่พร้อมใช้งาน\"; เปลี่ยนไปหน้าบทความเฉพาะเกมบน Andaplus Games ที่บทความระบุผู้แปลและลิงก์ผลงาน",
+      "url": "https://andaplus.com/games/index.php?catid=475&id=5534%3A%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%87-river-city-ransom-ex-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%9A%E0%B8%99-gba-%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B8%99%E0%B9%89%E0%B8%B2_auns555-2&view=article",
+      "verifiedPageTitle": "River City Ransom EX"
+    }
+  },
+  "notVerifiedAutomatically": [
+    "ไม่ได้ตรวจว่าโพสต์ดาวน์โหลดไฟล์แพตช์ได้จริงหรือไม่ (แคตตาล็อกเท่านั้น)",
+    "ไม่ได้ตรวจเครดิต/ลิขสิทธิ์ของภาพปกซ้ำในรอบนี้",
+    "ext-db-006 Rockman DASH: โพสต์ที่ผูกอยู่เป็น \"แจกฟรี! บทสรุป Rockman DASH [PS1]\" (คู่มือ) ไม่ใช่ประกาศแพตช์ — ต้องตรวจต่อว่า entry นี้ควรเป็นแพตช์หรือคู่มือ"
+  ]
+}

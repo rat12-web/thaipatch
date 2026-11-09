@@ -5999,15 +5999,16 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://andaplus.com/games/index.php?catid=475&id=5534%3A%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%87-river-city-ransom-ex-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%9A%E0%B8%99-gba-%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B8%99%E0%B9%89%E0%B8%B2_auns555-2&view=article",
-    "url": "https://www.facebook.com/share/p/1CNBmftiFj/",
-    "linkScope": "creator_post",
-    "navigationNote": "เว็บไซต์/โพสต์ของผู้แปลโดยตรง ไม่ผ่านเว็บไซต์รวบรวม",
+    "url": "https://andaplus.com/games/index.php?catid=475&id=5534%3A%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%87-river-city-ransom-ex-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%9A%E0%B8%99-gba-%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B8%99%E0%B9%89%E0%B8%B2_auns555-2&view=article",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าบทความเฉพาะเกมบน Andaplus Games ซึ่งลิงก์ไปยังผลงานของผู้แปล (โพสต์ Facebook เดิมเข้าไม่ได้แล้ว)",
     "sourceAudit": {
       "state": "inferred",
       "basis": "inherited_v029_audit",
-      "priorVerification": "โพสต์ของผู้แปลที่ระบุเป็นแหล่งแพตช์ในหน้าประวัติผู้แปล (อาจต้องล็อกอิน Facebook)",
-      "evidence": "baseline/ThaiPatch_WORK_READY_v0.29/CURRENT_v029/SOURCE_LINK_AUDIT_v0.29.csv",
-      "fresh": false
+      "priorVerification": "andaplus_game_article_links_creator",
+      "evidence": "https://andaplus.com/games/index.php?catid=475&id=5534%3A%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%87-river-city-ransom-ex-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%9A%E0%B8%99-gba-%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B8%99%E0%B9%89%E0%B8%B2_auns555-2&view=article",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/River%20City%20Ransom%20EX%20%28USA%29.png",
     "coverCandidateUrl": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/River%20City%20Ransom%20EX%20%28USA%29.png",
@@ -6054,7 +6055,17 @@
     },
     "playTimeHours": 8,
     "patchChanges": "หน้าแนะนำผลงานแปลไทยสายเรโทรจาก Andaplus Games · คลิกเพื่ออ่านรายละเอียดและตามลิงก์เจ้าของผลงานต่อได้ท...",
-    "patchCategory": "full_release"
+    "patchCategory": "full_release",
+    "sourceLocation": {
+      "method": "game_permalink",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://andaplus.com/games/index.php?catid=475&id=5534%3A%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%95%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%87-river-city-ransom-ex-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%9A%E0%B8%99-gba-%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B8%99%E0%B9%89%E0%B8%B2_auns555-2&view=article",
+      "selected": [
+        "River City Ransom EX"
+      ],
+      "autoSelectsPatch": false
+    }
   },
   {
     "id": "retro-202",
@@ -64349,12 +64360,12 @@
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/p/1dirDcoMYm/Harobots Robo Hero Battling",
     "url": "https://www.facebook.com/share/p/1dirDcoMYm/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "linkScope": "mismatched_post",
+    "navigationNote": "ลิงก์เดิมชี้ไปที่โพสต์ของเพจอื่น ไม่ใช่โพสต์ของผู้แปล (ตรวจ 2026-11-06) — อยู่ระหว่างหาโพสต์เฉพาะเกม",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
+      "method": "mismatched_post",
+      "verified": false,
       "checkedAt": "2026-10-30T10:00:00Z",
       "evidence": "https://www.facebook.com/share/p/1dirDcoMYm/Harobots Robo Hero Battling",
       "selected": [
@@ -64363,12 +64374,12 @@
       "autoSelectsPatch": true
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/p/1dirDcoMYm/Harobots Robo Hero Battling",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "state": "unresolved",
+      "basis": "linked_post_is_not_creator_game_post",
+      "priorVerification": "url_scope_mismatch_found",
+      "evidence": "https://www.facebook.com/share/p/1dirDcoMYm/",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/04c2bcfa-16bb-43cf-978d-1e690d1858ca/cover_max250px_1788971120334.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/04c2bcfa-16bb-43cf-978d-1e690d1858ca/cover_max250px_1788971120334.png",
@@ -64510,16 +64521,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/p/19TPr5gACH/?mibextid=wwXIfr",
-    "url": "https://www.facebook.com/share/p/19TPr5gACH/?mibextid=wwXIfr",
+    "creditEvidence": "https://www.facebook.com/story.php?story_fbid=122115836973459282&id=61593778466354",
+    "url": "https://www.facebook.com/story.php?story_fbid=122115836973459282&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/p/19TPr5gACH/?mibextid=wwXIfr",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/story.php?story_fbid=122115836973459282&id=61593778466354",
       "selected": [
         "Rockman Dash: Hagane no Boukenshin"
       ],
@@ -64528,10 +64539,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/p/19TPr5gACH/?mibextid=wwXIfr",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/story.php?story_fbid=122115836973459282&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/07e2b35e-c27a-47d3-95cf-8a4238e52983.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/07e2b35e-c27a-47d3-95cf-8a4238e52983.png",
@@ -64674,27 +64685,27 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/14qyyo3f782/",
-    "url": "https://www.facebook.com/share/14qyyo3f782/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "url": "https://www.facebook.com/auns555toys",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/auns555toys",
       "selected": [
         "Wagamama Fairy Mirumo de Pon! - Taisen Mahoudama"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
+      "evidence": "https://www.facebook.com/auns555toys",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/0919ad24-1262-4275-81a9-f358ae7b2087.png?t=1792250035109",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/0919ad24-1262-4275-81a9-f358ae7b2087.png?t=1792250035109",
@@ -64838,26 +64849,26 @@
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/talubgamethai/",
     "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
       "evidence": "https://www.facebook.com/talubgamethai/",
       "selected": [
         "Metal Max 4: Gekkou no Diva"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
       "evidence": "https://www.facebook.com/talubgamethai/",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/0a7d269e-c072-4bbc-98d6-78a0ced67c0c.png?t=1792164670745",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/0a7d269e-c072-4bbc-98d6-78a0ced67c0c.png?t=1792164670745",
@@ -65242,16 +65253,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ufGjE1YABst4vKhdwksQA9HETgWdLTceHuMbXmXu4g3DLkQBCk7V4spHpdFqWVHvl&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ufGjE1YABst4vKhdwksQA9HETgWdLTceHuMbXmXu4g3DLkQBCk7V4spHpdFqWVHvl&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ufGjE1YABst4vKhdwksQA9HETgWdLTceHuMbXmXu4g3DLkQBCk7V4spHpdFqWVHvl&id=61593778466354",
       "selected": [
         "Drill Dozer"
       ],
@@ -65260,10 +65271,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ufGjE1YABst4vKhdwksQA9HETgWdLTceHuMbXmXu4g3DLkQBCk7V4spHpdFqWVHvl&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/0d5c2034-d795-4339-af67-450cbba18031.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/0d5c2034-d795-4339-af67-450cbba18031.png",
@@ -65403,27 +65414,27 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/14qyyo3f782/",
-    "url": "https://www.facebook.com/share/14qyyo3f782/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "url": "https://www.facebook.com/auns555toys",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/auns555toys",
       "selected": [
         "Crayon Shin-Chan: Arashi o Yobu Cinema-Land no Daibouken!"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
+      "evidence": "https://www.facebook.com/auns555toys",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/10d105cb-ea0a-4acf-97f0-f3d5e01a55da.png?t=1792133996981",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/10d105cb-ea0a-4acf-97f0-f3d5e01a55da.png?t=1792133996981",
@@ -65482,16 +65493,16 @@
     "publisher": "น้า_auns555",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/14qyyo3f782/",
-    "url": "https://www.facebook.com/share/14qyyo3f782/",
+    "creditEvidence": "https://www.facebook.com/auns555toys/posts/pfbid0jHXLY5Js2eKhWw3JvQyY4BQLiXtDLr9UpxLWBv9TAxEgk7aNHMKSXcZPbAsJReXvl",
+    "url": "https://www.facebook.com/auns555toys/posts/pfbid0jHXLY5Js2eKhWw3JvQyY4BQLiXtDLr9UpxLWBv9TAxEgk7aNHMKSXcZPbAsJReXvl",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/auns555toys/posts/pfbid0jHXLY5Js2eKhWw3JvQyY4BQLiXtDLr9UpxLWBv9TAxEgk7aNHMKSXcZPbAsJReXvl",
       "selected": [
         "Contra"
       ],
@@ -65500,10 +65511,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/auns555toys/posts/pfbid0jHXLY5Js2eKhWw3JvQyY4BQLiXtDLr9UpxLWBv9TAxEgk7aNHMKSXcZPbAsJReXvl",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/11a946b8-47d5-48b7-b249-271a2f684e23.png?t=1792502238884",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/11a946b8-47d5-48b7-b249-271a2f684e23.png?t=1792502238884",
@@ -65562,16 +65573,16 @@
     "publisher": "แมวดำ แปลเกมส์",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
-    "url": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0wAkQrM5dp3ydrDQueLkXLm8WTREaLQbKfhbrTWXeDuFfqigEFiyRh94ri7dNhtjZl&id=61593545720503",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0wAkQrM5dp3ydrDQueLkXLm8WTREaLQbKfhbrTWXeDuFfqigEFiyRh94ri7dNhtjZl&id=61593545720503",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0wAkQrM5dp3ydrDQueLkXLm8WTREaLQbKfhbrTWXeDuFfqigEFiyRh94ri7dNhtjZl&id=61593545720503",
       "selected": [
         "Magical Pop'n"
       ],
@@ -65580,10 +65591,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0wAkQrM5dp3ydrDQueLkXLm8WTREaLQbKfhbrTWXeDuFfqigEFiyRh94ri7dNhtjZl&id=61593545720503",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/11d2abc4-4769-4dd7-b09d-d5cfcfe3bf2b/cover_max250px_1789980647726.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/11d2abc4-4769-4dd7-b09d-d5cfcfe3bf2b/cover_max250px_1789980647726.png",
@@ -66380,16 +66391,16 @@
     "publisher": "INorge Game Stream",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/1dAvujQF86/",
-    "url": "https://www.facebook.com/share/1dAvujQF86/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ADaPA4Hxqri8KYPjE5DEtV83WXtBmcXEgDfNmfyNYkr2YP3ujMPFgsicWP6Z7e3Sl&id=61594597258105",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ADaPA4Hxqri8KYPjE5DEtV83WXtBmcXEgDfNmfyNYkr2YP3ujMPFgsicWP6Z7e3Sl&id=61594597258105",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/1dAvujQF86/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ADaPA4Hxqri8KYPjE5DEtV83WXtBmcXEgDfNmfyNYkr2YP3ujMPFgsicWP6Z7e3Sl&id=61594597258105",
       "selected": [
         "Energy Breaker"
       ],
@@ -66398,10 +66409,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/1dAvujQF86/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ADaPA4Hxqri8KYPjE5DEtV83WXtBmcXEgDfNmfyNYkr2YP3ujMPFgsicWP6Z7e3Sl&id=61594597258105",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/19f767b3-b4b8-41e5-b095-2e876be23b62.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/19f767b3-b4b8-41e5-b095-2e876be23b62.png",
@@ -66540,16 +66551,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
+    "creditEvidence": "https://www.facebook.com/talubgamethai/posts/pfbid023cuJuTAQZoLaFrNoxjEjEUgKNLpyj36EtWcZNmDZgYMXfu2PrtWYifYDN2uBFXYfl",
+    "url": "https://www.facebook.com/talubgamethai/posts/pfbid023cuJuTAQZoLaFrNoxjEjEUgKNLpyj36EtWcZNmDZgYMXfu2PrtWYifYDN2uBFXYfl",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/talubgamethai/posts/pfbid023cuJuTAQZoLaFrNoxjEjEUgKNLpyj36EtWcZNmDZgYMXfu2PrtWYifYDN2uBFXYfl",
       "selected": [
         "Sweet Home"
       ],
@@ -66558,10 +66569,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/talubgamethai/posts/pfbid023cuJuTAQZoLaFrNoxjEjEUgKNLpyj36EtWcZNmDZgYMXfu2PrtWYifYDN2uBFXYfl",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/1a1032b7-f12c-49bc-90b9-dc8481654087/cover_max250px_1789980622393.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/1a1032b7-f12c-49bc-90b9-dc8481654087/cover_max250px_1789980622393.png",
@@ -67023,16 +67034,16 @@
     "publisher": "แปลตอนมีอารมณ์",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/1CAWan6Kko/",
-    "url": "https://www.facebook.com/share/1CAWan6Kko/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MmoHRq6rFPvHDDeMKdAvtVEDQ32BZSykcdwHN7n6nfqaYa4NCQyEWs3P4LTVRZMWl&id=61565630320285",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MmoHRq6rFPvHDDeMKdAvtVEDQ32BZSykcdwHN7n6nfqaYa4NCQyEWs3P4LTVRZMWl&id=61565630320285",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/1CAWan6Kko/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MmoHRq6rFPvHDDeMKdAvtVEDQ32BZSykcdwHN7n6nfqaYa4NCQyEWs3P4LTVRZMWl&id=61565630320285",
       "selected": [
         "Disney's Tarzan"
       ],
@@ -67041,10 +67052,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/1CAWan6Kko/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MmoHRq6rFPvHDDeMKdAvtVEDQ32BZSykcdwHN7n6nfqaYa4NCQyEWs3P4LTVRZMWl&id=61565630320285",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/1d093d55-01e1-4ae9-944c-8b9340dd9faa.png?t=1792588897214",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/1d093d55-01e1-4ae9-944c-8b9340dd9faa.png?t=1792588897214",
@@ -67103,16 +67114,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0tkJeZiVTvikvzeD97JZ654gNLuFgfKHYWuumAQamUx4gAmhmKsMV94QjSkgpK6Vtl&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0tkJeZiVTvikvzeD97JZ654gNLuFgfKHYWuumAQamUx4gAmhmKsMV94QjSkgpK6Vtl&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0tkJeZiVTvikvzeD97JZ654gNLuFgfKHYWuumAQamUx4gAmhmKsMV94QjSkgpK6Vtl&id=61593778466354",
       "selected": [
         "Grand Theft Auto Advance"
       ],
@@ -67121,10 +67132,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0tkJeZiVTvikvzeD97JZ654gNLuFgfKHYWuumAQamUx4gAmhmKsMV94QjSkgpK6Vtl&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/1e03036d-2f48-4043-b88f-5a70e2429463.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/1e03036d-2f48-4043-b88f-5a70e2429463.png",
@@ -67674,16 +67685,16 @@
     "publisher": "น้า_auns555",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/14qyyo3f782/",
-    "url": "https://www.facebook.com/share/14qyyo3f782/",
+    "creditEvidence": "https://www.facebook.com/auns555toys/posts/pfbid0x2YoQmEs9arWENxFQwEaocWmErtEEmQK3GU6mqsaxgCppEA3tiHPDPcYh9EGpu5Kl",
+    "url": "https://www.facebook.com/auns555toys/posts/pfbid0x2YoQmEs9arWENxFQwEaocWmErtEEmQK3GU6mqsaxgCppEA3tiHPDPcYh9EGpu5Kl",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/auns555toys/posts/pfbid0x2YoQmEs9arWENxFQwEaocWmErtEEmQK3GU6mqsaxgCppEA3tiHPDPcYh9EGpu5Kl",
       "selected": [
         "Sword of Mana"
       ],
@@ -67692,10 +67703,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/auns555toys/posts/pfbid0x2YoQmEs9arWENxFQwEaocWmErtEEmQK3GU6mqsaxgCppEA3tiHPDPcYh9EGpu5Kl",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/255a003a-2060-4ddc-98ae-2ee62d2a8146/cover_max250px_1789192647675.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/255a003a-2060-4ddc-98ae-2ee62d2a8146/cover_max250px_1789192647675.png",
@@ -67754,16 +67765,16 @@
     "publisher": "แมวดำ แปลเกมส์",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
-    "url": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zStEKC5G6qrzsLrN2oHTf9tuRhBXBeZgHPi9W2VZKCsmECcgArceTQbo4xm1goBil&id=61593545720503",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zStEKC5G6qrzsLrN2oHTf9tuRhBXBeZgHPi9W2VZKCsmECcgArceTQbo4xm1goBil&id=61593545720503",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zStEKC5G6qrzsLrN2oHTf9tuRhBXBeZgHPi9W2VZKCsmECcgArceTQbo4xm1goBil&id=61593545720503",
       "selected": [
         "Fire Emblem: Monshou no Nazo"
       ],
@@ -67772,10 +67783,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/profile.php?id=61593545720503&name=xhp_nt__fb__action__open_user",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zStEKC5G6qrzsLrN2oHTf9tuRhBXBeZgHPi9W2VZKCsmECcgArceTQbo4xm1goBil&id=61593545720503",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/25db8e48-0f1c-4253-9754-db373426eb8e/cover_max250px_1788708757177.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/25db8e48-0f1c-4253-9754-db373426eb8e/cover_max250px_1788708757177.png",
@@ -68409,16 +68420,16 @@
     "publisher": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/profile.php?id=61578104811406",
-    "url": "https://www.facebook.com/profile.php?id=61578104811406",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0NHcWwA9Kh7LLjwrdDp9KGtkgm46b5rSK2XaM4GLRUw2cvnrr3ZkX6tE18tHsJ8o5l&id=61578104811406",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0NHcWwA9Kh7LLjwrdDp9KGtkgm46b5rSK2XaM4GLRUw2cvnrr3ZkX6tE18tHsJ8o5l&id=61578104811406",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0NHcWwA9Kh7LLjwrdDp9KGtkgm46b5rSK2XaM4GLRUw2cvnrr3ZkX6tE18tHsJ8o5l&id=61578104811406",
       "selected": [
         "Yuu Yuu Hakusho DS: Ankoku Bujutsukai Hen"
       ],
@@ -68427,10 +68438,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0NHcWwA9Kh7LLjwrdDp9KGtkgm46b5rSK2XaM4GLRUw2cvnrr3ZkX6tE18tHsJ8o5l&id=61578104811406",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2aeacfed-bd1f-4af7-9c19-8619cde711e8.png?t=1792145230757",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2aeacfed-bd1f-4af7-9c19-8619cde711e8.png?t=1792145230757",
@@ -68572,16 +68583,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=phoenix-wright-trilogy",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=phoenix-wright-trilogy",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=phoenix-wright-trilogy",
       "selected": [
         "Phoenix Wright: Ace Attorney Trilogy"
       ],
@@ -68589,11 +68600,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=phoenix-wright-trilogy",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2b506a48-20a0-44af-97f3-9d6e5879000a.webp?t=1793334643465",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2b506a48-20a0-44af-97f3-9d6e5879000a.webp?t=1793334643465",
@@ -68735,16 +68746,16 @@
     "publisher": "Slinger Channel",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/1BwMUEwsB6/",
-    "url": "https://www.facebook.com/share/1BwMUEwsB6/",
+    "creditEvidence": "https://www.facebook.com/Slingerchannel/posts/pfbid0ofSKZH4sVJzHLK4dkJyFRkYd5UVbM13Uk8CfKfXGSTnbEEqNABrvmrn1YKobn9fgl",
+    "url": "https://www.facebook.com/Slingerchannel/posts/pfbid0ofSKZH4sVJzHLK4dkJyFRkYd5UVbM13Uk8CfKfXGSTnbEEqNABrvmrn1YKobn9fgl",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/1BwMUEwsB6/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/Slingerchannel/posts/pfbid0ofSKZH4sVJzHLK4dkJyFRkYd5UVbM13Uk8CfKfXGSTnbEEqNABrvmrn1YKobn9fgl",
       "selected": [
         "Prince of Tennis: Form the Strongest Team"
       ],
@@ -68753,10 +68764,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/1BwMUEwsB6/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/Slingerchannel/posts/pfbid0ofSKZH4sVJzHLK4dkJyFRkYd5UVbM13Uk8CfKfXGSTnbEEqNABrvmrn1YKobn9fgl",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2cb79349-6fac-4d83-a324-e6b23e3d6149.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2cb79349-6fac-4d83-a324-e6b23e3d6149.png",
@@ -68817,26 +68828,26 @@
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/talubgamethai/",
     "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
       "evidence": "https://www.facebook.com/talubgamethai/",
       "selected": [
         "E.X. Troopers"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
       "evidence": "https://www.facebook.com/talubgamethai/",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2ebf0486-30aa-4704-b110-4babc132a9a0.png?t=1792164461807",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/2ebf0486-30aa-4704-b110-4babc132a9a0.png?t=1792164461807",
@@ -69307,16 +69318,16 @@
     "publisher": "แปลตามใจ",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/183di52nB6/",
-    "url": "https://www.facebook.com/share/183di52nB6/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0336m3DXbYjwV8E57Xx74sHiRKFTD6MHpQAvv6czcNrcBc9SpikJr6nonAV5tp6aF2l&id=61594616446354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0336m3DXbYjwV8E57Xx74sHiRKFTD6MHpQAvv6czcNrcBc9SpikJr6nonAV5tp6aF2l&id=61594616446354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/183di52nB6/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0336m3DXbYjwV8E57Xx74sHiRKFTD6MHpQAvv6czcNrcBc9SpikJr6nonAV5tp6aF2l&id=61594616446354",
       "selected": [
         "Super Mario Land DX"
       ],
@@ -69325,10 +69336,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/183di52nB6/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0336m3DXbYjwV8E57Xx74sHiRKFTD6MHpQAvv6czcNrcBc9SpikJr6nonAV5tp6aF2l&id=61594616446354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3336a9e6-e294-4a90-afdb-7c1aa6017b2b.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3336a9e6-e294-4a90-afdb-7c1aa6017b2b.png",
@@ -69387,16 +69398,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02f1Q2mdHrBdxBL7p85xqPC3PCgr7SGzVExnq94PAZXUNee1LL7iTUk2FtGwhZNPD1l&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02f1Q2mdHrBdxBL7p85xqPC3PCgr7SGzVExnq94PAZXUNee1LL7iTUk2FtGwhZNPD1l&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02f1Q2mdHrBdxBL7p85xqPC3PCgr7SGzVExnq94PAZXUNee1LL7iTUk2FtGwhZNPD1l&id=61593778466354",
       "selected": [
         "LEGO Star Wars: The Complete Saga"
       ],
@@ -69405,10 +69416,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02f1Q2mdHrBdxBL7p85xqPC3PCgr7SGzVExnq94PAZXUNee1LL7iTUk2FtGwhZNPD1l&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/33b9cc34-669d-4ed0-bdb5-78971cf2434b.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/33b9cc34-669d-4ed0-bdb5-78971cf2434b.png",
@@ -69467,16 +69478,16 @@
     "publisher": "แปลตามใจ",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/183di52nB6/",
-    "url": "https://www.facebook.com/share/183di52nB6/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gxktgm4ozSX6iGn83ggwAu8cQSjseUNkHba7o2juvjFM9rm1zJdGaRCUKLBY9VjEl&id=61594616446354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gxktgm4ozSX6iGn83ggwAu8cQSjseUNkHba7o2juvjFM9rm1zJdGaRCUKLBY9VjEl&id=61594616446354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/183di52nB6/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gxktgm4ozSX6iGn83ggwAu8cQSjseUNkHba7o2juvjFM9rm1zJdGaRCUKLBY9VjEl&id=61594616446354",
       "selected": [
         "Goodboy Galaxy"
       ],
@@ -69485,10 +69496,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/183di52nB6/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gxktgm4ozSX6iGn83ggwAu8cQSjseUNkHba7o2juvjFM9rm1zJdGaRCUKLBY9VjEl&id=61594616446354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/34efd162-133d-4614-9125-660219fe2664.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/34efd162-133d-4614-9125-660219fe2664.png",
@@ -69787,16 +69798,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=rune-factory-4",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=rune-factory-4",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=rune-factory-4",
       "selected": [
         "Rune Factory 4"
       ],
@@ -69804,11 +69815,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=rune-factory-4",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/38d43b42-5391-4738-926d-1e0f00a0aa25.png?t=1792367448084",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/38d43b42-5391-4738-926d-1e0f00a0aa25.png?t=1792367448084",
@@ -69947,16 +69958,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=bravely-default",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=bravely-default",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=bravely-default",
       "selected": [
         "Bravely Default"
       ],
@@ -69964,11 +69975,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=bravely-default",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/393f8c82-9f55-4617-a946-a0690e6bab70.webp?t=1793105847285",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/393f8c82-9f55-4617-a946-a0690e6bab70.webp?t=1793105847285",
@@ -70110,16 +70121,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHDyackZMU8Su7bfpJch3ahmFuiJZqZdTtNKGYRV1iwgeWwRLjjk7STsBY9k61Mkl&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHDyackZMU8Su7bfpJch3ahmFuiJZqZdTtNKGYRV1iwgeWwRLjjk7STsBY9k61Mkl&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHDyackZMU8Su7bfpJch3ahmFuiJZqZdTtNKGYRV1iwgeWwRLjjk7STsBY9k61Mkl&id=61593778466354",
       "selected": [
         "Star Fox"
       ],
@@ -70128,10 +70139,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHDyackZMU8Su7bfpJch3ahmFuiJZqZdTtNKGYRV1iwgeWwRLjjk7STsBY9k61Mkl&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3a125998-8725-4925-a9a7-49bbc8001224.webp?t=1793286048029",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3a125998-8725-4925-a9a7-49bbc8001224.webp?t=1793286048029",
@@ -70272,26 +70283,26 @@
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/GadgetdoorFanpage",
     "url": "https://www.facebook.com/GadgetdoorFanpage",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
       "evidence": "https://www.facebook.com/GadgetdoorFanpage",
       "selected": [
         "Dragon Ball: Mystery of Shenron"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
       "evidence": "https://www.facebook.com/GadgetdoorFanpage",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3aa94386-a883-4dff-8863-e36e50371761/cover_max250px_1788561970620.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3aa94386-a883-4dff-8863-e36e50371761/cover_max250px_1788561970620.png",
@@ -70510,16 +70521,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0361AMW3Q2HdVVRePAZAEEdAETB8ac66UbsXfyiMcGpKWgqmFvNja2mDR81vgbddXRl&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0361AMW3Q2HdVVRePAZAEEdAETB8ac66UbsXfyiMcGpKWgqmFvNja2mDR81vgbddXRl&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0361AMW3Q2HdVVRePAZAEEdAETB8ac66UbsXfyiMcGpKWgqmFvNja2mDR81vgbddXRl&id=61593778466354",
       "selected": [
         "Metal Gear Solid: Integral"
       ],
@@ -70528,10 +70539,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0361AMW3Q2HdVVRePAZAEEdAETB8ac66UbsXfyiMcGpKWgqmFvNja2mDR81vgbddXRl&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3e004763-8e28-443e-97a8-05bd1c59b286/cover_max250px_1789195216631.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/3e004763-8e28-443e-97a8-05bd1c59b286/cover_max250px_1789195216631.png",
@@ -70753,16 +70764,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=yo-kai-watch-2",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=yo-kai-watch-2",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=yo-kai-watch-2",
       "selected": [
         "Yo-kai Watch 2: Psychic Specters"
       ],
@@ -70770,11 +70781,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=yo-kai-watch-2",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/4067f615-0ed7-4ce9-9525-4563336b2a2a/cover_max250px_1790127802656.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/4067f615-0ed7-4ce9-9525-4563336b2a2a/cover_max250px_1790127802656.png",
@@ -71156,16 +71167,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0387NHRbJjJ8PuCDFpp6Ed91kGq9pTSAg1PYK3bmzTXz7HusjYyzidgCthxBGz424ul&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0387NHRbJjJ8PuCDFpp6Ed91kGq9pTSAg1PYK3bmzTXz7HusjYyzidgCthxBGz424ul&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0387NHRbJjJ8PuCDFpp6Ed91kGq9pTSAg1PYK3bmzTXz7HusjYyzidgCthxBGz424ul&id=61593778466354",
       "selected": [
         "Dragon Ball 3: Gokuu Den"
       ],
@@ -71174,10 +71185,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0387NHRbJjJ8PuCDFpp6Ed91kGq9pTSAg1PYK3bmzTXz7HusjYyzidgCthxBGz424ul&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/417f3930-2bc8-4101-82c6-87cd2a823127.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/417f3930-2bc8-4101-82c6-87cd2a823127.png",
@@ -71719,16 +71730,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=dqm-joker-3-professional",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=dqm-joker-3-professional",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=dqm-joker-3-professional",
       "selected": [
         "Dragon Quest Monsters: Joker 3 Professional"
       ],
@@ -71736,11 +71747,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=dqm-joker-3-professional",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/475b39b2-ad72-4ec5-aba8-ea02ec587fec/cover_max250px_1790070506373.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/475b39b2-ad72-4ec5-aba8-ea02ec587fec/cover_max250px_1790070506373.png",
@@ -71799,16 +71810,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=time-travelers",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=time-travelers",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=time-travelers",
       "selected": [
         "Time Travelers"
       ],
@@ -71816,11 +71827,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=time-travelers",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/4864c9f3-df91-439d-978b-a9a815ade61a.webp?t=1793333999210",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/4864c9f3-df91-439d-978b-a9a815ade61a.webp?t=1793333999210",
@@ -71879,16 +71890,16 @@
     "publisher": "แปล mod by kai16",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/19Pk1nKoKu/",
-    "url": "https://www.facebook.com/share/19Pk1nKoKu/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZmTzRbs4XcS9A7hCc92CoqBaqdy7m4aiGcy1a79MGkAXU85fWWSubrJFhmsHtYd5l&id=61593778466354",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZmTzRbs4XcS9A7hCc92CoqBaqdy7m4aiGcy1a79MGkAXU85fWWSubrJFhmsHtYd5l&id=61593778466354",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZmTzRbs4XcS9A7hCc92CoqBaqdy7m4aiGcy1a79MGkAXU85fWWSubrJFhmsHtYd5l&id=61593778466354",
       "selected": [
         "Nekketsu Kakutou Densetsu"
       ],
@@ -71897,10 +71908,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19Pk1nKoKu/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZmTzRbs4XcS9A7hCc92CoqBaqdy7m4aiGcy1a79MGkAXU85fWWSubrJFhmsHtYd5l&id=61593778466354",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/48de4173-32f2-4b66-ae4b-555033eb1945.png?t=1792247974186",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/48de4173-32f2-4b66-ae4b-555033eb1945.png?t=1792247974186",
@@ -72772,16 +72783,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=front-mission-2089",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=front-mission-2089",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=front-mission-2089",
       "selected": [
         "Front Mission 2089: Border of Madness"
       ],
@@ -72789,11 +72800,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=front-mission-2089",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/53f2bc72-de9a-47f9-be0b-fcc506539b63.webp?t=1793333975992",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/53f2bc72-de9a-47f9-be0b-fcc506539b63.webp?t=1793333975992",
@@ -73015,16 +73026,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=love-plus-plus",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=love-plus-plus",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=love-plus-plus",
       "selected": [
         "Love Plus+"
       ],
@@ -73032,11 +73043,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=love-plus-plus",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/566bb8ea-7227-41a6-a674-7ad593a486c7.webp?t=1793334538486",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/566bb8ea-7227-41a6-a674-7ad593a486c7.webp?t=1793334538486",
@@ -73341,16 +73352,16 @@
     "publisher": "น้า_auns555",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/14qyyo3f782/",
-    "url": "https://www.facebook.com/share/14qyyo3f782/",
+    "creditEvidence": "https://www.facebook.com/auns555toys/posts/pfbid034rm9Kasx15eSUQLEGbUQSVqjZ3pBniMs1dounrXVCxtypFS2npb97JXDPYmTKcMLl",
+    "url": "https://www.facebook.com/auns555toys/posts/pfbid034rm9Kasx15eSUQLEGbUQSVqjZ3pBniMs1dounrXVCxtypFS2npb97JXDPYmTKcMLl",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/auns555toys/posts/pfbid034rm9Kasx15eSUQLEGbUQSVqjZ3pBniMs1dounrXVCxtypFS2npb97JXDPYmTKcMLl",
       "selected": [
         "Shining Soul"
       ],
@@ -73359,10 +73370,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/14qyyo3f782/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/auns555toys/posts/pfbid034rm9Kasx15eSUQLEGbUQSVqjZ3pBniMs1dounrXVCxtypFS2npb97JXDPYmTKcMLl",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/5d587ffc-1f62-402f-bbea-253d997e822a/cover_max250px_1789193891543.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/5d587ffc-1f62-402f-bbea-253d997e822a/cover_max250px_1789193891543.png",
@@ -73753,16 +73764,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=the-world-ends-with-you",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=the-world-ends-with-you",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=the-world-ends-with-you",
       "selected": [
         "The World Ends with You"
       ],
@@ -73770,11 +73781,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=the-world-ends-with-you",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6234b7e9-432f-4a3c-97d0-360f9757a8e7.png?t=1792164982210",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6234b7e9-432f-4a3c-97d0-360f9757a8e7.png?t=1792164982210",
@@ -73835,26 +73846,26 @@
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/talubgamethai/",
     "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
       "evidence": "https://www.facebook.com/talubgamethai/",
       "selected": [
         "Cardfight!! Vanguard G: Stride to Victory!! Sign In to Save"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
       "evidence": "https://www.facebook.com/talubgamethai/",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/62aab540-2006-499d-a0f2-7e15c20884a1.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/62aab540-2006-499d-a0f2-7e15c20884a1.png",
@@ -74079,16 +74090,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=dragon-quest-viii",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=dragon-quest-viii",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=dragon-quest-viii",
       "selected": [
         "Dragon Quest VIII: Journey of the Cursed King"
       ],
@@ -74096,11 +74107,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=dragon-quest-viii",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6548a57b-9781-4dff-8e57-f7ce7956f83c.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6548a57b-9781-4dff-8e57-f7ce7956f83c.png",
@@ -74323,27 +74334,27 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-    "url": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "url": "https://www.facebook.com/druglabeler",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/druglabeler",
       "selected": [
         "Atelier Lise: The Alchemist of Orde"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
+      "evidence": "https://www.facebook.com/druglabeler",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/66be5782-cb74-43e5-a551-e661671ffc94.webp?t=1793284891118",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/66be5782-cb74-43e5-a551-e661671ffc94.webp?t=1793284891118",
@@ -74568,16 +74579,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-go-thunderflash",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-go-thunderflash",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-go-thunderflash",
       "selected": [
         "Inazuma Eleven GO Chrono Stones: Thunderflash"
       ],
@@ -74585,11 +74596,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-go-thunderflash",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6a382fdf-e055-4f69-9e03-994c76dfe7b4.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6a382fdf-e055-4f69-9e03-994c76dfe7b4.png",
@@ -74728,16 +74739,16 @@
     "publisher": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/profile.php?id=61578104811406",
-    "url": "https://www.facebook.com/profile.php?id=61578104811406",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid036p82fxJ1eTqWxz6SBWTtXWtbdNRBE88JrPxvDSGryPXHpNFkE97H1W1FxodZCwKkl&id=61578104811406",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid036p82fxJ1eTqWxz6SBWTtXWtbdNRBE88JrPxvDSGryPXHpNFkE97H1W1FxodZCwKkl&id=61578104811406",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid036p82fxJ1eTqWxz6SBWTtXWtbdNRBE88JrPxvDSGryPXHpNFkE97H1W1FxodZCwKkl&id=61578104811406",
       "selected": [
         "Emblem of Gundam"
       ],
@@ -74746,10 +74757,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid036p82fxJ1eTqWxz6SBWTtXWtbdNRBE88JrPxvDSGryPXHpNFkE97H1W1FxodZCwKkl&id=61578104811406",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6dd59aab-cab2-453a-972e-e0adb4813449.webp?t=1793285527874",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/6dd59aab-cab2-453a-972e-e0adb4813449.webp?t=1793285527874",
@@ -75135,27 +75146,27 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-    "url": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "url": "https://www.facebook.com/druglabeler",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/druglabeler",
       "selected": [
         "Spice and Wolf: The Wind that Spans the Sea"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
+      "evidence": "https://www.facebook.com/druglabeler",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/7369737d-2cb5-467f-b5ac-008390156896.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/7369737d-2cb5-467f-b5ac-008390156896.png",
@@ -75378,27 +75389,27 @@
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-    "url": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "url": "https://www.facebook.com/druglabeler",
+    "linkScope": "owner_page",
+    "navigationNote": "ลิงก์หน้าเพจของทีม ยังไม่พบโพสต์เฉพาะเกมนี้ (ตรวจ 2026-11-06)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
+      "method": "owner_page",
+      "verified": false,
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/druglabeler",
       "selected": [
         "Lina no Atelier: Strahl no Renkinjutsushi"
       ],
-      "autoSelectsPatch": true
+      "autoSelectsPatch": false
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/19pznu1Cf2/?mibextid=wwXIfr",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "state": "inferred",
+      "basis": "page_level_link_pending_game_post",
+      "priorVerification": "page_identity_only",
+      "evidence": "https://www.facebook.com/druglabeler",
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/7ab6cafc-5a83-4158-81c8-47e2cf1730aa.webp?t=1793284995572",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/7ab6cafc-5a83-4158-81c8-47e2cf1730aa.webp?t=1793284995572",
@@ -75622,12 +75633,12 @@
     "creditStatus": "verified_translator",
     "creditEvidence": "https://www.facebook.com/share/p/18tgQMpYRG/",
     "url": "https://www.facebook.com/share/p/18tgQMpYRG/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "linkScope": "mismatched_post",
+    "navigationNote": "ลิงก์เดิมชี้ไปที่โพสต์สรุปเกม GBA ของบุคคลอื่น ไม่ใช่โพสต์ของผู้แปล (ตรวจ 2026-11-06) — อยู่ระหว่างหาโพสต์เฉพาะเกม",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
-      "method": "game_permalink",
-      "verified": true,
+      "method": "mismatched_post",
+      "verified": false,
       "checkedAt": "2026-10-30T10:00:00Z",
       "evidence": "https://www.facebook.com/share/p/18tgQMpYRG/",
       "selected": [
@@ -75636,12 +75647,12 @@
       "autoSelectsPatch": true
     },
     "sourceAudit": {
-      "state": "verified",
-      "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
+      "state": "unresolved",
+      "basis": "linked_post_is_not_creator_game_post",
+      "priorVerification": "url_scope_mismatch_found",
       "evidence": "https://www.facebook.com/share/p/18tgQMpYRG/",
-      "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "fresh": false,
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/7c1df5c1-bfa2-4fc6-8646-1ddcab1dbfa4/cover_max250px_1789203118232.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/7c1df5c1-bfa2-4fc6-8646-1ddcab1dbfa4/cover_max250px_1789203118232.png",
@@ -76678,16 +76689,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
+    "creditEvidence": "https://www.facebook.com/talubgamethai/posts/pfbid036fAdHLQVXGuSoYVseRAQ3pSYyXs88iYGztLR7AAP6ZTxbGxV66YN5GooAmWiKSanl",
+    "url": "https://www.facebook.com/talubgamethai/posts/pfbid036fAdHLQVXGuSoYVseRAQ3pSYyXs88iYGztLR7AAP6ZTxbGxV66YN5GooAmWiKSanl",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/talubgamethai/posts/pfbid036fAdHLQVXGuSoYVseRAQ3pSYyXs88iYGztLR7AAP6ZTxbGxV66YN5GooAmWiKSanl",
       "selected": [
         "PoPoLoCrois"
       ],
@@ -76696,10 +76707,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/talubgamethai/posts/pfbid036fAdHLQVXGuSoYVseRAQ3pSYyXs88iYGztLR7AAP6ZTxbGxV66YN5GooAmWiKSanl",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/88678f92-49f8-4372-838d-6e924645399c/cover_max250px_1789636209307.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/88678f92-49f8-4372-838d-6e924645399c/cover_max250px_1789636209307.png",
@@ -76758,16 +76769,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=mini-yonku-wgp2",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=mini-yonku-wgp2",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=mini-yonku-wgp2",
       "selected": [
         "Mini Yonku Let's & Go!! Power WGP 2"
       ],
@@ -76775,11 +76786,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=mini-yonku-wgp2",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/888295b3-9a7b-400a-85da-bcd4175664ec.png?t=1792164944215",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/888295b3-9a7b-400a-85da-bcd4175664ec.png?t=1792164944215",
@@ -77084,16 +77095,16 @@
     "publisher": "สลอธเล่นเกม เล่นเกมแบบสลอธ",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/profile.php?id=61578104811406",
-    "url": "https://www.facebook.com/profile.php?id=61578104811406",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JtVJyLr7z23rVeuWZrcSh9PcxKcMw5hmKC9hn8RYKbuLDGFY13kyc8U2dQmoF5P6l&id=61578104811406",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JtVJyLr7z23rVeuWZrcSh9PcxKcMw5hmKC9hn8RYKbuLDGFY13kyc8U2dQmoF5P6l&id=61578104811406",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JtVJyLr7z23rVeuWZrcSh9PcxKcMw5hmKC9hn8RYKbuLDGFY13kyc8U2dQmoF5P6l&id=61578104811406",
       "selected": [
         "Mini Yonku DS"
       ],
@@ -77102,10 +77113,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/profile.php?id=61578104811406",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JtVJyLr7z23rVeuWZrcSh9PcxKcMw5hmKC9hn8RYKbuLDGFY13kyc8U2dQmoF5P6l&id=61578104811406",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/8a1c119b-254b-4234-a1dc-e1b565b61e8a.png",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/8a1c119b-254b-4234-a1dc-e1b565b61e8a.png",
@@ -77573,16 +77584,16 @@
     "publisher": "แปลตอนมีอารมณ์",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/share/1CAWan6Kko/",
-    "url": "https://www.facebook.com/share/1CAWan6Kko/",
+    "creditEvidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0357wcxzRitH9mEw9vdieGsdwAn958BBp6UoibKeTzx79SFB2KnwDpvPXuwbM2gTpYl&id=61565630320285",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0357wcxzRitH9mEw9vdieGsdwAn958BBp6UoibKeTzx79SFB2KnwDpvPXuwbM2gTpYl&id=61565630320285",
     "linkScope": "owner_game",
-    "navigationNote": "",
+    "navigationNote": "โพสต์ของผู้แปลโดยตรงสำหรับเกมนี้ (ไม่ใช่หน้าเพจหรือโพสต์รวม)",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/share/1CAWan6Kko/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0357wcxzRitH9mEw9vdieGsdwAn958BBp6UoibKeTzx79SFB2KnwDpvPXuwbM2gTpYl&id=61565630320285",
       "selected": [
         "Pepsiman"
       ],
@@ -77591,10 +77602,10 @@
     "sourceAudit": {
       "state": "verified",
       "basis": "fresh_source_selected_game",
-      "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/share/1CAWan6Kko/",
+      "priorVerification": "fresh_facebook_post_selected_game",
+      "evidence": "https://www.facebook.com/permalink.php?story_fbid=pfbid0357wcxzRitH9mEw9vdieGsdwAn958BBp6UoibKeTzx79SFB2KnwDpvPXuwbM2gTpYl&id=61565630320285",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/8e0b9743-c804-41bd-a0cd-6ed59c28d3ab.png?t=1792833237191",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/8e0b9743-c804-41bd-a0cd-6ed59c28d3ab.png?t=1792833237191",
@@ -77896,16 +77907,16 @@
     "publisher": "ตลับเกมภาษาไทย",
     "creditRole": "ผู้แปล",
     "creditStatus": "verified_translator",
-    "creditEvidence": "https://www.facebook.com/talubgamethai/",
-    "url": "https://www.facebook.com/talubgamethai/",
-    "linkScope": "owner_game",
-    "navigationNote": "",
+    "creditEvidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-eleven-123",
+    "url": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-eleven-123",
+    "linkScope": "game_page",
+    "navigationNote": "หน้าเกมเฉพาะบนเว็บทางการของทีม ตลับเกมภาษาไทย",
     "catalogAddedAt": "2026-10-30",
     "sourceLocation": {
       "method": "game_permalink",
       "verified": true,
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "checkedAt": "2026-11-06T11:30:00Z",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-eleven-123",
       "selected": [
         "Inazuma Eleven 1-2-3!! Endou Mamoru Densetsu"
       ],
@@ -77913,11 +77924,11 @@
     },
     "sourceAudit": {
       "state": "verified",
-      "basis": "fresh_source_selected_game",
+      "basis": "fresh_browser_selected_game",
       "priorVerification": "creator_website",
-      "evidence": "https://www.facebook.com/talubgamethai/",
+      "evidence": "https://haasbeat.github.io/talub-game-thai/game.html?game=inazuma-eleven-123",
       "fresh": true,
-      "checkedAt": "2026-10-30T10:00:00Z"
+      "checkedAt": "2026-11-06T11:30:00Z"
     },
     "cover": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/8fa672e2-0d82-46de-9ff2-dde92f1b43bf.png?t=1792833685441",
     "coverCandidateUrl": "https://pub-6ba6c842bf76437db39aeb21dc0f37e2.r2.dev/covers/8fa672e2-0d82-46de-9ff2-dde92f1b43bf.png?t=1792833685441",
