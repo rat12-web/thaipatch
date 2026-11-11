@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T06:48:16.615890+00:00",
+  "checkedAt": "2026-11-11T19:44:20.611953+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,7 +16,7 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 299,
+      "records": 300,
       "matched": 284,
       "updated": 0
     },
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 191,
+      "records": 194,
       "matched": 173,
       "updated": 0
     },
@@ -64,7 +64,7 @@
     },
     "h2y": {
       "state": "ok",
-      "records": 74,
+      "records": 75,
       "matched": 53,
       "updated": 0
     },
@@ -98,7 +98,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -109,7 +109,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -120,7 +120,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -131,7 +131,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -142,7 +142,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -153,7 +153,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -164,7 +164,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -175,7 +175,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -186,7 +186,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -197,7 +197,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "memory",
@@ -208,7 +208,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -219,7 +219,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -230,7 +230,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -241,7 +241,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -252,7 +252,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -263,7 +263,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -274,7 +274,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -285,7 +285,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -296,7 +296,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -307,7 +307,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -318,7 +318,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -329,7 +329,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -340,7 +340,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -351,7 +351,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -362,7 +362,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "nonplae",
@@ -373,7 +373,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "tactics-ogre-the-knight-of-lodis",
+      "title": "Tactics Ogre: The Knight of Lodis (GBA)",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "murphy",
@@ -384,7 +395,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "murphy",
@@ -395,7 +406,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "murphy",
@@ -406,7 +417,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -417,7 +428,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -428,7 +439,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -439,7 +450,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -450,7 +461,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -461,7 +472,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -472,7 +483,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -483,7 +494,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -494,7 +505,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -505,7 +516,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -516,7 +527,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -527,7 +538,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -538,7 +549,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -549,7 +560,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -560,7 +571,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -571,7 +582,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -582,18 +593,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "monster",
-      "source": "https://monster-plae.pages.dev/patches/patches.json",
-      "key": "star-driver-kagayaki-no-takuto",
-      "title": "Star Driver: Kagayaki no Takuto",
-      "platform": "PSP",
-      "sourceAvailability": "site_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "monster",
@@ -604,7 +604,51 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "star-driver-kagayaki-no-takuto",
+      "title": "Star Driver: Kagayaki no Takuto",
+      "platform": "PSP",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "shining-force",
+      "title": "Shining Force",
+      "platform": "SEGA GENESIS",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "shining-force-gaiden",
+      "title": "Shining Force Gaiden",
+      "platform": "GAME GEAR",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "cardfight-vanguard-lock-on-victory",
+      "title": "Cardfight Vanguard: Lock On Victory",
+      "platform": "NINTENDO 3DS",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "retrogame",
@@ -615,7 +659,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "rommeaow",
@@ -626,7 +670,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "rommeaow",
@@ -637,7 +681,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "90s",
@@ -648,7 +692,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "90s",
@@ -659,7 +703,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "90s",
@@ -670,7 +714,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "khraiplae",
@@ -681,7 +725,7 @@
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "khraiplae",
@@ -692,106 +736,7 @@
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 75,
-      "title": "Chip 'n Dale - Rescue Rangers 2",
-      "platform": "NES",
-      "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 65,
-      "title": "Super Robot Taisen - Link Battler",
-      "platform": "GBC",
-      "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 73,
-      "title": "Kouryuu Densetsu Villgust - Kieta Shoujo",
-      "platform": "SNES",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 74,
-      "title": "DuckTales 2",
-      "platform": "NES",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 71,
-      "title": "Fushigi no Dungeon - Fuurai no Shiren GB2 - Sabaku no Majou",
-      "platform": "GBC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 70,
-      "title": "Lupin Sansei - Pandora no Isan",
-      "platform": "NES",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 67,
-      "title": "Mouryou Senki Madara 2",
-      "platform": "SNES",
-      "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 72,
-      "title": "Ninjara Hoi!",
-      "platform": "NES",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 62,
-      "title": "Tokimeki Memorial Pocket - Sport Hen",
-      "platform": "GBC",
-      "sourceAvailability": "patch_listed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -802,7 +747,117 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 65,
+      "title": "Super Robot Taisen - Link Battler",
+      "platform": "GBC",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 67,
+      "title": "Mouryou Senki Madara 2",
+      "platform": "SNES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 75,
+      "title": "Chip 'n Dale - Rescue Rangers 2",
+      "platform": "NES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 76,
+      "title": "SD Gundam - Gachapon Senshi 5 - Battle of Universal Century",
+      "platform": "NES",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 73,
+      "title": "Kouryuu Densetsu Villgust - Kieta Shoujo",
+      "platform": "SNES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 74,
+      "title": "DuckTales 2",
+      "platform": "NES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 71,
+      "title": "Fushigi no Dungeon - Fuurai no Shiren GB2 - Sabaku no Majou",
+      "platform": "GBC",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 70,
+      "title": "Lupin Sansei - Pandora no Isan",
+      "platform": "NES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 72,
+      "title": "Ninjara Hoi!",
+      "platform": "NES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 62,
+      "title": "Tokimeki Memorial Pocket - Sport Hen",
+      "platform": "GBC",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -813,7 +868,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -824,7 +879,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -835,7 +890,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -846,7 +901,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -857,7 +912,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -868,7 +923,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -879,7 +934,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -890,7 +945,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -901,7 +956,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -912,7 +967,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "h2y",
@@ -923,7 +978,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "neengan",
@@ -934,7 +989,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "neengan",
@@ -945,7 +1000,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "varbara",
@@ -956,7 +1011,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "namao",
@@ -967,7 +1022,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "namao",
@@ -978,7 +1033,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     },
     {
       "feed": "namao",
@@ -989,7 +1044,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-11T06:48:16.615890+00:00"
+      "lastSeenAt": "2026-11-11T19:44:20.611953+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",
