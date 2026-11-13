@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T06:57:53.261480+00:00",
+  "checkedAt": "2026-11-13T19:53:18.480932+00:00",
   "automaticRefresh": true,
   "feeds": {
     "memory": {
@@ -16,9 +16,9 @@
     },
     "nonplae": {
       "state": "ok",
-      "records": 304,
+      "records": 306,
       "matched": 284,
-      "updated": 0
+      "updated": 1
     },
     "retro": {
       "state": "ok",
@@ -34,7 +34,7 @@
     },
     "monster": {
       "state": "ok",
-      "records": 203,
+      "records": 207,
       "matched": 173,
       "updated": 0
     },
@@ -64,9 +64,9 @@
     },
     "h2y": {
       "state": "ok",
-      "records": 78,
+      "records": 81,
       "matched": 53,
-      "updated": 0
+      "updated": 1
     },
     "neengan": {
       "state": "ok",
@@ -87,7 +87,10 @@
       "updated": 0
     }
   },
-  "changedRecords": [],
+  "changedRecords": [
+    "nonplae-066",
+    "ext-db-212-mike-tyson-s-punch-out"
+  ],
   "newCandidates": [
     {
       "feed": "memory",
@@ -98,7 +101,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -109,7 +112,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -120,7 +123,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -131,7 +134,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -142,7 +145,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -153,7 +156,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -164,7 +167,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -175,7 +178,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -186,7 +189,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -197,7 +200,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "memory",
@@ -208,7 +211,18 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "diabolik-lovers-haunted-dark-bridal",
+      "title": "Diabolik Lovers Haunted Dark Bridal (PSP)",
+      "platform": "PSP",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -219,7 +233,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -230,7 +244,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -241,7 +255,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -252,7 +266,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -263,7 +277,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -274,7 +288,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -285,7 +299,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -296,7 +310,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -307,7 +321,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -318,7 +332,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -329,7 +343,18 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "nonplae",
+      "source": "https://www.nonplae.com/api/patch-games",
+      "key": "gyakuten-saiban-2",
+      "title": "Gyakuten Saiban 2 (GBA)",
+      "platform": "GBA",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -340,7 +365,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -351,7 +376,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -362,7 +387,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -373,7 +398,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -384,7 +409,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -395,7 +420,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -406,7 +431,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -417,7 +442,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "nonplae",
@@ -428,7 +453,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "murphy",
@@ -439,7 +464,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "murphy",
@@ -450,7 +475,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "murphy",
@@ -461,7 +486,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -472,7 +497,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -483,7 +508,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -494,7 +519,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -505,7 +530,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -516,7 +541,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -527,7 +552,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -538,7 +563,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -549,7 +574,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -560,7 +585,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -571,7 +596,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -582,7 +607,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -593,7 +618,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -604,7 +629,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -615,7 +640,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -626,7 +651,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -637,7 +662,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -648,7 +673,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -659,7 +684,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -670,7 +695,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -681,7 +706,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -692,7 +717,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -703,7 +728,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -714,7 +739,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -725,7 +750,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -736,7 +761,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -747,7 +772,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -758,7 +783,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -769,7 +794,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -780,7 +805,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "monster",
@@ -791,7 +816,51 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "monster-guardians",
+      "title": "Monster Guardians",
+      "platform": "GAME BOY ADVANCE",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "tokimeki-memorial-4",
+      "title": "Tokimeki Memorial 4",
+      "platform": "PSP",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "dynasty-warriors-6",
+      "title": "Dynasty Warriors 6",
+      "platform": "PlayStation 2",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "monster",
+      "source": "https://monster-plae.pages.dev/patches/patches.json",
+      "key": "digimon-universe-appli-monsters",
+      "title": "Digimon Universe: Appli Monsters",
+      "platform": "NINTENDO 3DS",
+      "sourceAvailability": "site_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "retrogame",
@@ -802,7 +871,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "retrogame",
@@ -813,7 +882,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "rommeaow",
@@ -824,7 +893,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "rommeaow",
@@ -835,7 +904,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "90s",
@@ -846,7 +915,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "90s",
@@ -857,7 +926,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "90s",
@@ -868,7 +937,7 @@
       "sourceAvailability": "site_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "khraiplae",
@@ -879,7 +948,7 @@
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "khraiplae",
@@ -890,7 +959,51 @@
       "sourceAvailability": "not_listed_for_download",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 82,
+      "title": "Bloody Warriors: Shan-Go no Gyakushuu",
+      "platform": "NES",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 81,
+      "title": "Kenyuu Densetsu Yaiba",
+      "platform": "GB",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 80,
+      "title": "Super Chinese 3",
+      "platform": "NES",
+      "sourceAvailability": "release_unconfirmed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
+    },
+    {
+      "feed": "h2y",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "key": 79,
+      "title": "Kouryuu no Mimi",
+      "platform": "SNES",
+      "sourceAvailability": "patch_listed",
+      "state": "pending_route_edition_review",
+      "sourceState": "current",
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -901,7 +1014,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -912,18 +1025,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
-    },
-    {
-      "feed": "h2y",
-      "source": "https://retro-trans.h2y.workers.dev/api/games",
-      "key": 79,
-      "title": "Kouryuu no Mimi",
-      "platform": "SNES",
-      "sourceAvailability": "release_unconfirmed",
-      "state": "pending_route_edition_review",
-      "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -934,7 +1036,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -945,7 +1047,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -956,7 +1058,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -967,7 +1069,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -978,7 +1080,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -989,7 +1091,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1000,7 +1102,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1011,7 +1113,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1022,7 +1124,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1033,7 +1135,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1044,7 +1146,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1055,7 +1157,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1066,7 +1168,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1077,7 +1179,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1088,7 +1190,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1099,7 +1201,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1110,7 +1212,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1121,7 +1223,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1132,7 +1234,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1143,7 +1245,7 @@
       "sourceAvailability": "patch_listed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1154,7 +1256,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "h2y",
@@ -1165,7 +1267,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "neengan",
@@ -1176,7 +1278,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "neengan",
@@ -1187,7 +1289,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "varbara",
@@ -1198,7 +1300,7 @@
       "sourceAvailability": "source_disabled",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "namao",
@@ -1209,7 +1311,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "namao",
@@ -1220,7 +1322,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     },
     {
       "feed": "namao",
@@ -1231,7 +1333,7 @@
       "sourceAvailability": "release_unconfirmed",
       "state": "pending_route_edition_review",
       "sourceState": "current",
-      "lastSeenAt": "2026-11-13T06:57:53.261480+00:00"
+      "lastSeenAt": "2026-11-13T19:53:18.480932+00:00"
     }
   ],
   "facebook": "unavailable_without_authorized_API",

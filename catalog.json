@@ -22191,8 +22191,8 @@
     "canonicalGameId": "super-robot-wars-alpha-gaiden",
     "platform": "PS1",
     "baseEdition": "",
-    "patchVersion": "1.1",
-    "version": "1.1",
+    "patchVersion": "1.2",
+    "version": "1.2",
     "date": "2026-10-15",
     "status": "released",
     "description": "Super Robot Wars Alpha Gaiden รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.0 — PlayStation",
@@ -22234,18 +22234,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-11-12T14:33:26.944Z",
+    "sourceUpdatedAt": "2026-11-13T08:05:52.429Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-11-12T14:33:26.944Z",
+      "value": "2026-11-13T08:05:52.429Z",
       "precision": "timestamp",
-      "rawValue": "2026-11-12T14:33:26.944Z",
+      "rawValue": "2026-11-13T08:05:52.429Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-11-12T20:09:05.756341+00:00",
-      "sourceVersion": "1.1",
+      "checkedAt": "2026-11-13T19:53:18.480932+00:00",
+      "sourceVersion": "1.2",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
@@ -22258,7 +22258,7 @@
     ],
     "playTimeHours": 45,
     "patchCategory": "partial_beta",
-    "patchChanges": "Super Robot Wars Alpha Gaiden รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.1 — PlayStation - แก้ข...",
+    "patchChanges": "Super Robot Wars Alpha Gaiden รายละเอียดแปล - แพตช์ภาษาไทย TH Nonplae Version 1.2 — PlayStation - แก้ข...",
     "sourceKey": "super-robot-wars-alpha-gaiden"
   },
   {
@@ -75549,8 +75549,8 @@
     "teamId": "team-007421f0cdaa",
     "platform": "NES",
     "baseEdition": null,
-    "patchVersion": "v1.1",
-    "version": "v1.1",
+    "patchVersion": "v1.2",
+    "version": "v1.2",
     "date": "2026-10-24",
     "status": "พร้อมแพตช์",
     "description": "แพตช์ภาษาไทยเกม Mike Tyson's Punch-Out!! บนเครื่องเล่น NES โดยทีม Happy2You",
@@ -75602,18 +75602,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-11-06",
+    "sourceUpdatedAt": "2026-11-13",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-11-06",
+      "value": "2026-11-13",
       "precision": "day",
-      "rawValue": "2026-11-06 15:27:05",
+      "rawValue": "2026-11-13 13:42:46",
       "source": "https://retro-trans.h2y.workers.dev/api/games",
       "field": "updated_at",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-11-06T19:34:04.307957+00:00",
-      "sourceVersion": "v1.1",
+      "checkedAt": "2026-11-13T19:53:18.480932+00:00",
+      "sourceVersion": "v1.2",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
