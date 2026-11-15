@@ -8085,15 +8085,22 @@
     ],
     "coverLabel": "",
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-09-28",
+    "sourceUpdatedAt": "2026-11-14",
     "sourceDateAudit": {
-      "state": "missing",
-      "kind": null,
-      "value": null,
-      "reason": "Source upload/patch date is not exposed in the audited metadata; original date/import date are not used."
+      "state": "verified_source_reported",
+      "kind": "patch_updated",
+      "value": "2026-11-14",
+      "rawValue": "2026-11-14 22:48:57",
+      "precision": "day",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "field": "updated_at",
+      "uploadDateVerified": false,
+      "sourceVersion": "v1.0",
+      "checkedAt": "2026-11-15T06:50:19.117381+00:00",
+      "evidence": ".sync/report.json"
     },
     "playTimeHours": 10,
-    "patchChanges": "หน้าของ Happy2you.net; เลือกไฟล์เกมต้นฉบับภายในเว็บไซต์เจ้าของผลงาน",
+    "patchChanges": "เกม Yu Yu Hakusho 4: Makai Touitsu Hen ชื่อไทยๆ : คนเก่งฟ้าประทาน ภาค 4: ศึกรวมอาณาจักรโลกปีศาจ เครื่อ...",
     "patchCategory": "full_release",
     "sourceKey": "yu-yu-hakusho-4-makai-touitsu-hen"
   },
@@ -67658,17 +67665,17 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-09-28",
+    "sourceUpdatedAt": "2026-11-14",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-09-28",
+      "value": "2026-11-14",
       "precision": "day",
-      "rawValue": "2026-09-28 05:16:12",
+      "rawValue": "2026-11-14 22:48:57",
       "source": "https://retro-trans.h2y.workers.dev/api/games",
       "field": "updated_at",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-11-05T03:31:08.428214+00:00",
+      "checkedAt": "2026-11-15T06:50:19.117381+00:00",
       "sourceVersion": "v1.0",
       "uploadDateVerified": false
     },
@@ -74467,26 +74474,26 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-09-20",
+    "sourceUpdatedAt": "2026-11-14",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-09-20",
+      "value": "2026-11-14",
       "precision": "day",
-      "rawValue": "2026-09-20",
-      "source": "https://retro-trans.h2y.workers.dev/",
-      "field": "updateDate",
+      "rawValue": "2026-11-14 22:48:32",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
+      "field": "updated_at",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T10:00:00Z",
-      "sourceVersion": "v1.0",
+      "checkedAt": "2026-11-15T06:50:19.117381+00:00",
+      "sourceVersion": "v1.2.1",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
       "https://retro-trans.h2y.workers.dev/api/files/images/new-game/1789625624682-a7078372-Cave_Noire_H2Y.png"
     ],
     "playTimeHours": 4,
-    "patchChanges": "แพตช์ภาษาไทยโดย Happy2You.net",
-    "patchCategory": "full_release",
+    "patchChanges": "เกมแนว Roguelike / Turn-based RPG (ตะลุยดันเจี้ยนแบบสลับตาเดิน) วางจำหน่ายเมื่อปี 1991 แปลอะไรบ้าง - เ...",
+    "patchCategory": "fix_update",
     "sourceKey": "cave-noire-japan"
   },
   {
