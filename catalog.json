@@ -37205,17 +37205,17 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-08-23T15:56:39.000Z",
+    "sourceUpdatedAt": "2026-11-15T12:12:42.689Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-08-23T15:56:39.000Z",
+      "value": "2026-11-15T12:12:42.689Z",
       "precision": "timestamp",
-      "rawValue": "2026-08-23T15:56:39.000Z",
+      "rawValue": "2026-11-15T12:12:42.689Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T09:56:23.511251Z",
+      "checkedAt": "2026-11-15T18:58:53.383772+00:00",
       "sourceVersion": "1.0",
       "uploadDateVerified": false
     },
@@ -37229,7 +37229,7 @@
     ],
     "playTimeHours": 15,
     "patchCategory": "full_release",
-    "patchChanges": "Ganbare Goemon 3 รองรับ ROM USA Update วันที่ 23/08/2026 1. โรงแรมค้างตอนเลือกจ่ายเงิน 2. สไปรท์กระพริบ มีบล็อกส...",
+    "patchChanges": "Ganbare Goemon 3 [SNES] - เนื้อเรื่องและบทสนทนากับตัวละคร - ชื่อสถานที่ในบทสนทนา - ตัวเลือกในบทสนทนาแล...",
     "sourceKey": "ganbare-goemon-3"
   },
   {
