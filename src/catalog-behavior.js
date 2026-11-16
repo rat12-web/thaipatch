@@ -4,7 +4,7 @@ function seriesPopularity(g){const n=SERIES_RANK.indexOf(seriesOf(g));return n<0
 function qs(){document.title='แปลไทยบอกด้วย · romthai.app — คลังเกมแปลไทย'}
 function matchesFilters(g){
  const tokens=normalizeSearch(state.query).split(' ').filter(Boolean);
- return tokens.every(t=>normalizeSearch([g.title,g.translatorName,g.source,g.platform,g.genre,seriesOf(g),g.patchChanges||'',g.patchVersion||''].join(' ')).includes(t))&&(!state.platform||g.platform===state.platform)&&(!state.series||seriesOf(g)===state.series)&&(!state.team||(g.translatorName||g.source)===state.team)&&(!state.genre||g.genre===state.genre)&&(!state.art||g.artStyle===state.art);
+ return tokens.every(t=>normalizeSearch([g.title,g.translatorName,g.source,g.platform,g.genre,seriesOf(g),typeof g.patchChanges==='string'?g.patchChanges:'',g.patchVersion||''].join(' ')).includes(t))&&(!state.platform||g.platform===state.platform)&&(!state.series||seriesOf(g)===state.series)&&(!state.team||(g.translatorName||g.source)===state.team)&&(!state.genre||g.genre===state.genre)&&(!state.art||g.artStyle===state.art);
 }
 function verifiedSourceStamp(g){
  const a=g.sourceDateAudit;if(!a||!['verified_source_reported','verified_file_upload'].includes(a.state))return 0;
@@ -34,7 +34,7 @@ function patchNoteHtml(g){
  const ver=(row.patchVersion||row.version||'').trim();
  const cat=row.patchCategory||(ver&&!/^v?1\.0(\.0)?$/i.test(ver)?'fix_update':'full_release');
  const badge=cat==='fix_update'?`🔧 แพตช์แก้ไข ${ver}`.trim():cat==='partial_beta'?`🧪 แพตช์บางส่วน ${ver}`.trim():`✨ แพตช์แปลครบ ${ver}`.trim();
- const detail=row.patchChanges||'ดูรายละเอียดการแปลที่เว็บไซต์ต้นทาง';
+ const detail=(typeof row.patchChanges==='string'?row.patchChanges:'')||'ดูรายละเอียดการแปลที่เว็บไซต์ต้นทาง';
  return `<div class="card-patch-info" data-patch-cat="${safe(cat)}"><span class="patch-cat-badge">${safe(badge)}</span><span class="patch-change-text" title="${safe(detail)}">${safe(detail)}</span></div>`;
 }
 function card(g){
@@ -59,7 +59,7 @@ function renderRecentUpdates(){
   const key=team+'_'+day;
   seenTeamDay[key]=(seenTeamDay[key]||0)+1;
   if(seenTeamDay[key]<=2)recent.push(g);
-  if(recent.length>=10)break;
+  if(recent.length>=14)break;
  }
  if(!recent.length){track.innerHTML='<p class="empty-update">ไม่มีรายการอัปเดตล่าสุด</p>';return;}
  track.innerHTML=`<div class="recent-changelog-list">${recent.map(g=>{
@@ -67,10 +67,10 @@ function renderRecentUpdates(){
   const d=new Date(verifiedSourceStamp(g)||Date.parse(val));
   const team=g.translatorName||g.source||'';
   const ver=g.patchVersion||g.version||'';
-  const isFix=g.patchCategory==='fix_update'||(g.patchChanges&&g.patchChanges.includes('แก้ไข'));
+  const isFix=g.patchCategory==='fix_update'||(typeof g.patchChanges==='string'&&g.patchChanges.includes('แก้ไข'));
   const actionText=isFix?'อัปเดตแก้ไขเกม':'อัปเดตเกม';
-  let changeText=g.patchChanges||(ver?`เวอร์ชัน ${ver}`:'อัปเดตแพตช์');
-  if(!g.patchChanges){
+  let changeText=(typeof g.patchChanges==='string'?g.patchChanges:'')||(ver?`เวอร์ชัน ${ver}`:'อัปเดตแพตช์');
+  if(!g.patchChanges||typeof g.patchChanges!=='string'){
    if(g.description&&g.description.includes('แปลทั้งเกม'))changeText=`แปลสมบูรณ์ทั้งเกม ${ver||''}`.trim();
    else if(g.description&&g.description.includes('แปลบทพูด'))changeText=`แปลเนื้อเรื่องและบทสนทนา ${ver||''}`.trim();
   }
@@ -339,7 +339,7 @@ function openTokenModal(){
 function renderAll(){filtersUI();$('teamSelect').innerHTML='<option value="">ทุกทีมแปล</option>'+[...new Set(catalog.map(g=>g.translatorName||g.source))].sort((a,b)=>a.localeCompare(b,'th')).map(t=>`<option value="${safe(t)}">${safe(t)}</option>`).join('');$('teamSelect').value=state.team;renderLibrary();renderFeatured();renderRecentUpdates();renderTodayPick();renderWishlistPoll();metrics()}
 function sourceNote(g){if(g.sourceLocation?.method==='patch_lab')return 'เข้าหน้า Patch Lab โดยตรง ต้นทางตรวจเกมจากไฟล์ ROM ของคุณ หรือเลือกเกมในช่องค้นหา';if(g.sourceLocation?.method==='text_fragment')return 'เปิดตรงตำแหน่ง '+g.title+' ที่ต้นทาง กดปกเกมเพื่อเปิดรายละเอียด/แพตช์';if(g.sourceAudit?.state==='failed_selection'||g.sourceAudit?.state==='default_match_inconclusive')return 'เมื่อถึงเว็บไซต์ 90S Game ให้เลือก '+g.title+' ในช่องเกมก่อนดำเนินการต่อ';if(g.sourceAudit?.state==='directory_only')return 'ลิงก์เปิดคลังของทีมแปล กรุณาเลือกเกมนี้ที่เว็บไซต์ต้นทาง';if(g.sourceAudit?.state==='inferred')return 'ยังไม่ยืนยันหน้าเกมเฉพาะ หากเปิดแล้วไม่ตรงเกม ให้ค้นหาชื่อเกมที่เว็บไซต์ต้นทาง';return ''}
 function groupPicker(key){const variants=catalog.filter(g=>gameGroupKey(g)===key);if(!variants.length)return;
- const name=canonicalTitle(variants[0]);const items=variants.map(g=>{const team=g.translatorName||g.source,url=sourceUrl(g),art=assetUrl(g.coverCandidateUrl||g.cover||'',g),logo=teamLogoUrl(g),note='';return `<a class="variant-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer"><span class="variant-media">${art?`<img src="${safe(art)}" alt="ปก ${safe(g.title)}" loading="lazy">`:''}</span><span class="variant-copy"><span class="variant-source">${logo?`<img class="variant-logo" src="${safe(logo)}" alt="" loading="lazy">`:''}<b>${safe(team)}</b></span><span class="variant-name">${safe(g.title)} · ${safe(g.platform)}</span><small class="variant-version">${safe((g.baseEdition?'ฐาน '+g.baseEdition+' · ':'')+'แพตช์ '+(g.patchVersion||g.version||'ดูที่ต้นทาง'))}</small>${g.patchChanges?`<small class="variant-changes">${safe(g.patchChanges)}</small>`:''}${note?`<small class="team-route">${safe(note)}</small>`:''}</span><span class="variant-arrow" aria-hidden="true">↗</span></a>`}).join('');
+ const name=canonicalTitle(variants[0]);const items=variants.map(g=>{const team=g.translatorName||g.source,url=sourceUrl(g),art=assetUrl(g.coverCandidateUrl||g.cover||'',g),logo=teamLogoUrl(g),note='';return `<a class="variant-link" href="${safe(url)}" target="_blank" rel="noopener noreferrer"><span class="variant-media">${art?`<img src="${safe(art)}" alt="ปก ${safe(g.title)}" loading="lazy">`:''}</span><span class="variant-copy"><span class="variant-source">${logo?`<img class="variant-logo" src="${safe(logo)}" alt="" loading="lazy">`:''}<b>${safe(team)}</b></span><span class="variant-name">${safe(g.title)} · ${safe(g.platform)}</span><small class="variant-version">${safe((g.baseEdition?'ฐาน '+g.baseEdition+' · ':'')+'แพตช์ '+(g.patchVersion||g.version||'ดูที่ต้นทาง'))}</small>${typeof g.patchChanges==='string'&&g.patchChanges?`<small class="variant-changes">${safe(g.patchChanges)}</small>`:''}${note?`<small class="team-route">${safe(note)}</small>`:''}</span><span class="variant-arrow" aria-hidden="true">↗</span></a>`}).join('');
  modal(name,`<div class="team-choice-head"><p>เลือกทีมแปลหรือฉบับที่ต้องการ แต่ละตัวเลือกจะเปิดเว็บไซต์เจ้าของผลงานในแท็บใหม่</p></div><div class="team-choice-list">${items}</div>`);
 }
 function reset(){Object.assign(state,{query:'',platform:'',genre:'',art:'',series:'',team:'',sort:'recent',limit:24});$('searchGlobal').value='';$('searchMain').value='';$('sortSelect').value='recent';renderAll()}

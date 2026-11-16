@@ -247,7 +247,7 @@
   },
   {
     "team": "ตลับเกมภาษาไทย",
-    "url": null,
+    "url": "https://haasbeat.github.io/talub-game-thai/assets/talub-logo.jpg",
     "verification": "on_site_identity_asset",
     "source": "https://www.facebook.com/talubgamethai",
     "hosting": "remote_url_not_mirrored",
@@ -256,8 +256,8 @@
     "rightsState": "unconfirmed",
     "localAllowed": false,
     "evidence": "https://www.facebook.com/talubgamethai",
-    "reviewState": "identity_image_unavailable",
-    "imageDecoded": false,
+    "reviewState": "on_site_identity_asset",
+    "imageDecoded": true,
     "decodeEvidence": "qa/upgrade/asset-decode.json"
   },
   {

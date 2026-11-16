@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-10",
+  "goal": "Balanced sync schedule (every 4 hours) + early-exit optimization to conserve Actions minutes",
+  "changes": {
+    "schedule": {
+      "before": "cron: '23 * * * *' (hourly, 24 runs/day = ~720 runs/month)",
+      "after": "cron: '23 */4 * * *' (every 4 hours, 6 runs/day = ~180 runs/month)",
+      "file": ".github/workflows/pages.yml"
+    },
+    "earlyExitOptimization": {
+      "strategy": "Run lightweight python check (.sync/refresh.py + test_refresh.py + build.py --check) first",
+      "gate": "git diff --quiet catalog.json app.js on schedule events",
+      "behaviorOnNoChange": "Skips Node setup, npm ci, Playwright Chromium install (~200MB), browser tests, git push, and Pages redeploy. Finishes in ~15 seconds with success checkmark.",
+      "behaviorOnChange": "Executes full Node setup, npm ci, Playwright Chromium, npm test, commit via github-actions[bot], and deploys to GitHub Pages.",
+      "behaviorOnPushOrDispatch": "Always runs full validation and deployment."
+    },
+    "estimatedResourceSavings": {
+      "timePerNoChangeRun": "Reduced from ~90-120 seconds to ~15 seconds (~85% faster)",
+      "monthlyActionsMinutes": "Reduced from ~1,440 minutes/month to ~45-90 minutes/month (~95% savings)",
+      "redundantDeployments": "Eliminated 100% of empty/unchanged redeploys"
+    }
+  },
+  "verification": {
+    "buildCheck": "PASS (python tools/build.py --check)",
+    "testRefresh": "PASS (python .sync/test_refresh.py 6/6 suites)",
+    "refreshCheck": "PASS (python .sync/refresh.py --check)"
+  }
+}

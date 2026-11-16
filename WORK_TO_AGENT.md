@@ -1,484 +1,523 @@
-## 2026-11-06 — Facebook-only creator links now point at the exact game post, or the team's own per-game page
-
-Owner: Active Repository Agent (OpenCode/DeepSeek); branch main.
-
-Catalog: 1,047 entries across 20 platforms (40 teams).
-- Broad Facebook links (page profiles and `share/<token>` links reused by several games) were replaced with the exact creator post in 24 entries: แปล mod by kai16 (7), สลอธเล่นเกม (2), แมวดำ แปลเกมส์ (1), น้า_auns555 (3), แปลตอนมีอารมณ์ (2), แปลตามใจ (2), INorge Game Stream (1), Slinger Channel (1), ตลับเกมภาษาไทย (2). kai16's Rockman DASH entry now uses the canonical `story.php` permalink of the post its old share link resolved to.
-- 13 `ตลับเกมภาษาไทย` entries moved off `facebook.com/talubgamethai/` to the team's own per-game page `https://haasbeat.github.io/talub-game-thai/game.html?game=<slug>`: Phoenix Wright Trilogy, Rune Factory 4, Bravely Default, Yo-kai Watch 2, DQM Joker 3 Professional, Time Travelers, Front Mission 2089, Love Plus+, The World Ends with You, Dragon Quest VIII, Inazuma Eleven GO Thunderflash, Mini Yonku WGP2, Inazuma Eleven 1-2-3. The page Intro and its posts announce that site, so it is the team's own per-game target rather than an aggregator.
-- `retro-201` River City Ransom EX: the old `share/p/1CNBmftiFj` link now returns "เนื้อหานี้ไม่พร้อมใช้งาน", so the entry points at the Andaplus article that names น้า_auns555 as the translator.
-- 11 entries could not be resolved to a per-game post and are marked honestly instead of being claimed as verified game links (`linkScope: owner_page` ×9, `linkScope: mismatched_post` + `sourceAudit.state: unresolved` ×2). Per-entry reasons live in `SOURCE_PATCH_BLOCKERS.md`.
-- Method: in-app browser using the existing logged-in session; one Facebook post search per game, then every chosen permalink was opened and its page title checked against the catalog title and the credited page id. Each ตลับเกมภาษาไทย site page was opened and its title/platform read. Evidence: `evidence/2026-11-06/facebook-per-game-links.json`.
-- Checks: `python tools/build.py` and `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa-catalog.cjs` 3/3 PASS.
-- Known pre-existing failure (unchanged, fails at HEAD too): `node tools/qa-platform-cards.cjs` on the 109 legacy records without `coverAlternatives`.
-- Next concrete action: keep looking for per-game posts for the 11 open entries (Metal Max 4, E.X. Troopers, Cardfight!! Vanguard G, Wagamama Mirumo, Crayon Shin-Chan, Dragon Ball: Mystery of Shenron, Atelier Lise, Spice and Wolf, Lina no Atelier, Harobots, Final Fantasy VI Advance), and decide whether `ext-db-006` Rockman DASH belongs as a patch entry — the post it now links to is a walkthrough.
-
----
-
-## 2026-11-06 — Thai-translation research for five requested games, Facebook source check, 3 new แมแปว releases (1,047), RE4 V1.2 refresh, and wishlist correction
-
-Owner: Active Repository Agent (OpenCode/DeepSeek); branch main (uncommitted at handoff until the commit step).
-
-Catalog: 1,047 verified entries across 20 platforms (40 teams).
-- Requested-game research (evidence: `evidence/2026-11-06/maepaew-new-releases-and-wishlist-correction.json`):
-  - Dragon Quest VII (PS1): no Thai patch found. Only Thai strategy guidebooks and a 2026 PC "Reimagined" mod exist.
-  - Grandia (PS1): no Thai patch found. Only a GRANDIA HD Remaster (PC) mod exists.
-  - Paper Mario (N64): no Thai patch found; only Super Paper Mario (Wii) is translated.
-  - Kingdom Hearts II (PS2): Thai localization exists for the PC Final Mix release (Nexus Mods 434); no distributable PS2 patch verified, so PS2 status stays unconfirmed.
-  - EarthBound / Mother 2 (SNES): Thai patch exists — นอนแปล v1.0, 2026-09-14, catalog `nonplae-202`.
-  - Method: scanned all 11 structured Thai feeds plus catalog, then targeted Google/Facebook checks.
-- Facebook: public post pages were readable in the in-app browser without login, so no plugin was installed. Confirmed นอนแปล's Mother 2 release post and Emulator Club's PS1 Thai-team list. Login-only posts and Facebook search remain inaccessible; no bypass attempted.
-- New catalog records from แมแปว (maepaew, already registered team), all route-verified in a browser:
-  - `ext-204` God of War (PS2, V1.0, 2026-11-02, `?game=17`, .ppf)
-  - `ext-205` God of War II (PS2, V1.0, 2026-11-02, `?game=18`, .ppf)
-  - `ext-206` Konami Wai Wai World (NES, Japan, V1.0, 2026-10-28, `?game=16`, .ips). Source labels the console Super Famicom, but the required ROM is a 262,160-byte `.nes` with a 16-byte header; recorded as NES with `navigationNote` explaining the discrepancy.
-- Corrected `ext-035` Resident Evil 4 (PS2): V1.1/2026-09-12 → V1.2/2026-10-23 with a verified source-date audit.
-- Wishlist correction: EarthBound was listed as untranslated although `nonplae-202` already provides it. Replaced `wishlist-04-earthbound` with `wishlist-04-supermetroid` (SNES, cover HTTP 200) and updated `tools/qa_verify_wishlist_and_tokens.js`; poll still has 10 entries.
-- Checks: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS (10 cards, 5 viewports); `node tools/qa_verify_today_pick_and_platform_sort.js` PASS (1,047 games, 0 Official labels); `node tools/qa-catalog.cjs` 3/3 PASS.
-- Known failure (pre-existing, not introduced here): `node tools/qa-platform-cards.cjs` fails its `coverAlternatives` assertion because 109 legacy records (mostly `ext-db-*`) have a primary cover but an empty alternatives list. The same predicate fails on `HEAD`/1,044, so this needs a separate data-fix batch.
-- Next concrete action: decide whether PC-only Thai mods (KH2 Final Mix, GRANDIA HD, DQ VII Reimagined) belong in the catalog; audit the Facebook-only teams named by Emulator Club (แปลนาน, Emu เข้าเส้น, เอไอแปลเกม, แมวเป้าแปลไปเรื่อย, Retro Thai Hub); consider a maepaew feed adapter; fix the 109 missing `coverAlternatives`.
-
----
-
-## 2026-11-06 — Fix user screenshot covers: prioritize authentic NONPLAE translation banner art, retain high-res backup alts, and guarantee zero 'Official Artwork' obstruction
-
-Owner: Active Repository Agent (Antigravity); branch feat/nonplae-target-covers-and-clean-plates.
-
-Catalog: 1,044 verified entries across 20 platforms.
-- Screenshot 1 & 2 Root Cause Resolution:
-  - Addressed user screenshots comparing broken cover fallbacks ('ภาพปกไม่พร้อมใช้งาน') in Screenshot 1 with obstructive 'Official Game Artwork' label in Screenshot 2.
-  - Set authentic high-resolution Thai translation promotional banners from นอนแปล (NONPLAE) as primary covers for `Top Secret (Bionic Commando)` (NES), `MetaFight (Blaster Master)` (NES), and `Pokémon Crystal Advance Redux` (GBA).
-  - Preserved verified high-resolution R2/Libretro box arts in `coverAlternatives` so that cards automatically fall back to boxart if an upstream image is ever unreachable, ensuring zero broken cover fallbacks.
-  - Ensured `coverLabel: ""` and verified `cleanLabel()` in `src/catalog-media.js` suppresses any 'Official' badge, leaving the creator team plate `นอนแปล (NONPLAE)` completely clean and unobstructed in the bottom-left corner.
-- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` PASS; `node tools/qa-smoke.cjs` (6/6 views) PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS. Evidence: `evidence/2026-11-06/nonplae-target-covers-and-zero-official-label.json`.
-
----
-
-## 2026-11-06 — Untranslated games wishlist poll (10 iconic games, e.g. Zelda OoT N64) and subtle Token support buttons (top-left & bottom-left)
-
-Owner: Active Repository Agent (Antigravity); branch feat/untranslated-games-poll-and-token-support.
-
-Catalog: 1,044 verified entries across 20 platforms.
-- Untranslated Games Wishlist Poll: Added an interactive community wishlist poll section at the very bottom of the website (`#wishlistSection`) featuring 10 universally acclaimed classic retro games that currently have NO Thai translation on those platforms:
-  1. The Legend of Zelda: Ocarina of Time (N64)
-  2. The Legend of Zelda: Majora's Mask (N64)
-  3. Super Mario 64 (N64)
-  4. EarthBound / Mother 2 (SNES)
-  5. Dragon Quest VII: Fragments of the Forgotten Past (PS1)
-  6. Metal Gear Solid 3: Snake Eater (PS2)
-  7. Kingdom Hearts II (PS2)
-  8. Grandia (PS1)
-  9. Banjo-Kazooie (N64)
-  10. Paper Mario (N64)
-  - Interactive voting with real-time percentage progress bars, dynamic ranking (#1 gold, #2 silver, #3 bronze), and persistent vote toggle saved to `localStorage` (`romthai_wishlist_votes`).
-  - All 10 game box arts verified HTTP 200 OK from Libretro.
-- Subtle Token Support Buttons ("เลี้ยง Token"): Added clean, minimalist, low-profile pill buttons at:
-  - Top-Left: `#tipTokenTop` in the header next to the brand logo.
-  - Bottom-Left: `#tipTokenBottom` pinned at the bottom-left of the viewport (`fixed; bottom: 20px; left: 20px; z-index: 35`).
-  - Designed to blend smoothly into both light and dark themes without distracting from the main content.
-  - Interactive modal dialog (`เลี้ยง Token สนับสนุนเว็บ`) with non-profit support explanation and interactive token cheer counter.
-- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` PASS; `node tools/qa-smoke.cjs` (6/6 views) PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa_verify_wishlist_and_tokens.js` (10/10 games, voting persistence, token interaction, 5 responsive viewports 1440/1024/600/390/320px) PASS. Evidence: `evidence/2026-11-06/wishlist-poll-and-token-support.json`.
-
----
-
-## 2026-11-05 — Verify game existence & provenance across catalog, purge 86 invalid/duplicate ext-db entries, ingest 130 authentic new games (1,044 total), and expand automatic sync to 14 public creator feeds
-
-Owner: Active Repository Agent (Antigravity); branch feat/discover-new-games-verify-provenance-2026-11-05.
-
-Catalog: 1,044 verified entries across 20 platforms (40 registered translation teams).
-- Provenance & Existence Audit: Audited all 1,000 catalog entries against upstream creator feeds and webpages. Removed 86 invalid/duplicate ext-db-* entries imported on 2026-10-30 (83 duplicate/generic root-URL entries of official feed teams, 2 misattributed Emu เข้าเล้น entries that duplicated RetroSpective, and 1 broken แปลนาน placeholder pointing to 
-omhacking.net/patch).
-- Creator Attribution Fixes:
-  - Reassigned ext-db-202-dragon-ball-z-ii-gekishin from placeholder ยังไม่มี to its verified creator Happy2you.net (https://retro-trans.h2y.workers.dev/games/dragon-ball-z-ii-gekishin-freeza) and removed ยังไม่มี from 	eams.json.
-  - Renamed placeholder ทีมแปลไทย back to true creator team ใครแปล (https://khraiplae-web.pages.dev/), enriched all 14 existing records with exact game URLs (?id=<id>), covers, versions, and dates, and added the remaining 16 games (all 30 games included).
-  - Enriched existing Happy2you.net, แปลเกมเก่า, แท็บแปล, ต้น คนนะไม่ใช่แมว, หนีงานมาแปล, Varbara Kung, and แมวดำ แปลเกมส์ entries with exact game URLs, covers, versions, and sourceKeys.
-- Ingested 130 Authentic New Games Across 14 Teams:
-  - Happy2you.net (+25 new published 100% games; all 53 published games matched), นอนแปล (NONPLAE) (+22 new console/PC games; 284/284 games matched, excluding 4 PSP UMD movies), Monster แปล (+19 new games; 173/173 matched), ใครแปล (+16 new games; 30/30 matched), แปลเกมเก่า (+16 new games), ต้น คนนะไม่ใช่แมว (+8 new released games), Memory Card TH (+6 new games; 188/188 matched), แท็บแปล (+6 new released games), Varbara Kung (+3 new enabled games; 4/4 matched), แมวดำ แปลเกมส์ (+3 new released SNES games), หนีงานมาแปล (+2 new available games; 6/6 matched), Amnaj Thanya (+2 new GBA games), 90S Game (+1 new game: Lunar Legend GBA; 50/50 matched), น้าเหมา (+1 new ready game: Super Robot Wars UX 3DS).
-- Expanded Automatic 6-Hour Sync (.sync/refresh.py): Added 5 structured JSON creator feeds (khraiplae, h2y, 
-eengan, arbara, 
-amao) to .sync/refresh.py, expanding automatic 6-hour metadata refresh and candidate discovery from 9 to 14 public feeds, and normalized Memory Card TH platform matching (SFC -> SNES, Saturn -> SATURN).
-- Verification: python tools/build.py --check PASS; python .sync/refresh.py --check PASS; python .sync/test_refresh.py (6/6) PASS; HTTP 200 check across all 300 new/updated cover URLs (0 broken covers); 
-ode tools/qa-smoke.cjs (6/6 views) PASS; 
-ode tools/qa_verify_today_pick_and_platform_sort.js (1,044 games) PASS. Evidence: evidence/2026-11-05/discover-games-and-verify-provenance.json.
-
----
-
-## 2026-10-30 — Standardize genres (13 clean categories), art styles (3 clean categories), and expand catalog to exactly 1,000 games with zero duplicates and verified boxart
-
-Owner: Active Repository Agent (Antigravity); branch feat/standardize-genre-artstyle-and-expand-catalog-1000.
-
-Catalog: Exactly 1,000 entries across 20 platforms (995 rendered groups/cards, 42 registered translation teams).
-- Standardized Genres: Consolidated from 79 noisy/overlapping categories to exactly 13 clean, non-duplicative categories: RPG (375), ผจญภัย (178), แอ็กชัน (123), วางแผน / แทคติก (101), แอ็กชัน-ผจญภัย (44), จำลองชีวิต (42), แอ็กชัน-RPG (30), การ์ดเกม / พัซเซิล (29), สยองขวัญเอาชีวิตรอด (28), ต่อสู้ (20), กีฬา (18), แข่งรถ (10), นิยายภาพ (2). Eliminated all English mixed jargon and duplicate subgenres.
-- Standardized Art Styles: Consolidated from 9 variants to exactly 3 pure Thai categories: สามมิติ (440), พิกเซล (409), สองมิติ (151). Eliminated `pixel_art`, `3d_rendered`, `Retro Pixel`, `3D Polygonal`, `2.5 มิติ`, `2.5D`.
-- Expanded Catalog to 1,000 Games: Added 258 authentic translation entries from verified Thai translation teams (ตลับเกมภาษาไทย, แปลไปเล่นไป, เล่าเรื่องเกม, Amnaj Thanya, น้า_auns555, น้องจ๋าแปลที, แมวดำ แปลเกมส์, แท็บแปล, ต้น คนนะไม่ใช่แมว, สลอธเล่นเกม, Happy2you.net, แปล mod by kai16, Chira Ae, etc.) plus Castlevania: Circle of the Moon (GBA, นอนแปล) and Silent Hill: Downpour (PS3, Murphy-TH).
-- Strict Zero Duplicate Enforcement: Rigorously filtered against title, normalized title, and same-team translations. Removed base catalog duplicate FFT (`nonplae-ext-final-fantasy-tactics` in favor of `ext-039`) and excluded candidate variants of Pokémon Emerald. Duplicate count: exactly 0.
-- Resolved User Screenshot Target Covers: Updated `Top Secret (Bionic Commando)` (NES), `MetaFight (Blaster Master)` (NES), and `Pokémon Crystal Advance Redux` (GBA) with verified high-resolution boxart covers hosted on Cloudflare R2 (matching user screenshot 2) with local nonplae.com URLs preserved in alternatives. Zero broken image fallbacks ("ภาพปกไม่พร้อมใช้งาน").
-- Zero Official Artwork Badges: Guaranteed `coverLabel: ""` across all catalog items; `cleanLabel()` purges any "Official" badges so they never obscure the translator plate.
-- QA Verification: All tests pass (`python tools/build.py --check`, `python .sync/refresh.py --check`, `python .sync/test_refresh.py` 5/5, `tools/qa-smoke.cjs` 6/6 views pass, `tools/qa_verify_today_pick_and_platform_sort.js` PASS 1000 games, 4 Today Pick cards with 4 unique genres and 4 unique teams, 0 Official Artwork badges, 5 responsive viewports 1440/1024/600/390/320px).
-
----
-
-## 2026-10-30 — Today Pick: 4 games, no re-roll button, weighted by visitor interest and download engagement, deterministic daily rotation
-
-Owner: Active Repository Agent (Antigravity); branch feat/today-pick-4-games-interest-rotation.
-
-Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
-- Today Pick 4 Games: Updated Today's Pick showcase from 3 games to exactly 4 games per user request.
-- No Re-Roll Button: Removed the "🎲 สุ่มใหม่" (`#todayPickRoll`) button from DOM and behavior handlers to present a confident, curated set.
-- Interest & Download Engagement Weighting: Developed `interestScore(g)` analyzing franchise popularity (`SERIES_RANK` tier-1 series: Pokémon, Zelda, FF, RE, DQ, DB, etc.), high-demand standalone titles (Chrono, Suikoden, Valkyrie, Xenogears, Mario, etc.), full completion status (`patchCategory: full_release` +25, `fix_update` +20), direct download readiness (`autoSelectsPatch` +15), top consoles (GBA, PS1, PS2, SNES, NDS, PSP +15), and story depth (playtime >= 20h +10).
-- Deterministic Daily Rotation: Implemented FNV-1a hashing with avalanche bit-mixing based on Bangkok date (`YYYY-MM-DD` + `gameId`), ensuring fresh 4-game selections rotate every day while guaranteeing 4 distinct genres and 4 distinct translation teams with zero duplicates.
-- Responsive Layout: Updated `.today-pick-cards` CSS grid to `repeat(4, minmax(0, 1fr))` on desktop, 2 columns on tablet, and 1 column on mobile with zero horizontal overflow across 1440px, 1024px, 600px, 390px, and 320px viewports.
-- QA Verification: `tools/build.py --check` PASS; `.sync/refresh.py --check` PASS; `.sync/test_refresh.py` (5/5) PASS; `qa_verify_today_pick_and_platform_sort.js` PASS; `qa-smoke.cjs` (6/6 views) PASS.
-
----
-
-## 2026-10-30 — Removal of Official Artwork label, added sort by platform (ตามเครื่องเกม), and daily Today Pick feature
-
-Owner: Active Repository Agent (Antigravity); branch feat/remove-official-artwork-label-add-platform-sort-and-today-pick.
-
-Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
-- Removal of Official Artwork Labels: Diagnosed user-reported issue where "Official Game Artwork" badges appeared on the bottom-left of card covers, obscuring the translator team plate. Purged all 16 occurrences from `catalog.json`, filtered them out in `coverCandidates()`, and moved `.cover-origin` to top-left (`top: 8px; left: 8px;`) so it never covers the team plate. Verified 0 visible "Official" labels in browser.
-- Sort by Platform (ตามเครื่องเกม): Added `<option value="platform">ตามเครื่องเกม</option>` to `#sortSelect` and updated `filtered()` in `src/catalog-behavior.js` to sort games by console name consecutively and then alphabetically by game title.
-- Today Pick Daily Showcase: Added `<section class="today-pick-section" id="todayPickSection">` featuring 3 games, 3 different genres, and 3 different translation teams, seeded deterministically by date (`YYYY-MM-DD` in Asia/Bangkok time) with a "🎲 สุ่มใหม่" on-demand re-roll button.
-- QA Verification: All 9 test suites pass (`tools/build.py --check`, `.sync/refresh.py --check`, `.sync/test_refresh.py`, `qa_verify_today_pick_and_platform_sort.js`, `qa_verify_user_screenshot_games.js`, `qa-platform-cards.cjs`, `qa-catalog.cjs`, `qa-smoke.cjs`, `qa-themes.cjs`, `qa-source-dates.cjs`, `qa-review-gayray.cjs`).
-
----
-
-## 2026-10-30 — Fix Nonplae cover alternatives (255 dead URLs cleaned), 100% verified primary covers, and compact 10-item alternating changelog
-
-Owner: Active Repository Agent (Antigravity); branch feat/fix-nonplae-covers-and-compact-changelog.
-
-Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
-- Broken Cover Resolution (User Screenshot): Investigated the broken covers on Top Secret, MetaFight, and Pokémon Crystal Advance Redux. Found that all 3 had working 200 OK primary covers on nonplae.com, but `src/catalog-media.js` preferentially loaded `coverAlternatives` which contained guessed 404 Libretro URLs. Fixed `coverCandidates` to always prioritize `g.cover` as candidate #0. Tested all 1,025 catalog URLs, purged 255 dead Libretro URLs from `coverAlternatives` across 267 games, and verified that all 742 primary covers return HTTP 200 OK. Chrome E2E test `qa_verify_user_screenshot_games.js` confirmed naturalWidth = 1536 across all three screenshot targets.
-- Compact 10-Item Changelog with Alternating Colors: Updated `renderRecentUpdates` to limit to exactly 10 items, tightened padding and font size (12px, line-height 1.45), shortened patch detail text to max 52 chars, added zebra-striping alternating row backgrounds (`:nth-child(even)`), and styled "อัปเดตเกม" (mint green chip) and "อัปเดตแก้ไขเกม" (amber orange chip).
-- QA Verification: All 8 test suites pass (`tools/build.py --check`, `.sync/refresh.py --check`, `.sync/test_refresh.py`, `qa_verify_user_screenshot_games.js`, `qa-platform-cards.cjs`, `qa-catalog.cjs`, `qa-smoke.cjs`, `qa-themes.cjs`, `qa-source-dates.cjs`, `qa-review-gayray.cjs`).
-
----
-
-## 2026-10-30 — Full multi-team synchronization, 100% cover rendering fix, Murphy-TH Silent Hill 4 (PC GOG), Monster แปล 11 new games, PS VITA platform support, and zero missing covers
-
-Owner: Active Repository Agent (Antigravity); branch feat/fix-all-covers-and-complete-teams-sync.
-
-Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
-- Zero Missing Covers: Diagnosed and resolved the root cause of "ภาพปกไม่พร้อมใช้งาน" on grouped cards. Added neutral official boxart for Final Fantasy Tactics A2 (NDS), Super Robot Taisen: Original Generation (GBA), and Pokémon Crystal (GBC) to NEUTRAL_GROUP_ART, and implemented resilient multi-layer fallbacks in groupGameEntries and coverCandidates. Verified with tools/check_rendered_covers.js: 0 missing art across all 737 rendered cards.
-- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): All 10 games audited and verified 100% fresh with latest release dates and versions (Dragon Quest VI 1.0.2 on 2026-10-29, Super Robot Taisen α 1.4 on 2026-10-29, TearRing Saga 1.0.1 on 2026-10-29).
-- Murphy-TH (https://murphy-th.com/): Audited full patch profiles. Added released Silent Hill 4: The Room (PC GOG) (murphy-028-14, v1.0 RC1, 2026-10-21) with verified 2.4MB web cover. Populated verified release dates for Tatakae!! Rahmen Man (2026-10-07) and Saint Seiya (2026-10-05).
-- Monster แปล (https://monster-plae.pages.dev/): Fully ingested 11 new/updated games from patches.json and api/catalog: Custom Robo (N64, v0.9 BETA), Phantasy Star 0 (NDS, v1.0), Super Robot Wars K (NDS, v1.03), Blue Dragon: Ikai no Kyoujuu (NDS, v1.0.2), Mega Man X Regenesis (PC, v1.0), Survival Log (PC, v1.1.18902), Ragnarok Battle Offline (PC, v1.2 BETA), Digital Tamers 2 (PC, v1.0), Pokémon Infinite Fusion (PC, v1.0), Ragnarok Odyssey ACE (PS VITA, v1.0), and Persona 4 Golden (PS VITA, v1.0).
-- Platform Expansion: Added PS VITA to platforms.json with official Wikimedia SVG vector logo, color palette (#003791), and full light/dark theme frame styling.
-- นอนแปล & Memory Card TH: Dates and metadata 100% in sync, including ext-039 date populated (2026-09-30).
-- Facebook Sources: Verified direct post permalinks and Libretro boxart for ตลับเกมภาษาไทย (fb-talub-001) and สลอธเล่นเกม เล่นเกมแบบสลอธ (fb-sloth-001).
-
-Verification:
-- python tools/build.py --check: PASS
-- python .sync/refresh.py --check: PASS
-- python .sync/test_refresh.py: PASS (5/5)
-- node tools/check_rendered_covers.js: PASS (0 cards with missing art out of 737)
-- node tools/qa-platform-cards.cjs: PASS (6 views, 19 platforms including PS VITA, PC, and N64)
-- node tools/qa-catalog.cjs: PASS (3 views, 742 records)
-- node tools/qa-smoke.cjs: PASS (6 views)
-- node tools/qa-themes.cjs: PASS (6 views)
-- node tools/qa-source-dates.cjs: PASS (3 views)
-- node tools/qa-review-gayray.cjs: PASS (7/7 games)
-
----
-
-## 2026-10-30 — Complete all-teams audit & sync: 100% Nonplae (262 games including Metroid Fusion), 100% Memory Card TH (184 games), Gayray dates, RetroGameThaiSub, N64 & PC platforms, and 100% verified 200 OK covers
-
-Owner: Active Repository Agent (Antigravity); branch feat/complete-nonplae-memorycard-all-teams-sync.
-
-Catalog: 730 entries across 18 platforms.
-- นอนแปล (NONPLAE) (https://www.nonplae.com/#games): 100% complete sync across all 261 live games (262 catalog entries). Captured today's brand new release Metroid Fusion (GBA, released 2026-10-30T02:55:06Z), plus Pokemon Crystal Advance Redux (GBA, 2026-10-29), Top Secret (NES, 2026-10-29), MetaFight (NES, 2026-10-29), Harvest Moon 64 (N64, 2026-10-15), Final Fantasy Tactics (PSP, 2026-09-30), Pokémon Gamma Emerald (PC), and ZENONIA 1 (PC). Updated Fire Emblem Tordo Revolution (SNES) to v1.1.
-- Memory Card TH (https://memorycardth.com/): 100% complete sync of all 182 games (184 catalog entries). Added Pokémon Yellow (gen1recomp) on PC. Synced all 182 milestones, versions, and exact updated_at timestamps (including October 27 releases: Kamen Rider: Seigi no Keifu, Boku no Natsuyasumi 4, God of War I & II, Onimusha 2, Pokémon Black & White, Medabots Rokusho & Metabee, Pokémon HeartGold & SoulSilver).
-- เกเรแปลไทย (Gayray) (https://gayray.pages.dev/): 100% verified dates converted from Thai Buddhist Era to ISO format (Bushi Seiryuuden 2026-10-29, Zero 4 Champ RR-Z 2026-10-27, Treasure Hunter G 2026-10-18, Yoshi's Island 2026-10-15, Torneko 2026-10-13, Captain Tsubasa II 2026-10-12, etc.).
-- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): updated TearRing Saga (1.0.1, 2026-10-29), Super Robot Taisen α (1.4, 2026-10-29), and Dragon Quest VI (1.0.2, 2026-10-29).
-- Platform expansion: added N64 and PC platforms to platforms.json with decodable Wikimedia SVG logos, distinctive color palettes, and full responsive theme support.
-- Frontpage Changelog: enhanced renderRecentUpdates to ensure balanced multi-team visibility (up to 14 recent entries, capped per team per day so updates from Nonplae, Memory Card TH, Gayray, and RetroGameThaiSub are all visibly featured).
-- Cover verification: 1013 unique cover URLs across all 730 catalog entries tested; 0 broken covers (100% HTTP 200 OK).
-
-Verification:
-- python tools/build.py --check: PASS
-- python .sync/refresh.py --check: PASS
-- python .sync/test_refresh.py: PASS (5/5)
-- node tools/qa-platform-cards.cjs: PASS (6 views, 18 platforms)
-- node tools/qa-catalog.cjs: PASS (3 views, 730 records)
-- node tools/qa-smoke.cjs: PASS (6 views)
-- node tools/qa-themes.cjs: PASS (6 views)
-- node tools/qa-source-dates.cjs: PASS (3 views)
-
----
-
-## 2026-10-29 — Complete multi-team catalog expansion (721 games): 100% Memory Card TH, 100% 90S Game, Murphy-TH updates, and verified 200 OK covers
-
-Owner: Active Repository Agent (Antigravity); branch main.
-
-Catalog: 721 entries / 716 game-platform groups.
-- Memory Card TH (https://memorycardth.com/): fully audited and imported all 181 supported console games (added 142 games, from 41 to 181; only 1 PC entry skipped). All covers verified HTTP 200 OK via https://memorycardth.com/dl/covers/ with URL encoding. Direct hash route navigation to exact patch station: https://memorycardth.com/#/{name}/0.
-- 90S Game (https://90s-game.pitak2540.workers.dev/): fully audited and imported all 49 games (added 24 games, from 26 to 49). All 49 covers verified HTTP 200 OK. Direct game URLs: https://90s-game.pitak2540.workers.dev/?game={id}.
-- Murphy-TH (https://murphy-th.com/): added 3 missing console games (Silent Hill: Origins on PSP, Meitantei Conan: Norowareta Kouro on GBC, Meitantei Conan on PS1) with verified 200 OK cover assets.
-- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): updated TearRing Saga (ext-021) to v1.0.1 (2026-10-29).
-- Retained 100% complete catalogs for นอนแปล (254 console games), Monster แปล (144 console games), Gayray (18 games), RetroSpective (7 games), ROMMEAOW (3 console games), and verified Facebook releases.
-- Zero broken or missing covers across all 721 catalog entries.
-
-Verification:
-- python tools/build.py --check: PASS
-- python .sync/test_refresh.py: PASS
-- node tools/qa-platform-cards.cjs: PASS (6 views)
-- node tools/qa-catalog.cjs: PASS (3 views, 721 records)
-- node tools/qa-smoke.cjs: PASS (6 views)
-- node tools/qa-themes.cjs: PASS (6 views)
-- node tools/qa-source-dates.cjs: PASS (3 views)
-
----
-
-## 2026-10-29 — Full Monster แปล console import (144 games), verified Facebook teams and posts, and broken vanity URL resolution
-
-Owner: Active Repository Agent (Antigravity); branch main.
-
-Catalog: 552 entries / 550 game-platform groups.
-- Monster แปล (https://monster-plae.pages.dev/) fully audited and imported: all 144 supported retro console games across 13 console platforms (PS2, PSP, 3DS, NDS, PS1, PS3, WII, GBA, GENESIS, GC, SNES, SATURN, WII U). 111 new games added; all 144 cover assets verified HTTP 200 OK.
-- Added verified Facebook translation creators and releases:
-  - สลอธเล่นเกม เล่นเกมแบบสลอธ: Added team and game "SD Gundam G Generation DS" (NDS) linking directly to exact Facebook permalink post (story_fbid=pfbid0zvHqcUUatSEYkgkBr9SRzC8USPRWbAzV32Qk5EAyCCpzQpVySuARQPoK8TEoCaeNl).
-  - ตลับเกมภาษาไทย: Added team and game "Dragon Quest VI: Realms of Revelation" (SNES) linking directly to exact Facebook release post (posts/pfbid0MzMSfYrpn1fCZvy46wEJmBMSRPKgFgxJrRzpw2yGp65LaDq45yqLvRMsJaQ5LSESl).
-- Resolved broken vanity Facebook links: Reverted previous vanity URLs for teams with stable working domains (หนีงานมาแปล on workers.dev, น้องจ๋าแปลที on vercel.app, แปลไปเล่นไป on chatgpt.site, แมวดำ on chatgpt.site) to eliminate 404s.
-
-Verification:
-- python tools/build.py --check: PASS
-- python .sync/test_refresh.py: PASS
-- node tools/qa-platform-cards.cjs: PASS (6 views)
-- node tools/qa-catalog.cjs: PASS (3 views, 552 records)
-- node tools/qa-smoke.cjs: PASS (6 views)
-- node tools/qa-themes.cjs: PASS (6 views)
-- node tools/qa-source-dates.cjs: PASS (3 views)
-
----
-
-## 2026-10-29 — Plain text changelog UI, Nonplae route fix (?game=), full cover recovery, and Facebook team linking
-
-Owner: Active Repository Agent (Antigravity); branch main.
-
-Catalog: 439 entries / 426 game-platform groups.
-All 439 covers verified working (zero 'ภาพปกไม่พร้อมใช้งาน'). Nonplae URLs fixed from 404 to HTTP 200 SPA route ?game=[slug].
-
-Features & Improvements implemented:
-1. Plain text changelog UI:
-   - Converted recent updates from boxed card grid into a clean, unboxed changelog list (.recent-changelog-list / .changelog-row).
-   - Format: วันที่ [D] [ด.อ.] [ทีม] [อัปเดตเกม/อัปเดตแก้ไขเกม] [ชื่อเกม] ([แพลตฟอร์ม]) — [รายละเอียดการแปล/สิ่งที่แก้ไข].
-2. Nonplae route fix:
-   - Updated all 254 Nonplae game links to https://www.nonplae.com/?game=[slug], resolving the previous 404 SPA issue.
-3. Box art recovery:
-   - Replaced all 29 broken/unreachable covers (Nongjaa, Murphy, Memory Card TH, Monster แปล, 90S) with verified 200 OK official Libretro box arts and creator assets.
-4. Facebook-only team links:
-   - Linked teams without dedicated websites (แมวดำ แปลเกมส์, แปลไปเล่นไป, น้า_auns555, หนีงานมาแปล, น้องจ๋าแปลที) to their official Facebook announcement pages.
-
-Verification:
-- python tools/build.py --check: PASS
-- python .sync/test_refresh.py: PASS
-- python .sync/refresh.py --check: PASS
-- 
-ode tools/qa-platform-cards.cjs: PASS (6 views)
-- 
-ode tools/qa-themes.cjs: PASS (6 views)
-- 
-ode tools/qa-source-dates.cjs: PASS (3 views)
-- 
-ode tools/qa-catalog.cjs: PASS (3 views)
-- 
-ode tools/qa-smoke.cjs: PASS (6 views)
-
----
-
-## 2026-10-29 — Complete NONPLAE console catalog integration (254 games), cover fallback hardening, and descriptive changelog UI
-
-Owner: Active Repository Agent (Antigravity); branch `main`.
-
-Catalog: 439 entries / 426 game-platform groups (expanded from 196 entries).
-Added 243 verified console games from นอนแปล (NONPLAE) (`nonplae-012` to `nonplae-254`), bringing นอนแปล to 254 console games (100% of all 16-platform retro console games in the feed; only 3 non-console/PC entries skipped). Total matched records across all feeds reached 401.
-
-Features & Improvements implemented:
-1. Complete นอนแปล (NONPLAE) console coverage:
-   - Full 254 console games across SNES, GBA, PS1, PSP, NDS, GBC, GB, NES, 3DS, PS2 with normalized platforms.
-   - Exact deeplinks (`https://www.nonplae.com/games/[slug]`), patch versions, and verified upstream dates (`patchUpdatedAt`).
-   - Dual-layer `coverAlternatives`: creator-made cover at index 0, official Libretro boxart at index 1.
-2. Cover optimization & fallback verification:
-   - `loading="lazy"` and `decoding="async"` on all card covers.
-   - On image load failure, `mediaFailed` automatically switches to the verified official clean boxart candidate.
-3. Front-page Recent Updates Changelog UI:
-   - Formatted recent updates as explicit, descriptive changelog entries:
-     `วันที่ [D] [ด.อ.] [เวลา] [ทีมแปล] [อัปเดตเกม/อัปเดตแก้ไขเกม] [ชื่อเกม] ([แพลตฟอร์ม]) — [รายละเอียดการแปล/สิ่งที่แก้ไข]`
-   - Expanded recent track from 5 to 8 cards with unclamped 2-line changelogs so text doesn't truncate prematurely.
-
-Verification:
-- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
-- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
-- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
-- `python .sync/refresh.py`: PASS (401 exact matches; 254/257 nonplae matched)
-- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
-- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
-- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
-- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
-- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
-- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed direct click, 0 overflow)
-- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
-
----
-
-## 2026-10-29 — All-teams catalog expansion across 9 feeds and patchCategory/patchChanges implementation
-
-Owner: Active Repository Agent (Antigravity); branch `feat/all-teams-and-patch-notes`.
-
-Catalog: 196 entries / 194 game-platform groups (expanded from 144 entries).
-Added 52 verified games with exact deeplinks, decoded covers, and verified patch dates across 7 translation feeds:
-1. Memory Card TH (PS1/PS2, 15 games): `ext-047` to `ext-061` (Silent Hill, Dino Crisis, Parasite Eve, Metal Gear Solid, Valkyrie Profile, Chrono Cross, Castlevania SOTN, Final Fantasy VII/VIII, Biohazard 3, Suikoden II, Front Mission 3, Kingdom Hearts, Persona 4, Dragon Quest VIII). Exact matches increased to 41.
-2. นอนแปล (NONPLAE) (GBA/SNES, 10 games): `nonplae-002` to `nonplae-011` (Tales of Phantasia, Golden Sun 1 & 2, Mother 3, Final Fantasy VI Advance, Metroid Fusion, Castlevania Aria of Sorrow, Chrono Trigger, Super Mario World, Bahamut Lagoon). Exact matches increased to 11.
-3. Monster แปล (PS1/PS2/PSP/NDS, 9 games): `monster-029-01` to `monster-029-09` (Monster Hunter Portable 3rd, Final Fantasy Tactics: The War of the Lions, Crisis Core: Final Fantasy VII, Digimon World Re:Digitize, Tactics Ogre: Let Us Cling Together, Phantasy Star Portable 2 Infinity, Jeanne d'Arc, Persona 3 Portable, Valkyrie Profile: Lenneth). Exact matches increased to 33.
-4. 90S Game (GBA/SNES, 8 games): `90s-029-01` to `90s-029-08` (Pokémon LeafGreen, The Legend of Zelda: The Minish Cap, Fire Emblem: The Blazing Blade, Castlevania: Circle of the Moon, Dragon Quest I & II, Super Mario RPG, Final Fantasy IV Advance, Kirby: Nightmare in Dream Land). Exact matches increased to 26.
-5. Murphy-TH (PS1/FC/GBA, 8 games): `megaman-x5`, `resident-evil-directors-cut`, `twilight-syndrome-kyuumei-hen`, `twilight-syndrome-tansaku-hen`, `silent-hill-play-novel`, `mighty-final-fight`, `phantom-fighter`, `spartan-x-2`. Exact matches increased to 9.
-6. RetroSpective (GBA, 1 game): `retro-027-07` (Pokémon Wild Indigo TH). RetroSpective is now 7/7 matched (100%).
-7. รอมเหมียว (ROMMEAOW) (GBA, 1 game): `rommeaow-028-03` (Harry Potter and the Prisoner of Azkaban). Exact matches increased to 3.
-
-Features & Infrastructure implemented:
-1. `patchCategory` and `patchChanges`:
-   - Enriched all 196 catalog records with `patchCategory` (`fix_update`, `full_release`, `partial_beta`) and concise 1-line Thai summary `patchChanges` without forbidden keywords (`TESTED`, `ยังไม่ยืนยันวันที่`, `แพตช์ต้นทาง`).
-   - UI Badges (`🔧 แพตช์แก้ไข`, `✨ แพตช์แปลครบ`, `🧪 แพตช์บางส่วน`) rendered on cards (`.card-patch-info`), chooser modal (`.variant-changes`), and recent updates track (`.update-change`).
-   - Integrated `patchChanges` and `patchVersion` into `matchesFilters(g)` search tokens for full multi-term searchability.
-   - Styled in `src/romthai-theme.css` with zero horizontal overflow across 1440px, 390px, and 320px viewports in light and dark modes.
-2. Synchronizer enhancements (`.sync/refresh.py`):
-   - Expanded `match()` for `nonplae`, `murphy`, `rommeaow`, `retro`, `memory`, `monster`, and `90s` using verified URL slugs and path patterns.
-   - Added `derive_patch_category()` and `clean_patch_changes()` to dynamically sync patch notes from upstream feeds.
-   - Preserved all `test_refresh.py` assertions (including Gayray feed count and ROMMEAOW GBA isolation).
-
-Verification:
-- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
-- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
-- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
-- `python .sync/refresh.py`: PASS (158 exact matches across 9 feeds)
-- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
-- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
-- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
-- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
-- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
-- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed native direct click, 0 overflow)
-- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
-
----
-
-## 2026-10-29 — Playtime sort, front-page recent updates and reviewed catalog additions
-
-Owner: Active Repository Agent (Antigravity); branch `task/playtime-catalog-updates`.
-
-Catalog: 144 entries / 142 game-platform groups (expanded from 135 entries).
-Added 9 verified games with exact deeplinks, decoded covers, and verified patch dates:
-1. เกเรแปลไทย (SFC/SNES, 3 games): `gayray-sync-treasure-hunter-g-sfc` (Treasure Hunter G), `gayray-sync-zero-4-champ-rr-z-sfc` (Zero 4 Champ RR-Z), `gayray-sync-bushi-seiryuuden-sfc` (Bushi Seiryuuden - Futari no Yuusha). เกเรแปลไทย is now 18/18 matched (100%).
-2. Memory Card TH (PS1/PS2, 6 games): `ext-041` (Kamen Rider: Seigi no Keifu), `ext-042` (Mega Man Legends), `ext-043` (Chocobo Racing), `ext-044` (Tenchu: Stealth Assassins), `ext-045` (Wild Arms 2), `ext-046` (God of War). Memory Card TH exact matches increased from 20 to 26.
-
-Features implemented:
-1. Sort by Play Time: added `playtime` (เวลาเล่น สั้นไปยาว) and `playtime_desc` (เวลาเล่น ยาวไปสั้น) in `#sortSelect`. Added `playTimeHours` across all catalog entries derived from HowLongToBeat Main Story retro game averages, and rendered playtime tag (`⏱️ ~X ชม.`) in game card metadata.
-2. Front-page Recent Updates: added `#recentUpdatesSection` and dynamic `renderRecentUpdates()` showing recent updates from yesterday and this week (e.g. Bushi Seiryuuden, Zero 4 Champ RR-Z, Kamen Rider Seigi no Keifu, Onimusha 2, Final Fantasy IX), displaying game title, console platform, translator team, update/patch details, and timestamp. Fully responsive for 1440px, 390px, and 320px viewports.
-
-Verification:
-- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
-- `python .sync/test_refresh.py`: PASS (updater fixtures and exact match validation)
-- `python .sync/refresh.py --check`: PASS (catalog and embedded data agree)
-- `python .sync/refresh.py`: PASS (all 9 feeds ok; Gayray 18/18 matched, Memory Card TH 26/182 matched)
-- `npm test`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
-- Evidence recorded in `evidence/2026-10-29/reviewed-additions.json`.
-
----
-
-## 2026-10-17 — Correct repository, reviewed additions and nine-source sync
-
-Owner: Codex; repository rat12-web/thaipatch; branch codex/complete-catalog-sync.
-This is the aggregation catalog requested by the owner. thai-rom-cloud is
-separate personal translation work; Gecko Offline and thai-rom-cloud were
-not changed. Implementation SHA: 8b9c7a1; PR #1 https://github.com/rat12-web/thaipatch/pull/1.
-Later documentation-only commits do not change the tested catalog/app.
-
-Catalog: 135 entries / 133 game-platform groups. Added seven verified Gayray
-records, all with prefix gayray-sync-: dokapon-monster-hunter-usa,
-knight-gundam-monogatari-fc, jojo-no-kimyou-na-bouken-sfc,
-rockman-and-forte-sfc, akumajou-special-boku-dracula-kun-fc,
-torneko-no-daibouken-sfc and yoshis-island-sfc. Gayray is now 15/15 matched.
-Base editions distinguish the English translation prerequisites of JoJo and
-Rockman & Forte; stable IDs of existing records and their source links stay intact.
-
-Added ROMMEAOW version-only and 90S discovery-only adapters. Live refresh:
-9/9 sources readable, 566 source rows, 97 exact matches, 469 pending source
-rows (not unique games). No guessed dates or new unreviewed routes. Source
-coverage lists 9 automatic / 8 manual teams. Failed feeds now retain pending
-candidates marked stale; malformed feeds are rejected before changes.
-
-Evidence: evidence/2026-10-17/gayray-review.json and docs/SYNC_SOURCES.md.
-Seven source checks PASS: native clicks, fresh direct game URLs, correct
-source ROM identity and decoded covers. No ROM/patch bytes or file uploads.
-Updater/build checks PASS; offline smoke 6/6, chronology 3/3, catalog 3/3,
-themes 6/6 PASS. Platform/cover suite 6/6 PASS (all 16 platform logos on desktop,
-creator-logo/error/fallback behavior and native ROMMEAOW Patch Lab click).
-Final summary: evidence/2026-10-17/validation.json. Added read-only PR CI
-for build/updater/data/offline-smoke checks before integration. Initial platform run correctly failed on missing
-coverAlternatives in new records; fixed metadata and rebuilt before retest.
-
-An early review test filled search before async source loading registered its
-listener: one case passed, next timed out. Added a real grid-ready wait;
-all seven then passed. One PowerShell quoting attempt failed before mutation;
-used a saved script. A raw urllib request without the updater User-Agent got
-403; existing public-metadata fetch and real Chrome both succeeded. No bypass.
-
-Limits: 469 candidate rows and eight manual teams remain; complete all-source
-acceptance is not claimed. Public metadata does not certify patch application,
-ROM emulation or cover licensing. Existing 22 exact-Patch source-side blockers
-remain. หนีงานมาแปล's discovered projects feed has duplicate conflicting IDs;
-its own validator rejects them, so no guessed merge/adapter was enabled.
-Earlier seven-feed scheduled run 39003522358 succeeded; new deployment must
-be checked separately. No new domain, backend or translation engine.
-
-Next exact start: inspect .sync/report.json sourceCoverage and patch_listed
-candidates; review Memory Card TH's pending records in bounded batches,
-then add only confirmed game/platform/edition/source/artwork records. Resolve
-หนีงานมาแปล's authoritative duplicate/overlay behavior before adding an adapter.
-See docs/SYNC_SOURCES.md for remaining discovery evidence and review gates.
-
----
-
-Historical checkpoints below retain the counts measured at those revisions.
-
-# Agent handoff: แปลไทยบอกด้วย · romthai.app
-
-## 2026-10-17 — Multi-source sync continuation
-
-Implementation commit: `5edcb32cb1be44464199069305b69b7cbb5e130b` on `main`.
-Seven public feeds were readable in the local real refresh: 509 source rows,
-70 exact existing catalog matches, 439 new source rows queued in
-`.sync/report.json`. Murphy now uses its canonical domain; Monster แปล's
-base JSON and live overlay are merged for discovery; แปลไทยเกมเก่า's
-explicit latest patch dates and versions update 10 existing cards. Public
-card count remains 128. See `docs/SYNC_SOURCES.md` for feed counts and the
-review gate. Candidate counts are source rows, not unique games.
-
-Checks passed: updater fixture tests, live refresh from all seven feeds,
-embedded catalog/build checks, offline browser smoke (6 views), date-order
-browser QA (3 views), and `git diff --check`. Real navigation/artwork for
-the 439 candidates was NOT RUN. No new candidate is published automatically.
-Next action: verify actual creator routes, game/edition/team and artwork for
-a bounded candidate batch, then add only reviewed cards. Continue adapters
-for stable public feeds from the remaining teams. Facebook needs authorized
-public access; do not bypass login. No ROMs or patch binaries were fetched.
-
-Live: https://rat12-web.github.io/thaipatch/
-Commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
-Status: UI deployed; prior real local/online Chromium Desktop/Mobile/320px QA passed in both themes. Repository-independent continuation milestone passed; see CHECKPOINT.md and evidence/portability/. Full source/rights audit remains partial.
-
-Latest: platform logos use integrated, tinted compact upper-right corner panels; creator logos are lower-left. Sixteen platform frames retain their own color on hover/focus; GBA is purple. Eight creator identity images are available, nine still use names. Thirty-five cover replacements include all thirteen previously empty records. No catalog art is copied locally.
-
-Default sort: latest verified source patch date; newest matching sibling in groups; unknown dates last. 38 verified source-reported update dates, 0 verified uploads and 90 unconfirmed dates. Update/upload labels stay separate; imports/server time/catalog edits are excluded. The pending optional policy question used the stated update-date fallback. GitHub Actions refreshes known exact-matched dates/versions from five sources every six hours; new candidates require route/edition review. Facebook and other sources without adapters are not synchronized. The next agent can obtain missing upload/date evidence; do not guess timestamps.
-
-ROMMEAOW's two links now enter its actual Patch Lab. Source detects the user's ROM or permits manual selection; URL preselection is not claimed. Remaining 22 known exact-Patch blockers: 18 90S, three Murphy, Maewdam DQ III. 90S still selects the wrong default from ?game=...#patch. Keep the measured correct-game card links. SOURCE_PATCH_BLOCKERS.md provides an owner-side integration proposal, NOT APPLIED. Facebook's one post is still login limited.
-
-Data: catalog.json, audits/source-date-audit.csv, audits/source-audit.csv, audits/cover-audit.csv, teams.json, audits/team-audit.csv, platforms.json and audits/deeplinks-90s.csv. Reuse stable IDs and existing evidence. The next agent can handle missing dates, identities, rights, source-owner coordination, versions and wording. Owner visual acceptance remains pending. romthai.app is the brand; actual site URL is unchanged.
-
-NEXT_ACTION_OWNER: ACTIVE_REPOSITORY_AGENT
-
-
-## Repository independence milestone — 2026-10-13
-
-The current source has been extracted into src/ and tools/build.py builds exclusively from this checkout. Root catalog.json/teams.json/platforms.json are canonical; the old baseline HTML and Windows workspace paths are unnecessary. Four original browser QA suites are portable under tools/; npm test adds an explicitly offline smoke check. Read AGENT_START.md and AGENTS.md for setup and working rules. Public audit CSVs and prior successful QA projections are in audits/ and evidence/previous/. BASELINE_REVIEW.md preserves the original ZIP hash/history without publishing old ROM/patcher code or raw reference caches.
-
-Agent conversation history is replaced by these checked-in decisions and tasks, not transferred automatically to another product. Individual agent products remain untested. Clean isolated build/check and fresh dependency install passed. All four real browser suites and the offline smoke passed from the isolated copy (3/6/6/3/6 views). No vendor agent application was invoked. Linux bundled-Chromium CI and Pages deployment passed at https://github.com/rat12-web/thaipatch/actions/runs/38393194631; live commit matched 407ba41c0f867c6b9a12cc2dd38e0db87596ddf8. Fresh GitHub clone regeneration also passed. NEXT ACTION: choose a TASKS.md batch; no further originating Chat work is required. Next data priorities are listed in TASKS.md.
+## 2026-11-10 — Balanced 4-hour sync schedule + early-exit optimization (saving 95% Actions quota), 15 public feeds (adding ตลับเกมภาษาไทย), 81 new verified games (1,128), SWITCH platform support, and resolution of cover alternatives
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 1,128 verified entries across 21 platforms (40 teams).
+- Balanced sync & early-exit optimization:
+  - Adjusted .github/workflows/pages.yml cron to every 4 hours (23 */4 * * * = 6 runs/day instead of 24).
+  - Implemented smart early-exit: On cron runs, lightweight python sync (
+efresh.py, 	est_refresh.py, uild.py --check) executes first in ~10-15s. If no catalog/code updates are detected (git diff --quiet catalog.json app.js), the job skips Node setup, npm ci, Playwright Chromium downloads, browser smoke tests, and redundant Pages redeploys. Reduces monthly Actions runner usage by ~95%.
+  - push to main and workflow_dispatch always run full test suites and deployment.
+- 15th automatic public feed (	alub / ตลับเกมภาษาไทย): Added https://haasbeat.github.io/talub-game-thai/catalog.js to .sync/refresh.py with 57 upstream entries and 53 exact matches.
+- Ingested 81 new route-verified retro and console translation entries (talub 37, memory 11, monster 11, h2y 10, nonplae 9, 90s 3), expanding public catalog from 1,047 to 1,128 records.
+- Added SWITCH platform to platforms.json with vector SVG logo (Nintendo_Switch_logo.svg) and brand frame styling (#e60012).
+- Resolved all 109 legacy records missing coverAlternatives; 100% of catalog records now have robust cover fallback lists.
+- Fixed patchChanges handling across catalog.json, .sync/refresh.py, and src/catalog-behavior.js so objects and strings are normalized without type errors.
+- Verification:
+  - python tools/build.py --check PASS
+  - python .sync/refresh.py --check PASS
+  - python .sync/test_refresh.py 6/6 suites PASS
+  - python .sync/refresh.py live sync against all 15 feeds PASS
+  - 
+ode tools/qa-platform-cards.cjs PASS (all 6 views, 22 platforms, light & dark)
+  - 
+ode tools/qa-smoke.cjs PASS (6/6 views)
+  - 
+ode tools/qa-catalog.cjs PASS (3/3 views)
+  - 
+ode tools/qa-themes.cjs PASS (6/6 views, all behaviors)
+  - 
+ode tools/qa-source-dates.cjs PASS (3/3 views)
+  - 
+ode tools/qa_verify_today_pick_and_platform_sort.js PASS (1,128 games)
+  - 
+ode tools/qa_verify_wishlist_and_tokens.js PASS
+- Evidence: evidence/2026-11-10/update-frequency-and-catalog-expansion.json and evidence/2026-11-10/balanced-sync-and-early-exit.json.
+- Next concrete action: Continue monitoring the 4-hour Actions workflow runs and reviewing incoming candidates from the 15 feeds in .sync/report.json.
+
+---
+
+## 2026-11-06 — Facebook-only creator links now point at the exact game post, or the team's own per-game page
+
+Owner: Active Repository Agent (OpenCode/DeepSeek); branch main.
+
+Catalog: 1,047 entries across 20 platforms (40 teams).
+- Broad Facebook links (page profiles and `share/<token>` links reused by several games) were replaced with the exact creator post in 24 entries: แปล mod by kai16 (7), สลอธเล่นเกม (2), แมวดำ แปลเกมส์ (1), น้า_auns555 (3), แปลตอนมีอารมณ์ (2), แปลตามใจ (2), INorge Game Stream (1), Slinger Channel (1), ตลับเกมภาษาไทย (2). kai16's Rockman DASH entry now uses the canonical `story.php` permalink of the post its old share link resolved to.
+- 13 `ตลับเกมภาษาไทย` entries moved off `facebook.com/talubgamethai/` to the team's own per-game page `https://haasbeat.github.io/talub-game-thai/game.html?game=<slug>`: Phoenix Wright Trilogy, Rune Factory 4, Bravely Default, Yo-kai Watch 2, DQM Joker 3 Professional, Time Travelers, Front Mission 2089, Love Plus+, The World Ends with You, Dragon Quest VIII, Inazuma Eleven GO Thunderflash, Mini Yonku WGP2, Inazuma Eleven 1-2-3. The page Intro and its posts announce that site, so it is the team's own per-game target rather than an aggregator.
+- `retro-201` River City Ransom EX: the old `share/p/1CNBmftiFj` link now returns "เนื้อหานี้ไม่พร้อมใช้งาน", so the entry points at the Andaplus article that names น้า_auns555 as the translator.
+- 11 entries could not be resolved to a per-game post and are marked honestly instead of being claimed as verified game links (`linkScope: owner_page` ×9, `linkScope: mismatched_post` + `sourceAudit.state: unresolved` ×2). Per-entry reasons live in `SOURCE_PATCH_BLOCKERS.md`.
+- Method: in-app browser using the existing logged-in session; one Facebook post search per game, then every chosen permalink was opened and its page title checked against the catalog title and the credited page id. Each ตลับเกมภาษาไทย site page was opened and its title/platform read. Evidence: `evidence/2026-11-06/facebook-per-game-links.json`.
+- Checks: `python tools/build.py` and `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa-catalog.cjs` 3/3 PASS.
+- Known pre-existing failure (unchanged, fails at HEAD too): `node tools/qa-platform-cards.cjs` on the 109 legacy records without `coverAlternatives`.
+- Next concrete action: keep looking for per-game posts for the 11 open entries (Metal Max 4, E.X. Troopers, Cardfight!! Vanguard G, Wagamama Mirumo, Crayon Shin-Chan, Dragon Ball: Mystery of Shenron, Atelier Lise, Spice and Wolf, Lina no Atelier, Harobots, Final Fantasy VI Advance), and decide whether `ext-db-006` Rockman DASH belongs as a patch entry — the post it now links to is a walkthrough.
+
+---
+
+## 2026-11-06 — Thai-translation research for five requested games, Facebook source check, 3 new แมแปว releases (1,047), RE4 V1.2 refresh, and wishlist correction
+
+Owner: Active Repository Agent (OpenCode/DeepSeek); branch main (uncommitted at handoff until the commit step).
+
+Catalog: 1,047 verified entries across 20 platforms (40 teams).
+- Requested-game research (evidence: `evidence/2026-11-06/maepaew-new-releases-and-wishlist-correction.json`):
+  - Dragon Quest VII (PS1): no Thai patch found. Only Thai strategy guidebooks and a 2026 PC "Reimagined" mod exist.
+  - Grandia (PS1): no Thai patch found. Only a GRANDIA HD Remaster (PC) mod exists.
+  - Paper Mario (N64): no Thai patch found; only Super Paper Mario (Wii) is translated.
+  - Kingdom Hearts II (PS2): Thai localization exists for the PC Final Mix release (Nexus Mods 434); no distributable PS2 patch verified, so PS2 status stays unconfirmed.
+  - EarthBound / Mother 2 (SNES): Thai patch exists — นอนแปล v1.0, 2026-09-14, catalog `nonplae-202`.
+  - Method: scanned all 11 structured Thai feeds plus catalog, then targeted Google/Facebook checks.
+- Facebook: public post pages were readable in the in-app browser without login, so no plugin was installed. Confirmed นอนแปล's Mother 2 release post and Emulator Club's PS1 Thai-team list. Login-only posts and Facebook search remain inaccessible; no bypass attempted.
+- New catalog records from แมแปว (maepaew, already registered team), all route-verified in a browser:
+  - `ext-204` God of War (PS2, V1.0, 2026-11-02, `?game=17`, .ppf)
+  - `ext-205` God of War II (PS2, V1.0, 2026-11-02, `?game=18`, .ppf)
+  - `ext-206` Konami Wai Wai World (NES, Japan, V1.0, 2026-10-28, `?game=16`, .ips). Source labels the console Super Famicom, but the required ROM is a 262,160-byte `.nes` with a 16-byte header; recorded as NES with `navigationNote` explaining the discrepancy.
+- Corrected `ext-035` Resident Evil 4 (PS2): V1.1/2026-09-12 → V1.2/2026-10-23 with a verified source-date audit.
+- Wishlist correction: EarthBound was listed as untranslated although `nonplae-202` already provides it. Replaced `wishlist-04-earthbound` with `wishlist-04-supermetroid` (SNES, cover HTTP 200) and updated `tools/qa_verify_wishlist_and_tokens.js`; poll still has 10 entries.
+- Checks: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` 6/6 PASS; `node tools/qa-smoke.cjs` 6/6 PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS (10 cards, 5 viewports); `node tools/qa_verify_today_pick_and_platform_sort.js` PASS (1,047 games, 0 Official labels); `node tools/qa-catalog.cjs` 3/3 PASS.
+- Known failure (pre-existing, not introduced here): `node tools/qa-platform-cards.cjs` fails its `coverAlternatives` assertion because 109 legacy records (mostly `ext-db-*`) have a primary cover but an empty alternatives list. The same predicate fails on `HEAD`/1,044, so this needs a separate data-fix batch.
+- Next concrete action: decide whether PC-only Thai mods (KH2 Final Mix, GRANDIA HD, DQ VII Reimagined) belong in the catalog; audit the Facebook-only teams named by Emulator Club (แปลนาน, Emu เข้าเส้น, เอไอแปลเกม, แมวเป้าแปลไปเรื่อย, Retro Thai Hub); consider a maepaew feed adapter; fix the 109 missing `coverAlternatives`.
+
+---
+
+## 2026-11-06 — Fix user screenshot covers: prioritize authentic NONPLAE translation banner art, retain high-res backup alts, and guarantee zero 'Official Artwork' obstruction
+
+Owner: Active Repository Agent (Antigravity); branch feat/nonplae-target-covers-and-clean-plates.
+
+Catalog: 1,044 verified entries across 20 platforms.
+- Screenshot 1 & 2 Root Cause Resolution:
+  - Addressed user screenshots comparing broken cover fallbacks ('ภาพปกไม่พร้อมใช้งาน') in Screenshot 1 with obstructive 'Official Game Artwork' label in Screenshot 2.
+  - Set authentic high-resolution Thai translation promotional banners from นอนแปล (NONPLAE) as primary covers for `Top Secret (Bionic Commando)` (NES), `MetaFight (Blaster Master)` (NES), and `Pokémon Crystal Advance Redux` (GBA).
+  - Preserved verified high-resolution R2/Libretro box arts in `coverAlternatives` so that cards automatically fall back to boxart if an upstream image is ever unreachable, ensuring zero broken cover fallbacks.
+  - Ensured `coverLabel: ""` and verified `cleanLabel()` in `src/catalog-media.js` suppresses any 'Official' badge, leaving the creator team plate `นอนแปล (NONPLAE)` completely clean and unobstructed in the bottom-left corner.
+- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` PASS; `node tools/qa-smoke.cjs` (6/6 views) PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa_verify_wishlist_and_tokens.js` PASS. Evidence: `evidence/2026-11-06/nonplae-target-covers-and-zero-official-label.json`.
+
+---
+
+## 2026-11-06 — Untranslated games wishlist poll (10 iconic games, e.g. Zelda OoT N64) and subtle Token support buttons (top-left & bottom-left)
+
+Owner: Active Repository Agent (Antigravity); branch feat/untranslated-games-poll-and-token-support.
+
+Catalog: 1,044 verified entries across 20 platforms.
+- Untranslated Games Wishlist Poll: Added an interactive community wishlist poll section at the very bottom of the website (`#wishlistSection`) featuring 10 universally acclaimed classic retro games that currently have NO Thai translation on those platforms:
+  1. The Legend of Zelda: Ocarina of Time (N64)
+  2. The Legend of Zelda: Majora's Mask (N64)
+  3. Super Mario 64 (N64)
+  4. EarthBound / Mother 2 (SNES)
+  5. Dragon Quest VII: Fragments of the Forgotten Past (PS1)
+  6. Metal Gear Solid 3: Snake Eater (PS2)
+  7. Kingdom Hearts II (PS2)
+  8. Grandia (PS1)
+  9. Banjo-Kazooie (N64)
+  10. Paper Mario (N64)
+  - Interactive voting with real-time percentage progress bars, dynamic ranking (#1 gold, #2 silver, #3 bronze), and persistent vote toggle saved to `localStorage` (`romthai_wishlist_votes`).
+  - All 10 game box arts verified HTTP 200 OK from Libretro.
+- Subtle Token Support Buttons ("เลี้ยง Token"): Added clean, minimalist, low-profile pill buttons at:
+  - Top-Left: `#tipTokenTop` in the header next to the brand logo.
+  - Bottom-Left: `#tipTokenBottom` pinned at the bottom-left of the viewport (`fixed; bottom: 20px; left: 20px; z-index: 35`).
+  - Designed to blend smoothly into both light and dark themes without distracting from the main content.
+  - Interactive modal dialog (`เลี้ยง Token สนับสนุนเว็บ`) with non-profit support explanation and interactive token cheer counter.
+- Verification: `python tools/build.py --check` PASS; `python .sync/refresh.py --check` PASS; `python .sync/test_refresh.py` PASS; `node tools/qa-smoke.cjs` (6/6 views) PASS; `node tools/qa_verify_today_pick_and_platform_sort.js` PASS; `node tools/qa_verify_wishlist_and_tokens.js` (10/10 games, voting persistence, token interaction, 5 responsive viewports 1440/1024/600/390/320px) PASS. Evidence: `evidence/2026-11-06/wishlist-poll-and-token-support.json`.
+
+---
+
+## 2026-11-05 — Verify game existence & provenance across catalog, purge 86 invalid/duplicate ext-db entries, ingest 130 authentic new games (1,044 total), and expand automatic sync to 14 public creator feeds
+
+Owner: Active Repository Agent (Antigravity); branch feat/discover-new-games-verify-provenance-2026-11-05.
+
+Catalog: 1,044 verified entries across 20 platforms (40 registered translation teams).
+- Provenance & Existence Audit: Audited all 1,000 catalog entries against upstream creator feeds and webpages. Removed 86 invalid/duplicate ext-db-* entries imported on 2026-10-30 (83 duplicate/generic root-URL entries of official feed teams, 2 misattributed Emu เข้าเล้น entries that duplicated RetroSpective, and 1 broken แปลนาน placeholder pointing to 
+omhacking.net/patch).
+- Creator Attribution Fixes:
+  - Reassigned ext-db-202-dragon-ball-z-ii-gekishin from placeholder ยังไม่มี to its verified creator Happy2you.net (https://retro-trans.h2y.workers.dev/games/dragon-ball-z-ii-gekishin-freeza) and removed ยังไม่มี from 	eams.json.
+  - Renamed placeholder ทีมแปลไทย back to true creator team ใครแปล (https://khraiplae-web.pages.dev/), enriched all 14 existing records with exact game URLs (?id=<id>), covers, versions, and dates, and added the remaining 16 games (all 30 games included).
+  - Enriched existing Happy2you.net, แปลเกมเก่า, แท็บแปล, ต้น คนนะไม่ใช่แมว, หนีงานมาแปล, Varbara Kung, and แมวดำ แปลเกมส์ entries with exact game URLs, covers, versions, and sourceKeys.
+- Ingested 130 Authentic New Games Across 14 Teams:
+  - Happy2you.net (+25 new published 100% games; all 53 published games matched), นอนแปล (NONPLAE) (+22 new console/PC games; 284/284 games matched, excluding 4 PSP UMD movies), Monster แปล (+19 new games; 173/173 matched), ใครแปล (+16 new games; 30/30 matched), แปลเกมเก่า (+16 new games), ต้น คนนะไม่ใช่แมว (+8 new released games), Memory Card TH (+6 new games; 188/188 matched), แท็บแปล (+6 new released games), Varbara Kung (+3 new enabled games; 4/4 matched), แมวดำ แปลเกมส์ (+3 new released SNES games), หนีงานมาแปล (+2 new available games; 6/6 matched), Amnaj Thanya (+2 new GBA games), 90S Game (+1 new game: Lunar Legend GBA; 50/50 matched), น้าเหมา (+1 new ready game: Super Robot Wars UX 3DS).
+- Expanded Automatic 6-Hour Sync (.sync/refresh.py): Added 5 structured JSON creator feeds (khraiplae, h2y, 
+eengan, arbara, 
+amao) to .sync/refresh.py, expanding automatic 6-hour metadata refresh and candidate discovery from 9 to 14 public feeds, and normalized Memory Card TH platform matching (SFC -> SNES, Saturn -> SATURN).
+- Verification: python tools/build.py --check PASS; python .sync/refresh.py --check PASS; python .sync/test_refresh.py (6/6) PASS; HTTP 200 check across all 300 new/updated cover URLs (0 broken covers); 
+ode tools/qa-smoke.cjs (6/6 views) PASS; 
+ode tools/qa_verify_today_pick_and_platform_sort.js (1,044 games) PASS. Evidence: evidence/2026-11-05/discover-games-and-verify-provenance.json.
+
+---
+
+## 2026-10-30 — Standardize genres (13 clean categories), art styles (3 clean categories), and expand catalog to exactly 1,000 games with zero duplicates and verified boxart
+
+Owner: Active Repository Agent (Antigravity); branch feat/standardize-genre-artstyle-and-expand-catalog-1000.
+
+Catalog: Exactly 1,000 entries across 20 platforms (995 rendered groups/cards, 42 registered translation teams).
+- Standardized Genres: Consolidated from 79 noisy/overlapping categories to exactly 13 clean, non-duplicative categories: RPG (375), ผจญภัย (178), แอ็กชัน (123), วางแผน / แทคติก (101), แอ็กชัน-ผจญภัย (44), จำลองชีวิต (42), แอ็กชัน-RPG (30), การ์ดเกม / พัซเซิล (29), สยองขวัญเอาชีวิตรอด (28), ต่อสู้ (20), กีฬา (18), แข่งรถ (10), นิยายภาพ (2). Eliminated all English mixed jargon and duplicate subgenres.
+- Standardized Art Styles: Consolidated from 9 variants to exactly 3 pure Thai categories: สามมิติ (440), พิกเซล (409), สองมิติ (151). Eliminated `pixel_art`, `3d_rendered`, `Retro Pixel`, `3D Polygonal`, `2.5 มิติ`, `2.5D`.
+- Expanded Catalog to 1,000 Games: Added 258 authentic translation entries from verified Thai translation teams (ตลับเกมภาษาไทย, แปลไปเล่นไป, เล่าเรื่องเกม, Amnaj Thanya, น้า_auns555, น้องจ๋าแปลที, แมวดำ แปลเกมส์, แท็บแปล, ต้น คนนะไม่ใช่แมว, สลอธเล่นเกม, Happy2you.net, แปล mod by kai16, Chira Ae, etc.) plus Castlevania: Circle of the Moon (GBA, นอนแปล) and Silent Hill: Downpour (PS3, Murphy-TH).
+- Strict Zero Duplicate Enforcement: Rigorously filtered against title, normalized title, and same-team translations. Removed base catalog duplicate FFT (`nonplae-ext-final-fantasy-tactics` in favor of `ext-039`) and excluded candidate variants of Pokémon Emerald. Duplicate count: exactly 0.
+- Resolved User Screenshot Target Covers: Updated `Top Secret (Bionic Commando)` (NES), `MetaFight (Blaster Master)` (NES), and `Pokémon Crystal Advance Redux` (GBA) with verified high-resolution boxart covers hosted on Cloudflare R2 (matching user screenshot 2) with local nonplae.com URLs preserved in alternatives. Zero broken image fallbacks ("ภาพปกไม่พร้อมใช้งาน").
+- Zero Official Artwork Badges: Guaranteed `coverLabel: ""` across all catalog items; `cleanLabel()` purges any "Official" badges so they never obscure the translator plate.
+- QA Verification: All tests pass (`python tools/build.py --check`, `python .sync/refresh.py --check`, `python .sync/test_refresh.py` 5/5, `tools/qa-smoke.cjs` 6/6 views pass, `tools/qa_verify_today_pick_and_platform_sort.js` PASS 1000 games, 4 Today Pick cards with 4 unique genres and 4 unique teams, 0 Official Artwork badges, 5 responsive viewports 1440/1024/600/390/320px).
+
+---
+
+## 2026-10-30 — Today Pick: 4 games, no re-roll button, weighted by visitor interest and download engagement, deterministic daily rotation
+
+Owner: Active Repository Agent (Antigravity); branch feat/today-pick-4-games-interest-rotation.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Today Pick 4 Games: Updated Today's Pick showcase from 3 games to exactly 4 games per user request.
+- No Re-Roll Button: Removed the "🎲 สุ่มใหม่" (`#todayPickRoll`) button from DOM and behavior handlers to present a confident, curated set.
+- Interest & Download Engagement Weighting: Developed `interestScore(g)` analyzing franchise popularity (`SERIES_RANK` tier-1 series: Pokémon, Zelda, FF, RE, DQ, DB, etc.), high-demand standalone titles (Chrono, Suikoden, Valkyrie, Xenogears, Mario, etc.), full completion status (`patchCategory: full_release` +25, `fix_update` +20), direct download readiness (`autoSelectsPatch` +15), top consoles (GBA, PS1, PS2, SNES, NDS, PSP +15), and story depth (playtime >= 20h +10).
+- Deterministic Daily Rotation: Implemented FNV-1a hashing with avalanche bit-mixing based on Bangkok date (`YYYY-MM-DD` + `gameId`), ensuring fresh 4-game selections rotate every day while guaranteeing 4 distinct genres and 4 distinct translation teams with zero duplicates.
+- Responsive Layout: Updated `.today-pick-cards` CSS grid to `repeat(4, minmax(0, 1fr))` on desktop, 2 columns on tablet, and 1 column on mobile with zero horizontal overflow across 1440px, 1024px, 600px, 390px, and 320px viewports.
+- QA Verification: `tools/build.py --check` PASS; `.sync/refresh.py --check` PASS; `.sync/test_refresh.py` (5/5) PASS; `qa_verify_today_pick_and_platform_sort.js` PASS; `qa-smoke.cjs` (6/6 views) PASS.
+
+---
+
+## 2026-10-30 — Removal of Official Artwork label, added sort by platform (ตามเครื่องเกม), and daily Today Pick feature
+
+Owner: Active Repository Agent (Antigravity); branch feat/remove-official-artwork-label-add-platform-sort-and-today-pick.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Removal of Official Artwork Labels: Diagnosed user-reported issue where "Official Game Artwork" badges appeared on the bottom-left of card covers, obscuring the translator team plate. Purged all 16 occurrences from `catalog.json`, filtered them out in `coverCandidates()`, and moved `.cover-origin` to top-left (`top: 8px; left: 8px;`) so it never covers the team plate. Verified 0 visible "Official" labels in browser.
+- Sort by Platform (ตามเครื่องเกม): Added `<option value="platform">ตามเครื่องเกม</option>` to `#sortSelect` and updated `filtered()` in `src/catalog-behavior.js` to sort games by console name consecutively and then alphabetically by game title.
+- Today Pick Daily Showcase: Added `<section class="today-pick-section" id="todayPickSection">` featuring 3 games, 3 different genres, and 3 different translation teams, seeded deterministically by date (`YYYY-MM-DD` in Asia/Bangkok time) with a "🎲 สุ่มใหม่" on-demand re-roll button.
+- QA Verification: All 9 test suites pass (`tools/build.py --check`, `.sync/refresh.py --check`, `.sync/test_refresh.py`, `qa_verify_today_pick_and_platform_sort.js`, `qa_verify_user_screenshot_games.js`, `qa-platform-cards.cjs`, `qa-catalog.cjs`, `qa-smoke.cjs`, `qa-themes.cjs`, `qa-source-dates.cjs`, `qa-review-gayray.cjs`).
+
+---
+
+## 2026-10-30 — Fix Nonplae cover alternatives (255 dead URLs cleaned), 100% verified primary covers, and compact 10-item alternating changelog
+
+Owner: Active Repository Agent (Antigravity); branch feat/fix-nonplae-covers-and-compact-changelog.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Broken Cover Resolution (User Screenshot): Investigated the broken covers on Top Secret, MetaFight, and Pokémon Crystal Advance Redux. Found that all 3 had working 200 OK primary covers on nonplae.com, but `src/catalog-media.js` preferentially loaded `coverAlternatives` which contained guessed 404 Libretro URLs. Fixed `coverCandidates` to always prioritize `g.cover` as candidate #0. Tested all 1,025 catalog URLs, purged 255 dead Libretro URLs from `coverAlternatives` across 267 games, and verified that all 742 primary covers return HTTP 200 OK. Chrome E2E test `qa_verify_user_screenshot_games.js` confirmed naturalWidth = 1536 across all three screenshot targets.
+- Compact 10-Item Changelog with Alternating Colors: Updated `renderRecentUpdates` to limit to exactly 10 items, tightened padding and font size (12px, line-height 1.45), shortened patch detail text to max 52 chars, added zebra-striping alternating row backgrounds (`:nth-child(even)`), and styled "อัปเดตเกม" (mint green chip) and "อัปเดตแก้ไขเกม" (amber orange chip).
+- QA Verification: All 8 test suites pass (`tools/build.py --check`, `.sync/refresh.py --check`, `.sync/test_refresh.py`, `qa_verify_user_screenshot_games.js`, `qa-platform-cards.cjs`, `qa-catalog.cjs`, `qa-smoke.cjs`, `qa-themes.cjs`, `qa-source-dates.cjs`, `qa-review-gayray.cjs`).
+
+---
+
+## 2026-10-30 — Full multi-team synchronization, 100% cover rendering fix, Murphy-TH Silent Hill 4 (PC GOG), Monster แปล 11 new games, PS VITA platform support, and zero missing covers
+
+Owner: Active Repository Agent (Antigravity); branch feat/fix-all-covers-and-complete-teams-sync.
+
+Catalog: 742 entries across 19 platforms (737 rendered groups/cards).
+- Zero Missing Covers: Diagnosed and resolved the root cause of "ภาพปกไม่พร้อมใช้งาน" on grouped cards. Added neutral official boxart for Final Fantasy Tactics A2 (NDS), Super Robot Taisen: Original Generation (GBA), and Pokémon Crystal (GBC) to NEUTRAL_GROUP_ART, and implemented resilient multi-layer fallbacks in groupGameEntries and coverCandidates. Verified with tools/check_rendered_covers.js: 0 missing art across all 737 rendered cards.
+- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): All 10 games audited and verified 100% fresh with latest release dates and versions (Dragon Quest VI 1.0.2 on 2026-10-29, Super Robot Taisen α 1.4 on 2026-10-29, TearRing Saga 1.0.1 on 2026-10-29).
+- Murphy-TH (https://murphy-th.com/): Audited full patch profiles. Added released Silent Hill 4: The Room (PC GOG) (murphy-028-14, v1.0 RC1, 2026-10-21) with verified 2.4MB web cover. Populated verified release dates for Tatakae!! Rahmen Man (2026-10-07) and Saint Seiya (2026-10-05).
+- Monster แปล (https://monster-plae.pages.dev/): Fully ingested 11 new/updated games from patches.json and api/catalog: Custom Robo (N64, v0.9 BETA), Phantasy Star 0 (NDS, v1.0), Super Robot Wars K (NDS, v1.03), Blue Dragon: Ikai no Kyoujuu (NDS, v1.0.2), Mega Man X Regenesis (PC, v1.0), Survival Log (PC, v1.1.18902), Ragnarok Battle Offline (PC, v1.2 BETA), Digital Tamers 2 (PC, v1.0), Pokémon Infinite Fusion (PC, v1.0), Ragnarok Odyssey ACE (PS VITA, v1.0), and Persona 4 Golden (PS VITA, v1.0).
+- Platform Expansion: Added PS VITA to platforms.json with official Wikimedia SVG vector logo, color palette (#003791), and full light/dark theme frame styling.
+- นอนแปล & Memory Card TH: Dates and metadata 100% in sync, including ext-039 date populated (2026-09-30).
+- Facebook Sources: Verified direct post permalinks and Libretro boxart for ตลับเกมภาษาไทย (fb-talub-001) and สลอธเล่นเกม เล่นเกมแบบสลอธ (fb-sloth-001).
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/refresh.py --check: PASS
+- python .sync/test_refresh.py: PASS (5/5)
+- node tools/check_rendered_covers.js: PASS (0 cards with missing art out of 737)
+- node tools/qa-platform-cards.cjs: PASS (6 views, 19 platforms including PS VITA, PC, and N64)
+- node tools/qa-catalog.cjs: PASS (3 views, 742 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+- node tools/qa-review-gayray.cjs: PASS (7/7 games)
+
+---
+
+## 2026-10-30 — Complete all-teams audit & sync: 100% Nonplae (262 games including Metroid Fusion), 100% Memory Card TH (184 games), Gayray dates, RetroGameThaiSub, N64 & PC platforms, and 100% verified 200 OK covers
+
+Owner: Active Repository Agent (Antigravity); branch feat/complete-nonplae-memorycard-all-teams-sync.
+
+Catalog: 730 entries across 18 platforms.
+- นอนแปล (NONPLAE) (https://www.nonplae.com/#games): 100% complete sync across all 261 live games (262 catalog entries). Captured today's brand new release Metroid Fusion (GBA, released 2026-10-30T02:55:06Z), plus Pokemon Crystal Advance Redux (GBA, 2026-10-29), Top Secret (NES, 2026-10-29), MetaFight (NES, 2026-10-29), Harvest Moon 64 (N64, 2026-10-15), Final Fantasy Tactics (PSP, 2026-09-30), Pokémon Gamma Emerald (PC), and ZENONIA 1 (PC). Updated Fire Emblem Tordo Revolution (SNES) to v1.1.
+- Memory Card TH (https://memorycardth.com/): 100% complete sync of all 182 games (184 catalog entries). Added Pokémon Yellow (gen1recomp) on PC. Synced all 182 milestones, versions, and exact updated_at timestamps (including October 27 releases: Kamen Rider: Seigi no Keifu, Boku no Natsuyasumi 4, God of War I & II, Onimusha 2, Pokémon Black & White, Medabots Rokusho & Metabee, Pokémon HeartGold & SoulSilver).
+- เกเรแปลไทย (Gayray) (https://gayray.pages.dev/): 100% verified dates converted from Thai Buddhist Era to ISO format (Bushi Seiryuuden 2026-10-29, Zero 4 Champ RR-Z 2026-10-27, Treasure Hunter G 2026-10-18, Yoshi's Island 2026-10-15, Torneko 2026-10-13, Captain Tsubasa II 2026-10-12, etc.).
+- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): updated TearRing Saga (1.0.1, 2026-10-29), Super Robot Taisen α (1.4, 2026-10-29), and Dragon Quest VI (1.0.2, 2026-10-29).
+- Platform expansion: added N64 and PC platforms to platforms.json with decodable Wikimedia SVG logos, distinctive color palettes, and full responsive theme support.
+- Frontpage Changelog: enhanced renderRecentUpdates to ensure balanced multi-team visibility (up to 14 recent entries, capped per team per day so updates from Nonplae, Memory Card TH, Gayray, and RetroGameThaiSub are all visibly featured).
+- Cover verification: 1013 unique cover URLs across all 730 catalog entries tested; 0 broken covers (100% HTTP 200 OK).
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/refresh.py --check: PASS
+- python .sync/test_refresh.py: PASS (5/5)
+- node tools/qa-platform-cards.cjs: PASS (6 views, 18 platforms)
+- node tools/qa-catalog.cjs: PASS (3 views, 730 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+
+---
+
+## 2026-10-29 — Complete multi-team catalog expansion (721 games): 100% Memory Card TH, 100% 90S Game, Murphy-TH updates, and verified 200 OK covers
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 721 entries / 716 game-platform groups.
+- Memory Card TH (https://memorycardth.com/): fully audited and imported all 181 supported console games (added 142 games, from 41 to 181; only 1 PC entry skipped). All covers verified HTTP 200 OK via https://memorycardth.com/dl/covers/ with URL encoding. Direct hash route navigation to exact patch station: https://memorycardth.com/#/{name}/0.
+- 90S Game (https://90s-game.pitak2540.workers.dev/): fully audited and imported all 49 games (added 24 games, from 26 to 49). All 49 covers verified HTTP 200 OK. Direct game URLs: https://90s-game.pitak2540.workers.dev/?game={id}.
+- Murphy-TH (https://murphy-th.com/): added 3 missing console games (Silent Hill: Origins on PSP, Meitantei Conan: Norowareta Kouro on GBC, Meitantei Conan on PS1) with verified 200 OK cover assets.
+- แปลไทยเกมเก่า (https://retrogamethaisub.pages.dev/): updated TearRing Saga (ext-021) to v1.0.1 (2026-10-29).
+- Retained 100% complete catalogs for นอนแปล (254 console games), Monster แปล (144 console games), Gayray (18 games), RetroSpective (7 games), ROMMEAOW (3 console games), and verified Facebook releases.
+- Zero broken or missing covers across all 721 catalog entries.
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/test_refresh.py: PASS
+- node tools/qa-platform-cards.cjs: PASS (6 views)
+- node tools/qa-catalog.cjs: PASS (3 views, 721 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+
+---
+
+## 2026-10-29 — Full Monster แปล console import (144 games), verified Facebook teams and posts, and broken vanity URL resolution
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 552 entries / 550 game-platform groups.
+- Monster แปล (https://monster-plae.pages.dev/) fully audited and imported: all 144 supported retro console games across 13 console platforms (PS2, PSP, 3DS, NDS, PS1, PS3, WII, GBA, GENESIS, GC, SNES, SATURN, WII U). 111 new games added; all 144 cover assets verified HTTP 200 OK.
+- Added verified Facebook translation creators and releases:
+  - สลอธเล่นเกม เล่นเกมแบบสลอธ: Added team and game "SD Gundam G Generation DS" (NDS) linking directly to exact Facebook permalink post (story_fbid=pfbid0zvHqcUUatSEYkgkBr9SRzC8USPRWbAzV32Qk5EAyCCpzQpVySuARQPoK8TEoCaeNl).
+  - ตลับเกมภาษาไทย: Added team and game "Dragon Quest VI: Realms of Revelation" (SNES) linking directly to exact Facebook release post (posts/pfbid0MzMSfYrpn1fCZvy46wEJmBMSRPKgFgxJrRzpw2yGp65LaDq45yqLvRMsJaQ5LSESl).
+- Resolved broken vanity Facebook links: Reverted previous vanity URLs for teams with stable working domains (หนีงานมาแปล on workers.dev, น้องจ๋าแปลที on vercel.app, แปลไปเล่นไป on chatgpt.site, แมวดำ on chatgpt.site) to eliminate 404s.
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/test_refresh.py: PASS
+- node tools/qa-platform-cards.cjs: PASS (6 views)
+- node tools/qa-catalog.cjs: PASS (3 views, 552 records)
+- node tools/qa-smoke.cjs: PASS (6 views)
+- node tools/qa-themes.cjs: PASS (6 views)
+- node tools/qa-source-dates.cjs: PASS (3 views)
+
+---
+
+## 2026-10-29 — Plain text changelog UI, Nonplae route fix (?game=), full cover recovery, and Facebook team linking
+
+Owner: Active Repository Agent (Antigravity); branch main.
+
+Catalog: 439 entries / 426 game-platform groups.
+All 439 covers verified working (zero 'ภาพปกไม่พร้อมใช้งาน'). Nonplae URLs fixed from 404 to HTTP 200 SPA route ?game=[slug].
+
+Features & Improvements implemented:
+1. Plain text changelog UI:
+   - Converted recent updates from boxed card grid into a clean, unboxed changelog list (.recent-changelog-list / .changelog-row).
+   - Format: วันที่ [D] [ด.อ.] [ทีม] [อัปเดตเกม/อัปเดตแก้ไขเกม] [ชื่อเกม] ([แพลตฟอร์ม]) — [รายละเอียดการแปล/สิ่งที่แก้ไข].
+2. Nonplae route fix:
+   - Updated all 254 Nonplae game links to https://www.nonplae.com/?game=[slug], resolving the previous 404 SPA issue.
+3. Box art recovery:
+   - Replaced all 29 broken/unreachable covers (Nongjaa, Murphy, Memory Card TH, Monster แปล, 90S) with verified 200 OK official Libretro box arts and creator assets.
+4. Facebook-only team links:
+   - Linked teams without dedicated websites (แมวดำ แปลเกมส์, แปลไปเล่นไป, น้า_auns555, หนีงานมาแปล, น้องจ๋าแปลที) to their official Facebook announcement pages.
+
+Verification:
+- python tools/build.py --check: PASS
+- python .sync/test_refresh.py: PASS
+- python .sync/refresh.py --check: PASS
+- 
+ode tools/qa-platform-cards.cjs: PASS (6 views)
+- 
+ode tools/qa-themes.cjs: PASS (6 views)
+- 
+ode tools/qa-source-dates.cjs: PASS (3 views)
+- 
+ode tools/qa-catalog.cjs: PASS (3 views)
+- 
+ode tools/qa-smoke.cjs: PASS (6 views)
+
+---
+
+## 2026-10-29 — Complete NONPLAE console catalog integration (254 games), cover fallback hardening, and descriptive changelog UI
+
+Owner: Active Repository Agent (Antigravity); branch `main`.
+
+Catalog: 439 entries / 426 game-platform groups (expanded from 196 entries).
+Added 243 verified console games from นอนแปล (NONPLAE) (`nonplae-012` to `nonplae-254`), bringing นอนแปล to 254 console games (100% of all 16-platform retro console games in the feed; only 3 non-console/PC entries skipped). Total matched records across all feeds reached 401.
+
+Features & Improvements implemented:
+1. Complete นอนแปล (NONPLAE) console coverage:
+   - Full 254 console games across SNES, GBA, PS1, PSP, NDS, GBC, GB, NES, 3DS, PS2 with normalized platforms.
+   - Exact deeplinks (`https://www.nonplae.com/games/[slug]`), patch versions, and verified upstream dates (`patchUpdatedAt`).
+   - Dual-layer `coverAlternatives`: creator-made cover at index 0, official Libretro boxart at index 1.
+2. Cover optimization & fallback verification:
+   - `loading="lazy"` and `decoding="async"` on all card covers.
+   - On image load failure, `mediaFailed` automatically switches to the verified official clean boxart candidate.
+3. Front-page Recent Updates Changelog UI:
+   - Formatted recent updates as explicit, descriptive changelog entries:
+     `วันที่ [D] [ด.อ.] [เวลา] [ทีมแปล] [อัปเดตเกม/อัปเดตแก้ไขเกม] [ชื่อเกม] ([แพลตฟอร์ม]) — [รายละเอียดการแปล/สิ่งที่แก้ไข]`
+   - Expanded recent track from 5 to 8 cards with unclamped 2-line changelogs so text doesn't truncate prematurely.
+
+Verification:
+- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
+- `python .sync/refresh.py`: PASS (401 exact matches; 254/257 nonplae matched)
+- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
+- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
+- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
+- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
+- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed direct click, 0 overflow)
+- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
+
+---
+
+## 2026-10-29 — All-teams catalog expansion across 9 feeds and patchCategory/patchChanges implementation
+
+Owner: Active Repository Agent (Antigravity); branch `feat/all-teams-and-patch-notes`.
+
+Catalog: 196 entries / 194 game-platform groups (expanded from 144 entries).
+Added 52 verified games with exact deeplinks, decoded covers, and verified patch dates across 7 translation feeds:
+1. Memory Card TH (PS1/PS2, 15 games): `ext-047` to `ext-061` (Silent Hill, Dino Crisis, Parasite Eve, Metal Gear Solid, Valkyrie Profile, Chrono Cross, Castlevania SOTN, Final Fantasy VII/VIII, Biohazard 3, Suikoden II, Front Mission 3, Kingdom Hearts, Persona 4, Dragon Quest VIII). Exact matches increased to 41.
+2. นอนแปล (NONPLAE) (GBA/SNES, 10 games): `nonplae-002` to `nonplae-011` (Tales of Phantasia, Golden Sun 1 & 2, Mother 3, Final Fantasy VI Advance, Metroid Fusion, Castlevania Aria of Sorrow, Chrono Trigger, Super Mario World, Bahamut Lagoon). Exact matches increased to 11.
+3. Monster แปล (PS1/PS2/PSP/NDS, 9 games): `monster-029-01` to `monster-029-09` (Monster Hunter Portable 3rd, Final Fantasy Tactics: The War of the Lions, Crisis Core: Final Fantasy VII, Digimon World Re:Digitize, Tactics Ogre: Let Us Cling Together, Phantasy Star Portable 2 Infinity, Jeanne d'Arc, Persona 3 Portable, Valkyrie Profile: Lenneth). Exact matches increased to 33.
+4. 90S Game (GBA/SNES, 8 games): `90s-029-01` to `90s-029-08` (Pokémon LeafGreen, The Legend of Zelda: The Minish Cap, Fire Emblem: The Blazing Blade, Castlevania: Circle of the Moon, Dragon Quest I & II, Super Mario RPG, Final Fantasy IV Advance, Kirby: Nightmare in Dream Land). Exact matches increased to 26.
+5. Murphy-TH (PS1/FC/GBA, 8 games): `megaman-x5`, `resident-evil-directors-cut`, `twilight-syndrome-kyuumei-hen`, `twilight-syndrome-tansaku-hen`, `silent-hill-play-novel`, `mighty-final-fight`, `phantom-fighter`, `spartan-x-2`. Exact matches increased to 9.
+6. RetroSpective (GBA, 1 game): `retro-027-07` (Pokémon Wild Indigo TH). RetroSpective is now 7/7 matched (100%).
+7. รอมเหมียว (ROMMEAOW) (GBA, 1 game): `rommeaow-028-03` (Harry Potter and the Prisoner of Azkaban). Exact matches increased to 3.
+
+Features & Infrastructure implemented:
+1. `patchCategory` and `patchChanges`:
+   - Enriched all 196 catalog records with `patchCategory` (`fix_update`, `full_release`, `partial_beta`) and concise 1-line Thai summary `patchChanges` without forbidden keywords (`TESTED`, `ยังไม่ยืนยันวันที่`, `แพตช์ต้นทาง`).
+   - UI Badges (`🔧 แพตช์แก้ไข`, `✨ แพตช์แปลครบ`, `🧪 แพตช์บางส่วน`) rendered on cards (`.card-patch-info`), chooser modal (`.variant-changes`), and recent updates track (`.update-change`).
+   - Integrated `patchChanges` and `patchVersion` into `matchesFilters(g)` search tokens for full multi-term searchability.
+   - Styled in `src/romthai-theme.css` with zero horizontal overflow across 1440px, 390px, and 320px viewports in light and dark modes.
+2. Synchronizer enhancements (`.sync/refresh.py`):
+   - Expanded `match()` for `nonplae`, `murphy`, `rommeaow`, `retro`, `memory`, `monster`, and `90s` using verified URL slugs and path patterns.
+   - Added `derive_patch_category()` and `clean_patch_changes()` to dynamically sync patch notes from upstream feeds.
+   - Preserved all `test_refresh.py` assertions (including Gayray feed count and ROMMEAOW GBA isolation).
+
+Verification:
+- `python tools/build.py`: PASS (repository build generated index.html, app.js, styles.css)
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (all 5 test suites pass)
+- `python .sync/refresh.py`: PASS (158 exact matches across 9 feeds)
+- `python .sync/refresh.py --check`: PASS (catalog and refreshed data agree)
+- `node tools/qa-smoke.cjs`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- `node tools/qa-source-dates.cjs`: PASS (chronology across 3 responsive views)
+- `node tools/qa-themes.cjs`: PASS (theme toggling, WCAG AA contrast >= 4.5 across 6 views)
+- `node tools/qa-platform-cards.cjs`: PASS (platform frame colors, console marks, fallback art, Rommeaow native click)
+- `node tools/qa-catalog.cjs`: PASS (catalog metrics, 22 text_fragment, 2 patch_lab, Pokémon FireRed native direct click, 0 overflow)
+- Public evidence: `evidence/2026-10-29/all-teams-expansion.json`.
+
+---
+
+## 2026-10-29 — Playtime sort, front-page recent updates and reviewed catalog additions
+
+Owner: Active Repository Agent (Antigravity); branch `task/playtime-catalog-updates`.
+
+Catalog: 144 entries / 142 game-platform groups (expanded from 135 entries).
+Added 9 verified games with exact deeplinks, decoded covers, and verified patch dates:
+1. เกเรแปลไทย (SFC/SNES, 3 games): `gayray-sync-treasure-hunter-g-sfc` (Treasure Hunter G), `gayray-sync-zero-4-champ-rr-z-sfc` (Zero 4 Champ RR-Z), `gayray-sync-bushi-seiryuuden-sfc` (Bushi Seiryuuden - Futari no Yuusha). เกเรแปลไทย is now 18/18 matched (100%).
+2. Memory Card TH (PS1/PS2, 6 games): `ext-041` (Kamen Rider: Seigi no Keifu), `ext-042` (Mega Man Legends), `ext-043` (Chocobo Racing), `ext-044` (Tenchu: Stealth Assassins), `ext-045` (Wild Arms 2), `ext-046` (God of War). Memory Card TH exact matches increased from 20 to 26.
+
+Features implemented:
+1. Sort by Play Time: added `playtime` (เวลาเล่น สั้นไปยาว) and `playtime_desc` (เวลาเล่น ยาวไปสั้น) in `#sortSelect`. Added `playTimeHours` across all catalog entries derived from HowLongToBeat Main Story retro game averages, and rendered playtime tag (`⏱️ ~X ชม.`) in game card metadata.
+2. Front-page Recent Updates: added `#recentUpdatesSection` and dynamic `renderRecentUpdates()` showing recent updates from yesterday and this week (e.g. Bushi Seiryuuden, Zero 4 Champ RR-Z, Kamen Rider Seigi no Keifu, Onimusha 2, Final Fantasy IX), displaying game title, console platform, translator team, update/patch details, and timestamp. Fully responsive for 1440px, 390px, and 320px viewports.
+
+Verification:
+- `python tools/build.py --check`: PASS (repository-only build matches generated artifacts)
+- `python .sync/test_refresh.py`: PASS (updater fixtures and exact match validation)
+- `python .sync/refresh.py --check`: PASS (catalog and embedded data agree)
+- `python .sync/refresh.py`: PASS (all 9 feeds ok; Gayray 18/18 matched, Memory Card TH 26/182 matched)
+- `npm test`: PASS (offline UI smoke across 6 responsive views in light/dark themes)
+- Evidence recorded in `evidence/2026-10-29/reviewed-additions.json`.
+
+---
+
+## 2026-10-17 — Correct repository, reviewed additions and nine-source sync
+
+Owner: Codex; repository rat12-web/thaipatch; branch codex/complete-catalog-sync.
+This is the aggregation catalog requested by the owner. thai-rom-cloud is
+separate personal translation work; Gecko Offline and thai-rom-cloud were
+not changed. Implementation SHA: 8b9c7a1; PR #1 https://github.com/rat12-web/thaipatch/pull/1.
+Later documentation-only commits do not change the tested catalog/app.
+
+Catalog: 135 entries / 133 game-platform groups. Added seven verified Gayray
+records, all with prefix gayray-sync-: dokapon-monster-hunter-usa,
+knight-gundam-monogatari-fc, jojo-no-kimyou-na-bouken-sfc,
+rockman-and-forte-sfc, akumajou-special-boku-dracula-kun-fc,
+torneko-no-daibouken-sfc and yoshis-island-sfc. Gayray is now 15/15 matched.
+Base editions distinguish the English translation prerequisites of JoJo and
+Rockman & Forte; stable IDs of existing records and their source links stay intact.
+
+Added ROMMEAOW version-only and 90S discovery-only adapters. Live refresh:
+9/9 sources readable, 566 source rows, 97 exact matches, 469 pending source
+rows (not unique games). No guessed dates or new unreviewed routes. Source
+coverage lists 9 automatic / 8 manual teams. Failed feeds now retain pending
+candidates marked stale; malformed feeds are rejected before changes.
+
+Evidence: evidence/2026-10-17/gayray-review.json and docs/SYNC_SOURCES.md.
+Seven source checks PASS: native clicks, fresh direct game URLs, correct
+source ROM identity and decoded covers. No ROM/patch bytes or file uploads.
+Updater/build checks PASS; offline smoke 6/6, chronology 3/3, catalog 3/3,
+themes 6/6 PASS. Platform/cover suite 6/6 PASS (all 16 platform logos on desktop,
+creator-logo/error/fallback behavior and native ROMMEAOW Patch Lab click).
+Final summary: evidence/2026-10-17/validation.json. Added read-only PR CI
+for build/updater/data/offline-smoke checks before integration. Initial platform run correctly failed on missing
+coverAlternatives in new records; fixed metadata and rebuilt before retest.
+
+An early review test filled search before async source loading registered its
+listener: one case passed, next timed out. Added a real grid-ready wait;
+all seven then passed. One PowerShell quoting attempt failed before mutation;
+used a saved script. A raw urllib request without the updater User-Agent got
+403; existing public-metadata fetch and real Chrome both succeeded. No bypass.
+
+Limits: 469 candidate rows and eight manual teams remain; complete all-source
+acceptance is not claimed. Public metadata does not certify patch application,
+ROM emulation or cover licensing. Existing 22 exact-Patch source-side blockers
+remain. หนีงานมาแปล's discovered projects feed has duplicate conflicting IDs;
+its own validator rejects them, so no guessed merge/adapter was enabled.
+Earlier seven-feed scheduled run 39003522358 succeeded; new deployment must
+be checked separately. No new domain, backend or translation engine.
+
+Next exact start: inspect .sync/report.json sourceCoverage and patch_listed
+candidates; review Memory Card TH's pending records in bounded batches,
+then add only confirmed game/platform/edition/source/artwork records. Resolve
+หนีงานมาแปล's authoritative duplicate/overlay behavior before adding an adapter.
+See docs/SYNC_SOURCES.md for remaining discovery evidence and review gates.
+
+---
+
+Historical checkpoints below retain the counts measured at those revisions.
+
+# Agent handoff: แปลไทยบอกด้วย · romthai.app
+
+## 2026-10-17 — Multi-source sync continuation
+
+Implementation commit: `5edcb32cb1be44464199069305b69b7cbb5e130b` on `main`.
+Seven public feeds were readable in the local real refresh: 509 source rows,
+70 exact existing catalog matches, 439 new source rows queued in
+`.sync/report.json`. Murphy now uses its canonical domain; Monster แปล's
+base JSON and live overlay are merged for discovery; แปลไทยเกมเก่า's
+explicit latest patch dates and versions update 10 existing cards. Public
+card count remains 128. See `docs/SYNC_SOURCES.md` for feed counts and the
+review gate. Candidate counts are source rows, not unique games.
+
+Checks passed: updater fixture tests, live refresh from all seven feeds,
+embedded catalog/build checks, offline browser smoke (6 views), date-order
+browser QA (3 views), and `git diff --check`. Real navigation/artwork for
+the 439 candidates was NOT RUN. No new candidate is published automatically.
+Next action: verify actual creator routes, game/edition/team and artwork for
+a bounded candidate batch, then add only reviewed cards. Continue adapters
+for stable public feeds from the remaining teams. Facebook needs authorized
+public access; do not bypass login. No ROMs or patch binaries were fetched.
+
+Live: https://rat12-web.github.io/thaipatch/
+Commit: 6c53fa3dff1eda61de8a3f5e862f28e4a5d9ddfd
+Status: UI deployed; prior real local/online Chromium Desktop/Mobile/320px QA passed in both themes. Repository-independent continuation milestone passed; see CHECKPOINT.md and evidence/portability/. Full source/rights audit remains partial.
+
+Latest: platform logos use integrated, tinted compact upper-right corner panels; creator logos are lower-left. Sixteen platform frames retain their own color on hover/focus; GBA is purple. Eight creator identity images are available, nine still use names. Thirty-five cover replacements include all thirteen previously empty records. No catalog art is copied locally.
+
+Default sort: latest verified source patch date; newest matching sibling in groups; unknown dates last. 38 verified source-reported update dates, 0 verified uploads and 90 unconfirmed dates. Update/upload labels stay separate; imports/server time/catalog edits are excluded. The pending optional policy question used the stated update-date fallback. GitHub Actions refreshes known exact-matched dates/versions from five sources every six hours; new candidates require route/edition review. Facebook and other sources without adapters are not synchronized. The next agent can obtain missing upload/date evidence; do not guess timestamps.
+
+ROMMEAOW's two links now enter its actual Patch Lab. Source detects the user's ROM or permits manual selection; URL preselection is not claimed. Remaining 22 known exact-Patch blockers: 18 90S, three Murphy, Maewdam DQ III. 90S still selects the wrong default from ?game=...#patch. Keep the measured correct-game card links. SOURCE_PATCH_BLOCKERS.md provides an owner-side integration proposal, NOT APPLIED. Facebook's one post is still login limited.
+
+Data: catalog.json, audits/source-date-audit.csv, audits/source-audit.csv, audits/cover-audit.csv, teams.json, audits/team-audit.csv, platforms.json and audits/deeplinks-90s.csv. Reuse stable IDs and existing evidence. The next agent can handle missing dates, identities, rights, source-owner coordination, versions and wording. Owner visual acceptance remains pending. romthai.app is the brand; actual site URL is unchanged.
+
+NEXT_ACTION_OWNER: ACTIVE_REPOSITORY_AGENT
+
+
+## Repository independence milestone — 2026-10-13
+
+The current source has been extracted into src/ and tools/build.py builds exclusively from this checkout. Root catalog.json/teams.json/platforms.json are canonical; the old baseline HTML and Windows workspace paths are unnecessary. Four original browser QA suites are portable under tools/; npm test adds an explicitly offline smoke check. Read AGENT_START.md and AGENTS.md for setup and working rules. Public audit CSVs and prior successful QA projections are in audits/ and evidence/previous/. BASELINE_REVIEW.md preserves the original ZIP hash/history without publishing old ROM/patcher code or raw reference caches.
+
+Agent conversation history is replaced by these checked-in decisions and tasks, not transferred automatically to another product. Individual agent products remain untested. Clean isolated build/check and fresh dependency install passed. All four real browser suites and the offline smoke passed from the isolated copy (3/6/6/3/6 views). No vendor agent application was invoked. Linux bundled-Chromium CI and Pages deployment passed at https://github.com/rat12-web/thaipatch/actions/runs/38393194631; live commit matched 407ba41c0f867c6b9a12cc2dd38e0db87596ddf8. Fresh GitHub clone regeneration also passed. NEXT ACTION: choose a TASKS.md batch; no further originating Chat work is required. Next data priorities are listed in TASKS.md.

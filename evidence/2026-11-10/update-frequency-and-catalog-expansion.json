@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-10",
+  "goal": "ทำให้อัพเดทบ่อยๆ และครบๆ กว่านี้หน่อย (Increase update frequency and catalog completeness)",
+  "changes": {
+    "syncFrequency": {
+      "before": "cron: '23 */6 * * *' (every 6 hours)",
+      "after": "cron: '23 * * * *' (hourly at 23 minutes past every hour)",
+      "file": ".github/workflows/pages.yml"
+    },
+    "automaticFeeds": {
+      "count": 15,
+      "newFeed": {
+        "name": "talub",
+        "team": "ตลับเกมภาษาไทย",
+        "url": "https://haasbeat.github.io/talub-game-thai/catalog.js",
+        "totalUpstream": 57,
+        "matched": 53
+      }
+    },
+    "catalogGrowth": {
+      "before": 1047,
+      "after": 1128,
+      "added": 81,
+      "newByTeam": {
+        "ตลับเกมภาษาไทย (talub)": 37,
+        "Memory Card TH (memory)": 11,
+        "Monster แปล (monster)": 11,
+        "Happy2you.net (h2y)": 10,
+        "นอนแปล (NONPLAE)": 9,
+        "90S Game": 3
+      },
+      "covers": "100% verified HTTP 200 OK",
+      "legacyCoverAlternativesResolved": 109
+    },
+    "platforms": {
+      "added": "SWITCH",
+      "logo": "Nintendo_Switch_logo.svg",
+      "frameColor": "rgb(230, 0, 18)"
+    },
+    "uiUpdates": {
+      "recentUpdatesLimit": 14,
+      "patchChangesRobustness": "String and dict handling normalized across catalog and behavior scripts"
+    }
+  },
+  "verification": {
+    "buildCheck": "PASS (python tools/build.py --check)",
+    "testRefresh": "PASS (python .sync/test_refresh.py 6/6 suites)",
+    "refreshCheck": "PASS (python .sync/refresh.py --check)",
+    "qaPlatformCards": "PASS (node tools/qa-platform-cards.cjs, 6 views, 22 platforms, light & dark)",
+    "qaSmoke": "PASS (node tools/qa-smoke.cjs, 6 views)",
+    "qaCatalog": "PASS (node tools/qa-catalog.cjs, 3 views)",
+    "qaThemes": "PASS (node tools/qa-themes.cjs, 6 views)",
+    "qaSourceDates": "PASS (node tools/qa-source-dates.cjs, 3 views)",
+    "qaTodayPickAndPlatformSort": "PASS (node tools/qa_verify_today_pick_and_platform_sort.js)",
+    "qaWishlistAndTokens": "PASS (node tools/qa_verify_wishlist_and_tokens.js)"
+  }
+}

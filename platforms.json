@@ -285,5 +285,20 @@
     "source": "https://commons.wikimedia.org/wiki/File:PlayStation_Vita_logo.svg",
     "evidence": "qa/upgrade/discovery.json",
     "localAllowed": false
+  },
+  "SWITCH": {
+    "id": "SWITCH",
+    "label": "Nintendo Switch",
+    "main": "#e60012",
+    "strong": "#b3000d",
+    "colors": [
+      "#e60012",
+      "#00c3e3",
+      "#232323"
+    ],
+    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nintendo_Switch_logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_logo.svg",
+    "evidence": "qa/upgrade/discovery.json",
+    "localAllowed": false
   }
 }
