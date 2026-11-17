@@ -36474,8 +36474,8 @@
     "canonicalGameId": "pokemon-unbound",
     "platform": "GBA",
     "baseEdition": "",
-    "patchVersion": "1.0",
-    "version": "1.0",
+    "patchVersion": "2.0",
+    "version": "2.0",
     "date": "2026-09-12",
     "status": "released",
     "description": "Pokémon Unbound v2.1.1.1 ฉบับภาษาไทยโดย Nonplae รุ่น V16 แก้ภาษาและฟอนต์เพี้ยนในหน้า Move Reminder ตอนใช้ Heart Scale เรียนท่า รวมถึงคำอธิบาย Power Swap และประโ",
@@ -36517,18 +36517,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-09-12T15:26:26.123Z",
+    "sourceUpdatedAt": "2026-11-17T13:55:21.146Z",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-09-12T15:26:26.123Z",
+      "value": "2026-11-17T13:55:21.146Z",
       "precision": "timestamp",
-      "rawValue": "2026-09-12T15:26:26.123Z",
+      "rawValue": "2026-11-17T13:55:21.146Z",
       "source": "https://www.nonplae.com/api/patch-games",
       "field": "patchUpdatedAt",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T09:56:23.510253Z",
-      "sourceVersion": "1.0",
+      "checkedAt": "2026-11-17T21:06:33.703972+00:00",
+      "sourceVersion": "2.0",
       "uploadDateVerified": false
     },
     "coverAlternatives": [
@@ -36541,7 +36541,7 @@
     ],
     "playTimeHours": 38,
     "patchCategory": "fix_update",
-    "patchChanges": "Pokémon Unbound v2.1.1.1 ฉบับภาษาไทยโดย Nonplae รุ่น V16 แก้ภาษาและฟอนต์เพี้ยนในหน้า Move Reminder ตอนใช้ Heart Sca",
+    "patchChanges": "Pokémon Unbound ภาษาไทยนอนแปล เลือก V1.0 รุ่นเดิมที่มีผู้เล่นเล่นจบแล้ว หรือ V2.0 ปรับปรุงคำแปล ฟอนต์...",
     "sourceKey": "pokemon-unbound"
   },
   {
