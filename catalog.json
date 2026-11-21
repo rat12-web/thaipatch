@@ -82142,10 +82142,10 @@
     "teamId": "team-007421f0cdaa",
     "platform": "GBA",
     "baseEdition": null,
-    "patchVersion": "v1.0",
-    "version": "v1.0",
+    "patchVersion": "v1.1",
+    "version": "v1.1",
     "date": "2026-11-04",
-    "sourceUpdatedAt": "2026-11-04",
+    "sourceUpdatedAt": "2026-11-21",
     "status": "TESTED",
     "description": "เกมส์ : Naruto RPG - Uketsugareshi Hi no Ishi เครื่อง : Gameboy Advance ชื่อเกมส์ไทยๆ : นารูโตะ อาร์พีจี - ผู้สืบทอดเจตจำนงแห่งไฟ",
     "genre": "RPG",
@@ -82172,13 +82172,15 @@
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-11-04",
-      "rawValue": "2026-11-04",
+      "value": "2026-11-21",
+      "rawValue": "2026-11-21 14:54:51",
       "precision": "day",
-      "source": "https://retro-trans.h2y.workers.dev/games/naruto-rpg-uketsugareshi-hi-no-ishi",
+      "source": "https://retro-trans.h2y.workers.dev/api/games",
       "uploadDateVerified": false,
-      "checkedAt": "2026-11-05T10:15:00+07:00",
-      "evidence": "evidence/2026-11-05/discover-games-and-verify-provenance.json"
+      "checkedAt": "2026-11-21T19:31:16.269064+00:00",
+      "evidence": ".sync/report.json",
+      "field": "updated_at",
+      "sourceVersion": "v1.1"
     },
     "cover": "https://retro-trans.h2y.workers.dev/api/files/images/naruto-rpg-uketsugareshi-hi-no-ishi/1793624895223-709cafef-narutorpg_h2y_cover.png",
     "coverSource": "https://retro-trans.h2y.workers.dev/api/files/images/naruto-rpg-uketsugareshi-hi-no-ishi/1793624895223-709cafef-narutorpg_h2y_cover.png",
@@ -82194,8 +82196,8 @@
     "coverAlternatives": [
       "https://retro-trans.h2y.workers.dev/api/files/images/naruto-rpg-uketsugareshi-hi-no-ishi/1793624895223-709cafef-narutorpg_h2y_cover.png"
     ],
-    "patchCategory": "full_release",
-    "patchChanges": "เกมส์ : Naruto RPG - Uketsugareshi Hi no Ishi เครื่อง : Gameboy Advance ชื่อเกมส์ไทยๆ : นารูโตะ อาร์",
+    "patchCategory": "fix_update",
+    "patchChanges": "เกมส์ : Naruto RPG - Uketsugareshi Hi no Ishi เครื่อง : Gameboy Advance ชื่อเกมส์ไทยๆ : นารูโตะ อาร์พี...",
     "sourceKey": "naruto-rpg-uketsugareshi-hi-no-ishi"
   },
   {
