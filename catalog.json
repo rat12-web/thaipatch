@@ -13847,8 +13847,8 @@
     "canonicalGameId": "boku-no-natsuyasumi-4",
     "platform": "PSP",
     "baseEdition": "",
-    "patchVersion": "V1.1",
-    "version": "V1.1",
+    "patchVersion": "V1.2",
+    "version": "V1.2",
     "date": "2026-10-27",
     "status": "released",
     "description": "วันหยุดฤดูร้อนของผม ภาค 4 สัมผัสชีวิตวัยเด็กริมทะเลเซโตะ แปลบทพูด เมนู และบันทึกประจำวันเป็นไทย",
@@ -13890,18 +13890,18 @@
       "rightsEvidence": null
     },
     "sourceUploadedAt": null,
-    "sourceUpdatedAt": "2026-10-27",
+    "sourceUpdatedAt": "2026-11-25",
     "sourceDateAudit": {
       "state": "verified_source_reported",
       "kind": "patch_updated",
-      "value": "2026-10-27",
+      "value": "2026-11-25",
       "precision": "day",
-      "rawValue": "2026-10-27",
+      "rawValue": "2026-11-25",
       "source": "https://memorycardth.com/dl/_patch/site.json",
       "field": "patch_updated",
       "evidence": ".sync/report.json",
-      "checkedAt": "2026-10-30T06:03:26.167847+00:00",
-      "sourceVersion": "V1.1",
+      "checkedAt": "2026-11-24T22:37:38.299318+00:00",
+      "sourceVersion": "V1.2",
       "artifactReference": "/dl/PSP/BokuNatsu4/BokuNatsu4_Thai.zip",
       "uploadDateVerified": false
     },
@@ -13916,7 +13916,7 @@
     ],
     "playTimeHours": 18,
     "patchCategory": "fix_update",
-    "patchChanges": "V1.1 (27 ต.ค.) แก้เมนูร้านลุงข้างบ้านซ้อนทับ · พี่นักวาด",
+    "patchChanges": "V1.2 (25 พ.ย.) แก้หน้าต่างตัวเลือกทั้งเกม มือชี้ตรงตัวเลือก · ใช่/ไม่ใช่ เป็นไทย",
     "sourceKey": "Boku no Natsuyasumi 4 (ぼくのなつやすみ4 瀬戸内少年探偵団)"
   },
   {
